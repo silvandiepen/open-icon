@@ -10,6 +10,9 @@
       <h2>Through accessible icons, we're bridging cultures with a universal visual language, inspiring boundless creativity worldwide.</h2>
 
       <hr />
+      <div class="random-icon">
+        <Icon :name="randomIcon"></Icon>
+      </div>
       <div :class="bemm('numbers')">
         <div
           :class="bemm('entry')"
@@ -26,9 +29,26 @@
 
 <script lang="ts" setup>
 import { useBemm } from "bemm";
-import { useLocale } from "@sil/locale";
-
+import { useLocale } from "~/composables/locales";
 import { Icons } from "../Icon/types";
+
+
+const randomIcon = ref();
+const getRandomIcon = ()=>{
+  const keys = Object.values(Icons)
+  const randomIndex = Math.floor(Math.random() * keys.length)
+  return keys[randomIndex];
+}
+
+onMounted(()=>{
+
+  setInterval(()=>{
+    randomIcon.value = getRandomIcon()
+  },3000)
+
+})
+
+
 
 const numbers = computed(() => {
   return [
@@ -49,8 +69,20 @@ const { t } = useLocale();
 </script>
 
 <style lang="scss">
+
+.random-icon{
+  position: absolute; right: 0; top: 50%; 
+  transform: translate(25%,-50%);
+  font-size:50vmin;
+  background-color: var(--foreground);
+  color: var(--background);
+  border-radius: .1em;
+  width: 1em; height: 1em;
+}
+
 .intro {
   background-color: var(--primary);
+  color: var(--primary-text);
   hr {
     background-color: var(--primary-text);
   }

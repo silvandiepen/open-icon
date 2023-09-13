@@ -4,16 +4,16 @@ Explore our evolving world of icons, dedicated to universal accessibility and cr
 
 Discover icons in progress and upcoming additions. For ways to contribute and our design guidelines, please visit our [contribute](/contribute) and [Guidelines](/guidelines) pages. Our commitment to quality and accessibility fosters a connected visual language for all. Join us in shaping the icons of tomorrow.
 
---- 
+---
 
 ### Tasks
 
-1. 
+1.
     1. **Design:**
         - [ ] Create missing icons from the list below.
         - [ ] Design a consistent style guide for icons.
         - [ ] Review and refine existing icons for consistency.
-
+        
     2. **Development:**
         - [ ] Set up a workflow to generate icons efficiently from a single source.
         - [ ] Create a user-friendly web interface for browsing and downloading icons.

@@ -33,7 +33,7 @@
     </transition-group>
   </div>
   <div :class="[bemm('content'),'content']">
-    <ContentDoc />
+    <ContentDoc path="/collection-description"/>
   </div>
       
 </template>
@@ -66,11 +66,7 @@ const filteredIcons = computed(() => {
   z-index: 0;
 }
 
-hr{
-    width: 10em; height: .5em; background-color: var(--primary);
-    border: none; 
-    margin: var(--space) 0; 
-}
+
 
 .collection {
   padding: var(--space);
@@ -78,15 +74,16 @@ hr{
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-  }
+display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr) ) ;
+}
   &__item {
     transition: all 0.3s ease-in-out;
-    width: 7.5em;
-    height: 7.5em;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
+    aspect-ratio: 1/1;
     flex-direction: column;
     border-radius: 1em;
     &:hover {
@@ -94,10 +91,10 @@ hr{
     }
   }
   &__icon {
-    font-size: 3em;
+    font-size: 5em;
   }
   &__label {
-    font-size: 0.8em;
+    font-size: 1em;
     opacity: 0.5;
   }
 

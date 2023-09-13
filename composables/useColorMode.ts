@@ -1,4 +1,3 @@
-import { ColorMode } from "./../.nuxt/components.d";
 import { ColorMode } from "@/types";
 import { retrieveState, watchState } from "@sil/storage";
 import { KEYS } from "@/types";
@@ -33,21 +32,13 @@ const getSavedColorMode = () => {
 const getColorMode = (): ColorMode =>
   colorState.colorMode || getSavedColorMode() || getUserColormode();
 
-const setAttribute = () => {
-  watch(
-    colorState.colorMode,
-    () => {
-      console.log("changed");
-      if (process.client)
-        document.documentElement.setAttribute(
-          "color-mode",
-          colorState.colorMode || ColorMode.LIGHT
-        );
-    },
-    {
-      immediate: true,
-    }
-  );
+export const setBodyAttribute = () => {
+  if (process.client)
+    if (document)
+      document.documentElement.setAttribute(
+        "color-mode",
+        colorState.colorMode || ColorMode.LIGHT
+      );
 };
 
 export const useColorMode = () => {
@@ -63,7 +54,6 @@ export const useColorMode = () => {
 
   return {
     setColorMode,
-    setAttribute,
     toggleColorMode,
     colorMode: computed(() => colorState.colorMode || ColorMode.LIGHT),
   };

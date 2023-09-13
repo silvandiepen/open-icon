@@ -238,6 +238,36 @@ body {
     p {
       margin: 0;
     }
-    a{ color: var(--primary)}
+    a {
+      color: var(--primary);
+    }
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul,
+  ol,
+  blockquote {
+    margin: 0;
+    & + h1,
+    & + h2,
+    & + h3,
+    & + h4,
+    & + p,
+    & + ul,
+    & + ol,
+    & + blockquote {
+      margin-top:1em;
+    }
+  }
+}
+hr {
+  width: 10em;
+  height: 0.5em;
+  background-color: var(--primary);
+  border: none;
+  margin: var(--space) 0;
 }
