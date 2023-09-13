@@ -7,7 +7,7 @@
 
       <hr />
 
-      <h2>An open source collection of Design Principles and methods.</h2>
+      <h2>Through accessible icons, we're bridging cultures with a universal visual language, inspiring boundless creativity worldwide.</h2>
 
       <hr />
       <div :class="bemm('numbers')">
@@ -64,7 +64,7 @@ const { t } = useLocale();
 
   h2 {
     font-size: 3em;
-    margin: auto;
+    // margin: auto;
     max-width: 960px;
   }
   h1 {

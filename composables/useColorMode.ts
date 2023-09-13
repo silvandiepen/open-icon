@@ -1,20 +1,16 @@
+import { ColorMode } from "./../.nuxt/components.d";
 import { ColorMode } from "@/types";
 import { retrieveState, watchState } from "@sil/storage";
 import { KEYS } from "@/types";
 
+const initState = {
+  colorMode: null,
+};
 const colorState = reactive<{ colorMode: ColorMode | null }>(
-  process.client
-    ? await retrieveState(
-        {
-          colorMode: null,
-        },
-        KEYS.COLORMODE
-      )
-    : {
-        colorMode: null,
-      }
+  process.client ? await retrieveState(initState, KEYS.COLORMODE) : initState
 );
-if(process.client) watchState(colorState, KEYS.COLORMODE);
+
+if (process.client) watchState(colorState, KEYS.COLORMODE);
 
 const getUserColormode = () => {
   if (
@@ -37,6 +33,23 @@ const getSavedColorMode = () => {
 const getColorMode = (): ColorMode =>
   colorState.colorMode || getSavedColorMode() || getUserColormode();
 
+const setAttribute = () => {
+  watch(
+    colorState.colorMode,
+    () => {
+      console.log("changed");
+      if (process.client)
+        document.documentElement.setAttribute(
+          "color-mode",
+          colorState.colorMode || ColorMode.LIGHT
+        );
+    },
+    {
+      immediate: true,
+    }
+  );
+};
+
 export const useColorMode = () => {
   const setColorMode = (mode: ColorMode) => {
     colorState.colorMode = mode;
@@ -50,6 +63,7 @@ export const useColorMode = () => {
 
   return {
     setColorMode,
+    setAttribute,
     toggleColorMode,
     colorMode: computed(() => colorState.colorMode || ColorMode.LIGHT),
   };

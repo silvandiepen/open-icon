@@ -28,6 +28,12 @@ li {
   --foreground: var(--dark);
   --primary: #ffcd03;
   --primary-text: var(--dark);
+  --secondary: #699545;
+  --secondary-text: var(--light);
+  --success: #2cc86d;
+  --error: #d54300;
+  --warning: #ff8000;
+  --info: #58c2ff;
 }
 body[color-mode="dark"] {
   --background: var(--dark);
@@ -45,16 +51,40 @@ body {
 }
 
 .content {
-  max-width: 72ch;
+  max-width: 96ch;
   margin: auto;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5;
+
+  a {
+    color: var(--secondary);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  > p:first-of-type {
+    font-size: 1.5em;
+  }
 
   ul,
   ol {
     li {
       & + li {
         margin-top: 1em;
+      }
+    }
+    ul,
+    ol {
+      li + li {
+        margin-top: 0;
       }
     }
   }
@@ -69,22 +99,145 @@ body {
       margin: var(--space) 0;
     }
   }
+
   ol {
-    counter-reset: list;
-    li {
-      counter-increment: list;
-      &::before {
-        content: counter(list) ". ";
-        opacity: 0.5;
+    counter-reset: list_1 list_2_all list_3_all;
+    display: flex;
+    flex-direction: column;
+    ol {
+      counter-reset: list_2;
+      ol {
+        counter-reset: list_3;
       }
     }
-  } ul{
-    li{
-      &::before{
+    li {
+      counter-increment: list_1;
+      &:before {
+        opacity: 0.5;
+        font-size: 0.75em;
+        margin-right: 1em;
+        content: counter(list_1);
+      }
+      li {
+        counter-increment: list_2 list_2_all;
+        &:before {
+          content: counter(list_1) "." counter(list_2);
+        }
+
+        li {
+          counter-increment: list_3 list_3_all;
+          &:before {
+            content: counter(list_3_all) "." counter(list_1) "." counter(list_2)
+              "." counter(list_3);
+          }
+        }
+      }
+      //      if the list has multiple sub lists, don't show the first number.
+
+      &:has(ol ol),
+      &:has(ul ul),
+      &:has(ol ul),
+      &:has(ul ol) {
+        > ul > li,
+        > ol > li {
+          margin-top: var(--space);
+        }
+        &:before {
+          content: none;
+        }
+        li {
+          counter-increment: list_2 list_2_all;
+          &:before {
+            content: counter(list_2) ".";
+          }
+
+          li {
+            counter-increment: list_3 list_3_all;
+            &:before {
+              width: 5em;
+              display: inline-block;
+              content: counters(list_2, ".", decimal-leading-zero) "."
+                counters(list_3, ".", decimal-leading-zero) "."
+                counters(list_3_all, ".", decimal-leading-zero);
+              font-size: 0.5em;
+              font-variant-numeric: tabular-nums;
+            }
+          }
+        }
+        li:has(> input) {
+          align-items: center;
+          display: flex;
+        }
+      }
+    }
+  }
+
+  ol,
+  ul {
+    li:has(> input[type="checkbox"][disabled]) {
+      margin: 0;
+    }
+    li:has(> input[type="checkbox"][disabled]:not(:checked)) {
+      opacity: 0.25;
+    }
+    input[type="checkbox"][disabled] {
+      appearance: none;
+      border: 2px solid var(--foreground);
+      border-radius: 50%;
+      width: 1.5em;
+      height: 1.5em;
+      margin-right: 1em;
+      min-width: 1.5em;
+      min-height: 1.5em;
+      // opacity: .5;
+      &:checked {
+        background-image: radial-gradient(var(--success) 50%, transparent 50%);
+      }
+    }
+  }
+
+  // ol {
+  //   counter-reset: list2;
+  //   li {
+  //     counter-increment: list;
+  //     &::before {
+  //       content: counter(list) ". ";
+  //       opacity: 0.5;
+  //     }
+  //     ol{
+  //       counter-increment: list;
+
+  //     }
+  //     li{
+  //       counter-increment: list2;
+  //       &::before {
+  //         content: counter(list)"."counter(list2);
+  //         opacity: 0.5;
+  //         font-size: .75em;
+  //       }
+
+  //     }
+  //   }
+  // }
+
+  ul {
+    li {
+      &::before {
         content: "-";
         margin-right: 0.5em;
       }
-    
     }
+  }
+
+  blockquote {
+    background-color: var(--secondary);
+    color: var(--secondary-text);
+    margin: 0;
+    padding: calc(var(--space));
+    font-size: 1em;
+    p {
+      margin: 0;
+    }
+    a{ color: var(--primary)}
   }
 }

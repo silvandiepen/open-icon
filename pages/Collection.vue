@@ -32,6 +32,10 @@
       </li>
     </transition-group>
   </div>
+  <div :class="[bemm('content'),'content']">
+    <ContentDoc />
+  </div>
+      
 </template>
 
 <script lang="ts" setup>
@@ -132,6 +136,9 @@ hr{
     width: 1em; height: 1em;
     margin-left: .25em;
     font-size: 2em;
+  }
+  &__content{
+    padding: var(--space);
   }
 }
 </style>
