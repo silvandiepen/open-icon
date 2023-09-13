@@ -19,6 +19,7 @@
 <script lang="ts" setup>
 import { useBemm } from "bemm";
 import { ColorMode } from "@/types";
+import Icon from "@/components/Icon/Icon.vue";
 import { useColorMode } from "@/composables/useColorMode";
 import { Icons } from "../Icon/types";
 

@@ -41,6 +41,8 @@
 <script lang="ts" setup>
 import { useBemm } from "bemm";
 import { Icons } from "~/components/Icon/types";
+import Icon from "@/components/Icon/Icon.vue";
+
 const bemm = useBemm("collection");
 
 const filter = ref("");

@@ -13,7 +13,9 @@
 
 <script lang="ts" setup>
 import { useBemm } from "bemm";
-import { Icons } from "../Icon/types";
+import Icon from "@/components/Icon/Icon.vue";
+import { Icons } from "@/components/Icon/types";
+
 const bemm = useBemm("navigation");
 
 type Icon = string;

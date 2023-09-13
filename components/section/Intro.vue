@@ -29,8 +29,9 @@
 
 <script lang="ts" setup>
 import { useBemm } from "bemm";
-import { useLocale } from "~/composables/locales";
-import { Icons } from "../Icon/types";
+import { useLocale } from "@/composables/locales";
+import { Icons } from "@/components/Icon/types";
+import Icon from "@/components/Icon/Icon.vue";
 
 
 const randomIcon = ref();
