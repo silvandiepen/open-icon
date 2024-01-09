@@ -1,0 +1,29 @@
+import { Icons } from "./types";
+<% files.forEach(function(file,index) { %>
+import <%= file.componentName %> from "./<%= file.name %>.vue";<% }); 
+-%>
+
+
+export const getIcon = (icon: Icons)=>{
+    switch(icon){
+    <% files.forEach(function(file,index) { %>
+        case Icons.<%= upperSnakeCase(file.name) %>:
+            return <%= file.componentName %>;
+    <% }); -%>
+
+        default: 
+            return null;
+    }
+}
+
+export const getIconName = (icon: string): string | undefined => Object.values(Icons).find((i) => i === icon.toLowerCase());
+
+
+
+export {
+    Icons,
+    <% files.forEach(function(file,index) { %><%= file.componentName %>,
+    <% }); -%>
+}
+
+

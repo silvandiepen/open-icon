@@ -1,0 +1,44 @@
+<template>
+  <div :class="bemm()">
+    <div :class="bemm('container')">
+<svg x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+    
+<g>
+	<path d="M36,65c2.18,0,21.29-0.27,21.29-9.71c0-9-5.63-16.7-13.54-19.81c3.33-2.41,5.51-6.32,5.51-10.73
+		c0-7.31-5.94-13.25-13.25-13.25s-13.25,5.94-13.25,13.25c0,4.41,2.18,8.32,5.51,10.73c-7.91,3.11-13.54,10.8-13.54,19.81
+		C14.71,64.73,33.82,65,36,65z M26.75,24.75c0-5.1,4.15-9.25,9.25-9.25s9.25,4.15,9.25,9.25S41.1,34,36,34S26.75,29.85,26.75,24.75z
+		 M36,38c9.53,0,17.29,7.75,17.29,17.29C53.29,59.18,42.97,61,36,61c-6.97,0-17.29-1.82-17.29-5.71C18.71,45.75,26.47,38,36,38z"/>
+	<path d="M30.31,52.69H34v3.69c0,1.1,0.9,2,2,2s2-0.9,2-2v-3.69h3.69c1.1,0,2-0.9,2-2s-0.9-2-2-2H38V45c0-1.1-0.9-2-2-2s-2,0.9-2,2
+		v3.69h-3.69c-1.1,0-2,0.9-2,2S29.2,52.69,30.31,52.69z"/>
+</g>
+
+</svg>
+    </div>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import { useBemm } from "bemm";
+const bemm = useBemm("icon");
+</script>
+
+<style lang="scss">
+.icon {
+  width: 1em;
+  svg {
+    width: 1em;
+    height: 1em;
+    path,
+    rect,
+    polygon {
+      &:not([fill]) {
+        fill: currentColor;
+      }
+    }
+  }
+  &__container{
+    width: 1em; height: 1em;
+    display: flex; align-items: center; justify-content: center;
+  }
+}
+</style>

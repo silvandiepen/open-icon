@@ -1,6 +1,0 @@
-<template>
-<svg x="0px" y="0px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
-    
-
-</svg>
-</template>
