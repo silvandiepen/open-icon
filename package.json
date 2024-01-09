@@ -9,7 +9,8 @@
     "lib/icons/**",
     "lib/open-icon.d.ts",
     "lib/open-icon.js",
-    "lib/open-icon.cjs"
+    "lib/open-icon.cjs",
+    "lib/style.css"
   ],
   "exports": {
     ".": {

@@ -8,30 +8,15 @@ export default defineConfig({
 
     build: {
         outDir: 'lib',
+        cssCodeSplit: false,
         lib: {
             entry: resolve(__dirname, 'src/icons/index.ts'),
             name: 'OpenIcon',
             formats: ['es', 'cjs'],
             fileName: 'open-icon'
-          }
-        // outDir: 'lib',
-        // lib: {
-        //     entry: {
-        //         "open-icon": resolve(__dirname, '/src/icons/index.ts'),
-        //     },
-        //     formats: ['es', 'cjs']
-        // },
-        // emptyOutDir: true,
-        // rollupOptions: {
-        //     external: ["vue"],
-        //     output: {
-        //         globals: {
-        //             vue: "Vue",
-        //         },
-        //     },
-        // },
+        }
     },
-    plugins:    [
+    plugins: [
         vue(),
         dts({
             insertTypesEntry: true,
