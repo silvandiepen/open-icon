@@ -4,6 +4,7 @@
   "type": "module",
   "main": "./lib/open-icon.cjs",
   "module": "./lib/open-icon.js",
+  "types":"./lib/open-icon.d.ts",
   "files": [
     "lib/icons/**",
     "lib/open-icon.d.ts",
