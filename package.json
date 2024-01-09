@@ -2,23 +2,24 @@
   "name": "open-icon",
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/open-icon.umd.cjs",
-  "module": "./dist/open-icon.js",
+  "main": "./lib/open-icon.cjs",
+  "module": "./lib/open-icon.js",
   "exports": {
     ".": {
       "import": {
-        "default": "./dist/open-icon.js",
-        "types": "./dist/open-icon.d.ts"
+        "default": "./lib/open-icon.js",
+        "types": "./lib/open-icon.d.ts"
       },
       "require": {
-        "default": "./dist/open-icon.cjs",
-        "types": "./dist/open-icon.d.ts"
+        "default": "./lib/open-icon.cjs",
+        "types": "./lib/open-icon.d.ts"
       }
     }
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "npm run build:lib && npm run build:web",
+    "build:web": "vue-tsc && vite build",
     "build:lib": "vite build --config vite.config.lib.ts",
     "build:icons": "rm -rf ./src/components/Icon && sh ./scripts/icons.sh",
     "preview": "vite preview"
