@@ -5,13 +5,21 @@
   "main": "./lib/open-icon.cjs",
   "module": "./lib/open-icon.js",
   "files": [
+    "lib/icons/**",
+    "lib/open-icon.d.ts",
     "lib/open-icon.js",
     "lib/open-icon.cjs"
   ],
   "exports": {
     ".": {
-      "import": "./lib/open-icon.js",
-      "require": "./lib/open-icon.cjs"
+      "import": {
+        "default": "./lib/open-icon.js",
+        "types": "./lib/open-icon.d.ts"
+      },
+      "require": {
+        "default": "./lib/open-icon.cjs",
+        "types": "./lib/open-icon.d.ts"
+      }
     }
   },
   "scripts": {
