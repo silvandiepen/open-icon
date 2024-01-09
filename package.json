@@ -26,7 +26,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:lib && npm run build:web",
+    "build": "npm run build:icons && npm run build:lib && npm run build:web",
     "build:web": "vue-tsc && vite build",
     "build:lib": "vite build --config vite.config.lib.ts",
     "build:icons": "rm -rf ./src/components/Icon && sh ./scripts/icons.sh",
