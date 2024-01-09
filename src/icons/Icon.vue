@@ -17,7 +17,7 @@ const iconComponent = shallowRef<any>(null);
 
 const setData = async () => {
   const data = await import(
-    /* @vite-ignore */ `../Icon/${props.name}.vue`
+    /* @vite-ignore */ `../icons/${props.name}.vue`
   ).then((r) => r);
 
   iconComponent.value = data.default;
