@@ -17,7 +17,6 @@
         <input type="range" min="5" max="25" v-model="size" />
       </div>
     </div>
-    <hr />
     <transition-group tag="ul" name="collection" :class="bemm('list')">
       <li :class="bemm('item')" v-for="(icon, index) in filteredIcons" :key="index">
         <component :is="getIcon(icon)" :class="bemm('icon')"></component>
@@ -69,9 +68,15 @@ const filteredIcons = computed(() => {
 
 .collection {
   accent-color: var(--primary);
-  padding: var(--space);
 display: block; overflow: hidden;
+
+&__toolbar{
+  padding: var(--space);
+  background-color: var(--accent);
+  width: fit-content; border-bottom-right-radius: 2em;
+}
   &__list {
+  padding: var(--space);
     display: flex;
     flex-wrap: wrap;
     gap: 1em;

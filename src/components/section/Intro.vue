@@ -46,7 +46,7 @@ onMounted(()=>{
 
   setInterval(()=>{
     randomIcon.value = getRandomIcon()
-  },3000)
+  },2500)
 
 })
 
@@ -107,7 +107,7 @@ color: white;
     font-size: 3em;
     // margin: auto;
     max-width: 960px;
-@media screen and (max-width: 96ch){
+@media screen and (max-width: 72em){
 font-size: 1.5em;
   }
 }
@@ -125,7 +125,7 @@ font-size: 1.5em;
       //   font-size: 0.5em;
       //   text-align: right;
     }
-    @media screen and (max-width: 96ch){
+    @media screen and (max-width: 72em){
 font-size: 2em;
   }
 

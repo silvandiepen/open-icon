@@ -20,12 +20,17 @@ li {
   list-style-type: none;
 }
 
+$dark: #212121;
+$light: #fff;
+
 :root {
-  --dark: #212121;
-  --light: #fff;
+  --dark: #{$dark};
+  --accent: #{rgba($dark,.05)};
+  --light: #{$light};
   --space: 2em;
   --background: var(--light);
   --foreground: var(--dark);
+  --foreground-inverted: var(--light);
   --primary: #ffcd03;
   --primary-text: var(--dark);
   --secondary: #699545;
@@ -36,8 +41,10 @@ li {
   --info: #58c2ff;
 }
 body[color-mode="dark"] {
+  --accent: #{rgba($light,.05)};
   --background: var(--dark);
   --foreground: var(--light);
+  --foreground-inverted: var(--dark);
 }
 h1,
 h2,

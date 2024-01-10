@@ -51,6 +51,7 @@ onMounted(() => {
 
   text-decoration: none;
   display: flex;
+  align-items: center;
   gap: 1em;
 
 
@@ -62,8 +63,11 @@ onMounted(() => {
     //border: 2px solid currentColor;
     border-radius: .1em;
     font-size: 2em;
-
-
+font-size: 1em;
+width: 2em; height: 2em;
+display: flex; align-items: center;
+justify-content: center;
+padding: 1.5em;
     &.bump svg {
 
       animation: bump .5s forwards;
@@ -101,7 +105,7 @@ onMounted(() => {
 
     letter-spacing: .05em;
   }
-  @media screen and (max-width: 96ch) {
+  @media screen and (max-width: 72em) {
     span{
     display: flex;align-items: center; gap: 1em;
       span{ display: none;}

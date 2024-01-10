@@ -27,6 +27,7 @@ justify-content: space-between;  align-items: center;
   position: relative;
   gap: var(--space);
 width: 100vw;overflow:hidden;
+border-bottom-right-radius: 2em;
 
 
 
@@ -50,7 +51,7 @@ width: 100vw;overflow:hidden;
     color: var(--foreground);
     padding: 1em;
   }
-  @media screen and (max-width: 96ch) {
+  @media screen and (max-width: 72em) {
     padding: 0; 
     display: block;
   }

@@ -38,9 +38,9 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     display: flex;
     gap: 1em;
 
-    @media screen and (max-width: 96ch) {
+    @media screen and (max-width: 72em) {
       gap: 0;
-      border-block: 1px solid white;
+      border-block: 1px solid var(--foreground-inverted);
       width: 100vw;
       overflow: scroll;
     }
@@ -54,7 +54,7 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     height: 1em;
     transform: scale(.75);
 
-    @media screen and (max-width: 96ch) {
+    @media screen and (max-width: 72em) {
       font-size: 2em;
 
     }
@@ -62,6 +62,10 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
 
   &__text {
     opacity: .25;
+    @media screen and (max-width: 72em){
+      transition: max-width .3s ease-in-out;
+      max-width: 0px; overflow: hidden;
+    }
   }
 
   &__link {
@@ -92,7 +96,7 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
 
     }
 
-    @media screen and (max-width: 96ch) {
+    @media screen and (max-width: 72em) {
       display: flex;
       align-items: center;
       gap: .5em;
@@ -131,6 +135,7 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
 
     &.router-link-active {
 
+
       [color-mode="dark"] &{
         color: white;
       }
@@ -146,6 +151,10 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
 
       .navigation__text {
         opacity: 1;
+        display: block;
+    @media screen and (max-width: 72em){
+      max-width: fit-content; overflow: hidden;
+    }
       }
 
     }

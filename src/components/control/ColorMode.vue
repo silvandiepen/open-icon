@@ -1,10 +1,16 @@
 <template>
   <div :class="bemm()">
-    <button :class="bemm('button')" @click="toggleColorMode()">
-      <component :class="bemm('icon')" :is="getIcon(Icons.MOON)" v-if="colorMode == ColorMode.DARK"></component>
-      <component :class="bemm('icon')" :is="getIcon(Icons.SUN)" v-if="colorMode == ColorMode.LIGHT"></component>
-      <span :class="bemm('name')"> {{ colorMode }}</span>
-    </button>
+    <h3 :class="bemm('title')">
+      <component :is="getIcon(Icons.COLORMODE)"></component>Color Mode</h3>
+      <div :class="bemm('controls')">
+    <button :class="[bemm('button'), colorMode == ColorMode.DARK ? bemm('button','active') : bemm('button','inactive')]" @click="setColorMode(ColorMode.DARK)">
+      <component :class="[bemm('icon')]" :is="getIcon(Icons.MOON)" ></component>
+      <span :class="bemm('name')">{{ ColorMode.DARK }}</span>
+    </button>    
+    <button :class="[bemm('button'), colorMode == ColorMode.LIGHT ? bemm('button','active') : bemm('button','inactive')]" @click="setColorMode(ColorMode.LIGHT)">
+      <component :class="[bemm('icon'), colorMode == ColorMode.LIGHT ? bemm('icon','active') : bemm('icon','inactive')]" :is="getIcon(Icons.SUN)" ></component>
+      <span :class="bemm('name')">{{ ColorMode.LIGHT }}</span>
+    </button></div>
   </div>
 </template>
 
@@ -17,11 +23,15 @@ import { Icons } from "@/icons/types";
 
 const bemm = useBemm("colormode");
 
-const { colorMode, toggleColorMode } = useColorMode();
+const { colorMode, setColorMode } = useColorMode();
 </script>
 
 <style lang="scss">
 .colormode {
+
+  display: flex; 
+  gap : 1em; 
+  flex-direction: column;
   &__button {
     background-color: transparent;
     border: none;
@@ -29,6 +39,11 @@ const { colorMode, toggleColorMode } = useColorMode();
     display: flex;
     align-items: center;
     justify-content: center;
+
+    border-radius: .5em;
+    padding: 1em;
+    gap: .5em;
+&--active{background-color: var(--primary); color: var(--primary-text)}
   }
 
   &__icon {
@@ -37,6 +52,15 @@ const { colorMode, toggleColorMode } = useColorMode();
     font-size: 1.75em;
   }
 
-  &__name {}
+  &__title{
+
+display: flex; align-items: center;    .icon{
+      font-size: 2em;
+    }
+
+  }
+  &__controls {
+    display: flex;
+  }
 }
 </style>
