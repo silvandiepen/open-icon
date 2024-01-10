@@ -43,10 +43,11 @@ border-bottom-right-radius: 2em;
 }
 
 &__logo{
-  justify-self: fstart;
+  justify-self: start;
 
   text-decoration: none;
   color: currentColor;
+
 }
   &__tools {
     position: absolute;

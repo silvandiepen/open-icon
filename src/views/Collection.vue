@@ -8,11 +8,9 @@
         <InputText :class="bemm('control')" type="search" v-model="filter" placeholder="Search" />
       </div>
 
-      <span>
-        <span :class="bemm('showing')">
-          <template v-if="filteredIcons.length < icons.length">
-            <strong>{{ filteredIcons.length }}</strong>/</template>{{ icons.length }} icons
-        </span>
+      <span :class="bemm('showing')">
+        <template v-if="filteredIcons.length < icons.length">
+          <strong>{{ filteredIcons.length }}</strong>/</template>{{ icons.length }} icons
       </span>
       <div :class="bemm('tools')">
         <InputRange v-model="size" :min="5" :max="25" />
@@ -80,6 +78,10 @@ const filteredIcons = computed(() => {
     display: flex;
     align-items: center;
     gap: .5em;
+
+    @media screen and (max-width: 72em) {
+      display: none;
+    }
   }
 
   &__toolbar {
@@ -93,6 +95,16 @@ const filteredIcons = computed(() => {
     gap: calc(var(--space) / 2);
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 72em) {
+      gap: 1em;
+      padding: 1em;
+      margin: 1em;
+      // flex-direction: column;
+      flex-wrap: wrap;
+      border-radius: 1em;
+      align-items: flex-start;
+    }
   }
 
   &__list {
@@ -133,30 +145,24 @@ const filteredIcons = computed(() => {
     opacity: 0.5;
   }
 
-  &__control {
-    padding: .5em;
-
-    &:focus {
-      outline-color: var(--primary)
-    }
-  }
-
   &__showing {
     padding: 1em;
     background-color: var(--primary);
     color: var(--primary-text);
     border-radius: .5em;
-  }
-
-  &__search-icon {
-    width: 1em;
-    height: 1em;
-    margin-left: .25em;
-    font-size: 2em;
+    display: block;
+    white-space: nowrap;
   }
 
   &__content {
     padding: var(--space);
+  }
+
+  &__tools {
+    @media screen and (max-width: 72em) {
+      display: none;
+    }
+
   }
 }
 </style>

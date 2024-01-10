@@ -2,7 +2,6 @@
   <h1 :class="bemm()">
     <component :class="bump ? 'bump' : ''" :is="getIcon(randomIcon)"></component>
     <span>
-
       Open Icon
       <span>Foundation</span>
     </span>
@@ -25,7 +24,7 @@ const getRandomIcon = () => {
   const randomIndex = Math.floor(Math.random() * keys.length)
   return keys[randomIndex];
 }
-const setFavicon = ()=>{
+const setFavicon = () => {
   const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
   favicon.href = `/icons/icon_${randomIcon.value}.svg`;
 }
@@ -58,6 +57,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   gap: 1em;
+  margin: 0;
 
 
 
@@ -76,11 +76,11 @@ onMounted(() => {
     justify-content: center;
     padding: 1em;
 
-.page--home &{
-    background-color: var(--primary);
-    color: var(--primary-text);
+    .page--home & {
+      background-color: var(--primary);
+      color: var(--primary-text);
 
-}
+    }
 
     &.bump svg {
 
@@ -122,6 +122,11 @@ onMounted(() => {
   }
 
   @media screen and (max-width: 72em) {
+    gap: 0em;
+    .icon {
+      margin: .5em;
+    }
+
     span {
       display: flex;
       align-items: center;

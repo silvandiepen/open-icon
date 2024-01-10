@@ -28,7 +28,8 @@ const bemm = useBemm('footer')
 
     &__item {
         border-radius: var(--border-radius, 1em);
-        border: 2px solid var(--primary);
+        // border: 2px solid var(--primary);
+        background-color: var(--accent);
         padding: 1em;
         display: flex;
 
