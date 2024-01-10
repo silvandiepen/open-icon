@@ -3,7 +3,7 @@
     <ul :class="bemm('list')">
       <li :class="bemm('item')" v-for="(item, idx) in menuItems" :key="idx">
         <RouterLink :class="bemm('link')" :to="item.link">
-          <Icon :class="bemm('icon')" v-if="item.icon" :name="item.icon"></Icon>
+          <component :class="bemm('icon')" v-if="item.icon" :is="item.icon"></component>
           <span :class="bemm('text')">{{ item.label }}</span>
         </RouterLink>
       </li>
@@ -13,21 +13,22 @@
 
 <script lang="ts" setup>
 import { useBemm } from "bemm";
-import Icon from "@/icons/Icon.vue";
+import { RouterLink } from "vue-router"; 
+
+import { getIcon } from "@/icons";
 import { Icons } from "@/icons/types";
 
-import { RouterLink } from "vue-router"; 
 
 const bemm = useBemm("navigation");
 
-type Icon = string;
+type Icon = any;
 
 const menuItems: { label: string; link: string; icon: Icon }[] = [
-  { label: "Collection", link: "/collection", icon: Icons.APPS },
-  { label: "Contribute", link: "/contribute", icon: Icons.USER },
-  { label: "Guidelines", link: "/guidelines", icon: Icons.MAP },
-  { label: "Usage", link: "/usage", icon: Icons.ROCKET },
-  { label: "About", link: "/about", icon: Icons.BOOK },
+  { label: "Collection", link: "/collection", icon: getIcon(Icons.APPS) },
+  { label: "Contribute", link: "/contribute", icon: getIcon(Icons.USER) },
+  { label: "Guidelines", link: "/guidelines", icon: getIcon(Icons.MAP) },
+  { label: "Usage", link: "/usage", icon: getIcon(Icons.ROCKET) },
+  { label: "About", link: "/about", icon: getIcon(Icons.BOOK) },
 ];
 </script>
 

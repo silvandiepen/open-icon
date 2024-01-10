@@ -11,7 +11,7 @@
 
       <hr />
       <div class="random-icon">
-        <Icon :name="randomIcon"></Icon>
+        <component :is="getIcon(randomIcon)"></component>
       </div>
       <div :class="bemm('numbers')">
         <div
@@ -30,8 +30,7 @@
 <script lang="ts" setup>
 import { ref, onMounted, computed } from "vue";
 import { useBemm } from "bemm";
-// import { useLocale } from "@/composables/locales";
-import Icon from "@/icons/Icon.vue";
+import {getIcon} from "@/icons";
 import { Icons } from "@/icons/types";
 
 

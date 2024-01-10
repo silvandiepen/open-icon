@@ -1,16 +1,8 @@
 <template>
   <div :class="bemm()">
     <button :class="bemm('button')" @click="toggleColorMode()">
-      <Icon
-        :class="bemm('icon')"
-        :name="Icons.MOON"
-        v-if="colorMode == ColorMode.DARK"
-      ></Icon>
-      <Icon
-        :class="bemm('icon')"
-        :name="Icons.SUN"
-        v-if="colorMode == ColorMode.LIGHT"
-      ></Icon>
+      <component :class="bemm('icon')" :is="getIcon(Icons.MOON)" v-if="colorMode == ColorMode.DARK"></component>
+      <component :class="bemm('icon')" :is="getIcon(Icons.SUN)" v-if="colorMode == ColorMode.LIGHT"></component>
       <span :class="bemm('name')"> {{ colorMode }}</span>
     </button>
   </div>
@@ -20,7 +12,7 @@
 import { useBemm } from "bemm";
 import { ColorMode } from "@/types";
 import { useColorMode } from "@/composables/useColorMode";
-import Icon from "@/icons/Icon.vue";
+import { getIcon } from "@/icons";
 import { Icons } from "@/icons/types";
 
 const bemm = useBemm("colormode");
@@ -38,12 +30,13 @@ const { colorMode, toggleColorMode } = useColorMode();
     align-items: center;
     justify-content: center;
   }
+
   &__icon {
     height: 1em;
     width: 1em;
     font-size: 1.75em;
   }
-  &__name {
-  }
+
+  &__name {}
 }
 </style>
