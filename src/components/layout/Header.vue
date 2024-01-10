@@ -29,6 +29,12 @@ justify-content: space-between;  align-items: center;
 width: 100vw;overflow:hidden;
 border-bottom-right-radius: 2em;
 
+.page--home &{
+
+  background-color: var(--background);
+  color: var(--primary-text);
+}
+
 
 
 &__navigation{

@@ -1,5 +1,5 @@
 <template>
-  <div class="app" :style="`font-size: ${myFontSize}px`">
+  <div :class="['app',`page--${route.name as string}`]" :style="`font-size: ${myFontSize}px`">
     <Header></Header>
   <RouterView :key="key"></RouterView>
   <Footer></Footer>
@@ -23,7 +23,6 @@ const { currentLocale } = useLocale();
 const { fontSize } = useUI();
 
 const route = useRoute();
-
 
 watch(
   () => colorMode.value,

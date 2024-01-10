@@ -20,8 +20,15 @@ li {
   list-style-type: none;
 }
 
-$dark: #212121;
+$dark: #090909;
 $light: #fff;
+
+$yellow:  #ffcd03;
+$yellow-text: $dark;
+
+$green:  #4a197c;
+$green-text: $light;
+
 
 :root {
   --dark: #{$dark};
@@ -31,10 +38,14 @@ $light: #fff;
   --background: var(--light);
   --foreground: var(--dark);
   --foreground-inverted: var(--light);
-  --primary: #ffcd03;
-  --primary-text: var(--dark);
-  --secondary: #699545;
-  --secondary-text: var(--light);
+  // --primary: #ffcd03;
+  // --primary-text: var(--dark);
+  // --secondary: #699545;
+  // --secondary-text: var(--light);
+
+  --primary: #{$yellow};
+  --primary-text: #{$yellow-text};
+
   --success: #2cc86d;
   --error: #d54300;
   --warning: #ff8000;
@@ -45,6 +56,9 @@ body[color-mode="dark"] {
   --background: var(--dark);
   --foreground: var(--light);
   --foreground-inverted: var(--dark);
+--primary: #{$green};
+  --primary-text: #{$green-text};
+  
 }
 h1,
 h2,

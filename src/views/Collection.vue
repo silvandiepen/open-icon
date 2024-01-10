@@ -97,6 +97,9 @@ display: block; overflow: hidden;
 
     &:hover {
       background-color: var(--primary);
+      [color-mode="dark"] & {
+        background-color: var(--secondary);
+      }
     }
   }
 

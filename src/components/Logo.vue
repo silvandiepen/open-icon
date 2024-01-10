@@ -25,14 +25,19 @@ const getRandomIcon = () => {
   const randomIndex = Math.floor(Math.random() * keys.length)
   return keys[randomIndex];
 }
+const setFavicon = ()=>{
+  const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+  favicon.href = `/icons/icon_${randomIcon.value}.svg`;
+}
 
 watch(() => randomIcon.value, () => {
+  setFavicon();
   bump.value = true;
   setTimeout(() => {
     bump.value = false;
   }, 500)
 })
-    randomIcon.value = getRandomIcon()
+randomIcon.value = getRandomIcon()
 
 onMounted(() => {
 
@@ -59,32 +64,42 @@ onMounted(() => {
   .icon {
     flex-shrink: 0;
     //idth: 1.25em;
-    background-color: white;
+    background-color: var(--background);
+    color: var(--foreground);
     //border: 2px solid currentColor;
     border-radius: .1em;
-    font-size: 2em;
-font-size: 1em;
-width: 2em; height: 2em;
-display: flex; align-items: center;
-justify-content: center;
-padding: 1.5em;
+    font-size: 1.5em;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+.page--home &{
+    background-color: var(--primary);
+    color: var(--primary-text);
+
+}
+
     &.bump svg {
 
       animation: bump .5s forwards;
 
       @keyframes bump {
         20% {
-          
+
           transform: scale(.5) translateX(-50%) rotate(45deg);
         }
+
         20.5% {
-          transform: scale(.5) translateX(50%) rotate(-45deg); 
+          transform: scale(.5) translateX(50%) rotate(-45deg);
         }
 
 
         50% {
-        
-          transform: scale(1.2); 
+
+          transform: scale(1.2);
         }
 
         60% {
@@ -105,11 +120,16 @@ padding: 1.5em;
 
     letter-spacing: .05em;
   }
+
   @media screen and (max-width: 72em) {
-    span{
-    display: flex;align-items: center; gap: 1em;
-      span{ display: none;}
+    span {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+
+      span {
+        display: none;
+      }
+    }
   }
-  }
-}
-</style>
+}</style>

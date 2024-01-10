@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Markdown from 'vite-plugin-md'
+// @ts-ignore
+import { viteStaticCopy } from 'vite-plugin-static-copy'
+
 
 import link from '@yankeeinlondon/link-builder'
 import code from '@yankeeinlondon/code-builder'
@@ -25,7 +28,15 @@ export default defineConfig({
         }),     
        Markdown({
         builders: [link(),code(),meta()]
-       })
+       }),
+       viteStaticCopy({
+        targets: [
+          {
+            src: resolve(__dirname, './src/assets/icons/icons/'),
+            dest: './', 
+          },
+        ],
+      }),
     ],
     resolve: {
         alias: {
