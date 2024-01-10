@@ -67,7 +67,7 @@ onMounted(() => {
     background-color: var(--background);
     color: var(--foreground);
     //border: 2px solid currentColor;
-    border-radius: .1em;
+    border-radius: .5em;
     font-size: 1.5em;
     width: 2em;
     height: 2em;

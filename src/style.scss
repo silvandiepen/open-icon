@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Inter;
 }
@@ -23,10 +25,10 @@ li {
 $dark: #090909;
 $light: #fff;
 
-$yellow:  #ffcd03;
+$yellow: #ffcd03;
 $yellow-text: $dark;
 
-$green:  #4a197c;
+$green: #4a197c;
 $green-text: $light;
 
 
@@ -51,21 +53,24 @@ $green-text: $light;
   --warning: #ff8000;
   --info: #58c2ff;
 }
+
 body[color-mode="dark"] {
   --accent: #{rgba($light,.05)};
   --background: var(--dark);
   --foreground: var(--light);
   --foreground-inverted: var(--dark);
---primary: #{$green};
+  --primary: #{$green};
   --primary-text: #{$green-text};
-  
+
 }
+
 h1,
 h2,
 h3,
 h4 {
   margin: 0;
 }
+
 body {
   background-color: var(--background);
   color: var(--foreground);
@@ -91,26 +96,29 @@ body {
     }
   }
 
-  > p:first-of-type {
+  >p:first-of-type {
     font-size: 1.5em;
   }
 
   ul,
   ol {
     li {
-      & + li {
+      &+li {
         margin-top: 1em;
       }
     }
+
     ul,
     ol {
-      li + li {
+      li+li {
         margin-top: 0;
       }
     }
   }
-  section + section {
+
+  section+section {
     margin-top: 2em;
+
     &::before {
       content: "";
       width: 10em;
@@ -125,55 +133,67 @@ body {
     counter-reset: list_1 list_2_all list_3_all;
     display: flex;
     flex-direction: column;
+
     ol {
       counter-reset: list_2;
+
       ol {
         counter-reset: list_3;
       }
     }
+
     li {
       counter-increment: list_1;
+
       &:before {
         opacity: 0.5;
         font-size: 0.75em;
         margin-right: 1em;
         content: counter(list_1);
       }
+
       li {
         counter-increment: list_2 list_2_all;
+
         &:before {
           content: counter(list_1) "." counter(list_2);
         }
 
         li {
           counter-increment: list_3 list_3_all;
+
           &:before {
-            content: counter(list_3_all) "." counter(list_1) "." counter(list_2)
-              "." counter(list_3);
+            content: counter(list_3_all) "." counter(list_1) "." counter(list_2) "." counter(list_3);
           }
         }
       }
+
       //      if the list has multiple sub lists, don't show the first number.
 
       &:has(ol ol),
       &:has(ul ul),
       &:has(ol ul),
       &:has(ul ol) {
-        > ul > li,
-        > ol > li {
+
+        >ul>li,
+        >ol>li {
           margin-top: var(--space);
         }
+
         &:before {
           content: none;
         }
+
         li {
           counter-increment: list_2 list_2_all;
+
           &:before {
             content: counter(list_2) ".";
           }
 
           li {
             counter-increment: list_3 list_3_all;
+
             &:before {
               width: 5em;
               display: inline-block;
@@ -185,6 +205,7 @@ body {
             }
           }
         }
+
         li:has(> input) {
           align-items: center;
           display: flex;
@@ -198,9 +219,11 @@ body {
     li:has(> input[type="checkbox"][disabled]) {
       margin: 0;
     }
+
     li:has(> input[type="checkbox"][disabled]:not(:checked)) {
       opacity: 0.25;
     }
+
     input[type="checkbox"][disabled] {
       appearance: none;
       border: 2px solid var(--foreground);
@@ -210,6 +233,7 @@ body {
       margin-right: 1em;
       min-width: 1.5em;
       min-height: 1.5em;
+
       // opacity: .5;
       &:checked {
         background-image: radial-gradient(var(--success) 50%, transparent 50%);
@@ -256,9 +280,11 @@ body {
     margin: 0;
     padding: calc(var(--space));
     font-size: 1em;
+
     p {
       margin: 0;
     }
+
     a {
       color: var(--primary);
     }
@@ -273,18 +299,20 @@ body {
   ol,
   blockquote {
     margin: 0;
-    & + h1,
-    & + h2,
-    & + h3,
-    & + h4,
-    & + p,
-    & + ul,
-    & + ol,
-    & + blockquote {
-      margin-top:1em;
+
+    &+h1,
+    &+h2,
+    &+h3,
+    &+h4,
+    &+p,
+    &+ul,
+    &+ol,
+    &+blockquote {
+      margin-top: 1em;
     }
   }
 }
+
 hr {
   width: 10em;
   height: 0.5em;
@@ -292,3 +320,4 @@ hr {
   border: none;
   margin: var(--space) 0;
 }
+

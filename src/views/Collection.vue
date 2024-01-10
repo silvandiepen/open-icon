@@ -1,10 +1,11 @@
 <template>
   <div :class="bemm()" :style="`--size: ${size};`">
     <div :class="bemm('toolbar')">
-      <h1>Collection</h1>
+      <h1 :class="bemm('title')">
+        <component :is="getIcon(Icons.APPS)"></component>Collection
+      </h1>
       <div :class="bemm('search')">
-        <Icon :class="bemm('search-icon')" name="search"></Icon>
-        <input :class="bemm('control')" type="search" v-model="filter" placeholder="Search" />
+        <InputText :class="bemm('control')" type="search" v-model="filter" placeholder="Search" />
       </div>
 
       <span>
@@ -14,7 +15,7 @@
         </span>
       </span>
       <div :class="bemm('tools')">
-        <input type="range" min="5" max="25" v-model="size" />
+        <InputRange v-model="size" :min="5" :max="25" />
       </div>
     </div>
     <transition-group tag="ul" name="collection" :class="bemm('list')">
@@ -35,6 +36,8 @@ import { useBemm } from "bemm";
 
 import { Icons } from "@/icons/types";
 import { getIcon } from "@/icons";
+import InputRange from "@/components/control/InputRange.vue";
+import InputText from "@/components/control/InputText.vue";
 
 const bemm = useBemm("collection");
 
@@ -68,15 +71,32 @@ const filteredIcons = computed(() => {
 
 .collection {
   accent-color: var(--primary);
-display: block; overflow: hidden;
+  display: block;
+  overflow: hidden;
+  position: relative;
 
-&__toolbar{
-  padding: var(--space);
-  background-color: var(--accent);
-  width: fit-content; border-bottom-right-radius: 2em;
-}
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+  }
+
+  &__toolbar {
+    padding: var(--space);
+    background-color: var(--accent);
+    width: fit-content;
+    border-radius: var(--space);
+    margin: var(--space);
+    position: sticky;
+    top: 0;
+    gap: calc(var(--space) / 2);
+    display: flex;
+    align-items: center;
+  }
+
   &__list {
-  padding: var(--space);
+    padding: var(--space);
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
@@ -97,6 +117,7 @@ display: block; overflow: hidden;
 
     &:hover {
       background-color: var(--primary);
+
       [color-mode="dark"] & {
         background-color: var(--secondary);
       }
@@ -112,47 +133,19 @@ display: block; overflow: hidden;
     opacity: 0.5;
   }
 
-  &__toolbar {
-    gap: var(--space);
-    display: flex;
-    align-items: center;
-  }
-
-  &__search {
-    // border-radius: 0.5em;
-    // border: none;
-    // outline: 2px solid var(--foreground);
-
-    // opacity: 0.25;
-
-    // &:has(:focus),
-    // &:has(:not([value])) {
-    //   opacity: 1;
-    // }
-
-    // &:has(:focus) {
-    //   border: none;
-    //   outline: 2px solid var(--primary);
-    // }
-
-    display: flex;
-    align-items: center;
-  }
-
   &__control {
- padding: .5em;
- &:focus{
-  outline-color: var(--primary)
- }
-    // border: none;
-    // padding: 0.5em;
-    // line-height: 1em;
-    // font-size: 1.25em;
-    // outline: none;
+    padding: .5em;
 
-    // &:focus {
-    //   outline: none;
-    // }
+    &:focus {
+      outline-color: var(--primary)
+    }
+  }
+
+  &__showing {
+    padding: 1em;
+    background-color: var(--primary);
+    color: var(--primary-text);
+    border-radius: .5em;
   }
 
   &__search-icon {
@@ -165,4 +158,5 @@ display: block; overflow: hidden;
   &__content {
     padding: var(--space);
   }
-}</style>
+}
+</style>

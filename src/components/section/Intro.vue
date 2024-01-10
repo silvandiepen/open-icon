@@ -138,7 +138,7 @@ const { bemm } = useBemm("intro");
   position: relative;
   display: block;
   z-index: 5;
-  padding: max(4vw, .5em);
+  padding:var(--space);
 
 
 
@@ -159,7 +159,7 @@ const { bemm } = useBemm("intro");
     // max-width: 1440px;
     margin: auto;
     border-radius: 2em;
-    padding: max(4vw, 1em);
+    padding: max(8vw, 2em);
   }
 
   &__content {
