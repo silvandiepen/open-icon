@@ -1,6 +1,6 @@
 <template>
   <nav :class="bemm()">
-    <ul :class="bemm('list')">
+    <ul :class="[bemm('list'), isWrapped && bemm('list', 'wrapped')]">
       <li :class="bemm('item')" v-for="(item, idx) in menuItems" :key="idx">
         <RouterLink :class="bemm('link')" :to="item.link">
           <component :class="bemm('icon')" v-if="item.icon" :is="item.icon"></component>
@@ -12,6 +12,7 @@
 </template>
 
 <script lang="ts" setup>
+import { onMounted, ref } from "vue";
 import { useBemm } from "bemm";
 import { RouterLink } from "vue-router";
 
@@ -20,6 +21,22 @@ import { Icons } from "@/icons/types";
 
 
 const bemm = useBemm("navigation");
+
+const isWrapped = ref(false);
+
+const checkWrapped = () => {
+  const elements = document.getElementsByClassName('navigation__item');
+  const lastElement = elements[elements.length - 1].getBoundingClientRect();
+  const firstElement = elements[0].getBoundingClientRect();
+
+  isWrapped.value = !!(lastElement.bottom > firstElement.bottom);
+
+}
+
+onMounted(() => {
+  checkWrapped();
+  window.addEventListener('resize', checkWrapped);
+})
 
 type Icon = any;
 
@@ -36,18 +53,43 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
 .navigation {
   &__list {
     display: flex;
-    gap: 1em;
+
+    transition: display .3s ease-in-out;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 
     @media screen and (max-width: 72em) {
-      gap: 0;
-      border-block: 1px solid var(--foreground-inverted);
-      width: 100vw;
-      overflow: scroll;
+      padding-inline: 1em;
+    }
+
+    &--wrapped {
+      padding: 1em;
+    }
+
+    @media screen and (max-width: 72em) {
+    .header--off-top & {
+      background-color: var(--primary);
+      border-radius: 1em;
+      margin: 1em;
+      flex-direction: column;
+      width: fit-content;
+      top: 50%;
+      left: 50%;
+      position: fixed;
+      transform: translate(-50%, -50%) scale(0);
+
+    }
+
+    .header__navigation--active & {    .header--off-top & {
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
     }
   }
 
   &__icon {
-    font-size: 3em;
+    font-size: 2.5em;
     // color: white;
     line-height: 1em;
     width: 1em;
@@ -61,20 +103,38 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
   }
 
   &__text {
-    opacity: .25;
-    @media screen and (max-width: 72em){
-      transition: max-width .3s ease-in-out;
-      max-width: 0px; overflow: hidden;
+
+    @media screen and (max-width: 35em) {
+      font-size: .75em;
     }
+
+    //     @media screen and (max-width: 45em) {
+    //       position: absolute;
+    // opacity: .25;
+    // bottom: 0; 
+    // left: 50%; 
+    // font-weight: bold;
+    // transform: translateY(100%) translateX(-50%);
+
+    // font-size: .75em;
+    // padding-block: .5em;
+    // // top: 50%; left: 50%; 
+    // // transform-origin: 0 0 ;
+    // // transform: translateY(-50%) rotate(-45deg) translateX(1em); 
+    //       // transform: translateX(-50%) translateY(100%);
+
+
+    //     }
   }
 
   &__link {
     color: inherit;
-    font-weight: bold;
     text-decoration: none;
     border-radius: var(--border-radius, 1em);
 
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: .5em;
     padding: 1em;
     position: relative;
     z-index: 1;
@@ -103,10 +163,23 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
 
       &,
       &::before {
-        border-radius: 0;
+        border-radius: 1em 1em 0 0;
+
+        .navigation__list--wrapped & {
+          border-radius: 1em;
+
+        }
+
       }
     }
 
+
+    // &:not(.router-link-active){
+    //   @media screen and (max-width: 25em){
+    //     padding: .5em;
+    // }
+
+    // }
 
     &:not(.router-link-active):hover::before {
       opacity: .5;
@@ -128,7 +201,8 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
       .navigation__text {
         opacity: 1;
       }
-      [color-mode="dark"] &{
+
+      [color-mode="dark"] & {
         color: white;
       }
     }
@@ -136,9 +210,10 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     &.router-link-active {
 
 
-      [color-mode="dark"] &{
+      [color-mode="dark"] & {
         color: white;
       }
+
       &::before {
         transform: scale(1);
         background-color: var(--background);
@@ -152,9 +227,11 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
       .navigation__text {
         opacity: 1;
         display: block;
-    @media screen and (max-width: 72em){
-      max-width: fit-content; overflow: hidden;
-    }
+
+        @media screen and (max-width: 72em) {
+          max-width: fit-content;
+          overflow: hidden;
+        }
       }
 
     }

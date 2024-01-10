@@ -19,6 +19,9 @@ const bemm = useBemm('footer')
     display: flex;
     gap: 1em;
     padding: var(--space);
+    @media screen and (max-width: 72em) {
+    padding: calc(var(--space) / 2) 
+    }
 
     @media screen and (max-width: 72em) {
         flex-direction: column;
@@ -36,6 +39,7 @@ const bemm = useBemm('footer')
         @media screen and (max-width: 72em) {
             flex-direction: row;
             justify-content: space-between;
+            flex-wrap: wrap;
         }
     }
 }</style>

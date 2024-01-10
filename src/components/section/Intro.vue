@@ -140,6 +140,9 @@ const { bemm } = useBemm("intro");
   z-index: 5;
   padding:var(--space);
 
+  @media screen and (max-width: 72em) {
+    padding: calc(var(--space) / 2);
+  }
 
 
   hr {
