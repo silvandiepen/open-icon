@@ -1,10 +1,10 @@
 {
     "icons": [
-        "o",
-    
-        "x",
-    
         "abc",
+    
+        "accessibility-circle",
+    
+        "accessibility",
     
         "alarm",
     
@@ -128,6 +128,10 @@
     
         "feather",
     
+        "female-symbol",
+    
+        "female",
+    
         "film",
     
         "filter",
@@ -190,6 +194,12 @@
     
         "magic-wand",
     
+        "male-female",
+    
+        "male-symbol",
+    
+        "male",
+    
         "map",
     
         "minus-circle",
@@ -243,6 +253,24 @@
         "settings",
     
         "settings2",
+    
+        "shape-circle-filled",
+    
+        "shape-circle",
+    
+        "shape-hexagon",
+    
+        "shape-pentagon",
+    
+        "shape-square-filled",
+    
+        "shape-square",
+    
+        "shape-triangle",
+    
+        "shape-x-filled",
+    
+        "shape-x",
     
         "shift",
     
@@ -298,6 +326,8 @@
     
         "truck",
     
+        "unisex",
+    
         "unlocked",
     
         "user-add",
@@ -319,6 +349,10 @@
         "volume-on",
     
         "water",
+    
+        "wheelchair-2",
+    
+        "wheelchair",
     
         "window-frame",
     

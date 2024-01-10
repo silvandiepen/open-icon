@@ -23,7 +23,7 @@ li {
 :root {
   --dark: #212121;
   --light: #fff;
-  --space: calc(100vw / 24);
+  --space: 2em;
   --background: var(--light);
   --foreground: var(--dark);
   --primary: #ffcd03;
@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-  max-width: 96ch;
+  max-width: 72ch;
   margin: auto;
   font-size: 1.25em;
   line-height: 1.5;

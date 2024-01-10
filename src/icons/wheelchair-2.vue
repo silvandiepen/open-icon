@@ -1,0 +1,47 @@
+<template>
+  <div :class="bemm()">
+    <div :class="bemm('container')">
+<svg x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+    
+<g>
+	<path d="M38.92,52.42c-1.98,1.98-4.62,3.08-7.42,3.08s-5.44-1.09-7.42-3.08C22.09,50.44,21,47.8,21,45s1.09-5.44,3.08-7.42
+		c1.17-1.17,1.17-3.07,0-4.24c-1.17-1.17-3.07-1.17-4.24,0C16.72,36.45,15,40.59,15,45s1.72,8.55,4.83,11.67
+		c3.12,3.12,7.26,4.83,11.67,4.83s8.55-1.72,11.67-4.83c1.17-1.17,1.17-3.07,0-4.24C42,51.25,40.1,51.25,38.92,52.42z"/>
+	<path d="M27,20c3.58,0,6.5-2.92,6.5-6.5S30.58,7,27,7s-6.5,2.92-6.5,6.5S23.42,20,27,20z M27,11c1.38,0,2.5,1.12,2.5,2.5
+		S28.38,16,27,16s-2.5-1.12-2.5-2.5S25.62,11,27,11z"/>
+	<path d="M48.5,37.5H33.66l-1.33-4h8.17c1.1,0,2-0.9,2-2s-0.9-2-2-2h-9c-0.17,0-0.33,0.03-0.48,0.07l-1.17-3.51
+		c-0.52-1.57-2.22-2.42-3.79-1.9c-1.57,0.52-2.42,2.22-1.9,3.79l5.18,15.55H46.5V54c0,1.66,1.34,3,3,3s3-1.34,3-3V41.5
+		C52.5,39.29,50.71,37.5,48.5,37.5z"/>
+</g>
+
+</svg>
+    </div>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import { useBemm } from "bemm";
+const bemm = useBemm("icon");
+</script>
+
+<style lang="scss">
+.icon {
+  width: 1em;
+  svg {
+    width: 1em;
+    height: 1em;
+    path,
+    rect,
+    circle,
+    polygon {
+      &:not([fill]) {
+        fill: currentColor;
+      }
+    }
+  }
+  &__container{
+    width: 1em; height: 1em;
+    display: flex; align-items: center; justify-content: center;
+  }
+}
+</style>

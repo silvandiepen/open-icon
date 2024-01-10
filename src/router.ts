@@ -8,6 +8,10 @@ export default createRouter({
             name: "collection",
             path: "/collection",
             component: () => import("@/views/Collection.vue"),
+        }, {
+            name: "page",
+            path: "/:page",
+            component: () => import("@/views/Page.vue"),
         },
     ],
 });

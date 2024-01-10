@@ -1,17 +1,23 @@
 <template>
   <Header></Header>
-  <RouterView></RouterView>
+  <RouterView :key="key"></RouterView>
+  <Footer></Footer>
 </template>
 
 <script lang="ts" setup>
-import { watch, onMounted } from 'vue';
+import { watch, onMounted, ref } from 'vue';
 import { useColorMode } from '@/composables/useColorMode';
 import { useLocale, createLocale } from '@/composables/locales';
 
 import Header from "@/components/layout/Header.vue";
+import Footer from "@/components/layout/Footer.vue";
+import { useRoute } from 'vue-router';
 
 const { colorMode} = useColorMode();
 const { currentLocale } = useLocale();
+
+const route = useRoute();
+
 
 watch(
   () => colorMode.value,
@@ -23,6 +29,12 @@ watch(
     immediate: true
   }
 );
+
+const key = ref('');
+
+watch(()=>route.params,()=>{
+  key.value = route.params.page as string;
+},{deep:true})
 
 onMounted(async ()=>{
   await createLocale();

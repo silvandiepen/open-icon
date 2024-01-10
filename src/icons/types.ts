@@ -1,10 +1,10 @@
 export const Icons = {
     
-     O: "o",
-    
-     X: "x",
-    
      ABC: "abc",
+    
+     ACCESSIBILITY_CIRCLE: "accessibility-circle",
+    
+     ACCESSIBILITY: "accessibility",
     
      ALARM: "alarm",
     
@@ -128,6 +128,10 @@ export const Icons = {
     
      FEATHER: "feather",
     
+     FEMALE_SYMBOL: "female-symbol",
+    
+     FEMALE: "female",
+    
      FILM: "film",
     
      FILTER: "filter",
@@ -190,6 +194,12 @@ export const Icons = {
     
      MAGIC_WAND: "magic-wand",
     
+     MALE_FEMALE: "male-female",
+    
+     MALE_SYMBOL: "male-symbol",
+    
+     MALE: "male",
+    
      MAP: "map",
     
      MINUS_CIRCLE: "minus-circle",
@@ -243,6 +253,24 @@ export const Icons = {
      SETTINGS: "settings",
     
      SETTINGS2: "settings2",
+    
+     SHAPE_CIRCLE_FILLED: "shape-circle-filled",
+    
+     SHAPE_CIRCLE: "shape-circle",
+    
+     SHAPE_HEXAGON: "shape-hexagon",
+    
+     SHAPE_PENTAGON: "shape-pentagon",
+    
+     SHAPE_SQUARE_FILLED: "shape-square-filled",
+    
+     SHAPE_SQUARE: "shape-square",
+    
+     SHAPE_TRIANGLE: "shape-triangle",
+    
+     SHAPE_X_FILLED: "shape-x-filled",
+    
+     SHAPE_X: "shape-x",
     
      SHIFT: "shift",
     
@@ -298,6 +326,8 @@ export const Icons = {
     
      TRUCK: "truck",
     
+     UNISEX: "unisex",
+    
      UNLOCKED: "unlocked",
     
      USER_ADD: "user-add",
@@ -319,6 +349,10 @@ export const Icons = {
      VOLUME_ON: "volume-on",
     
      WATER: "water",
+    
+     WHEELCHAIR2: "wheelchair-2",
+    
+     WHEELCHAIR: "wheelchair",
     
      WINDOW_FRAME: "window-frame",
     

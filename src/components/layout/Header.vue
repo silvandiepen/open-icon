@@ -6,18 +6,13 @@
     <div :class="bemm('navigation')">
       <Navigation></Navigation>
     </div>
-    <div :class="bemm('tools')">
-      <Language></Language>
-      <ColorMode></ColorMode>
-    </div>
   </div>
 </template>
 
 <script lang="ts" setup>
 import { RouterLink } from "vue-router";
 import Navigation from "./Navigation.vue";
-import Language from "../control/Language.vue";
-import ColorMode from "../control/ColorMode.vue";
+import Logo from "../Logo.vue";
 import { useBemm } from "bemm";
 const bemm = useBemm("header");
 </script>
@@ -28,10 +23,24 @@ const bemm = useBemm("header");
   background-color: var(--primary);
   color: var(--primary-text);
   display: flex;
-  align-items: center;
+justify-content: space-between;  align-items: center;
   position: relative;
   gap: var(--space);
-  &__logo{text-decoration: none; color: inherit;}
+width: 100vw;overflow:hidden;
+
+
+
+&__navigation{
+  align-self: center;
+  justify-self: center;
+}
+
+&__logo{
+  justify-self: fstart;
+
+  text-decoration: none;
+  color: currentColor;
+}
   &__tools {
     position: absolute;
     top: 0;
@@ -40,6 +49,10 @@ const bemm = useBemm("header");
     background-color: var(--background);
     color: var(--foreground);
     padding: 1em;
+  }
+  @media screen and (max-width: 96ch) {
+    padding: 0; 
+    display: block;
   }
 }
 </style>

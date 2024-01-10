@@ -13,7 +13,7 @@
 
 <script lang="ts" setup>
 import { useBemm } from "bemm";
-import { RouterLink } from "vue-router"; 
+import { RouterLink } from "vue-router";
 
 import { getIcon } from "@/icons";
 import { Icons } from "@/icons/types";
@@ -37,13 +37,31 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
   &__list {
     display: flex;
     gap: 1em;
+
+    @media screen and (max-width: 96ch) {
+      gap: 0;
+      border-block: 1px solid white;
+      width: 100vw;
+      overflow: scroll;
+    }
   }
+
   &__icon {
     font-size: 3em;
-    color: white;
+    // color: white;
     line-height: 1em;
     width: 1em;
     height: 1em;
+    transform: scale(.75);
+
+    @media screen and (max-width: 96ch) {
+      font-size: 2em;
+
+    }
+  }
+
+  &__text {
+    opacity: .25;
   }
 
   &__link {
@@ -56,6 +74,7 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     padding: 1em;
     position: relative;
     z-index: 1;
+
     &::before {
       position: absolute;
       width: 100%;
@@ -69,27 +88,67 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
       border-radius: var(--border-radius, 1em);
       z-index: -1;
       transform: scale(.8);
-      transition: .3s ease-in;
       opacity: 0;
-      outline: 3px solid red;
 
     }
-    &:not(.router-link-active):hover::before {
-      outline-color: var(--primary-text);
-      opacity: .1;
-        transform: scale(1);
-      
+
+    @media screen and (max-width: 96ch) {
+      display: flex;
+      align-items: center;
+      gap: .5em;
+
+      &,
+      &::before {
+        border-radius: 0;
+      }
     }
-    &.router-link-active {
+
+
+    &:not(.router-link-active):hover::before {
+      opacity: .5;
+      transform: scale(1);
+
+    }
+
+    &:hover {
       &::before {
         transform: scale(1);
-        outline-color: var(--primary-text);
+        background-color: var(--background);
         opacity: 1;
       }
+
       .navigation__icon {
-        color: var(--primary-text);
+        transform: scale(1);
+      }
+
+      .navigation__text {
+        opacity: 1;
+      }
+      [color-mode="dark"] &{
+        color: white;
       }
     }
+
+    &.router-link-active {
+
+      [color-mode="dark"] &{
+        color: white;
+      }
+      &::before {
+        transform: scale(1);
+        background-color: var(--background);
+        opacity: 1;
+      }
+
+      .navigation__icon {
+        transform: scale(1);
+      }
+
+      .navigation__text {
+        opacity: 1;
+      }
+
+    }
+
   }
-}
-</style>
+}</style>

@@ -1,24 +1,111 @@
 <template>
   <h1 :class="bemm()">
-    Open Icon
-    <span>Foundation</span>
+    <component :class="bump ? 'bump' : ''" :is="getIcon(randomIcon)"></component>
+    <span>
+
+      Open Icon
+      <span>Foundation</span>
+    </span>
   </h1>
 </template>
 
 <script lang="ts" setup>
+import { ref, onMounted, watch } from "vue";
 import { useBemm } from "bemm";
+
+import { getIcon } from "@/icons";
+import { Icons } from "@/icons/types";
+
 const bemm = useBemm("logo");
+const bump = ref(false)
+
+const randomIcon = ref();
+const getRandomIcon = () => {
+  const keys = Object.values(Icons)
+  const randomIndex = Math.floor(Math.random() * keys.length)
+  return keys[randomIndex];
+}
+
+watch(() => randomIcon.value, () => {
+  bump.value = true;
+  setTimeout(() => {
+    bump.value = false;
+  }, 500)
+})
+    randomIcon.value = getRandomIcon()
+
+onMounted(() => {
+
+  setInterval(() => {
+    randomIcon.value = getRandomIcon()
+  }, 5000)
+
+})
+
 </script>
 
 <style lang="scss">
 .logo {
   font-size: 1.25em;
-  span {
-    font-weight: normal;
+  color: inherit;
+
+  text-decoration: none;
+  display: flex;
+  gap: 1em;
+
+
+
+  .icon {
+    flex-shrink: 0;
+    //idth: 1.25em;
+    background-color: white;
+    //border: 2px solid currentColor;
+    border-radius: .1em;
+    font-size: 2em;
+
+
+    &.bump svg {
+
+      animation: bump .5s forwards;
+
+      @keyframes bump {
+        20% {
+          
+          transform: scale(.5) translateX(-50%) rotate(45deg);
+        }
+        20.5% {
+          transform: scale(.5) translateX(50%) rotate(-45deg); 
+        }
+
+
+        50% {
+        
+          transform: scale(1.2); 
+        }
+
+        60% {
+          transform: scale(1)
+        }
+      }
+    }
+
+  }
+
+  span span {
+    display: block;
+    // font-weight: normal;
     opacity: 0.5;
     // display: block;
-    // text-transform: uppercase;
-    font-size: .75em;
+    text-transform: uppercase;
+    font-size: .7em;
+
+    letter-spacing: .05em;
+  }
+  @media screen and (max-width: 96ch) {
+    span{
+    display: flex;align-items: center; gap: 1em;
+      span{ display: none;}
+  }
   }
 }
 </style>

@@ -1,5 +1,9 @@
 <template>
   <div :class="bemm()">
+
+    <div class="random-icon">
+        <component :is="getIcon(randomIcon)"></component>
+      </div>
     <div :class="bemm('container')">
       <h1>
         <strong>Open</strong> <strong>Icon</strong><span>foundation</span>
@@ -10,9 +14,6 @@
       <h2>Through accessible icons, we're bridging cultures with a universal visual language, inspiring boundless creativity worldwide.</h2>
 
       <hr />
-      <div class="random-icon">
-        <component :is="getIcon(randomIcon)"></component>
-      </div>
       <div :class="bemm('numbers')">
         <div
           :class="bemm('entry')"
@@ -75,15 +76,21 @@ const { bemm } = useBemm("intro");
   position: absolute; right: 0; top: 50%; 
   transform: translate(25%,-50%);
   font-size:50vmin;
-  background-color: var(--foreground);
+  // background-color: var(--foreground);
   color: var(--background);
   border-radius: .1em;
   width: 1em; height: 1em;
+color: white;
 }
 
 .intro {
   background-color: var(--primary);
   color: var(--primary-text);
+  overflow: hidden;
+  width: 100vw; 
+  position: relative;
+  display: block; 
+  z-index: 5;
   hr {
     background-color: var(--primary-text);
   }
@@ -93,13 +100,17 @@ const { bemm } = useBemm("intro");
     margin: auto;
 
     padding: var(--space);
+    position: relative; z-index: 5;
   }
 
   h2 {
     font-size: 3em;
     // margin: auto;
     max-width: 960px;
+@media screen and (max-width: 96ch){
+font-size: 1.5em;
   }
+}
   h1 {
     font-size: 5em;
     word-break: break-all;
@@ -114,6 +125,10 @@ const { bemm } = useBemm("intro");
       //   font-size: 0.5em;
       //   text-align: right;
     }
+    @media screen and (max-width: 96ch){
+font-size: 2em;
+  }
+
   }
 
   &__numbers {

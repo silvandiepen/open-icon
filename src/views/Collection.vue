@@ -68,8 +68,9 @@ const filteredIcons = computed(() => {
 
 
 .collection {
+  accent-color: var(--primary);
   padding: var(--space);
-
+display: block; overflow: hidden;
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -110,36 +111,40 @@ const filteredIcons = computed(() => {
   }
 
   &__search {
-    border-radius: 0.5em;
-    border: none;
-    outline: 2px solid var(--foreground);
+    // border-radius: 0.5em;
+    // border: none;
+    // outline: 2px solid var(--foreground);
 
-    opacity: 0.25;
+    // opacity: 0.25;
 
-    &:has(:focus),
-    &:has(:not([value])) {
-      opacity: 1;
-    }
+    // &:has(:focus),
+    // &:has(:not([value])) {
+    //   opacity: 1;
+    // }
 
-    &:has(:focus) {
-      border: none;
-      outline: 2px solid var(--primary);
-    }
+    // &:has(:focus) {
+    //   border: none;
+    //   outline: 2px solid var(--primary);
+    // }
 
     display: flex;
     align-items: center;
   }
 
   &__control {
-    border: none;
-    padding: 0.5em;
-    line-height: 1em;
-    font-size: 1.25em;
-    outline: none;
+ padding: .5em;
+ &:focus{
+  outline-color: var(--primary)
+ }
+    // border: none;
+    // padding: 0.5em;
+    // line-height: 1em;
+    // font-size: 1.25em;
+    // outline: none;
 
-    &:focus {
-      outline: none;
-    }
+    // &:focus {
+    //   outline: none;
+    // }
   }
 
   &__search-icon {
