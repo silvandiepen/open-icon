@@ -7,7 +7,7 @@
 	<rect x="15" y="15" width="42" height="6"/>
 	<rect x="24" y="27" width="24" height="6"/>
 	<rect x="19.5" y="39" width="33" height="6"/>
-	<rect x="22.67" y="51" width="26.65" height="6"/>
+	<rect x="22.67" y="51" width="26.66" height="6"/>
 </g>
 
 </svg>

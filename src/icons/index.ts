@@ -11,6 +11,8 @@ import IconArrowCornerRight from "./arrow-corner-right.vue";
 import IconArrowDownLeft from "./arrow-down-left.vue";
 import IconArrowDownRight from "./arrow-down-right.vue";
 import IconArrowDown from "./arrow-down.vue";
+import IconArrowDownload from "./arrow-download.vue";
+import IconArrowExport from "./arrow-export.vue";
 import IconArrowLeft from "./arrow-left.vue";
 import IconArrowRight from "./arrow-right.vue";
 import IconArrowRotateLeft from "./arrow-rotate-left.vue";
@@ -18,6 +20,7 @@ import IconArrowRotateRight from "./arrow-rotate-right.vue";
 import IconArrowUpLeft from "./arrow-up-left.vue";
 import IconArrowUpRight from "./arrow-up-right.vue";
 import IconArrowUp from "./arrow-up.vue";
+import IconArrowUpload from "./arrow-upload.vue";
 import IconBackspace from "./backspace.vue";
 import IconBag2 from "./bag-2.vue";
 import IconBag from "./bag.vue";
@@ -218,6 +221,12 @@ export const getIcon = (icon: Icons)=>{
         case Icons.ARROW_DOWN:
             return IconArrowDown;
     
+        case Icons.ARROW_DOWNLOAD:
+            return IconArrowDownload;
+    
+        case Icons.ARROW_EXPORT:
+            return IconArrowExport;
+    
         case Icons.ARROW_LEFT:
             return IconArrowLeft;
     
@@ -238,6 +247,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.ARROW_UP:
             return IconArrowUp;
+    
+        case Icons.ARROW_UPLOAD:
+            return IconArrowUpload;
     
         case Icons.BACKSPACE:
             return IconBackspace;
@@ -750,6 +762,8 @@ export {
     IconArrowDownLeft,
     IconArrowDownRight,
     IconArrowDown,
+    IconArrowDownload,
+    IconArrowExport,
     IconArrowLeft,
     IconArrowRight,
     IconArrowRotateLeft,
@@ -757,6 +771,7 @@ export {
     IconArrowUpLeft,
     IconArrowUpRight,
     IconArrowUp,
+    IconArrowUpload,
     IconBackspace,
     IconBag2,
     IconBag,

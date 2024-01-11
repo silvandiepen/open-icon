@@ -3,9 +3,7 @@
     <div :class="bemm('container')">
 <svg x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 96 96;" xml:space="preserve">
     
-<g>
-	<path d="M18,39h36c1.66,0,3-1.34,3-3s-1.34-3-3-3H18c-1.66,0-3,1.34-3,3S16.34,39,18,39z"/>
-</g>
+<path d="M54,33H18c-1.66,0-3,1.34-3,3c0,1.66,1.34,3,3,3h36c1.66,0,3-1.34,3-3C57,34.34,55.66,33,54,33z"/>
 
 </svg>
     </div>

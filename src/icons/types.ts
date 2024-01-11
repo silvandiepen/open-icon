@@ -22,6 +22,10 @@ export const Icons = {
     
      ARROW_DOWN: "arrow-down",
     
+     ARROW_DOWNLOAD: "arrow-download",
+    
+     ARROW_EXPORT: "arrow-export",
+    
      ARROW_LEFT: "arrow-left",
     
      ARROW_RIGHT: "arrow-right",
@@ -35,6 +39,8 @@ export const Icons = {
      ARROW_UP_RIGHT: "arrow-up-right",
     
      ARROW_UP: "arrow-up",
+    
+     ARROW_UPLOAD: "arrow-upload",
     
      BACKSPACE: "backspace",
     

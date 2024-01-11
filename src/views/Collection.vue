@@ -16,9 +16,21 @@
         <InputRange v-model="size" :min="5" :max="25" />
       </div>
     </div>
-    {{ activeIcon }}
+
+    <div :class="bemm('category')">
+      <ul :class="bemm('category-list')">
+        <li :class="[bemm('category-item'), bemm('category-item', currentCategory == index ? 'active' : 'inactive')]"
+          v-for="(category, index) in allCategories" :key="index">
+          <RouterLink :class="bemm('category-link')" :to="`/collection/${index}`">
+            <component :class="bemm('category-icon')" :is="getIcon(category.icon)"></component>
+            <span :class="bemm('category-label')">{{ category.name }}</span>
+          </RouterLink>
+        </li>
+      </ul>
+    </div>
     <transition-group tag="ul" name="collection" :class="bemm('list')">
-      <li :class="[bemm('item'),bemm('item', activeIcon==icon ? 'active' : 'inactive')]" v-for="(icon, index) in filteredIcons" :key="index" tabindex="0" @click="setActive(icon)">
+      <li :class="[bemm('item'), bemm('item', activeIcon == icon ? 'active' : 'inactive')]"
+        v-for="(icon, index) in filteredIcons" :key="index" tabindex="0" @click="setActive(icon)">
         <component :is="getIcon(icon)" :class="bemm('icon')"></component>
         <span :class="bemm('label')">{{ icon }}</span>
       </li>
@@ -30,29 +42,78 @@
 import { ref, computed } from "vue";
 import { useBemm } from "bemm";
 
+import { categories } from "@/data/icon-categories";
+
 import { Icons } from "@/icons/types";
 import { getIcon } from "@/icons";
 import InputRange from "@/components/control/InputRange.vue";
 import InputText from "@/components/control/InputText.vue";
 import router from "@/router";
+import { useRoute } from "vue-router";
 
 const bemm = useBemm("collection");
+
+const route = useRoute();
 
 const size = ref(10);
 const activeIcon = ref();
 const setActive = (icon: string) => {
   activeIcon.value = icon;
-router.push(`/icon/${icon}`)
+  router.push(`/icon/${icon}`)
 };
 
+const currentCategory = computed(() => {
+  return route.params.category as string;
+})
+
+const allCategories = computed(() => {
+  return {
+    all: {
+      name: "All Icons",
+      icon: Icons.MORE,
+      items: []
+    },
+    ...categories,
+    misc: {
+      name: "Misc",
+      icon: Icons.MORE,
+      items: []
+    }
+  }
+})
 
 const filter = ref("");
 
 const icons = Object.values(Icons);
 
 const filteredIcons = computed(() => {
+
+  if (filter.value) {
+    return icons.filter((icon) => icon.includes(filter.value.toLowerCase()));
+  }
+
+  if (currentCategory.value) {
+    if(currentCategory.value == 'all'){
+      return icons;
+    }
+    if(currentCategory.value == 'misc'){
+      const allCategorized:any = Object.values(categories).reduce((acc:any, category) => {
+        return [...acc, ...category.items];
+      }, []);
+
+      const uncategorized = icons.filter((icon) => !allCategorized.includes(icon));
+      return uncategorized;
+    }
+
+    const iconsInCategory = categories[currentCategory.value].items;
+    return icons.filter((icon) => iconsInCategory.includes(icon));
+  }
+
+
   if (!filter.value) return icons;
   return icons.filter((icon) => icon.includes(filter.value.toLowerCase()));
+
+
 });
 </script>
   
@@ -77,6 +138,64 @@ const filteredIcons = computed(() => {
   display: block;
   overflow: hidden;
   position: relative;
+
+
+  &__category {
+    padding: var(--space);
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5em;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      @media screen and (max-width: 72em) {
+        gap: .5em;
+      }
+
+    }
+
+    &-link {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: .5em;
+      text-decoration: none;
+      color: var(--primary-text);
+      padding: var(--space);
+      background-color: var(--accent);
+      padding: calc(var(--space) / 2);
+      border-radius: var(--border-radius, 2em);
+      background-color: var(--accent);
+
+      // @media screen and (max-width: 72em) {
+      //   padding: var(--space) / 2;
+      // }
+
+      &:focus,
+      &:hover {
+        outline: 2px solid var(--primary);
+      }
+    }
+
+    &-item {
+
+      display: flex;
+
+      &--active {
+        .collection__category-link {
+          background-color: var(--primary);
+          color: var(--primary-text);
+        }
+      }
+
+    }
+
+
+  }
 
 
   &__title {
@@ -105,7 +224,6 @@ const filteredIcons = computed(() => {
       gap: 1em;
       padding: 1em;
       margin: 1em;
-      // flex-direction: column;
       flex-wrap: wrap;
       border-radius: 1em;
       align-items: flex-start;
@@ -119,10 +237,11 @@ const filteredIcons = computed(() => {
     gap: 0em;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(calc(var(--size) * 1em), 1fr));
-  @media screen and (max-width: 72em) {
-    grid-template-columns: repeat(auto-fill, minmax(calc(var(--size) * .8em), 1fr));
-  
-  }
+
+    @media screen and (max-width: 72em) {
+      grid-template-columns: repeat(auto-fill, minmax(calc(var(--size) * .8em), 1fr));
+
+    }
   }
 
   &__item {
@@ -149,6 +268,12 @@ const filteredIcons = computed(() => {
       color: var(--primary-text);
 
     }
+    &:hover{
+      .collection__label {
+       transform: translateY(0);
+      opacity: 1;
+      }
+    }
   }
 
   &__icon {
@@ -159,7 +284,9 @@ const filteredIcons = computed(() => {
     position: absolute;
     bottom: 1em;
     font-size: .875em;
-    opacity: 0.5;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all .2s ease-in-out;
   }
 
   &__showing {
@@ -181,5 +308,4 @@ const filteredIcons = computed(() => {
     }
 
   }
-}
-</style>
+}</style>
