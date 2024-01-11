@@ -16,8 +16,9 @@
         <InputRange v-model="size" :min="5" :max="25" />
       </div>
     </div>
+    {{ activeIcon }}
     <transition-group tag="ul" name="collection" :class="bemm('list')">
-      <li :class="bemm('item')" v-for="(icon, index) in filteredIcons" :key="index">
+      <li :class="[bemm('item'),bemm('item', activeIcon==icon ? 'active' : 'inactive')]" v-for="(icon, index) in filteredIcons" :key="index" tabindex="0" @click="setActive(icon)">
         <component :is="getIcon(icon)" :class="bemm('icon')"></component>
         <span :class="bemm('label')">{{ icon }}</span>
       </li>
@@ -33,10 +34,17 @@ import { Icons } from "@/icons/types";
 import { getIcon } from "@/icons";
 import InputRange from "@/components/control/InputRange.vue";
 import InputText from "@/components/control/InputText.vue";
+import router from "@/router";
 
 const bemm = useBemm("collection");
 
 const size = ref(10);
+const activeIcon = ref();
+const setActive = (icon: string) => {
+  activeIcon.value = icon;
+router.push(`/icon/${icon}`)
+};
+
 
 const filter = ref("");
 
@@ -119,7 +127,6 @@ const filteredIcons = computed(() => {
 
   &__item {
     position: relative;
-    transition: all 0.3s ease-in-out;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -131,12 +138,16 @@ const filteredIcons = computed(() => {
 
     // outline: 1px solid red;
 
+    &:focus,
     &:hover {
-      background-color: var(--primary);
+      outline: 2px solid var(--primary);
+    }
 
-      [color-mode="dark"] & {
-        background-color: var(--secondary);
-      }
+    &--active {
+      width: 2fr;
+      background-color: var(--primary);
+      color: var(--primary-text);
+
     }
   }
 
