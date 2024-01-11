@@ -1,16 +1,22 @@
 <template>
   <div :class="bemm()">
     <h3 :class="bemm('title')">
-      <component :is="getIcon(Icons.COLORMODE)"></component>Color Mode</h3>
-      <div :class="bemm('controls')">
-    <button :class="[bemm('button'), colorMode == ColorMode.DARK ? bemm('button','active') : bemm('button','inactive')]" @click="setColorMode(ColorMode.DARK)">
-      <component :class="[bemm('icon')]" :is="getIcon(Icons.MOON)" ></component>
-      <span :class="bemm('name')">{{ ColorMode.DARK }}</span>
-    </button>    
-    <button :class="[bemm('button'), colorMode == ColorMode.LIGHT ? bemm('button','active') : bemm('button','inactive')]" @click="setColorMode(ColorMode.LIGHT)">
-      <component :class="[bemm('icon'), colorMode == ColorMode.LIGHT ? bemm('icon','active') : bemm('icon','inactive')]" :is="getIcon(Icons.SUN)" ></component>
-      <span :class="bemm('name')">{{ ColorMode.LIGHT }}</span>
-    </button></div>
+      <component :is="getIcon(Icons.COLORMODE)"></component>Color Mode
+    </h3>
+    <div :class="bemm('controls')">
+      <button :class="[bemm('button'), colorMode == ColorMode.DARK ? bemm('button', 'active') : bemm('button', 'inactive')]"
+        @click="setColorMode(ColorMode.DARK)">
+        <component :class="[bemm('icon')]" :is="getIcon(Icons.MOON)"></component>
+        <span :class="bemm('name')">{{ ColorMode.DARK }}</span>
+      </button>
+      <button
+        :class="[bemm('button'), colorMode == ColorMode.LIGHT ? bemm('button', 'active') : bemm('button', 'inactive')]"
+        @click="setColorMode(ColorMode.LIGHT)">
+        <component :class="[bemm('icon'), colorMode == ColorMode.LIGHT ? bemm('icon', 'active') : bemm('icon', 'inactive')]"
+          :is="getIcon(Icons.SUN)"></component>
+        <span :class="bemm('name')">{{ ColorMode.LIGHT }}</span>
+      </button>
+    </div>
   </div>
 </template>
 
@@ -29,9 +35,10 @@ const { colorMode, setColorMode } = useColorMode();
 <style lang="scss">
 .colormode {
 
-  display: flex; 
-  gap : 1em; 
+  display: flex;
+  gap: 1em;
   flex-direction: column;
+
   &__button {
     background-color: transparent;
     border: none;
@@ -43,7 +50,12 @@ const { colorMode, setColorMode } = useColorMode();
     border-radius: .5em;
     padding: 1em;
     gap: .5em;
-&--active{background-color: var(--primary); color: var(--primary-text)}
+    font-size: 1em;
+
+    &--active {
+      background-color: var(--primary);
+      color: var(--primary-text)
+    }
   }
 
   &__icon {
@@ -52,15 +64,18 @@ const { colorMode, setColorMode } = useColorMode();
     font-size: 1.75em;
   }
 
-  &__title{
+  &__title {
 
-display: flex; align-items: center;    .icon{
+    display: flex;
+    align-items: center;
+
+    .icon {
       font-size: 2em;
     }
 
   }
+
   &__controls {
     display: flex;
   }
-}
-</style>
+}</style>

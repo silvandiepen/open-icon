@@ -147,6 +147,8 @@ const { bemm } = useBemm("intro");
 
   hr {
     background-color: currentColor;
+    color: currentColor;
+    border-radius: 2px;
   }
 
   &__container {

@@ -68,23 +68,24 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     }
 
     @media screen and (max-width: 72em) {
-    .header--off-top & {
-      background-color: var(--primary);
-      border-radius: 1em;
-      margin: 1em;
-      flex-direction: column;
-      width: fit-content;
-      top: 50%;
-      left: 50%;
-      position: fixed;
-      transform: translate(-50%, -50%) scale(0);
+      .header--off-top & {
+        background-color: var(--primary);
+        border-radius: 1em;
+        margin: 1em;
+        flex-direction: column;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        transform: translate(-50%, -50%) scale(0);
 
-    }
+      }
 
-    .header__navigation--active & {    .header--off-top & {
-      transform: translate(-50%, -50%) scale(1);
-    }
-  }
+      .header__navigation--active & {
+        .header--off-top & {
+          transform: translate(-50%, -50%) scale(1);
+        }
+      }
     }
   }
 
@@ -138,6 +139,7 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     padding: 1em;
     position: relative;
     z-index: 1;
+    font-size: 1em;
 
     &::before {
       position: absolute;
@@ -237,4 +239,5 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     }
 
   }
-}</style>
+}
+</style>

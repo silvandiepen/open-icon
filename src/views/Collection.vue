@@ -111,12 +111,17 @@ const filteredIcons = computed(() => {
     padding: var(--space);
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 0em;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(calc(var(--size) * 1em), 1fr));
+  @media screen and (max-width: 72em) {
+    grid-template-columns: repeat(auto-fill, minmax(calc(var(--size) * .8em), 1fr));
+  
+  }
   }
 
   &__item {
+    position: relative;
     transition: all 0.3s ease-in-out;
     text-align: center;
     align-items: center;
@@ -126,6 +131,8 @@ const filteredIcons = computed(() => {
     flex-direction: column;
     border-radius: 1em;
     font-size: calc((var(--size) / 10) * 1em);
+
+    // outline: 1px solid red;
 
     &:hover {
       background-color: var(--primary);
@@ -141,7 +148,9 @@ const filteredIcons = computed(() => {
   }
 
   &__label {
-    font-size: 1em;
+    position: absolute;
+    bottom: 1em;
+    font-size: .875em;
     opacity: 0.5;
   }
 

@@ -79,7 +79,11 @@ onMounted(() => {
   &__menu-trigger {
     width: 3em;
     height: 3em;
-    margin: 1.5em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    margin: 3em;
     border-radius: 1em;
     background-color: var(--foreground);
     border: none;
@@ -96,6 +100,14 @@ onMounted(() => {
       width: 1.5em;
       height: .2em;
       background-color: var(--background);
+
+      &,
+      &::before,
+      &::after {
+        transition: transform .3s;
+
+
+      }
 
       &::before,
       &::after {

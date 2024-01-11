@@ -52,6 +52,7 @@ const { fontSize, setFontSize } = useUI();
     border-radius: .5em;
     padding: 1em;
     gap: .5em;
+    font-size: 1em;
 
     &--active {
       background-color: var(--primary);
