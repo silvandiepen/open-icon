@@ -130,6 +130,8 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     height: 1em;
     transform: scale(.75);
 
+    transition: transform .2s ease-in-out;
+
     @media screen and (max-width: 72em) {
       font-size: 2em;
 
@@ -142,23 +144,6 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
       font-size: .75em;
     }
 
-    //     @media screen and (max-width: 45em) {
-    //       position: absolute;
-    // opacity: .25;
-    // bottom: 0; 
-    // left: 50%; 
-    // font-weight: bold;
-    // transform: translateY(100%) translateX(-50%);
-
-    // font-size: .75em;
-    // padding-block: .5em;
-    // // top: 50%; left: 50%; 
-    // // transform-origin: 0 0 ;
-    // // transform: translateY(-50%) rotate(-45deg) translateX(1em); 
-    //       // transform: translateX(-50%) translateY(100%);
-
-
-    //     }
   }
 
   &__link {
@@ -215,16 +200,8 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
       }
     }
 
-
-    // &:not(.router-link-active){
-    //   @media screen and (max-width: 25em){
-    //     padding: .5em;
-    // }
-
-    // }
-
     &:not(.router-link-active):hover::before {
-      opacity: .5;
+      opacity: 1;
       transform: scale(1);
 
     }
@@ -232,8 +209,10 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     &:hover {
       &::before {
         transform: scale(1);
-        background-color: var(--background);
+        // background-color: var(--background);
         opacity: 1;
+        box-shadow: 0 0 0 2px var(--foreground) inset;
+        // outline: 2px solid var(--foreground);
       }
 
       .navigation__icon {

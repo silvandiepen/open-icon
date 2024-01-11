@@ -4,7 +4,7 @@
       <RouterLink :class="bemm('logo')" to="/">
         <Logo></Logo>
       </RouterLink>
-      <button @click="menuActive = !menuActive"
+      <button aria-label="Menu trigger" @click="menuActive = !menuActive"
         :class="[bemm('menu-trigger'), bemm('menu-trigger', menuTriggerActive ? 'visible' : 'invisible'), bemm('menu-trigger', menuActive ? 'active' : 'inactive')]">
         <span></span></button>
     </div>

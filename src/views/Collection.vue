@@ -28,13 +28,13 @@
         </li>
       </ul>
     </div>
-    <transition-group tag="ul" name="collection" :class="bemm('list')">
+    <ul :class="bemm('list')">
       <li :class="[bemm('item'), bemm('item', activeIcon == icon ? 'active' : 'inactive')]"
         v-for="(icon, index) in filteredIcons" :key="index" tabindex="0" @click="setActive(icon)">
         <component :is="getIcon(icon)" :class="bemm('icon')"></component>
         <span :class="bemm('label')">{{ icon }}</span>
       </li>
-    </transition-group>
+    </ul>
   </div>
 </template>
   
@@ -125,21 +125,6 @@ watch(() => route.params.category, () => {
 </script>
   
 <style lang="scss">
-.collection-enter-from,
-.collection-leave-to {
-  opacity: 0;
-  transform: translateY(30px);
-}
-
-.collection-leave-active {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 0;
-}
-
-
-
 .collection {
   accent-color: var(--primary);
   display: block;
@@ -178,18 +163,14 @@ watch(() => route.params.category, () => {
       border-radius: var(--border-radius, 2em);
       background-color: var(--accent);
 
-      // @media screen and (max-width: 72em) {
-      //   padding: var(--space) / 2;
-      // }
-
       &:focus,
       &:hover {
+        background-color: transparent;
         outline: 2px solid var(--primary);
       }
     }
 
     &-item {
-
       display: flex;
 
       &--active {
@@ -198,10 +179,7 @@ watch(() => route.params.category, () => {
           color: var(--primary-text);
         }
       }
-
     }
-
-
   }
 
 
