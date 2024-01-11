@@ -1,5 +1,5 @@
 <template>
-    <div :class="bemm()">
+    <div :class="bemm()" v-if="pageContent">
         <aside :class="bemm('sidebar')">
             <ul :class="bemm('tree')">
                 <li :class="bemm('tree-item')" v-for="item in tree">
