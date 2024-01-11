@@ -20,6 +20,7 @@ import { RouterLink, useRoute } from "vue-router";
 import Navigation from "./Navigation.vue";
 import Logo from "../Logo.vue";
 import { useBemm } from "bemm";
+import { EventChannel, EventType, eventBus } from "@/utils/eventBus";
 
 
 const route = useRoute();
@@ -45,6 +46,14 @@ onMounted(() => {
   window.addEventListener("scroll", () => {
     setOnTop();
   });
+
+  eventBus.on(EventChannel.ACTION, (event: unknown) => {
+    if ((event as any).type === EventType.MENU_TOGGLE) {
+      menuActive.value = !menuActive.value;
+    }
+  })
+
+
 });
 
 
@@ -80,10 +89,8 @@ onMounted(() => {
     width: 3em;
     height: 3em;
     position: absolute;
-    top: 0;
+    top: 50%;
     right: 0;
-    transform: translate(-50%, -50%);
-    margin: 3em;
     border-radius: 1em;
     background-color: var(--foreground);
     border: none;
@@ -147,13 +154,15 @@ onMounted(() => {
     }
 
     &--visible {
-      transform: scale(1);
+      transform: scale(1) translate(-50%, -50%);
+      ;
 
     }
 
     &--invisible {
       opacity: 0;
-      transform: scale(0);
+      transform: scale(0) translate(-50%, -50%);
+      ;
     }
   }
 

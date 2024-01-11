@@ -44,6 +44,7 @@
     "@yankeeinlondon/code-builder": "^1.2.1",
     "@yankeeinlondon/link-builder": "^1.2.1",
     "@yankeeinlondon/meta-builder": "^1.4.0",
+    "mitt": "^3.0.1",
     "sass": "^1.69.7",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",

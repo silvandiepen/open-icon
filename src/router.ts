@@ -14,4 +14,7 @@ export default createRouter({
             component: () => import("@/views/Page.vue"),
         },
     ],
+    scrollBehavior() {
+        return { top: 0, left: 0 }
+    }
 });

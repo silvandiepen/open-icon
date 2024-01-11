@@ -36,6 +36,7 @@ const bemm = useBemm("icon");
     path,
     rect,
     circle,
+    ellipse,
     polygon {
       &:not([fill]) {
         fill: currentColor;

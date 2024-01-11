@@ -1,5 +1,6 @@
 <template>
   <nav :class="bemm()">
+    <div :class="bemm('background')" @click="toggleMenu"></div>
     <ul :class="[bemm('list'), isWrapped && bemm('list', 'wrapped')]">
       <li :class="bemm('item')" v-for="(item, idx) in menuItems" :key="idx">
         <RouterLink :class="bemm('link')" :to="item.link">
@@ -18,6 +19,7 @@ import { RouterLink } from "vue-router";
 
 import { getIcon } from "@/icons";
 import { Icons } from "@/icons/types";
+import { EventChannel, EventType, eventBus } from "@/utils/eventBus";
 
 
 const bemm = useBemm("navigation");
@@ -31,6 +33,13 @@ const checkWrapped = () => {
 
   isWrapped.value = !!(lastElement.bottom > firstElement.bottom);
 
+}
+
+const toggleMenu = () => {
+
+  eventBus.emit(EventChannel.ACTION, {
+    type: EventType.MENU_TOGGLE
+  })
 }
 
 onMounted(() => {
@@ -51,6 +60,28 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
 
 <style lang="scss">
 .navigation {
+
+  &__background {
+    background-color: rgba(0, 0, 0, .25);
+
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    pointer-events: none;
+    transition: opacity .2s ease-in-out;
+
+    .header--off-top .header__navigation--active & {
+      @media screen and (max-width: 72em) {
+        opacity: 1;
+        pointer-events: all;
+
+      }
+    }
+  }
+
   &__list {
     display: flex;
 
@@ -77,12 +108,14 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
         top: 50%;
         left: 50%;
         position: fixed;
-        transform: translate(-50%, -50%) scale(0);
-
+        opacity: 0; 
+        transform: translate(-50%, 50%) scale(.5);
+        transition: all .3s ease-in-out;
       }
 
       .header__navigation--active & {
         .header--off-top & {
+          opacity: 1;
           transform: translate(-50%, -50%) scale(1);
         }
       }
@@ -167,9 +200,10 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
       &::before {
         border-radius: 1em 1em 0 0;
 
+
+        .header--off-top .header__navigation--active &,
         .navigation__list--wrapped & {
           border-radius: 1em;
-
         }
 
       }
@@ -239,5 +273,4 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     }
 
   }
-}
-</style>
+}</style>
