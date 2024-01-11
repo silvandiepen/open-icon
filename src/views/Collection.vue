@@ -39,7 +39,7 @@
 </template>
   
 <script lang="ts" setup>
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 import { useBemm } from "bemm";
 
 import { categories } from "@/data/icon-categories";
@@ -93,11 +93,11 @@ const filteredIcons = computed(() => {
   }
 
   if (currentCategory.value) {
-    if(currentCategory.value == 'all'){
+    if (currentCategory.value == 'all') {
       return icons;
     }
-    if(currentCategory.value == 'misc'){
-      const allCategorized:any = Object.values(categories).reduce((acc:any, category) => {
+    if (currentCategory.value == 'misc') {
+      const allCategorized: any = Object.values(categories).reduce((acc: any, category) => {
         return [...acc, ...category.items];
       }, []);
 
@@ -114,7 +114,14 @@ const filteredIcons = computed(() => {
   return icons.filter((icon) => icon.includes(filter.value.toLowerCase()));
 
 
+
+
 });
+
+
+watch(() => route.params.category, () => {
+  filter.value = "";
+})
 </script>
   
 <style lang="scss">
@@ -268,10 +275,11 @@ const filteredIcons = computed(() => {
       color: var(--primary-text);
 
     }
-    &:hover{
+
+    &:hover {
       .collection__label {
-       transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
       }
     }
   }
@@ -308,4 +316,5 @@ const filteredIcons = computed(() => {
     }
 
   }
-}</style>
+}
+</style>
