@@ -183,7 +183,17 @@ onMounted(() => {
 
     text-decoration: none;
     color: currentColor;
+    border-radius: 1em;
 
+    .tabbed & {
+      &:focus {
+        outline: 2px solid var(--foreground);
+
+        .logo {
+          transform: scale(.9)
+        }
+      }
+    }
   }
 
   &__tools {

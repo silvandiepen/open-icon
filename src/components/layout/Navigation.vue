@@ -108,7 +108,7 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
         top: 50%;
         left: 50%;
         position: fixed;
-        opacity: 0; 
+        opacity: 0;
         transform: translate(-50%, 50%) scale(.5);
         transition: all .3s ease-in-out;
       }
@@ -173,6 +173,12 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     position: relative;
     z-index: 1;
     font-size: 1em;
+
+    .tabbed & {
+      &:focus {
+        outline: 2px solid var(--foreground);
+      }
+    }
 
     &::before {
       position: absolute;
@@ -273,4 +279,5 @@ const menuItems: { label: string; link: string; icon: Icon }[] = [
     }
 
   }
-}</style>
+}
+</style>

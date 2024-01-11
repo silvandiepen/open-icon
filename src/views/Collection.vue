@@ -23,9 +23,6 @@
       </li>
     </transition-group>
   </div>
-  <div :class="[bemm('content'), 'content']">
-    <ContentDoc path="/collection-description" />
-  </div>
 </template>
   
 <script lang="ts" setup>

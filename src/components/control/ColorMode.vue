@@ -51,7 +51,11 @@ const { colorMode, setColorMode } = useColorMode();
     padding: 1em;
     gap: .5em;
     font-size: 1em;
-
+    .tabbed & {
+      &:focus{
+        outline: 2px solid var(--foreground);
+      }
+    }
     &--active {
       background-color: var(--primary);
       color: var(--primary-text)
