@@ -10,7 +10,7 @@
 <script lang="ts" setup>
 import { watch, onMounted, ref, computed } from 'vue';
 import { useColorMode } from '@/composables/useColorMode';
-import { useLocale, createLocale } from '@/composables/locales';
+import { createLocale } from '@/composables/locales';
 
 import Header from "@/components/layout/Header.vue";
 import Footer from "@/components/layout/Footer.vue";
@@ -19,7 +19,6 @@ import { useUI } from './composables/useUI';
 import { FontSize } from './types';
 
 const { colorMode } = useColorMode();
-// const { currentLocale } = useLocale();
 const { fontSize } = useUI();
 
 const route = useRoute();
