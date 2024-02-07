@@ -14,14 +14,9 @@
   ],
   "exports": {
     ".": {
-      "import": {
-        "default": "./lib/open-icon.js",
-        "types": "./lib/open-icon.d.ts"
-      },
-      "require": {
-        "default": "./lib/open-icon.cjs",
-        "types": "./lib/open-icon.d.ts"
-      }
+      "require": "./lib/open-icon.cjs",
+      "import": "./lib/open-icon.js",
+      "types":"./lib/open-icon.d.ts"
     }
   },
   "scripts": {

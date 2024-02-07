@@ -5,6 +5,7 @@
 <script lang="ts" setup>
 import { Icons } from "./types";
 import { shallowRef, PropType, watch, defineProps } from "vue";
+import { getIcon } from ".";
 
 const props = defineProps({
   name: {
@@ -16,11 +17,8 @@ const props = defineProps({
 const iconComponent = shallowRef<any>(null);
 
 const setData = async () => {
-  const data = await import(
-    /* @vite-ignore */ `../icons/${props.name}.vue`
-  ).then((r) => r);
-
-  iconComponent.value = data.default;
+  const data = getIcon(props.name);
+  iconComponent.value = data;
 };
 
 watch(

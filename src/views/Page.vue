@@ -25,6 +25,7 @@ const pageContent = shallowRef();
 const loadContent = async () => {
     pageContent.value = await import(`@/content/${route.params.page}.md`).then(res => { return res.default })
 }
+
 type Tree = { label: string, link: string }[]
 
 const tree = ref<Tree>([])

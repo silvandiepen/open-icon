@@ -6,6 +6,8 @@ export const Icons = {
     
      ACCESSIBILITY: "accessibility",
     
+     ADDRESS_BOOOK: "address-boook",
+    
      ALARM: "alarm",
     
      APPS_PLUS: "apps-plus",
@@ -50,17 +52,29 @@ export const Icons = {
     
      BELL: "bell",
     
+     BICYCLE: "bicycle",
+    
      BOOK: "book",
     
      BOOK2: "book2",
     
      BOOKS: "books",
     
+     BOX_OPEN: "box-open",
+    
+     BOX: "box",
+    
      BUCKET: "bucket",
     
      BULB: "bulb",
     
      CAMERA: "camera",
+    
+     CAR_RENTAL: "car-rental",
+    
+     CAR_TAXI: "car-taxi",
+    
+     CAR: "car",
     
      CASE: "case",
     
@@ -75,6 +89,8 @@ export const Icons = {
      CHEVRON_RIGHT: "chevron-right",
     
      CHEVRON_UP: "chevron-up",
+    
+     CHURCH: "church",
     
      CITY_BUILDINGS: "city-buildings",
     
@@ -128,7 +144,17 @@ export const Icons = {
     
      EDIT: "edit",
     
+     ELEVATOR: "elevator",
+    
+     EMAIL_LETTER: "email-letter",
+    
+     EMAIL: "email",
+    
      ERASE: "erase",
+    
+     ESCALATOR_DOWN: "escalator-down",
+    
+     ESCALATOR_UP: "escalator-up",
     
      FACE: "face",
     
@@ -138,9 +164,15 @@ export const Icons = {
     
      FEMALE: "female",
     
+     FERRY: "ferry",
+    
      FILM: "film",
     
      FILTER: "filter",
+    
+     FIRE_EXTINGUISHER: "fire-extinguisher",
+    
+     FIRE_HOSE: "fire-hose",
     
      FIRE: "fire",
     
@@ -154,6 +186,8 @@ export const Icons = {
     
      GRADUATION_CAP: "graduation-cap",
     
+     GRAVEYARD: "graveyard",
+    
      GRID: "grid",
     
      HEADPHONES: "headphones",
@@ -163,6 +197,8 @@ export const Icons = {
      HEART: "heart",
     
      HELP: "help",
+    
+     HOME2: "home-2",
     
      HOME: "home",
     
@@ -198,7 +234,19 @@ export const Icons = {
     
      LOCKED: "locked",
     
+     LUGGAGE_BELT: "luggage-belt",
+    
+     LUGGAGE_LOCKER: "luggage-locker",
+    
+     LUGGAGE_SPECIAL: "luggage-special",
+    
+     LUGGAGE_TROLLEY: "luggage-trolley",
+    
      MAGIC_WAND: "magic-wand",
+    
+     MALE_FEMALE_SHAPE_FILLED: "male-female-shape-filled",
+    
+     MALE_FEMALE_SHAPE: "male-female-shape",
     
      MALE_FEMALE: "male-female",
     
@@ -207,6 +255,8 @@ export const Icons = {
      MALE: "male",
     
      MAP: "map",
+    
+     MEETING_POINT: "meeting-point",
     
      MINUS_CIRCLE: "minus-circle",
     
@@ -219,6 +269,26 @@ export const Icons = {
      MORE: "more",
     
      MUSIC: "music",
+    
+     NON_SMOKING: "non-smoking",
+    
+     NOTE_ADD: "note-add",
+    
+     NOTE_CHECK: "note-check",
+    
+     NOTE_DELETE: "note-delete",
+    
+     NOTE_TEXT: "note-text",
+    
+     NOTE: "note",
+    
+     ORDER_ASC_ARROW: "order-asc-arrow",
+    
+     ORDER_ASC: "order-asc",
+    
+     ORDER_DESC_ARROW: "order-desc-arrow",
+    
+     ORDER_DESC: "order-desc",
     
      PAPERCLIP: "paperclip",
     
@@ -246,15 +316,23 @@ export const Icons = {
     
      RECYCLE: "recycle",
     
+     RED_CROSS: "red-cross",
+    
+     RELOAD: "reload",
+    
      ROCKET: "rocket",
     
      ROTATE_SCREEN: "rotate-screen",
     
      SAD: "sad",
     
+     SCRAPBOOK: "scrapbook",
+    
      SEARCH: "search",
     
      SECURE: "secure",
+    
+     SECURITY_CAMERA: "security-camera",
     
      SETTINGS: "settings",
     
@@ -284,6 +362,8 @@ export const Icons = {
     
      SMILE: "smile",
     
+     SMOKING: "smoking",
+    
      SPEAK: "speak",
     
      SPEECH_SQUARE_CHAT: "speech-square-chat",
@@ -291,6 +371,12 @@ export const Icons = {
      SPEECH_SQUARE_DOUBLE: "speech-square-double",
     
      SPEECH_SQUARE: "speech-square",
+    
+     STAIRS_DOWN: "stairs-down",
+    
+     STAIRS_UP: "stairs-up",
+    
+     STAIRS: "stairs",
     
      SUITCASE: "suitcase",
     
@@ -354,7 +440,11 @@ export const Icons = {
     
      VOLUME_ON: "volume-on",
     
+     WARDROBE: "wardrobe",
+    
      WATER: "water",
+    
+     WEBSITE: "website",
     
      WHEELCHAIR2: "wheelchair-2",
     

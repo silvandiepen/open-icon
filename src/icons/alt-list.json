@@ -6,6 +6,8 @@
     
         "accessibility",
     
+        "address-boook",
+    
         "alarm",
     
         "apps-plus",
@@ -50,17 +52,29 @@
     
         "bell",
     
+        "bicycle",
+    
         "book",
     
         "book2",
     
         "books",
     
+        "box-open",
+    
+        "box",
+    
         "bucket",
     
         "bulb",
     
         "camera",
+    
+        "car-rental",
+    
+        "car-taxi",
+    
+        "car",
     
         "case",
     
@@ -75,6 +89,8 @@
         "chevron-right",
     
         "chevron-up",
+    
+        "church",
     
         "city-buildings",
     
@@ -128,7 +144,17 @@
     
         "edit",
     
+        "elevator",
+    
+        "email-letter",
+    
+        "email",
+    
         "erase",
+    
+        "escalator-down",
+    
+        "escalator-up",
     
         "face",
     
@@ -138,9 +164,15 @@
     
         "female",
     
+        "ferry",
+    
         "film",
     
         "filter",
+    
+        "fire-extinguisher",
+    
+        "fire-hose",
     
         "fire",
     
@@ -154,6 +186,8 @@
     
         "graduation-cap",
     
+        "graveyard",
+    
         "grid",
     
         "headphones",
@@ -163,6 +197,8 @@
         "heart",
     
         "help",
+    
+        "home-2",
     
         "home",
     
@@ -198,7 +234,19 @@
     
         "locked",
     
+        "luggage-belt",
+    
+        "luggage-locker",
+    
+        "luggage-special",
+    
+        "luggage-trolley",
+    
         "magic-wand",
+    
+        "male-female-shape-filled",
+    
+        "male-female-shape",
     
         "male-female",
     
@@ -207,6 +255,8 @@
         "male",
     
         "map",
+    
+        "meeting-point",
     
         "minus-circle",
     
@@ -219,6 +269,26 @@
         "more",
     
         "music",
+    
+        "non-smoking",
+    
+        "note-add",
+    
+        "note-check",
+    
+        "note-delete",
+    
+        "note-text",
+    
+        "note",
+    
+        "order-asc-arrow",
+    
+        "order-asc",
+    
+        "order-desc-arrow",
+    
+        "order-desc",
     
         "paperclip",
     
@@ -246,15 +316,23 @@
     
         "recycle",
     
+        "red-cross",
+    
+        "reload",
+    
         "rocket",
     
         "rotate-screen",
     
         "sad",
     
+        "scrapbook",
+    
         "search",
     
         "secure",
+    
+        "security-camera",
     
         "settings",
     
@@ -284,6 +362,8 @@
     
         "smile",
     
+        "smoking",
+    
         "speak",
     
         "speech-square-chat",
@@ -291,6 +371,12 @@
         "speech-square-double",
     
         "speech-square",
+    
+        "stairs-down",
+    
+        "stairs-up",
+    
+        "stairs",
     
         "suitcase",
     
@@ -354,7 +440,11 @@
     
         "volume-on",
     
+        "wardrobe",
+    
         "water",
+    
+        "website",
     
         "wheelchair-2",
     
