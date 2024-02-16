@@ -1,5 +1,6 @@
 import { Icons } from "./types";
 
+import IconAa from "./aa.vue";
 import IconAbc from "./abc.vue";
 import IconAccessibilityCircle from "./accessibility-circle.vue";
 import IconAccessibility from "./accessibility.vue";
@@ -18,6 +19,7 @@ import IconArrowLeft from "./arrow-left.vue";
 import IconArrowRight from "./arrow-right.vue";
 import IconArrowRotateLeft from "./arrow-rotate-left.vue";
 import IconArrowRotateRight from "./arrow-rotate-right.vue";
+import IconArrowSplit from "./arrow-split.vue";
 import IconArrowUpLeft from "./arrow-up-left.vue";
 import IconArrowUpRight from "./arrow-up-right.vue";
 import IconArrowUp from "./arrow-up.vue";
@@ -32,6 +34,7 @@ import IconBook2 from "./book2.vue";
 import IconBooks from "./books.vue";
 import IconBoxOpen from "./box-open.vue";
 import IconBox from "./box.vue";
+import IconBrackets from "./brackets.vue";
 import IconBucket from "./bucket.vue";
 import IconBulb from "./bulb.vue";
 import IconCamera from "./camera.vue";
@@ -57,6 +60,7 @@ import IconColormode from "./colormode.vue";
 import IconColormode2 from "./colormode2.vue";
 import IconColormode3 from "./colormode3.vue";
 import IconCompass from "./compass.vue";
+import IconCowboyHat from "./cowboy-hat.vue";
 import IconCreditcard from "./creditcard.vue";
 import IconCube3D from "./cube-3-d.vue";
 import IconDesktop from "./desktop.vue";
@@ -78,6 +82,7 @@ import IconEmail from "./email.vue";
 import IconErase from "./erase.vue";
 import IconEscalatorDown from "./escalator-down.vue";
 import IconEscalatorUp from "./escalator-up.vue";
+import IconExclamationCircle from "./exclamation-circle.vue";
 import IconFace from "./face.vue";
 import IconFeather from "./feather.vue";
 import IconFemaleSymbol from "./female-symbol.vue";
@@ -92,6 +97,7 @@ import IconFish from "./fish.vue";
 import IconFlag from "./flag.vue";
 import IconFloppyDisk from "./floppy-disk.vue";
 import IconFolder from "./folder.vue";
+import IconGalerija from "./galerija.vue";
 import IconGraduationCap from "./graduation-cap.vue";
 import IconGraveyard from "./graveyard.vue";
 import IconGrid from "./grid.vue";
@@ -115,6 +121,7 @@ import IconLaptop from "./laptop.vue";
 import IconLayers from "./layers.vue";
 import IconLayout from "./layout.vue";
 import IconLeaf from "./leaf.vue";
+import IconList from "./list.vue";
 import IconLocationMarker from "./location-marker.vue";
 import IconLocked from "./locked.vue";
 import IconLuggageBelt from "./luggage-belt.vue";
@@ -150,6 +157,7 @@ import IconPath1 from "./path-1.vue";
 import IconPath2 from "./path-2.vue";
 import IconPath3 from "./path-3.vue";
 import IconPath4 from "./path-4.vue";
+import IconPercentage from "./percentage.vue";
 import IconPlusCircle from "./plus-circle.vue";
 import IconPlus from "./plus.vue";
 import IconPresent from "./present.vue";
@@ -157,6 +165,7 @@ import IconPrint from "./print.vue";
 import IconPushpin from "./pushpin.vue";
 import IconPuzzlePiece from "./puzzle-piece.vue";
 import IconQuestionMark from "./question-mark.vue";
+import IconQuestionmarkCircle from "./questionmark-circle.vue";
 import IconRecycle from "./recycle.vue";
 import IconRedCross from "./red-cross.vue";
 import IconReload from "./reload.vue";
@@ -172,7 +181,10 @@ import IconSettings2 from "./settings2.vue";
 import IconShapeCircleFilled from "./shape-circle-filled.vue";
 import IconShapeCircle from "./shape-circle.vue";
 import IconShapeHexagon from "./shape-hexagon.vue";
+import IconShapeLeftTriangle from "./shape-left-triangle.vue";
 import IconShapePentagon from "./shape-pentagon.vue";
+import IconShapeQuarterCircle from "./shape-quarter-circle.vue";
+import IconShapeRhombus from "./shape-rhombus.vue";
 import IconShapeSquareFilled from "./shape-square-filled.vue";
 import IconShapeSquare from "./shape-square.vue";
 import IconShapeTriangle from "./shape-triangle.vue";
@@ -207,6 +219,7 @@ import IconTileClose from "./tile-close.vue";
 import IconTileEdit from "./tile-edit.vue";
 import IconTilePlus from "./tile-plus.vue";
 import IconTile from "./tile.vue";
+import IconTools from "./tools.vue";
 import IconTrash from "./trash.vue";
 import IconTruck from "./truck.vue";
 import IconUnisex from "./unisex.vue";
@@ -221,7 +234,10 @@ import IconVisible from "./visible.vue";
 import IconVolumeOff from "./volume-off.vue";
 import IconVolumeOn from "./volume-on.vue";
 import IconWardrobe from "./wardrobe.vue";
+import IconWarningTriangle from "./warning-triangle.vue";
 import IconWater from "./water.vue";
+import IconWateringCan from "./watering-can.vue";
+import IconWaves from "./waves.vue";
 import IconWebsite from "./website.vue";
 import IconWheelchair2 from "./wheelchair-2.vue";
 import IconWheelchair from "./wheelchair.vue";
@@ -232,6 +248,9 @@ import IconWorld from "./world.vue";
 
 export const getIcon = (icon: Icons)=>{
     switch(icon){
+    
+        case Icons.AA:
+            return IconAa;
     
         case Icons.ABC:
             return IconAbc;
@@ -287,6 +306,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.ARROW_ROTATE_RIGHT:
             return IconArrowRotateRight;
     
+        case Icons.ARROW_SPLIT:
+            return IconArrowSplit;
+    
         case Icons.ARROW_UP_LEFT:
             return IconArrowUpLeft;
     
@@ -328,6 +350,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.BOX:
             return IconBox;
+    
+        case Icons.BRACKETS:
+            return IconBrackets;
     
         case Icons.BUCKET:
             return IconBucket;
@@ -404,6 +429,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.COMPASS:
             return IconCompass;
     
+        case Icons.COWBOY_HAT:
+            return IconCowboyHat;
+    
         case Icons.CREDITCARD:
             return IconCreditcard;
     
@@ -467,6 +495,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.ESCALATOR_UP:
             return IconEscalatorUp;
     
+        case Icons.EXCLAMATION_CIRCLE:
+            return IconExclamationCircle;
+    
         case Icons.FACE:
             return IconFace;
     
@@ -508,6 +539,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.FOLDER:
             return IconFolder;
+    
+        case Icons.GALERIJA:
+            return IconGalerija;
     
         case Icons.GRADUATION_CAP:
             return IconGraduationCap;
@@ -577,6 +611,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.LEAF:
             return IconLeaf;
+    
+        case Icons.LIST:
+            return IconList;
     
         case Icons.LOCATION_MARKER:
             return IconLocationMarker;
@@ -683,6 +720,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.PATH4:
             return IconPath4;
     
+        case Icons.PERCENTAGE:
+            return IconPercentage;
+    
         case Icons.PLUS_CIRCLE:
             return IconPlusCircle;
     
@@ -703,6 +743,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.QUESTION_MARK:
             return IconQuestionMark;
+    
+        case Icons.QUESTIONMARK_CIRCLE:
+            return IconQuestionmarkCircle;
     
         case Icons.RECYCLE:
             return IconRecycle;
@@ -749,8 +792,17 @@ export const getIcon = (icon: Icons)=>{
         case Icons.SHAPE_HEXAGON:
             return IconShapeHexagon;
     
+        case Icons.SHAPE_LEFT_TRIANGLE:
+            return IconShapeLeftTriangle;
+    
         case Icons.SHAPE_PENTAGON:
             return IconShapePentagon;
+    
+        case Icons.SHAPE_QUARTER_CIRCLE:
+            return IconShapeQuarterCircle;
+    
+        case Icons.SHAPE_RHOMBUS:
+            return IconShapeRhombus;
     
         case Icons.SHAPE_SQUARE_FILLED:
             return IconShapeSquareFilled;
@@ -854,6 +906,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.TILE:
             return IconTile;
     
+        case Icons.TOOLS:
+            return IconTools;
+    
         case Icons.TRASH:
             return IconTrash;
     
@@ -896,8 +951,17 @@ export const getIcon = (icon: Icons)=>{
         case Icons.WARDROBE:
             return IconWardrobe;
     
+        case Icons.WARNING_TRIANGLE:
+            return IconWarningTriangle;
+    
         case Icons.WATER:
             return IconWater;
+    
+        case Icons.WATERING_CAN:
+            return IconWateringCan;
+    
+        case Icons.WAVES:
+            return IconWaves;
     
         case Icons.WEBSITE:
             return IconWebsite;
@@ -931,6 +995,7 @@ export const getIconName = (icon: string): string | undefined => Object.values(I
 
 export {
     Icons,
+    IconAa,
     IconAbc,
     IconAccessibilityCircle,
     IconAccessibility,
@@ -949,6 +1014,7 @@ export {
     IconArrowRight,
     IconArrowRotateLeft,
     IconArrowRotateRight,
+    IconArrowSplit,
     IconArrowUpLeft,
     IconArrowUpRight,
     IconArrowUp,
@@ -963,6 +1029,7 @@ export {
     IconBooks,
     IconBoxOpen,
     IconBox,
+    IconBrackets,
     IconBucket,
     IconBulb,
     IconCamera,
@@ -988,6 +1055,7 @@ export {
     IconColormode2,
     IconColormode3,
     IconCompass,
+    IconCowboyHat,
     IconCreditcard,
     IconCube3D,
     IconDesktop,
@@ -1009,6 +1077,7 @@ export {
     IconErase,
     IconEscalatorDown,
     IconEscalatorUp,
+    IconExclamationCircle,
     IconFace,
     IconFeather,
     IconFemaleSymbol,
@@ -1023,6 +1092,7 @@ export {
     IconFlag,
     IconFloppyDisk,
     IconFolder,
+    IconGalerija,
     IconGraduationCap,
     IconGraveyard,
     IconGrid,
@@ -1046,6 +1116,7 @@ export {
     IconLayers,
     IconLayout,
     IconLeaf,
+    IconList,
     IconLocationMarker,
     IconLocked,
     IconLuggageBelt,
@@ -1081,6 +1152,7 @@ export {
     IconPath2,
     IconPath3,
     IconPath4,
+    IconPercentage,
     IconPlusCircle,
     IconPlus,
     IconPresent,
@@ -1088,6 +1160,7 @@ export {
     IconPushpin,
     IconPuzzlePiece,
     IconQuestionMark,
+    IconQuestionmarkCircle,
     IconRecycle,
     IconRedCross,
     IconReload,
@@ -1103,7 +1176,10 @@ export {
     IconShapeCircleFilled,
     IconShapeCircle,
     IconShapeHexagon,
+    IconShapeLeftTriangle,
     IconShapePentagon,
+    IconShapeQuarterCircle,
+    IconShapeRhombus,
     IconShapeSquareFilled,
     IconShapeSquare,
     IconShapeTriangle,
@@ -1138,6 +1214,7 @@ export {
     IconTileEdit,
     IconTilePlus,
     IconTile,
+    IconTools,
     IconTrash,
     IconTruck,
     IconUnisex,
@@ -1152,7 +1229,10 @@ export {
     IconVolumeOff,
     IconVolumeOn,
     IconWardrobe,
+    IconWarningTriangle,
     IconWater,
+    IconWateringCan,
+    IconWaves,
     IconWebsite,
     IconWheelchair2,
     IconWheelchair,

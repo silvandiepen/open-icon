@@ -1,5 +1,7 @@
 export const Icons = {
     
+     AA: "aa",
+    
      ABC: "abc",
     
      ACCESSIBILITY_CIRCLE: "accessibility-circle",
@@ -36,6 +38,8 @@ export const Icons = {
     
      ARROW_ROTATE_RIGHT: "arrow-rotate-right",
     
+     ARROW_SPLIT: "arrow-split",
+    
      ARROW_UP_LEFT: "arrow-up-left",
     
      ARROW_UP_RIGHT: "arrow-up-right",
@@ -63,6 +67,8 @@ export const Icons = {
      BOX_OPEN: "box-open",
     
      BOX: "box",
+    
+     BRACKETS: "brackets",
     
      BUCKET: "bucket",
     
@@ -114,6 +120,8 @@ export const Icons = {
     
      COMPASS: "compass",
     
+     COWBOY_HAT: "cowboy-hat",
+    
      CREDITCARD: "creditcard",
     
      CUBE3_D: "cube-3-d",
@@ -156,6 +164,8 @@ export const Icons = {
     
      ESCALATOR_UP: "escalator-up",
     
+     EXCLAMATION_CIRCLE: "exclamation-circle",
+    
      FACE: "face",
     
      FEATHER: "feather",
@@ -183,6 +193,8 @@ export const Icons = {
      FLOPPY_DISK: "floppy-disk",
     
      FOLDER: "folder",
+    
+     GALERIJA: "galerija",
     
      GRADUATION_CAP: "graduation-cap",
     
@@ -229,6 +241,8 @@ export const Icons = {
      LAYOUT: "layout",
     
      LEAF: "leaf",
+    
+     LIST: "list",
     
      LOCATION_MARKER: "location-marker",
     
@@ -300,6 +314,8 @@ export const Icons = {
     
      PATH4: "path-4",
     
+     PERCENTAGE: "percentage",
+    
      PLUS_CIRCLE: "plus-circle",
     
      PLUS: "plus",
@@ -313,6 +329,8 @@ export const Icons = {
      PUZZLE_PIECE: "puzzle-piece",
     
      QUESTION_MARK: "question-mark",
+    
+     QUESTIONMARK_CIRCLE: "questionmark-circle",
     
      RECYCLE: "recycle",
     
@@ -344,7 +362,13 @@ export const Icons = {
     
      SHAPE_HEXAGON: "shape-hexagon",
     
+     SHAPE_LEFT_TRIANGLE: "shape-left-triangle",
+    
      SHAPE_PENTAGON: "shape-pentagon",
+    
+     SHAPE_QUARTER_CIRCLE: "shape-quarter-circle",
+    
+     SHAPE_RHOMBUS: "shape-rhombus",
     
      SHAPE_SQUARE_FILLED: "shape-square-filled",
     
@@ -414,6 +438,8 @@ export const Icons = {
     
      TILE: "tile",
     
+     TOOLS: "tools",
+    
      TRASH: "trash",
     
      TRUCK: "truck",
@@ -442,7 +468,13 @@ export const Icons = {
     
      WARDROBE: "wardrobe",
     
+     WARNING_TRIANGLE: "warning-triangle",
+    
      WATER: "water",
+    
+     WATERING_CAN: "watering-can",
+    
+     WAVES: "waves",
     
      WEBSITE: "website",
     

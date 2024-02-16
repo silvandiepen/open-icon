@@ -1,5 +1,7 @@
 {
     "icons": [
+        "aa",
+    
         "abc",
     
         "accessibility-circle",
@@ -36,6 +38,8 @@
     
         "arrow-rotate-right",
     
+        "arrow-split",
+    
         "arrow-up-left",
     
         "arrow-up-right",
@@ -63,6 +67,8 @@
         "box-open",
     
         "box",
+    
+        "brackets",
     
         "bucket",
     
@@ -114,6 +120,8 @@
     
         "compass",
     
+        "cowboy-hat",
+    
         "creditcard",
     
         "cube-3-d",
@@ -156,6 +164,8 @@
     
         "escalator-up",
     
+        "exclamation-circle",
+    
         "face",
     
         "feather",
@@ -183,6 +193,8 @@
         "floppy-disk",
     
         "folder",
+    
+        "galerija",
     
         "graduation-cap",
     
@@ -229,6 +241,8 @@
         "layout",
     
         "leaf",
+    
+        "list",
     
         "location-marker",
     
@@ -300,6 +314,8 @@
     
         "path-4",
     
+        "percentage",
+    
         "plus-circle",
     
         "plus",
@@ -313,6 +329,8 @@
         "puzzle-piece",
     
         "question-mark",
+    
+        "questionmark-circle",
     
         "recycle",
     
@@ -344,7 +362,13 @@
     
         "shape-hexagon",
     
+        "shape-left-triangle",
+    
         "shape-pentagon",
+    
+        "shape-quarter-circle",
+    
+        "shape-rhombus",
     
         "shape-square-filled",
     
@@ -414,6 +438,8 @@
     
         "tile",
     
+        "tools",
+    
         "trash",
     
         "truck",
@@ -442,7 +468,13 @@
     
         "wardrobe",
     
+        "warning-triangle",
+    
         "water",
+    
+        "watering-can",
+    
+        "waves",
     
         "website",
     

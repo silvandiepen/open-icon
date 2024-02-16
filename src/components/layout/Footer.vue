@@ -8,8 +8,8 @@
 
 <script lang="ts" setup>
 // import Language from "../control/Language.vue";
-import ColorMode from "../control/ColorMode.vue";
-import Accessibility from "../control/Accessibility.vue";
+import ColorMode from "@/components/control/ColorMode.vue";
+import Accessibility from "@/components/control/Accessibility.vue";
 import { useBemm } from 'bemm'
 const bemm = useBemm('footer')
 
@@ -20,7 +20,7 @@ const bemm = useBemm('footer')
     gap: 1em;
     padding: var(--space);
     @media screen and (max-width: 72em) {
-    padding: calc(var(--space) / 2) 
+    padding: calc(var(--space) / 2);
     }
 
     @media screen and (max-width: 72em) {
