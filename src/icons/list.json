@@ -112,6 +112,12 @@
     
         "cloud",
     
+        "color-pallette",
+    
+        "color-rgb",
+    
+        "color-tints",
+    
         "colormode",
     
         "colormode2",
@@ -125,6 +131,8 @@
         "creditcard",
     
         "cube-3-d",
+    
+        "dash",
     
         "desktop",
     
@@ -149,6 +157,8 @@
         "document",
     
         "documents",
+    
+        "double-dash",
     
         "edit",
     
@@ -201,6 +211,10 @@
         "graveyard",
     
         "grid",
+    
+        "hashtag-slanted",
+    
+        "hashtag",
     
         "headphones",
     
@@ -443,6 +457,8 @@
         "trash",
     
         "truck",
+    
+        "underscore",
     
         "unisex",
     

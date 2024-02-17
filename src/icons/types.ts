@@ -112,6 +112,12 @@ export const Icons = {
     
      CLOUD: "cloud",
     
+     COLOR_PALLETTE: "color-pallette",
+    
+     COLOR_RGB: "color-rgb",
+    
+     COLOR_TINTS: "color-tints",
+    
      COLORMODE: "colormode",
     
      COLORMODE2: "colormode2",
@@ -125,6 +131,8 @@ export const Icons = {
      CREDITCARD: "creditcard",
     
      CUBE3_D: "cube-3-d",
+    
+     DASH: "dash",
     
      DESKTOP: "desktop",
     
@@ -149,6 +157,8 @@ export const Icons = {
      DOCUMENT: "document",
     
      DOCUMENTS: "documents",
+    
+     DOUBLE_DASH: "double-dash",
     
      EDIT: "edit",
     
@@ -201,6 +211,10 @@ export const Icons = {
      GRAVEYARD: "graveyard",
     
      GRID: "grid",
+    
+     HASHTAG_SLANTED: "hashtag-slanted",
+    
+     HASHTAG: "hashtag",
     
      HEADPHONES: "headphones",
     
@@ -443,6 +457,8 @@ export const Icons = {
      TRASH: "trash",
     
      TRUCK: "truck",
+    
+     UNDERSCORE: "underscore",
     
      UNISEX: "unisex",
     

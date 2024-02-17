@@ -56,6 +56,9 @@ import IconCloseCircle from "./close-circle.vue";
 import IconClose from "./close.vue";
 import IconCloudRain from "./cloud-rain.vue";
 import IconCloud from "./cloud.vue";
+import IconColorPallette from "./color-pallette.vue";
+import IconColorRgb from "./color-rgb.vue";
+import IconColorTints from "./color-tints.vue";
 import IconColormode from "./colormode.vue";
 import IconColormode2 from "./colormode2.vue";
 import IconColormode3 from "./colormode3.vue";
@@ -63,6 +66,7 @@ import IconCompass from "./compass.vue";
 import IconCowboyHat from "./cowboy-hat.vue";
 import IconCreditcard from "./creditcard.vue";
 import IconCube3D from "./cube-3-d.vue";
+import IconDash from "./dash.vue";
 import IconDesktop from "./desktop.vue";
 import IconDiamond from "./diamond.vue";
 import IconDocumentAdd2 from "./document-add-2.vue";
@@ -75,6 +79,7 @@ import IconDocumentEdit from "./document-edit.vue";
 import IconDocumentText from "./document-text.vue";
 import IconDocument from "./document.vue";
 import IconDocuments from "./documents.vue";
+import IconDoubleDash from "./double-dash.vue";
 import IconEdit from "./edit.vue";
 import IconElevator from "./elevator.vue";
 import IconEmailLetter from "./email-letter.vue";
@@ -101,6 +106,8 @@ import IconGalerija from "./galerija.vue";
 import IconGraduationCap from "./graduation-cap.vue";
 import IconGraveyard from "./graveyard.vue";
 import IconGrid from "./grid.vue";
+import IconHashtagSlanted from "./hashtag-slanted.vue";
+import IconHashtag from "./hashtag.vue";
 import IconHeadphones from "./headphones.vue";
 import IconHeartBroken from "./heart-broken.vue";
 import IconHeart from "./heart.vue";
@@ -222,6 +229,7 @@ import IconTile from "./tile.vue";
 import IconTools from "./tools.vue";
 import IconTrash from "./trash.vue";
 import IconTruck from "./truck.vue";
+import IconUnderscore from "./underscore.vue";
 import IconUnisex from "./unisex.vue";
 import IconUnlocked from "./unlocked.vue";
 import IconUserAdd from "./user-add.vue";
@@ -417,6 +425,15 @@ export const getIcon = (icon: Icons)=>{
         case Icons.CLOUD:
             return IconCloud;
     
+        case Icons.COLOR_PALLETTE:
+            return IconColorPallette;
+    
+        case Icons.COLOR_RGB:
+            return IconColorRgb;
+    
+        case Icons.COLOR_TINTS:
+            return IconColorTints;
+    
         case Icons.COLORMODE:
             return IconColormode;
     
@@ -437,6 +454,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.CUBE3_D:
             return IconCube3D;
+    
+        case Icons.DASH:
+            return IconDash;
     
         case Icons.DESKTOP:
             return IconDesktop;
@@ -473,6 +493,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.DOCUMENTS:
             return IconDocuments;
+    
+        case Icons.DOUBLE_DASH:
+            return IconDoubleDash;
     
         case Icons.EDIT:
             return IconEdit;
@@ -551,6 +574,12 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.GRID:
             return IconGrid;
+    
+        case Icons.HASHTAG_SLANTED:
+            return IconHashtagSlanted;
+    
+        case Icons.HASHTAG:
+            return IconHashtag;
     
         case Icons.HEADPHONES:
             return IconHeadphones;
@@ -915,6 +944,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.TRUCK:
             return IconTruck;
     
+        case Icons.UNDERSCORE:
+            return IconUnderscore;
+    
         case Icons.UNISEX:
             return IconUnisex;
     
@@ -1051,6 +1083,9 @@ export {
     IconClose,
     IconCloudRain,
     IconCloud,
+    IconColorPallette,
+    IconColorRgb,
+    IconColorTints,
     IconColormode,
     IconColormode2,
     IconColormode3,
@@ -1058,6 +1093,7 @@ export {
     IconCowboyHat,
     IconCreditcard,
     IconCube3D,
+    IconDash,
     IconDesktop,
     IconDiamond,
     IconDocumentAdd2,
@@ -1070,6 +1106,7 @@ export {
     IconDocumentText,
     IconDocument,
     IconDocuments,
+    IconDoubleDash,
     IconEdit,
     IconElevator,
     IconEmailLetter,
@@ -1096,6 +1133,8 @@ export {
     IconGraduationCap,
     IconGraveyard,
     IconGrid,
+    IconHashtagSlanted,
+    IconHashtag,
     IconHeadphones,
     IconHeartBroken,
     IconHeart,
@@ -1217,6 +1256,7 @@ export {
     IconTools,
     IconTrash,
     IconTruck,
+    IconUnderscore,
     IconUnisex,
     IconUnlocked,
     IconUserAdd,
