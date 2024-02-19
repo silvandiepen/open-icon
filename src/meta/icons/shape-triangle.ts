@@ -1,13 +1,22 @@
-export default {
-  "title": "Triangle Shape",
-  "description": "The triangle shape icon represents a triangle, which is a polygon with three sides. It is commonly used to indicate direction or as a basic geometric shape in various designs.",
-  "categories": [
+
+                export const meta = {
+  "description": "The shape-triangle icon is a simple geometric design representing a three-sided polygon.",
+  "category": [
     "Shapes"
   ],
-  "tags": [
-    "geometry",
+  "tag": [
+    "geometric",
     "polygon",
-    "direction",
-    "design"
-  ]
+    "triangle",
+    "shape",
+    "simple",
+    "design",
+    "symbol",
+    "minimalistic",
+    "basic",
+    "form"
+  ],
+  "title": "Shape Triangle"
 }
+                export default meta;
+            

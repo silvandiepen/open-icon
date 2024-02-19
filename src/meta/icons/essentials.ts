@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A set of essential icons that represent commonly used concepts and actions in design and user interfaces.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "essential",
+    "basic",
+    "common",
+    "actions",
+    "UI",
+    "design",
+    "web",
+    "application",
+    "symbol",
+    "concept"
+  ],
+  "title": "Essentials"
+}
+                export default meta;
+            

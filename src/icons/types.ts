@@ -54,9 +54,13 @@ export const Icons = {
     
      BAG: "bag",
     
+     BARBECUE: "barbecue",
+    
      BELL: "bell",
     
      BICYCLE: "bicycle",
+    
+     BLENDER: "blender",
     
      BOOK: "book",
     
@@ -100,6 +104,10 @@ export const Icons = {
     
      CITY_BUILDINGS: "city-buildings",
     
+     CLEANING_BUCKET: "cleaning-bucket",
+    
+     CLEANING_SPRAY: "cleaning-spray",
+    
      CLIPBOARD: "clipboard",
     
      CLOCK: "clock",
@@ -131,6 +139,8 @@ export const Icons = {
      CREDITCARD: "creditcard",
     
      CUBE3_D: "cube-3-d",
+    
+     CUTLERY: "cutlery",
     
      DASH: "dash",
     
@@ -174,6 +184,8 @@ export const Icons = {
     
      ESCALATOR_UP: "escalator-up",
     
+     ESSENTIALS: "essentials",
+    
      EXCLAMATION_CIRCLE: "exclamation-circle",
     
      FACE: "face",
@@ -212,6 +224,8 @@ export const Icons = {
     
      GRID: "grid",
     
+     HAIRDRYER: "hairdryer",
+    
      HASHTAG_SLANTED: "hashtag-slanted",
     
      HASHTAG: "hashtag",
@@ -236,7 +250,11 @@ export const Icons = {
     
      INVISIBLE: "invisible",
     
+     IRON: "iron",
+    
      KEYBOARD: "keyboard",
+    
+     KITCHEN_UTENSILS: "kitchen-utensils",
     
      KNIFE_FORK: "knife-fork",
     
@@ -255,6 +273,10 @@ export const Icons = {
      LAYOUT: "layout",
     
      LEAF: "leaf",
+    
+     LIQUID_SOAP2: "liquid-soap-2",
+    
+     LIQUID_SOAP: "liquid-soap",
     
      LIST: "list",
     
@@ -285,6 +307,8 @@ export const Icons = {
      MAP: "map",
     
      MEETING_POINT: "meeting-point",
+    
+     MICROWAVE: "microwave",
     
      MINUS_CIRCLE: "minus-circle",
     
@@ -318,6 +342,8 @@ export const Icons = {
     
      ORDER_DESC: "order-desc",
     
+     OVEN: "oven",
+    
      PAPERCLIP: "paperclip",
     
      PATH1: "path-1",
@@ -350,9 +376,13 @@ export const Icons = {
     
      RED_CROSS: "red-cross",
     
+     REFRIDGERATOR: "refridgerator",
+    
      RELOAD: "reload",
     
      ROCKET: "rocket",
+    
+     ROOM_SHADE: "room-shade",
     
      ROTATE_SCREEN: "rotate-screen",
     
@@ -415,6 +445,8 @@ export const Icons = {
      STAIRS_UP: "stairs-up",
     
      STAIRS: "stairs",
+    
+     STOVE: "stove",
     
      SUITCASE: "suitcase",
     
@@ -482,9 +514,15 @@ export const Icons = {
     
      VOLUME_ON: "volume-on",
     
-     WARDROBE: "wardrobe",
+     WARDROBE222: "wardrobe-222",
+    
+     WARDROBE262: "wardrobe-262",
     
      WARNING_TRIANGLE: "warning-triangle",
+    
+     WASHING_MACHINE: "washing-machine",
+    
+     WATER_COOKER: "water-cooker",
     
      WATER: "water",
     

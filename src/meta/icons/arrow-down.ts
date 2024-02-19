@@ -1,13 +1,20 @@
-export default {
-  "title": "Arrow Down",
-  "name": "arrow-down",
-  "description": "The arrow-down icon represents a downward direction or movement.",
-  "categories": [
+
+                export const meta = {
+  "description": "The arrow-down icon typically represents a downward direction or movement. It is commonly used in user interfaces to indicate scrolling or navigating to a lower section of a page.",
+  "category": [
     "Arrows"
   ],
-  "tags": [
-    "down",
+  "tag": [
     "direction",
-    "movement"
-  ]
+    "scrolling",
+    "navigation",
+    "downward",
+    "pointing",
+    "interface",
+    "symbol",
+    "arrow"
+  ],
+  "title": "Arrow Down"
 }
+                export default meta;
+            

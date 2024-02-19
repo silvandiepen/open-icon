@@ -1,14 +1,22 @@
-export default {
-  "title": "Car Taxi",
-  "description": "The car-taxi icon represents a taxi or a car-for-hire service. It typically features a simple car shape with a roof sign indicating its taxi status.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon depicts a generic taxi car, commonly used for transportation services. It features a distinct yellow color and a compact design.",
+  "category": [
     "Transport"
   ],
-  "tags": [
+  "tag": [
     "taxi",
     "car",
-    "transportation",
     "vehicle",
-    "cab"
-  ]
+    "transportation",
+    "cab",
+    "ride",
+    "service",
+    "city",
+    "urban",
+    "public"
+  ],
+  "title": "Car Taxi"
 }
+                export default meta;
+            

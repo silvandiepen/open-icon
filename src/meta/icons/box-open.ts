@@ -1,13 +1,21 @@
-export default {
-  "title": "Box Open",
-  "description": "The box open icon represents an open cardboard box. It signifies unpacking or access to contents within a box.",
-  "category": "Interface",
-  "tags": [
-    "box",
-    "unpack",
-    "contents",
-    "cardboard",
-    "package",
-    "open"
-  ]
+
+                export const meta = {
+  "description": "The icon represents an open box, indicating that it is empty or revealing its contents. It can be used to symbolize unpacking, revealing, or opening something.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "Open",
+    "Box",
+    "Empty",
+    "Unpack",
+    "Reveal",
+    "Container",
+    "Packaging",
+    "Shipping",
+    "Delivery"
+  ],
+  "title": "Box Open"
 }
+                export default meta;
+            

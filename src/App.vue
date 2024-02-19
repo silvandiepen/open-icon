@@ -9,17 +9,21 @@
 
 <script lang="ts" setup>
 import { watch, onMounted, ref, computed } from 'vue';
+import { useRoute } from 'vue-router';
+
+
 import { useColorMode } from '@/composables/useColorMode';
 import { createLocale } from '@/composables/locales';
+import { useUI } from '@/composables/useUI';
+import { useIcons } from '@/composables/useIcons';
 
 import Header from "@/components/layout/Header.vue";
 import Footer from "@/components/layout/Footer.vue";
-import { useRoute } from 'vue-router';
-import { useUI } from './composables/useUI';
 import { FontSize } from './types';
 
 const { colorMode } = useColorMode();
 const { fontSize } = useUI();
+const { init } = useIcons();
 
 const route = useRoute();
 
@@ -56,6 +60,7 @@ watch(() => route.params, () => {
 }, { deep: true })
 
 onMounted(async () => {
+  init();
   await createLocale(); 
 })
 onMounted(()=>{

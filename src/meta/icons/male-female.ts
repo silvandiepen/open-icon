@@ -1,15 +1,22 @@
-export default {
-  "title": "Male Female",
-  "description": "The male-female icon represents gender diversity or inclusiveness, showing the combination of both male and female symbols. It can also be used to indicate gender equality or non-binary genders.",
-  "categories": [
-    "Interface",
+
+                export const meta = {
+  "description": "The male-female icon represents gender neutrality or inclusivity, showing aspects of both male and female characteristics. It can be used in contexts related to equality, diversity, relationships, and gender identity.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
-    "gender",
-    "diversity",
-    "inclusiveness",
-    "equality",
-    "non-binary"
-  ]
+  "tag": [
+    "Gender",
+    "Inclusivity",
+    "Equality",
+    "Diversity",
+    "Relationships",
+    "Gender Identity",
+    "Icon",
+    "People",
+    "Men",
+    "Women"
+  ],
+  "title": "Male Female"
 }
+                export default meta;
+            

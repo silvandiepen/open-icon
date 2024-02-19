@@ -1,15 +1,22 @@
-export default {
-  "name": "edit",
-  "title": "Edit",
-  "description": "The edit icon represents the action of modifying or changing something. It is commonly used in applications and websites as a symbol for edit functionalities.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The edit icon typically represents a pencil, indicating the option to modify or update content. It is commonly used in interfaces for editing documents, forms, and user profiles.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "edit",
+    "update",
     "modify",
     "change",
-    "update",
-    "alter"
-  ]
+    "pencil",
+    "interface",
+    "document",
+    "form",
+    "profile",
+    "edit button"
+  ],
+  "title": "Edit"
 }
+                export default meta;
+            

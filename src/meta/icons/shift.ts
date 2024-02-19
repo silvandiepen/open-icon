@@ -1,13 +1,23 @@
-export default {
-  "title": "Shift",
-  "name": "shift",
-  "description": "The icon represents a shift or movement, often indicating a change or transition.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon 'shift' represents an arrow pointing upwards or downwards, often indicating movement or change. It can be used in user interfaces to signify shifting or toggling actions.",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
+  "tag": [
+    "move",
     "change",
-    "transition"
-  ]
+    "toggle",
+    "arrow",
+    "direction",
+    "up",
+    "down",
+    "navigation",
+    "adjust",
+    "switch"
+  ],
+  "title": "Shift"
 }
+                export default meta;
+            

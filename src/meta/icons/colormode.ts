@@ -1,15 +1,22 @@
-export default {
-  "title": "Color Mode",
-  "description": "The colormode icon represents the ability to change the color mode or scheme within an application or interface. It signifies the availability of different color options and settings.",
-  "categories": [
+
+                export const meta = {
+  "description": "Colormode icon represents a feature or setting that allows users to change the color mode or theme of a device interface or application.",
+  "category": [
     "Interface"
   ],
-  "tags": [
-    "color",
-    "settings",
-    "scheme",
-    "application",
-    "UI",
-    "user interface"
-  ]
+  "tag": [
+    "color mode",
+    "theme",
+    "interface design",
+    "user settings",
+    "visual customization",
+    "digital design",
+    "display settings",
+    "design tools",
+    "UI/UX design",
+    "appearance"
+  ],
+  "title": "Color Mode"
 }
+                export default meta;
+            

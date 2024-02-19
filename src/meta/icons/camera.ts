@@ -1,14 +1,22 @@
-export default {
-  "title": "Camera",
-  "name": "camera",
-  "description": "A camera icon represents a device used to capture photos or videos.",
-  "categories": [
-    "Media"
+
+                export const meta = {
+  "description": "The camera icon typically represents capturing images or videos. It is often used to denote photography, recording, or multimedia functions.",
+  "category": [
+    "Media",
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "photography",
     "video recording",
-    "picture",
-    "image"
-  ]
+    "multimedia",
+    "technology",
+    "capture",
+    "memories",
+    "photoshoot",
+    "camera app",
+    "shutter"
+  ],
+  "title": "Camera"
 }
+                export default meta;
+            

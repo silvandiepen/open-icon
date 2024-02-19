@@ -1,14 +1,22 @@
-export default {
-  "title": "Window Full",
-  "name": "window-full",
-  "description": "An icon representing a window taking up the entire screen. It depicts a square with a smaller square inside, symbolizing a maximized window.",
-  "categories": [
-    "Interface",
-    "Document"
+
+                export const meta = {
+  "description": "The icon 'window-full' represents a full screen window display, indicating that the application or content is being viewed in full screen mode.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "maximize",
+  "tag": [
     "screen",
-    "application"
-  ]
+    "fullscreen",
+    "application",
+    "view",
+    "maximize",
+    "expand",
+    "display",
+    "computer",
+    "software",
+    "window"
+  ],
+  "title": "Window Full"
 }
+                export default meta;
+            

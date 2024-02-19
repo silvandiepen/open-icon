@@ -1,15 +1,22 @@
-export default {
-  "title": "Unlocked Icon",
-  "name": "unlocked",
-  "description": "The unlocked icon represents an object or feature that is accessible or available to the user.",
-  "categories": [
-    "Accessibility"
+
+                export const meta = {
+  "description": "An icon indicating that something is unlocked, accessible, or open for use",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "security",
     "access",
-    "password",
+    "key",
+    "secure",
+    "privacy",
     "protection",
-    "unlock"
-  ]
+    "lock",
+    "unlock",
+    "authorization"
+  ],
+  "title": "Unlocked"
 }
+                export default meta;
+            

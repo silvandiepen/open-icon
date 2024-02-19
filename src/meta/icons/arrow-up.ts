@@ -1,13 +1,23 @@
-export default {
-  "title": "Arrow Up",
-  "name": "arrow-up",
-  "description": "The arrow-up icon represents an upward direction or movement.",
-  "categories": [
-    "Arrows"
+
+                export const meta = {
+  "description": "The arrow-up icon typically represents the action of moving up or navigating upwards. It is commonly used to indicate scrolling to the top of a page or list.",
+  "category": [
+    "Arrows",
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "arrow",
+    "up",
     "direction",
-    "movement",
-    "upwards"
-  ]
+    "navigation",
+    "scroll",
+    "pointing",
+    "move",
+    "top",
+    "upwards",
+    "symbol"
+  ],
+  "title": "Arrow Up"
 }
+                export default meta;
+            

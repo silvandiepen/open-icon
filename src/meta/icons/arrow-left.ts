@@ -1,11 +1,23 @@
-export default {
-  "title": "Arrow Left",
-  "description": "The arrow-left icon represents a leftward pointing arrow. It is commonly used to indicate navigation or movement to the left.",
-  "category": "Arrows",
-  "tags": [
+
+                export const meta = {
+  "description": "The arrow-left icon typically represents navigation to the left, previous, or backwards. It is commonly used in interfaces to indicate a 'go back' action.",
+  "category": [
+    "Arrows",
+    "Interface"
+  ],
+  "tag": [
     "arrow",
-    "left",
     "direction",
-    "navigation"
-  ]
+    "navigation",
+    "back",
+    "left",
+    "previous",
+    "interface",
+    "symbol",
+    "ui",
+    "button"
+  ],
+  "title": "Arrow Left"
 }
+                export default meta;
+            

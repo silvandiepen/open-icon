@@ -1,14 +1,23 @@
-export default {
-  "title": "Order Asc Arrow",
-  "description": "The 'Order Asc Arrow' icon represents an ascending order symbol. It is commonly used to indicate sorting in ascending or increasing order.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon representing an ascending order arrow, indicating sorting in increasing order.",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
-    "order",
-    "sort",
+  "tag": [
+    "sorting",
+    "direction",
     "ascending",
-    "increase"
-  ]
+    "order",
+    "arrow",
+    "upward",
+    "sequence",
+    "data",
+    "filter",
+    "list"
+  ],
+  "title": "Order Ascending Arrow"
 }
+                export default meta;
+            

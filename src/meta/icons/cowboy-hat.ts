@@ -1,15 +1,22 @@
-export default {
-  "title": "Cowboy Hat",
-  "description": "A cowboy hat is a wide-brimmed hat with a high crown, commonly worn by cowboys in western countries. It is a symbol of the American Old West and is often associated with ranching and rodeos.",
-  "categories": [
+
+                export const meta = {
+  "description": "A cowboy hat icon typically worn in western regions as a part of traditional attire.",
+  "category": [
     "Animals",
     "Symbol"
   ],
-  "tags": [
-    "cowboy",
+  "tag": [
     "hat",
+    "cowboy",
     "western",
-    "ranching",
-    "rodeo"
-  ]
+    "fashion",
+    "accessory",
+    "wild west",
+    "traditional",
+    "headwear",
+    "style"
+  ],
+  "title": "Cowboy Hat"
 }
+                export default meta;
+            

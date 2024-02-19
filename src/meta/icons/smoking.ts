@@ -1,15 +1,22 @@
-export default {
-  "title": "Smoking",
-  "name": "smoking",
-  "description": "An icon representing smoking, typically a lit cigarette or a smoking pipe.",
-  "categories": [
-    "Accessibility",
-    "Symbol"
+
+                export const meta = {
+  "description": "An icon depicting a cigarette or a smoking sign, often used to indicate smoking areas or warnings about smoking hazards.",
+  "category": [
+    "Symbols"
   ],
-  "tags": [
+  "tag": [
     "cigarette",
-    "lit",
-    "pipe",
-    "smoke"
-  ]
+    "smoking",
+    "warning",
+    "hazard",
+    "risk",
+    "health",
+    "addiction",
+    "habit",
+    "signage",
+    "smoking area"
+  ],
+  "title": "Smoking"
 }
+                export default meta;
+            

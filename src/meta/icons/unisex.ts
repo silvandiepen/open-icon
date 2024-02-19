@@ -1,14 +1,24 @@
-export default {
-  "title": "Unisex",
-  "description": "The unisex icon represents a gender-neutral or non-binary concept, indicating that a certain place, product, or service is suitable for all genders.",
-  "categories": [
-    "Symbol",
-    "Interface"
+
+                export const meta = {
+  "description": "An icon representing gender neutrality, suitable for both male and female contexts.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "gender",
-    "non-binary",
     "neutral",
-    "inclusive"
-  ]
+    "inclusive",
+    "equality",
+    "unisex",
+    "icon",
+    "symbol",
+    "gender-neutral",
+    "gender-inclusive",
+    "male",
+    "female"
+  ],
+  "title": "Unisex"
 }
+                export default meta;
+            

@@ -1,14 +1,21 @@
-export default {
-  "title": "Warning Triangle",
-  "description": "The warning triangle icon represents a cautionary warning or alert.",
-  "categories": [
-    "Symbol",
-    "Shapes"
+
+                export const meta = {
+  "description": "The warning triangle icon typically represents a warning or cautionary message. It is commonly used to indicate potential hazards or alerts in various contexts.",
+  "category": [
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "warning",
     "caution",
+    "hazard",
     "alert",
-    "triangle"
-  ]
+    "triangle",
+    "sign",
+    "attention",
+    "notification",
+    "exclamation"
+  ],
+  "title": "Warning Triangle"
 }
+                export default meta;
+            

@@ -1,16 +1,21 @@
-export default {
-  "title": "Close Icon",
-  "name": "close",
-  "description": "The close icon is used to represent the action of closing or dismissing something, such as a window or a message box.",
-  "categories": [
+
+                export const meta = {
+  "description": "The close icon typically represents a button or action used to close or dismiss a window, dialog, or pop-up. It often consists of an X symbol or a similar graphic.",
+  "category": [
     "Interface"
   ],
-  "tags": [
-    "action",
-    "dismiss",
-    "cancel",
+  "tag": [
     "exit",
-    "finish",
+    "dismiss",
+    "remove",
+    "end",
+    "terminate",
+    "button",
+    "interface",
+    "cancel",
     "shut down"
-  ]
+  ],
+  "title": "Close"
 }
+                export default meta;
+            

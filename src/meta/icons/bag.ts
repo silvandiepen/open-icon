@@ -1,14 +1,23 @@
-export default {
-  "title": "Bag",
-  "description": "An icon representing a bag with handles, used for carrying personal belongings.",
-  "categories": [
-    "Transport",
-    "Interface"
+
+                export const meta = {
+  "description": "The icon 'bag' represents a bag typically used for carrying items. It is commonly associated with shopping, travel, and storage.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "bag",
-    "carrying",
-    "handles",
-    "belongings"
-  ]
+    "shopping",
+    "travel",
+    "storage",
+    "carry",
+    "accessory",
+    "container",
+    "luggage",
+    "fashion",
+    "grocery"
+  ],
+  "title": "Bag"
 }
+                export default meta;
+            

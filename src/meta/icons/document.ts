@@ -1,16 +1,24 @@
-export default {
-  "title": "Document Icon",
-  "name": "document",
-  "description": "The document icon represents a file or a piece of content, often used to indicate documents or files that can be opened or edited.",
-  "categories": [
+
+                export const meta = {
+  "description": "The document icon typically represents a file or paper document, often used to symbolize reading, writing, or information.",
+  "category": [
+    "Interface",
+    "Symbol",
     "Document"
   ],
-  "tags": [
+  "tag": [
     "file",
-    "content",
     "paper",
-    "document",
+    "information",
+    "reading",
+    "writing",
+    "record",
+    "data",
     "text",
-    "edit"
-  ]
+    "office",
+    "note"
+  ],
+  "title": "Document"
 }
+                export default meta;
+            

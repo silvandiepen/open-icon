@@ -1,15 +1,22 @@
-export default {
-  "title": "Accessibility Circle",
-  "description": "The accessibility-circle icon represents inclusivity and accessibility. It signifies equal access and accommodation for individuals with disabilities, emphasizing the importance of creating an inclusive environment.",
-  "categories": [
-    "Symbols",
-    "Inclusivity"
+
+                export const meta = {
+  "description": "The accessibility-circle icon represents a simplified human figure inside a circle, symbolizing accessibility and inclusivity. This icon is commonly used to indicate features or services that are accessible to all individuals, including those with disabilities.",
+  "category": [
+    "Accessibility"
   ],
-  "tags": [
-    "Accessibility",
-    "Inclusion",
-    "Equal Access",
-    "Accommodation",
-    "Disabilities"
-  ]
+  "tag": [
+    "Circle",
+    "Inclusivity",
+    "Adaptive",
+    "Equal access",
+    "Disability-friendly",
+    "Universal design",
+    "Accessible services",
+    "Inclusive design",
+    "Barrier-free",
+    "Equality"
+  ],
+  "title": "Accessibility Circle"
 }
+                export default meta;
+            

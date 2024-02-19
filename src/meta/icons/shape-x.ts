@@ -1,16 +1,22 @@
-export default {
-  "title": "X Shape",
-  "name": "shape-x",
-  "description": "The 'shape-x' icon represents the letter 'X' in a stylized form. It is often used to indicate the concept of crossing something out or negating something. It can also be used to represent coordinates or a marker on a map.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon 'shape-x' represents a simple X shape, often used to indicate closeness, deletion, or incorrectness in various interfaces and designs.",
+  "category": [
     "Shapes",
     "Interface"
   ],
-  "tags": [
-    "letter",
+  "tag": [
+    "close",
+    "delete",
+    "incorrect",
+    "mark",
+    "symbol",
+    "interface",
+    "design",
     "cross",
-    "negative",
-    "coordinates",
-    "marker"
-  ]
+    "x"
+  ],
+  "title": "Shape X"
 }
+                export default meta;
+            

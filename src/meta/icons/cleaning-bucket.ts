@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The cleaning bucket icon depicts a bucket filled with water and bubbles, commonly associated with household cleaning tasks such as mopping and scrubbing floors. It can also symbolize cleaning routines, hygiene, and keeping surroundings clean and organized.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "cleaning",
+    "bucket",
+    "household",
+    "chores",
+    "hygiene",
+    "organization",
+    "mopping",
+    "scrubbing",
+    "cleanliness",
+    "cleaning routine"
+  ],
+  "title": "Cleaning Bucket"
+}
+                export default meta;
+            

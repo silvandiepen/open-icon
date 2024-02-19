@@ -1,14 +1,22 @@
-export default {
-  "title": "Music",
-  "name": "music",
-  "description": "An icon representing music, associated with sound and audio.",
-  "categories": [
+
+                export const meta = {
+  "description": "The 'music' icon typically represents musical notes, melody, or the music industry. It is commonly used to indicate audio-related content.",
+  "category": [
     "Media"
   ],
-  "tags": [
-    "sound",
-    "audio",
+  "tag": [
+    "music",
+    "musical notes",
+    "melody",
     "song",
-    "melody"
-  ]
+    "audio",
+    "instrument",
+    "sound",
+    "rhythm",
+    "tune",
+    "musical"
+  ],
+  "title": "Music"
 }
+                export default meta;
+            

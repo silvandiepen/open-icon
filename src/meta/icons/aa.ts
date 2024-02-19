@@ -1,12 +1,22 @@
-export default {
-  "title": "AA Icon",
-  "description": "The AA icon depicts two capital letter 'A's placed side by side. The 'A's are bold and symmetrical, with one slightly smaller than the other. The icon has a modern and minimalist design.",
-  "category": "Text",
-  "tags": [
+
+                export const meta = {
+  "description": "The icon 'aa' is a simple and sleek design featuring two overlapping letter 'A's. It has a modern look and can be used to represent initials, branding, or any concept related to the letter 'A'.",
+  "category": [
+    "Symbol",
+    "Interface"
+  ],
+  "tag": [
     "letters",
+    "logo",
+    "branding",
+    "modern",
+    "sleek",
+    "minimalistic",
+    "initials",
     "alphabet",
-    "capital",
-    "symmetrical",
-    "minimalist"
-  ]
+    "design"
+  ],
+  "title": "Icon Aa"
 }
+                export default meta;
+            

@@ -1,15 +1,23 @@
-export default {
-  "title": "Wheelchair 2",
-  "description": "Icon representing a wheelchair, specifically designed for users with mobility impairments.",
-  "categories": [
+
+                export const meta = {
+  "description": "A simple line icon representing a wheelchair. It features the classic symbol of accessibility often seen on designated parking spots.",
+  "category": [
     "Accessibility",
-    "Transport"
+    "Symbol"
   ],
-  "tags": [
-    "disability",
+  "tag": [
     "mobility",
+    "disability",
     "access",
+    "medical equipment",
     "disabled",
-    "independence"
-  ]
+    "handicap",
+    "healthcare",
+    "inclusion",
+    "support",
+    "aid"
+  ],
+  "title": "Wheelchair 2"
 }
+                export default meta;
+            

@@ -1,16 +1,21 @@
-export default {
-  "title": "Help",
-  "description": "The help icon is commonly used to indicate that assistance or information is available. It can be used in various contexts, such as software applications, websites, or user interfaces, to guide users and provide additional support.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The help icon typically represents a support function or assistance. It is commonly used to indicate a user can receive help, guidance, or further information.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "support",
     "assistance",
     "information",
-    "support",
-    "guide",
-    "user interface",
-    "software application"
-  ]
+    "user help",
+    "guidance",
+    "question",
+    "query",
+    "advice",
+    "aid"
+  ],
+  "title": "Help"
 }
+                export default meta;
+            

@@ -1,14 +1,22 @@
-export default {
-  "title": "Stairs Up",
-  "description": "An icon representing a set of stairs going upwards.",
-  "categories": [
-    "Arrows",
-    "Transport"
+
+                export const meta = {
+  "description": "The 'stairs-up' icon typically represents a set of stairs leading upwards. It is commonly used to indicate an upward direction or movement.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
+  "tag": [
     "stairs",
     "up",
+    "direction",
+    "movement",
+    "climb",
     "ascend",
-    "climb"
-  ]
+    "elevation",
+    "navigation",
+    "architecture",
+    "building"
+  ],
+  "title": "Stairs Up"
 }
+                export default meta;
+            

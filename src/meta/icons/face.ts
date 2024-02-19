@@ -1,14 +1,22 @@
-export default {
-  "title": "Face",
-  "name": "face",
-  "description": "An icon representing a face with facial features such as eyes, nose, and mouth.",
-  "categories": [
-    "Symbols",
-    "Interface"
+
+                export const meta = {
+  "description": "The face icon represents a stylized human face, typically featuring eyes, nose, and mouth. It is often used to indicate emotions, expressions, or to symbolize a person in designs.",
+  "category": [
+    "Symbols"
   ],
-  "tags": [
-    "emojis",
-    "expression",
-    "emoticons"
-  ]
+  "tag": [
+    "emotion",
+    "expressions",
+    "person",
+    "human",
+    "avatar",
+    "profile",
+    "identity",
+    "smiley",
+    "mood",
+    "communication"
+  ],
+  "title": "Face"
 }
+                export default meta;
+            

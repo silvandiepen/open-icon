@@ -1,15 +1,22 @@
-export default {
-  "title": "Volume On",
-  "description": "The volume-on icon represents an audio control that indicates the sound is enabled or the volume is turned up.",
-  "categories": [
-    "Media"
+
+                export const meta = {
+  "description": "The icon represents the sound or audio volume on, indicating that the sound is currently enabled or at a high level.",
+  "category": [
+    "Media",
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "sound",
-    "audio control",
-    "loud",
+    "audio",
+    "on",
+    "level",
+    "control",
     "speaker",
-    "mute",
-    "volume level"
-  ]
+    "adjust",
+    "music",
+    "volume"
+  ],
+  "title": "Volume On"
 }
+                export default meta;
+            

@@ -1,5 +1,23 @@
-export default {
-  "description": "Description generation failed",
-  "categories": [],
-  "tags": []
+
+                export const meta = {
+  "description": "The desktop icon typically represents a computer's desktop environment, where users can store files, folders, and shortcuts for easy access. It is commonly used to symbolize the main workspace on a computer.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "computer",
+    "workplace",
+    "organization",
+    "digital",
+    "technology",
+    "storage",
+    "desktop environment",
+    "files",
+    "folders",
+    "shortcuts"
+  ],
+  "title": "Desktop"
 }
+                export default meta;
+            

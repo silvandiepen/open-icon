@@ -1,17 +1,23 @@
-export default {
-  "title": "Arrow Export",
-  "name": "arrow-export",
-  "description": "This icon represents exporting or saving data or files from one location to another. It is often used in software applications to indicate the action of exporting data or files.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon 'arrow-export' represents the action of exporting data or information. It typically features a arrow pointing outwards from a box or a document.",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "export",
     "save",
-    "data",
-    "files",
+    "send",
     "transfer",
-    "action"
-  ]
+    "outward",
+    "share",
+    "data",
+    "information",
+    "file",
+    "download"
+  ],
+  "title": "Arrow Export"
 }
+                export default meta;
+            

@@ -1,16 +1,21 @@
-export default {
-  "title": "User Delete",
-  "name": "user-delete",
-  "description": "An icon depicting the action of deleting a user or removing user data.",
-  "categories": [
+
+                export const meta = {
+  "description": "The user-delete icon represents the action of removing a user. It typically features a silhouette of a person with a minus or delete symbol.",
+  "category": [
     "Interface"
   ],
-  "tags": [
-    "user",
+  "tag": [
+    "profile",
     "delete",
     "remove",
-    "data",
+    "administrator",
     "account",
-    "profile"
-  ]
+    "ban",
+    "user management",
+    "access control",
+    "security"
+  ],
+  "title": "User Delete"
 }
+                export default meta;
+            

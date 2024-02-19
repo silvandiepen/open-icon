@@ -1,15 +1,23 @@
-export default {
-  "title": "Note Delete",
-  "name": "note-delete",
-  "description": "The note-delete icon represents the action of deleting a note or removing a note from a list. It is commonly used in applications or websites that allow users to create and manage notes or to-do lists.",
-  "categories": [
-    "Interface",
-    "Document"
+
+                export const meta = {
+  "description": "The note-delete icon represents a piece of paper with a trash can symbol, indicating the action of deleting or discarding a note or document.",
+  "category": [
+    "Document",
+    "Interface"
   ],
-  "tags": [
-    "delete",
+  "tag": [
     "note",
+    "delete",
+    "trash",
+    "discard",
     "remove",
-    "list"
-  ]
+    "paper",
+    "sheet",
+    "document",
+    "bin",
+    "trash can"
+  ],
+  "title": "Note Delete"
 }
+                export default meta;
+            

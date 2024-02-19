@@ -1,13 +1,22 @@
-export default {
-  "title": "Suitcase",
-  "description": "A suitcase is a portable rectangular container used for carrying personal belongings while traveling.",
-  "categories": [
+
+                export const meta = {
+  "description": "A suitcase icon typically represents travel, packing, luggage, trips, vacations, and holidays.",
+  "category": [
     "Transport"
   ],
-  "tags": [
+  "tag": [
+    "suitcase",
     "travel",
+    "packing",
     "luggage",
-    "baggage",
-    "carry-on"
-  ]
+    "trip",
+    "vacation",
+    "holiday",
+    "bag",
+    "carry-on",
+    "airport"
+  ],
+  "title": "Suitcase"
 }
+                export default meta;
+            

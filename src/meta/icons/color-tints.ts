@@ -1,5 +1,22 @@
-export default {
-  "description": "Description generation failed",
-  "categories": [],
-  "tags": []
+
+                export const meta = {
+  "description": "The icon 'color tints' represents a set of color variations or shades. It can be used to indicate different color options, gradient effects, or color schemes.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "colors",
+    "shades",
+    "variety",
+    "palette",
+    "gradient",
+    "choices",
+    "options",
+    "hue",
+    "tone",
+    "spectrum"
+  ],
+  "title": "Color Tints"
 }
+                export default meta;
+            

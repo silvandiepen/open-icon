@@ -1,15 +1,21 @@
-export default {
-  "title": "Cloud Rain Icon",
-  "name": "cloud-rain",
-  "description": "The cloud-rain icon represents a cloud with rain falling from it. It is commonly used to symbolize rainy weather or precipitation.",
-  "categories": [
+
+                export const meta = {
+  "description": "The cloud-rain icon depicts a cloud with rain falling from it. It is commonly used to represent rainy weather or precipitation in various contexts.",
+  "category": [
     "Weather"
   ],
-  "tags": [
+  "tag": [
     "cloud",
     "rain",
     "weather",
     "precipitation",
-    "wet"
-  ]
+    "storm",
+    "meteorology",
+    "forecast",
+    "shower",
+    "downpour"
+  ],
+  "title": "Cloud Rain"
 }
+                export default meta;
+            

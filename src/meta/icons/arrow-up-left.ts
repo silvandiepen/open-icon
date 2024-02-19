@@ -1,17 +1,22 @@
-export default {
-  "title": "Arrow Up Left",
-  "name": "arrow-up-left",
-  "description": "The arrow-up-left icon depicts an arrow pointing diagonally upwards and to the left. It is commonly used to indicate a back or previous action, or to navigate to the previous page or screen.",
-  "categories": [
-    "Arrows",
-    "Interface"
+
+                export const meta = {
+  "description": "The arrow up left icon typically represents the direction of moving or scrolling towards the northwest.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
+  "tag": [
     "arrow",
     "up",
     "left",
+    "direction",
+    "northwest",
+    "scroll",
+    "move",
     "navigation",
-    "back",
-    "previous"
-  ]
+    "pointer",
+    "pointing"
+  ],
+  "title": "Arrow Up Left"
 }
+                export default meta;
+            

@@ -1,16 +1,21 @@
-export default {
-  "title": "Apps Plus",
-  "name": "apps-plus",
-  "description": "An icon representing additional apps or features in a mobile or software application.",
-  "categories": [
+
+                export const meta = {
+  "description": "The apps-plus icon represents adding or installing new applications to a device. It symbolizes expanding functionalities or features by installing new software.",
+  "category": [
     "Interface"
   ],
-  "tags": [
-    "apps",
-    "add",
-    "features",
-    "software",
-    "mobile",
-    "application"
-  ]
+  "tag": [
+    "Add",
+    "Install",
+    "Applications",
+    "Software",
+    "Technology",
+    "Expand",
+    "Functionality",
+    "Features",
+    "Apps"
+  ],
+  "title": "Apps Plus"
 }
+                export default meta;
+            

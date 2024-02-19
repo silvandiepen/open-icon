@@ -1,14 +1,21 @@
-export default {
-  "title": "Heart",
-  "name": "heart",
-  "description": "The heart icon represents love, affection, and compassion. It is often used to symbolize romantic relationships or to express admiration and gratitude towards someone or something.",
-  "categories": [
+
+                export const meta = {
+  "description": "A symbol in the shape of a heart commonly used to represent love, care, and affection.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "love",
     "affection",
     "romance",
-    "compassion"
-  ]
+    "Valentine's Day",
+    "emotion",
+    "icon",
+    "like",
+    "health",
+    "care"
+  ],
+  "title": "Heart"
 }
+                export default meta;
+            

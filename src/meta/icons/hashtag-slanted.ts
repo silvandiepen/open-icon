@@ -1,16 +1,24 @@
-export default {
-  "title": "Hashtag Slanted",
-  "description": "A slanted hashtag symbol typically used in social media and online communication.",
-  "categories": [
-    "Text",
-    "Symbol"
+
+                export const meta = {
+  "description": "The icon features a slanted hashtag symbol often used on social media platforms to categorize and group related content.",
+  "category": [
+    "Symbol",
+    "Interface",
+    "Text"
   ],
-  "tags": [
+  "tag": [
     "social media",
-    "web",
+    "hashtag",
+    "slanted",
+    "trending",
+    "link",
+    "topic",
+    "category",
+    "internet",
     "communication",
-    "pound sign",
-    "number sign"
+    "digital"
   ],
-  "iconName": "hashtag-slanted"
+  "title": "Hashtag Slanted"
 }
+                export default meta;
+            

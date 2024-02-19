@@ -1,15 +1,23 @@
-export default {
-  "title": "Paperclip",
-  "name": "paperclip",
-  "description": "A simple paperclip icon commonly used to represent attachments or files.",
-  "categories": [
-    "Interface",
+
+                export const meta = {
+  "description": "A small device consisting of a thin strip of rounded metal that holds paper together by pressing the strip through the sheets. Often used to attach documents together.",
+  "category": [
+    "Tools",
     "Document"
   ],
-  "tags": [
+  "tag": [
+    "stationery",
+    "fastener",
     "attachment",
-    "file",
-    "office",
-    "stationery"
-  ]
+    "office supplies",
+    "paperwork",
+    "metal",
+    "clasp",
+    "organization",
+    "binding",
+    "clip"
+  ],
+  "title": "Paper Clip"
 }
+                export default meta;
+            

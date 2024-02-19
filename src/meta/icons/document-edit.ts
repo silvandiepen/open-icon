@@ -1,17 +1,22 @@
-export default {
-  "title": "Document Edit",
-  "name": "document-edit",
-  "description": "The document-edit icon represents the ability to edit or modify a document. It commonly signifies the availability of editing options or tools within a document.",
-  "categories": [
+
+                export const meta = {
+  "description": "The document-edit icon represents a file or document that can be edited or modified. It typically features a paper icon with a pencil or edit tool overlaid on it.",
+  "category": [
     "Document",
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "edit",
-    "modify",
+    "file",
     "document",
-    "editing",
+    "modify",
+    "paper",
+    "pencil",
+    "tool",
     "update",
     "change"
-  ]
+  ],
+  "title": "Document Edit"
 }
+                export default meta;
+            

@@ -1,16 +1,23 @@
-export default {
-  "title": "Tablet",
-  "description": "A representation of a tablet device with a rectangular screen, usually with rounded corners, and possibly with a home button or other control buttons.",
-  "categories": [
+
+                export const meta = {
+  "description": "A digital tablet device with a touchscreen display, often used for browsing the internet, watching videos, playing games, and various other applications.",
+  "category": [
     "Interface",
-    "Media"
+    "Technology"
   ],
-  "tags": [
+  "tag": [
+    "tablet",
+    "digital",
     "device",
-    "electronic",
-    "smartphone",
-    "screen",
-    "mobile",
-    "technology"
-  ]
+    "touchscreen",
+    "internet",
+    "browsing",
+    "video",
+    "game",
+    "application",
+    "portable"
+  ],
+  "title": "Tablet"
 }
+                export default meta;
+            

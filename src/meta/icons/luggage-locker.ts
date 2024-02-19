@@ -1,16 +1,23 @@
-export default {
-  "title": "Luggage Locker",
-  "description": "A symbol representing a locker specifically designed for storing luggage.",
-  "categories": [
+
+                export const meta = {
+  "description": "The luggage locker icon typically represents a secure storage space for personal belongings, often found in transportation hubs like train stations or airports. It is usually depicted as a rectangular box with a door and a keyhole, symbolizing safety and convenience for travelers.",
+  "category": [
     "Transport",
-    "Interface",
-    "Symbol"
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "luggage",
     "locker",
     "storage",
+    "security",
     "travel",
-    "security"
-  ]
+    "baggage",
+    "key",
+    "access",
+    "safety",
+    "convenience"
+  ],
+  "title": "Luggage Locker"
 }
+                export default meta;
+            

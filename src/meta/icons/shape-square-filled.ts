@@ -1,12 +1,21 @@
-export default {
-  "title": "Shape Square Filled",
-  "description": "The shape-square-filled icon represents a solid square shape. It is completely filled in and does not have any outline or border.",
-  "categories": [
+
+                export const meta = {
+  "description": "The shape-square-filled icon depicts a square filled with color. It is a solid and bold representation of a square.",
+  "category": [
     "Shapes"
   ],
-  "tags": [
+  "tag": [
     "square",
+    "filled",
+    "shape",
     "solid",
-    "filled shape"
-  ]
+    "geometry",
+    "design",
+    "element",
+    "graphic",
+    "icon"
+  ],
+  "title": "Shape Square Filled"
 }
+                export default meta;
+            

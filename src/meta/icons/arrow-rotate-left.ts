@@ -1,15 +1,23 @@
-export default {
-  "title": "Arrow Rotate Left",
-  "name": "arrow-rotate-left",
-  "description": "The arrow-rotate-left icon represents a rotating motion in a counter-clockwise direction. It is commonly used to indicate a leftward rotation.",
-  "categories": [
+
+                export const meta = {
+  "description": "The arrow-rotate-left icon depicts an arrow pointing to the left in a rotating motion. This icon is often used to represent the action of rotating or turning something to the left.",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "rotate",
-    "counter-clockwise",
-    "motion",
-    "leftward"
-  ]
+    "turn",
+    "left",
+    "direction",
+    "navigation",
+    "circular",
+    "movement",
+    "symbol",
+    "control",
+    "arrows"
+  ],
+  "title": "Arrow Rotate Left"
 }
+                export default meta;
+            

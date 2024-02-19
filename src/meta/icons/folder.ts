@@ -1,15 +1,23 @@
-export default {
-  "title": "Folder",
-  "description": "The folder icon represents a storage space for organizing and storing files and documents.",
-  "categories": [
+
+                export const meta = {
+  "description": "The folder icon represents a directory or a file container in a graphical user interface. It is commonly used to organize and store files in a hierarchical structure.",
+  "category": [
     "Interface",
     "Document"
   ],
-  "tags": [
-    "storage",
-    "organization",
-    "files",
-    "documents",
-    "repository"
-  ]
+  "tag": [
+    "Storage",
+    "Organization",
+    "Files",
+    "Documents",
+    "Directory",
+    "Computer",
+    "Technology",
+    "Navigation",
+    "Hierarchy",
+    "Digital"
+  ],
+  "title": "Folder"
 }
+                export default meta;
+            

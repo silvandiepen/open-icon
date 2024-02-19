@@ -1,16 +1,22 @@
-export default {
-  "title": "Trash",
-  "name": "trash",
-  "description": "An icon representing a trash bin or waste container used to discard unwanted items.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The trash icon typically represents the action of discarding or deleting something. It is commonly used in user interfaces to indicate that an item can be removed or deleted.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "garbage",
+  "tag": [
     "delete",
-    "remove",
     "bin",
-    "waste"
-  ]
+    "remove",
+    "discard",
+    "waste",
+    "disposal",
+    "garbage",
+    "recycle",
+    "trash can",
+    "cleanup"
+  ],
+  "title": "Trash"
 }
+                export default meta;
+            

@@ -1,15 +1,24 @@
-export default {
-  "title": "Note Check",
-  "name": "note-check",
-  "description": "The note-check icon represents a checked or completed task or note.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon depicts a note or document with a checkmark symbol, indicating completion or approval.",
+  "category": [
+    "Document",
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "task",
-    "completed",
+  "tag": [
     "note",
-    "check"
-  ]
+    "paper",
+    "checkmark",
+    "completed",
+    "approved",
+    "task",
+    "document",
+    "memo",
+    "confirmation",
+    "verification"
+  ],
+  "title": "Note Check"
 }
+                export default meta;
+            

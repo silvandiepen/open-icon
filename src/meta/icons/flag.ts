@@ -1,13 +1,20 @@
-export default {
-  "title": "Flag",
-  "description": "The flag icon represents a national or organizational flag, used to symbolize a country or group.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon representing a flag, often symbolizing nationality, unity, or identity.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
-    "national",
-    "organizational",
+  "tag": [
+    "nationality",
+    "unity",
+    "identity",
     "country",
-    "group"
-  ]
+    "patriotism",
+    "banner",
+    "emblem",
+    "symbol"
+  ],
+  "title": "Flag"
 }
+                export default meta;
+            

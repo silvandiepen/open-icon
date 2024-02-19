@@ -1,13 +1,23 @@
-export default {
-  "title": "Erase",
-  "name": "erase",
-  "description": "The erase icon represents a tool used to remove or delete unwanted content. It is commonly used in software applications and image editing programs.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The icon portrays a common eraser tool used to delete or remove content. It is symbolically represented as a pink rectangular eraser with a ridged surface.",
+  "category": [
+    "Interface",
+    "Tool"
   ],
-  "tags": [
+  "tag": [
+    "erase",
     "delete",
     "remove",
-    "clean"
-  ]
+    "edit",
+    "correction",
+    "tool",
+    "erase tool",
+    "editing",
+    "correction tool",
+    "rubber"
+  ],
+  "title": "Erase Tool"
 }
+                export default meta;
+            

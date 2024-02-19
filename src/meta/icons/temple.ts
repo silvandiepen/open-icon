@@ -1,14 +1,21 @@
-export default {
-  "title": "Temple",
-  "description": "The temple icon represents a religious or sacred place of worship. It typically features architectural elements such as columns, domes, and entrance gates.",
-  "categories": [
-    "Symbol",
-    "Tile"
+
+                export const meta = {
+  "description": "The temple icon represents a religious building or place of worship, usually associated with specific cultural or religious practices.",
+  "category": [
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "religion",
+    "building",
     "worship",
-    "architecture",
+    "faith",
+    "culture",
+    "tradition",
+    "spirituality",
+    "religious practices",
     "sacred"
-  ]
+  ],
+  "title": "Temple"
 }
+                export default meta;
+            

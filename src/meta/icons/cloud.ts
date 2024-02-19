@@ -1,15 +1,24 @@
-export default {
-  "title": "Cloud",
-  "name": "cloud",
-  "description": "The cloud icon represents a cloud, usually used to symbolize cloud computing or online storage. It is often depicted as a fluffy white cloud with a slightly curved shape.",
-  "categories": [
+
+                export const meta = {
+  "description": "The cloud icon typically represents a cloud computing or storage service. It is often used to indicate that data is being stored or processed in a remote server rather than on the user's local device.",
+  "category": [
     "Interface",
+    "Symbol",
     "Weather"
   ],
-  "tags": [
-    "cloud computing",
-    "online storage",
-    "cloud technology",
-    "data storage"
-  ]
+  "tag": [
+    "technology",
+    "internet",
+    "storage",
+    "computing",
+    "data",
+    "online",
+    "server",
+    "information",
+    "upload",
+    "download"
+  ],
+  "title": "Cloud"
 }
+                export default meta;
+            

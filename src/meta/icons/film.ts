@@ -1,16 +1,22 @@
-export default {
-  "title": "Film",
-  "name": "film",
-  "description": "The film icon represents the art of filmmaking and cinema. It can be used to illustrate the concept of movies, entertainment, video production, or the film industry.",
-  "categories": [
+
+                export const meta = {
+  "description": "The film icon typically represents a reel of filmstrip. It is commonly used to symbolize cinema, movies, movie theaters, filmmaking, and entertainment industry.",
+  "category": [
     "Media"
   ],
-  "tags": [
+  "tag": [
+    "film reel",
     "cinema",
     "movies",
+    "theater",
     "entertainment",
-    "video production",
+    "movies",
     "filmmaking",
-    "film industry"
-  ]
+    "reel",
+    "video",
+    "motion picture"
+  ],
+  "title": "Film"
 }
+                export default meta;
+            

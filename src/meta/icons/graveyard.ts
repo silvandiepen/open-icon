@@ -1,15 +1,22 @@
-export default {
-  "title": "Graveyard",
-  "normal_name": "graveyard",
-  "description": "An icon representing a graveyard with tombstones and a creepy atmosphere.",
-  "categories": [
+
+                export const meta = {
+  "description": "The graveyard icon depicts a burial ground where deceased people are laid to rest. It typically includes tombstones, crosses, or other markers. Graveyards are often associated with Halloween, horror, death, and the supernatural.",
+  "category": [
     "Symbols"
   ],
-  "tags": [
-    "cemetery",
+  "tag": [
+    "graveyard",
+    "burial ground",
+    "tombstones",
+    "crosses",
     "death",
-    "haunted",
-    "spooky",
-    "memorial"
-  ]
+    "supernatural",
+    "Halloween",
+    "horror",
+    "resting place",
+    "deceased"
+  ],
+  "title": "Graveyard"
 }
+                export default meta;
+            

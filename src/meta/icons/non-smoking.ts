@@ -1,12 +1,22 @@
-export default {
-  "title": "Non-Smoking Icon",
-  "description": "The non-smoking icon is a symbol used to indicate that smoking is not permitted in a certain area or environment. It typically features a crossed out cigarette or a circle with a line through it over a cigarette.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon represents a non-smoking area, indicating that smoking is not allowed in that specific location.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
-    "non-smoking",
-    "smoking ban",
-    "no smoking"
-  ]
+  "tag": [
+    "No smoking",
+    "Prohibition",
+    "Warning",
+    "Health",
+    "Smoke-free",
+    "Cigarettes",
+    "Restriction",
+    "Policy",
+    "Signage",
+    "Rules"
+  ],
+  "title": "Non Smoking"
 }
+                export default meta;
+            

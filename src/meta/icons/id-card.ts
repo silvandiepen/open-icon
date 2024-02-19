@@ -1,15 +1,22 @@
-export default {
-  "title": "ID Card",
-  "name": "id-card",
-  "description": "An icon representing an identification card, often used for personal identification or proof of identity.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The ID card icon represents an identification card or document used to verify a person's identity.",
+  "category": [
+    "Interface",
+    "Document"
   ],
-  "tags": [
+  "tag": [
     "identification",
-    "personal document",
-    "ID",
-    "identification card",
-    "proof of identity"
-  ]
+    "card",
+    "document",
+    "personal",
+    "information",
+    "profile",
+    "credentials",
+    "verification",
+    "ID"
+  ],
+  "title": "ID Card"
 }
+                export default meta;
+            

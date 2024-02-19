@@ -1,15 +1,23 @@
-export default {
-  "title": "ID Tag",
-  "name": "id-tag",
-  "description": "The ID Tag icon represents an identification tag or label commonly used to identify an object or person.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The 'id-tag' icon represents an identification card or badge commonly used for personal identification or access control.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
-    "identification",
-    "label",
-    "tag",
-    "personal",
-    "object"
-  ]
+  "tag": [
+    "ID",
+    "Tag",
+    "Identification",
+    "Access control",
+    "Personal",
+    "Card",
+    "Badge",
+    "Security",
+    "Authentication",
+    "Profile"
+  ],
+  "title": "ID Tag"
 }
+                export default meta;
+            

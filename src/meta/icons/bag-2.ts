@@ -1,15 +1,23 @@
-export default {
-  "title": "Bag 2",
-  "description": "A 2-dimensional representation of a bag or purse with a handle on top. It can be used to signify shopping, fashion, accessories, or carrying items.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The icon 'bag-2' features a simple design of a bag with two main compartments. It is often used to represent storage, organization, and carrying items.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "bag",
-    "purse",
-    "shopping",
-    "fashion",
-    "accessories",
-    "carry"
-  ]
+    "storage",
+    "organization",
+    "compartment",
+    "carrying",
+    "items",
+    "container",
+    "luggage",
+    "accessory",
+    "shopping"
+  ],
+  "title": "Bag 2"
 }
+                export default meta;
+            

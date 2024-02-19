@@ -1,14 +1,19 @@
-export default {
-  "title": "Check Circle",
-  "name": "check-circle",
-  "description": "A checkmark enclosed in a circle, representing confirmation or success.",
-  "categories": [
+
+                export const meta = {
+  "description": "The check-circle icon is a symbol representing confirmation, approval, success, or completion. It typically consists of a circle with a checkmark inside.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "success",
+  "tag": [
+    "checkmark",
     "confirmation",
-    "completed"
-  ]
+    "approval",
+    "success",
+    "completion",
+    "circle"
+  ],
+  "title": "Check Circle"
 }
+                export default meta;
+            

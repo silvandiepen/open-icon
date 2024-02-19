@@ -1,15 +1,22 @@
-export default {
-  "title": "Hexagon",
-  "name": "shape-hexagon",
-  "description": "The hexagon shape is a six-sided polygon with straight sides. It is a commonly used shape in geometry and can represent many things, such as beehives and honeycombs.",
-  "categories": [
+
+                export const meta = {
+  "description": "The shape-hexagon icon represents a six-sided polygon with all sides of equal length. It is commonly used in design projects and visual compositions to add geometric interest and symmetry.",
+  "category": [
     "Shapes"
   ],
-  "tags": [
+  "tag": [
     "geometry",
-    "six sides",
     "polygon",
-    "beehive",
-    "honeycomb"
-  ]
+    "hexagon",
+    "symmetry",
+    "design",
+    "pattern",
+    "shape",
+    "graphic",
+    "icon",
+    "six-sided"
+  ],
+  "title": "Shape Hexagon"
 }
+                export default meta;
+            

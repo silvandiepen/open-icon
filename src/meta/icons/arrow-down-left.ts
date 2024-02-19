@@ -1,17 +1,22 @@
-export default {
-  "title": "Arrow Down Left",
-  "name": "arrow-down-left",
-  "description": "The arrow-down-left icon represents a directional arrow pointing downward and to the left. It is commonly used to indicate a navigation or movement towards the lower left direction.",
-  "categories": [
-    "Arrows",
-    "Interface"
+
+                export const meta = {
+  "description": "The icon 'arrow-down-left' depicts a downward and leftward direction arrow, indicating movement in that specific diagonal direction.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
-    "arrow",
+  "tag": [
     "down",
     "left",
-    "directional",
+    "arrow",
+    "direction",
+    "movement",
+    "diagonal",
     "navigation",
-    "movement"
-  ]
+    "pointer",
+    "pointing",
+    "vector"
+  ],
+  "title": "Arrow Down Left"
 }
+                export default meta;
+            

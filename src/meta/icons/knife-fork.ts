@@ -1,15 +1,23 @@
-export default {
-  "title": "Knife and Fork",
-  "description": "The knife and fork icon represents cutlery commonly used for eating meals.",
-  "categories": [
-    "Interface",
-    "Symbol",
-    "Food"
+
+                export const meta = {
+  "description": "The icon depicts a combination of a knife and a fork, typically used as a symbol for dining or restaurants.",
+  "category": [
+    "Food",
+    "Kitchen",
+    "Restaurant"
   ],
-  "tags": [
-    "kitchen",
-    "restaurant",
+  "tag": [
+    "cutlery",
+    "eating utensils",
     "dining",
-    "eating"
-  ]
+    "meal",
+    "food and drink",
+    "finedining",
+    "tableware",
+    "kitchenware",
+    "restaurant"
+  ],
+  "title": "Knife Fork"
 }
+                export default meta;
+            

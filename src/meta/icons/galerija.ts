@@ -1,13 +1,22 @@
-export default {
-  "title": "Galerija",
-  "description": "The icon 'galerija' represents a gallery or collection of images. It is typically used to indicate a section or feature related to viewing or showcasing images or artwork.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon 'galerija' represents a gallery or collection of images or art pieces, often found in museums or online platforms.",
+  "category": [
+    "Interface",
     "Media"
   ],
-  "tags": [
-    "images",
+  "tag": [
     "gallery",
+    "images",
     "art",
-    "photography"
-  ]
+    "collection",
+    "photos",
+    "exhibition",
+    "museum",
+    "online",
+    "platform"
+  ],
+  "title": "Galerija"
 }
+                export default meta;
+            

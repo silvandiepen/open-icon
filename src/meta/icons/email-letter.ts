@@ -1,16 +1,23 @@
-export default {
-  "title": "Email Letter",
-  "name": "email-letter",
-  "description": "An icon representing an email letter, typically used to symbolize the action of sending or receiving electronic mail.",
-  "categories": [
+
+                export const meta = {
+  "description": "The email-letter icon represents a letter inside an envelope, symbolizing email communication.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "communication",
+    "message",
+    "correspondence",
     "email",
     "letter",
     "envelope",
-    "communication",
-    "message"
-  ]
+    "inbox",
+    "notification",
+    "contact",
+    "digital"
+  ],
+  "title": "Email Letter"
 }
+                export default meta;
+            

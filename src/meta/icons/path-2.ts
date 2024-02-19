@@ -1,11 +1,22 @@
-export default {
-  "title": "Path 2",
-  "description": "Path 2 is an arrow icon that points in a specific direction.",
-  "categories": [
-    "Arrows"
+
+                export const meta = {
+  "description": "The icon shows a curved path with sharp angles in a zigzag pattern. It can symbolize a challenging journey, navigation, direction or progress.",
+  "category": [
+    "Arrows",
+    "Symbol"
   ],
-  "tags": [
-    "arrow",
-    "direction"
-  ]
+  "tag": [
+    "Curved",
+    "Zigzag",
+    "Pathway",
+    "Direction",
+    "Route",
+    "Navigation",
+    "Progress",
+    "Challenging",
+    "Symbolic"
+  ],
+  "title": "Curved Zigzag Pathway"
 }
+                export default meta;
+            

@@ -1,14 +1,22 @@
-export default {
-  "title": "More",
-  "description": "The 'more' icon represents additional options or actions that are available but not shown on the screen. It is often used to access the menu or settings of an application.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The icon 'more' typically consists of three vertical dots stacked on top of each other, representing a menu or options list. It is commonly used to indicate additional actions or settings in an interface.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "menu",
-    "settings",
     "options",
-    "actions",
-    "additional"
-  ]
+    "additional actions",
+    "settings",
+    "user interface",
+    "expand",
+    "navigation",
+    "more options",
+    "ellipsis"
+  ],
+  "title": "More Options"
 }
+                export default meta;
+            

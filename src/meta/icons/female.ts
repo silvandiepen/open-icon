@@ -1,17 +1,22 @@
-export default {
-  "title": "Female",
-  "name": "female",
-  "description": "An icon representing a female person.",
-  "categories": [
-    "Interface",
+
+                export const meta = {
+  "description": "The icon depicts a gender symbol representing the female sex. It typically consists of a circle, and a small cross underneath, which is a common symbol for women.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "woman",
-    "girl",
     "gender",
     "feminine",
-    "person",
-    "avatar"
-  ]
+    "lady",
+    "sex symbol",
+    "gender equality",
+    "female empowerment",
+    "womanhood",
+    "gender identity",
+    "feminism"
+  ],
+  "title": "Female"
 }
+                export default meta;
+            

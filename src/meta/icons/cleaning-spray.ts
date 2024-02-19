@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The icon depicts a cleaning spray bottle, typically used for cleaning surfaces such as countertops, windows, and mirrors. The spray bottle is a common household cleaning tool.",
+  "category": [
+    "Tools",
+    "Household"
+  ],
+  "tag": [
+    "cleaning",
+    "spray",
+    "household",
+    "cleaning supplies",
+    "bottle",
+    "sanitize",
+    "disinfect",
+    "cleanliness",
+    "home",
+    "detergent"
+  ],
+  "title": "Cleaning Spray"
+}
+                export default meta;
+            

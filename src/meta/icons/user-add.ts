@@ -1,16 +1,21 @@
-export default {
-  "title": "User Add",
-  "description": "The 'User Add' icon represents adding a new user or creating a new account.",
-  "categories": [
+
+                export const meta = {
+  "description": "The user-add icon represents adding a new user or member to a group or platform. It can be used to symbolize registration, sign up, or creating a new account.",
+  "category": [
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "user",
     "add",
-    "account",
-    "create",
-    "new",
+    "member",
+    "registration",
+    "sign up",
+    "account creation",
     "profile",
-    "registration"
-  ]
+    "join",
+    "new user"
+  ],
+  "title": "User Add"
 }
+                export default meta;
+            

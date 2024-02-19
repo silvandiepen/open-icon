@@ -1,16 +1,24 @@
-export default {
-  "title": "Map",
-  "name": "map",
-  "description": "An icon representing a map, commonly used as a symbol for location or navigation.",
-  "categories": [
+
+                export const meta = {
+  "description": "The map icon typically represents a geographical map or a navigation tool used for locating places and finding directions.",
+  "category": [
     "Interface",
     "Symbol",
-    "Tile"
+    "Transport"
   ],
-  "tags": [
-    "navigation",
+  "tag": [
     "location",
+    "navigation",
     "directions",
-    "geography"
-  ]
+    "geography",
+    "cartography",
+    "travel",
+    "explore",
+    "journey",
+    "atlas",
+    "topography"
+  ],
+  "title": "Map"
 }
+                export default meta;
+            

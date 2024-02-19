@@ -1,14 +1,22 @@
-export default {
-  "title": "Tile",
-  "name": "tile",
-  "description": "The tile icon represents a small square or rectangular shape used for various purposes, such as organizing or displaying information.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The tile icon represents a small, square-shaped object often used for decoration or in construction projects. It can be made of various materials such as ceramic, glass, or stone.",
+  "category": [
+    "Shapes",
+    "Interface"
   ],
-  "tags": [
-    "grid",
-    "surface",
-    "block"
-  ]
+  "tag": [
+    "square",
+    "decorative",
+    "construction",
+    "material",
+    "ceramic",
+    "glass",
+    "stone",
+    "small",
+    "object"
+  ],
+  "title": "Tile"
 }
+                export default meta;
+            

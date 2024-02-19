@@ -1,16 +1,23 @@
-export default {
-  "title": "Escalator Up",
-  "name": "escalator-up",
-  "description": "The icon represents an upward-moving escalator, indicating vertical movement and transportation.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon depicting an escalator going upwards, commonly used to indicate the direction of travel on escalators.",
+  "category": [
     "Transport",
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "escalator",
-    "upward",
-    "movement",
-    "vertical",
-    "transportation"
-  ]
+    "stairs",
+    "direction",
+    "up",
+    "moving staircase",
+    "transportation",
+    "elevator",
+    "passenger flow",
+    "public facilities",
+    "urban infrastructure"
+  ],
+  "title": "Escalator Up"
 }
+                export default meta;
+            

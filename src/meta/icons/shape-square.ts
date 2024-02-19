@@ -1,13 +1,22 @@
-export default {
-  "title": "Square Shape",
-  "description": "The shape-square icon represents a perfect square with equal sides and angles.",
-  "categories": [
+
+                export const meta = {
+  "description": "The shape-square icon is a simple representation of a square, a geometric shape with four equal sides and four right angles.",
+  "category": [
     "Shapes"
   ],
-  "tags": [
-    "square",
+  "tag": [
     "geometry",
+    "mathematics",
+    "symmetry",
+    "quadrilateral",
+    "figure",
+    "outline",
     "equal sides",
-    "90 degrees"
-  ]
+    "right angles",
+    "basic shape",
+    "icon"
+  ],
+  "title": "Square Shape"
 }
+                export default meta;
+            

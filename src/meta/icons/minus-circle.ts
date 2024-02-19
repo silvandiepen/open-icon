@@ -1,15 +1,22 @@
-export default {
-  "title": "Minus Circle",
-  "name": "minus-circle",
-  "description": "The 'Minus Circle' icon represents the subtraction or removal of an item or element. It is commonly used to indicate the deletion or elimination of something.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The minus-circle icon typically represents a command to remove or delete an item or action. It is commonly used in user interfaces for deleting content or canceling an operation.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "minus",
+    "circle",
     "delete",
     "remove",
-    "subtract",
-    "eliminate",
-    "negative"
-  ]
+    "cancel",
+    "action",
+    "user interface",
+    "operation",
+    "command"
+  ],
+  "title": "Minus Circle"
 }
+                export default meta;
+            

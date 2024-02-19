@@ -1,17 +1,23 @@
-export default {
-  "title": "Floppy Disk",
-  "name": "floppy-disk",
-  "description": "The floppy disk is an iconic storage medium that was widely used to save and transfer data in the past. It consists of a thin, flexible disk with a magnetic surface encased in a protective sleeve. The floppy disk has become a symbol of nostalgia and the early days of computing.",
-  "categories": [
-    "Media",
+
+                export const meta = {
+  "description": "A classic icon symbolizing saving or storing data digitally, representing a floppy disk. The icon features a square shape with a small rectangular slot on the bottom, representing the floppy disk's storage and retrieval mechanism.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "storage",
-    "technology",
     "data",
-    "obsolete",
-    "retro"
-  ]
+    "digital",
+    "save",
+    "oldschool",
+    "technology",
+    "memory",
+    "retro",
+    "diskette",
+    "floppy disk"
+  ],
+  "title": "Floppy Disk"
 }
+                export default meta;
+            

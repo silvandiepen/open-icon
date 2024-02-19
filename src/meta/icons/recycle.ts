@@ -1,17 +1,22 @@
-export default {
-  "title": "Recycle Icon",
-  "name": "recycle",
-  "description": "The recycle icon is a universally recognized symbol for recycling and environmental sustainability. It typically consists of three arrows arranged in a triangular shape, with the arrows forming a loop. The icon represents the concept of recycling materials and reducing waste by encouraging people to properly dispose of their recyclable items. It is commonly used in signage, logos, and other visual representations related to recycling and eco-friendly practices.",
-  "categories": [
+
+                export const meta = {
+  "description": "The recycle icon represents the concept of recycling, encouraging sustainability and environmental consciousness. It consists of three arrows forming a triangle shape, symbolizing the endless cycle of reuse and conservation.",
+  "category": [
     "Arrows",
     "Symbol"
   ],
-  "tags": [
-    "recycling",
+  "tag": [
+    "recycle",
     "environment",
     "sustainability",
-    "waste reduction",
+    "reuse",
+    "conservation",
     "green",
-    "ecology"
-  ]
+    "ecofriendly",
+    "planet",
+    "cycle"
+  ],
+  "title": "Recycle"
 }
+                export default meta;
+            

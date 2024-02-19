@@ -1,0 +1,44 @@
+<template>
+  <div :class="bemm()">
+    <div :class="bemm('container')">
+<svg x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+    
+<g>
+	<path d="M27,20h4.5c1.1,0,2-0.9,2-2s-0.9-2-2-2H27c-1.1,0-2,0.9-2,2S25.9,20,27,20z"/>
+	<path d="M27,34c-1.1,0-2,0.9-2,2v4.5c0,1.1,0.9,2,2,2s2-0.9,2-2V36C29,34.9,28.1,34,27,34z"/>
+	<path d="M50,6H22c-3.86,0-7,3.14-7,7v46c0,3.86,3.14,7,7,7h28c3.86,0,7-3.14,7-7V13C57,9.14,53.86,6,50,6z M22,12h28
+		c0.55,0,1,0.45,1,1v12H21V13C21,12.45,21.45,12,22,12z M50,60H22c-0.55,0-1-0.45-1-1V29h30v30C51,59.55,50.55,60,50,60z"/>
+</g>
+
+</svg>
+    </div>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import { useBemm } from "bemm";
+const bemm = useBemm("icon");
+</script>
+
+<style lang="scss">
+.icon {
+  width: 1em;
+  svg {
+    width: 1em;
+    height: 1em;
+    path,
+    rect,
+    circle,
+    ellipse,
+    polygon {
+      &:not([fill]) {
+        fill: currentColor;
+      }
+    }
+  }
+  &__container{
+    width: 1em; height: 1em;
+    display: flex; align-items: center; justify-content: center;
+  }
+}
+</style>

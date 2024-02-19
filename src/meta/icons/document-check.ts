@@ -1,16 +1,23 @@
-export default {
-  "title": "Document Check",
-  "name": "document-check",
-  "description": "The document-check icon represents the action of verifying or confirming a document. It is commonly used to indicate that a document has been successfully reviewed or approved.",
-  "categories": [
+
+                export const meta = {
+  "description": "The document-check icon represents a document with a checkmark, symbolizing confirmation or completion.",
+  "category": [
     "Document",
     "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "verification",
     "confirmation",
-    "review",
-    "approval"
-  ]
+    "completed",
+    "file",
+    "tick",
+    "approve",
+    "checkmark",
+    "success",
+    "task"
+  ],
+  "title": "Document Check"
 }
+                export default meta;
+            

@@ -1,15 +1,23 @@
-export default {
-  "title": "Secure",
-  "name": "secure",
-  "description": "The secure icon represents a lock, symbolizing safety and protection. It signifies that a system or connection is secure and protected from unauthorized access or threats.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon represents security or safety. It typically symbolizes protection, confidentiality, and privacy.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "lock",
-    "safety",
+  "tag": [
     "protection",
-    "security"
-  ]
+    "safety",
+    "confidentiality",
+    "privacy",
+    "secure",
+    "lock",
+    "shield",
+    "encrypted",
+    "safe",
+    "secure connection"
+  ],
+  "title": "Secure"
 }
+                export default meta;
+            

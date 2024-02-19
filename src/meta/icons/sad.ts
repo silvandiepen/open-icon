@@ -1,15 +1,23 @@
-export default {
-  "title": "Sad",
-  "name": "sad",
-  "description": "An icon representing a sad expression or feeling.",
-  "categories": [
+
+                export const meta = {
+  "description": "A simple icon depicting a sad emotion, with a frown and downturned eyebrows.",
+  "category": [
     "Symbol",
-    "Interface"
+    "Emotion"
   ],
-  "tags": [
-    "emotion",
+  "tag": [
+    "face",
     "emoji",
+    "emotion",
+    "unhappy",
+    "tear",
+    "upset",
     "expression",
-    "sadness"
-  ]
+    "disappointed",
+    "emoticon",
+    "mood"
+  ],
+  "title": "Sad"
 }
+                export default meta;
+            

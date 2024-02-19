@@ -1,16 +1,23 @@
-export default {
-  "title": "Document Text Icon",
-  "name": "document-text",
-  "description": "The document-text icon represents a document containing written text. It is commonly used to indicate or represent textual content within a document or file.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon representing a document with text, typically used to indicate a text file or document.",
+  "category": [
     "Document",
-    "Text"
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "paper",
     "file",
     "text",
-    "written",
-    "content",
-    "document"
-  ]
+    "writing",
+    "page",
+    "information",
+    "report",
+    "note",
+    "record",
+    "communication"
+  ],
+  "title": "Document Text"
 }
+                export default meta;
+            

@@ -1,15 +1,22 @@
-export default {
-  "title": "Chevron Left",
-  "name": "chevron-left",
-  "description": "The chevron-left icon represents a left-pointing arrow head commonly used to indicate a previous or backward action.",
-  "categories": [
-    "Arrows",
-    "Interface"
+
+                export const meta = {
+  "description": "The icon depicts a left-facing arrowhead known as a chevron, representing navigation or direction to the left.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
+  "tag": [
     "navigation",
+    "arrowhead",
     "direction",
-    "previous"
+    "back",
+    "left",
+    "chevron",
+    "pointer",
+    "move",
+    "symbol",
+    "interface"
   ],
-  "version": "chevron left"
+  "title": "Chevron Left"
 }
+                export default meta;
+            

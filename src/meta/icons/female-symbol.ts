@@ -1,14 +1,21 @@
-export default {
-  "title": "Female Symbol",
-  "name": "female symbol",
-  "description": "The female symbol represents the female sex or gender. It is commonly used to indicate females or anything related to femininity.",
-  "categories": [
+
+                export const meta = {
+  "description": "The female symbol represents the gender or sex of a female or woman. It is commonly associated with female empowerment, feminism, and women's rights.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
-    "gender",
-    "female",
-    "women",
-    "femininity"
-  ]
+  "tag": [
+    "Feminism",
+    "Gender",
+    "Equality",
+    "Empowerment",
+    "Women's rights",
+    "Feminine",
+    "Equality",
+    "Symbolism",
+    "Activism"
+  ],
+  "title": "Female Symbol"
 }
+                export default meta;
+            

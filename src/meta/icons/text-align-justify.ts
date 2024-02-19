@@ -1,12 +1,23 @@
-export default {
-  "title": "Text Align Justify",
-  "description": "An icon representing text alignment justified, where both the left and right edges of the text block are aligned evenly.",
-  "categories": [
+
+                export const meta = {
+  "description": "The text-align-justify icon represents the alignment of text or content in a justified manner, where both the left and right edges are straight, creating a clean and organized look.",
+  "category": [
+    "Interface",
     "Text"
   ],
-  "tags": [
+  "tag": [
     "alignment",
-    "justified",
-    "text-align"
-  ]
+    "content",
+    "text",
+    "organization",
+    "clean",
+    "layout",
+    "design",
+    "writing",
+    "formatting",
+    "arrangement"
+  ],
+  "title": "Text Align Justify"
 }
+                export default meta;
+            

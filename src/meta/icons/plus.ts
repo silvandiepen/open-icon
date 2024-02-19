@@ -1,16 +1,24 @@
-export default {
-  "title": "Plus",
-  "name": "plus",
-  "description": "The plus icon represents addition or inclusion.",
-  "categories": [
-    "Arrows",
-    "Math",
-    "Interface"
+
+                export const meta = {
+  "description": "The plus icon is a simple symbol resembling a cross, typically used to indicate addition or inclusion in a design or interface.",
+  "category": [
+    "Shapes",
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "math",
     "addition",
+    "button",
     "symbol",
-    "arithmetic"
-  ]
+    "interface",
+    "mathematics",
+    "positive",
+    "include",
+    "expand",
+    "increase"
+  ],
+  "title": "Plus"
 }
+                export default meta;
+            

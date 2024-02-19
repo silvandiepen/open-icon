@@ -1,16 +1,22 @@
-export default {
-  "title": "Lab",
-  "description": "The lab icon represents a scientific laboratory, typically used for conducting experiments and research. It typically includes equipment such as beakers, test tubes, and microscope, and symbolizes scientific discovery and innovation.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The icon 'lab' represents a scientific laboratory setting, typically used to symbolize research, experiments, and science-related concepts.",
+  "category": [
+    "Science"
   ],
-  "tags": [
-    "science",
-    "scientific",
-    "experiments",
+  "tag": [
     "research",
-    "discovery",
-    "innovation"
-  ]
+    "experiments",
+    "science",
+    "laboratory",
+    "chemistry",
+    "biology",
+    "education",
+    "technology",
+    "innovation",
+    "analysis"
+  ],
+  "title": "Science Lab"
 }
+                export default meta;
+            

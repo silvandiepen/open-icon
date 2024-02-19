@@ -1,15 +1,21 @@
-export default {
-  "title": "Rotate Screen",
-  "name": "rotate-screen",
-  "description": "An icon representing the action of rotating the screen orientation.",
-  "categories": [
+
+                export const meta = {
+  "description": "The rotate-screen icon represents a screen being rotated or flipped. It is commonly used to indicate a rotation or orientation change on a device.",
+  "category": [
     "Interface"
   ],
-  "tags": [
-    "rotate",
-    "screen",
+  "tag": [
+    "rotation",
     "orientation",
-    "display",
-    "adjustment"
-  ]
+    "screen",
+    "device",
+    "technology",
+    "landscape",
+    "portrait",
+    "flip",
+    "change"
+  ],
+  "title": "Rotate Screen"
 }
+                export default meta;
+            

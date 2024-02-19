@@ -1,13 +1,22 @@
-export default {
-  "title": "Stairs Down",
-  "name": "stairs-down",
-  "description": "An icon representing a set of stairs going downwards.",
-  "categories": [
-    "Transport"
+
+                export const meta = {
+  "description": "An icon depicting stairs going downwards, often used to represent a descent or a lower level.",
+  "category": [
+    "Arrows",
+    "Shapes"
   ],
-  "tags": [
+  "tag": [
     "stairs",
     "downward",
-    "steps"
-  ]
+    "levels",
+    "navigation",
+    "architecture",
+    "steps",
+    "interior",
+    "building",
+    "exit"
+  ],
+  "title": "Stairs Down"
 }
+                export default meta;
+            

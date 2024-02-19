@@ -1,15 +1,23 @@
-export default {
-  "title": "Order Descending Arrow",
-  "description": "An icon depicting an arrow pointing downwards to indicate descending order or sorting.",
-  "categories": [
+
+                export const meta = {
+  "description": "An arrow pointing downwards, indicating descending order or movement. Used to represent sorting or ranking in a downward direction.",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
-    "order",
+  "tag": [
     "descending",
+    "order",
     "sort",
-    "arrow",
-    "down"
-  ]
+    "ranking",
+    "direction",
+    "downwards",
+    "navigation",
+    "list",
+    "data",
+    "descending order"
+  ],
+  "title": "Order Descending Arrow"
 }
+                export default meta;
+            

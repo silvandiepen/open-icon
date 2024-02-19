@@ -1,14 +1,23 @@
-export default {
-  "title": "Address Book",
-  "name": "address-book",
-  "description": "An icon representing an address book or contact list.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "An icon representing an address book, typically used to store contact information such as names, phone numbers, and addresses.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
-    "contacts",
+  "tag": [
+    "contact",
     "directory",
+    "information",
+    "communication",
+    "storage",
     "phone numbers",
-    "contacts list"
-  ]
+    "addresses",
+    "book",
+    "notebook",
+    "list"
+  ],
+  "title": "Address Book"
 }
+                export default meta;
+            

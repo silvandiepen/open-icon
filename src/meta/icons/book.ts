@@ -1,15 +1,24 @@
-export default {
-  "title": "Book",
-  "categories": [
-    "Media",
-    "Document"
+
+                export const meta = {
+  "description": "The book icon typically represents reading, education, learning, literature, and knowledge. It is often used in designs related to libraries, bookstores, schools, and academic institutions.",
+  "category": [
+    "Interface",
+    "Document",
+    "Education"
   ],
-  "description": "The book icon represents printed material used for reading or studying.",
-  "tags": [
-    "book",
+  "tag": [
     "reading",
-    "study",
-    "paperback",
-    "hardcover"
-  ]
+    "education",
+    "learning",
+    "literature",
+    "knowledge",
+    "library",
+    "bookstore",
+    "school",
+    "academic",
+    "institution"
+  ],
+  "title": "Book"
 }
+                export default meta;
+            

@@ -1,16 +1,23 @@
-export default {
-  "title": "Label 56",
-  "description": "The label-56 icon is a simple rectangular label with the number 56 written in it. The label has rounded corners and a solid color background.",
-  "categories": [
-    "Text",
-    "Interface"
+
+                export const meta = {
+  "description": "Label icon with the number 56 displayed inside. Perfect for indicating quantity, classification, or organizing information.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "label",
     "number",
-    "round",
-    "56",
-    "solid color",
-    "rounded corners"
-  ]
+    "quantity",
+    "classification",
+    "information",
+    "organization",
+    "count",
+    "marker",
+    "categorize",
+    "identify"
+  ],
+  "title": "Label 56"
 }
+                export default meta;
+            

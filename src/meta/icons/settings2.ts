@@ -1,14 +1,22 @@
-export default {
-  "title": "Settings Icon",
-  "description": "The settings2 icon represents a cogwheel, commonly used to symbolize a settings or options menu.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The settings2 icon represents a gear or cogwheel, commonly used to indicate settings or options in an interface.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "gear",
+    "cogwheel",
     "settings",
     "options",
+    "preferences",
+    "control",
+    "configuration",
+    "adjust",
     "menu",
-    "cogwheel"
-  ]
+    "tools"
+  ],
+  "title": "Settings 2"
 }
+                export default meta;
+            

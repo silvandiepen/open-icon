@@ -1,17 +1,23 @@
-export default {
-  "title": "Church",
-  "name": "church",
-  "description": "The icon represents a traditional church building, typically seen with a tall steeple or spire. It symbolizes a place of religious worship and community.",
-  "categories": [
+
+                export const meta = {
+  "description": "A simple illustration of a traditional church building with a pointed roof and a cross on top, often used to represent religion, faith, and worship.",
+  "category": [
     "Symbol",
-    "Interface"
+    "Architecture"
   ],
-  "tags": [
-    "religion",
-    "place of worship",
-    "steeple",
-    "spire",
+  "tag": [
+    "Religion",
+    "Faith",
+    "Worship",
+    "Church",
     "Christianity",
-    "Catholicism"
-  ]
+    "Building",
+    "Traditional",
+    "Icon",
+    "Spirituality",
+    "Holy"
+  ],
+  "title": "Church"
 }
+                export default meta;
+            

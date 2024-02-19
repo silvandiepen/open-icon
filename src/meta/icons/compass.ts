@@ -1,16 +1,23 @@
-export default {
-  "title": "Compass",
-  "normalizedName": "compass",
-  "description": "A navigational tool that indicates direction relative to the Earth's magnetic North.",
-  "categories": [
-    "Transport",
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "A compass icon typically represents direction, navigation, guidance, exploration, travel, adventure, orientation, and discovery.",
+  "category": [
+    "Arrows",
+    "Travel"
   ],
-  "tags": [
-    "navigation",
-    "direction",
-    "magnetic",
-    "orientation"
-  ]
+  "tag": [
+    "Direction",
+    "Navigation",
+    "Guidance",
+    "Exploration",
+    "Travel",
+    "Adventure",
+    "Orientation",
+    "Discovery",
+    "Compass",
+    "Map"
+  ],
+  "title": "Compass"
 }
+                export default meta;
+            

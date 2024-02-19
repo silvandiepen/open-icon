@@ -1,18 +1,23 @@
-export default {
-  "title": "City Buildings",
-  "name": "city-buildings",
-  "description": "The city buildings icon represents a group of urban structures such as houses, offices, and skyscrapers. It signifies urbanism, architecture, and urban development.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The icon depicts a collection of city buildings, representing urban development and infrastructure.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
-    "cityscape",
+  "tag": [
+    "city",
+    "buildings",
     "urban",
-    "architecture",
-    "urbanism",
     "development",
+    "infrastructure",
+    "cityscape",
     "skyscrapers",
-    "houses",
-    "offices"
-  ]
+    "metropolis",
+    "downtown",
+    "architecture"
+  ],
+  "title": "City Buildings"
 }
+                export default meta;
+            

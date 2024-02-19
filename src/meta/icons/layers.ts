@@ -1,15 +1,20 @@
-export default {
-  "title": "Layers",
-  "name": "layers",
-  "description": "The layers icon represents the concept of organizing or stacking different elements on top of each other. It is commonly used in graphic design software to manage and arrange design elements.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The layers icon typically represents the concept of overlaying or stacking multiple elements on top of each other. It is commonly used in design software to indicate layers of content or objects that can be rearranged.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "design",
-    "organize",
-    "stack",
-    "manage"
-  ]
+    "stacking",
+    "overlay",
+    "content",
+    "objects",
+    "arrangement",
+    "graphic",
+    "software"
+  ],
+  "title": "Layers"
 }
+                export default meta;
+            

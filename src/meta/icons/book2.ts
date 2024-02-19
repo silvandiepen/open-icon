@@ -1,16 +1,22 @@
-export default {
-  "title": "Book Icon",
-  "description": "The 'book2' icon represents an open book with blank pages. It is commonly used to symbolize reading, education, or literature.",
+
+                export const meta = {
+  "description": "The book2 icon is a simple illustration of a book with a bookmark sticking out. It is commonly used to represent reading, education, libraries, and literature in various design projects.",
   "category": [
-    "Media",
-    "Text",
     "Document"
   ],
-  "tags": [
+  "tag": [
     "book",
-    "open book",
-    "reading",
     "education",
-    "literature"
-  ]
+    "literature",
+    "reading",
+    "library",
+    "bookmark",
+    "study",
+    "research",
+    "knowledge",
+    "novel"
+  ],
+  "title": "Book with Bookmark Icon"
 }
+                export default meta;
+            

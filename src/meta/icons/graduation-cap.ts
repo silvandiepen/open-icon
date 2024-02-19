@@ -1,14 +1,22 @@
-export default {
-  "title": "Graduation Cap",
-  "name": "graduation-cap",
-  "description": "A symbol representing academic achievement and graduation.",
-  "categories": [
+
+                export const meta = {
+  "description": "A symbolic representation of a graduation cap, typically worn during graduation ceremonies as a symbol of academic achievement and completion of studies.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "education",
     "achievement",
-    "college",
-    "university"
-  ]
+    "student",
+    "cap",
+    "hat",
+    "graduation",
+    "ceremony",
+    "academic",
+    "degree",
+    "accomplishment"
+  ],
+  "title": "Graduation Cap"
 }
+                export default meta;
+            

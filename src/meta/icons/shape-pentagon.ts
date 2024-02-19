@@ -1,12 +1,20 @@
-export default {
-  "title": "Pentagon Shape",
-  "description": "This icon represents a pentagon shape, which is a polygon with five sides.",
-  "categories": [
+
+                export const meta = {
+  "description": "The shape-pentagon icon depicts a geometric figure with five sides. It is often used to represent ideas related to geometry, math, unity, nature, or design.",
+  "category": [
     "Shapes"
   ],
-  "tags": [
-    "polygon",
+  "tag": [
+    "geometric",
     "geometry",
-    "5 sides"
-  ]
+    "pentagon",
+    "shape",
+    "math",
+    "unity",
+    "nature",
+    "design"
+  ],
+  "title": "Shape Pentagon"
 }
+                export default meta;
+            

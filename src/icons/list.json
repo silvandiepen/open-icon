@@ -54,9 +54,13 @@
     
         "bag",
     
+        "barbecue",
+    
         "bell",
     
         "bicycle",
+    
+        "blender",
     
         "book",
     
@@ -100,6 +104,10 @@
     
         "city-buildings",
     
+        "cleaning-bucket",
+    
+        "cleaning-spray",
+    
         "clipboard",
     
         "clock",
@@ -131,6 +139,8 @@
         "creditcard",
     
         "cube-3-d",
+    
+        "cutlery",
     
         "dash",
     
@@ -174,6 +184,8 @@
     
         "escalator-up",
     
+        "essentials",
+    
         "exclamation-circle",
     
         "face",
@@ -212,6 +224,8 @@
     
         "grid",
     
+        "hairdryer",
+    
         "hashtag-slanted",
     
         "hashtag",
@@ -236,7 +250,11 @@
     
         "invisible",
     
+        "iron",
+    
         "keyboard",
+    
+        "kitchen-utensils",
     
         "knife-fork",
     
@@ -255,6 +273,10 @@
         "layout",
     
         "leaf",
+    
+        "liquid-soap-2",
+    
+        "liquid-soap",
     
         "list",
     
@@ -285,6 +307,8 @@
         "map",
     
         "meeting-point",
+    
+        "microwave",
     
         "minus-circle",
     
@@ -318,6 +342,8 @@
     
         "order-desc",
     
+        "oven",
+    
         "paperclip",
     
         "path-1",
@@ -350,9 +376,13 @@
     
         "red-cross",
     
+        "refridgerator",
+    
         "reload",
     
         "rocket",
+    
+        "room-shade",
     
         "rotate-screen",
     
@@ -415,6 +445,8 @@
         "stairs-up",
     
         "stairs",
+    
+        "stove",
     
         "suitcase",
     
@@ -482,9 +514,15 @@
     
         "volume-on",
     
-        "wardrobe",
+        "wardrobe-222",
+    
+        "wardrobe-262",
     
         "warning-triangle",
+    
+        "washing-machine",
+    
+        "water-cooker",
     
         "water",
     

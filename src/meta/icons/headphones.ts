@@ -1,15 +1,22 @@
-export default {
-  "title": "Headphones",
-  "normalizedName": "headphones",
-  "description": "An icon representing a pair of headphones, used for listening to audio or music.",
-  "categories": [
+
+                export const meta = {
+  "description": "The headphones icon typically represents audio listening devices that are worn over the ears. It is commonly used to symbolize music, communication, or sound-related functions.",
+  "category": [
     "Media"
   ],
-  "tags": [
-    "music",
+  "tag": [
     "audio",
-    "sound",
     "listening",
-    "earphones"
-  ]
+    "music",
+    "communication",
+    "sound",
+    "devices",
+    "headset",
+    "earphones",
+    "entertainment",
+    "technology"
+  ],
+  "title": "Headphones"
 }
+                export default meta;
+            

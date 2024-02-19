@@ -1,14 +1,23 @@
-export default {
-  "title": "Volume Off",
-  "name": "volume-off",
-  "description": "An icon representing the audio being turned off or muted.",
-  "categories": [
-    "Media"
+
+                export const meta = {
+  "description": "A speaker icon with no sound waves coming out, indicating that the volume is turned off. It is commonly used in media players or devices to signify muted audio.",
+  "category": [
+    "Media",
+    "Interface"
   ],
-  "tags": [
-    "sound",
+  "tag": [
+    "speaker",
     "mute",
-    "audio",
-    "silence"
-  ]
+    "no sound",
+    "audio control",
+    "silence",
+    "music player",
+    "audio settings",
+    "multimedia",
+    "mute button",
+    "volume control"
+  ],
+  "title": "Volume Off"
 }
+                export default meta;
+            

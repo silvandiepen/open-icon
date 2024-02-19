@@ -1,15 +1,21 @@
-export default {
-  "title": "Home 2",
-  "name": "home-2",
-  "description": "The home-2 icon represents a house silhouette. It can be used to signify the concept of home or residential property.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The home-2 icon represents the concept of a home or house, symbolizing comfort, safety, and family.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "home",
     "house",
-    "residential",
+    "residence",
+    "dwelling",
+    "shelter",
+    "living space",
     "property",
+    "real estate",
     "building"
-  ]
+  ],
+  "title": "Home 2"
 }
+                export default meta;
+            

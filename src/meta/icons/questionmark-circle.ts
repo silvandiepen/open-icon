@@ -1,16 +1,22 @@
-export default {
-  "title": "Question Mark Circle",
-  "description": "The question mark circle icon represents a question or uncertainty. It can be used to indicate that information is missing or to prompt the user to ask a question.",
-  "categories": [
-    "Symbols",
-    "Interface"
+
+                export const meta = {
+  "description": "The questionmark-circle icon is a symbol of a circle with a question mark inside, typically used to represent an inquiry or uncertainty.",
+  "category": [
+    "Symbol"
   ],
-  "tags": [
-    "question",
+  "tag": [
+    "question mark",
+    "circle",
+    "inquiry",
     "uncertainty",
-    "missing information",
-    "ask",
-    "prompt",
-    "query"
-  ]
+    "help",
+    "information",
+    "query",
+    "unknown",
+    "puzzle",
+    "confusion"
+  ],
+  "title": "Question Mark Circle"
 }
+                export default meta;
+            

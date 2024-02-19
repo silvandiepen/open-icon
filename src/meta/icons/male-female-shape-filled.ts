@@ -1,15 +1,23 @@
-export default {
-  "title": "Male Female Shape Filled",
-  "description": "This icon represents the combination of male and female shapes, symbolizing gender inclusivity and diversity.",
-  "categories": [
-    "Symbol"
+
+                export const meta = {
+  "description": "The icon depicts a filled male and female shape, representing gender equality or diversity. The male figure is characterized by a broader shoulder and the female figure by a wider hip.",
+  "category": [
+    "Symbols",
+    "Gender"
   ],
-  "tags": [
-    "gender",
-    "inclusivity",
-    "diversity",
-    "male",
-    "female",
-    "shapes"
-  ]
+  "tag": [
+    "Equality",
+    "Diversity",
+    "Men",
+    "Women",
+    "Gender",
+    "Male",
+    "Female",
+    "Shapes",
+    "Body",
+    "Icon"
+  ],
+  "title": "Male Female Shape Filled"
 }
+                export default meta;
+            

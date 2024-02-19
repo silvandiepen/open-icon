@@ -1,15 +1,23 @@
-export default {
-  "title": "Chevron Down",
-  "name": "chevron-down",
-  "description": "The chevron down icon represents a downward arrow indicating a drop-down or expansion action.",
-  "categories": [
+
+                export const meta = {
+  "description": "The chevron-down icon is used to represent a downward pointing arrow, often indicating to the user that there is more content below to be revealed or expanded. It is commonly used in menus, navigations, and dropdowns.",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
-    "arrow",
-    "down",
+  "tag": [
+    "direction",
+    "downward",
     "expand",
-    "dropdown"
-  ]
+    "menu",
+    "navigation",
+    "dropdown",
+    "arrow",
+    "scroll",
+    "reveal",
+    "pointer"
+  ],
+  "title": "Chevron Down"
 }
+                export default meta;
+            

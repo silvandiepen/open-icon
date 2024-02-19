@@ -1,14 +1,23 @@
-export default {
-  "title": "Close Circle",
-  "name": "close-circle",
-  "description": "The close-circle icon represents a closed circle, indicating the action of closing or ending something.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "Close-circle icon typically represents an action to close or remove an item or window. It is commonly used in user interfaces.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
-    "close",
-    "circle",
-    "end",
-    "exit"
-  ]
+  "tag": [
+    "Exit",
+    "Remove",
+    "Button",
+    "Cancel",
+    "Dismiss",
+    "Close",
+    "Interface",
+    "Symbol",
+    "UI",
+    "Exit"
+  ],
+  "title": "Close Circle"
 }
+                export default meta;
+            

@@ -1,17 +1,22 @@
-export default {
-  "title": "Add Note Icon",
-  "name": "note-add",
-  "description": "The note-add icon represents the action of adding a new note or document. It is commonly used in applications or websites to indicate the option to create a new note.",
-  "categories": [
-    "Document",
-    "Interface"
+
+                export const meta = {
+  "description": "The 'note-add' icon typically represents the action of adding a new note or creating a memo. It is commonly used in interfaces to indicate the option to add notes or create new written content.",
+  "category": [
+    "Interface",
+    "Document"
   ],
-  "tags": [
-    "note",
+  "tag": [
+    "notes",
+    "memo",
+    "new",
+    "writing",
+    "text",
     "add",
     "create",
-    "document",
-    "new"
+    "interface",
+    "content"
   ],
-  "version": "normal"
+  "title": "Note Add"
 }
+                export default meta;
+            

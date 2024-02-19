@@ -1,16 +1,22 @@
-export default {
-  "title": "Sun",
-  "name": "sun",
-  "description": "The sun icon represents the star at the center of the solar system, providing light and heat to Earth. It is commonly associated with warmth, energy, and the day.",
-  "categories": [
-    "Weather"
+
+                export const meta = {
+  "description": "The sun icon is a representation of the bright celestial body that illuminates the sky during the day. It typically features a round shape with rays extending outward, symbolizing warmth, light, and energy.",
+  "category": [
+    "Weather",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "sky",
+    "daytime",
+    "solar",
     "star",
     "light",
-    "heat",
     "warmth",
     "energy",
-    "day"
-  ]
+    "bright",
+    "celestial"
+  ],
+  "title": "Sun"
 }
+                export default meta;
+            

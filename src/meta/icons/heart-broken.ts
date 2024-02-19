@@ -1,15 +1,22 @@
-export default {
-  "title": "Heart Broken",
-  "normal_name": "heart-broken",
-  "description": "A broken heart icon representing feelings of sadness, despair, or heartbreak.",
-  "categories": [
-    "Symbol",
-    "Interface"
+
+                export const meta = {
+  "description": "A heart symbol that is broken into two jagged halves, representing sadness, heartbreak, and emotional pain.",
+  "category": [
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "heart",
+    "broken",
+    "sadness",
     "emotions",
-    "relationship",
     "love",
-    "tragedy"
-  ]
+    "pain",
+    "breakup",
+    "relationship",
+    "disappointment",
+    "unhappy"
+  ],
+  "title": "Heart Broken"
 }
+                export default meta;
+            

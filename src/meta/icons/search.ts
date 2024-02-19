@@ -1,15 +1,22 @@
-export default {
-  "title": "Search Icon",
-  "name": "search",
-  "description": "The search icon represents the action of searching, typically used to indicate a search bar or search functionality.",
-  "categories": [
+
+                export const meta = {
+  "description": "The search icon typically represents a magnifying glass, used to symbolize searching, finding information, or exploring. It is commonly used in websites and applications to indicate a search function.",
+  "category": [
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "magnifying glass",
-    "search bar",
-    "search function",
     "find",
-    "locate"
-  ]
+    "explore",
+    "information",
+    "website",
+    "application",
+    "search function",
+    "lookup",
+    "query",
+    "browse"
+  ],
+  "title": "Search"
 }
+                export default meta;
+            

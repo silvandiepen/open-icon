@@ -1,14 +1,22 @@
-export default {
-  "title": "Filter",
-  "description": "The filter icon represents a tool used to refine or sort data, typically by applying certain conditions or criteria. It is commonly used in various applications, websites, and interfaces to allow users to narrow down their search or display options.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "An icon representing a filter, commonly used to refine or narrow down search results by applying certain criteria or settings.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "sort",
-    "refine",
+  "tag": [
     "search",
-    "tool"
-  ]
+    "sort",
+    "settings",
+    "refine",
+    "criteria",
+    "funnel",
+    "options",
+    "select",
+    "data",
+    "information"
+  ],
+  "title": "Filter"
 }
+                export default meta;
+            

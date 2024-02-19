@@ -1,15 +1,23 @@
-export default {
-  "title": "Hashtag Icon",
-  "description": "The hashtag icon typically represents tagging or categorizing content on social media platforms by using a hashtag symbol (#) followed by a keyword or phrase.",
-  "categories": [
-    "Text",
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The hashtag icon is a symbol often used on social media platforms to categorize content by topics or keywords.",
+  "category": [
+    "Symbol",
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "social media",
-    "tagging",
-    "trend",
-    "metadata"
-  ]
+    "categorization",
+    "topics",
+    "keywords",
+    "internet",
+    "trending",
+    "metadata",
+    "communication",
+    "digital",
+    "social networking"
+  ],
+  "title": "Hashtag"
 }
+                export default meta;
+            

@@ -1,14 +1,23 @@
-export default {
-  "title": "Path 1",
-  "description": "Path 1 is an icon representing a path or route. It can be used to indicate navigation or direction.",
-  "categories": [
+
+                export const meta = {
+  "description": "Path-1 icon represents a curved line that signifies a route, journey, or direction.",
+  "category": [
     "Arrows",
-    "Transport"
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "path",
+    "line",
     "route",
+    "journey",
+    "direction",
+    "curve",
     "navigation",
-    "direction"
-  ]
+    "vector",
+    "graphic",
+    "minimal"
+  ],
+  "title": "Path 1"
 }
+                export default meta;
+            

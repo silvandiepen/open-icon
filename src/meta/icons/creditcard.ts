@@ -1,16 +1,22 @@
-export default {
-  "title": "Credit Card",
-  "name": "creditcard",
-  "description": "The credit card icon represents a plastic card used to make purchases and borrow funds on a credit basis.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The icon represents a credit card, typically used for making electronic payments and transactions online or in-person.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "payment",
-    "finance",
-    "money",
     "transaction",
-    "banking"
-  ]
+    "money",
+    "finance",
+    "shopping",
+    "e-commerce",
+    "online",
+    "secure",
+    "banking",
+    "purchase"
+  ],
+  "title": "Credit Card"
 }
+                export default meta;
+            

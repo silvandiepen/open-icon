@@ -1,15 +1,22 @@
-export default {
-  "title": "Image",
-  "name": "image",
-  "description": "The image icon represents a visual representation of something. It is commonly used to display pictures or graphics.",
-  "categories": [
-    "Media",
-    "Interface"
+
+                export const meta = {
+  "description": "The image icon represents a visual representation or a graphic that can be viewed on a screen or printed on paper.",
+  "category": [
+    "Media"
   ],
-  "tags": [
+  "tag": [
     "picture",
+    "photograph",
     "graphic",
     "visual",
-    "photo"
-  ]
+    "photo",
+    "art",
+    "digital",
+    "image file",
+    "picture file",
+    "design"
+  ],
+  "title": "Image"
 }
+                export default meta;
+            

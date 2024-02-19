@@ -1,16 +1,23 @@
-export default {
-  "title": "Dash Icon",
-  "description": "The dash icon features a simple, straight horizontal line symbol. It can represent a variety of concepts, including separation, connection, movement, or a break.",
-  "categories": [
+
+                export const meta = {
+  "description": "The dash icon typically represents a short horizontal line used to separate content or indicate a range. It is commonly used in typography and design.",
+  "category": [
     "Shapes",
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "line",
-    "horizontal",
-    "separator",
-    "connection",
-    "break"
-  ]
+  "tag": [
+    "Line",
+    "Separator",
+    "Typography",
+    "Design",
+    "Punctuation",
+    "Graphic",
+    "Web",
+    "Indicator",
+    "Short"
+  ],
+  "title": "Dash"
 }
+                export default meta;
+            

@@ -1,17 +1,23 @@
-export default {
-  "title": "Stairs",
-  "name": "stairs",
-  "description": "The stairs icon represents a set of steps used to ascend or descend between different levels of a building or structure.",
-  "categories": [
-    "Accessibility",
+
+                export const meta = {
+  "description": "An icon depicting a set of stairs, typically used to show the presence of stairs or a staircase in a building or structure. It is commonly used in wayfinding signs and navigation systems.",
+  "category": [
     "Shapes",
     "Interface"
   ],
-  "tags": [
+  "tag": [
+    "stairs",
     "steps",
-    "ascending",
-    "descending",
+    "escalator",
     "architecture",
-    "interior design"
-  ]
+    "navigation",
+    "building",
+    "structure",
+    "wayfinding",
+    "signage",
+    "design"
+  ],
+  "title": "Stairs"
 }
+                export default meta;
+            

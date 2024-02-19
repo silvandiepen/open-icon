@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "A set of kitchen utensils including a knife, fork, spoon, spatula, and whisk. Perfect for illustrating cooking, recipes, and kitchen-related content.",
+  "category": [
+    "Food",
+    "Household"
+  ],
+  "tag": [
+    "Cooking",
+    "Meal",
+    "Recipe",
+    "Kitchenware",
+    "Cutlery",
+    "Utensils",
+    "Kitchen utensils",
+    "Culinary",
+    "Food preparation",
+    "Chef"
+  ],
+  "title": "Kitchen Utensils"
+}
+                export default meta;
+            

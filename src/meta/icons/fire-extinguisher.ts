@@ -1,16 +1,24 @@
-export default {
-  "title": "Fire Extinguisher",
-  "name": "fire-extinguisher",
-  "description": "A fire extinguisher is a device used to control small fires or extinguish them completely. It typically consists of a cylindrical or tank-like container filled with fire suppressant material and is designed to be easily handled and operated in case of emergencies.",
-  "categories": [
-    "Safety",
+
+                export const meta = {
+  "description": "The fire extinguisher icon represents a device used to extinguish small fires by directing onto it a substance that cools the flames and suppresses its combustion.",
+  "category": [
+    "Interface",
+    "Symbol",
     "Transport"
   ],
-  "tags": [
+  "tag": [
     "emergency",
+    "safety",
+    "extinguish",
+    "firefighter",
+    "protection",
+    "emergency equipment",
     "fire safety",
+    "emergency procedures",
     "fire prevention",
-    "fire suppression",
-    "safety equipment"
-  ]
+    "flame retardant"
+  ],
+  "title": "Fire Extinguisher"
 }
+                export default meta;
+            

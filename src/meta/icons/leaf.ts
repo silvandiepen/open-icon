@@ -1,14 +1,22 @@
-export default {
-  "title": "Leaf",
-  "name": "leaf",
-  "description": "The leaf icon represents a green leaf, commonly associated with nature, plants, and environmental awareness.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon represents a leaf, typically symbolizing nature, growth, or environmental themes.",
+  "category": [
     "Nature"
   ],
-  "tags": [
+  "tag": [
     "green",
     "nature",
+    "plant",
     "environment",
-    "plant"
-  ]
+    "growth",
+    "flora",
+    "ecology",
+    "botany",
+    "leaves",
+    "foliage"
+  ],
+  "title": "Leaf"
 }
+                export default meta;
+            

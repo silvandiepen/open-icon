@@ -1,14 +1,22 @@
-export default {
-  "title": "Elevator",
-  "name": "elevator",
-  "description": "An elevator icon represents a vertical transportation system commonly used in multi-story buildings for carrying people or goods between different floors.",
-  "categories": [
+
+                export const meta = {
+  "description": "The elevator icon typically represents a device used for traveling between different floors in a building. It is commonly found in hotels, office buildings, and shopping centers.",
+  "category": [
     "Transport"
   ],
-  "tags": [
-    "building",
-    "floors",
+  "tag": [
+    "elevator",
     "lift",
-    "vertical transportation"
-  ]
+    "building",
+    "floor",
+    "travel",
+    "vertical",
+    "accessibility",
+    "convenience",
+    "mechanical",
+    "technology"
+  ],
+  "title": "Elevator"
 }
+                export default meta;
+            

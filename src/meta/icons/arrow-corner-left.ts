@@ -1,13 +1,21 @@
-export default {
-  "title": "Arrow Corner Left",
-  "name": "arrow-corner-left",
-  "description": "An arrow icon pointing towards the left corner. It represents movement or direction towards the left.",
-  "categories": [
-    "Arrows"
+
+                export const meta = {
+  "description": "The arrow-corner-left icon features an arrow pointing to the left with a corner design. It is commonly used to indicate a direction or to navigate back.",
+  "category": [
+    "Arrows",
+    "Shapes"
   ],
-  "tags": [
-    "arrow",
+  "tag": [
+    "navigation",
+    "left",
     "corner",
-    "left"
-  ]
+    "direction",
+    "arrow",
+    "pointer",
+    "symbol",
+    "guide"
+  ],
+  "title": "Arrow Corner Left"
 }
+                export default meta;
+            

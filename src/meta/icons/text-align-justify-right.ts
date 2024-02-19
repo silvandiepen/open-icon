@@ -1,16 +1,22 @@
-export default {
-  "title": "Text Align Justify Right",
-  "description": "The text-align-justify-right icon represents the alignment of text to the right side of a document, with equal spacing between words. It is used to create a justified layout for text, ensuring an organized and professional appearance.",
-  "categories": [
-    "Text",
-    "Document",
-    "Interface"
+
+                export const meta = {
+  "description": "The text-align-justify-right icon represents a text alignment option where the text is justified to the right side of the content area. It is commonly used in text editing software and design tools.",
+  "category": [
+    "Interface",
+    "Text"
   ],
-  "tags": [
+  "tag": [
     "alignment",
-    "justification",
-    "right-aligned text",
-    "text layout",
-    "spacing"
-  ]
+    "text",
+    "edit",
+    "design",
+    "write",
+    "content",
+    "justify",
+    "right",
+    "alignment"
+  ],
+  "title": "Text Align Justify Right"
 }
+                export default meta;
+            

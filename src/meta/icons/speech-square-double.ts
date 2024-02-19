@@ -1,17 +1,23 @@
-export default {
-  "title": "Double Speech Square Icon",
-  "name": "speech-square-double",
-  "description": "The double speech square icon represents a conversation or discussion involving two parties. It can symbolize a dialogue, chat, or exchange of ideas between two individuals or groups.",
-  "categories": [
+
+                export const meta = {
+  "description": "The speech square double icon features two overlapping squares, each containing a speech bubble to represent two pieces of text or dialogue. It is commonly used to indicate a conversation or chat.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "conversation",
     "dialogue",
+    "text",
     "chat",
     "communication",
-    "discussion",
-    "exchange"
-  ]
+    "speech bubble",
+    "double",
+    "two",
+    "messaging",
+    "talk"
+  ],
+  "title": "Speech Square Double"
 }
+                export default meta;
+            

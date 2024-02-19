@@ -1,15 +1,21 @@
-export default {
-  "title": "Arrow Rotate Right",
-  "name": "arrow-rotate-right",
-  "description": "This icon depicts a right-pointing arrow in a circular shape, indicating a rotation movement to the right.",
-  "categories": [
-    "Arrows",
-    "Interface"
+
+                export const meta = {
+  "description": "The arrow-rotate-right icon represents a clockwise rotation arrow pointing to the right. It is commonly used to indicate a rotation or refresh action.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
-    "rotation",
-    "move",
+  "tag": [
+    "rotate",
+    "clockwise",
+    "refresh",
     "direction",
-    "circular"
-  ]
+    "circular",
+    "motion",
+    "update",
+    "renew",
+    "reorient"
+  ],
+  "title": "Arrow Rotate Right"
 }
+                export default meta;
+            

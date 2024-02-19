@@ -1,18 +1,23 @@
-export default {
-  "title": "Rocket",
-  "name": "rocket",
-  "description": "The rocket icon represents a spacecraft powered by rockets. It is often used to symbolize science, exploration, and technological advancements.",
-  "categories": [
+
+                export const meta = {
+  "description": "A rocket icon typically represents speed, progress, innovation, and technology. It can symbolize launching a project or idea, achieving goals quickly, or reaching for the stars.",
+  "category": [
     "Transport",
-    "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "rocket",
     "space",
-    "science",
-    "exploration",
-    "spacecraft",
+    "speed",
+    "innovation",
     "technology",
-    "rocketship"
-  ]
+    "progress",
+    "launch",
+    "goal",
+    "stars",
+    "project"
+  ],
+  "title": "Rocket"
 }
+                export default meta;
+            

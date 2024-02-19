@@ -1,13 +1,22 @@
-export default {
-  "title": "Luggage Belt",
-  "description": "An icon representing a luggage belt, commonly found at airports for transporting luggage.",
-  "categories": [
+
+                export const meta = {
+  "description": "The luggage belt icon typically represents the conveyor belt used in airports to transport passenger's luggage from the check-in area to the aircraft. It symbolizes travel, airports, check-in, baggage handling, and transportation.",
+  "category": [
     "Transport"
   ],
-  "tags": [
+  "tag": [
+    "luggage belt",
     "airport",
-    "luggage",
-    "belt",
-    "travel"
-  ]
+    "travel",
+    "baggage handling",
+    "transportation",
+    "check-in",
+    "conveyor belt",
+    "flight",
+    "journey",
+    "suitcase"
+  ],
+  "title": "Luggage Belt"
 }
+                export default meta;
+            

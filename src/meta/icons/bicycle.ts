@@ -1,14 +1,22 @@
-export default {
-  "title": "Bicycle",
-  "normalizedName": "bicycle",
-  "description": "A symbol that represents a bicycle, a human-powered mode of transport typically used for recreational or transportation purposes.",
-  "categories": [
-    "Transport"
+
+                export const meta = {
+  "description": "A symbol representing a bicycle, typically having two wheels and powered by pedals.",
+  "category": [
+    "Transport",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "bike",
     "cycling",
-    "ride",
-    "two-wheeler"
-  ]
+    "two-wheeler",
+    "transportation",
+    "outdoors",
+    "exercise",
+    "recreation",
+    "environmentally friendly",
+    "urban"
+  ],
+  "title": "Bicycle"
 }
+                export default meta;
+            

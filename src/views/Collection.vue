@@ -5,19 +5,23 @@
         <component :is="getIcon(Icons.APPS)"></component>Collection
       </h1>
       <div :class="bemm('search')">
-        <InputText :class="bemm('control')" type="search" v-model="filter" placeholder="Search" />
+        <InputSearch  v-model="filterSearch"></InputSearch>
       </div>
 
       <span :class="bemm('showing')">
-        <template v-if="filteredIcons.length < icons.length">
-          <strong>{{ filteredIcons.length }}</strong>/</template>{{ icons.length }} icons
+        <template v-if="icons.length < icons.length">
+          <strong>{{ icons.length }}</strong>/</template>{{ icons.length }} icons
       </span>
       <div :class="bemm('tools')">
         <InputRange v-model="size" :min="5" :max="25" />
       </div>
     </div>
 
-    <div :class="bemm('category')">
+    <InputOptions :options="categories" v-model="filterCategory"></InputOptions>
+
+    <button @click="filterCategory = ''">Reset</button>
+
+    <!-- <div :class="bemm('category')">
       <ul :class="bemm('category-list')">
         <li :class="[bemm('category-item'), bemm('category-item', currentCategory == index ? 'active' : 'inactive')]"
           v-for="(category, index) in allCategories" :key="index">
@@ -27,33 +31,36 @@
           </RouterLink>
         </li>
       </ul>
-    </div>
+    </div> -->
     <ul :class="bemm('list')">
       <li :class="[bemm('item'), bemm('item', activeIcon == icon ? 'active' : 'inactive')]"
-        v-for="(icon, index) in filteredIcons" :key="index" tabindex="0" @click="setActive(icon)">
-        <component :is="getIcon(icon)" :class="bemm('icon')"></component>
-        <span :class="bemm('label')">{{ icon }}</span>
+        v-for="(icon, index) in icons" :key="index" tabindex="0" @click="setActive(icon.key)">
+        <Icon :name="icon.value" :class="bemm('icon')"></Icon>
+        <span :class="bemm('label')">{{ icon.value }}</span>
+        <span :class="bemm('label')">{{ icon.category }}</span>
       </li>
     </ul>
   </div>
 </template>
   
 <script lang="ts" setup>
-import { ref, computed, watch } from "vue";
+import { ref } from "vue";
 import { useBemm } from "bemm";
+import { useRouter } from "vue-router";
 
-import { categories } from "@/data/icon-categories";
+import Icon from "@/components/Icon.vue";
 
+import { useIcons } from "@/composables/useIcons";
 import { Icons } from "@/icons/types";
 import { getIcon } from "@/icons";
-import InputRange from "@/components/control/InputRange.vue";
-import InputText from "@/components/control/InputText.vue";
-import router from "@/router";
-import { useRoute } from "vue-router";
+
+import { InputSearch, InputRange, InputOptions,  } from "@/components/form";
+ 
+const { icons, filterSearch, categories, filterCategory } = useIcons();
+
 
 const bemm = useBemm("collection");
-
-const route = useRoute();
+const router = useRouter();
 
 const size = ref(10);
 const activeIcon = ref();
@@ -62,66 +69,6 @@ const setActive = (icon: string) => {
   router.push(`/icon/${icon}`)
 };
 
-const currentCategory = computed(() => {
-  return route.params.category as string;
-})
-
-const allCategories = computed(() => {
-  return {
-    all: {
-      name: "All Icons",
-      icon: Icons.MORE,
-      items: []
-    },
-    ...categories,
-    misc: {
-      name: "Misc",
-      icon: Icons.MORE,
-      items: []
-    }
-  }
-})
-
-const filter = ref("");
-
-const icons = Object.values(Icons);
-
-const filteredIcons = computed(() => {
-
-  if (filter.value) {
-    return icons.filter((icon) => icon.includes(filter.value.toLowerCase()));
-  }
-
-  if (currentCategory.value) {
-    if (currentCategory.value == 'all') {
-      return icons;
-    }
-    if (currentCategory.value == 'misc') {
-      const allCategorized: any = Object.values(categories).reduce((acc: any, category) => {
-        return [...acc, ...category.items];
-      }, []);
-
-      const uncategorized = icons.filter((icon) => !allCategorized.includes(icon));
-      return uncategorized;
-    }
-
-    const iconsInCategory = categories[currentCategory.value].items;
-    return icons.filter((icon) => iconsInCategory.includes(icon));
-  }
-
-
-  if (!filter.value) return icons;
-  return icons.filter((icon) => icon.includes(filter.value.toLowerCase()));
-
-
-
-
-});
-
-
-watch(() => route.params.category, () => {
-  filter.value = "";
-})
 </script>
   
 <style lang="scss">

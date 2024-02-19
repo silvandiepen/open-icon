@@ -1,15 +1,22 @@
-export default {
-  "title": "Website",
-  "name": "website",
-  "description": "The website icon represents a web page or a collection of web pages that can be accessed on the internet. It can be used to signify a website or web development.",
-  "categories": [
+
+                export const meta = {
+  "description": "The website icon represents a generic representation of a web page or website. It typically features a globe or browser window to symbolize the internet.",
+  "category": [
     "Interface"
   ],
-  "tags": [
-    "web",
+  "tag": [
     "internet",
     "online",
-    "page",
-    "development"
-  ]
+    "webpage",
+    "browser",
+    "site",
+    "network",
+    "digital",
+    "www",
+    "surfing",
+    "page"
+  ],
+  "title": "Website"
 }
+                export default meta;
+            

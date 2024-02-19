@@ -1,14 +1,22 @@
-export default {
-  "title": "Luggage Trolley",
-  "description": "A representation of a trolley used for transporting luggage at airports or train stations.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon of a luggage trolley commonly used at airports and train stations to transport luggage. It typically consists of a metal frame with wheels and a handle for pushing.",
+  "category": [
     "Transport"
   ],
-  "tags": [
-    "luggage",
-    "trolley",
+  "tag": [
+    "travel",
+    "baggage",
     "airport",
     "train station",
-    "travel"
-  ]
+    "wheels",
+    "handle",
+    "metal frame",
+    "luggage cart",
+    "moving luggage",
+    "convenience"
+  ],
+  "title": "Luggage Trolley"
 }
+                export default meta;
+            

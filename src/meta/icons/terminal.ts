@@ -1,15 +1,22 @@
-export default {
-  "title": "Terminal",
-  "name": "terminal",
-  "description": "The terminal icon represents a command line interface used for accessing and managing computer system functions. It is commonly used in programming and system administration.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "A terminal icon representing a computer command line interface used for interacting with the system through text commands.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "command line",
-    "command prompt",
+  "tag": [
+    "computer",
+    "command",
+    "text",
+    "system",
+    "CLI",
+    "code",
     "programming",
-    "system administration"
-  ]
+    "technology",
+    "communication",
+    "input"
+  ],
+  "title": "Terminal"
 }
+                export default meta;
+            

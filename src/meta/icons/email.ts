@@ -1,13 +1,23 @@
-export default {
-  "title": "Email",
-  "description": "An icon representing an email, typically used to represent electronic mail or messages.",
-  "category": "Interface",
-  "tags": [
+
+                export const meta = {
+  "description": "The email icon represents electronic mail communication. It typically features an envelope with lines or a symbol of an envelope with a letter inside.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
     "communication",
     "message",
-    "envelope",
+    "letter",
+    "correspondence",
     "inbox",
-    "outbox",
-    "correspondence"
-  ]
+    "mail",
+    "envelope",
+    "contact",
+    "internet",
+    "send"
+  ],
+  "title": "Email"
 }
+                export default meta;
+            

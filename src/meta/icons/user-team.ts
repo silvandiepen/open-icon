@@ -1,16 +1,23 @@
-export default {
-  "title": "User Team",
-  "name": "user-team",
-  "description": "An icon depicting a team of users collaborating or working together.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon 'user-team' represents a group or team of users coming together, symbolizing teamwork and collaboration.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "team",
-    "users",
+  "tag": [
+    "teamwork",
     "collaboration",
-    "work",
-    "group"
-  ]
+    "group",
+    "users",
+    "community",
+    "staff",
+    "employees",
+    "unity",
+    "together",
+    "partnership"
+  ],
+  "title": "User Team"
 }
+                export default meta;
+            

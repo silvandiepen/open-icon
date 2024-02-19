@@ -1,15 +1,23 @@
-export default {
-  "title": "Clock",
-  "name": "clock",
-  "description": "A clock icon representing time and schedules.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The icon depicts a classic clock face with numbers indicating the hours and minutes. The hands of the clock typically move to show the current time.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "time",
-    "schedule",
+    "watch",
     "hour",
     "minute",
-    "second"
-  ]
+    "measurement",
+    "timing",
+    "schedule",
+    "chronometer",
+    "wall clock",
+    "timepiece"
+  ],
+  "title": "Clock"
 }
+                export default meta;
+            

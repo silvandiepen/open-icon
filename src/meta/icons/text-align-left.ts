@@ -1,14 +1,23 @@
-export default {
-  "title": "Text Align Left",
-  "name": "text-align-left",
-  "description": "The text-align-left icon represents the alignment of text to the left in a document or user interface element.",
-  "categories": [
+
+                export const meta = {
+  "description": "The text-align-left icon represents the alignment of text to the left side of the page. It is commonly used in text editing applications and word processors.",
+  "category": [
     "Interface",
     "Text"
   ],
-  "tags": [
+  "tag": [
     "alignment",
+    "text",
     "left",
-    "text"
-  ]
+    "editor",
+    "formatting",
+    "writing",
+    "document",
+    "interface",
+    "type",
+    "content"
+  ],
+  "title": "Text Align Left"
 }
+                export default meta;
+            

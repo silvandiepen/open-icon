@@ -1,14 +1,23 @@
-export default {
-  "title": "Exclamation Circle",
-  "name": "exclamation-circle",
-  "description": "The exclamation circle icon depicts a circle with an exclamation point inside. It is commonly used to indicate a warning, caution, or important alert to the user.",
-  "categories": [
+
+                export const meta = {
+  "description": "A circle with an exclamation point in the center, indicating a warning or alert message.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "alert",
+    "error",
     "warning",
+    "message",
     "caution",
-    "alert"
-  ]
+    "notification",
+    "attention",
+    "hazard",
+    "exclamation point",
+    "triangle"
+  ],
+  "title": "Exclamation Circle"
 }
+                export default meta;
+            

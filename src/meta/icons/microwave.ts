@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An icon representing a microwave oven, commonly used for heating and cooking food using electromagnetic waves.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "appliance",
+    "kitchen",
+    "cooking",
+    "food",
+    "electronic",
+    "heat",
+    "oven",
+    "technology",
+    "household",
+    "utensil"
+  ],
+  "title": "Microwave"
+}
+                export default meta;
+            

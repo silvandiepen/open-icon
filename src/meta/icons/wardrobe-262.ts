@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A wardrobe icon featuring two doors and two drawers. The design is minimalist and can represent furniture, home decor, closet organization, or interior design themes.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "wardrobe",
+    "furniture",
+    "home decor",
+    "closet",
+    "organization",
+    "interior design",
+    "doors",
+    "drawers",
+    "minimalist"
+  ],
+  "title": "Wardrobe 262"
+}
+                export default meta;
+            

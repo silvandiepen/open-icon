@@ -1,14 +1,22 @@
-export default {
-  "title": "Bell",
-  "name": "bell",
-  "description": "A bell icon typically representing an alert or notification.",
-  "categories": [
+
+                export const meta = {
+  "description": "The bell icon typically represents notifications or alerts. It is often used in applications to indicate new messages or updates.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "alert",
+  "tag": [
     "notification",
-    "sound"
-  ]
+    "alert",
+    "message",
+    "update",
+    "reminder",
+    "alarm",
+    "ding",
+    "ring",
+    "bell"
+  ],
+  "title": "Bell"
 }
+                export default meta;
+            

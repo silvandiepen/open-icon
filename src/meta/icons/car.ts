@@ -1,13 +1,22 @@
-export default {
-  "title": "Car",
-  "name": "car",
-  "description": "The car icon represents a vehicle used for transportation. It typically has four wheels, a body, roof, windows, and seats for passengers. Cars are commonly used for personal transportation and can be found in various forms like sedans, SUVs, or sports cars.",
-  "categories": [
+
+                export const meta = {
+  "description": "The car icon represents a vehicle used for transportation.",
+  "category": [
     "Transport"
   ],
-  "tags": [
-    "vehicle",
+  "tag": [
     "automobile",
-    "transportation"
-  ]
+    "vehicle",
+    "transportation",
+    "driving",
+    "road trip",
+    "travel",
+    "caravan",
+    "road",
+    "traffic",
+    "commute"
+  ],
+  "title": "Car"
 }
+                export default meta;
+            

@@ -1,15 +1,22 @@
-export default {
-  "title": "Speech Square Chat",
-  "description": "The speech square chat icon represents a conversation or communication through speech in a square shape. It can be used to indicate messaging, chat interfaces, or any form of text-based communication.",
-  "category": "Interface",
-  "tags": [
+
+                export const meta = {
+  "description": "The speech-square-chat icon features a square-shaped speech bubble commonly used to represent conversations or chat messages. It can be used to indicate communication, dialogues, messaging, or comments.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
     "conversation",
-    "communication",
-    "messaging",
     "chat",
-    "speech",
-    "square",
-    "text",
-    "interface"
-  ]
+    "communication",
+    "message",
+    "speech bubble",
+    "dialogue",
+    "messaging",
+    "comment",
+    "talk"
+  ],
+  "title": "Speech Square Chat"
 }
+                export default meta;
+            

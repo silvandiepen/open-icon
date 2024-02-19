@@ -1,14 +1,22 @@
-export default {
-  "title": "Arrow Up Right",
-  "description": "An icon representing an arrow pointing diagonally upwards and to the right.",
-  "categories": [
+
+                export const meta = {
+  "description": "The arrow-up-right icon points diagonally upwards and to the right, indicating movement or direction in that direction.",
+  "category": [
     "Arrows"
   ],
-  "tags": [
+  "tag": [
+    "arrow",
     "direction",
+    "up",
+    "right",
     "movement",
+    "pointing",
     "diagonal",
-    "upward",
-    "right"
-  ]
+    "navigation",
+    "angle",
+    "pointer"
+  ],
+  "title": "Arrow Up Right"
 }
+                export default meta;
+            

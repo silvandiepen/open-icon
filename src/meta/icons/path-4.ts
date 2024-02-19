@@ -1,15 +1,22 @@
-export default {
-  "title": "Path 4",
-  "description": "Path 4 is a simple icon of a path or trail. It can be used to represent navigation, direction, or journey.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "A path icon representing a route or direction. It consists of a line with curves and turns indicating a specific path to follow.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
-    "path",
-    "trail",
-    "navigation",
+  "tag": [
     "direction",
-    "journey"
-  ]
+    "navigation",
+    "journey",
+    "route",
+    "travel",
+    "wayfinding",
+    "directional",
+    "route map",
+    "guidance",
+    "roadmap"
+  ],
+  "title": "Path 4"
 }
+                export default meta;
+            

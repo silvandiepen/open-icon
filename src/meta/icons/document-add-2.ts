@@ -1,13 +1,23 @@
-export default {
-  "title": "Document Add 2",
-  "description": "The 'document-add-2' icon represents the action of adding or creating a new document. It is commonly used in applications and interfaces to signify the option to create a new file or document.",
-  "categories": [
-    "Document"
+
+                export const meta = {
+  "description": "The document-add-2 icon depicts a document with a plus sign, symbolizing the action of adding or creating a new document. It is commonly used in interfaces to represent the option to create a new file or document.",
+  "category": [
+    "Document",
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "file",
+    "page",
+    "text",
+    "paper",
     "add",
     "create",
     "new",
-    "file"
-  ]
+    "document",
+    "form",
+    "interface"
+  ],
+  "title": "Document Add 2"
 }
+                export default meta;
+            

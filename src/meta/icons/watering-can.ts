@@ -1,17 +1,23 @@
-export default {
-  "title": "Watering Can",
-  "description": "A watering can is a gardening tool used to water plants by hand. It typically has a long spout to help direct the flow of water. It is commonly made of metal or plastic and has a handle for easy carrying.",
-  "categories": [
-    "Arrows",
-    "Transport",
-    "Interface"
+
+                export const meta = {
+  "description": "A watering can is a container with a spout and a handle, used for watering plants by hand. It is typically made of metal or plastic and is essential for indoor and outdoor gardening.",
+  "category": [
+    "Tools",
+    "Gardening"
   ],
-  "tags": [
+  "tag": [
     "gardening",
-    "plants",
-    "tool",
     "watering",
-    "garden",
-    "flowers"
-  ]
+    "plants",
+    "flowers",
+    "irrigation",
+    "tool",
+    "equipment",
+    "indoor",
+    "outdoor",
+    "garden"
+  ],
+  "title": "Watering Can"
 }
+                export default meta;
+            

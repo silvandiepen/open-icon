@@ -1,15 +1,22 @@
-export default {
-  "title": "Tools",
-  "name": "tools",
-  "description": "The tools icon represents a collection of various tools that can be used for different purposes. It symbolizes proficiency, craftsmanship, and the ability to solve problems. This icon is commonly used in applications related to DIY projects, handiwork, repairs, and general maintenance.",
-  "categories": [
+
+                export const meta = {
+  "description": "The tools icon represents a set of tools, commonly used for construction or repair work. It typically includes items such as hammers, screwdrivers, wrenches, and more.",
+  "category": [
     "Interface"
   ],
-  "tags": [
-    "craftsmanship",
+  "tag": [
+    "construction",
     "repair",
     "maintenance",
+    "toolbox",
     "DIY",
-    "handiwork"
-  ]
+    "equipment",
+    "hardware",
+    "instrument",
+    "utensil",
+    "implement"
+  ],
+  "title": "Tools"
 }
+                export default meta;
+            

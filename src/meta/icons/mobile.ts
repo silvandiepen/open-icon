@@ -1,16 +1,23 @@
-export default {
-  "title": "Mobile",
-  "name": "mobile",
-  "description": "The mobile icon represents a handheld device that allows communication and access to various applications and functions on the go.",
-  "categories": [
+
+                export const meta = {
+  "description": "The mobile icon typically represents a cellphone or portable electronic device used for communication, browsing the internet, and accessing apps.",
+  "category": [
     "Interface",
     "Symbol",
     "Transport"
   ],
-  "tags": [
-    "smartphone",
+  "tag": [
+    "phone",
+    "cellphone",
+    "device",
     "communication",
     "technology",
-    "portable"
-  ]
+    "mobile device",
+    "smartphone",
+    "portable",
+    "electronic"
+  ],
+  "title": "Mobile"
 }
+                export default meta;
+            

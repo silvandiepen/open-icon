@@ -1,14 +1,20 @@
-export default {
-  "title": "Bucket",
-  "name": "bucket",
-  "description": "A bucket is a container with a handle used to carry or collect liquids.",
-  "categories": [
-    "Transport"
+
+                export const meta = {
+  "description": "A bucket icon typically represents a container with a handle, often used for carrying liquids or other materials. It can symbolize chores, cleaning, gardening, construction, and more.",
+  "category": [
+    "Objects"
   ],
-  "tags": [
-    "container",
-    "handle",
-    "collect",
-    "liquids"
-  ]
+  "tag": [
+    "Container",
+    "Handle",
+    "Liquid",
+    "Carrying",
+    "Chores",
+    "Cleaning",
+    "Gardening",
+    "Construction"
+  ],
+  "title": "Bucket"
 }
+                export default meta;
+            

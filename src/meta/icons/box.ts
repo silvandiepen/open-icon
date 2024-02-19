@@ -1,14 +1,23 @@
-export default {
-  "title": "Box",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon 'box' represents a rectangular container, often used to store or transport items. It can symbolize packaging, storage, delivery, or moving.",
+  "category": [
     "Shapes",
     "Interface"
   ],
-  "description": "The box icon represents a simple rectangular shape. It is commonly used to represent containers or enclosures.",
-  "tags": [
+  "tag": [
     "container",
-    "enclosure",
-    "rectangular",
-    "simple"
-  ]
+    "storage",
+    "package",
+    "carton",
+    "crate",
+    "cargo",
+    "moving",
+    "delivery",
+    "shipping",
+    "logistics"
+  ],
+  "title": "Box"
 }
+                export default meta;
+            

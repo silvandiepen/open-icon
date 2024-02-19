@@ -1,15 +1,22 @@
-export default {
-  "title": "Close Tile Icon",
-  "description": "The tile-close icon represents a function to close or dismiss a tile or element.",
-  "categories": [
+
+                export const meta = {
+  "description": "The tile-close icon represents a small square tile with an X mark in the center, indicating closure or dismissal. It is commonly used in user interfaces to signify closing or removing a tile or element.",
+  "category": [
     "Interface",
-    "Tile"
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "close",
     "dismiss",
-    "exit",
     "remove",
-    "cancel"
-  ]
+    "exit",
+    "cancel",
+    "interface",
+    "button",
+    "UI",
+    "square"
+  ],
+  "title": "Tile Close"
 }
+                export default meta;
+            

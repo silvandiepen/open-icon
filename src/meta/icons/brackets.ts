@@ -1,15 +1,24 @@
-export default {
-  "title": "Brackets",
-  "name": "brackets",
-  "description": "Brackets are a pair of punctuation marks used to enclose or group words, phrases, or other elements. They are typically used to indicate additional information or to group items together.",
-  "categories": [
-    "Text",
+
+                export const meta = {
+  "description": "A pair of brackets typically used in writing and coding to enclose and separate content, often used in programming to represent an array or function parameters.",
+  "category": [
+    "Shapes",
+    "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "code",
+    "programming",
     "punctuation",
     "parentheses",
     "enclose",
-    "grouping"
-  ]
+    "separate",
+    "array",
+    "function",
+    "writing",
+    "coding"
+  ],
+  "title": "Brackets"
 }
+                export default meta;
+            

@@ -1,16 +1,23 @@
-export default {
-  "title": "Text Align Right",
-  "description": "The text-align-right icon represents aligning text to the right side of a document or interface. It is commonly used to visually indicate the alignment of text content.",
-  "categories": [
+
+                export const meta = {
+  "description": "The text-align-right icon represents the alignment of text to the right side of a document or text box. It is commonly used in design and word processing software to adjust the layout of text.",
+  "category": [
     "Text",
     "Interface"
   ],
-  "tags": [
-    "align",
-    "right",
-    "alignment",
-    "text",
-    "interface",
-    "document"
-  ]
+  "tag": [
+    "Alignment",
+    "Right",
+    "Text",
+    "Document",
+    "Design",
+    "Layout",
+    "Writing",
+    "Editor",
+    "Typography",
+    "Format"
+  ],
+  "title": "Text Align Right"
 }
+                export default meta;
+            

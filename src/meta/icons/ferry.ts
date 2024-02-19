@@ -1,14 +1,22 @@
-export default {
-  "title": "Ferry",
-  "description": "The icon represents a passenger ferry boat. It usually has multiple decks and is used to transport people and vehicles across water bodies.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon represents a ferry, a boat used for transporting passengers and vehicles across bodies of water.",
+  "category": [
     "Transport"
   ],
-  "tags": [
+  "tag": [
     "boat",
-    "ship",
-    "water transport",
-    "passenger",
-    "vehicle"
-  ]
+    "passengers",
+    "vehicles",
+    "water",
+    "travel",
+    "navigation",
+    "sea",
+    "ocean",
+    "journey",
+    "nautical"
+  ],
+  "title": "Ferry"
 }
+                export default meta;
+            

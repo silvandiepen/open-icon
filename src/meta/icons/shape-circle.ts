@@ -1,13 +1,21 @@
-export default {
-  "title": "Circle",
-  "description": "The shape-circle icon represents a perfect round shape.",
-  "categories": [
+
+                export const meta = {
+  "description": "The shape-circle icon features a simple circle, often used as a basic shape or to represent concepts like unity, wholeness, or cycles.",
+  "category": [
     "Shapes"
   ],
-  "tags": [
-    "circle",
+  "tag": [
+    "geometry",
     "round",
-    "shape",
-    "geometry"
-  ]
+    "circular",
+    "symbol",
+    "basic",
+    "unity",
+    "wholeness",
+    "cycle",
+    "shape"
+  ],
+  "title": "Shape Circle"
 }
+                export default meta;
+            

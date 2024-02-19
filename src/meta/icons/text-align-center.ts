@@ -1,13 +1,23 @@
-export default {
-  "title": "Text Align Center",
-  "name": "text-align-center",
-  "description": "The text-align-center icon represents the center alignment of text. It is used to visually indicate that text should be aligned to the center of a container or layout.",
-  "category": "Text",
-  "tags": [
-    "alignment",
-    "center",
-    "text-align",
-    "layout",
-    "container"
-  ]
+
+                export const meta = {
+  "description": "The text-align-center icon represents the center alignment of text or content. It is commonly used in design software or text editors to align text centrally within a given space.",
+  "category": [
+    "Interface",
+    "Text"
+  ],
+  "tag": [
+    "Alignment",
+    "Center",
+    "Content",
+    "Design",
+    "Editing",
+    "Text editor",
+    "Typography",
+    "Visual design",
+    "Layout",
+    "User interface"
+  ],
+  "title": "Text Align Center"
 }
+                export default meta;
+            

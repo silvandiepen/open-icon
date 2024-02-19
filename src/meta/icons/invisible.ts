@@ -1,14 +1,23 @@
-export default {
-  "title": "Invisible Icon",
-  "description": "The 'invisible' icon represents something that cannot be seen or detected. It is often used to represent invisibility or hidden elements.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The invisible icon represents something that cannot be seen or detected by the eye. It is often used to symbolize hidden or unnoticeable elements.",
+  "category": [
+    "Symbol",
+    "Interface"
   ],
-  "tags": [
-    "invisible",
+  "tag": [
     "hidden",
-    "undetected",
-    "invisibility"
-  ]
+    "camouflage",
+    "disguise",
+    "conceal",
+    "stealth",
+    "unseen",
+    "undetectable",
+    "cloaked",
+    "transparent",
+    "inconspicuous"
+  ],
+  "title": "Invisible"
 }
+                export default meta;
+            

@@ -1,17 +1,23 @@
-export default {
-  "title": "Print",
-  "name": "print",
-  "description": "The print icon represents the action of printing a document or a file. It is commonly used to indicate the option to print a physical copy of digital content.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon depicts a printer, a device that produces a paper copy of documents or images.",
+  "category": [
     "Interface",
     "Document"
   ],
-  "tags": [
+  "tag": [
     "printing",
-    "paper",
+    "office",
+    "technology",
     "copy",
-    "document",
+    "machine",
+    "paper",
+    "output",
+    "hardcopy",
     "printout",
-    "hard copy"
-  ]
+    "device"
+  ],
+  "title": "Print"
 }
+                export default meta;
+            

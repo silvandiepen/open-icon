@@ -1,14 +1,24 @@
-export default {
-  "title": "Double Dash",
-  "description": "A simple icon consisting of two parallel dashes. It can represent a range, a break, or separation.",
-  "categories": [
-    "Symbol",
-    "Interface"
+
+                export const meta = {
+  "description": "The double-dash icon represents a pair of horizontal dashes often used to separate or indicate a break in text or other content. It can also symbolize a range or interval.",
+  "category": [
+    "Text",
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "punctuation",
     "separator",
-    "line",
+    "typography",
+    "break",
+    "range",
+    "interval",
+    "dash",
+    "horizontal",
     "pair",
-    "parallel"
-  ]
+    "symbol"
+  ],
+  "title": "Double Dash"
 }
+                export default meta;
+            

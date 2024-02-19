@@ -1,15 +1,24 @@
-export default {
-  "title": "Grid",
-  "description": "The grid icon represents a series of intersecting vertical and horizontal lines forming a square pattern. It is commonly used to represent a grid system or layout in various applications.",
-  "categories": [
+
+                export const meta = {
+  "description": "The grid icon typically represents a layout or structure with evenly spaced rows and columns. It is commonly used in design software or websites to organize content in a visually appealing manner.",
+  "category": [
     "Interface",
-    "Symbol"
+    "Symbol",
+    "Tile"
   ],
-  "tags": [
-    "grid",
+  "tag": [
     "layout",
-    "squares",
+    "structure",
+    "design",
+    "organize",
+    "web design",
+    "grid system",
+    "spacing",
+    "arrangement",
     "pattern",
-    "structure"
-  ]
+    "framework"
+  ],
+  "title": "Grid"
 }
+                export default meta;
+            

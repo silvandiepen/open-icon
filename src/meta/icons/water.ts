@@ -1,22 +1,23 @@
-export default {
-  "title": "Water",
-  "name": "water",
-  "description": "An icon representing water, typically depicted as a wavy line or droplets. It symbolizes fluidity, purity, and the essential element of life.",
-  "categories": [
-    "Symbol",
-    "Weather"
+
+                export const meta = {
+  "description": "The water icon usually represents liquid, hydration, refreshment, cleaning, or water-related concepts.",
+  "category": [
+    "Nature",
+    "Environment"
   ],
-  "tags": [
-    "liquid",
-    "aquatic",
-    "ocean",
-    "sea",
-    "river",
-    "lake",
-    "rain",
-    "wave",
-    "drop",
-    "hydro",
-    "refreshing"
-  ]
+  "tag": [
+    "Liquid",
+    "Hydration",
+    "Refreshment",
+    "Cleaning",
+    "Pure",
+    "Flow",
+    "Health",
+    "Aquatic",
+    "H2O",
+    "Droplet"
+  ],
+  "title": "Water"
 }
+                export default meta;
+            

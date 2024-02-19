@@ -1,16 +1,24 @@
-export default {
-  "title": "Backspace",
-  "name": "backspace",
-  "description": "The backspace icon represents the function or key used to delete the character to the left of the cursor in a text editor or input field.",
-  "categories": [
-    "Text",
-    "Interface"
+
+                export const meta = {
+  "description": "The backspace icon typically represents a key on a keyboard that deletes the character before the cursor position. It is commonly used in user interfaces to allow users to correct mistakes or go back to a previous state.",
+  "category": [
+    "Interface",
+    "Symbol",
+    "Tile"
   ],
-  "tags": [
+  "tag": [
+    "keyboard",
     "delete",
-    "character",
-    "cursor",
-    "editor",
-    "input field"
-  ]
+    "correction",
+    "input",
+    "text",
+    "erase",
+    "editing",
+    "navigation",
+    "UI",
+    "user interface"
+  ],
+  "title": "Backspace"
 }
+                export default meta;
+            

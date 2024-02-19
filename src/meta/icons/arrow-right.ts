@@ -1,15 +1,23 @@
-export default {
-  "title": "Arrow Right",
-  "description": "The 'arrow-right' icon is a simple arrow pointing towards the right direction. It represents movement, progress, or the next step in a process.",
-  "categories": [
+
+                export const meta = {
+  "description": "A simple arrow pointing to the right direction, often used to indicate 'next' or 'forward'",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
+  "tag": [
+    "forward",
+    "navigation",
     "direction",
-    "movement",
+    "right",
+    "next",
+    "pointer",
+    "arrow",
     "progress",
-    "next step",
-    "navigate"
-  ]
+    "movement",
+    "icon"
+  ],
+  "title": "Arrow Right"
 }
+                export default meta;
+            

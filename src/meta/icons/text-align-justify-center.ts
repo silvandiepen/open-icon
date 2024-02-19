@@ -1,14 +1,23 @@
-export default {
-  "title": "Text Align Justify Center",
-  "description": "An icon representing the option to align text in a justified and centered manner. It is commonly used in text editors or document processors.",
-  "categories": [
-    "Text",
-    "Interface"
+
+                export const meta = {
+  "description": "The text align justify center icon represents center alignment for justified text, providing a balanced and organized look to the text layout.",
+  "category": [
+    "Interface",
+    "Text"
   ],
-  "tags": [
-    "typing",
-    "justification",
-    "centering",
-    "text alignment"
-  ]
+  "tag": [
+    "alignment",
+    "center",
+    "justify",
+    "text",
+    "layout",
+    "balance",
+    "design",
+    "format",
+    "typography",
+    "style"
+  ],
+  "title": "Text Align Justify Center"
 }
+                export default meta;
+            

@@ -1,20 +1,21 @@
-export default {
-  "title": "Male Symbol",
-  "name": "male-symbol",
-  "description": "The male symbol represents the male gender. It is commonly used to indicate males or masculinity.",
-  "categories": [
+
+                export const meta = {
+  "description": "A symbol representing the male gender, typically shown as a circle with an arrow pointing diagonally to the upper right.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "gender",
+    "men's restroom",
     "masculinity",
-    "male"
+    "sexuality",
+    "man",
+    "male symbol",
+    "gender equality",
+    "toilet sign",
+    "gender identity"
   ],
-  "keywords": [
-    "male",
-    "gender",
-    "symbol",
-    "masculinity"
-  ],
-  "icon": "male-symbol.svg"
+  "title": "Male Symbol"
 }
+                export default meta;
+            

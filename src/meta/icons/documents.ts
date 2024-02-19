@@ -1,16 +1,22 @@
-export default {
-  "title": "Documents",
-  "name": "documents",
-  "description": "The documents icon represents a collection of files or paperwork. It is commonly used to symbolize storage, organization, or document management.",
-  "categories": [
-    "Document",
-    "Interface"
+
+                export const meta = {
+  "description": "The 'documents' icon typically represents a collection of files, papers, or documents. It conveys the idea of information, data, or records that need to be organized or managed.",
+  "category": [
+    "Document"
   ],
-  "tags": [
+  "tag": [
+    "papers",
     "files",
-    "paperwork",
-    "storage",
+    "record-keeping",
+    "information",
+    "data",
     "organization",
-    "document management"
-  ]
+    "management",
+    "archives",
+    "paperwork",
+    "collection"
+  ],
+  "title": "Documents"
 }
+                export default meta;
+            

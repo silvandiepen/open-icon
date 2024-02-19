@@ -1,16 +1,22 @@
-export default {
-  "title": "Ascending Order Icon",
-  "description": "The order-asc icon represents the action of arranging items in ascending order. It is commonly used in user interfaces and data visualization to sort lists or tables in increasing order.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "An ascending order icon representing sorting items in increasing order or sequence",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "sorting",
-    "ordering",
+  "tag": [
     "ascending",
-    "arranging",
-    "list",
-    "table"
-  ]
+    "sort",
+    "sequence",
+    "items",
+    "data",
+    "arrange",
+    "order",
+    "direction",
+    "arrow",
+    "up"
+  ],
+  "title": "Ascending Order"
 }
+                export default meta;
+            

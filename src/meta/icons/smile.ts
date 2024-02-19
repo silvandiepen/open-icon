@@ -1,15 +1,23 @@
-export default {
-  "title": "Smile",
-  "name": "smile",
-  "description": "A bright yellow smiling face, with two eyes closed and a wide open mouth.",
-  "categories": [
-    "Symbol"
+
+                export const meta = {
+  "description": "The icon shows a smiling face with a curved mouth and two round eyes, indicating happiness or amusement.",
+  "category": [
+    "Symbol",
+    "Interface"
   ],
-  "tags": [
-    "happy",
+  "tag": [
     "emoticon",
-    "emoji",
-    "expressive",
-    "positive"
-  ]
+    "happy",
+    "face",
+    "expression",
+    "positive",
+    "smiley",
+    "joyful",
+    "laughter",
+    "fun",
+    "happiness"
+  ],
+  "title": "Smile"
 }
+                export default meta;
+            

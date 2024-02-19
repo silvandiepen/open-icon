@@ -1,16 +1,23 @@
-export default {
-  "title": "Layout",
-  "description": "The layout icon represents the arrangement and positioning of components or elements in a design, such as text, images, or buttons. It is commonly used in graphic design and user interface (UI) design to visually represent the overall structure and organization of a layout.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The layout icon represents the arrangement or organization of elements within a design, such as text and images. It is often used in graphic design software and website building tools.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
-    "Design",
-    "Arrangement",
-    "Positioning",
-    "UI",
-    "Components",
-    "Structure",
-    "Organization"
-  ]
+  "tag": [
+    "design",
+    "arrangement",
+    "organization",
+    "web design",
+    "graphic design",
+    "template",
+    "structure",
+    "grid",
+    "placement",
+    "composition"
+  ],
+  "title": "Layout"
 }
+                export default meta;
+            

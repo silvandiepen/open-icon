@@ -1,15 +1,22 @@
-export default {
-  "title": "Shape Left Triangle",
-  "description": "The shape left triangle icon depicts a triangle pointing to the left. It is a simple and versatile shape that can be used to represent direction, navigation, or movement to the left.",
-  "categories": [
-    "Shapes",
-    "Arrows"
+
+                export const meta = {
+  "description": "The shape-left-triangle icon features a simple triangle pointing to the left. It is often used to indicate previous or back actions.",
+  "category": [
+    "Shapes"
   ],
-  "tags": [
-    "triangle",
+  "tag": [
     "left",
+    "triangle",
+    "arrow",
     "direction",
     "navigation",
-    "movement"
-  ]
+    "pointing",
+    "back",
+    "previous",
+    "geometric",
+    "symbol"
+  ],
+  "title": "Shape Left Triangle"
 }
+                export default meta;
+            

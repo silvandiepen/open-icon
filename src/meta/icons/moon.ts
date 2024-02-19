@@ -1,16 +1,23 @@
-export default {
-  "title": "Moon",
-  "name": "moon",
-  "description": "The moon is a celestial body that orbits around the Earth. It is a natural satellite and reflects sunlight to provide nighttime illumination.",
-  "categories": [
+
+                export const meta = {
+  "description": "The 'moon' icon is a representation of Earth's satellite, commonly seen at night when it reflects sunlight. It is often used to symbolize night time, darkness, sleep, calmness, and dreams.",
+  "category": [
     "Weather",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "space",
     "night",
+    "astronomy",
+    "celestial",
     "lunar",
-    "natural satellite",
-    "celestial body",
-    "illumination"
-  ]
+    "nighttime",
+    "dreams",
+    "peaceful",
+    "serene",
+    "calm"
+  ],
+  "title": "Moon"
 }
+                export default meta;
+            

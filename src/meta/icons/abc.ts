@@ -1,17 +1,22 @@
-export default {
-  "title": "ABC Icon",
-  "short_description": "The ABC icon represents the alphabet letters A, B, and C. It can be used to symbolize education, learning, or language.",
-  "categories": [
-    "Education",
-    "Alphabet",
-    "Language"
+
+                export const meta = {
+  "description": "The icon 'abc' is a stylized letter 'A' next to the letter 'B', and then next to the letter 'C'. It is a simple and clean design.",
+  "category": [
+    "Text"
   ],
-  "tags": [
-    "ABC",
-    "Alphabet",
-    "Letters",
-    "Education",
-    "Learning",
-    "Language"
-  ]
+  "tag": [
+    "alphabet",
+    "letters",
+    "abc",
+    "characters",
+    "typography",
+    "education",
+    "spelling",
+    "words",
+    "writing",
+    "language"
+  ],
+  "title": "ABC"
 }
+                export default meta;
+            

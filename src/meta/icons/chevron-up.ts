@@ -1,15 +1,22 @@
-export default {
-  "title": "Chevron Up",
-  "name": "chevron-up",
-  "description": "The chevron up icon depicts an upward-pointing arrow. It is commonly used to indicate an action that will move something higher or to navigate upwards.",
-  "categories": [
-    "Arrows",
-    "Interface"
+
+                export const meta = {
+  "description": "The chevron-up icon features an arrow pointing upwards to indicate direction or to navigate through content.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
-    "Arrow",
-    "Upward",
-    "Navigation",
-    "Direction"
-  ]
+  "tag": [
+    "up",
+    "arrow",
+    "direction",
+    "navigation",
+    "move",
+    "scroll",
+    "pointer",
+    "pointing",
+    "symbol",
+    "graphic"
+  ],
+  "title": "Chevron Up"
 }
+                export default meta;
+            

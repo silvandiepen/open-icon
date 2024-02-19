@@ -1,12 +1,23 @@
-export default {
-  "title": "Case",
-  "description": "The case icon represents a container or enclosure that holds and protects something, such as a mobile phone case or a computer case.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "The case icon typically represents a container or box used to store or transport items. It can symbolize protection, organization, or carrying belongings.",
+  "category": [
+    "Interface",
+    "Symbol",
+    "Transport"
   ],
-  "tags": [
+  "tag": [
+    "storage",
     "container",
-    "enclosure",
-    "protection"
-  ]
+    "box",
+    "protection",
+    "organization",
+    "belongings",
+    "travel",
+    "carry",
+    "stock"
+  ],
+  "title": "Case"
 }
+                export default meta;
+            

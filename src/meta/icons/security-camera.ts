@@ -1,14 +1,22 @@
-export default {
-  "title": "Security Camera",
-  "description": "An icon representing a security camera used for surveillance or monitoring purposes.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The security-camera icon represents a surveillance camera used for monitoring and recording activities in a specific area for security purposes.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
+    "security",
+    "camera",
     "surveillance",
     "monitoring",
-    "security",
-    "camera"
-  ]
+    "recording",
+    "safety",
+    "protection",
+    "privacy",
+    "technology",
+    "security system"
+  ],
+  "title": "Security Camera"
 }
+                export default meta;
+            

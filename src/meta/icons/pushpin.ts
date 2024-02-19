@@ -1,16 +1,20 @@
-export default {
-  "title": "Pushpin",
-  "name": "pushpin",
-  "description": "The pushpin icon is a small graphical representation of a pin or tack used for holding papers or other items to a bulletin board. It is commonly used to indicate location or to mark a point of interest on a map.",
-  "categories": [
+
+                export const meta = {
+  "description": "A pushpin icon typically represents a location marker or a point of interest on a map. It is commonly used in navigation and mapping applications.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "Location",
-    "Marker",
-    "Pin",
-    "Tack",
-    "Bulletin Board"
-  ]
+  "tag": [
+    "location",
+    "marker",
+    "navigation",
+    "point of interest",
+    "map",
+    "pin",
+    "point"
+  ],
+  "title": "Pushpin"
 }
+                export default meta;
+            

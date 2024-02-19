@@ -1,16 +1,23 @@
-export default {
-  "title": "Question Mark",
-  "name": "question-mark",
-  "description": "The question mark icon represents uncertainty, inquiry, and curiosity. It is commonly used to indicate a question or a need for more information.",
-  "categories": [
+
+                export const meta = {
+  "description": "A simple icon representing a question mark, often used to indicate an inquiry or uncertainty.",
+  "category": [
     "Symbol",
-    "Text"
+    "Interface"
   ],
-  "tags": [
-    "question",
+  "tag": [
+    "query",
     "uncertainty",
-    "inquiry",
-    "curiosity",
-    "information"
-  ]
+    "help",
+    "information",
+    "support",
+    "problem",
+    "unclear",
+    "confusion",
+    "inquiring",
+    "question"
+  ],
+  "title": "Question Mark"
 }
+                export default meta;
+            

@@ -1,15 +1,22 @@
-export default {
-  "title": "Clipboard",
-  "name": "clipboard",
-  "description": "The clipboard icon represents a tool used for copying and pasting text or images between different locations.",
-  "categories": [
-    "Interface",
-    "Document"
+
+                export const meta = {
+  "description": "The clipboard icon typically represents copying, cutting, and pasting text or data. It is commonly used in applications to signify operations related to data manipulation.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "copy",
+    "cut",
     "paste",
-    "clipboard",
-    "tool"
-  ]
+    "document",
+    "action",
+    "tool",
+    "data",
+    "information",
+    "transfer",
+    "text"
+  ],
+  "title": "Clipboard"
 }
+                export default meta;
+            

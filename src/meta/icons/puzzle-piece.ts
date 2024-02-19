@@ -1,18 +1,23 @@
-export default {
-  "title": "Puzzle Piece",
-  "name": "puzzle piece",
-  "description": "The puzzle piece icon represents a single piece of a puzzle. It is commonly used to symbolize problem-solving, teamwork, and integration.",
-  "categories": [
+
+                export const meta = {
+  "description": "The puzzle piece icon typically represents the concept of problem-solving, critical thinking, and ingenuity. It is commonly used to symbolize fitting together different aspects to create a cohesive whole.",
+  "category": [
     "Shapes",
-    "Interface",
-    "Symbol",
-    "Tile"
+    "Symbol"
   ],
-  "tags": [
-    "puzzle",
-    "piece",
-    "problem-solving",
-    "teamwork",
-    "integration"
-  ]
+  "tag": [
+    "solution",
+    "strategy",
+    "riddle",
+    "brain teaser",
+    "jigsaw",
+    "integration",
+    "logic",
+    "cleverness",
+    "challenge",
+    "mystery"
+  ],
+  "title": "Puzzle Piece"
 }
+                export default meta;
+            

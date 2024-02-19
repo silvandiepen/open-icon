@@ -1,17 +1,24 @@
-export default {
-  "title": "Underscore",
-  "description": "The underscore icon typically represents a horizontal line drawn below text to emphasize or separate content. It is commonly used in typography and design.",
-  "categories": [
+
+                export const meta = {
+  "description": "The underscore icon is a horizontal line used in typography and design, typically to represent a space or to separate words or elements.",
+  "category": [
     "Text",
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "underline",
-    "horizontal line",
+  "tag": [
+    "separator",
+    "line",
+    "punctuation",
+    "word",
+    "symbol",
     "typography",
-    "emphasis",
-    "design"
+    "design",
+    "spacing",
+    "divider",
+    "horizontal"
   ],
-  "iconName": "underscore"
+  "title": "Underscore"
 }
+                export default meta;
+            

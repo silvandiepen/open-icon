@@ -1,14 +1,21 @@
-export default {
-  "title": "Male and Female Symbol",
-  "description": "The \"Male and Female Symbol\" icon represents the traditional gender symbols for male and female. The male symbol consists of a circle with an arrow pointing to the right, while the female symbol consists of a circle with a cross at the bottom.",
-  "categories": [
+
+                export const meta = {
+  "description": "A symbol representing the merging of male and female shapes, commonly used to symbolize gender equality, diversity, or transgender individuals.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
-    "gender",
-    "sexuality",
+  "tag": [
+    "gender equality",
+    "diversity",
+    "transgender",
+    "equality",
+    "inclusion",
+    "rights",
     "male",
     "female",
-    "gender identity"
-  ]
+    "symbol"
+  ],
+  "title": "Male Female Shape"
 }
+                export default meta;
+            

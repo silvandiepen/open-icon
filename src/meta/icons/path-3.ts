@@ -1,15 +1,23 @@
-export default {
-  "name": "path-3",
-  "title": "Path 3",
-  "description": "An abstract icon depicting a curved path in a modern style.",
-  "categories": [
-    "Shapes",
+
+                export const meta = {
+  "description": "The 'path-3' icon is a simple line drawing of a curved path or route. It can represent travel, journey, direction, or navigation.",
+  "category": [
+    "Arrows",
     "Interface"
   ],
-  "tags": [
-    "abstract",
-    "curve",
+  "tag": [
     "path",
-    "modern"
-  ]
+    "route",
+    "direction",
+    "navigation",
+    "travel",
+    "journey",
+    "road",
+    "curve",
+    "wayfinding",
+    "mapping"
+  ],
+  "title": "Curved Path Icon"
 }
+                export default meta;
+            

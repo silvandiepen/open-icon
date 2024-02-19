@@ -1,16 +1,21 @@
-export default {
-  "title": "Users Icon",
-  "name": "users",
-  "description": "The users icon represents a group of people or users. It is commonly used to indicate a community, team, or social networking.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The icon represents multiple users, typically used to indicate a group of people or social aspect.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "community",
+  "tag": [
     "group",
-    "people",
+    "community",
+    "members",
+    "avatar",
+    "social",
+    "contacts",
+    "network",
     "team",
-    "networking"
-  ]
+    "people"
+  ],
+  "title": "Users"
 }
+                export default meta;
+            

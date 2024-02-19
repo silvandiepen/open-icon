@@ -1,13 +1,23 @@
-export default {
-  "title": "Speech Square",
-  "description": "This icon represents a square speech bubble. It is commonly used to indicate conversation or communication.",
-  "categories": [
+
+                export const meta = {
+  "description": "The speech-square icon is a square with rounded corners containing three lines, symbolizing text or speech. It is commonly used to represent messaging, chatting, or comments in applications and websites.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "speech bubble",
+  "tag": [
+    "chat",
+    "message",
     "communication",
-    "conversation"
-  ]
+    "conversation",
+    "dialogue",
+    "talk",
+    "speak",
+    "bubble",
+    "texting",
+    "notification"
+  ],
+  "title": "Speech Square"
 }
+                export default meta;
+            

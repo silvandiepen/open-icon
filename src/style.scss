@@ -22,54 +22,103 @@ li {
   list-style-type: none;
 }
 
-$dark: #090909;
-$light: #fff;
+$colors: (
+    dark: #0d0529,
+    light: #fff,
+    primary: #ffcd03,
+    secondary: #3f88db,
+    tertiary: #f1e6b7,
+);
 
-$yellow: #ffcd03;
-$yellow-text: $dark;
+@function values($color) {
+    @return #{red(map-get($colors,$color))},
+    #{green(map-get($colors,$color))},
+    #{blue(map-get($colors,$color))}
+}
 
-$green: #4a197c;
-$green-text: $light;
-
+@function darkOrLight($color){
+    @return if(lightness($color) > 50, 'dark', 'light');
+}
 
 :root {
-  --dark: #{$dark};
-  --accent: #{rgba($dark,.05)};
-  --light: #{$light};
-  --space: 2em;
-  --background: var(--light);
-  --foreground: var(--dark);
-  --foreground-inverted: var(--light);
 
-  // --primary: #ffcd03;
-  // --primary-text: var(--dark);
-  // --secondary: #699545;
-  // --secondary-text: var(--light);
+    @each $color, $value in $colors {
+        --#{$color}: #{$value};
+        --#{$color}-rgb: #{values($color)};
+        --#{$color}-r: #{red($value)};
+        --#{$color}-g: #{green($value)};
+        --#{$color}-b: #{blue($value)};
+        --#{$color}-h: #{hue($value)};
+        --#{$color}-s: #{saturation($value)};
+        --#{$color}-l: #{lightness($value)};
+        --#{$color}-text: var(--#{darkOrLight($value)});
+    }
 
-  --primary: #{$yellow};
-  --primary-text: #{$yellow-text};
+    --background: var(--dark);
+    --background-rgb: var(--dark-rgb);
+    --foreground: var(--light);
+    --foreground-rgb: var(--light-rgb);
 
-  --secondary: #{$green};
-  --secondary-text: #{$green-text};
-
-  --success: #2cc86d;
-  --error: #d54300;
-  --warning: #ff8000;
-  --info: #58c2ff;
+    --space: 1em;
+    --border-radius: 1.5em;
+    --spacing: clamp(2em, 8vw, 6em);
+}
+body[color-mode="light"]{
+    --background: var(--light);
+    --background-rgb: var(--light-rgb);
+    --foreground: var(--dark);
+    --foreground-rgb: var(--dark-rgb);
 }
 
-body[color-mode="dark"] {
-  --accent: #{rgba($light,.05)};
-  --background: var(--dark);
-  --foreground: var(--light);
-  --foreground-inverted: var(--dark);
-  --primary: #{$green};
-  --primary-text: #{$green-text};
 
-  --secondary: #{$yellow};
-  --secondary-text: #{$yellow-text};
+// $dark: #090909;
+// $light: #fff;
 
-}
+// $yellow: #ffcd03;
+// $yellow-text: $dark;
+
+// $green: #4a197c;
+// $green-text: $light;
+
+
+// :root {
+//   --dark: #{$dark};
+//   --accent: #{rgba($dark,.05)};
+//   --light: #{$light};
+//   --space: 2em;
+//   --background: var(--light);
+//   --foreground: var(--dark);
+//   --foreground-inverted: var(--light);
+
+//   // --primary: #ffcd03;
+//   // --primary-text: var(--dark);
+//   // --secondary: #699545;
+//   // --secondary-text: var(--light);
+
+//   --primary: #{$yellow};
+//   --primary-text: #{$yellow-text};
+
+//   --secondary: #{$green};
+//   --secondary-text: #{$green-text};
+
+//   --success: #2cc86d;
+//   --error: #d54300;
+//   --warning: #ff8000;
+//   --info: #58c2ff;
+// }
+
+// body[color-mode="dark"] {
+//   --accent: #{rgba($light,.05)};
+//   --background: var(--dark);
+//   --foreground: var(--light);
+//   --foreground-inverted: var(--dark);
+//   --primary: #{$green};
+//   --primary-text: #{$green-text};
+
+//   --secondary: #{$yellow};
+//   --secondary-text: #{$yellow-text};
+
+// }
 
 h1,
 h2,

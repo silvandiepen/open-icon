@@ -1,14 +1,22 @@
-export default {
-  "title": "Light Bulb",
-  "description": "An icon representing a light bulb.",
-  "categories": [
-    "Interface",
+
+                export const meta = {
+  "description": "The icon 'bulb' represents a light bulb, commonly used to symbolize ideas, creativity, and innovation.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
-    "light",
-    "electricity",
+  "tag": [
+    "light bulb",
+    "idea",
     "innovation",
-    "idea"
-  ]
+    "electricity",
+    "energy",
+    "symbol",
+    "creative",
+    "concept",
+    "bright",
+    "illumination"
+  ],
+  "title": "Bulb"
 }
+                export default meta;
+            

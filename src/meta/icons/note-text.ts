@@ -1,18 +1,23 @@
-export default {
-  "title": "Text Note Icon",
-  "name": "text note",
-  "description": "The 'Text Note' icon represents a note or message written in a text format. It can be used to symbolize text-based communication, memos, reminders, or any document that contains written information.",
-  "categories": [
+
+                export const meta = {
+  "description": "The 'note-text' icon represents a piece of paper with lines of text, resembling a note or document. It is commonly used to indicate a text-based item or content.",
+  "category": [
     "Text",
     "Document"
   ],
-  "tags": [
+  "tag": [
     "note",
     "text",
+    "paper",
+    "lines",
+    "writing",
     "message",
-    "communication",
-    "memo",
     "reminder",
-    "document"
-  ]
+    "document",
+    "notebook",
+    "memo"
+  ],
+  "title": "Note Text"
 }
+                export default meta;
+            

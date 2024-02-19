@@ -1,15 +1,21 @@
-export default {
-  "title": "Home",
-  "name": "home",
-  "description": "The home icon represents a house and is commonly used to indicate the home page or main page of a website or application.",
-  "categories": [
+
+                export const meta = {
+  "description": "The home icon typically represents returning to the main or starting page of a website or application. It often features a simple house shape.",
+  "category": [
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "house",
-    "homepage",
     "main page",
+    "starting point",
+    "navigation",
     "website",
-    "application"
-  ]
+    "application",
+    "symbol",
+    "return",
+    "basic"
+  ],
+  "title": "Home"
 }
+                export default meta;
+            

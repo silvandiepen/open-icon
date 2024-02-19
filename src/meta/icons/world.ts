@@ -1,18 +1,22 @@
-export default {
-  "name": {
-    "title": "World",
-    "normal": "world"
-  },
-  "description": "The world icon represents the planet Earth. It symbolizes global concepts, international relationships, and the interconnectedness of different countries and cultures.",
-  "categories": [
-    "Interface",
+
+                export const meta = {
+  "description": "The icon depicts a simplified representation of planet Earth, with continents and oceans. It symbolizes global concepts such as world, international, worldwide, or global.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "Earth",
     "Globe",
-    "Planet",
     "Global",
-    "International"
-  ]
+    "Planet",
+    "International",
+    "Continents",
+    "Maps",
+    "Travel",
+    "Worldwide",
+    "Geography"
+  ],
+  "title": "World"
 }
+                export default meta;
+            

@@ -1,15 +1,23 @@
-export default {
-  "title": "Download Arrow",
-  "normal_name": "arrow download",
-  "description": "The arrow-download icon is a simple, stylized arrow pointing downwards, representing the action of downloading files or content from the internet.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon of an arrow pointing downwards, indicating a download action.",
+  "category": [
     "Arrows",
     "Interface"
   ],
-  "tags": [
-    "download",
+  "tag": [
     "arrow",
-    "downwards",
-    "internet"
-  ]
+    "down",
+    "download",
+    "direction",
+    "pointer",
+    "symbol",
+    "transfer",
+    "save",
+    "import",
+    "receive"
+  ],
+  "title": "Arrow Download"
 }
+                export default meta;
+            

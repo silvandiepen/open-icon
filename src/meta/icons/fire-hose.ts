@@ -1,15 +1,24 @@
-export default {
-  "title": "Fire Hose",
-  "description": "A fire hose is a high-pressure hose that is used to extinguish fires by shooting water or fire retardant chemicals onto the flames. It is an essential tool for firefighters and is typically connected to a water supply or fire hydrant.",
-  "categories": [
-    "Transport",
-    "Interface"
+
+                export const meta = {
+  "description": "Fire hose icon representing a tool used by firefighters to extinguish fires. It typically consists of a long, flexible hose attached to a water supply. The force of the water helps to put out flames effectively.",
+  "category": [
+    "Tools",
+    "Safety",
+    "Emergency"
   ],
-  "tags": [
+  "tag": [
     "firefighter",
-    "extinguish",
-    "high-pressure",
+    "emergency response",
+    "safety equipment",
+    "firefighting tool",
+    "extinguisher",
     "water supply",
-    "fire hydrant"
-  ]
+    "fire prevention",
+    "fire safety",
+    "hose",
+    "fire department"
+  ],
+  "title": "Fire Hose"
 }
+                export default meta;
+            

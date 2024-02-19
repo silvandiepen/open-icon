@@ -1,14 +1,22 @@
-export default {
-  "title": "Fish",
-  "name": "fish",
-  "description": "An icon representing a fish, usually with a curved body and a tail.",
-  "categories": [
+
+                export const meta = {
+  "description": "The fish icon depicts a stylized fish with a tail, fins, and scales. It is commonly used to represent aquatic themes, seafood, marine life, and fishing-related content.",
+  "category": [
     "Animals"
   ],
-  "tags": [
+  "tag": [
+    "seafood",
+    "marine life",
     "ocean",
     "aquatic",
-    "sea creature",
-    "marine life"
-  ]
+    "fishing",
+    "swimming",
+    "water",
+    "wildlife",
+    "nature",
+    "fish"
+  ],
+  "title": "Fish"
 }
+                export default meta;
+            

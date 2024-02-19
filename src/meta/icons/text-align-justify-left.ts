@@ -1,12 +1,22 @@
-export default {
-  "title": "Text Align Justify Left",
-  "short_description": "An icon representing left-aligned justified text.",
-  "categories": [
+
+                export const meta = {
+  "description": "The text-align-justify-left icon represents left alignment for text, allowing for a clean and organized layout. This icon is commonly used in word processing software and design applications.",
+  "category": [
+    "Interface",
     "Text"
   ],
-  "tags": [
-    "text-align",
+  "tag": [
+    "alignment",
     "justify",
-    "left"
-  ]
+    "text",
+    "layout",
+    "design",
+    "word processing",
+    "editor",
+    "writing",
+    "document"
+  ],
+  "title": "Text Align Justify Left"
 }
+                export default meta;
+            

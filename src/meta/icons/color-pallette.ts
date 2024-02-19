@@ -1,15 +1,22 @@
-export default {
-  "title": "Color Palette",
-  "description": "An icon representing a color palette, typically used for selecting and organizing colors in design applications.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The color palette icon represents a tool used for selecting and managing colors in digital design. It is commonly used by designers and artists to create harmonious color schemes for various projects.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "design",
+  "tag": [
     "colors",
+    "design",
+    "tool",
     "selection",
-    "organize"
+    "palette",
+    "digital",
+    "artist",
+    "scheme",
+    "harmonious",
+    "manage"
   ],
-  "name": "color-pallette"
+  "title": "Color Palette"
 }
+                export default meta;
+            

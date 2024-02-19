@@ -1,18 +1,21 @@
-export default {
-  "title": "Tile Edit",
-  "iconName": "tile-edit",
-  "description": "The Tile Edit icon represents the ability to edit or modify a tile or tile-based interface. It can be used to indicate actions related to rearranging or customizing tiles.",
-  "categories": [
-    "Interface",
-    "Tile"
+
+                export const meta = {
+  "description": "The icon represents a tool or feature for editing tiles. It could be used in applications or software related to customization or rearranging content in a tile-based layout.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
+  "tag": [
     "edit",
-    "rearrange",
+    "tool",
+    "feature",
+    "tile",
+    "layout",
     "customize",
-    "modify",
-    "tile-based",
-    "interface",
-    "user interface"
-  ]
+    "rearrange",
+    "application",
+    "software"
+  ],
+  "title": "Tile Edit"
 }
+                export default meta;
+            

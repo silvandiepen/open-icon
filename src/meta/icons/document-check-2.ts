@@ -1,14 +1,24 @@
-export default {
-  "title": "Document Check 2",
-  "description": "A document check mark icon that indicates a document has been verified or approved.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon representing a document with a checkmark symbol indicating verification or approval.",
+  "category": [
     "Document",
-    "Interface"
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
-    "check mark",
-    "verified",
-    "approved",
-    "document"
-  ]
+  "tag": [
+    "file",
+    "checkmark",
+    "verify",
+    "approve",
+    "paperwork",
+    "completion",
+    "task",
+    "confirmation",
+    "validation",
+    "success"
+  ],
+  "title": "Document Check 2"
 }
+                export default meta;
+            

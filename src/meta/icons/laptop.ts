@@ -1,16 +1,23 @@
-export default {
-  "title": "Laptop",
-  "description": "A laptop is a portable computer that is designed for regular use and mobility. It typically consists of a screen, keyboard, and a trackpad or mouse for input. Laptops are used for a wide range of purposes including work, entertainment, and communication.",
-  "categories": [
+
+                export const meta = {
+  "description": "An icon representing a laptop, typically used to symbolize technology, work, or digital devices.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "computing",
+  "tag": [
+    "computer",
     "technology",
+    "electronic",
     "portable",
     "device",
-    "computer"
+    "work",
+    "digital",
+    "laptop",
+    "pc",
+    "screen"
   ],
-  "icon": "laptop"
+  "title": "Laptop"
 }
+                export default meta;
+            

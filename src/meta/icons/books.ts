@@ -1,14 +1,23 @@
-export default {
-  "title": "Books",
-  "description": "The books icon represents a collection of books or a reading material. It can be used to indicate libraries, bookstores, education, or reading-related content.",
-  "categories": [
-    "Media",
+
+                export const meta = {
+  "description": "The icon depicts a stack of books, symbolizing knowledge, learning, and education.",
+  "category": [
+    "Document",
     "Interface"
   ],
-  "tags": [
-    "library",
-    "bookstore",
+  "tag": [
     "education",
-    "reading"
-  ]
+    "knowledge",
+    "reading",
+    "library",
+    "literature",
+    "study",
+    "school",
+    "academic",
+    "research",
+    "books"
+  ],
+  "title": "Books"
 }
+                export default meta;
+            

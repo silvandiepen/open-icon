@@ -1,14 +1,22 @@
-export default {
-  "title": "Male Icon",
-  "description": "The male icon represents a male person. It is commonly used to indicate male gender or to represent men in general.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The icon represents a male figure, typically displayed as a stylized silhouette of a man with masculine features.",
+  "category": [
+    "Symbol",
+    "Accessibility"
   ],
-  "tags": [
+  "tag": [
     "gender",
     "man",
-    "human",
-    "masculine"
-  ]
+    "masculine",
+    "person",
+    "profile",
+    "avatar",
+    "silhouette",
+    "symbolic",
+    "figure"
+  ],
+  "title": "Male"
 }
+                export default meta;
+            

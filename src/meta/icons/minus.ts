@@ -1,14 +1,22 @@
-export default {
-  "title": "Minus Icon",
-  "name": "minus",
-  "description": "The minus icon depicts a horizontal line with a shorter vertical line intersecting it in the middle, forming a minus sign. It is commonly used to represent the concept of subtraction or reduction.",
-  "categories": [
-    "Math",
+
+                export const meta = {
+  "description": "The minus icon typically represents subtraction, removal, or reduction. It consists of a horizontal line placed above a shorter horizontal line, creating a longer dash.",
+  "category": [
+    "Arrows",
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "subtraction",
+    "removal",
     "reduction",
-    "decrease"
-  ]
+    "math",
+    "operation",
+    "mathematics",
+    "remove",
+    "delete",
+    "minus sign"
+  ],
+  "title": "Minus"
 }
+                export default meta;
+            

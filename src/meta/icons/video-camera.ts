@@ -1,14 +1,22 @@
-export default {
-  "title": "Video Camera",
-  "description": "A video camera is a device used to capture and record live-action video footage. It is commonly used in filmmaking, television production, and various other multimedia applications.",
-  "categories": [
+
+                export const meta = {
+  "description": "The video-camera icon typically represents a video recording device or feature. It is commonly used in multimedia applications or to indicate the presence of a video recording function.",
+  "category": [
     "Media"
   ],
-  "tags": [
-    "filmmaking",
-    "television",
-    "video production",
-    "live-action",
-    "multimedia"
-  ]
+  "tag": [
+    "video",
+    "camera",
+    "recording",
+    "multimedia",
+    "film",
+    "movie",
+    "technology",
+    "device",
+    "record",
+    "videography"
+  ],
+  "title": "Video Camera"
 }
+                export default meta;
+            

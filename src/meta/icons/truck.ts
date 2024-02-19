@@ -1,12 +1,22 @@
-export default {
-  "title": "Truck",
-  "description": "An icon representing a truck, a large motor vehicle used for transporting goods or cargo.",
-  "categories": [
+
+                export const meta = {
+  "description": "The truck icon represents a motor vehicle designed to transport cargo. It typically has a spacious rear compartment for carrying goods and is commonly used in logistics and transportation-related designs.",
+  "category": [
     "Transport"
   ],
-  "tags": [
+  "tag": [
     "delivery",
+    "cargo",
+    "logistics",
+    "transportation",
+    "vehicle",
+    "shipping",
+    "movement",
     "freight",
-    "shipping"
-  ]
+    "distribution",
+    "haulage"
+  ],
+  "title": "Truck"
 }
+                export default meta;
+            

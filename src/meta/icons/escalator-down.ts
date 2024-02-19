@@ -1,12 +1,24 @@
-export default {
-  "title": "Escalator Down",
-  "description": "An icon representing an escalator moving downwards.",
-  "categories": [
-    "Transport"
+
+                export const meta = {
+  "description": "The icon depicts a downwards escalator, typically found in buildings such as malls, airports, and train stations for vertical transportation of people.",
+  "category": [
+    "Transport",
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "escalator",
-    "downward movement",
-    "stairs"
-  ]
+    "downwards",
+    "building",
+    "vertical",
+    "transportation",
+    "mall",
+    "airport",
+    "train station",
+    "stairs",
+    "moving walkway"
+  ],
+  "title": "Escalator Down"
 }
+                export default meta;
+            

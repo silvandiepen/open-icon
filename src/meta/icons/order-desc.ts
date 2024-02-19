@@ -1,15 +1,22 @@
-export default {
-  "title": "Order Descending",
-  "description": "The order-desc icon represents descending order, typically used for sorting in a descending fashion.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "An icon representing a descending order, indicating a list or arrangement in decreasing sequence.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "ascending",
-    "descending",
+  "tag": [
     "sorting",
-    "order",
-    "direction"
-  ]
+    "sequence",
+    "hierarchy",
+    "organization",
+    "direction",
+    "descending",
+    "ordering",
+    "list",
+    "arrangement",
+    "downwards"
+  ],
+  "title": "Descending Order"
 }
+                export default meta;
+            

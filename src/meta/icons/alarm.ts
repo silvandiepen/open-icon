@@ -1,14 +1,23 @@
-export default {
-  "name": "alarm",
-  "title": "Alarm",
-  "description": "An icon representing an alarm, commonly used to set reminders or wake people up.",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "An icon representing an alarm, typically used to indicate a scheduled event or wake-up time. The icon may depict a ringing bell, digital clock, or other alarm device.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
     "clock",
-    "timer",
     "reminder",
-    "wake-up call"
-  ]
+    "notification",
+    "alert",
+    "schedule",
+    "time management",
+    "wakeup call",
+    "timing",
+    "time-sensitive",
+    "event"
+  ],
+  "title": "Alarm"
 }
+                export default meta;
+            

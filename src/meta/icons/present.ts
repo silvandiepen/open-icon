@@ -1,14 +1,22 @@
-export default {
-  "title": "Present",
-  "name": "present",
-  "description": "An icon of a gift box, usually associated with special occasions and gifts.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon presents a wrapped gift, typically given on special occasions such as birthdays or holidays.",
+  "category": [
     "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "celebration",
+    "surprise",
     "gift",
+    "birthday",
+    "holiday",
+    "present",
     "box",
-    "ribbon",
-    "occasion"
-  ]
+    "wrapped",
+    "special occasion",
+    "party"
+  ],
+  "title": "Present"
 }
+                export default meta;
+            

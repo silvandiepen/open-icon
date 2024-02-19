@@ -1,15 +1,24 @@
-export default {
-  "title": "Note",
-  "name": "note",
-  "description": "The note icon represents a piece of paper with lines, often used to represent a written or typed message or reminder.",
-  "categories": [
+
+                export const meta = {
+  "description": "The note icon typically represents a piece of paper with lines and often includes an image of musical notes or the written word \"note\" to signify its purpose.",
+  "category": [
+    "Text",
     "Document",
-    "Text"
+    "Interface"
   ],
-  "tags": [
-    "message",
+  "tag": [
+    "memo",
+    "writing",
     "reminder",
+    "message",
+    "communication",
+    "music",
+    "notation",
+    "sheet",
     "paper",
-    "lines"
-  ]
+    "report"
+  ],
+  "title": "Note"
 }
+                export default meta;
+            

@@ -1,13 +1,22 @@
-export default {
-  "title": "X Shape Filled",
-  "name": "shape-x-filled",
-  "description": "A filled-in X shape, resembling a cross or multiplication sign.",
-  "categories": [
-    "Shapes"
+
+                export const meta = {
+  "description": "The shape-x-filled icon features a filled-in 'X' shape, commonly used to represent 'close' or 'delete' actions in interfaces.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "close",
+    "delete",
+    "cancel",
+    "remove",
+    "exit",
     "cross",
-    "multiplication",
-    "symbol"
-  ]
+    "mark",
+    "icon",
+    "button"
+  ],
+  "title": "Shape X Filled"
 }
+                export default meta;
+            

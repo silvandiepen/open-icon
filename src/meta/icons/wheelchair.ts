@@ -1,18 +1,23 @@
-export default {
-  "title": "Wheelchair",
-  "normalizedName": "wheelchair",
-  "description": "The wheelchair icon represents mobility assistance for individuals with disabilities. It signifies accessibility and inclusion.",
-  "categories": [
+
+                export const meta = {
+  "description": "The wheelchair icon represents accessibility and mobility for people with disabilities. It is commonly used to indicate areas or services that are wheelchair accessible.",
+  "category": [
     "Accessibility",
-    "Transport",
-    "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "wheelchair",
     "disability",
-    "disabled",
+    "accessibility",
     "mobility",
-    "access",
-    "inclusion"
-  ]
+    "inclusive",
+    "disabled",
+    "movement",
+    "healthcare",
+    "medical",
+    "public spaces"
+  ],
+  "title": "Wheelchair"
 }
+                export default meta;
+            

@@ -1,19 +1,22 @@
-export default {
-  "title": "Scrapbook",
-  "categories": [
-    "Interface",
-    "Document"
+
+                export const meta = {
+  "description": "A scrapbook icon typically represents a collection of memories, photos, notes, and memorabilia gathered in a book. It is often used to symbolize creativity, nostalgia, and personal storytelling.",
+  "category": [
+    "Document",
+    "Interface"
   ],
-  "description": "The scrapbook icon represents a collection of personal memories and keepsakes that can be preserved and viewed in a physical or digital format. It symbolizes creativity, nostalgia, and the art of preserving cherished moments.",
-  "tags": [
+  "tag": [
     "memories",
-    "keepsakes",
-    "collection",
-    "creativity",
-    "nostalgia",
-    "art",
-    "preservation",
+    "photos",
+    "notes",
     "memorabilia",
-    "scrapbooking"
-  ]
+    "creative",
+    "nostalgia",
+    "storytelling",
+    "diary",
+    "journal"
+  ],
+  "title": "Scrapbook"
 }
+                export default meta;
+            

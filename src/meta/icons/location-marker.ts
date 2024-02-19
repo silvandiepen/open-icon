@@ -1,14 +1,23 @@
-export default {
-  "title": "Location Marker",
-  "description": "The location-marker icon represents a marker used to indicate a specific location or point of interest on a map.",
-  "categories": [
+
+                export const meta = {
+  "description": "The location-marker icon typically represents a specific point or place on a map or in a general area. It is commonly used to indicate a particular location of interest or a designated spot.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "map",
-    "gps",
     "pin",
-    "navigation"
-  ]
+    "point of interest",
+    "navigation",
+    "travel",
+    "geolocation",
+    "destination",
+    "marker",
+    "GPS",
+    "geo"
+  ],
+  "title": "Location Marker"
 }
+                export default meta;
+            

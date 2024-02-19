@@ -1,14 +1,22 @@
-export default {
-  "title": "Document Delete 2",
-  "description": "An icon representing the action of deleting a document or file.",
-  "categories": [
-    "Document",
-    "Interface"
+
+                export const meta = {
+  "description": "The document-delete-2 icon depicts a document with a small 'x' symbol indicating deletion. It is used to represent the action of deleting a document or file.",
+  "category": [
+    "Document"
   ],
-  "tags": [
+  "tag": [
+    "file",
     "delete",
     "remove",
-    "file",
-    "document"
-  ]
+    "paper",
+    "sheet",
+    "discard",
+    "trash",
+    "cancel",
+    "erase",
+    "icon"
+  ],
+  "title": "Document Delete 2"
 }
+                export default meta;
+            

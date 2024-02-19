@@ -1,12 +1,12 @@
 <template>
     <div :class="bemm()">
         <header :class="bemm('header')">
-            <h1>{{ icon }}</h1>
+            <h1>{{ icon.title }}</h1>
 
         </header>
 
         <div :class="bemm('preview')">
-            <component :is="getIcon(icon)" :class="bemm('icon')"></component>
+            <Icon :name="icon?.value" :class="bemm('icon')"></Icon>
         </div>
 
         <div :class="bemm('content')">
@@ -19,6 +19,11 @@
                 <span :class="bemm('button-text')">Download PNG</span>
             </button>
 
+            <pre>
+                {{ icon }}
+
+            </pre>
+
             <pre v-if="svgCode" :class="bemm('code')">
                 {{ svgCode }}
             </pre>
@@ -28,7 +33,7 @@
             <h3>Related icons</h3>
             <ul :class="bemm('related-list')">
                 <li @click="router.push(`/icon/${icon}`)" :class="bemm('related-icon')" v-for="icon in relatedIcons">
-                    <component :is="getIcon(icon)" />
+                    <Icon :name="icon.key" />
                 </li>
             </ul>
 
@@ -37,25 +42,32 @@
 </template>
     
 <script lang="ts" setup>
-import { categories } from '@/data/icon-categories';
-import { getIcon, Icons } from '@/icons';
 import { useBemm } from 'bemm';
 import { computed, onMounted, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+
+import { Icons } from '@/icons';
+import Icon from '@/components/Icon.vue';
+import { useIcons } from '@/composables/useIcons';
+
 const { bemm } = useBemm('detail')
+const { getIcon, getIconsByCategory } = useIcons();
 
 const route = useRoute();
 const router = useRouter();
 
-
 const svgCode = ref(``);
+
+
+const icon = computed(() => {
+    return getIcon(route.params.icon as string);
+})
 
 const getDataUrl = (code: string) => {
     const encodedData = window.btoa(code);
     return `data:image/svg+xml;base64,${encodedData}`;
 }
 
-const relatedIcons = ref<Icons[]>([]);
 
 const downloadSvg = () => {
     var dl = document.createElement("a");
@@ -167,25 +179,17 @@ const getCode = async () => {
 
 }
 
-const getRelated = () => {
-    const category = Object.values(categories).find((category: { name: string, icon: Icons, items: Icons[] }) => {
-        return category.items.includes(icon.value);
-    })
-
-    if (category) {
-        relatedIcons.value = category.items.filter((item) => item !== icon.value);
-    }
-}
+const relatedIcons = computed(() => {
+    if (!icon.value) return [];
+    console.log(icon.value)
+    return getIconsByCategory(icon.value?.category);
+})
 
 
 onMounted(() => {
     getCode();
-    getRelated()
 })
 
-const icon = computed(() => {
-    return route.params.icon as string;
-})
 </script>
     
 

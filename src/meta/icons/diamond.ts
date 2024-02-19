@@ -1,15 +1,23 @@
-export default {
-  "title": "Diamond",
-  "name": "diamond",
-  "description": "A diamond is a precious gemstone known for its exquisite brilliance and elegant shape. It is often used in jewelry and is a symbol of wealth and luxury.",
-  "categories": [
+
+                export const meta = {
+  "description": "The diamond icon is a geometric shape with four equal sides forming two pairs of parallel lines. It is commonly associated with luxury, wealth, and elegance.",
+  "category": [
     "Shapes",
     "Symbol"
   ],
-  "tags": [
-    "gemstone",
-    "jewelry",
+  "tag": [
+    "gem",
+    "jewel",
+    "luxury",
     "wealth",
-    "luxury"
-  ]
+    "elegance",
+    "geometric",
+    "shape",
+    "precious",
+    "crystal",
+    "facets"
+  ],
+  "title": "Diamond"
 }
+                export default meta;
+            

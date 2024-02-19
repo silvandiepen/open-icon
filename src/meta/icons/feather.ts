@@ -1,18 +1,19 @@
-export default {
-  "title": "Feather Icon",
-  "name": "feather",
-  "description": "The feather icon is a simple illustration of a single feather, typically representing lightness, delicacy, or nature. It can be used in various contexts such as art, design, culture, or spirituality.",
-  "categories": [
-    "Symbol",
-    "Nature"
+
+                export const meta = {
+  "description": "The feather icon typically represents lightness, freedom, or nature. It can also symbolize creativity, inspiration, or writing.",
+  "category": [
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "feather",
     "lightness",
-    "delicacy",
+    "freedom",
     "nature",
-    "art",
-    "design",
-    "culture",
-    "spirituality"
-  ]
+    "creativity",
+    "inspiration",
+    "writing"
+  ],
+  "title": "Feather"
 }
+                export default meta;
+            

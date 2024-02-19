@@ -1,14 +1,21 @@
-export default {
-  "title": "Settings",
-  "name": "settings",
-  "description": "The settings icon represents a gear-shaped symbol that is commonly used to indicate the presence of settings or options. It is often used in user interfaces to provide access to various configuration or customization options.",
-  "categories": [
+
+                export const meta = {
+  "description": "The settings icon typically represents a menu or options for customizing and configuring settings in an application or system.",
+  "category": [
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "gear",
+    "preferences",
     "configuration",
+    "controls",
     "options",
-    "customization"
-  ]
+    "tools",
+    "menu",
+    "adjustments",
+    "setup"
+  ],
+  "title": "Settings"
 }
+                export default meta;
+            

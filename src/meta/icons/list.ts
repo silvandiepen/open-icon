@@ -1,14 +1,23 @@
-export default {
-  "title": "List",
-  "description": "The list icon represents a collection of items organized in a sequential or hierarchical manner.",
-  "categories": [
+
+                export const meta = {
+  "description": "The list icon typically represents a collection of items or tasks organized in a linear format. It is commonly used in interfaces and applications to denote lists, bullet points, or sequential information.",
+  "category": [
     "Interface",
-    "Text"
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "organization",
+    "information",
+    "tasks",
     "items",
-    "sequence",
-    "order",
-    "hierarchy"
-  ]
+    "bullet points",
+    "interface",
+    "sequential",
+    "data",
+    "inventory",
+    "menu"
+  ],
+  "title": "List"
 }
+                export default meta;
+            

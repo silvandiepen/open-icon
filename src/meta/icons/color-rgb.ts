@@ -1,17 +1,21 @@
-export default {
-  "title": "Color RGB",
-  "description": "Color RGB icon represents the red, green, and blue color components used in digital design, image processing, and electronic devices.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "The color-rgb icon represents the RGB color model, which is a method used to design colors used in digital imaging and electronics. This model is based on the combination of red, green, and blue colors to produce a wide array of hues.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "digital",
-    "design",
-    "image processing",
-    "electronic devices",
+  "tag": [
+    "color",
+    "RGB",
+    "digital imaging",
+    "electronics",
     "red",
     "green",
-    "blue"
-  ]
+    "blue",
+    "hue",
+    "design"
+  ],
+  "title": "RGB Color Model"
 }
+                export default meta;
+            

@@ -1,16 +1,22 @@
-export default {
-  "title": "Magic Wand",
-  "categories": [
+
+                export const meta = {
+  "description": "The magic wand icon is a symbol representing magic, fantasy, and enchantment. It can be associated with spells, wizards, fairy tales, and mystical powers.",
+  "category": [
     "Symbol"
   ],
-  "description": "The magic wand icon represents a mystical tool used for casting spells or invoking special powers. It is often associated with fantasy, enchantment, and wizardry.",
-  "tags": [
-    "wizard",
-    "spell",
+  "tag": [
+    "magic",
+    "wand",
     "fantasy",
     "enchantment",
+    "spells",
+    "wizard",
+    "fairy tale",
     "mystical",
-    "tool",
-    "power"
-  ]
+    "power",
+    "magical"
+  ],
+  "title": "Magic Wand"
 }
+                export default meta;
+            

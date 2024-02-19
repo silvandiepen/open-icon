@@ -1,13 +1,23 @@
-export default {
-  "title": "Document Delete",
-  "description": "The document-delete icon represents the action of deleting a document. It is commonly used in applications to indicate the removal of a file or document.",
-  "categories": [
-    "Document"
+
+                export const meta = {
+  "description": "The document-delete icon represents the action of deleting a document. It typically features a document with a delete symbol or a trash can.",
+  "category": [
+    "Document",
+    "Interface"
   ],
-  "tags": [
-    "delete",
-    "remove",
-    "file",
-    "document"
-  ]
+  "tag": [
+    "File",
+    "Paper",
+    "Trash",
+    "Remove",
+    "Eraser",
+    "Data",
+    "Information",
+    "Bin",
+    "Cancel",
+    "Delete"
+  ],
+  "title": "Document Delete"
 }
+                export default meta;
+            

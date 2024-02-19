@@ -1,13 +1,22 @@
-export default {
-  "title": "Color Mode 2",
-  "description": "Colormode2 is a vibrant icon representing the ability to switch between different color modes. It can be used to indicate various themes or visual styles.",
-  "categories": [
+
+                export const meta = {
+  "description": "Colormode2 icon is a visual representation of a user interface feature that allows users to switch between different color modes or themes on a digital device. It typically includes options for light mode, dark mode, and custom color schemes.",
+  "category": [
     "Interface"
   ],
-  "tags": [
+  "tag": [
     "color mode",
     "theme",
-    "style",
-    "user interface"
-  ]
+    "switch",
+    "digital device",
+    "user interface",
+    "light mode",
+    "dark mode",
+    "color scheme",
+    "visual representation",
+    "option"
+  ],
+  "title": "Color Mode 2"
 }
+                export default meta;
+            

@@ -1,16 +1,23 @@
-export default {
-  "title": "Locked Icon",
-  "name": "locked",
-  "description": "The locked icon represents an object or element that is secured and inaccessible without the appropriate authorization or key.",
-  "categories": [
+
+                export const meta = {
+  "description": "The icon represents a lock, symbolizing closed or restricted access. It is commonly used to indicate that an item is securely protected.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
+  "tag": [
     "security",
+    "privacy",
+    "protection",
+    "restricted",
     "access",
+    "secure",
+    "locked",
     "authorization",
-    "key",
-    "authentication"
-  ]
+    "encryption",
+    "safe"
+  ],
+  "title": "Locked"
 }
+                export default meta;
+            

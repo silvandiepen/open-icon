@@ -1,12 +1,20 @@
-export default {
-  "title": "Color Mode 3",
-  "description": "A colorful icon denoting a specific color mode",
-  "categories": [
-    "Interface"
+
+                export const meta = {
+  "description": "Colormode3 icon is a symbol representing a specific color mode setting or feature. It may indicate the third color mode option available in a software or device.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
-    "colors",
+  "tag": [
     "color mode",
-    "graphic design"
-  ]
+    "settings",
+    "feature",
+    "option",
+    "symbol",
+    "software",
+    "device"
+  ],
+  "title": "Color Mode 3"
 }
+                export default meta;
+            

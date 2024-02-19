@@ -1,15 +1,22 @@
-export default {
-  "name": "arrow-split",
-  "title": "Arrow Split",
-  "description": "The arrow-split icon represents a split in a directional flow or path.",
-  "categories": [
-    "Arrows",
-    "Interface"
+
+                export const meta = {
+  "description": "The arrow-split icon represents a single arrow that is split into two separate arrows pointing in opposite directions. This design is commonly used to indicate a divergence or separation of paths.",
+  "category": [
+    "Arrows"
   ],
-  "tags": [
-    "split",
+  "tag": [
     "direction",
-    "flow",
-    "path"
-  ]
+    "separation",
+    "divergence",
+    "opposite",
+    "symbol",
+    "path",
+    "split",
+    "arrow",
+    "navigation",
+    "choice"
+  ],
+  "title": "Arrow Split"
 }
+                export default meta;
+            

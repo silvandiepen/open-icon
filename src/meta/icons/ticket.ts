@@ -1,13 +1,22 @@
-export default {
-  "title": "Ticket",
-  "name": "ticket",
-  "description": "A ticket icon represents a proof or permit for admission. It is commonly associated with events or travel.",
-  "categories": [
-    "Document"
+
+                export const meta = {
+  "description": "The ticket icon represents a piece of paper or card that grants entry or access to an event, venue, or service. It is often associated with concepts such as admission, permission, reservation, and entitlement.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "event",
+  "tag": [
     "admission",
-    "permit"
-  ]
+    "entry",
+    "access",
+    "event",
+    "venue",
+    "reservation",
+    "permission",
+    "entitlement",
+    "ticketing",
+    "pass"
+  ],
+  "title": "Ticket"
 }
+                export default meta;
+            

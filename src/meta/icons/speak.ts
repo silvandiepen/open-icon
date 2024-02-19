@@ -1,13 +1,24 @@
-export default {
-  "title": "Speak",
-  "name": "speak",
-  "description": "The 'speak' icon represents the act of vocal communication or expressing thoughts and ideas through speech.",
-  "category": "Interface",
-  "tags": [
+
+                export const meta = {
+  "description": "The 'speak' icon is typically used to represent audio communication, voice messages, or speech-related content. It can symbolize speaking, voice commands, voice chat, or any voice-related interactions.",
+  "category": [
+    "Interface",
+    "Symbol",
+    "Media"
+  ],
+  "tag": [
     "communication",
-    "conversation",
-    "talking",
-    "verbal",
-    "voice"
-  ]
+    "audio",
+    "voice",
+    "chat",
+    "message",
+    "speak",
+    "talk",
+    "sound",
+    "speech",
+    "utterance"
+  ],
+  "title": "Speak"
 }
+                export default meta;
+            

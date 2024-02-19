@@ -1,15 +1,23 @@
-export default {
-  "title": "Fire",
-  "description": "An icon representing fire, often associated with heat, flames, and danger.",
-  "categories": [
-    "Nature",
-    "Symbol"
+
+                export const meta = {
+  "description": "The fire icon depicts a stylized flame, often used to represent heat, light, energy, or danger in various contexts.",
+  "category": [
+    "Symbol",
+    "Weather"
   ],
-  "tags": [
+  "tag": [
+    "flame",
     "hot",
     "burning",
+    "campfire",
     "danger",
-    "flames",
-    "heat"
-  ]
+    "energy",
+    "heat",
+    "light",
+    "fireplace",
+    "warning"
+  ],
+  "title": "Fire"
 }
+                export default meta;
+            

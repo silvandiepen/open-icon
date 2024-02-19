@@ -1,14 +1,23 @@
-export default {
-  "title": "Arrow Upload",
-  "description": "The arrow-upload icon represents the action of uploading or transferring data to a remote location.",
-  "categories": [
-    "Arrows",
-    "Interface"
+
+                export const meta = {
+  "description": "The arrow-upload icon depicts an upward-pointing arrow symbolizing the action of uploading or sending data or files. It is often used in interfaces to indicate the process of transferring information from a local device to a server or online platform.",
+  "category": [
+    "Interface",
+    "Symbol"
   ],
-  "tags": [
+  "tag": [
+    "arrow",
     "upload",
     "transfer",
     "data",
-    "remote location"
-  ]
+    "file",
+    "uploading",
+    "sending",
+    "interface",
+    "communication",
+    "technology"
+  ],
+  "title": "Arrow Upload"
 }
+                export default meta;
+            

@@ -1,15 +1,22 @@
-export default {
-  "title": "Check Icon",
-  "name": "check",
-  "description": "The check icon represents a small symbol resembling a tick or checkmark, typically used to indicate a positive or affirmative action or status.",
-  "categories": [
+
+                export const meta = {
+  "description": "The 'check' icon represents a symbol of approval, confirmation, or completion. It typically consists of a checkmark or tick mark.",
+  "category": [
     "Interface",
     "Symbol"
   ],
-  "tags": [
-    "positive",
-    "affirmative",
+  "tag": [
+    "approval",
+    "confirmation",
+    "completion",
     "tick",
-    "checkmark"
-  ]
+    "mark",
+    "agreement",
+    "verification",
+    "success",
+    "valid"
+  ],
+  "title": "Check Icon"
 }
+                export default meta;
+            

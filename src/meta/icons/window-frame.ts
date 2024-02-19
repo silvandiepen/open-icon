@@ -1,16 +1,22 @@
-export default {
-  "title": "Window Frame",
-  "name": "window-frame",
-  "description": "The window-frame icon represents the framework of a window. It typically consists of a rectangular outline with borders and corners, resembling the structure of a physical window.",
-  "categories": [
-    "Interface",
-    "Symbol"
+
+                export const meta = {
+  "description": "A simple icon representing a window frame, typically used to symbolize a digital or physical window.",
+  "category": [
+    "Interface"
   ],
-  "tags": [
-    "frame",
-    "window",
-    "border",
-    "outline",
-    "gui"
-  ]
+  "tag": [
+    "Window",
+    "Frame",
+    "View",
+    "Design",
+    "Structure",
+    "Outline",
+    "User interface",
+    "Architecture",
+    "House",
+    "Interior"
+  ],
+  "title": "Window Frame"
 }
+                export default meta;
+            
