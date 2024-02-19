@@ -3,7 +3,7 @@
 import ABC_META from './abc';
 import ACCESSIBILITY_CIRCLE_META from './accessibility-circle';
 import ACCESSIBILITY_META from './accessibility';
-import ADDRESS_BOOOK_META from './address-boook';
+import ADDRESS_BOOK_META from './address-book';
 import ALARM_META from './alarm';
 import APPS_PLUS_META from './apps-plus';
 import APPS_META from './apps';
@@ -277,7 +277,7 @@ import WORLD_META from './world';
 ABC: ABC_META,
 ACCESSIBILITY_CIRCLE: ACCESSIBILITY_CIRCLE_META,
 ACCESSIBILITY: ACCESSIBILITY_META,
-ADDRESS_BOOOK: ADDRESS_BOOOK_META,
+ADDRESS_BOOK: ADDRESS_BOOK_META,
 ALARM: ALARM_META,
 APPS_PLUS: APPS_PLUS_META,
 APPS: APPS_META,

@@ -1,10 +1,13 @@
 import { Icons } from "./types";
+import { meta } from "@/meta/icons";
+
+
 
 import IconAa from "./aa.vue";
 import IconAbc from "./abc.vue";
 import IconAccessibilityCircle from "./accessibility-circle.vue";
 import IconAccessibility from "./accessibility.vue";
-import IconAddressBoook from "./address-boook.vue";
+import IconAddressBook from "./address-book.vue";
 import IconAlarm from "./alarm.vue";
 import IconAppsPlus from "./apps-plus.vue";
 import IconApps from "./apps.vue";
@@ -288,8 +291,8 @@ export const getIcon = (icon: Icons)=>{
         case Icons.ACCESSIBILITY:
             return IconAccessibility;
     
-        case Icons.ADDRESS_BOOOK:
-            return IconAddressBoook;
+        case Icons.ADDRESS_BOOK:
+            return IconAddressBook;
     
         case Icons.ALARM:
             return IconAlarm;
@@ -1097,7 +1100,45 @@ export const getIcon = (icon: Icons)=>{
     }
 }
 
-export const getIconName = (icon: string): string | undefined => Object.values(Icons).find((i) => i === icon.toLowerCase());
+const findIt = (needle: string | string[], haystack: string | string[]): boolean => {
+
+    const needles = (Array.isArray(needle) ? needle : [needle]).map((str) => str.toLowerCase());
+    const haystacks = (Array.isArray(haystack) ? haystack : [haystack]).map((str) => str.toLowerCase());
+
+    return needles.some(n => haystacks.some(h => h.includes(n)));
+}
+
+
+
+export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' | 'description' | undefined = undefined): {
+    id: string;
+    name: string;
+    title: string;
+    category: string[];
+    tag: string[];
+    description: string;
+}[] | undefined => {
+
+    const mergedIcons = Object.keys(Icons).map((key) => {
+        const value = Icons[key as keyof typeof Icons];
+        const metaData = meta[key as keyof typeof Icons];
+        return {
+            id: key,
+            name: value,
+            ...metaData
+        }
+    });
+    return mergedIcons.filter((icon) => {
+        if (searchIn) {
+            // If searchIn is provided, search in the specified field
+            return findIt(term, icon[searchIn as keyof typeof icon]);
+        } else {
+            // If searchIn is not provided, search in all fields
+            return ['name', 'category', 'tag', 'description', 'title'].some(field => findIt(term, icon[field as keyof typeof icon]));
+        }
+    });
+
+}
 
 
 
@@ -1107,7 +1148,7 @@ export {
     IconAbc,
     IconAccessibilityCircle,
     IconAccessibility,
-    IconAddressBoook,
+    IconAddressBook,
     IconAlarm,
     IconAppsPlus,
     IconApps,

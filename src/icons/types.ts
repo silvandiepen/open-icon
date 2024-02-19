@@ -8,7 +8,7 @@ export const Icons = {
     
      ACCESSIBILITY: "accessibility",
     
-     ADDRESS_BOOOK: "address-boook",
+     ADDRESS_BOOK: "address-book",
     
      ALARM: "alarm",
     
