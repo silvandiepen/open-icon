@@ -410,6 +410,85 @@
     }
 }
 
+@mixin inputOptions($block: '') {
+    &__control-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: calc(var(--space) / 2);
+    }
+
+    &__option {
+        display: flex;
+        gap: calc(var(--space) / 2);
+        position: relative;
+        z-index: 1;
+        padding: calc(var(--space) / 2) calc(var(--space) / 3 * 2);
+        border-radius: var(--border-radius);
+align-items: center;
+
+
+        &::before {
+            outline: 2px solid currentColor;
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: inherit;
+            display: block;
+            z-index: -1;
+            opacity: .5;
+        }
+
+        &--inactive {
+            opacity: .5;
+        }
+
+        &--active {
+            background-color: var(--primary);
+            opacity: 1;
+
+            &::before {
+                color: var(--primary);
+                opacity: 1;
+            }
+
+            #{$block}__total {
+                opacity: 1;
+            }
+        }
+
+        &--reset,
+        &--show-all {
+            background-color: var(--secondary);
+            color: var(--secondary-text);
+
+            &::before {
+                color: var(--secondary);
+                opacity: 1;
+            }
+        }
+
+    }
+
+    &__total {
+        display: block;
+        // border: 1px solid currentColor;
+        color: currentColor;
+        border-radius: 2em;
+        font-size: .75em;
+        
+        text-align: center;
+     
+        // background-color: var(--primary); 
+        // color: var(--primary);
+        opacity: .5;
+    }
+
+
+}
+
 
 .form-group {
     @include formGroup(&);
@@ -456,6 +535,10 @@
 
 .input-switch {
     @include inputSwitch(&);
+}
+
+.input-options {
+    @include inputOptions(&);
 }
 
 .input-color {

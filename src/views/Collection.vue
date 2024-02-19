@@ -5,36 +5,24 @@
         <component :is="getIcon(Icons.APPS)"></component>Collection
       </h1>
       <div :class="bemm('search')">
-        <InputSearch  v-model="filterSearch"></InputSearch>
+        <InputSearch v-model="filterSearch"></InputSearch>
       </div>
 
       <span :class="bemm('showing')">
-        <template v-if="icons.length < icons.length">
-          <strong>{{ icons.length }}</strong>/</template>{{ icons.length }} icons
+        <template v-if="icons.length < totalIcons">
+          <strong>{{ icons.length }}</strong>/</template>{{ totalIcons }} icons
       </span>
       <div :class="bemm('tools')">
         <InputRange v-model="size" :min="5" :max="25" />
       </div>
+
+      <InputOptions :options="categories.map((v) => ({ label:v.value, value: v.value, icon: v.value, total: v.total }))" v-model="filterCategory" :limit="10" :orderBy="'total'" :showTotal="true"></InputOptions>
     </div>
 
-    <InputOptions :options="categories" v-model="filterCategory"></InputOptions>
 
-    <button @click="filterCategory = ''">Reset</button>
-
-    <!-- <div :class="bemm('category')">
-      <ul :class="bemm('category-list')">
-        <li :class="[bemm('category-item'), bemm('category-item', currentCategory == index ? 'active' : 'inactive')]"
-          v-for="(category, index) in allCategories" :key="index">
-          <RouterLink :class="bemm('category-link')" :to="`/collection/${index}`">
-            <component :class="bemm('category-icon')" :is="getIcon(category.icon)"></component>
-            <span :class="bemm('category-label')">{{ category.name }}</span>
-          </RouterLink>
-        </li>
-      </ul>
-    </div> -->
     <ul :class="bemm('list')">
-      <li :class="[bemm('item'), bemm('item', activeIcon == icon ? 'active' : 'inactive')]"
-        v-for="(icon, index) in icons" :key="index" tabindex="0" @click="setActive(icon.key)">
+      <li :class="[bemm('item'), bemm('item', activeIcon == icon ? 'active' : 'inactive')]" v-for="(icon, index) in icons"
+        :key="index" tabindex="0" @click="setActive(icon.key)">
         <Icon :name="icon.value" :class="bemm('icon')"></Icon>
         <span :class="bemm('label')">{{ icon.value }}</span>
         <span :class="bemm('label')">{{ icon.category }}</span>
@@ -54,9 +42,9 @@ import { useIcons } from "@/composables/useIcons";
 import { Icons } from "@/icons/types";
 import { getIcon } from "@/icons";
 
-import { InputSearch, InputRange, InputOptions,  } from "@/components/form";
- 
-const { icons, filterSearch, categories, filterCategory } = useIcons();
+import { InputSearch, InputRange, InputOptions, } from "@/components/form";
+
+const { icons, filterSearch, categories, filterCategory, totalIcons } = useIcons();
 
 
 const bemm = useBemm("collection");

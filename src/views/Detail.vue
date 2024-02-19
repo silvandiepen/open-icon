@@ -1,7 +1,7 @@
 <template>
     <div :class="bemm()">
         <header :class="bemm('header')">
-            <h1>{{ icon.title }}</h1>
+            <h1 v-if="icon">{{ icon.title || icon?.key }}</h1>
 
         </header>
 
@@ -32,8 +32,8 @@
         <div :class="bemm('related')" v-if="relatedIcons.length">
             <h3>Related icons</h3>
             <ul :class="bemm('related-list')">
-                <li @click="router.push(`/icon/${icon}`)" :class="bemm('related-icon')" v-for="icon in relatedIcons">
-                    <Icon :name="icon.key" />
+                <li @click="router.push(`/icon/${icon.key}`)" :class="bemm('related-icon')" v-for="icon in relatedIcons">
+                    <Icon :name="icon.value" />
                 </li>
             </ul>
 

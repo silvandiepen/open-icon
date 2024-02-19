@@ -21,12 +21,12 @@ interface StateIcon extends IconMeta {
 const iconState = reactive<{
     loaded: boolean,
     icons: StateIcon[],
-    categories: string[],
-    tags: string[],
+    categories: { value: string, total: number }[],
+    tags: { value: string, total: number }[],
     filter: {
         search: string,
-        category: string;
-        tag: [string]
+        category: string[];
+        tag: string[]
     }
 }>(await retrieveState(
     {
@@ -49,28 +49,38 @@ export const useIcons = () => {
 
     const init = () => {
 
-        if (iconState.loaded || Object.keys(Icons).length == iconState.icons.length) return;
+        // if (iconState.loaded || Object.keys(Icons).length == iconState.icons.length) return;
 
-        const allCategories: string[] = [];
-        const allTags: string[] = [];
+        const allCategories: { value: string, total: number }[] = [];
+        const allTags: { value: string, total: number }[] = [];
 
         iconState.icons = Object.keys(Icons).map((key) => {
 
-            const metaData = meta[key as keyof typeof Icons];
+            const metaData: IconMeta = meta[key as keyof typeof Icons] as unknown as IconMeta;
 
             if (metaData !== undefined) {
-                const { category, tags } = metaData as IconMeta;
+                const { category, tags } = metaData;
 
                 const categoryArray = Array.isArray(category) ? category : [category];
                 const tagsArray = Array.isArray(tags) ? tags : [tags];
 
 
                 categoryArray.forEach((cat: string) => {
-                    if (!allCategories.includes(cat)) allCategories.push(cat)
+                    if (allCategories.some((t) => t.value === cat)) {
+                        const index = allCategories.findIndex((t) => t.value === cat);
+                        allCategories[index].total++;
+                    } else {
+                        allCategories.push({ value: cat, total: 1 })
+                    }
                 });
 
                 tagsArray.forEach((tag: string) => {
-                    if (!allTags.includes(tag)) allTags.push(tag)
+                    if (allTags.some((t) => t.value === tag)) {
+                        const index = allTags.findIndex((t) => t.value === tag);
+                        allTags[index].total++;
+                    } else {
+                        allTags.push({ value: tag, total: 1 })
+                    }
                 });
 
             }
@@ -78,25 +88,31 @@ export const useIcons = () => {
             return {
                 key: key,
                 value: Icons[key as keyof typeof Icons],
-                ...metaData as IconMeta
+                ...(metaData as IconMeta)
             } as StateIcon;
         })
 
-        const cleanedCategories = Object.values(allCategories).filter((category: string) => category);
-        const cleanedTags = Object.values(allTags).filter((tag: string) => tag);
-
-        if (cleanedCategories.length > 0) iconState.categories = cleanedCategories;
-        if (cleanedTags.length > 0) iconState.tags = cleanedTags;
+        iconState.categories = allCategories;
+        iconState.tags = allTags;
     }
 
-    const hasFilters = computed(() => {
-        return iconState.filter.search || iconState.filter.category || iconState.filter.tag.length > 0;
+    const hasFilters = computed<boolean>(() => {
+        return !!(iconState.filter.search || iconState.filter.category.length > 0 || iconState.filter.tag.length > 0);
     })
 
 
-    const findIt = (needle: string, haystack: string | string[]) => {
-        const haystackString = typeof haystack == 'string' ? haystack : Object.values(haystack || []).join(' ');
-        return haystackString.toLowerCase().includes(needle.toLowerCase());
+    const findIt = (needle: string | string[], haystack: string | string[]): boolean => {
+
+        if (typeof needle == 'string' && typeof haystack == "string") return haystack.toLowerCase().includes(needle.toLowerCase());
+
+        if (typeof needle !== 'string' && typeof haystack == 'string') return needle.some((n: string) => haystack.toLowerCase().includes(n.toLowerCase()));
+
+        if (typeof needle == 'string' && typeof haystack !== 'string') return haystack.some((n: string) => n.toLowerCase().includes(needle.toLowerCase()));
+
+        if (typeof needle !== 'string' && typeof haystack !== 'string') return needle.some((n: string) => haystack.some((h: string) => h.toLowerCase().includes(n.toLowerCase())));
+
+        return false;
+
     }
 
     const icons = computed(() => {
@@ -107,20 +123,21 @@ export const useIcons = () => {
 
         let allIcons = iconState.icons;
 
+        console.log(hasFilters.value);
+
         if (iconState.filter.category) allIcons = allIcons.filter((icon: StateIcon) => {
-            const categoryString: string = typeof icon.category == 'string' ? icon.category : Object.values(icon.category || []).join(' ');
-            return categoryString.toLowerCase().includes(iconState.filter.category.toLowerCase());
+            return findIt(iconState.filter.category, icon.category);
         });
 
         if (iconState.filter.tag.length > 0) allIcons = allIcons.filter((icon: StateIcon) => {
-            const tagsString: string = typeof icon.tags == 'string' ? icon.tags : Object.values(icon.tags || []).join(' ');
-            return iconState.filter.tag.every((tag: string) => tagsString.toLowerCase().includes(tag.toLowerCase()));
+            return findIt(iconState.filter.tag, icon.tags);
         });
 
         if (iconState.filter.search) {
             allIcons = allIcons.filter((icon: StateIcon) => {
-                const search = iconState.filter.search;
-                return findIt(search, icon.title) || findIt(search, icon.description) || findIt(search, icon.key) || findIt(search, icon.value) || findIt(search, icon.category) || findIt(search, icon.tags);
+                const { search } = iconState.filter;
+                const { title, description, key, value, category, tags } = icon;
+                return findIt(search, title) || findIt(search, description) || findIt(search, key) || findIt(search, value) || findIt(search, category) || findIt(search, tags);
             });
         }
         return allIcons;
@@ -143,15 +160,15 @@ export const useIcons = () => {
         }),
         filterTags: computed({
             get() {
-                return iconState.filter.search;
+                return iconState.filter.tag;
             },
             set(value) {
-                iconState.filter.search = value;
+                iconState.filter.tag = value;
             }
         }),
         filterCategory: computed({
             get() {
-                return iconState.filter.search;
+                return iconState.filter.category;
             },
             set(value) {
                 iconState.filter.category = value;
@@ -161,15 +178,14 @@ export const useIcons = () => {
             return iconState.icons.find((icon: StateIcon) => icon.key === key);
         },
         getIconsByCategory: (category: string | string[]) => {
-
-            console.log(category); 
-            return []
-            // if(typeof category !== 'string') category = category[0];
-            // return icons.value.filter((icon: StateIcon) => {
-            //     const categoryString: string = typeof icon.category == 'string' ? icon.category : Object.values(icon.category || []).join(' ');
-            //     return categoryString.toLowerCase().includes(category.toLowerCase());
-            // });
-        }
+            if(typeof category !== 'string') category = category[0];
+           
+            return iconState.icons.filter((icon: StateIcon) => {
+                return findIt(category, icon.category);
+            });
+        },
+        totalIcons: computed(() => iconState.icons.length),
+        allIcons: computed(() => iconState.icons),
     }
 
 }
