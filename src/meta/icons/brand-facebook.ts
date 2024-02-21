@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The brand Facebook icon is a stylized representation of the Facebook logo. It is commonly used to indicate social media presence or links to a Facebook page.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "social media",
+    "network",
+    "communication",
+    "online",
+    "community",
+    "website",
+    "social network",
+    "FB",
+    "logo",
+    "internet"
+  ],
+  "title": "Brand Facebook"
+}
+                export default meta;
+            

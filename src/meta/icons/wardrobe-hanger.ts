@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The wardrobe hanger icon represents a hanger typically used for hanging clothes in a wardrobe or closet.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "clothes",
+    "wardrobe",
+    "hanger",
+    "closet",
+    "storage",
+    "fashion",
+    "apparel",
+    "garment",
+    "organization"
+  ],
+  "title": "Wardrobe Hanger"
+}
+                export default meta;
+            

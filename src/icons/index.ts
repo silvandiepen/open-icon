@@ -40,6 +40,15 @@ import IconBooks from "./books.vue";
 import IconBoxOpen from "./box-open.vue";
 import IconBox from "./box.vue";
 import IconBrackets from "./brackets.vue";
+import IconBrandAndroid from "./brand-android.vue";
+import IconBrandApple from "./brand-apple.vue";
+import IconBrandCodepen from "./brand-codepen.vue";
+import IconBrandDribbble from "./brand-dribbble.vue";
+import IconBrandFacebook from "./brand-facebook.vue";
+import IconBrandGithub from "./brand-github.vue";
+import IconBrandLinkedin from "./brand-linkedin.vue";
+import IconBrandTwitter from "./brand-twitter.vue";
+import IconBrandX from "./brand-x.vue";
 import IconBucket from "./bucket.vue";
 import IconBulb from "./bulb.vue";
 import IconCamera from "./camera.vue";
@@ -260,8 +269,8 @@ import IconVideoCamera from "./video-camera.vue";
 import IconVisible from "./visible.vue";
 import IconVolumeOff from "./volume-off.vue";
 import IconVolumeOn from "./volume-on.vue";
-import IconWardrobe222 from "./wardrobe-222.vue";
-import IconWardrobe262 from "./wardrobe-262.vue";
+import IconWardrobeHanger from "./wardrobe-hanger.vue";
+import IconWardrobe from "./wardrobe.vue";
 import IconWarningTriangle from "./warning-triangle.vue";
 import IconWashingMachine from "./washing-machine.vue";
 import IconWaterCooker from "./water-cooker.vue";
@@ -389,6 +398,33 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.BRACKETS:
             return IconBrackets;
+    
+        case Icons.BRAND_ANDROID:
+            return IconBrandAndroid;
+    
+        case Icons.BRAND_APPLE:
+            return IconBrandApple;
+    
+        case Icons.BRAND_CODEPEN:
+            return IconBrandCodepen;
+    
+        case Icons.BRAND_DRIBBBLE:
+            return IconBrandDribbble;
+    
+        case Icons.BRAND_FACEBOOK:
+            return IconBrandFacebook;
+    
+        case Icons.BRAND_GITHUB:
+            return IconBrandGithub;
+    
+        case Icons.BRAND_LINKEDIN:
+            return IconBrandLinkedin;
+    
+        case Icons.BRAND_TWITTER:
+            return IconBrandTwitter;
+    
+        case Icons.BRAND_X:
+            return IconBrandX;
     
         case Icons.BUCKET:
             return IconBucket;
@@ -1050,11 +1086,11 @@ export const getIcon = (icon: Icons)=>{
         case Icons.VOLUME_ON:
             return IconVolumeOn;
     
-        case Icons.WARDROBE222:
-            return IconWardrobe222;
+        case Icons.WARDROBE_HANGER:
+            return IconWardrobeHanger;
     
-        case Icons.WARDROBE262:
-            return IconWardrobe262;
+        case Icons.WARDROBE:
+            return IconWardrobe;
     
         case Icons.WARNING_TRIANGLE:
             return IconWarningTriangle;
@@ -1181,6 +1217,15 @@ export {
     IconBoxOpen,
     IconBox,
     IconBrackets,
+    IconBrandAndroid,
+    IconBrandApple,
+    IconBrandCodepen,
+    IconBrandDribbble,
+    IconBrandFacebook,
+    IconBrandGithub,
+    IconBrandLinkedin,
+    IconBrandTwitter,
+    IconBrandX,
     IconBucket,
     IconBulb,
     IconCamera,
@@ -1401,8 +1446,8 @@ export {
     IconVisible,
     IconVolumeOff,
     IconVolumeOn,
-    IconWardrobe222,
-    IconWardrobe262,
+    IconWardrobeHanger,
+    IconWardrobe,
     IconWarningTriangle,
     IconWashingMachine,
     IconWaterCooker,

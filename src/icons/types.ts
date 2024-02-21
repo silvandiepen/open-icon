@@ -74,6 +74,24 @@ export const Icons = {
     
      BRACKETS: "brackets",
     
+     BRAND_ANDROID: "brand-android",
+    
+     BRAND_APPLE: "brand-apple",
+    
+     BRAND_CODEPEN: "brand-codepen",
+    
+     BRAND_DRIBBBLE: "brand-dribbble",
+    
+     BRAND_FACEBOOK: "brand-facebook",
+    
+     BRAND_GITHUB: "brand-github",
+    
+     BRAND_LINKEDIN: "brand-linkedin",
+    
+     BRAND_TWITTER: "brand-twitter",
+    
+     BRAND_X: "brand-x",
+    
      BUCKET: "bucket",
     
      BULB: "bulb",
@@ -514,9 +532,9 @@ export const Icons = {
     
      VOLUME_ON: "volume-on",
     
-     WARDROBE222: "wardrobe-222",
+     WARDROBE_HANGER: "wardrobe-hanger",
     
-     WARDROBE262: "wardrobe-262",
+     WARDROBE: "wardrobe",
     
      WARNING_TRIANGLE: "warning-triangle",
     

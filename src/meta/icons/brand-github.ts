@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The brand-github icon represents the brand logo of the popular software development platform GitHub. It features a stylized image of a cat with octocat graphic to represent the brand.",
+  "category": [
+    "Symbol"
+  ],
+  "tag": [
+    "logo",
+    "software",
+    "development",
+    "platform",
+    "cat",
+    "octocat",
+    "coding",
+    "repository",
+    "social",
+    "media"
+  ],
+  "title": "Brand GitHub"
+}
+                export default meta;
+            

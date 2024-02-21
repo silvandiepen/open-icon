@@ -36,6 +36,15 @@ import BOOKS_META from './books';
 import BOX_OPEN_META from './box-open';
 import BOX_META from './box';
 import BRACKETS_META from './brackets';
+import BRAND_ANDROID_META from './brand-android';
+import BRAND_APPLE_META from './brand-apple';
+import BRAND_CODEPEN_META from './brand-codepen';
+import BRAND_DRIBBBLE_META from './brand-dribbble';
+import BRAND_FACEBOOK_META from './brand-facebook';
+import BRAND_GITHUB_META from './brand-github';
+import BRAND_LINKEDIN_META from './brand-linkedin';
+import BRAND_TWITTER_META from './brand-twitter';
+import BRAND_X_META from './brand-x';
 import BUCKET_META from './bucket';
 import BULB_META from './bulb';
 import CAMERA_META from './camera';
@@ -256,8 +265,8 @@ import VIDEO_CAMERA_META from './video-camera';
 import VISIBLE_META from './visible';
 import VOLUME_OFF_META from './volume-off';
 import VOLUME_ON_META from './volume-on';
-import WARDROBE222_META from './wardrobe-222';
-import WARDROBE262_META from './wardrobe-262';
+import WARDROBE_HANGER_META from './wardrobe-hanger';
+import WARDROBE_META from './wardrobe';
 import WARNING_TRIANGLE_META from './warning-triangle';
 import WASHING_MACHINE_META from './washing-machine';
 import WATER_COOKER_META from './water-cooker';
@@ -310,6 +319,15 @@ BOOKS: BOOKS_META,
 BOX_OPEN: BOX_OPEN_META,
 BOX: BOX_META,
 BRACKETS: BRACKETS_META,
+BRAND_ANDROID: BRAND_ANDROID_META,
+BRAND_APPLE: BRAND_APPLE_META,
+BRAND_CODEPEN: BRAND_CODEPEN_META,
+BRAND_DRIBBBLE: BRAND_DRIBBBLE_META,
+BRAND_FACEBOOK: BRAND_FACEBOOK_META,
+BRAND_GITHUB: BRAND_GITHUB_META,
+BRAND_LINKEDIN: BRAND_LINKEDIN_META,
+BRAND_TWITTER: BRAND_TWITTER_META,
+BRAND_X: BRAND_X_META,
 BUCKET: BUCKET_META,
 BULB: BULB_META,
 CAMERA: CAMERA_META,
@@ -530,8 +548,8 @@ VIDEO_CAMERA: VIDEO_CAMERA_META,
 VISIBLE: VISIBLE_META,
 VOLUME_OFF: VOLUME_OFF_META,
 VOLUME_ON: VOLUME_ON_META,
-WARDROBE222: WARDROBE222_META,
-WARDROBE262: WARDROBE262_META,
+WARDROBE_HANGER: WARDROBE_HANGER_META,
+WARDROBE: WARDROBE_META,
 WARNING_TRIANGLE: WARNING_TRIANGLE_META,
 WASHING_MACHINE: WASHING_MACHINE_META,
 WATER_COOKER: WATER_COOKER_META,

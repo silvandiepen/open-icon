@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "brand-apple icon represents the famous technology company Apple Inc. It features a stylish and sleek design that is instantly recognizable.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "technology",
+    "company",
+    "logo",
+    "electronics",
+    "technology brand",
+    "corporate",
+    "popular",
+    "iconic",
+    "modern",
+    "stylish"
+  ],
+  "title": "Brand Apple"
+}
+                export default meta;
+            
