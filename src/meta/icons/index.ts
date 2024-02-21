@@ -42,6 +42,7 @@ import BRAND_CODEPEN_META from './brand-codepen';
 import BRAND_DRIBBBLE_META from './brand-dribbble';
 import BRAND_FACEBOOK_META from './brand-facebook';
 import BRAND_GITHUB_META from './brand-github';
+import BRAND_INSTAGRAM_META from './brand-instagram';
 import BRAND_LINKEDIN_META from './brand-linkedin';
 import BRAND_TWITTER_META from './brand-twitter';
 import BRAND_X_META from './brand-x';
@@ -325,6 +326,7 @@ BRAND_CODEPEN: BRAND_CODEPEN_META,
 BRAND_DRIBBBLE: BRAND_DRIBBBLE_META,
 BRAND_FACEBOOK: BRAND_FACEBOOK_META,
 BRAND_GITHUB: BRAND_GITHUB_META,
+BRAND_INSTAGRAM: BRAND_INSTAGRAM_META,
 BRAND_LINKEDIN: BRAND_LINKEDIN_META,
 BRAND_TWITTER: BRAND_TWITTER_META,
 BRAND_X: BRAND_X_META,

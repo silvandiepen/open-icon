@@ -86,6 +86,8 @@ export const Icons = {
     
      BRAND_GITHUB: "brand-github",
     
+     BRAND_INSTAGRAM: "brand-instagram",
+    
      BRAND_LINKEDIN: "brand-linkedin",
     
      BRAND_TWITTER: "brand-twitter",

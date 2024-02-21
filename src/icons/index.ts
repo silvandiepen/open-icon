@@ -46,6 +46,7 @@ import IconBrandCodepen from "./brand-codepen.vue";
 import IconBrandDribbble from "./brand-dribbble.vue";
 import IconBrandFacebook from "./brand-facebook.vue";
 import IconBrandGithub from "./brand-github.vue";
+import IconBrandInstagram from "./brand-instagram.vue";
 import IconBrandLinkedin from "./brand-linkedin.vue";
 import IconBrandTwitter from "./brand-twitter.vue";
 import IconBrandX from "./brand-x.vue";
@@ -416,6 +417,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.BRAND_GITHUB:
             return IconBrandGithub;
+    
+        case Icons.BRAND_INSTAGRAM:
+            return IconBrandInstagram;
     
         case Icons.BRAND_LINKEDIN:
             return IconBrandLinkedin;
@@ -1223,6 +1227,7 @@ export {
     IconBrandDribbble,
     IconBrandFacebook,
     IconBrandGithub,
+    IconBrandInstagram,
     IconBrandLinkedin,
     IconBrandTwitter,
     IconBrandX,
