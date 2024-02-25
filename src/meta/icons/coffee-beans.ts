@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "The icon showcases a group of coffee beans stacked together. It represents coffee, cafe, beans, morning booster, beverage, caffeine, and aroma.",
+  "category": [
+    "Food"
+  ],
+  "tag": [
+    "Coffee",
+    "Cafe",
+    "Beans",
+    "Morning",
+    "Beverage",
+    "Caffeine",
+    "Aroma",
+    "Drink",
+    "Roasted"
+  ],
+  "title": "Coffee Beans"
+}
+                export default meta;
+            

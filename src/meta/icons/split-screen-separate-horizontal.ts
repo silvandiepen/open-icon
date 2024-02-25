@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The split-screen-separate-horizontal icon represents a design element where the screen is divided into two separate horizontal sections. It is commonly used in interfaces to show parallel content or functionalities side by side.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "Split screen",
+    "Horizontal",
+    "Separate",
+    "Design",
+    "Layout",
+    "Parallel",
+    "Sections",
+    "UI",
+    "Technology",
+    "Multitasking"
+  ],
+  "title": "Split Screen Separate Horizontal"
+}
+                export default meta;
+            

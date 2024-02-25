@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A simple icon representing a wine glass, commonly used to symbolize alcoholic beverages and restaurants.",
+  "category": [
+    "Food & Drink",
+    "Interface"
+  ],
+  "tag": [
+    "drink",
+    "alcohol",
+    "beverage",
+    "wine",
+    "restaurant",
+    "party",
+    "celebration",
+    "bar",
+    "toast"
+  ],
+  "title": "Wine Glass"
+}
+                export default meta;
+            

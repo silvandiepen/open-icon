@@ -140,6 +140,12 @@ export const Icons = {
     
      CLOUD: "cloud",
     
+     COFFEE_BEANS: "coffee-beans",
+    
+     COFFEE_CUP: "coffee-cup",
+    
+     COGNAC_GLASS: "cognac-glass",
+    
      COLOR_PALLETTE: "color-pallette",
     
      COLOR_RGB: "color-rgb",
@@ -204,6 +210,12 @@ export const Icons = {
     
      ESCALATOR_UP: "escalator-up",
     
+     ESPRESSO_MACHINE2: "espresso-machine-2",
+    
+     ESPRESSO_MACHINE_E61: "espresso-machine-e61",
+    
+     ESPRESSO_MACHINE: "espresso-machine",
+    
      ESSENTIALS: "essentials",
     
      EXCLAMATION_CIRCLE: "exclamation-circle",
@@ -219,6 +231,8 @@ export const Icons = {
      FERRY: "ferry",
     
      FILM: "film",
+    
+     FILTER_COFFEE_MACHINE: "filter-coffee-machine",
     
      FILTER: "filter",
     
@@ -336,6 +350,8 @@ export const Icons = {
     
      MOBILE: "mobile",
     
+     MOKKA_POT: "mokka-pot",
+    
      MOON: "moon",
     
      MORE: "more",
@@ -374,11 +390,15 @@ export const Icons = {
     
      PATH4: "path-4",
     
+     PAW: "paw",
+    
      PERCENTAGE: "percentage",
     
      PLUS_CIRCLE: "plus-circle",
     
      PLUS: "plus",
+    
+     PORTAFILTER: "portafilter",
     
      PRESENT: "present",
     
@@ -460,6 +480,40 @@ export const Icons = {
     
      SPEECH_SQUARE: "speech-square",
     
+     SPLIT_SCREEN_BOTTOM: "split-screen-bottom",
+    
+     SPLIT_SCREEN_DIVIDE_BOTTOM: "split-screen-divide-bottom",
+    
+     SPLIT_SCREEN_DIVIDE_LEFT: "split-screen-divide-left",
+    
+     SPLIT_SCREEN_DIVIDE_RIGHT: "split-screen-divide-right",
+    
+     SPLIT_SCREEN_DIVIDE_TOP: "split-screen-divide-top",
+    
+     SPLIT_SCREEN_HORIZONTAL_CENTER: "split-screen-horizontal-center",
+    
+     SPLIT_SCREEN_LEFT: "split-screen-left",
+    
+     SPLIT_SCREEN_RIGHT: "split-screen-right",
+    
+     SPLIT_SCREEN_SEPARATE_BOTTOM: "split-screen-separate-bottom",
+    
+     SPLIT_SCREEN_SEPARATE_HORIZONTAL: "split-screen-separate-horizontal",
+    
+     SPLIT_SCREEN_SEPARATE_LEFT: "split-screen-separate-left",
+    
+     SPLIT_SCREEN_SEPARATE_RIGHT: "split-screen-separate-right",
+    
+     SPLIT_SCREEN_SEPARATE_TOP: "split-screen-separate-top",
+    
+     SPLIT_SCREEN_SEPARATE_VERTICAL: "split-screen-separate-vertical",
+    
+     SPLIT_SCREEN_TOP: "split-screen-top",
+    
+     SPLIT_SCREEN_VERTICAL_CENTER: "split-screen-vertical-center",
+    
+     SPLIT_SCREEN: "split-screen",
+    
      STAIRS_DOWN: "stairs-down",
     
      STAIRS_UP: "stairs-up",
@@ -510,6 +564,8 @@ export const Icons = {
     
      TRUCK: "truck",
     
+     TURTLE: "turtle",
+    
      UNDERSCORE: "underscore",
     
      UNISEX: "unisex",
@@ -559,6 +615,8 @@ export const Icons = {
      WINDOW_FRAME: "window-frame",
     
      WINDOW_FULL: "window-full",
+    
+     WINE_GLASS: "wine-glass",
     
      WINK: "wink",
     

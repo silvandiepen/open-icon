@@ -69,6 +69,9 @@ import CLOSE_CIRCLE_META from './close-circle';
 import CLOSE_META from './close';
 import CLOUD_RAIN_META from './cloud-rain';
 import CLOUD_META from './cloud';
+import COFFEE_BEANS_META from './coffee-beans';
+import COFFEE_CUP_META from './coffee-cup';
+import COGNAC_GLASS_META from './cognac-glass';
 import COLOR_PALLETTE_META from './color-pallette';
 import COLOR_RGB_META from './color-rgb';
 import COLOR_TINTS_META from './color-tints';
@@ -101,6 +104,9 @@ import EMAIL_META from './email';
 import ERASE_META from './erase';
 import ESCALATOR_DOWN_META from './escalator-down';
 import ESCALATOR_UP_META from './escalator-up';
+import ESPRESSO_MACHINE2_META from './espresso-machine-2';
+import ESPRESSO_MACHINE_E61_META from './espresso-machine-e61';
+import ESPRESSO_MACHINE_META from './espresso-machine';
 import ESSENTIALS_META from './essentials';
 import EXCLAMATION_CIRCLE_META from './exclamation-circle';
 import FACE_META from './face';
@@ -109,6 +115,7 @@ import FEMALE_SYMBOL_META from './female-symbol';
 import FEMALE_META from './female';
 import FERRY_META from './ferry';
 import FILM_META from './film';
+import FILTER_COFFEE_MACHINE_META from './filter-coffee-machine';
 import FILTER_META from './filter';
 import FIRE_EXTINGUISHER_META from './fire-extinguisher';
 import FIRE_HOSE_META from './fire-hose';
@@ -167,6 +174,7 @@ import MICROWAVE_META from './microwave';
 import MINUS_CIRCLE_META from './minus-circle';
 import MINUS_META from './minus';
 import MOBILE_META from './mobile';
+import MOKKA_POT_META from './mokka-pot';
 import MOON_META from './moon';
 import MORE_META from './more';
 import MUSIC_META from './music';
@@ -186,9 +194,11 @@ import PATH1_META from './path-1';
 import PATH2_META from './path-2';
 import PATH3_META from './path-3';
 import PATH4_META from './path-4';
+import PAW_META from './paw';
 import PERCENTAGE_META from './percentage';
 import PLUS_CIRCLE_META from './plus-circle';
 import PLUS_META from './plus';
+import PORTAFILTER_META from './portafilter';
 import PRESENT_META from './present';
 import PRINT_META from './print';
 import PUSHPIN_META from './pushpin';
@@ -229,6 +239,23 @@ import SPEAK_META from './speak';
 import SPEECH_SQUARE_CHAT_META from './speech-square-chat';
 import SPEECH_SQUARE_DOUBLE_META from './speech-square-double';
 import SPEECH_SQUARE_META from './speech-square';
+import SPLIT_SCREEN_BOTTOM_META from './split-screen-bottom';
+import SPLIT_SCREEN_DIVIDE_BOTTOM_META from './split-screen-divide-bottom';
+import SPLIT_SCREEN_DIVIDE_LEFT_META from './split-screen-divide-left';
+import SPLIT_SCREEN_DIVIDE_RIGHT_META from './split-screen-divide-right';
+import SPLIT_SCREEN_DIVIDE_TOP_META from './split-screen-divide-top';
+import SPLIT_SCREEN_HORIZONTAL_CENTER_META from './split-screen-horizontal-center';
+import SPLIT_SCREEN_LEFT_META from './split-screen-left';
+import SPLIT_SCREEN_RIGHT_META from './split-screen-right';
+import SPLIT_SCREEN_SEPARATE_BOTTOM_META from './split-screen-separate-bottom';
+import SPLIT_SCREEN_SEPARATE_HORIZONTAL_META from './split-screen-separate-horizontal';
+import SPLIT_SCREEN_SEPARATE_LEFT_META from './split-screen-separate-left';
+import SPLIT_SCREEN_SEPARATE_RIGHT_META from './split-screen-separate-right';
+import SPLIT_SCREEN_SEPARATE_TOP_META from './split-screen-separate-top';
+import SPLIT_SCREEN_SEPARATE_VERTICAL_META from './split-screen-separate-vertical';
+import SPLIT_SCREEN_TOP_META from './split-screen-top';
+import SPLIT_SCREEN_VERTICAL_CENTER_META from './split-screen-vertical-center';
+import SPLIT_SCREEN_META from './split-screen';
 import STAIRS_DOWN_META from './stairs-down';
 import STAIRS_UP_META from './stairs-up';
 import STAIRS_META from './stairs';
@@ -254,6 +281,7 @@ import TILE_META from './tile';
 import TOOLS_META from './tools';
 import TRASH_META from './trash';
 import TRUCK_META from './truck';
+import TURTLE_META from './turtle';
 import UNDERSCORE_META from './underscore';
 import UNISEX_META from './unisex';
 import UNLOCKED_META from './unlocked';
@@ -279,6 +307,7 @@ import WHEELCHAIR2_META from './wheelchair-2';
 import WHEELCHAIR_META from './wheelchair';
 import WINDOW_FRAME_META from './window-frame';
 import WINDOW_FULL_META from './window-full';
+import WINE_GLASS_META from './wine-glass';
 import WINK_META from './wink';
 import WORLD_META from './world';
 
@@ -353,6 +382,9 @@ CLOSE_CIRCLE: CLOSE_CIRCLE_META,
 CLOSE: CLOSE_META,
 CLOUD_RAIN: CLOUD_RAIN_META,
 CLOUD: CLOUD_META,
+COFFEE_BEANS: COFFEE_BEANS_META,
+COFFEE_CUP: COFFEE_CUP_META,
+COGNAC_GLASS: COGNAC_GLASS_META,
 COLOR_PALLETTE: COLOR_PALLETTE_META,
 COLOR_RGB: COLOR_RGB_META,
 COLOR_TINTS: COLOR_TINTS_META,
@@ -385,6 +417,9 @@ EMAIL: EMAIL_META,
 ERASE: ERASE_META,
 ESCALATOR_DOWN: ESCALATOR_DOWN_META,
 ESCALATOR_UP: ESCALATOR_UP_META,
+ESPRESSO_MACHINE2: ESPRESSO_MACHINE2_META,
+ESPRESSO_MACHINE_E61: ESPRESSO_MACHINE_E61_META,
+ESPRESSO_MACHINE: ESPRESSO_MACHINE_META,
 ESSENTIALS: ESSENTIALS_META,
 EXCLAMATION_CIRCLE: EXCLAMATION_CIRCLE_META,
 FACE: FACE_META,
@@ -393,6 +428,7 @@ FEMALE_SYMBOL: FEMALE_SYMBOL_META,
 FEMALE: FEMALE_META,
 FERRY: FERRY_META,
 FILM: FILM_META,
+FILTER_COFFEE_MACHINE: FILTER_COFFEE_MACHINE_META,
 FILTER: FILTER_META,
 FIRE_EXTINGUISHER: FIRE_EXTINGUISHER_META,
 FIRE_HOSE: FIRE_HOSE_META,
@@ -451,6 +487,7 @@ MICROWAVE: MICROWAVE_META,
 MINUS_CIRCLE: MINUS_CIRCLE_META,
 MINUS: MINUS_META,
 MOBILE: MOBILE_META,
+MOKKA_POT: MOKKA_POT_META,
 MOON: MOON_META,
 MORE: MORE_META,
 MUSIC: MUSIC_META,
@@ -470,9 +507,11 @@ PATH1: PATH1_META,
 PATH2: PATH2_META,
 PATH3: PATH3_META,
 PATH4: PATH4_META,
+PAW: PAW_META,
 PERCENTAGE: PERCENTAGE_META,
 PLUS_CIRCLE: PLUS_CIRCLE_META,
 PLUS: PLUS_META,
+PORTAFILTER: PORTAFILTER_META,
 PRESENT: PRESENT_META,
 PRINT: PRINT_META,
 PUSHPIN: PUSHPIN_META,
@@ -513,6 +552,23 @@ SPEAK: SPEAK_META,
 SPEECH_SQUARE_CHAT: SPEECH_SQUARE_CHAT_META,
 SPEECH_SQUARE_DOUBLE: SPEECH_SQUARE_DOUBLE_META,
 SPEECH_SQUARE: SPEECH_SQUARE_META,
+SPLIT_SCREEN_BOTTOM: SPLIT_SCREEN_BOTTOM_META,
+SPLIT_SCREEN_DIVIDE_BOTTOM: SPLIT_SCREEN_DIVIDE_BOTTOM_META,
+SPLIT_SCREEN_DIVIDE_LEFT: SPLIT_SCREEN_DIVIDE_LEFT_META,
+SPLIT_SCREEN_DIVIDE_RIGHT: SPLIT_SCREEN_DIVIDE_RIGHT_META,
+SPLIT_SCREEN_DIVIDE_TOP: SPLIT_SCREEN_DIVIDE_TOP_META,
+SPLIT_SCREEN_HORIZONTAL_CENTER: SPLIT_SCREEN_HORIZONTAL_CENTER_META,
+SPLIT_SCREEN_LEFT: SPLIT_SCREEN_LEFT_META,
+SPLIT_SCREEN_RIGHT: SPLIT_SCREEN_RIGHT_META,
+SPLIT_SCREEN_SEPARATE_BOTTOM: SPLIT_SCREEN_SEPARATE_BOTTOM_META,
+SPLIT_SCREEN_SEPARATE_HORIZONTAL: SPLIT_SCREEN_SEPARATE_HORIZONTAL_META,
+SPLIT_SCREEN_SEPARATE_LEFT: SPLIT_SCREEN_SEPARATE_LEFT_META,
+SPLIT_SCREEN_SEPARATE_RIGHT: SPLIT_SCREEN_SEPARATE_RIGHT_META,
+SPLIT_SCREEN_SEPARATE_TOP: SPLIT_SCREEN_SEPARATE_TOP_META,
+SPLIT_SCREEN_SEPARATE_VERTICAL: SPLIT_SCREEN_SEPARATE_VERTICAL_META,
+SPLIT_SCREEN_TOP: SPLIT_SCREEN_TOP_META,
+SPLIT_SCREEN_VERTICAL_CENTER: SPLIT_SCREEN_VERTICAL_CENTER_META,
+SPLIT_SCREEN: SPLIT_SCREEN_META,
 STAIRS_DOWN: STAIRS_DOWN_META,
 STAIRS_UP: STAIRS_UP_META,
 STAIRS: STAIRS_META,
@@ -538,6 +594,7 @@ TILE: TILE_META,
 TOOLS: TOOLS_META,
 TRASH: TRASH_META,
 TRUCK: TRUCK_META,
+TURTLE: TURTLE_META,
 UNDERSCORE: UNDERSCORE_META,
 UNISEX: UNISEX_META,
 UNLOCKED: UNLOCKED_META,
@@ -563,6 +620,7 @@ WHEELCHAIR2: WHEELCHAIR2_META,
 WHEELCHAIR: WHEELCHAIR_META,
 WINDOW_FRAME: WINDOW_FRAME_META,
 WINDOW_FULL: WINDOW_FULL_META,
+WINE_GLASS: WINE_GLASS_META,
 WINK: WINK_META,
 WORLD: WORLD_META
     }

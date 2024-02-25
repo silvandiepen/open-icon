@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The icon depicts a split screen with the top half visually detached or separated from the bottom half. This design element can represent a divided or segmented view in user interfaces.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "split screen",
+    "separate",
+    "top",
+    "interface design",
+    "user interface",
+    "web design",
+    "divided view",
+    "segmented",
+    "layout",
+    "UI/UX"
+  ],
+  "title": "Split Screen Separate Top"
+}
+                export default meta;
+            

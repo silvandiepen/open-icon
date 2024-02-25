@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "Split-screen-bottom icon represents a user interface design where the screen is divided into two sections, with the lower part showing content or controls. This icon is commonly used in applications, websites, or systems that support split-screen viewing or multitasking functionalities.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "split screen",
+    "user interface",
+    "design",
+    "divided",
+    "sections",
+    "lower part",
+    "content",
+    "controls",
+    "applications",
+    "multitasking"
+  ],
+  "title": "Split Screen Bottom"
+}
+                export default meta;
+            

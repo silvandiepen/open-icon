@@ -140,6 +140,12 @@
     
         "cloud",
     
+        "coffee-beans",
+    
+        "coffee-cup",
+    
+        "cognac-glass",
+    
         "color-pallette",
     
         "color-rgb",
@@ -204,6 +210,12 @@
     
         "escalator-up",
     
+        "espresso-machine-2",
+    
+        "espresso-machine-e61",
+    
+        "espresso-machine",
+    
         "essentials",
     
         "exclamation-circle",
@@ -219,6 +231,8 @@
         "ferry",
     
         "film",
+    
+        "filter-coffee-machine",
     
         "filter",
     
@@ -336,6 +350,8 @@
     
         "mobile",
     
+        "mokka-pot",
+    
         "moon",
     
         "more",
@@ -374,11 +390,15 @@
     
         "path-4",
     
+        "paw",
+    
         "percentage",
     
         "plus-circle",
     
         "plus",
+    
+        "portafilter",
     
         "present",
     
@@ -460,6 +480,40 @@
     
         "speech-square",
     
+        "split-screen-bottom",
+    
+        "split-screen-divide-bottom",
+    
+        "split-screen-divide-left",
+    
+        "split-screen-divide-right",
+    
+        "split-screen-divide-top",
+    
+        "split-screen-horizontal-center",
+    
+        "split-screen-left",
+    
+        "split-screen-right",
+    
+        "split-screen-separate-bottom",
+    
+        "split-screen-separate-horizontal",
+    
+        "split-screen-separate-left",
+    
+        "split-screen-separate-right",
+    
+        "split-screen-separate-top",
+    
+        "split-screen-separate-vertical",
+    
+        "split-screen-top",
+    
+        "split-screen-vertical-center",
+    
+        "split-screen",
+    
         "stairs-down",
     
         "stairs-up",
@@ -510,6 +564,8 @@
     
         "truck",
     
+        "turtle",
+    
         "underscore",
     
         "unisex",
@@ -559,6 +615,8 @@
         "window-frame",
     
         "window-full",
+    
+        "wine-glass",
     
         "wink",
     

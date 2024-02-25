@@ -73,6 +73,9 @@ import IconCloseCircle from "./close-circle.vue";
 import IconClose from "./close.vue";
 import IconCloudRain from "./cloud-rain.vue";
 import IconCloud from "./cloud.vue";
+import IconCoffeeBeans from "./coffee-beans.vue";
+import IconCoffeeCup from "./coffee-cup.vue";
+import IconCognacGlass from "./cognac-glass.vue";
 import IconColorPallette from "./color-pallette.vue";
 import IconColorRgb from "./color-rgb.vue";
 import IconColorTints from "./color-tints.vue";
@@ -105,6 +108,9 @@ import IconEmail from "./email.vue";
 import IconErase from "./erase.vue";
 import IconEscalatorDown from "./escalator-down.vue";
 import IconEscalatorUp from "./escalator-up.vue";
+import IconEspressoMachine2 from "./espresso-machine-2.vue";
+import IconEspressoMachineE61 from "./espresso-machine-e61.vue";
+import IconEspressoMachine from "./espresso-machine.vue";
 import IconEssentials from "./essentials.vue";
 import IconExclamationCircle from "./exclamation-circle.vue";
 import IconFace from "./face.vue";
@@ -113,6 +119,7 @@ import IconFemaleSymbol from "./female-symbol.vue";
 import IconFemale from "./female.vue";
 import IconFerry from "./ferry.vue";
 import IconFilm from "./film.vue";
+import IconFilterCoffeeMachine from "./filter-coffee-machine.vue";
 import IconFilter from "./filter.vue";
 import IconFireExtinguisher from "./fire-extinguisher.vue";
 import IconFireHose from "./fire-hose.vue";
@@ -171,6 +178,7 @@ import IconMicrowave from "./microwave.vue";
 import IconMinusCircle from "./minus-circle.vue";
 import IconMinus from "./minus.vue";
 import IconMobile from "./mobile.vue";
+import IconMokkaPot from "./mokka-pot.vue";
 import IconMoon from "./moon.vue";
 import IconMore from "./more.vue";
 import IconMusic from "./music.vue";
@@ -190,9 +198,11 @@ import IconPath1 from "./path-1.vue";
 import IconPath2 from "./path-2.vue";
 import IconPath3 from "./path-3.vue";
 import IconPath4 from "./path-4.vue";
+import IconPaw from "./paw.vue";
 import IconPercentage from "./percentage.vue";
 import IconPlusCircle from "./plus-circle.vue";
 import IconPlus from "./plus.vue";
+import IconPortafilter from "./portafilter.vue";
 import IconPresent from "./present.vue";
 import IconPrint from "./print.vue";
 import IconPushpin from "./pushpin.vue";
@@ -233,6 +243,23 @@ import IconSpeak from "./speak.vue";
 import IconSpeechSquareChat from "./speech-square-chat.vue";
 import IconSpeechSquareDouble from "./speech-square-double.vue";
 import IconSpeechSquare from "./speech-square.vue";
+import IconSplitScreenBottom from "./split-screen-bottom.vue";
+import IconSplitScreenDivideBottom from "./split-screen-divide-bottom.vue";
+import IconSplitScreenDivideLeft from "./split-screen-divide-left.vue";
+import IconSplitScreenDivideRight from "./split-screen-divide-right.vue";
+import IconSplitScreenDivideTop from "./split-screen-divide-top.vue";
+import IconSplitScreenHorizontalCenter from "./split-screen-horizontal-center.vue";
+import IconSplitScreenLeft from "./split-screen-left.vue";
+import IconSplitScreenRight from "./split-screen-right.vue";
+import IconSplitScreenSeparateBottom from "./split-screen-separate-bottom.vue";
+import IconSplitScreenSeparateHorizontal from "./split-screen-separate-horizontal.vue";
+import IconSplitScreenSeparateLeft from "./split-screen-separate-left.vue";
+import IconSplitScreenSeparateRight from "./split-screen-separate-right.vue";
+import IconSplitScreenSeparateTop from "./split-screen-separate-top.vue";
+import IconSplitScreenSeparateVertical from "./split-screen-separate-vertical.vue";
+import IconSplitScreenTop from "./split-screen-top.vue";
+import IconSplitScreenVerticalCenter from "./split-screen-vertical-center.vue";
+import IconSplitScreen from "./split-screen.vue";
 import IconStairsDown from "./stairs-down.vue";
 import IconStairsUp from "./stairs-up.vue";
 import IconStairs from "./stairs.vue";
@@ -258,6 +285,7 @@ import IconTile from "./tile.vue";
 import IconTools from "./tools.vue";
 import IconTrash from "./trash.vue";
 import IconTruck from "./truck.vue";
+import IconTurtle from "./turtle.vue";
 import IconUnderscore from "./underscore.vue";
 import IconUnisex from "./unisex.vue";
 import IconUnlocked from "./unlocked.vue";
@@ -283,6 +311,7 @@ import IconWheelchair2 from "./wheelchair-2.vue";
 import IconWheelchair from "./wheelchair.vue";
 import IconWindowFrame from "./window-frame.vue";
 import IconWindowFull from "./window-full.vue";
+import IconWineGlass from "./wine-glass.vue";
 import IconWink from "./wink.vue";
 import IconWorld from "./world.vue";
 
@@ -499,6 +528,15 @@ export const getIcon = (icon: Icons)=>{
         case Icons.CLOUD:
             return IconCloud;
     
+        case Icons.COFFEE_BEANS:
+            return IconCoffeeBeans;
+    
+        case Icons.COFFEE_CUP:
+            return IconCoffeeCup;
+    
+        case Icons.COGNAC_GLASS:
+            return IconCognacGlass;
+    
         case Icons.COLOR_PALLETTE:
             return IconColorPallette;
     
@@ -595,6 +633,15 @@ export const getIcon = (icon: Icons)=>{
         case Icons.ESCALATOR_UP:
             return IconEscalatorUp;
     
+        case Icons.ESPRESSO_MACHINE2:
+            return IconEspressoMachine2;
+    
+        case Icons.ESPRESSO_MACHINE_E61:
+            return IconEspressoMachineE61;
+    
+        case Icons.ESPRESSO_MACHINE:
+            return IconEspressoMachine;
+    
         case Icons.ESSENTIALS:
             return IconEssentials;
     
@@ -618,6 +665,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.FILM:
             return IconFilm;
+    
+        case Icons.FILTER_COFFEE_MACHINE:
+            return IconFilterCoffeeMachine;
     
         case Icons.FILTER:
             return IconFilter;
@@ -793,6 +843,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.MOBILE:
             return IconMobile;
     
+        case Icons.MOKKA_POT:
+            return IconMokkaPot;
+    
         case Icons.MOON:
             return IconMoon;
     
@@ -850,6 +903,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.PATH4:
             return IconPath4;
     
+        case Icons.PAW:
+            return IconPaw;
+    
         case Icons.PERCENTAGE:
             return IconPercentage;
     
@@ -858,6 +914,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.PLUS:
             return IconPlus;
+    
+        case Icons.PORTAFILTER:
+            return IconPortafilter;
     
         case Icons.PRESENT:
             return IconPresent;
@@ -979,6 +1038,57 @@ export const getIcon = (icon: Icons)=>{
         case Icons.SPEECH_SQUARE:
             return IconSpeechSquare;
     
+        case Icons.SPLIT_SCREEN_BOTTOM:
+            return IconSplitScreenBottom;
+    
+        case Icons.SPLIT_SCREEN_DIVIDE_BOTTOM:
+            return IconSplitScreenDivideBottom;
+    
+        case Icons.SPLIT_SCREEN_DIVIDE_LEFT:
+            return IconSplitScreenDivideLeft;
+    
+        case Icons.SPLIT_SCREEN_DIVIDE_RIGHT:
+            return IconSplitScreenDivideRight;
+    
+        case Icons.SPLIT_SCREEN_DIVIDE_TOP:
+            return IconSplitScreenDivideTop;
+    
+        case Icons.SPLIT_SCREEN_HORIZONTAL_CENTER:
+            return IconSplitScreenHorizontalCenter;
+    
+        case Icons.SPLIT_SCREEN_LEFT:
+            return IconSplitScreenLeft;
+    
+        case Icons.SPLIT_SCREEN_RIGHT:
+            return IconSplitScreenRight;
+    
+        case Icons.SPLIT_SCREEN_SEPARATE_BOTTOM:
+            return IconSplitScreenSeparateBottom;
+    
+        case Icons.SPLIT_SCREEN_SEPARATE_HORIZONTAL:
+            return IconSplitScreenSeparateHorizontal;
+    
+        case Icons.SPLIT_SCREEN_SEPARATE_LEFT:
+            return IconSplitScreenSeparateLeft;
+    
+        case Icons.SPLIT_SCREEN_SEPARATE_RIGHT:
+            return IconSplitScreenSeparateRight;
+    
+        case Icons.SPLIT_SCREEN_SEPARATE_TOP:
+            return IconSplitScreenSeparateTop;
+    
+        case Icons.SPLIT_SCREEN_SEPARATE_VERTICAL:
+            return IconSplitScreenSeparateVertical;
+    
+        case Icons.SPLIT_SCREEN_TOP:
+            return IconSplitScreenTop;
+    
+        case Icons.SPLIT_SCREEN_VERTICAL_CENTER:
+            return IconSplitScreenVerticalCenter;
+    
+        case Icons.SPLIT_SCREEN:
+            return IconSplitScreen;
+    
         case Icons.STAIRS_DOWN:
             return IconStairsDown;
     
@@ -1054,6 +1164,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.TRUCK:
             return IconTruck;
     
+        case Icons.TURTLE:
+            return IconTurtle;
+    
         case Icons.UNDERSCORE:
             return IconUnderscore;
     
@@ -1128,6 +1241,9 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.WINDOW_FULL:
             return IconWindowFull;
+    
+        case Icons.WINE_GLASS:
+            return IconWineGlass;
     
         case Icons.WINK:
             return IconWink;
@@ -1254,6 +1370,9 @@ export {
     IconClose,
     IconCloudRain,
     IconCloud,
+    IconCoffeeBeans,
+    IconCoffeeCup,
+    IconCognacGlass,
     IconColorPallette,
     IconColorRgb,
     IconColorTints,
@@ -1286,6 +1405,9 @@ export {
     IconErase,
     IconEscalatorDown,
     IconEscalatorUp,
+    IconEspressoMachine2,
+    IconEspressoMachineE61,
+    IconEspressoMachine,
     IconEssentials,
     IconExclamationCircle,
     IconFace,
@@ -1294,6 +1416,7 @@ export {
     IconFemale,
     IconFerry,
     IconFilm,
+    IconFilterCoffeeMachine,
     IconFilter,
     IconFireExtinguisher,
     IconFireHose,
@@ -1352,6 +1475,7 @@ export {
     IconMinusCircle,
     IconMinus,
     IconMobile,
+    IconMokkaPot,
     IconMoon,
     IconMore,
     IconMusic,
@@ -1371,9 +1495,11 @@ export {
     IconPath2,
     IconPath3,
     IconPath4,
+    IconPaw,
     IconPercentage,
     IconPlusCircle,
     IconPlus,
+    IconPortafilter,
     IconPresent,
     IconPrint,
     IconPushpin,
@@ -1414,6 +1540,23 @@ export {
     IconSpeechSquareChat,
     IconSpeechSquareDouble,
     IconSpeechSquare,
+    IconSplitScreenBottom,
+    IconSplitScreenDivideBottom,
+    IconSplitScreenDivideLeft,
+    IconSplitScreenDivideRight,
+    IconSplitScreenDivideTop,
+    IconSplitScreenHorizontalCenter,
+    IconSplitScreenLeft,
+    IconSplitScreenRight,
+    IconSplitScreenSeparateBottom,
+    IconSplitScreenSeparateHorizontal,
+    IconSplitScreenSeparateLeft,
+    IconSplitScreenSeparateRight,
+    IconSplitScreenSeparateTop,
+    IconSplitScreenSeparateVertical,
+    IconSplitScreenTop,
+    IconSplitScreenVerticalCenter,
+    IconSplitScreen,
     IconStairsDown,
     IconStairsUp,
     IconStairs,
@@ -1439,6 +1582,7 @@ export {
     IconTools,
     IconTrash,
     IconTruck,
+    IconTurtle,
     IconUnderscore,
     IconUnisex,
     IconUnlocked,
@@ -1464,6 +1608,7 @@ export {
     IconWheelchair,
     IconWindowFrame,
     IconWindowFull,
+    IconWineGlass,
     IconWink,
     IconWorld,
     }

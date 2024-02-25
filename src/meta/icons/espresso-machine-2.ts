@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An icon of an espresso machine, perfect for representing coffee-related concepts and designs.",
+  "category": [
+    "Food & Drink",
+    "Kitchen"
+  ],
+  "tag": [
+    "coffee",
+    "espresso",
+    "drink",
+    "brewing",
+    "hot beverage",
+    "barista",
+    "cafe",
+    "breakfast",
+    "morning",
+    "cappuccino"
+  ],
+  "title": "Espresso Machine 2"
+}
+                export default meta;
+            

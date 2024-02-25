@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The split-screen icon represents a display mode where two or more separate windows are displayed simultaneously on a single screen, usually for multitasking purposes or comparing content side by side.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "technology",
+    "multitasking",
+    "comparison",
+    "side by side",
+    "display mode",
+    "split view",
+    "user interface",
+    "computer screen",
+    "software feature",
+    "productivity"
+  ],
+  "title": "Split Screen"
+}
+                export default meta;
+            

@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "A simple icon representing a coffee cup, often used to symbolize cafes, coffee shops, beverages, and morning routines.",
+  "category": [
+    "Food & Drink",
+    "Interface"
+  ],
+  "tag": [
+    "beverage",
+    "morning",
+    "cafe",
+    "drink",
+    "coffee shop",
+    "breakfast",
+    "refreshment",
+    "hot beverage",
+    "cup",
+    "mug"
+  ],
+  "title": "Coffee Cup"
+}
+                export default meta;
+            

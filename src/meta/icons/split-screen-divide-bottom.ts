@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "Split-screen divide bottom icon represents a user interface design element where the screen is divided vertically into two sections, with the bottom section being larger. It is commonly used in applications and websites for multitasking and comparing content.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "split screen",
+    "divide",
+    "bottom",
+    "interface",
+    "design",
+    "user interface",
+    "multitasking",
+    "comparison",
+    "screen division"
+  ],
+  "title": "Split Screen Divide Bottom"
+}
+                export default meta;
+            
