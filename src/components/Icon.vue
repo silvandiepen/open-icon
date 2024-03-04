@@ -4,9 +4,7 @@
 
 <script lang="ts" setup>
 import { computed, PropType } from "vue";
-
 import { Icons, getIcon } from "@/icons";
-
 
 const props = defineProps({
     name: {

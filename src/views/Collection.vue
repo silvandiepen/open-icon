@@ -25,7 +25,7 @@
         :key="index" tabindex="0" @click="setActive(icon.key)">
         <Icon :name="icon.value" :class="bemm('icon')"></Icon>
         <span :class="bemm('label')">{{ icon.value }}</span>
-        <span :class="bemm('label')">{{ icon.category }}</span>
+        <!-- <span :class="bemm('label')">{{ icon.category }}</span> -->
       </li>
     </ul>
   </div>
