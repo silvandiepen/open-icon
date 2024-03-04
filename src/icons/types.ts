@@ -164,6 +164,20 @@ export const Icons = {
     
      CREDITCARD: "creditcard",
     
+     CRYPTO_AVALANCHE: "crypto-avalanche",
+    
+     CRYPTO_BINANCE: "crypto-binance",
+    
+     CRYPTO_BITCOIN: "crypto-bitcoin",
+    
+     CRYPTO_CARDANO: "crypto-cardano",
+    
+     CRYPTO_ETHEREUM: "crypto-ethereum",
+    
+     CRYPTO_LITECOIN: "crypto-litecoin",
+    
+     CRYPTO_SOLANA: "crypto-solana",
+    
      CUBE3_D: "cube-3-d",
     
      CUTLERY: "cutlery",
@@ -529,6 +543,8 @@ export const Icons = {
      SYRINGE: "syringe",
     
      TABLET: "tablet",
+    
+     TELEGRAM: "telegram",
     
      TEMPLE: "temple",
     

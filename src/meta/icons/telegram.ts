@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The telegram icon represents a messaging platform known for its security and user privacy. It typically features a paper plane symbol, symbolizing the sending of messages.",
+  "category": [
+    "Interface",
+    "Media"
+  ],
+  "tag": [
+    "communication",
+    "chat",
+    "message",
+    "app",
+    "secure",
+    "privacy",
+    "messaging",
+    "social media",
+    "paper plane",
+    "telegram"
+  ],
+  "title": "Telegram"
+}
+                export default meta;
+            

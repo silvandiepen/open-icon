@@ -81,6 +81,13 @@ import COLORMODE3_META from './colormode3';
 import COMPASS_META from './compass';
 import COWBOY_HAT_META from './cowboy-hat';
 import CREDITCARD_META from './creditcard';
+import CRYPTO_AVALANCHE_META from './crypto-avalanche';
+import CRYPTO_BINANCE_META from './crypto-binance';
+import CRYPTO_BITCOIN_META from './crypto-bitcoin';
+import CRYPTO_CARDANO_META from './crypto-cardano';
+import CRYPTO_ETHEREUM_META from './crypto-ethereum';
+import CRYPTO_LITECOIN_META from './crypto-litecoin';
+import CRYPTO_SOLANA_META from './crypto-solana';
 import CUBE3_D_META from './cube-3-d';
 import CUTLERY_META from './cutlery';
 import DASH_META from './dash';
@@ -264,6 +271,7 @@ import SUITCASE_META from './suitcase';
 import SUN_META from './sun';
 import SYRINGE_META from './syringe';
 import TABLET_META from './tablet';
+import TELEGRAM_META from './telegram';
 import TEMPLE_META from './temple';
 import TERMINAL_META from './terminal';
 import TEXT_ALIGN_CENTER_META from './text-align-center';
@@ -394,6 +402,13 @@ COLORMODE3: COLORMODE3_META,
 COMPASS: COMPASS_META,
 COWBOY_HAT: COWBOY_HAT_META,
 CREDITCARD: CREDITCARD_META,
+CRYPTO_AVALANCHE: CRYPTO_AVALANCHE_META,
+CRYPTO_BINANCE: CRYPTO_BINANCE_META,
+CRYPTO_BITCOIN: CRYPTO_BITCOIN_META,
+CRYPTO_CARDANO: CRYPTO_CARDANO_META,
+CRYPTO_ETHEREUM: CRYPTO_ETHEREUM_META,
+CRYPTO_LITECOIN: CRYPTO_LITECOIN_META,
+CRYPTO_SOLANA: CRYPTO_SOLANA_META,
 CUBE3_D: CUBE3_D_META,
 CUTLERY: CUTLERY_META,
 DASH: DASH_META,
@@ -577,6 +592,7 @@ SUITCASE: SUITCASE_META,
 SUN: SUN_META,
 SYRINGE: SYRINGE_META,
 TABLET: TABLET_META,
+TELEGRAM: TELEGRAM_META,
 TEMPLE: TEMPLE_META,
 TERMINAL: TERMINAL_META,
 TEXT_ALIGN_CENTER: TEXT_ALIGN_CENTER_META,

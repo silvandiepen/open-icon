@@ -85,6 +85,13 @@ import IconColormode3 from "./colormode3.vue";
 import IconCompass from "./compass.vue";
 import IconCowboyHat from "./cowboy-hat.vue";
 import IconCreditcard from "./creditcard.vue";
+import IconCryptoAvalanche from "./crypto-avalanche.vue";
+import IconCryptoBinance from "./crypto-binance.vue";
+import IconCryptoBitcoin from "./crypto-bitcoin.vue";
+import IconCryptoCardano from "./crypto-cardano.vue";
+import IconCryptoEthereum from "./crypto-ethereum.vue";
+import IconCryptoLitecoin from "./crypto-litecoin.vue";
+import IconCryptoSolana from "./crypto-solana.vue";
 import IconCube3D from "./cube-3-d.vue";
 import IconCutlery from "./cutlery.vue";
 import IconDash from "./dash.vue";
@@ -268,6 +275,7 @@ import IconSuitcase from "./suitcase.vue";
 import IconSun from "./sun.vue";
 import IconSyringe from "./syringe.vue";
 import IconTablet from "./tablet.vue";
+import IconTelegram from "./telegram.vue";
 import IconTemple from "./temple.vue";
 import IconTerminal from "./terminal.vue";
 import IconTextAlignCenter from "./text-align-center.vue";
@@ -563,6 +571,27 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.CREDITCARD:
             return IconCreditcard;
+    
+        case Icons.CRYPTO_AVALANCHE:
+            return IconCryptoAvalanche;
+    
+        case Icons.CRYPTO_BINANCE:
+            return IconCryptoBinance;
+    
+        case Icons.CRYPTO_BITCOIN:
+            return IconCryptoBitcoin;
+    
+        case Icons.CRYPTO_CARDANO:
+            return IconCryptoCardano;
+    
+        case Icons.CRYPTO_ETHEREUM:
+            return IconCryptoEthereum;
+    
+        case Icons.CRYPTO_LITECOIN:
+            return IconCryptoLitecoin;
+    
+        case Icons.CRYPTO_SOLANA:
+            return IconCryptoSolana;
     
         case Icons.CUBE3_D:
             return IconCube3D;
@@ -1113,6 +1142,9 @@ export const getIcon = (icon: Icons)=>{
         case Icons.TABLET:
             return IconTablet;
     
+        case Icons.TELEGRAM:
+            return IconTelegram;
+    
         case Icons.TEMPLE:
             return IconTemple;
     
@@ -1382,6 +1414,13 @@ export {
     IconCompass,
     IconCowboyHat,
     IconCreditcard,
+    IconCryptoAvalanche,
+    IconCryptoBinance,
+    IconCryptoBitcoin,
+    IconCryptoCardano,
+    IconCryptoEthereum,
+    IconCryptoLitecoin,
+    IconCryptoSolana,
     IconCube3D,
     IconCutlery,
     IconDash,
@@ -1565,6 +1604,7 @@ export {
     IconSun,
     IconSyringe,
     IconTablet,
+    IconTelegram,
     IconTemple,
     IconTerminal,
     IconTextAlignCenter,

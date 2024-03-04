@@ -164,6 +164,20 @@
     
         "creditcard",
     
+        "crypto-avalanche",
+    
+        "crypto-binance",
+    
+        "crypto-bitcoin",
+    
+        "crypto-cardano",
+    
+        "crypto-ethereum",
+    
+        "crypto-litecoin",
+    
+        "crypto-solana",
+    
         "cube-3-d",
     
         "cutlery",
@@ -529,6 +543,8 @@
         "syringe",
     
         "tablet",
+    
+        "telegram",
     
         "temple",
     

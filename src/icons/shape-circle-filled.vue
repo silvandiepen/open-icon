@@ -4,7 +4,9 @@
 <svg x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 96 96;" xml:space="preserve">
     
 <g>
-	<circle cx="36" cy="36" r="27"/>
+	<g>
+		<circle cx="36" cy="36" r="27"/>
+	</g>
 </g>
 
 </svg>

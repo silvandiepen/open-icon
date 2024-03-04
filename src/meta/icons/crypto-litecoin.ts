@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "Crypto Litecoin icon represents the digital currency Litecoin. It features the official Litecoin logo on a transparent background, making it suitable for use in cryptocurrency-related projects.",
+  "category": [
+    "Symbol"
+  ],
+  "tag": [
+    "cryptocurrency",
+    "Litecoin",
+    "digital currency",
+    "finance",
+    "blockchain",
+    "currency",
+    "payment",
+    "investment",
+    "virtual money"
+  ],
+  "title": "Crypto Litecoin"
+}
+                export default meta;
+            

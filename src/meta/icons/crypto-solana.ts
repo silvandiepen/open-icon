@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The icon 'crypto-solana' represents the Solana blockchain, a high-performance blockchain supporting decentralized applications and crypto coins.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "cryptocurrency",
+    "blockchain",
+    "digital currency",
+    "Solana",
+    "technology",
+    "finance",
+    "decentralized",
+    "crypto",
+    "coin"
+  ],
+  "title": "Crypto Solana"
+}
+                export default meta;
+            

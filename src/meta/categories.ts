@@ -23,6 +23,7 @@ export const categories = [
   "Food & Drink",
   "Travel",
   "Animals",
+  "Finance",
   "Tool",
   "Safety",
   "Emergency",
