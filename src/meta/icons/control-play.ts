@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The control-play icon represents a play button, symbolizing the action of starting playing a media file or video.",
+  "category": [
+    "Media",
+    "Interface"
+  ],
+  "tag": [
+    "play",
+    "start",
+    "button",
+    "video",
+    "media",
+    "arrow",
+    "control",
+    "multimedia",
+    "audio",
+    "visual"
+  ],
+  "title": "Control Play"
+}
+                export default meta;
+            

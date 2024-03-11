@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "Control-fast-forward-end-filled icon is a symbol indicating the fast forwarding to the end of a media file or track in a filled style.",
+  "category": [
+    "Media",
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "control",
+    "fast forward",
+    "end",
+    "skip",
+    "media player",
+    "navigation",
+    "button",
+    "progress"
+  ],
+  "title": "Control Fast Forward End Filled"
+}
+                export default meta;
+            

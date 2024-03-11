@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The stellar icon is a graphic representation of a star-like shape. It typically symbolizes brilliance, excellence, or achievement. The icon can be used in various contexts to convey positivity or highlight something exceptional.",
+  "category": [
+    "Symbol"
+  ],
+  "tag": [
+    "star",
+    "success",
+    "bright",
+    "celestial",
+    "outstanding",
+    "shiny",
+    "sparkle",
+    "shine",
+    "glow",
+    "radiant"
+  ],
+  "title": "Stellar"
+}
+                export default meta;
+            

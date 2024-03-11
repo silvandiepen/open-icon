@@ -160,6 +160,46 @@
     
         "compass",
     
+        "control-fast-back-track-filled",
+    
+        "control-fast-back-track",
+    
+        "control-fast-backward-end-filled",
+    
+        "control-fast-backward-end",
+    
+        "control-fast-backward-filled",
+    
+        "control-fast-backward",
+    
+        "control-fast-forward-end-filled",
+    
+        "control-fast-forward-end",
+    
+        "control-fast-forward-filled",
+    
+        "control-fast-forward",
+    
+        "control-next-track-filled",
+    
+        "control-next-track",
+    
+        "control-pause-filled",
+    
+        "control-pause",
+    
+        "control-play-filled",
+    
+        "control-play",
+    
+        "control-record-filled",
+    
+        "control-record",
+    
+        "control-stop-filled",
+    
+        "control-stop",
+    
         "cowboy-hat",
     
         "creditcard",
@@ -286,9 +326,15 @@
     
         "help",
     
+        "hexagon-dots-filled",
+    
+        "hexagon-dots",
+    
         "home-2",
     
         "home",
+    
+        "honeycomb-pattern",
     
         "id-card",
     
@@ -426,6 +472,12 @@
     
         "questionmark-circle",
     
+        "reactive-dots",
+    
+        "reactive",
+    
+        "reactive2",
+    
         "recycle",
     
         "red-cross",
@@ -534,6 +586,12 @@
     
         "stairs",
     
+        "stellar-filled",
+    
+        "stellar",
+    
+        "stellar2",
+    
         "stove",
     
         "suitcase",
@@ -597,6 +655,10 @@
         "user",
     
         "users",
+    
+        "vector-curve",
+    
+        "vector-curve2",
     
         "video-camera",
     

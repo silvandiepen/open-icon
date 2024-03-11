@@ -1,0 +1,20 @@
+
+                export const meta = {
+  "description": "This icon features a filled hexagon shape with dots inside each corner, creating a unique and geometric design. It can be used to represent technology, connectivity, or a futuristic concept.",
+  "category": [
+    "Shapes"
+  ],
+  "tag": [
+    "geometric",
+    "pattern",
+    "hexagon",
+    "dots",
+    "filled",
+    "technology",
+    "connectivity",
+    "futuristic"
+  ],
+  "title": "Hexagon Dots Filled"
+}
+                export default meta;
+            

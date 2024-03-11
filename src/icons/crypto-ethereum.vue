@@ -4,12 +4,8 @@
 <svg x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 96 96;" xml:space="preserve">
     
 <g>
-	<g>
-		<polygon points="35.9,67.5 55.19,40.27 35.9,51.75 16.47,40.27 		"/>
-	</g>
-	<g>
-		<polygon points="55.19,36.59 35.9,4.5 16.47,36.59 35.9,48.07 		"/>
-	</g>
+	<polygon points="35.9,67.5 55.19,40.27 35.9,51.75 16.47,40.27 	"/>
+	<polygon points="55.19,36.59 35.9,4.5 16.47,36.59 35.9,48.07 	"/>
 </g>
 
 </svg>

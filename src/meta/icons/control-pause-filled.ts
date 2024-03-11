@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The icon shows a filled pause symbol, commonly used to indicate pausing or stopping.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "control",
+    "pause",
+    "filled",
+    "media player",
+    "music",
+    "audio",
+    "video",
+    "button",
+    "UI",
+    "multimedia"
+  ],
+  "title": "Control Pause Filled"
+}
+                export default meta;
+            

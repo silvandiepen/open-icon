@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "The control-play-filled icon depicts a solid triangle pointing to the right, symbolizing the play button for media controls.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "triangle",
+    "play",
+    "media player",
+    "button",
+    "control",
+    "filled",
+    "arrow",
+    "forward",
+    "audio"
+  ],
+  "title": "Control Play Filled"
+}
+                export default meta;
+            

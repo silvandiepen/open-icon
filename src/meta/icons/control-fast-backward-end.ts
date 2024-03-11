@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The icon depicts a rewind button symbolizing fast backward movement or skipping to the beginning. It is commonly used in media players and playback controls.",
+  "category": [
+    "Media",
+    "Interface"
+  ],
+  "tag": [
+    "skip",
+    "rewind",
+    "control",
+    "button",
+    "symbol",
+    "media player",
+    "navigation",
+    "beginning",
+    "fast"
+  ],
+  "title": "Control Fast Backward End"
+}
+                export default meta;
+            

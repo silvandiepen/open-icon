@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The stellar-filled icon represents a star shape filled with color. It can be used to indicate ratings, favorites, or high importance.",
+  "category": [
+    "Shapes",
+    "Symbol"
+  ],
+  "tag": [
+    "star",
+    "rating",
+    "favorite",
+    "importance",
+    "celestial",
+    "design",
+    "icon",
+    "stellar",
+    "filled",
+    "color"
+  ],
+  "title": "Stellar Filled"
+}
+                export default meta;
+            

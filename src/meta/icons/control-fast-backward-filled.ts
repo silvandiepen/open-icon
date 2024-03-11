@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "A filled icon representing the action of skipping to the beginning of a media file quickly.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "control",
+    "fast",
+    "backward",
+    "skip",
+    "beginning",
+    "media",
+    "player",
+    "music",
+    "video"
+  ],
+  "title": "Control Fast Backward Filled"
+}
+                export default meta;
+            

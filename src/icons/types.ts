@@ -160,6 +160,46 @@ export const Icons = {
     
      COMPASS: "compass",
     
+     CONTROL_FAST_BACK_TRACK_FILLED: "control-fast-back-track-filled",
+    
+     CONTROL_FAST_BACK_TRACK: "control-fast-back-track",
+    
+     CONTROL_FAST_BACKWARD_END_FILLED: "control-fast-backward-end-filled",
+    
+     CONTROL_FAST_BACKWARD_END: "control-fast-backward-end",
+    
+     CONTROL_FAST_BACKWARD_FILLED: "control-fast-backward-filled",
+    
+     CONTROL_FAST_BACKWARD: "control-fast-backward",
+    
+     CONTROL_FAST_FORWARD_END_FILLED: "control-fast-forward-end-filled",
+    
+     CONTROL_FAST_FORWARD_END: "control-fast-forward-end",
+    
+     CONTROL_FAST_FORWARD_FILLED: "control-fast-forward-filled",
+    
+     CONTROL_FAST_FORWARD: "control-fast-forward",
+    
+     CONTROL_NEXT_TRACK_FILLED: "control-next-track-filled",
+    
+     CONTROL_NEXT_TRACK: "control-next-track",
+    
+     CONTROL_PAUSE_FILLED: "control-pause-filled",
+    
+     CONTROL_PAUSE: "control-pause",
+    
+     CONTROL_PLAY_FILLED: "control-play-filled",
+    
+     CONTROL_PLAY: "control-play",
+    
+     CONTROL_RECORD_FILLED: "control-record-filled",
+    
+     CONTROL_RECORD: "control-record",
+    
+     CONTROL_STOP_FILLED: "control-stop-filled",
+    
+     CONTROL_STOP: "control-stop",
+    
      COWBOY_HAT: "cowboy-hat",
     
      CREDITCARD: "creditcard",
@@ -286,9 +326,15 @@ export const Icons = {
     
      HELP: "help",
     
+     HEXAGON_DOTS_FILLED: "hexagon-dots-filled",
+    
+     HEXAGON_DOTS: "hexagon-dots",
+    
      HOME2: "home-2",
     
      HOME: "home",
+    
+     HONEYCOMB_PATTERN: "honeycomb-pattern",
     
      ID_CARD: "id-card",
     
@@ -426,6 +472,12 @@ export const Icons = {
     
      QUESTIONMARK_CIRCLE: "questionmark-circle",
     
+     REACTIVE_DOTS: "reactive-dots",
+    
+     REACTIVE: "reactive",
+    
+     REACTIVE2: "reactive2",
+    
      RECYCLE: "recycle",
     
      RED_CROSS: "red-cross",
@@ -534,6 +586,12 @@ export const Icons = {
     
      STAIRS: "stairs",
     
+     STELLAR_FILLED: "stellar-filled",
+    
+     STELLAR: "stellar",
+    
+     STELLAR2: "stellar2",
+    
      STOVE: "stove",
     
      SUITCASE: "suitcase",
@@ -597,6 +655,10 @@ export const Icons = {
      USER: "user",
     
      USERS: "users",
+    
+     VECTOR_CURVE: "vector-curve",
+    
+     VECTOR_CURVE2: "vector-curve2",
     
      VIDEO_CAMERA: "video-camera",
     

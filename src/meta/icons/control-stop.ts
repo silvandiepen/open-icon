@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A stop control icon typically depicted as a square with two vertical lines at the center, indicating the action of stopping or pausing.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "stop",
+    "square",
+    "pause",
+    "control",
+    "button",
+    "action",
+    "user interface",
+    "media control",
+    "music player",
+    "video player"
+  ],
+  "title": "Control Stop"
+}
+                export default meta;
+            

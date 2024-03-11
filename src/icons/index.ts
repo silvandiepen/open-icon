@@ -83,6 +83,26 @@ import IconColormode from "./colormode.vue";
 import IconColormode2 from "./colormode2.vue";
 import IconColormode3 from "./colormode3.vue";
 import IconCompass from "./compass.vue";
+import IconControlFastBackTrackFilled from "./control-fast-back-track-filled.vue";
+import IconControlFastBackTrack from "./control-fast-back-track.vue";
+import IconControlFastBackwardEndFilled from "./control-fast-backward-end-filled.vue";
+import IconControlFastBackwardEnd from "./control-fast-backward-end.vue";
+import IconControlFastBackwardFilled from "./control-fast-backward-filled.vue";
+import IconControlFastBackward from "./control-fast-backward.vue";
+import IconControlFastForwardEndFilled from "./control-fast-forward-end-filled.vue";
+import IconControlFastForwardEnd from "./control-fast-forward-end.vue";
+import IconControlFastForwardFilled from "./control-fast-forward-filled.vue";
+import IconControlFastForward from "./control-fast-forward.vue";
+import IconControlNextTrackFilled from "./control-next-track-filled.vue";
+import IconControlNextTrack from "./control-next-track.vue";
+import IconControlPauseFilled from "./control-pause-filled.vue";
+import IconControlPause from "./control-pause.vue";
+import IconControlPlayFilled from "./control-play-filled.vue";
+import IconControlPlay from "./control-play.vue";
+import IconControlRecordFilled from "./control-record-filled.vue";
+import IconControlRecord from "./control-record.vue";
+import IconControlStopFilled from "./control-stop-filled.vue";
+import IconControlStop from "./control-stop.vue";
 import IconCowboyHat from "./cowboy-hat.vue";
 import IconCreditcard from "./creditcard.vue";
 import IconCryptoAvalanche from "./crypto-avalanche.vue";
@@ -146,8 +166,11 @@ import IconHeadphones from "./headphones.vue";
 import IconHeartBroken from "./heart-broken.vue";
 import IconHeart from "./heart.vue";
 import IconHelp from "./help.vue";
+import IconHexagonDotsFilled from "./hexagon-dots-filled.vue";
+import IconHexagonDots from "./hexagon-dots.vue";
 import IconHome2 from "./home-2.vue";
 import IconHome from "./home.vue";
+import IconHoneycombPattern from "./honeycomb-pattern.vue";
 import IconIdCard from "./id-card.vue";
 import IconIdTag from "./id-tag.vue";
 import IconImage from "./image.vue";
@@ -216,6 +239,9 @@ import IconPushpin from "./pushpin.vue";
 import IconPuzzlePiece from "./puzzle-piece.vue";
 import IconQuestionMark from "./question-mark.vue";
 import IconQuestionmarkCircle from "./questionmark-circle.vue";
+import IconReactiveDots from "./reactive-dots.vue";
+import IconReactive from "./reactive.vue";
+import IconReactive2 from "./reactive2.vue";
 import IconRecycle from "./recycle.vue";
 import IconRedCross from "./red-cross.vue";
 import IconRefridgerator from "./refridgerator.vue";
@@ -270,6 +296,9 @@ import IconSplitScreen from "./split-screen.vue";
 import IconStairsDown from "./stairs-down.vue";
 import IconStairsUp from "./stairs-up.vue";
 import IconStairs from "./stairs.vue";
+import IconStellarFilled from "./stellar-filled.vue";
+import IconStellar from "./stellar.vue";
+import IconStellar2 from "./stellar2.vue";
 import IconStove from "./stove.vue";
 import IconSuitcase from "./suitcase.vue";
 import IconSun from "./sun.vue";
@@ -302,6 +331,8 @@ import IconUserDelete from "./user-delete.vue";
 import IconUserTeam from "./user-team.vue";
 import IconUser from "./user.vue";
 import IconUsers from "./users.vue";
+import IconVectorCurve from "./vector-curve.vue";
+import IconVectorCurve2 from "./vector-curve2.vue";
 import IconVideoCamera from "./video-camera.vue";
 import IconVisible from "./visible.vue";
 import IconVolumeOff from "./volume-off.vue";
@@ -566,6 +597,66 @@ export const getIcon = (icon: Icons)=>{
         case Icons.COMPASS:
             return IconCompass;
     
+        case Icons.CONTROL_FAST_BACK_TRACK_FILLED:
+            return IconControlFastBackTrackFilled;
+    
+        case Icons.CONTROL_FAST_BACK_TRACK:
+            return IconControlFastBackTrack;
+    
+        case Icons.CONTROL_FAST_BACKWARD_END_FILLED:
+            return IconControlFastBackwardEndFilled;
+    
+        case Icons.CONTROL_FAST_BACKWARD_END:
+            return IconControlFastBackwardEnd;
+    
+        case Icons.CONTROL_FAST_BACKWARD_FILLED:
+            return IconControlFastBackwardFilled;
+    
+        case Icons.CONTROL_FAST_BACKWARD:
+            return IconControlFastBackward;
+    
+        case Icons.CONTROL_FAST_FORWARD_END_FILLED:
+            return IconControlFastForwardEndFilled;
+    
+        case Icons.CONTROL_FAST_FORWARD_END:
+            return IconControlFastForwardEnd;
+    
+        case Icons.CONTROL_FAST_FORWARD_FILLED:
+            return IconControlFastForwardFilled;
+    
+        case Icons.CONTROL_FAST_FORWARD:
+            return IconControlFastForward;
+    
+        case Icons.CONTROL_NEXT_TRACK_FILLED:
+            return IconControlNextTrackFilled;
+    
+        case Icons.CONTROL_NEXT_TRACK:
+            return IconControlNextTrack;
+    
+        case Icons.CONTROL_PAUSE_FILLED:
+            return IconControlPauseFilled;
+    
+        case Icons.CONTROL_PAUSE:
+            return IconControlPause;
+    
+        case Icons.CONTROL_PLAY_FILLED:
+            return IconControlPlayFilled;
+    
+        case Icons.CONTROL_PLAY:
+            return IconControlPlay;
+    
+        case Icons.CONTROL_RECORD_FILLED:
+            return IconControlRecordFilled;
+    
+        case Icons.CONTROL_RECORD:
+            return IconControlRecord;
+    
+        case Icons.CONTROL_STOP_FILLED:
+            return IconControlStopFilled;
+    
+        case Icons.CONTROL_STOP:
+            return IconControlStop;
+    
         case Icons.COWBOY_HAT:
             return IconCowboyHat;
     
@@ -755,11 +846,20 @@ export const getIcon = (icon: Icons)=>{
         case Icons.HELP:
             return IconHelp;
     
+        case Icons.HEXAGON_DOTS_FILLED:
+            return IconHexagonDotsFilled;
+    
+        case Icons.HEXAGON_DOTS:
+            return IconHexagonDots;
+    
         case Icons.HOME2:
             return IconHome2;
     
         case Icons.HOME:
             return IconHome;
+    
+        case Icons.HONEYCOMB_PATTERN:
+            return IconHoneycombPattern;
     
         case Icons.ID_CARD:
             return IconIdCard;
@@ -965,6 +1065,15 @@ export const getIcon = (icon: Icons)=>{
         case Icons.QUESTIONMARK_CIRCLE:
             return IconQuestionmarkCircle;
     
+        case Icons.REACTIVE_DOTS:
+            return IconReactiveDots;
+    
+        case Icons.REACTIVE:
+            return IconReactive;
+    
+        case Icons.REACTIVE2:
+            return IconReactive2;
+    
         case Icons.RECYCLE:
             return IconRecycle;
     
@@ -1127,6 +1236,15 @@ export const getIcon = (icon: Icons)=>{
         case Icons.STAIRS:
             return IconStairs;
     
+        case Icons.STELLAR_FILLED:
+            return IconStellarFilled;
+    
+        case Icons.STELLAR:
+            return IconStellar;
+    
+        case Icons.STELLAR2:
+            return IconStellar2;
+    
         case Icons.STOVE:
             return IconStove;
     
@@ -1222,6 +1340,12 @@ export const getIcon = (icon: Icons)=>{
     
         case Icons.USERS:
             return IconUsers;
+    
+        case Icons.VECTOR_CURVE:
+            return IconVectorCurve;
+    
+        case Icons.VECTOR_CURVE2:
+            return IconVectorCurve2;
     
         case Icons.VIDEO_CAMERA:
             return IconVideoCamera;
@@ -1412,6 +1536,26 @@ export {
     IconColormode2,
     IconColormode3,
     IconCompass,
+    IconControlFastBackTrackFilled,
+    IconControlFastBackTrack,
+    IconControlFastBackwardEndFilled,
+    IconControlFastBackwardEnd,
+    IconControlFastBackwardFilled,
+    IconControlFastBackward,
+    IconControlFastForwardEndFilled,
+    IconControlFastForwardEnd,
+    IconControlFastForwardFilled,
+    IconControlFastForward,
+    IconControlNextTrackFilled,
+    IconControlNextTrack,
+    IconControlPauseFilled,
+    IconControlPause,
+    IconControlPlayFilled,
+    IconControlPlay,
+    IconControlRecordFilled,
+    IconControlRecord,
+    IconControlStopFilled,
+    IconControlStop,
     IconCowboyHat,
     IconCreditcard,
     IconCryptoAvalanche,
@@ -1475,8 +1619,11 @@ export {
     IconHeartBroken,
     IconHeart,
     IconHelp,
+    IconHexagonDotsFilled,
+    IconHexagonDots,
     IconHome2,
     IconHome,
+    IconHoneycombPattern,
     IconIdCard,
     IconIdTag,
     IconImage,
@@ -1545,6 +1692,9 @@ export {
     IconPuzzlePiece,
     IconQuestionMark,
     IconQuestionmarkCircle,
+    IconReactiveDots,
+    IconReactive,
+    IconReactive2,
     IconRecycle,
     IconRedCross,
     IconRefridgerator,
@@ -1599,6 +1749,9 @@ export {
     IconStairsDown,
     IconStairsUp,
     IconStairs,
+    IconStellarFilled,
+    IconStellar,
+    IconStellar2,
     IconStove,
     IconSuitcase,
     IconSun,
@@ -1631,6 +1784,8 @@ export {
     IconUserTeam,
     IconUser,
     IconUsers,
+    IconVectorCurve,
+    IconVectorCurve2,
     IconVideoCamera,
     IconVisible,
     IconVolumeOff,

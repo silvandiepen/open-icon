@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "Control next track icon filled with a directional arrow pointing to the right. Represents skipping to the next music track or item in a playlist.",
+  "category": [
+    "Arrows",
+    "Media"
+  ],
+  "tag": [
+    "music",
+    "player",
+    "playlist",
+    "navigation",
+    "forward",
+    "control",
+    "UI",
+    "skip",
+    "directional"
+  ],
+  "title": "Control Next Track Filled"
+}
+                export default meta;
+            

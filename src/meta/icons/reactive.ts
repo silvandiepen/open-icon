@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The icon represents a concept or process that is responsive and dynamic, typically in the context of technology or user interfaces. It suggests adaptability and real-time changes based on user interactions.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "reactive",
+    "responsive",
+    "dynamic",
+    "technology",
+    "user interface",
+    "adaptability",
+    "real-time",
+    "interaction",
+    "web development",
+    "software"
+  ],
+  "title": "Reactive"
+}
+                export default meta;
+            

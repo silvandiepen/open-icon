@@ -1,0 +1,24 @@
+
+                export const meta = {
+  "description": "The control-pause icon represents a symbol commonly used to pause or stop an action, such as media playback. It typically consists of two vertical lines, indicating a pause in progress.",
+  "category": [
+    "Interface",
+    "Media",
+    "Symbol"
+  ],
+  "tag": [
+    "control",
+    "pause",
+    "stop",
+    "media",
+    "player",
+    "music",
+    "video",
+    "symbol",
+    "action",
+    "icon"
+  ],
+  "title": "Control Pause"
+}
+                export default meta;
+            

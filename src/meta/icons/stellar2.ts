@@ -1,0 +1,19 @@
+
+                export const meta = {
+  "description": "Stellar2 is a modern and stylish icon that represents a star or a celestial object. It could be used to indicate excellence, success, or something exceptional.",
+  "category": [
+    "Symbol"
+  ],
+  "tag": [
+    "star",
+    "celestial",
+    "modern",
+    "stylish",
+    "excellence",
+    "success",
+    "exceptional"
+  ],
+  "title": "Stellar 2"
+}
+                export default meta;
+            

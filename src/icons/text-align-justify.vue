@@ -4,18 +4,10 @@
 <svg x="0px" y="0px" viewBox="0 0 72 72" style="enable-background:new 0 0 96 96;" xml:space="preserve">
     
 <g>
-	<g>
-		<rect x="15" y="15" width="42" height="6"/>
-	</g>
-	<g>
-		<rect x="15" y="27" width="42" height="6"/>
-	</g>
-	<g>
-		<rect x="15" y="39" width="42" height="6"/>
-	</g>
-	<g>
-		<rect x="15" y="51" width="42" height="6"/>
-	</g>
+	<rect x="15" y="15" width="42" height="6"/>
+	<rect x="15" y="27" width="42" height="6"/>
+	<rect x="15" y="39" width="42" height="6"/>
+	<rect x="15" y="51" width="42" height="6"/>
 </g>
 
 </svg>

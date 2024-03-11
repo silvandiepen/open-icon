@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The control-fast-forward icon represents a button or control that allows the user to skip forward quickly in a media player or playback device. It typically indicates fast-forwarding through a video or audio content.",
+  "category": [
+    "Media",
+    "Interface"
+  ],
+  "tag": [
+    "control",
+    "fast forward",
+    "skip",
+    "media player",
+    "audio",
+    "video",
+    "button",
+    "playback",
+    "skip forward",
+    "fast-forwarding"
+  ],
+  "title": "Control Fast Forward"
+}
+                export default meta;
+            

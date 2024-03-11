@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The control-fast-back-track icon is a symbol representing the action of moving quickly back to a previous track or location. It typically signifies a rewind or back function in a media player or navigation interface.",
+  "category": [
+    "Interface",
+    "Media"
+  ],
+  "tag": [
+    "rewind",
+    "back",
+    "track",
+    "fast",
+    "control",
+    "navigation",
+    "media player",
+    "symbol",
+    "interface"
+  ],
+  "title": "Control Fast Back Track"
+}
+                export default meta;
+            
