@@ -1,0 +1,7 @@
+<svg id="ArrowUpDownStop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <path d="M26.88,54.24s4.62,8.94,9.12,8.88c4.5-.06,8.88-9.12,8.88-9.12" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+  <path d="M45.12,18s-4.62-8.94-9.12-8.88c-4.5.06-8.88,9.12-8.88,9.12" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+  <line x1="36" y1="22.5" x2="36" y2="9.12" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+  <line x1="36" y1="63.12" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+  <line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+</svg>

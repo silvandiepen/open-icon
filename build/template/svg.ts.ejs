@@ -1,0 +1,21 @@
+import { Icons } from "./types";
+
+<% files.forEach(function(file,index) { %>
+export const <%= file.meta.componentName %> = `<%- svgOnly(file.content) %>`;
+<% }); -%>
+
+
+
+export const getSvgIcon = (icon: Icons)=>{
+    switch(icon){
+
+        
+    <% files.forEach(function(file,index) { %>
+        case Icons.<%= constCase(file.meta.fileName) %>:
+            return <%= file.meta.componentName %>;
+    <% }); -%>
+
+        default: 
+            return null;
+    }
+}

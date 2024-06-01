@@ -1,0 +1,82 @@
+{
+  "src": "src/icons/*",
+  "dest": "lib/icons",
+  "componentTemplate": [
+    "build/template/[component].svg.ejs",
+    "build/template/[component].js.ejs"
+  ],
+  "simplifyColors": true,
+  "replaceName": "icon_",
+  "listTemplate": [
+    "build/template/index.ts.ejs",
+    "build/template/types.ts.ejs"
+  ],
+  "removeData": [
+    "/<\\?xml.*?\\?>/",
+    "stroke:black;",
+    "stroke: black;",
+    "/<!--.*?-->/"
+  ],
+  "replaceData": [
+    [["fill: black;"], "fill: var(--icon-line-color, currentColor);"],
+    ["id=\"Layer_1\"", "id=\"{{componentName}}\""],
+    ["data-name=\"Layer_1\"", "data-name=\"{{componentName}}\""],
+    [
+      [
+        "opacity:0.5;fill:red;",
+        "fill: red; opacity: .5;",
+        "fill: red; stroke-width: 0px; opacity: .5;"
+      ],
+      "fill: var(--icon-fill, {{default.iconFill}}); opacity: var(--icon-fill-opacity, {{default.iconFillOpacity}});"
+    ],
+    [
+      "stroke: red;",
+      "stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor));"
+    ],
+    ["fill:red;", "fill: var(--icon-fill, {{default.iconFill}});"],
+    [
+      ["stroke-width:1;", "stroke-width: 1px;"],
+      "stroke-width:var(--icon-stroke-width-xs, calc(var(--icon-stroke-width, {{default.iconStrokeWidth}}) * 0.25));"
+    ],
+    [
+      ["stroke-width:2;", "stroke-width: 2px;"],
+      "stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, {{default.iconStrokeWidth}}) * 0.5));"
+    ],
+    [
+      ["stroke-width:4;", "stroke-width: 4px;"],
+      "stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, {{default.iconStrokeWidth}}) * 1));"
+    ],
+    [
+      ["stroke-width:6;", "stroke-width: 6px;"],
+      "stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, {{default.iconStrokeWidth}}) * 1.5));"
+    ],
+    [
+      ["stroke-width:12;", "stroke-width: 12px;"],
+      "stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, {{default.iconStrokeWidth}}) * 3));"
+    ],
+
+    [
+      "stroke-linecap:round;",
+      "stroke-linecap: var(--icon-stroke-linecap, round);"
+    ],
+    [
+      "stroke-linecap:square;",
+      "stroke-linecap: var(--icon-stroke-linecap, square);"
+    ],
+    [
+      "stroke-linejoin:round;",
+      "stroke-linecap: var(--icon-stroke-linejoin, round);"
+    ],
+    [
+      "stroke-linejoin:square;",
+      "stroke-linecap: var(--icon-stroke-linejoin, square);"
+    ]
+  ],
+  "default": {
+    "iconFill": "rgba(0, 0, 0, 0)",
+    "iconFillOpacity": "1",
+    "iconStrokeWidth": "5",
+    "iconStrokeLinecap": "round",
+    "iconStrokeLinejoin": "round"
+  }
+}

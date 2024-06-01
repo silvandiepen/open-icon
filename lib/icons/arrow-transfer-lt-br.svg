@@ -1,0 +1,6 @@
+<svg id="ArrowTransferLtBr" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <path d="M45.55,13.73s-15.91-3.18-19.09,0" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+  <line x1="58.27" y1="45.55" x2="26.45" y2="13.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+  <path d="M26.45,58.27s15.91,3.18,19.09,0" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+  <line x1="13.73" y1="26.45" x2="45.55" y2="58.27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
+</svg>

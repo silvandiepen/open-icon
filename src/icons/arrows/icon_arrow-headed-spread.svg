@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <g style="opacity: .5;">
+    <path d="M13.5,58.5c3.18,3.18,12.73,0,12.73,0l-12.73-12.73s-3.18,9.55,0,12.73Z" style="fill: #ed2024; stroke-width: 0px;"/>
+    <path d="M45.77,13.5l12.73,12.73s3.18-9.55,0-12.73-12.73,0-12.73,0Z" style="fill: #ed2024; stroke-width: 0px;"/>
+    <path d="M45.77,58.5s9.55,3.18,12.73,0,0-12.73,0-12.73l-12.73,12.73Z" style="fill: #ed2024; stroke-width: 0px;"/>
+    <path d="M13.5,13.5c-3.18,3.18,0,12.73,0,12.73l12.73-12.73s-9.55-3.18-12.73,0Z" style="fill: #ed2024; stroke-width: 0px;"/>
+  </g>
+  <path d="M13.5,45.77s-3.18,9.55,0,12.73,12.73,0,12.73,0" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="M58.5,26.23s3.18-9.55,0-12.73-12.73,0-12.73,0" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="19.86" y1="52.14" x2="52.14" y2="19.86" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="M45.77,58.5s9.55,3.18,12.73,0,0-12.73,0-12.73" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="M26.23,13.5s-9.55-3.18-12.73,0,0,12.73,0,12.73" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line x1="52.14" y1="52.14" x2="19.86" y2="19.86" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <g>
+    <path d="M13.5,58.5c3.18,3.18,12.73,0,12.73,0l-12.73-12.73s-3.18,9.55,0,12.73Z" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <path d="M45.77,13.5l12.73,12.73s3.18-9.55,0-12.73-12.73,0-12.73,0Z" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <path d="M45.77,58.5s9.55,3.18,12.73,0,0-12.73,0-12.73l-12.73,12.73Z" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    <path d="M13.5,13.5c-3.18,3.18,0,12.73,0,12.73l12.73-12.73s-9.55-3.18-12.73,0Z" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  </g>
+</svg>
