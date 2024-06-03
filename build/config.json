@@ -30,6 +30,8 @@
       "fill: var(--icon-fill, {{default.iconFill}}); opacity: var(--icon-fill-opacity, {{default.iconFillOpacity}});"
     ],
     [
+
+      "fill:none;stroke:red;",
       "stroke: red;",
       "stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor));"
     ],
