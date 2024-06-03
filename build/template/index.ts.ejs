@@ -6,14 +6,12 @@ import <%= file.meta.componentName %> from "./<%= file.meta.fileName %>.js";<% }
 -%>
    
 
-
 export const getIcon = (icon: Icons) => {
     switch(icon) {
     <% files.forEach(function(file,index) { %>
         case Icons.<%= constCase(file.meta.fileName) %>:
             return <%= file.meta.componentName %>;
     <% }); -%>
-
         default: 
             return null;
     }
