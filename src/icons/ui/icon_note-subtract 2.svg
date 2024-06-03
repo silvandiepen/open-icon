@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-  <g style="opacity: .5;">
-    <rect x="13.5" y="13.82" width="45" height="45" rx="4" ry="4" style="fill: #ed2024; stroke-width: 0px;"/>
-  </g>
-  <line x1="40.5" y1="49.5" x2="58.5" y2="49.5" style="fill: none; stroke: #010101; stroke-miterlimit: 10; stroke-width: 4px;"/>
-  <path d="M58.5,41.5v-24c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none; stroke: #010101; stroke-miterlimit: 10; stroke-width: 4px;"/>
-  <line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: #010101; stroke: #ed2024; stroke-miterlimit: 10; stroke-width: 4px;"/>
-  <line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: #010101; stroke: #ed2024; stroke-miterlimit: 10; stroke-width: 4px;"/>
-  <line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: #010101; stroke: #ed2024; stroke-miterlimit: 10; stroke-width: 4px;"/>
-  <line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: #010101; stroke: #ed2024; stroke-miterlimit: 10; stroke-width: 4px;"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
+<g style="opacity:0.5;">
+	<path style="fill:#ED2024;" d="M54.5,13.82h-37c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4v-37
+		C58.5,15.61,56.71,13.82,54.5,13.82z"/>
+</g>
+<line style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" x1="40.5" y1="49.5" x2="58.5" y2="49.5"/>
+<g>
+	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M58.5,41.5v-24c0-2.21-1.79-4-4-4h-37
+		c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23"/>
+</g>
+<line style="fill:#010101;stroke:#ED2024;stroke-width:4;stroke-miterlimit:10;" x1="22.5" y1="6.5" x2="22.5" y2="20"/>
+<line style="fill:#010101;stroke:#ED2024;stroke-width:4;stroke-miterlimit:10;" x1="31.5" y1="6.5" x2="31.5" y2="20"/>
+<line style="fill:#010101;stroke:#ED2024;stroke-width:4;stroke-miterlimit:10;" x1="40.5" y1="6.5" x2="40.5" y2="20"/>
+<line style="fill:#010101;stroke:#ED2024;stroke-width:4;stroke-miterlimit:10;" x1="49.5" y1="6.5" x2="49.5" y2="20"/>
 </svg>

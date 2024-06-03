@@ -1,4 +1,1 @@
-<svg id="ChevronDoubleLeft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-  <path d="M35.77,13.73S13.5,31.5,13.5,36s22.27,22.27,22.27,22.27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
-  <path d="M50.83,16.22s-19.78,15.78-19.78,19.78,19.78,19.78,19.78,19.78" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/>
-</svg>
+<svg id="ChevronDoubleLeft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M35.77,13.73S13.5,31.5,13.5,36s22.27,22.27,22.27,22.27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M50.83,16.22s-19.78,15.78-19.78,19.78,19.78,19.78,19.78,19.78" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>
