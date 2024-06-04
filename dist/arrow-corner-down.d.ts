@@ -1,0 +1,3 @@
+declare const IconArrowCornerDown = "<svg id=\"ArrowCornerDown\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 72\"><path d=\"M13.5,49.5s4.5,9,9,9,9-9,9-9\" style=\"fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));\"/><path d=\"M22.5,58.5v-25c0-11.05,8.95-20,20-20h16\" style=\"fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));\"/></svg>";
+export default IconArrowCornerDown;
+export { IconArrowCornerDown };

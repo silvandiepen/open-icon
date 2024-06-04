@@ -1,9 +1,9 @@
 {
   "src": "src/icons/*",
-  "dest": "lib/icons",
+  "dest": "lib",
   "componentTemplate": [
     "build/template/[component].svg.ejs",
-    "build/template/[component].js.ejs"
+    "build/template/[component].ts.ejs"
   ],
   "simplifyColors": true,
   "replaceName": "icon_",

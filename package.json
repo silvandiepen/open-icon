@@ -1,10 +1,18 @@
 {
   "name": "open-icon",
-  "version": "1.0.0-alpha.0.6",
+  "version": "1.0.0-alpha.0.7",
   "description": "Open Icon",
   "main": "lib/icons/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.mjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "test": "npm run test",
+    "build": "npm run build:icons && tsup lib/index.ts  --format esm,cjs,iife && tsc lib/index.ts --outDir dist --emitDeclarationOnly --declaration" ,
     "build:icons": "sh build/icon-components.sh"
   },
   "keywords": [
@@ -14,6 +22,6 @@
   "author": "Sil van Diepen",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.0.2"
+    "tsup": "^8.1.0"
   }
 }
