@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #010101;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-width: 4px;
-      }
-
-      .cls-2 {
-        fill: #ed2024;
-        opacity: .5;
-        stroke-width: 0px;
-      }
-    </style>
-  </defs>
-  <rect class="cls-2" x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)"/>
-  <rect class="cls-1" x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)"/>
-  <polyline class="cls-1" points="10.17 19.17 36 40.5 61.69 19.31"/>
+  <rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: #ed2024; opacity: .5; stroke-width: 0px;"/>
+  <rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <polyline points="10.17 19.17 36 40.5 61.69 19.31" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
 </svg>

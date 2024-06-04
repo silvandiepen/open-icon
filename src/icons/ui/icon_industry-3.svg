@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-  <defs>
-    <style>
-      .cls-1 {
-        stroke: #ed2024;
-      }
-
-      .cls-1, .cls-2 {
-        fill: none;
-        stroke-miterlimit: 10;
-        stroke-width: 4px;
-      }
-
-      .cls-2 {
-        stroke: #010101;
-      }
-
-      .cls-3 {
-        fill: #ed2024;
-        opacity: .5;
-        stroke-width: 0px;
-      }
-    </style>
-  </defs>
-  <polygon class="cls-3" points="9 58.5 9 49.5 9 36 27 45 27 36 45 45 45 45 45 36 63 45 63 58.5 9 58.5"/>
-  <polygon class="cls-2" points="9 58.5 9 49.5 9 36 27 45 27 36 45 45 45 45 45 36 63 45 63 58.5 9 58.5"/>
-  <path class="cls-1" d="M18,20.64c8.79-8.79,23.03-8.79,31.82,0"/>
-  <path class="cls-1" d="M24.36,27c5.27-5.27,13.82-5.27,19.09,0"/>
+  <polygon points="9 58.5 9 49.5 9 36 27 45 27 36 45 45 45 45 45 36 63 45 63 58.5 9 58.5" style="fill: #ed2024; opacity: .5; stroke-width: 0px;"/>
+  <polygon points="9 58.5 9 49.5 9 36 27 45 27 36 45 45 45 45 45 36 63 45 63 58.5 9 58.5" style="fill: none; stroke: #010101; stroke-miterlimit: 10; stroke-width: 4px;"/>
+  <path d="M18,20.64c8.79-8.79,23.03-8.79,31.82,0" style="fill: none; stroke: #ed2024; stroke-miterlimit: 10; stroke-width: 4px;"/>
+  <path d="M24.36,27c5.27-5.27,13.82-5.27,19.09,0" style="fill: none; stroke: #ed2024; stroke-miterlimit: 10; stroke-width: 4px;"/>
 </svg>
