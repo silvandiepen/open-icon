@@ -1,15 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
-<path style="opacity:0.5;fill:#ED2024;" d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27L40.5,9z"
-	/>
-<path style="fill:none;stroke:#ED2024;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;" d="M40.5,9v14c0,2.21,1.79,4,4,4
-	h14"/>
-<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M58.5,45V27l-18-18h-23c-2.21,0-4,1.79-4,4v46
-	c0,2.21,1.79,4,4,4h23"/>
-<path style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;" d="M43.66,40.5l14.51,14.51c0.44,0.44,0.44,1.16,0,1.6
-	l-6.05,6.05c-0.44,0.44-1.16,0.44-1.6,0L36,48.16V40.5H43.66z"/>
-<line style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;" x1="55.28" y1="52.13" x2="47.63" y2="59.78"/>
-<line style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;" x1="43.66" y1="40.5" x2="36" y2="48.16"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #ed2024;
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-3 {
+        stroke: #010101;
+      }
+
+      .cls-4 {
+        fill: #ed2024;
+        opacity: .5;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z"/>
+  <path class="cls-1" d="M40.5,9v14c0,2.21,1.79,4,4,4h14"/>
+  <path class="cls-3" d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h23"/>
+  <path class="cls-2" d="M43.66,40.5l14.51,14.51c.44.44.44,1.16,0,1.6l-6.05,6.05c-.44.44-1.16.44-1.6,0l-14.51-14.51v-7.66h7.66Z"/>
+  <line class="cls-2" x1="55.28" y1="52.13" x2="47.63" y2="59.78"/>
+  <line class="cls-2" x1="43.66" y1="40.5" x2="36" y2="48.16"/>
 </svg>

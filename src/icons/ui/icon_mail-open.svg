@@ -1,17 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
-<polyline style="fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-	18,39 18,18 54,18 54,39 "/>
-<path style="fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
-	M9,31.5L36,54l27-22.5V59c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4V31.5"/>
-<g>
-	
-		<polyline style="fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-		46.8,18 36,9 25.2,18 	"/>
-	
-		<polyline style="fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-		18,24 9,31.5 36,54 63,31.5 54,24 	"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #010101;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #ed2024;
+        opacity: .5;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5"/>
+  <polyline class="cls-1" points="18 39 18 18 54 18 54 39"/>
+  <path class="cls-1" d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5"/>
+  <g>
+    <polyline class="cls-1" points="46.8 18 36 9 25.2 18"/>
+    <polyline class="cls-1" points="18 24 9 31.5 36 54 63 31.5 54 24"/>
+  </g>
 </svg>

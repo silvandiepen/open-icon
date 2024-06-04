@@ -1,8 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
-<path style="fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
-	M50,67.5H22c-2.21,0-4-1.79-4-4v-46c0-2.21,1.79-4,4-4h28c2.21,0,4,1.79,4,4v46C54,65.71,52.21,67.5,50,67.5z"/>
-<line style="fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="36" y1="58.5" x2="36" y2="58.5"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #010101;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #ed2024;
+        opacity: .5;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="18" y="13.5" width="36" height="54" rx="4" ry="4"/>
+  <rect class="cls-1" x="18" y="13.5" width="36" height="54" rx="4" ry="4"/>
+  <line class="cls-1" x1="36" y1="58.5" x2="36" y2="58.5"/>
 </svg>

@@ -620,6 +620,14 @@ export const Icons = {
     
      LAPTOP: "laptop",
     
+     LEAF2: "leaf2",
+    
+     LEAF3: "leaf3",
+    
+     LEAF: "leaf",
+    
+     LEAFS: "leafs",
+    
      MAIL_OPEN: "mail-open",
     
      MAIL: "mail",
@@ -674,6 +682,8 @@ export const Icons = {
     
      SPEECH_BALLOON2: "speech-balloon2",
     
+     SPEECH_BALLOON_SQUARE2: "speech-balloon-square2",
+    
      SPEECH_BALLOON_SQUARE: "speech-balloon-square",
     
      SPEECH_BALLOON: "speech-balloon",
@@ -721,6 +731,16 @@ export const Icons = {
      THERMOMETER_HOT: "thermometer-hot",
     
      THERMOMETER: "thermometer",
+    
+     TREE2: "tree2",
+    
+     TREE3: "tree3",
+    
+     TREE: "tree",
+    
+     TREES2: "trees2",
+    
+     TREES: "trees",
     
      VIDEO_CAMERA: "video-camera",
     

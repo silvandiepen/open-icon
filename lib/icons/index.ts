@@ -312,6 +312,10 @@ import Heart from "./heart.js";
 import IdeaFactory from "./idea-factory.js";
 import Industry3 from "./industry3.js";
 import Laptop from "./laptop.js";
+import Leaf2 from "./leaf2.js";
+import Leaf3 from "./leaf3.js";
+import Leaf from "./leaf.js";
+import Leafs from "./leafs.js";
 import MailOpen from "./mail-open.js";
 import Mail from "./mail.js";
 import Money from "./money.js";
@@ -339,6 +343,7 @@ import Politician from "./politician.js";
 import Printer from "./printer.js";
 import SpeechBalloon3 from "./speech-balloon3.js";
 import SpeechBalloon2 from "./speech-balloon2.js";
+import SpeechBalloonSquare2 from "./speech-balloon-square2.js";
 import SpeechBalloonSquare from "./speech-balloon-square.js";
 import SpeechBalloon from "./speech-balloon.js";
 import SpeechBalloons from "./speech-balloons.js";
@@ -363,6 +368,11 @@ import Terminal from "./terminal.js";
 import ThermometerCold from "./thermometer-cold.js";
 import ThermometerHot from "./thermometer-hot.js";
 import Thermometer from "./thermometer.js";
+import Tree2 from "./tree2.js";
+import Tree3 from "./tree3.js";
+import Tree from "./tree.js";
+import Trees2 from "./trees2.js";
+import Trees from "./trees.js";
 import VideoCamera from "./video-camera.js";
 import Videos from "./videos.js";
 import Vote from "./vote.js";
@@ -1352,6 +1362,18 @@ export const getIcon = (icon: Icons) => {
         case Icons.LAPTOP:
             return Laptop;
     
+        case Icons.LEAF2:
+            return Leaf2;
+    
+        case Icons.LEAF3:
+            return Leaf3;
+    
+        case Icons.LEAF:
+            return Leaf;
+    
+        case Icons.LEAFS:
+            return Leafs;
+    
         case Icons.MAIL_OPEN:
             return MailOpen;
     
@@ -1433,6 +1455,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.SPEECH_BALLOON2:
             return SpeechBalloon2;
     
+        case Icons.SPEECH_BALLOON_SQUARE2:
+            return SpeechBalloonSquare2;
+    
         case Icons.SPEECH_BALLOON_SQUARE:
             return SpeechBalloonSquare;
     
@@ -1504,6 +1529,21 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.THERMOMETER:
             return Thermometer;
+    
+        case Icons.TREE2:
+            return Tree2;
+    
+        case Icons.TREE3:
+            return Tree3;
+    
+        case Icons.TREE:
+            return Tree;
+    
+        case Icons.TREES2:
+            return Trees2;
+    
+        case Icons.TREES:
+            return Trees;
     
         case Icons.VIDEO_CAMERA:
             return VideoCamera;
@@ -2031,6 +2071,10 @@ export {
     IdeaFactory,
     Industry3,
     Laptop,
+    Leaf2,
+    Leaf3,
+    Leaf,
+    Leafs,
     MailOpen,
     Mail,
     Money,
@@ -2058,6 +2102,7 @@ export {
     Printer,
     SpeechBalloon3,
     SpeechBalloon2,
+    SpeechBalloonSquare2,
     SpeechBalloonSquare,
     SpeechBalloon,
     SpeechBalloons,
@@ -2082,6 +2127,11 @@ export {
     ThermometerCold,
     ThermometerHot,
     Thermometer,
+    Tree2,
+    Tree3,
+    Tree,
+    Trees2,
+    Trees,
     VideoCamera,
     Videos,
     Vote,
