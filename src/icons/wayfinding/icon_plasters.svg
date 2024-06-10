@@ -7,6 +7,6 @@
   <line x1="36" y1="29.64" x2="36" y2="29.64" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
   <line x1="36" y1="42.36" x2="36" y2="42.36" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
   <line x1="42.36" y1="36" x2="42.36" y2="36" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
-  <path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09s13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 4px;"/>
+  <path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09,5.27,5.27,13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <line x1="36" y1="36" x2="36" y2="36" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
 </svg>

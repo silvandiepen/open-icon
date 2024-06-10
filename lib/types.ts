@@ -436,6 +436,8 @@ export const Icons = {
     
      AUDIO_WAVES: "audio-waves",
     
+     BINOCULARS: "binoculars",
+    
      BOARD: "board",
     
      BOARD01: "board01",
@@ -538,7 +540,23 @@ export const Icons = {
     
      CLOUD: "cloud",
     
+     CODE_BRACKETS_CIRCLED: "code-brackets-circled",
+    
+     CODE_BRACKETS: "code-brackets",
+    
+     CODE_CHEVRONS_COPY: "code-chevrons-copy",
+    
+     CODE_CHEVRONS_CIRCLED_COPY: "code-chevrons-circled-copy",
+    
+     CODE_CHEVRONS_CIRCLED: "code-chevrons-circled",
+    
+     CODE_CHEVRONS: "code-chevrons",
+    
      COINS: "coins",
+    
+     COMPASS2: "compass2",
+    
+     COMPASS: "compass",
     
      CUBE3D: "cube3d",
     
@@ -678,6 +696,10 @@ export const Icons = {
     
      PRINTER: "printer",
     
+     SEARCH_CIRCLED: "search-circled",
+    
+     SEARCH: "search",
+    
      SPEECH_BALLOON3: "speech-balloon3",
     
      SPEECH_BALLOON2: "speech-balloon2",
@@ -754,23 +776,21 @@ export const Icons = {
     
      ICON27: "icon27",
     
-     ICON41: "icon41",
-    
-     ICON50: "icon50",
-    
      AIRPLANE_ARRIVALS: "airplane-arrivals",
     
      AIRPLANE_DEPARTURES: "airplane-departures",
     
      AIRPLANE: "airplane",
     
-     AIRPORT_TRANSFER_COPY: "airport-transfer-copy",
+     AIRPORT_CONNECT_FLIGHTS: "airport-connect-flights",
+    
+     AIRPORT_TRANSFER2: "airport-transfer2",
     
      AIRPORT_TRANSFER: "airport-transfer",
     
      ANCHOR: "anchor",
     
-     BICYCLE_COPY: "bicycle-copy",
+     BICYCLE_SURFBOARD: "bicycle-surfboard",
     
      BICYCLE: "bicycle",
     
@@ -807,6 +827,8 @@ export const Icons = {
      GRAVESTONE2: "gravestone2",
     
      GRAVESTONE3: "gravestone3",
+    
+     GRAVESTONE: "gravestone",
     
      LUGGAGE_BELT: "luggage-belt",
     

@@ -220,6 +220,7 @@ import AlarmBell2 from "./alarm-bell2";
 import AlarmBell3 from "./alarm-bell3";
 import AlarmBell from "./alarm-bell";
 import AudioWaves from "./audio-waves";
+import Binoculars from "./binoculars";
 import Board from "./board";
 import Board01 from "./board01";
 import Board77 from "./board77";
@@ -271,7 +272,15 @@ import CloudRain from "./cloud-rain";
 import CloudSun from "./cloud-sun";
 import CloudThermometer from "./cloud-thermometer";
 import Cloud from "./cloud";
+import CodeBracketsCircled from "./code-brackets-circled";
+import CodeBrackets from "./code-brackets";
+import CodeChevronsCopy from "./code-chevrons-copy";
+import CodeChevronsCircledCopy from "./code-chevrons-circled-copy";
+import CodeChevronsCircled from "./code-chevrons-circled";
+import CodeChevrons from "./code-chevrons";
 import Coins from "./coins";
+import Compass2 from "./compass2";
+import Compass from "./compass";
 import Cube3d from "./cube3d";
 import Desktop from "./desktop";
 import EditFat from "./edit-fat";
@@ -341,6 +350,8 @@ import Note from "./note";
 import Politician2 from "./politician2";
 import Politician from "./politician";
 import Printer from "./printer";
+import SearchCircled from "./search-circled";
+import Search from "./search";
 import SpeechBalloon3 from "./speech-balloon3";
 import SpeechBalloon2 from "./speech-balloon2";
 import SpeechBalloonSquare2 from "./speech-balloon-square2";
@@ -379,15 +390,14 @@ import Vote from "./vote";
 import Wallet from "./wallet";
 import Website from "./website";
 import Icon27 from "./icon27";
-import Icon41 from "./icon41";
-import Icon50 from "./icon50";
 import AirplaneArrivals from "./airplane-arrivals";
 import AirplaneDepartures from "./airplane-departures";
 import Airplane from "./airplane";
-import AirportTransferCopy from "./airport-transfer-copy";
+import AirportConnectFlights from "./airport-connect-flights";
+import AirportTransfer2 from "./airport-transfer2";
 import AirportTransfer from "./airport-transfer";
 import Anchor from "./anchor";
-import BicycleCopy from "./bicycle-copy";
+import BicycleSurfboard from "./bicycle-surfboard";
 import Bicycle from "./bicycle";
 import BriefcaseCross from "./briefcase-cross";
 import Car from "./car";
@@ -406,6 +416,7 @@ import FireHose from "./fire-hose";
 import Fire from "./fire";
 import Gravestone2 from "./gravestone2";
 import Gravestone3 from "./gravestone3";
+import Gravestone from "./gravestone";
 import LuggageBelt from "./luggage-belt";
 import LuggageLocker from "./luggage-locker";
 import LuggageTrolley from "./luggage-trolley";
@@ -1086,6 +1097,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.AUDIO_WAVES:
             return AudioWaves;
     
+        case Icons.BINOCULARS:
+            return Binoculars;
+    
         case Icons.BOARD:
             return Board;
     
@@ -1239,8 +1253,32 @@ export const getIcon = (icon: Icons) => {
         case Icons.CLOUD:
             return Cloud;
     
+        case Icons.CODE_BRACKETS_CIRCLED:
+            return CodeBracketsCircled;
+    
+        case Icons.CODE_BRACKETS:
+            return CodeBrackets;
+    
+        case Icons.CODE_CHEVRONS_COPY:
+            return CodeChevronsCopy;
+    
+        case Icons.CODE_CHEVRONS_CIRCLED_COPY:
+            return CodeChevronsCircledCopy;
+    
+        case Icons.CODE_CHEVRONS_CIRCLED:
+            return CodeChevronsCircled;
+    
+        case Icons.CODE_CHEVRONS:
+            return CodeChevrons;
+    
         case Icons.COINS:
             return Coins;
+    
+        case Icons.COMPASS2:
+            return Compass2;
+    
+        case Icons.COMPASS:
+            return Compass;
     
         case Icons.CUBE3D:
             return Cube3d;
@@ -1449,6 +1487,12 @@ export const getIcon = (icon: Icons) => {
         case Icons.PRINTER:
             return Printer;
     
+        case Icons.SEARCH_CIRCLED:
+            return SearchCircled;
+    
+        case Icons.SEARCH:
+            return Search;
+    
         case Icons.SPEECH_BALLOON3:
             return SpeechBalloon3;
     
@@ -1563,12 +1607,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.ICON27:
             return Icon27;
     
-        case Icons.ICON41:
-            return Icon41;
-    
-        case Icons.ICON50:
-            return Icon50;
-    
         case Icons.AIRPLANE_ARRIVALS:
             return AirplaneArrivals;
     
@@ -1578,8 +1616,11 @@ export const getIcon = (icon: Icons) => {
         case Icons.AIRPLANE:
             return Airplane;
     
-        case Icons.AIRPORT_TRANSFER_COPY:
-            return AirportTransferCopy;
+        case Icons.AIRPORT_CONNECT_FLIGHTS:
+            return AirportConnectFlights;
+    
+        case Icons.AIRPORT_TRANSFER2:
+            return AirportTransfer2;
     
         case Icons.AIRPORT_TRANSFER:
             return AirportTransfer;
@@ -1587,8 +1628,8 @@ export const getIcon = (icon: Icons) => {
         case Icons.ANCHOR:
             return Anchor;
     
-        case Icons.BICYCLE_COPY:
-            return BicycleCopy;
+        case Icons.BICYCLE_SURFBOARD:
+            return BicycleSurfboard;
     
         case Icons.BICYCLE:
             return Bicycle;
@@ -1643,6 +1684,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.GRAVESTONE3:
             return Gravestone3;
+    
+        case Icons.GRAVESTONE:
+            return Gravestone;
     
         case Icons.LUGGAGE_BELT:
             return LuggageBelt;
@@ -1979,6 +2023,7 @@ export {
     AlarmBell3,
     AlarmBell,
     AudioWaves,
+    Binoculars,
     Board,
     Board01,
     Board77,
@@ -2030,7 +2075,15 @@ export {
     CloudSun,
     CloudThermometer,
     Cloud,
+    CodeBracketsCircled,
+    CodeBrackets,
+    CodeChevronsCopy,
+    CodeChevronsCircledCopy,
+    CodeChevronsCircled,
+    CodeChevrons,
     Coins,
+    Compass2,
+    Compass,
     Cube3d,
     Desktop,
     EditFat,
@@ -2100,6 +2153,8 @@ export {
     Politician2,
     Politician,
     Printer,
+    SearchCircled,
+    Search,
     SpeechBalloon3,
     SpeechBalloon2,
     SpeechBalloonSquare2,
@@ -2138,15 +2193,14 @@ export {
     Wallet,
     Website,
     Icon27,
-    Icon41,
-    Icon50,
     AirplaneArrivals,
     AirplaneDepartures,
     Airplane,
-    AirportTransferCopy,
+    AirportConnectFlights,
+    AirportTransfer2,
     AirportTransfer,
     Anchor,
-    BicycleCopy,
+    BicycleSurfboard,
     Bicycle,
     BriefcaseCross,
     Car,
@@ -2165,6 +2219,7 @@ export {
     Fire,
     Gravestone2,
     Gravestone3,
+    Gravestone,
     LuggageBelt,
     LuggageLocker,
     LuggageTrolley,

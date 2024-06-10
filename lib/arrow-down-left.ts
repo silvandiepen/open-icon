@@ -1,4 +1,4 @@
-const IconArrowDownLeft = `<svg id="ArrowDownLeft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,34.91s-3.18,15.91,0,19.09,19.09,0,19.09,0" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.82" y1="22.18" x2="18" y2="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+const IconArrowDownLeft = `<svg id="ArrowDownLeft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="49.82" y1="22.18" x2="18" y2="54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 34.91 18 54 37.09 54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 
 export default IconArrowDownLeft;
 export { IconArrowDownLeft }

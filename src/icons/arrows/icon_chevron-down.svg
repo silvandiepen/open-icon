@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-  <path d="M13.95,27.23s17.77,22.27,22.27,22.27,22.27-22.27,22.27-22.27" style="fill: none; stroke: #010101; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+  <polyline points="13.95 27.23 36.23 49.5 58.5 27.23" style="fill: none; stroke: #010101; stroke-linejoin: round; stroke-width: 4px;"/>
 </svg>
