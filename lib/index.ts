@@ -212,6 +212,7 @@ import TwoDotsHorizontal from "./two-dots-horizontal";
 import TwoDotsLines from "./two-dots-lines";
 import TwoDotsVertical from "./two-dots-vertical";
 import Yen from "./yen";
+import Icon177 from "./icon177";
 import AddFat from "./add-fat";
 import AddL from "./add-l";
 import AddM from "./add-m";
@@ -219,6 +220,7 @@ import AddS from "./add-s";
 import AlarmBell2 from "./alarm-bell2";
 import AlarmBell3 from "./alarm-bell3";
 import AlarmBell from "./alarm-bell";
+import AtSign from "./at-sign";
 import AudioWaves from "./audio-waves";
 import Binoculars from "./binoculars";
 import Board from "./board";
@@ -258,6 +260,7 @@ import Bulb from "./bulb";
 import Camera from "./camera";
 import CheckFat from "./check-fat";
 import CheckL from "./check-l";
+import CheckList from "./check-list";
 import CheckM from "./check-m";
 import CheckS from "./check-s";
 import Chip from "./chip";
@@ -279,6 +282,7 @@ import CodeChevronsCircledCopy from "./code-chevrons-circled-copy";
 import CodeChevronsCircled from "./code-chevrons-circled";
 import CodeChevrons from "./code-chevrons";
 import Coins from "./coins";
+import ColorPallette from "./color-pallette";
 import Compass2 from "./compass2";
 import Compass from "./compass";
 import Cube3d from "./cube3d";
@@ -318,6 +322,7 @@ import GraphUpRound from "./graph-up-round";
 import GraphUp from "./graph-up";
 import HeartBroken from "./heart-broken";
 import Heart from "./heart";
+import Highlight from "./highlight";
 import IdeaFactory from "./idea-factory";
 import Industry3 from "./industry3";
 import Laptop from "./laptop";
@@ -325,6 +330,7 @@ import Leaf2 from "./leaf2";
 import Leaf3 from "./leaf3";
 import Leaf from "./leaf";
 import Leafs from "./leafs";
+import Link from "./link";
 import MailOpen from "./mail-open";
 import Mail from "./mail";
 import Money from "./money";
@@ -370,12 +376,29 @@ import SubtractL from "./subtract-l";
 import SubtractM from "./subtract-m";
 import SubtractS from "./subtract-s";
 import Sun from "./sun";
+import Tables from "./tables";
 import TabletLandscape from "./tablet-landscape";
 import Tablet from "./tablet";
 import Television from "./television";
 import Temple2 from "./temple2";
 import Temple from "./temple";
 import Terminal from "./terminal";
+import TextAlignCenter from "./text-align-center";
+import TextAlignJustifyCentered from "./text-align-justify-centered";
+import TextAlignJustifyLeft from "./text-align-justify-left";
+import TextAlignJustifyRight from "./text-align-justify-right";
+import TextAlignJustify from "./text-align-justify";
+import TextAlignLeft from "./text-align-left";
+import TextAlignRightOrderDesc from "./text-align-right-order-desc";
+import TextAlignRight from "./text-align-right";
+import TextBold from "./text-bold";
+import TextIndent from "./text-indent";
+import TextItalic from "./text-italic";
+import TextLineThrough from "./text-line-through";
+import TextOrderAsc from "./text-order-asc";
+import TextOrderDesc from "./text-order-desc";
+import TextOutdent from "./text-outdent";
+import TextUnderline from "./text-underline";
 import ThermometerCold from "./thermometer-cold";
 import ThermometerHot from "./thermometer-hot";
 import Thermometer from "./thermometer";
@@ -1073,6 +1096,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.YEN:
             return Yen;
     
+        case Icons.ICON177:
+            return Icon177;
+    
         case Icons.ADD_FAT:
             return AddFat;
     
@@ -1093,6 +1119,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.ALARM_BELL:
             return AlarmBell;
+    
+        case Icons.AT_SIGN:
+            return AtSign;
     
         case Icons.AUDIO_WAVES:
             return AudioWaves;
@@ -1211,6 +1240,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.CHECK_L:
             return CheckL;
     
+        case Icons.CHECK_LIST:
+            return CheckList;
+    
         case Icons.CHECK_M:
             return CheckM;
     
@@ -1273,6 +1305,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.COINS:
             return Coins;
+    
+        case Icons.COLOR_PALLETTE:
+            return ColorPallette;
     
         case Icons.COMPASS2:
             return Compass2;
@@ -1391,6 +1426,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.HEART:
             return Heart;
     
+        case Icons.HIGHLIGHT:
+            return Highlight;
+    
         case Icons.IDEA_FACTORY:
             return IdeaFactory;
     
@@ -1411,6 +1449,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.LEAFS:
             return Leafs;
+    
+        case Icons.LINK:
+            return Link;
     
         case Icons.MAIL_OPEN:
             return MailOpen;
@@ -1547,6 +1588,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.SUN:
             return Sun;
     
+        case Icons.TABLES:
+            return Tables;
+    
         case Icons.TABLET_LANDSCAPE:
             return TabletLandscape;
     
@@ -1564,6 +1608,54 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.TERMINAL:
             return Terminal;
+    
+        case Icons.TEXT_ALIGN_CENTER:
+            return TextAlignCenter;
+    
+        case Icons.TEXT_ALIGN_JUSTIFY_CENTERED:
+            return TextAlignJustifyCentered;
+    
+        case Icons.TEXT_ALIGN_JUSTIFY_LEFT:
+            return TextAlignJustifyLeft;
+    
+        case Icons.TEXT_ALIGN_JUSTIFY_RIGHT:
+            return TextAlignJustifyRight;
+    
+        case Icons.TEXT_ALIGN_JUSTIFY:
+            return TextAlignJustify;
+    
+        case Icons.TEXT_ALIGN_LEFT:
+            return TextAlignLeft;
+    
+        case Icons.TEXT_ALIGN_RIGHT_ORDER_DESC:
+            return TextAlignRightOrderDesc;
+    
+        case Icons.TEXT_ALIGN_RIGHT:
+            return TextAlignRight;
+    
+        case Icons.TEXT_BOLD:
+            return TextBold;
+    
+        case Icons.TEXT_INDENT:
+            return TextIndent;
+    
+        case Icons.TEXT_ITALIC:
+            return TextItalic;
+    
+        case Icons.TEXT_LINE_THROUGH:
+            return TextLineThrough;
+    
+        case Icons.TEXT_ORDER_ASC:
+            return TextOrderAsc;
+    
+        case Icons.TEXT_ORDER_DESC:
+            return TextOrderDesc;
+    
+        case Icons.TEXT_OUTDENT:
+            return TextOutdent;
+    
+        case Icons.TEXT_UNDERLINE:
+            return TextUnderline;
     
         case Icons.THERMOMETER_COLD:
             return ThermometerCold;
@@ -2015,6 +2107,7 @@ export {
     TwoDotsLines,
     TwoDotsVertical,
     Yen,
+    Icon177,
     AddFat,
     AddL,
     AddM,
@@ -2022,6 +2115,7 @@ export {
     AlarmBell2,
     AlarmBell3,
     AlarmBell,
+    AtSign,
     AudioWaves,
     Binoculars,
     Board,
@@ -2061,6 +2155,7 @@ export {
     Camera,
     CheckFat,
     CheckL,
+    CheckList,
     CheckM,
     CheckS,
     Chip,
@@ -2082,6 +2177,7 @@ export {
     CodeChevronsCircled,
     CodeChevrons,
     Coins,
+    ColorPallette,
     Compass2,
     Compass,
     Cube3d,
@@ -2121,6 +2217,7 @@ export {
     GraphUp,
     HeartBroken,
     Heart,
+    Highlight,
     IdeaFactory,
     Industry3,
     Laptop,
@@ -2128,6 +2225,7 @@ export {
     Leaf3,
     Leaf,
     Leafs,
+    Link,
     MailOpen,
     Mail,
     Money,
@@ -2173,12 +2271,29 @@ export {
     SubtractM,
     SubtractS,
     Sun,
+    Tables,
     TabletLandscape,
     Tablet,
     Television,
     Temple2,
     Temple,
     Terminal,
+    TextAlignCenter,
+    TextAlignJustifyCentered,
+    TextAlignJustifyLeft,
+    TextAlignJustifyRight,
+    TextAlignJustify,
+    TextAlignLeft,
+    TextAlignRightOrderDesc,
+    TextAlignRight,
+    TextBold,
+    TextIndent,
+    TextItalic,
+    TextLineThrough,
+    TextOrderAsc,
+    TextOrderDesc,
+    TextOutdent,
+    TextUnderline,
     ThermometerCold,
     ThermometerHot,
     Thermometer,

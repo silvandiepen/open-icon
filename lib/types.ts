@@ -420,6 +420,8 @@ export const Icons = {
     
      YEN: "yen",
     
+     ICON177: "icon177",
+    
      ADD_FAT: "add-fat",
     
      ADD_L: "add-l",
@@ -433,6 +435,8 @@ export const Icons = {
      ALARM_BELL3: "alarm-bell3",
     
      ALARM_BELL: "alarm-bell",
+    
+     AT_SIGN: "at-sign",
     
      AUDIO_WAVES: "audio-waves",
     
@@ -512,6 +516,8 @@ export const Icons = {
     
      CHECK_L: "check-l",
     
+     CHECK_LIST: "check-list",
+    
      CHECK_M: "check-m",
     
      CHECK_S: "check-s",
@@ -553,6 +559,8 @@ export const Icons = {
      CODE_CHEVRONS: "code-chevrons",
     
      COINS: "coins",
+    
+     COLOR_PALLETTE: "color-pallette",
     
      COMPASS2: "compass2",
     
@@ -632,6 +640,8 @@ export const Icons = {
     
      HEART: "heart",
     
+     HIGHLIGHT: "highlight",
+    
      IDEA_FACTORY: "idea-factory",
     
      INDUSTRY3: "industry3",
@@ -645,6 +655,8 @@ export const Icons = {
      LEAF: "leaf",
     
      LEAFS: "leafs",
+    
+     LINK: "link",
     
      MAIL_OPEN: "mail-open",
     
@@ -736,6 +748,8 @@ export const Icons = {
     
      SUN: "sun",
     
+     TABLES: "tables",
+    
      TABLET_LANDSCAPE: "tablet-landscape",
     
      TABLET: "tablet",
@@ -747,6 +761,38 @@ export const Icons = {
      TEMPLE: "temple",
     
      TERMINAL: "terminal",
+    
+     TEXT_ALIGN_CENTER: "text-align-center",
+    
+     TEXT_ALIGN_JUSTIFY_CENTERED: "text-align-justify-centered",
+    
+     TEXT_ALIGN_JUSTIFY_LEFT: "text-align-justify-left",
+    
+     TEXT_ALIGN_JUSTIFY_RIGHT: "text-align-justify-right",
+    
+     TEXT_ALIGN_JUSTIFY: "text-align-justify",
+    
+     TEXT_ALIGN_LEFT: "text-align-left",
+    
+     TEXT_ALIGN_RIGHT_ORDER_DESC: "text-align-right-order-desc",
+    
+     TEXT_ALIGN_RIGHT: "text-align-right",
+    
+     TEXT_BOLD: "text-bold",
+    
+     TEXT_INDENT: "text-indent",
+    
+     TEXT_ITALIC: "text-italic",
+    
+     TEXT_LINE_THROUGH: "text-line-through",
+    
+     TEXT_ORDER_ASC: "text-order-asc",
+    
+     TEXT_ORDER_DESC: "text-order-desc",
+    
+     TEXT_OUTDENT: "text-outdent",
+    
+     TEXT_UNDERLINE: "text-underline",
     
      THERMOMETER_COLD: "thermometer-cold",
     

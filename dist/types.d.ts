@@ -209,6 +209,7 @@ export declare const Icons: {
     TWO_DOTS_LINES: string;
     TWO_DOTS_VERTICAL: string;
     YEN: string;
+    ICON177: string;
     ADD_FAT: string;
     ADD_L: string;
     ADD_M: string;
@@ -216,6 +217,7 @@ export declare const Icons: {
     ALARM_BELL2: string;
     ALARM_BELL3: string;
     ALARM_BELL: string;
+    AT_SIGN: string;
     AUDIO_WAVES: string;
     BINOCULARS: string;
     BOARD: string;
@@ -255,6 +257,7 @@ export declare const Icons: {
     CAMERA: string;
     CHECK_FAT: string;
     CHECK_L: string;
+    CHECK_LIST: string;
     CHECK_M: string;
     CHECK_S: string;
     CHIP: string;
@@ -276,6 +279,7 @@ export declare const Icons: {
     CODE_CHEVRONS_CIRCLED: string;
     CODE_CHEVRONS: string;
     COINS: string;
+    COLOR_PALLETTE: string;
     COMPASS2: string;
     COMPASS: string;
     CUBE3D: string;
@@ -315,6 +319,7 @@ export declare const Icons: {
     GRAPH_UP: string;
     HEART_BROKEN: string;
     HEART: string;
+    HIGHLIGHT: string;
     IDEA_FACTORY: string;
     INDUSTRY3: string;
     LAPTOP: string;
@@ -322,6 +327,7 @@ export declare const Icons: {
     LEAF3: string;
     LEAF: string;
     LEAFS: string;
+    LINK: string;
     MAIL_OPEN: string;
     MAIL: string;
     MONEY: string;
@@ -367,12 +373,29 @@ export declare const Icons: {
     SUBTRACT_M: string;
     SUBTRACT_S: string;
     SUN: string;
+    TABLES: string;
     TABLET_LANDSCAPE: string;
     TABLET: string;
     TELEVISION: string;
     TEMPLE2: string;
     TEMPLE: string;
     TERMINAL: string;
+    TEXT_ALIGN_CENTER: string;
+    TEXT_ALIGN_JUSTIFY_CENTERED: string;
+    TEXT_ALIGN_JUSTIFY_LEFT: string;
+    TEXT_ALIGN_JUSTIFY_RIGHT: string;
+    TEXT_ALIGN_JUSTIFY: string;
+    TEXT_ALIGN_LEFT: string;
+    TEXT_ALIGN_RIGHT_ORDER_DESC: string;
+    TEXT_ALIGN_RIGHT: string;
+    TEXT_BOLD: string;
+    TEXT_INDENT: string;
+    TEXT_ITALIC: string;
+    TEXT_LINE_THROUGH: string;
+    TEXT_ORDER_ASC: string;
+    TEXT_ORDER_DESC: string;
+    TEXT_OUTDENT: string;
+    TEXT_UNDERLINE: string;
     THERMOMETER_COLD: string;
     THERMOMETER_HOT: string;
     THERMOMETER: string;

@@ -211,6 +211,7 @@
     TWO_DOTS_LINES: "two-dots-lines",
     TWO_DOTS_VERTICAL: "two-dots-vertical",
     YEN: "yen",
+    ICON177: "icon177",
     ADD_FAT: "add-fat",
     ADD_L: "add-l",
     ADD_M: "add-m",
@@ -218,6 +219,7 @@
     ALARM_BELL2: "alarm-bell2",
     ALARM_BELL3: "alarm-bell3",
     ALARM_BELL: "alarm-bell",
+    AT_SIGN: "at-sign",
     AUDIO_WAVES: "audio-waves",
     BINOCULARS: "binoculars",
     BOARD: "board",
@@ -257,6 +259,7 @@
     CAMERA: "camera",
     CHECK_FAT: "check-fat",
     CHECK_L: "check-l",
+    CHECK_LIST: "check-list",
     CHECK_M: "check-m",
     CHECK_S: "check-s",
     CHIP: "chip",
@@ -278,6 +281,7 @@
     CODE_CHEVRONS_CIRCLED: "code-chevrons-circled",
     CODE_CHEVRONS: "code-chevrons",
     COINS: "coins",
+    COLOR_PALLETTE: "color-pallette",
     COMPASS2: "compass2",
     COMPASS: "compass",
     CUBE3D: "cube3d",
@@ -317,6 +321,7 @@
     GRAPH_UP: "graph-up",
     HEART_BROKEN: "heart-broken",
     HEART: "heart",
+    HIGHLIGHT: "highlight",
     IDEA_FACTORY: "idea-factory",
     INDUSTRY3: "industry3",
     LAPTOP: "laptop",
@@ -324,6 +329,7 @@
     LEAF3: "leaf3",
     LEAF: "leaf",
     LEAFS: "leafs",
+    LINK: "link",
     MAIL_OPEN: "mail-open",
     MAIL: "mail",
     MONEY: "money",
@@ -369,12 +375,29 @@
     SUBTRACT_M: "subtract-m",
     SUBTRACT_S: "subtract-s",
     SUN: "sun",
+    TABLES: "tables",
     TABLET_LANDSCAPE: "tablet-landscape",
     TABLET: "tablet",
     TELEVISION: "television",
     TEMPLE2: "temple2",
     TEMPLE: "temple",
     TERMINAL: "terminal",
+    TEXT_ALIGN_CENTER: "text-align-center",
+    TEXT_ALIGN_JUSTIFY_CENTERED: "text-align-justify-centered",
+    TEXT_ALIGN_JUSTIFY_LEFT: "text-align-justify-left",
+    TEXT_ALIGN_JUSTIFY_RIGHT: "text-align-justify-right",
+    TEXT_ALIGN_JUSTIFY: "text-align-justify",
+    TEXT_ALIGN_LEFT: "text-align-left",
+    TEXT_ALIGN_RIGHT_ORDER_DESC: "text-align-right-order-desc",
+    TEXT_ALIGN_RIGHT: "text-align-right",
+    TEXT_BOLD: "text-bold",
+    TEXT_INDENT: "text-indent",
+    TEXT_ITALIC: "text-italic",
+    TEXT_LINE_THROUGH: "text-line-through",
+    TEXT_ORDER_ASC: "text-order-asc",
+    TEXT_ORDER_DESC: "text-order-desc",
+    TEXT_OUTDENT: "text-outdent",
+    TEXT_UNDERLINE: "text-underline",
     THERMOMETER_COLD: "thermometer-cold",
     THERMOMETER_HOT: "thermometer-hot",
     THERMOMETER: "thermometer",
@@ -1280,6 +1303,10 @@
   var IconYen = `<svg id="Yen" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="36" x2="54" y2="36" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="45" x2="54" y2="45" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 13.5 36 40.5 54 13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="58.5" x2="36" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
   var yen_default = IconYen;
 
+  // lib/icon177.ts
+  var IconIcon177 = `<svg id="Icon177" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="54" x2="27" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="30" x2="18" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="36" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var icon177_default = IconIcon177;
+
   // lib/add-fat.ts
   var IconAddFat = `<svg id="AddFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="13.5" x2="36" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/><line x1="13.5" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/></svg>`;
   var add_fat_default = IconAddFat;
@@ -1307,6 +1334,10 @@
   // lib/alarm-bell.ts
   var IconAlarmBell = `<svg id="AlarmBell" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M45,49.5c0,4.97-4.03,9-9,9s-9-4.03-9-9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var alarm_bell_default = IconAlarmBell;
+
+  // lib/at-sign.ts
+  var IconAtSign = `<svg id="AtSign" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,36c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75c0-12.43-10.07-22.5-22.5-22.5s-22.5,10.07-22.5,22.5,10.07,22.5,22.5,22.5h9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var at_sign_default = IconAtSign;
 
   // lib/audio-waves.ts
   var IconAudioWaves = `<svg id="AudioWaves" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="9" y1="27" x2="9" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="22.5" x2="18" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="18" x2="27" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="31.5" x2="45" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="54" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="31.5" x2="63" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -1464,6 +1495,10 @@
   var IconCheckL = `<svg id="CheckL" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 23.14 34.71 58.5 63 9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var check_l_default = IconCheckL;
 
+  // lib/check-list.ts
+  var IconCheckList = `<svg id="CheckList" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="31.5" width="27" height="27" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="31.5" width="27" height="27" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M31.5,15.5v16h7c1.1,0,2,.9,2,2v7h16c1.1,0,2-.9,2-2V15.5c0-1.1-.9-2-2-2h-23c-1.1,0-2,.9-2,2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="21.01 42.24 26.2 49.59 33.99 37.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var check_list_default = IconCheckList;
+
   // lib/check-m.ts
   var IconCheckM = `<svg id="CheckM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 27 36 49.5 54 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var check_m_default = IconCheckM;
@@ -1547,6 +1582,10 @@
   // lib/coins.ts
   var IconCoins = `<svg id="Coins" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,13.5c-13.5,0-13.5,4.5-13.5,4.5v36s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5V18s0-4.5-13.5-4.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,31.5s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,22.5s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,40.5s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="9 22.5 9 31.5 9 40.5 9 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,18c-13.5,0-13.5,4.5-13.5,4.5v27s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5v-27s0-4.5-13.5-4.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,27s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,18s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,45s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,36s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="36 22.5 36 31.5 36 40.5 36 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,13.5c-13.5,0-13.5,4.5-13.5,4.5v36s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5V18s0-4.5-13.5-4.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var coins_default = IconCoins;
+
+  // lib/color-pallette.ts
+  var IconColorPallette = `<svg id="ColorPallette" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36c0,9.97-14.18,4.84-22.5,9-9,4.5,9,18-4.5,18-14.91,0-27-12.09-27-27s12.09-27,27-27,27,12.09,27,27Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M63,36c0,9.97-14.18,4.84-22.5,9-9,4.5,9,18-4.5,18-14.91,0-27-12.09-27-27s12.09-27,27-27,27,12.09,27,27Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="18" x2="36" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="22.5" y1="22.5" x2="22.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="22.5" y1="49.5" x2="22.5" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="49.5" y1="22.5" x2="49.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+  var color_pallette_default = IconColorPallette;
 
   // lib/compass2.ts
   var IconCompass2 = `<svg id="Compass2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="13.5" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,18c-12.43,0-22.5,10.07-22.5,22.5s10.07,22.5,22.5,22.5,22.5-10.07,22.5-22.5-10.07-22.5-22.5-22.5ZM38.65,43.15l-10.61,5.3,5.3-10.61,10.61-5.3-5.3,10.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="40.5" r="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="43.95 32.55 33.35 37.85 28.05 48.45 38.65 43.15 43.95 32.55" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -1704,6 +1743,10 @@
   var IconHeart = `<svg id="Heart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,58.5C-10.77,34.02,12.62-3.19,36,21.77c23.38-24.97,46.77,12.24,0,36.73Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,58.5C-10.77,34.02,12.62-3.19,36,21.77c23.38-24.97,46.77,12.24,0,36.73Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var heart_default = IconHeart;
 
+  // lib/highlight.ts
+  var IconHighlight = `<svg id="Highlight" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.95,37.77l-12.5,12.5c-1.93,1.93-1.42,5.22,1.04,6.41,5.06,2.45,13.97,4.04,24.19-6.17" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.95,37.77l-12.5,12.5c-1.93,1.93-1.42,5.22,1.04,6.41,5.06,2.45,13.97,4.04,24.19-6.17" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="27.34" y="25.86" width="13.5" height="27" transform="translate(-17.85 35.63) rotate(-45)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,31.41l-13.08,13.08c-1.56,1.56-4.09,1.56-5.66,0l-19.8-19.8c-1.56-1.56-1.56-4.09,0-5.66l13.08-13.08" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var highlight_default = IconHighlight;
+
   // lib/idea-factory.ts
   var IconIdeaFactory = `<svg id="IdeaFactory" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M33,39c0-6.63-5.37-12-12-12s-12,5.37-12,12c0,9,7.2,12,7.2,18v3.33c0,1.47,1.19,2.67,2.67,2.67h4.27c1.47,0,2.67-1.19,2.67-2.67v-3.33c0-6,7.2-9,7.2-18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="41.14 43.31 38.28 48.28 40.64 51.53 38.28 54.78 41.14 59.75 45.14 59.33 46.78 63 52.51 63 54.15 59.33 58.14 59.75 61.01 54.78 58.65 51.53 61.01 48.28 58.14 43.31 54.15 43.73 52.51 40.06 46.78 40.06 45.14 43.73 41.14 43.31" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="15" y1="57" x2="27" y2="57" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24,42c0,1.66-1.34,3-3,3s-3-1.34-3-3" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="21" y1="45" x2="21" y2="57" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M33,39c0-6.63-5.37-12-12-12s-12,5.37-12,12c0,9,7.2,12,7.2,18v3.33c0,1.47,1.19,2.67,2.67,2.67h4.27c1.47,0,2.67-1.19,2.67-2.67v-3.33c0-6,7.2-9,7.2-18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,31.5V13c0-2.21-1.79-4-4-4h-19c-2.21,0-4,1.79-4,4v5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="40.5 22.5 49.5 31.5 58.5 22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="41.14 43.31 38.28 48.28 40.64 51.53 38.28 54.78 41.14 59.75 45.14 59.33 46.78 63 52.51 63 54.15 59.33 58.14 59.75 61.01 54.78 58.65 51.53 61.01 48.28 58.14 43.31 54.15 43.73 52.51 40.06 46.78 40.06 45.14 43.73 41.14 43.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="51.53" r="1.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var idea_factory_default = IconIdeaFactory;
@@ -1731,6 +1774,10 @@
   // lib/leafs.ts
   var IconLeafs = `<svg id="Leafs" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M57.47,42.45c-7.9,7.9-23.84,4.77-23.84,4.77,0,0-3.13-15.94,4.77-23.84,7.9-7.9,23.84-4.77,23.84-4.77,0,0,3.13,15.94-4.77,23.84Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M25.58,33.07c6.69,3.36,8.06,14.15,8.06,14.15,0,0-9.48,5.35-16.16,1.99s-8.06-14.15-8.06-14.15c0,0,9.48-5.35,16.16-1.99Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M57.47,42.45c-7.9,7.9-23.84,4.77-23.84,4.77,0,0-3.13-15.94,4.77-23.84,7.9-7.9,23.84-4.77,23.84-4.77,0,0,3.13,15.94-4.77,23.84Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="62.24" y1="18.61" x2="33.63" y2="47.22" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M25.58,33.07c6.69,3.36,8.06,14.15,8.06,14.15,0,0-9.48,5.35-16.16,1.99s-8.06-14.15-8.06-14.15c0,0,9.48-5.35,16.16-1.99Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9.41" y1="35.06" x2="33.63" y2="47.22" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="33.63" y2="47.22" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var leafs_default = IconLeafs;
+
+  // lib/link.ts
+  var IconLink = `<svg id="Link" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M32.82,39.18c5.27,5.27,10.64,2.09,15.91-3.18,5.27-5.27,8.45-10.64,3.18-15.91-5.27-5.27-10.64-2.09-15.91,3.18-1.12,1.12-2.13,2.24-3,3.36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.18,32.82c-5.27-5.27-10.64-2.09-15.91,3.18s-8.45,10.64-3.18,15.91,10.64,2.09,15.91-3.18c1.12-1.12,2.13-2.24,3-3.36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var link_default = IconLink;
 
   // lib/mail-open.ts
   var IconMailOpen = `<svg id="MailOpen" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="18 39 18 18 54 18 54 39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="46.8 18 36 9 25.2 18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 24 9 31.5 36 54 63 31.5 54 24" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
@@ -1912,6 +1959,10 @@
   var IconSun = `<svg id="Sun" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="67.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="13.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="67.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="13.73" x2="20.09" y2="20.09" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="51.91" x2="58.27" y2="58.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="58.27" x2="20.09" y2="51.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="20.09" x2="58.27" y2="13.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var sun_default = IconSun;
 
+  // lib/tables.ts
+  var IconTables = `<svg id="Tables" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="45" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="27" x2="58.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="29.25" y1="27" x2="29.25" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="27" x2="42.75" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var tables_default = IconTables;
+
   // lib/tablet-landscape.ts
   var IconTabletLandscape = `<svg id="TabletLandscape" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var tablet_landscape_default = IconTabletLandscape;
@@ -1935,6 +1986,70 @@
   // lib/terminal.ts
   var IconTerminal = `<svg id="Terminal" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 18 24.75 24.75 18 31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="31.5" x2="40.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var terminal_default = IconTerminal;
+
+  // lib/text-align-center.ts
+  var IconTextAlignCenter = `<svg id="TextAlignCenter" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="54" x2="49.5" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="30" x2="27" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_center_default = IconTextAlignCenter;
+
+  // lib/text-align-justify-centered.ts
+  var IconTextAlignJustifyCentered = `<svg id="TextAlignJustifyCentered" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="45" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="30" x2="18" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_justify_centered_default = IconTextAlignJustifyCentered;
+
+  // lib/text-align-justify-left.ts
+  var IconTextAlignJustifyLeft = `<svg id="TextAlignJustifyLeft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="54" x2="36" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="30" x2="18" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_justify_left_default = IconTextAlignJustifyLeft;
+
+  // lib/text-align-justify-right.ts
+  var IconTextAlignJustifyRight = `<svg id="TextAlignJustifyRight" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="54" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="30" x2="18" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_justify_right_default = IconTextAlignJustifyRight;
+
+  // lib/text-align-justify.ts
+  var IconTextAlignJustify = `<svg id="TextAlignJustify" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="54" x2="54" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="30" x2="18" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_justify_default = IconTextAlignJustify;
+
+  // lib/text-align-left.ts
+  var IconTextAlignLeft = `<svg id="TextAlignLeft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="54" x2="45" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="30" x2="18" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_left_default = IconTextAlignLeft;
+
+  // lib/text-align-right-order-desc.ts
+  var IconTextAlignRightOrderDesc = `<svg id="TextAlignRightOrderDesc" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="54" x2="54" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="30" x2="27" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_right_order_desc_default = IconTextAlignRightOrderDesc;
+
+  // lib/text-align-right.ts
+  var IconTextAlignRight = `<svg id="TextAlignRight" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="54" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="30" x2="36" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="42" x2="54" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_align_right_default = IconTextAlignRight;
+
+  // lib/text-bold.ts
+  var IconTextBold = `<svg id="TextBold" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,36h18c4.97,0,9-4.03,9-9s-4.03-9-9-9h-18s0,36,0,36h18c4.97,0,9-4.03,9-9s-4.03-9-9-9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+  var text_bold_default = IconTextBold;
+
+  // lib/text-indent.ts
+  var IconTextIndent = `<svg id="TextIndent" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="13.5 31.5 13.5 40.5 19 36 13.5 31.5" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="17.46" x2="54" y2="17.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="53.46" x2="54" y2="53.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="29.46" x2="31.5" y2="29.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="41.46" x2="54" y2="41.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_indent_default = IconTextIndent;
+
+  // lib/text-italic.ts
+  var IconTextItalic = `<svg id="TextItalic" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="18" x2="49.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="40.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="18" x2="33.75" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_italic_default = IconTextItalic;
+
+  // lib/text-line-through.ts
+  var IconTextLineThrough = `<svg id="TextLineThrough" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M25.14,34.14c-1.63-1.63-2.64-3.88-2.64-6.36s1.01-4.74,2.64-6.36,3.88-2.64,6.36-2.64h9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M46.86,34.14c1.63,1.63,2.64,3.88,2.64,6.36s-1.01,4.74-2.64,6.36-3.88,2.64-6.36,2.64h-9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="34.14" x2="58.5" y2="34.14" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_line_through_default = IconTextLineThrough;
+
+  // lib/text-order-asc.ts
+  var IconTextOrderAsc = `<svg id="TextOrderAsc" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="13.5" x2="18" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="13.5 54 18 58.5 22.5 54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="18" x2="49.5" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="54" x2="36" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="30" x2="31.5" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="42" x2="40.5" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_order_asc_default = IconTextOrderAsc;
+
+  // lib/text-order-desc.ts
+  var IconTextOrderDesc = `<svg id="TextOrderDesc" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="58.5" x2="18" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="22.5 18 18 13.5 13.5 18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="54" x2="49.5" y2="54" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="18" x2="36" y2="18" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="42" x2="31.5" y2="42" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="30" x2="40.5" y2="30" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_order_desc_default = IconTextOrderDesc;
+
+  // lib/text-outdent.ts
+  var IconTextOutdent = `<svg id="TextOutdent" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="19 40.5 19 31.5 13.5 36 19 40.5" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="17.46" x2="54" y2="17.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="53.46" x2="54" y2="53.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="29.46" x2="31.5" y2="29.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="41.46" x2="54" y2="41.46" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_outdent_default = IconTextOutdent;
+
+  // lib/text-underline.ts
+  var IconTextUnderline = `<svg id="TextUnderline" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,18v13.5c0,7.46-6.04,13.5-13.5,13.5s-13.5-6.04-13.5-13.5v-13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="54" x2="49.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var text_underline_default = IconTextUnderline;
 
   // lib/thermometer-cold.ts
   var IconThermometerCold = `<svg id="ThermometerCold" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="51.75" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="40.5" x2="36" y2="47.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2611,6 +2726,8 @@
         return two_dots_vertical_default;
       case Icons.YEN:
         return yen_default;
+      case Icons.ICON177:
+        return icon177_default;
       case Icons.ADD_FAT:
         return add_fat_default;
       case Icons.ADD_L:
@@ -2625,6 +2742,8 @@
         return alarm_bell3_default;
       case Icons.ALARM_BELL:
         return alarm_bell_default;
+      case Icons.AT_SIGN:
+        return at_sign_default;
       case Icons.AUDIO_WAVES:
         return audio_waves_default;
       case Icons.BINOCULARS:
@@ -2703,6 +2822,8 @@
         return check_fat_default;
       case Icons.CHECK_L:
         return check_l_default;
+      case Icons.CHECK_LIST:
+        return check_list_default;
       case Icons.CHECK_M:
         return check_m_default;
       case Icons.CHECK_S:
@@ -2745,6 +2866,8 @@
         return code_chevrons_default;
       case Icons.COINS:
         return coins_default;
+      case Icons.COLOR_PALLETTE:
+        return color_pallette_default;
       case Icons.COMPASS2:
         return compass2_default;
       case Icons.COMPASS:
@@ -2823,6 +2946,8 @@
         return heart_broken_default;
       case Icons.HEART:
         return heart_default;
+      case Icons.HIGHLIGHT:
+        return highlight_default;
       case Icons.IDEA_FACTORY:
         return idea_factory_default;
       case Icons.INDUSTRY3:
@@ -2837,6 +2962,8 @@
         return leaf_default;
       case Icons.LEAFS:
         return leafs_default;
+      case Icons.LINK:
+        return link_default;
       case Icons.MAIL_OPEN:
         return mail_open_default;
       case Icons.MAIL:
@@ -2927,6 +3054,8 @@
         return subtract_s_default;
       case Icons.SUN:
         return sun_default;
+      case Icons.TABLES:
+        return tables_default;
       case Icons.TABLET_LANDSCAPE:
         return tablet_landscape_default;
       case Icons.TABLET:
@@ -2939,6 +3068,38 @@
         return temple_default;
       case Icons.TERMINAL:
         return terminal_default;
+      case Icons.TEXT_ALIGN_CENTER:
+        return text_align_center_default;
+      case Icons.TEXT_ALIGN_JUSTIFY_CENTERED:
+        return text_align_justify_centered_default;
+      case Icons.TEXT_ALIGN_JUSTIFY_LEFT:
+        return text_align_justify_left_default;
+      case Icons.TEXT_ALIGN_JUSTIFY_RIGHT:
+        return text_align_justify_right_default;
+      case Icons.TEXT_ALIGN_JUSTIFY:
+        return text_align_justify_default;
+      case Icons.TEXT_ALIGN_LEFT:
+        return text_align_left_default;
+      case Icons.TEXT_ALIGN_RIGHT_ORDER_DESC:
+        return text_align_right_order_desc_default;
+      case Icons.TEXT_ALIGN_RIGHT:
+        return text_align_right_default;
+      case Icons.TEXT_BOLD:
+        return text_bold_default;
+      case Icons.TEXT_INDENT:
+        return text_indent_default;
+      case Icons.TEXT_ITALIC:
+        return text_italic_default;
+      case Icons.TEXT_LINE_THROUGH:
+        return text_line_through_default;
+      case Icons.TEXT_ORDER_ASC:
+        return text_order_asc_default;
+      case Icons.TEXT_ORDER_DESC:
+        return text_order_desc_default;
+      case Icons.TEXT_OUTDENT:
+        return text_outdent_default;
+      case Icons.TEXT_UNDERLINE:
+        return text_underline_default;
       case Icons.THERMOMETER_COLD:
         return thermometer_cold_default;
       case Icons.THERMOMETER_HOT:
