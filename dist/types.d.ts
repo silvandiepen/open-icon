@@ -147,6 +147,8 @@ export declare const Icons: {
     COFFEE_MACHINE: string;
     COFFEE_BEANS: string;
     COGNAC_GLASS: string;
+    COLOR_RGB: string;
+    COLOR_SWATCHES: string;
     ESPRESS_MACHINE2: string;
     ESPRESSO_MACHINE_E61: string;
     ESPRESSO_MACHINE: string;
@@ -198,6 +200,9 @@ export declare const Icons: {
     EURO: string;
     PERCENTAGE: string;
     PROMILLE: string;
+    SYMBOL_FEMALE: string;
+    SYMBOL_MALE: string;
+    SYMBOL_UNISEX: string;
     THREE_DOTS_DIAGONAL_MAJOR: string;
     THREE_DOTS_DIAGONAL_MINOR: string;
     THREE_DOTS_HORIZONTAL: string;
@@ -210,6 +215,8 @@ export declare const Icons: {
     TWO_DOTS_VERTICAL: string;
     YEN: string;
     ICON177: string;
+    ACCESSILBITY_PERSON_CICLED: string;
+    ACCESSILBITY_PERSON: string;
     ADD_FAT: string;
     ADD_L: string;
     ADD_M: string;
@@ -253,6 +260,7 @@ export declare const Icons: {
     BOARD_SPLIT_T_RIGHT: string;
     BOARD_SPLIT_T_UP: string;
     BOARD_SUBTRACT2: string;
+    BOY: string;
     BULB: string;
     CAMERA: string;
     CHECK_FAT: string;
@@ -292,6 +300,7 @@ export declare const Icons: {
     FACTORY_ARM: string;
     FACTORY_BELT: string;
     FACTORY: string;
+    FEMALE_SIMPLIFIED: string;
     FILE_ADD267: string;
     FILE_ADD269: string;
     FILE_ADD: string;
@@ -315,6 +324,7 @@ export declare const Icons: {
     FOLDER_SUBTRACT2: string;
     FOLDER_SUBTRACT: string;
     FOLDER: string;
+    GIRL: string;
     GRAPH_UP_ROUND: string;
     GRAPH_UP: string;
     HEART_BROKEN: string;
@@ -330,6 +340,7 @@ export declare const Icons: {
     LINK: string;
     MAIL_OPEN: string;
     MAIL: string;
+    MALE_SIMPLIFIED: string;
     MONEY: string;
     MONEYBAG: string;
     MOON: string;
@@ -404,11 +415,18 @@ export declare const Icons: {
     TREE: string;
     TREES2: string;
     TREES: string;
+    USER_ADD: string;
+    USER_DELETE: string;
+    USER_GROUP: string;
+    USER: string;
+    USERS: string;
     VIDEO_CAMERA: string;
     VIDEOS: string;
     VOTE: string;
     WALLET: string;
     WEBSITE: string;
+    WHEELCHAIR_ACTION: string;
+    WHEELCHAIR: string;
     ICON27: string;
     AIRPLANE_ARRIVALS: string;
     AIRPLANE_DEPARTURES: string;

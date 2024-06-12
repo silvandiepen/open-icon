@@ -30,9 +30,7 @@
       "fill: var(--icon-fill, {{default.iconFill}}); opacity: var(--icon-fill-opacity, {{default.iconFillOpacity}});"
     ],
     [
-      ["stroke:red;",
-      "stroke: red;",
-      "fill:none;stroke:red;"],
+      ["stroke:red;", "stroke: red;", "fill:none;stroke:red;"],
       "stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor));"
     ],
     ["fill:red;", "fill: var(--icon-fill, {{default.iconFill}});"],
@@ -80,5 +78,16 @@
     "iconStrokeWidth": "5",
     "iconStrokeLinecap": "round",
     "iconStrokeLinejoin": "round"
+  },
+  "alias": {
+    "search-m": ["search"],
+    "add-m": ["add", "plus"],
+    "subtract-m": ["minus", "min", "subtract"],
+    "multiply-m": ["multiply", "times", "x", "close"],
+    "edit-m": ["edit"],
+    "visible-m": ["visible", "eye", "show"],
+    "invisible-m": ["invisible", "eye-slash", "hide"],
+    "heart-m": ["heart", "love"],
+    "heart-broken-m": ["heart-broken"]
   }
 }

@@ -136,48 +136,6 @@ import ChevronDown from "./chevron-down";
 import ChevronLeft from "./chevron-left";
 import ChevronRight from "./chevron-right";
 import ChevronUp from "./chevron-up";
-import AnimalStep from "./animal-step";
-import ArtworkFrame from "./artwork-frame";
-import Barbecue from "./barbecue";
-import BathroomEssentials from "./bathroom-essentials";
-import Blender from "./blender";
-import Bookcase from "./bookcase";
-import BreadSlice from "./bread-slice";
-import CleaningBucket from "./cleaning-bucket";
-import CleaningSpray from "./cleaning-spray";
-import Closet from "./closet";
-import CoffeeCup from "./coffee-cup";
-import CoffeeMachine from "./coffee-machine";
-import CoffeeBeans from "./coffee-beans";
-import CognacGlass from "./cognac-glass";
-import EspressMachine2 from "./espress-machine2";
-import EspressoMachineE61 from "./espresso-machine-e61";
-import EspressoMachine from "./espresso-machine";
-import EspressoPistol from "./espresso-pistol";
-import Fridge from "./fridge";
-import FurnitureBed from "./furniture-bed";
-import FurnitureBedsideTable from "./furniture-bedside-table";
-import FurnitureChair from "./furniture-chair";
-import FurnitureCouch from "./furniture-couch";
-import FurnitureDesk from "./furniture-desk";
-import FurnitureDressoir from "./furniture-dressoir";
-import Hairdryer from "./hairdryer";
-import Hamburger from "./hamburger";
-import Iron from "./iron";
-import KitchenCutlery from "./kitchen-cutlery";
-import KitchenUtensils from "./kitchen-utensils";
-import LiquidSoap2 from "./liquid-soap2";
-import LiquidSoap from "./liquid-soap";
-import Microwave from "./microwave";
-import Oven from "./oven";
-import Perculator from "./perculator";
-import Plant from "./plant";
-import RoomShade from "./room-shade";
-import Stove from "./stove";
-import Turtle from "./turtle";
-import WashingMachine from "./washing-machine";
-import Watercooker from "./watercooker";
-import WineGlass from "./wine-glass";
 import Icon25 from "./icon25";
 import Dice1 from "./dice1";
 import Dice2 from "./dice2";
@@ -201,6 +159,9 @@ import Dollar from "./dollar";
 import Euro from "./euro";
 import Percentage from "./percentage";
 import Promille from "./promille";
+import SymbolFemale from "./symbol-female";
+import SymbolMale from "./symbol-male";
+import SymbolUnisex from "./symbol-unisex";
 import ThreeDotsDiagonalMajor from "./three-dots-diagonal-major";
 import ThreeDotsDiagonalMinor from "./three-dots-diagonal-minor";
 import ThreeDotsHorizontal from "./three-dots-horizontal";
@@ -212,26 +173,117 @@ import TwoDotsHorizontal from "./two-dots-horizontal";
 import TwoDotsLines from "./two-dots-lines";
 import TwoDotsVertical from "./two-dots-vertical";
 import Yen from "./yen";
-import Icon177 from "./icon177";
+import AlarmBell2 from "./alarm-bell2";
+import AlarmBell3 from "./alarm-bell3";
+import AlarmBell from "./alarm-bell";
+import AnimalStep from "./animal-step";
+import ArtworkFrame from "./artwork-frame";
+import AudioWaves from "./audio-waves";
+import Barbecue from "./barbecue";
+import BathroomEssentials from "./bathroom-essentials";
+import Binoculars from "./binoculars";
+import Blender from "./blender";
+import Bookcase from "./bookcase";
+import BreadSlice from "./bread-slice";
+import Bulb from "./bulb";
+import Camera from "./camera";
+import Chip from "./chip";
+import CleaningBucket from "./cleaning-bucket";
+import CleaningSpray from "./cleaning-spray";
+import Clipboard from "./clipboard";
+import Closet from "./closet";
+import CoffeeCup from "./coffee-cup";
+import CoffeeMachine from "./coffee-machine";
+import CoffeeBeans from "./coffee-beans";
+import CognacGlass from "./cognac-glass";
+import Coins from "./coins";
+import ColorPallette from "./color-pallette";
+import ColorRgb from "./color-rgb";
+import ColorSwatches from "./color-swatches";
+import Compass2 from "./compass2";
+import Compass from "./compass";
+import Cube3d from "./cube3d";
+import Desktop from "./desktop";
+import Education from "./education";
+import EspressMachine2 from "./espress-machine2";
+import EspressoMachineE61 from "./espresso-machine-e61";
+import EspressoMachine from "./espresso-machine";
+import EspressoPistol from "./espresso-pistol";
+import FactoryArm from "./factory-arm";
+import FactoryBelt from "./factory-belt";
+import Factory from "./factory";
+import Filmroll from "./filmroll";
+import Fingerprint from "./fingerprint";
+import Fridge from "./fridge";
+import FurnitureBed from "./furniture-bed";
+import FurnitureBedsideTable from "./furniture-bedside-table";
+import FurnitureChair from "./furniture-chair";
+import FurnitureCouch from "./furniture-couch";
+import FurnitureDesk from "./furniture-desk";
+import FurnitureDressoir from "./furniture-dressoir";
+import Gamepad from "./gamepad";
+import GraphUpRound from "./graph-up-round";
+import GraphUp from "./graph-up";
+import Hairdryer from "./hairdryer";
+import Hamburger from "./hamburger";
+import Highlight from "./highlight";
+import IdeaFactory from "./idea-factory";
+import Industry3 from "./industry3";
+import Iron from "./iron";
+import KitchenCutlery from "./kitchen-cutlery";
+import KitchenUtensils from "./kitchen-utensils";
+import Laptop from "./laptop";
+import Leaf2 from "./leaf2";
+import Leaf3 from "./leaf3";
+import Leaf from "./leaf";
+import Leafs from "./leafs";
+import LiquidSoap2 from "./liquid-soap2";
+import LiquidSoap from "./liquid-soap";
+import MailOpen from "./mail-open";
+import Mail from "./mail";
+import Microwave from "./microwave";
+import Money from "./money";
+import Moneybag from "./moneybag";
+import MusicNoteSingle from "./music-note-single";
+import MusicNote from "./music-note";
+import Oven from "./oven";
+import Paperplane from "./paperplane";
+import Perculator from "./perculator";
+import Plant from "./plant";
+import Politician2 from "./politician2";
+import Politician from "./politician";
+import Printer from "./printer";
+import Reels from "./reels";
+import RoomShade from "./room-shade";
+import Stove from "./stove";
+import TabletLandscape from "./tablet-landscape";
+import Tablet from "./tablet";
+import Television from "./television";
+import Temple2 from "./temple2";
+import Temple from "./temple";
+import Terminal from "./terminal";
+import Tree2 from "./tree2";
+import Tree3 from "./tree3";
+import Tree from "./tree";
+import Trees2 from "./trees2";
+import Trees from "./trees";
+import Turtle from "./turtle";
+import VideoCamera from "./video-camera";
+import Videos from "./videos";
+import Vote from "./vote";
+import Wallet from "./wallet";
+import WashingMachine from "./washing-machine";
+import Watercooker from "./watercooker";
+import Website from "./website";
+import WineGlass from "./wine-glass";
+import AccessibilityPersonCicled from "./accessibility-person-cicled";
+import AccessibilityPerson from "./accessibility-person";
 import AddFat from "./add-fat";
 import AddL from "./add-l";
 import AddM from "./add-m";
 import AddS from "./add-s";
-import AlarmBell2 from "./alarm-bell2";
-import AlarmBell3 from "./alarm-bell3";
-import AlarmBell from "./alarm-bell";
 import AtSign from "./at-sign";
-import AudioWaves from "./audio-waves";
-import Binoculars from "./binoculars";
-import Board from "./board";
-import Board01 from "./board01";
-import Board77 from "./board77";
 import BoardAdd2 from "./board-add2";
-import BoardAdd from "./board-add";
-import BoardCheck2 from "./board-check2";
-import BoardCheck from "./board-check";
-import BoardEdit2 from "./board-edit2";
-import BoardEdit from "./board-edit";
 import BoardMulti2Horizontal from "./board-multi2-horizontal";
 import BoardMulti2Vertical from "./board-multi2-vertical";
 import BoardMultiTDown from "./board-multi-t-down";
@@ -240,7 +292,6 @@ import BoardMultiTRight from "./board-multi-t-right";
 import BoardMultiTUp from "./board-multi-t-up";
 import BoardMulti from "./board-multi";
 import BoardMultiply2 from "./board-multiply2";
-import BoardMultiply from "./board-multiply";
 import BoardSplit13Horizontal from "./board-split13-horizontal";
 import BoardSplit13Vertical from "./board-split13-vertical";
 import BoardSplit2Horizontal from "./board-split2-horizontal";
@@ -256,133 +307,185 @@ import BoardSplitTLeft from "./board-split-t-left";
 import BoardSplitTRight from "./board-split-t-right";
 import BoardSplitTUp from "./board-split-t-up";
 import BoardSubtract2 from "./board-subtract2";
-import Bulb from "./bulb";
-import Camera from "./camera";
+import Board from "./board";
+import Boy from "./boy";
+import BrokenHeartF from "./broken-heart-f";
+import BrokenHeartL from "./broken-heart-l";
+import BrokenHeartM from "./broken-heart-m";
+import ButtonAdd from "./button-add";
+import ButtonBrokenHeart2 from "./button-broken-heart2";
+import ButtonBrokenHeart from "./button-broken-heart";
+import ButtonCheck2 from "./button-check2";
+import ButtonCheck from "./button-check";
+import ButtonEdit2 from "./button-edit2";
+import ButtonEdit from "./button-edit";
+import ButtonHeart2 from "./button-heart2";
+import ButtonHeart from "./button-heart";
+import ButtonInvisible2 from "./button-invisible2";
+import ButtonInvisible from "./button-invisible";
+import ButtonMultiply from "./button-multiply";
+import ButtonSearch2 from "./button-search2";
+import ButtonSearch from "./button-search";
+import ButtonStar2 from "./button-star2";
+import ButtonStar from "./button-star";
+import ButtonSubtract from "./button-subtract";
+import ButtonVisible2 from "./button-visible2";
+import ButtonVisible from "./button-visible";
+import Button from "./button";
 import CheckFat from "./check-fat";
 import CheckL from "./check-l";
 import CheckList from "./check-list";
 import CheckM from "./check-m";
 import CheckS from "./check-s";
-import Chip from "./chip";
+import CircleInvisible from "./circle-invisible";
 import CircleSubtract from "./circle-subtract";
 import CircledAdd from "./circled-add";
+import CircledBrokenHeart from "./circled-broken-heart";
 import CircledCheck from "./circled-check";
 import CircledEdit from "./circled-edit";
+import CircledHeart from "./circled-heart";
 import CircledMultiply from "./circled-multiply";
+import CircledSearch from "./circled-search";
+import CircledStar from "./circled-star";
+import CircledVisible from "./circled-visible";
 import Circled from "./circled";
-import Clipboard from "./clipboard";
 import CloudRain from "./cloud-rain";
 import CloudSun from "./cloud-sun";
 import CloudThermometer from "./cloud-thermometer";
 import Cloud from "./cloud";
 import CodeBracketsCircled from "./code-brackets-circled";
 import CodeBrackets from "./code-brackets";
-import CodeChevronsCopy from "./code-chevrons-copy";
-import CodeChevronsCircledCopy from "./code-chevrons-circled-copy";
 import CodeChevronsCircled from "./code-chevrons-circled";
+import CodeChevronsOpenCircled from "./code-chevrons-open-circled";
+import CodeChevronsOpen from "./code-chevrons-open";
 import CodeChevrons from "./code-chevrons";
-import Coins from "./coins";
-import ColorPallette from "./color-pallette";
-import Compass2 from "./compass2";
-import Compass from "./compass";
-import Cube3d from "./cube3d";
-import Desktop from "./desktop";
 import EditFat from "./edit-fat";
 import EditL from "./edit-l";
 import EditM from "./edit-m";
 import EditS from "./edit-s";
-import Education from "./education";
-import FactoryArm from "./factory-arm";
-import FactoryBelt from "./factory-belt";
-import Factory from "./factory";
+import FemaleSimplified from "./female-simplified";
 import FileAdd267 from "./file-add267";
 import FileAdd269 from "./file-add269";
 import FileAdd from "./file-add";
+import FileBrokenHeart2 from "./file-broken-heart2";
+import FileBrokenHeart from "./file-broken-heart";
 import FileCheck2 from "./file-check2";
 import FileCheck from "./file-check";
 import FileEdit2 from "./file-edit2";
 import FileEdit from "./file-edit";
+import FileHeart2 from "./file-heart2";
+import FileHeart from "./file-heart";
+import FileInvisible2 from "./file-invisible2";
+import FileInvisible from "./file-invisible";
 import FileMultiply from "./file-multiply";
+import FileSearch2 from "./file-search2";
+import FileSearch from "./file-search";
+import FileStar2 from "./file-star2";
+import FileStar from "./file-star";
 import FileSubtract2 from "./file-subtract2";
 import FileSubtract from "./file-subtract";
+import FileVisible2 from "./file-visible2";
+import FileVisible from "./file-visible";
 import File from "./file";
-import Fingerprint from "./fingerprint";
 import FolderAdd2 from "./folder-add2";
 import FolderAdd from "./folder-add";
+import FolderBrokenHeart2 from "./folder-broken-heart2";
+import FolderBrokenHeart from "./folder-broken-heart";
 import FolderCheck2 from "./folder-check2";
 import FolderCheck from "./folder-check";
 import FolderEdit2 from "./folder-edit2";
 import FolderEdit from "./folder-edit";
+import FolderHeart2 from "./folder-heart2";
+import FolderHeart from "./folder-heart";
+import FolderInvisible2 from "./folder-invisible2";
+import FolderInvisible from "./folder-invisible";
 import FolderMultiply2 from "./folder-multiply2";
 import FolderMultiply from "./folder-multiply";
+import FolderSearch2 from "./folder-search2";
+import FolderSearch from "./folder-search";
+import FolderStar2 from "./folder-star2";
+import FolderStar from "./folder-star";
 import FolderSubtract2 from "./folder-subtract2";
 import FolderSubtract from "./folder-subtract";
+import FolderVisible2 from "./folder-visible2";
+import FolderVisible from "./folder-visible";
 import Folder from "./folder";
-import GraphUpRound from "./graph-up-round";
-import GraphUp from "./graph-up";
-import HeartBroken from "./heart-broken";
-import Heart from "./heart";
-import Highlight from "./highlight";
-import IdeaFactory from "./idea-factory";
-import Industry3 from "./industry3";
-import Laptop from "./laptop";
-import Leaf2 from "./leaf2";
-import Leaf3 from "./leaf3";
-import Leaf from "./leaf";
-import Leafs from "./leafs";
+import Girl from "./girl";
+import HeartBrokenSmall from "./heart-broken-small";
+import HeartFat from "./heart-fat";
+import HeartL from "./heart-l";
+import HeartM from "./heart-m";
+import HeartSmall from "./heart-small";
+import InvisibleFat from "./invisible-fat";
+import InvisibleL from "./invisible-l";
+import InvisibleM from "./invisible-m";
+import InvisibleS from "./invisible-s";
 import Link from "./link";
-import MailOpen from "./mail-open";
-import Mail from "./mail";
-import Money from "./money";
-import Moneybag from "./moneybag";
+import MaleSimplified from "./male-simplified";
 import Moon from "./moon";
 import MultiplyFat from "./multiply-fat";
 import MultiplyL from "./multiply-l";
 import MultiplyM from "./multiply-m";
 import MultiplyS from "./multiply-s";
-import MusicNoteSingle from "./music-note-single";
-import MusicNote from "./music-note";
-import NoteCopy2 from "./note-copy2";
+import NoteAdd2 from "./note-add2";
 import NoteAdd from "./note-add";
+import NoteBrokenHeart2 from "./note-broken-heart2";
+import NoteBrokenHeart from "./note-broken-heart";
 import NoteCheck2 from "./note-check2";
 import NoteCheck from "./note-check";
 import NoteEdit2 from "./note-edit2";
 import NoteEdit from "./note-edit";
+import NoteHeart2 from "./note-heart2";
+import NoteHeart from "./note-heart";
+import NoteInvisible2 from "./note-invisible2";
+import NoteInvisible from "./note-invisible";
 import NoteMultiply2 from "./note-multiply2";
 import NoteMultiply from "./note-multiply";
+import NoteSearch2 from "./note-search2";
+import NoteSearch from "./note-search";
+import NoteStar2 from "./note-star2";
+import NoteStar from "./note-star";
 import NoteSubtract2 from "./note-subtract2";
 import NoteSubtract from "./note-subtract";
+import NoteVisible2 from "./note-visible2";
+import NoteVisible from "./note-visible";
 import Note from "./note";
-import Politician2 from "./politician2";
-import Politician from "./politician";
-import Printer from "./printer";
-import SearchCircled from "./search-circled";
-import Search from "./search";
-import SpeechBalloon3 from "./speech-balloon3";
+import Paragraph from "./paragraph";
+import SearchFat from "./search-fat";
+import SearchL from "./search-l";
+import SearchM from "./search-m";
+import SearchSmall from "./search-small";
+import Settings2 from "./settings2";
+import Settings3 from "./settings3";
+import Settings4 from "./settings4";
+import Settings from "./settings";
 import SpeechBalloon2 from "./speech-balloon2";
 import SpeechBalloonSquare2 from "./speech-balloon-square2";
 import SpeechBalloonSquare from "./speech-balloon-square";
 import SpeechBalloon from "./speech-balloon";
 import SpeechBalloons from "./speech-balloons";
 import SquaredAdd from "./squared-add";
+import SquaredBrokenHeart from "./squared-broken-heart";
 import SquaredCheck from "./squared-check";
 import SquaredEdit from "./squared-edit";
+import SquaredHeart from "./squared-heart";
+import SquaredInvisible from "./squared-invisible";
 import SquaredMultiply from "./squared-multiply";
+import SquaredSearch from "./squared-search";
+import SquaredStar from "./squared-star";
 import SquaredSubtract from "./squared-subtract";
+import SquaredVisible from "./squared-visible";
 import Squared from "./squared";
-import Star from "./star";
+import StarFat from "./star-fat";
+import StarL from "./star-l";
+import StarM from "./star-m";
+import StarSmall from "./star-small";
 import SubtractFat from "./subtract-fat";
 import SubtractL from "./subtract-l";
 import SubtractM from "./subtract-m";
 import SubtractS from "./subtract-s";
 import Sun from "./sun";
 import Tables from "./tables";
-import TabletLandscape from "./tablet-landscape";
-import Tablet from "./tablet";
-import Television from "./television";
-import Temple2 from "./temple2";
-import Temple from "./temple";
-import Terminal from "./terminal";
 import TextAlignCenter from "./text-align-center";
 import TextAlignJustifyCentered from "./text-align-justify-centered";
 import TextAlignJustifyLeft from "./text-align-justify-left";
@@ -392,26 +495,32 @@ import TextAlignLeft from "./text-align-left";
 import TextAlignRightOrderDesc from "./text-align-right-order-desc";
 import TextAlignRight from "./text-align-right";
 import TextBold from "./text-bold";
+import TextDetailList from "./text-detail-list";
 import TextIndent from "./text-indent";
 import TextItalic from "./text-italic";
 import TextLineThrough from "./text-line-through";
-import TextOrderAsc from "./text-order-asc";
+import TextOrderAsc123 from "./text-order-asc123";
+import TextOrderAsc127 from "./text-order-asc127";
+import TextOrderDescCopy2 from "./text-order-desc-copy2";
+import TextOrderDescCopy3 from "./text-order-desc-copy3";
+import TextOrderDescCopy from "./text-order-desc-copy";
 import TextOrderDesc from "./text-order-desc";
 import TextOutdent from "./text-outdent";
 import TextUnderline from "./text-underline";
 import ThermometerCold from "./thermometer-cold";
 import ThermometerHot from "./thermometer-hot";
 import Thermometer from "./thermometer";
-import Tree2 from "./tree2";
-import Tree3 from "./tree3";
-import Tree from "./tree";
-import Trees2 from "./trees2";
-import Trees from "./trees";
-import VideoCamera from "./video-camera";
-import Videos from "./videos";
-import Vote from "./vote";
-import Wallet from "./wallet";
-import Website from "./website";
+import UserAdd from "./user-add";
+import UserDelete from "./user-delete";
+import UserGroup from "./user-group";
+import User from "./user";
+import Users from "./users";
+import VisibleFat from "./visible-fat";
+import VisibleL from "./visible-l";
+import VisibleM from "./visible-m";
+import VisibleS from "./visible-s";
+import WheelchairAction from "./wheelchair-action";
+import Wheelchair from "./wheelchair";
 import Icon27 from "./icon27";
 import AirplaneArrivals from "./airplane-arrivals";
 import AirplaneDepartures from "./airplane-departures";
@@ -868,132 +977,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.CHEVRON_UP:
             return ChevronUp;
     
-        case Icons.ANIMAL_STEP:
-            return AnimalStep;
-    
-        case Icons.ARTWORK_FRAME:
-            return ArtworkFrame;
-    
-        case Icons.BARBECUE:
-            return Barbecue;
-    
-        case Icons.BATHROOM_ESSENTIALS:
-            return BathroomEssentials;
-    
-        case Icons.BLENDER:
-            return Blender;
-    
-        case Icons.BOOKCASE:
-            return Bookcase;
-    
-        case Icons.BREAD_SLICE:
-            return BreadSlice;
-    
-        case Icons.CLEANING_BUCKET:
-            return CleaningBucket;
-    
-        case Icons.CLEANING_SPRAY:
-            return CleaningSpray;
-    
-        case Icons.CLOSET:
-            return Closet;
-    
-        case Icons.COFFEE_CUP:
-            return CoffeeCup;
-    
-        case Icons.COFFEE_MACHINE:
-            return CoffeeMachine;
-    
-        case Icons.COFFEE_BEANS:
-            return CoffeeBeans;
-    
-        case Icons.COGNAC_GLASS:
-            return CognacGlass;
-    
-        case Icons.ESPRESS_MACHINE2:
-            return EspressMachine2;
-    
-        case Icons.ESPRESSO_MACHINE_E61:
-            return EspressoMachineE61;
-    
-        case Icons.ESPRESSO_MACHINE:
-            return EspressoMachine;
-    
-        case Icons.ESPRESSO_PISTOL:
-            return EspressoPistol;
-    
-        case Icons.FRIDGE:
-            return Fridge;
-    
-        case Icons.FURNITURE_BED:
-            return FurnitureBed;
-    
-        case Icons.FURNITURE_BEDSIDE_TABLE:
-            return FurnitureBedsideTable;
-    
-        case Icons.FURNITURE_CHAIR:
-            return FurnitureChair;
-    
-        case Icons.FURNITURE_COUCH:
-            return FurnitureCouch;
-    
-        case Icons.FURNITURE_DESK:
-            return FurnitureDesk;
-    
-        case Icons.FURNITURE_DRESSOIR:
-            return FurnitureDressoir;
-    
-        case Icons.HAIRDRYER:
-            return Hairdryer;
-    
-        case Icons.HAMBURGER:
-            return Hamburger;
-    
-        case Icons.IRON:
-            return Iron;
-    
-        case Icons.KITCHEN_CUTLERY:
-            return KitchenCutlery;
-    
-        case Icons.KITCHEN_UTENSILS:
-            return KitchenUtensils;
-    
-        case Icons.LIQUID_SOAP2:
-            return LiquidSoap2;
-    
-        case Icons.LIQUID_SOAP:
-            return LiquidSoap;
-    
-        case Icons.MICROWAVE:
-            return Microwave;
-    
-        case Icons.OVEN:
-            return Oven;
-    
-        case Icons.PERCULATOR:
-            return Perculator;
-    
-        case Icons.PLANT:
-            return Plant;
-    
-        case Icons.ROOM_SHADE:
-            return RoomShade;
-    
-        case Icons.STOVE:
-            return Stove;
-    
-        case Icons.TURTLE:
-            return Turtle;
-    
-        case Icons.WASHING_MACHINE:
-            return WashingMachine;
-    
-        case Icons.WATERCOOKER:
-            return Watercooker;
-    
-        case Icons.WINE_GLASS:
-            return WineGlass;
-    
         case Icons.ICON25:
             return Icon25;
     
@@ -1063,6 +1046,15 @@ export const getIcon = (icon: Icons) => {
         case Icons.PROMILLE:
             return Promille;
     
+        case Icons.SYMBOL_FEMALE:
+            return SymbolFemale;
+    
+        case Icons.SYMBOL_MALE:
+            return SymbolMale;
+    
+        case Icons.SYMBOL_UNISEX:
+            return SymbolUnisex;
+    
         case Icons.THREE_DOTS_DIAGONAL_MAJOR:
             return ThreeDotsDiagonalMajor;
     
@@ -1096,8 +1088,320 @@ export const getIcon = (icon: Icons) => {
         case Icons.YEN:
             return Yen;
     
-        case Icons.ICON177:
-            return Icon177;
+        case Icons.ALARM_BELL2:
+            return AlarmBell2;
+    
+        case Icons.ALARM_BELL3:
+            return AlarmBell3;
+    
+        case Icons.ALARM_BELL:
+            return AlarmBell;
+    
+        case Icons.ANIMAL_STEP:
+            return AnimalStep;
+    
+        case Icons.ARTWORK_FRAME:
+            return ArtworkFrame;
+    
+        case Icons.AUDIO_WAVES:
+            return AudioWaves;
+    
+        case Icons.BARBECUE:
+            return Barbecue;
+    
+        case Icons.BATHROOM_ESSENTIALS:
+            return BathroomEssentials;
+    
+        case Icons.BINOCULARS:
+            return Binoculars;
+    
+        case Icons.BLENDER:
+            return Blender;
+    
+        case Icons.BOOKCASE:
+            return Bookcase;
+    
+        case Icons.BREAD_SLICE:
+            return BreadSlice;
+    
+        case Icons.BULB:
+            return Bulb;
+    
+        case Icons.CAMERA:
+            return Camera;
+    
+        case Icons.CHIP:
+            return Chip;
+    
+        case Icons.CLEANING_BUCKET:
+            return CleaningBucket;
+    
+        case Icons.CLEANING_SPRAY:
+            return CleaningSpray;
+    
+        case Icons.CLIPBOARD:
+            return Clipboard;
+    
+        case Icons.CLOSET:
+            return Closet;
+    
+        case Icons.COFFEE_CUP:
+            return CoffeeCup;
+    
+        case Icons.COFFEE_MACHINE:
+            return CoffeeMachine;
+    
+        case Icons.COFFEE_BEANS:
+            return CoffeeBeans;
+    
+        case Icons.COGNAC_GLASS:
+            return CognacGlass;
+    
+        case Icons.COINS:
+            return Coins;
+    
+        case Icons.COLOR_PALLETTE:
+            return ColorPallette;
+    
+        case Icons.COLOR_RGB:
+            return ColorRgb;
+    
+        case Icons.COLOR_SWATCHES:
+            return ColorSwatches;
+    
+        case Icons.COMPASS2:
+            return Compass2;
+    
+        case Icons.COMPASS:
+            return Compass;
+    
+        case Icons.CUBE3D:
+            return Cube3d;
+    
+        case Icons.DESKTOP:
+            return Desktop;
+    
+        case Icons.EDUCATION:
+            return Education;
+    
+        case Icons.ESPRESS_MACHINE2:
+            return EspressMachine2;
+    
+        case Icons.ESPRESSO_MACHINE_E61:
+            return EspressoMachineE61;
+    
+        case Icons.ESPRESSO_MACHINE:
+            return EspressoMachine;
+    
+        case Icons.ESPRESSO_PISTOL:
+            return EspressoPistol;
+    
+        case Icons.FACTORY_ARM:
+            return FactoryArm;
+    
+        case Icons.FACTORY_BELT:
+            return FactoryBelt;
+    
+        case Icons.FACTORY:
+            return Factory;
+    
+        case Icons.FILMROLL:
+            return Filmroll;
+    
+        case Icons.FINGERPRINT:
+            return Fingerprint;
+    
+        case Icons.FRIDGE:
+            return Fridge;
+    
+        case Icons.FURNITURE_BED:
+            return FurnitureBed;
+    
+        case Icons.FURNITURE_BEDSIDE_TABLE:
+            return FurnitureBedsideTable;
+    
+        case Icons.FURNITURE_CHAIR:
+            return FurnitureChair;
+    
+        case Icons.FURNITURE_COUCH:
+            return FurnitureCouch;
+    
+        case Icons.FURNITURE_DESK:
+            return FurnitureDesk;
+    
+        case Icons.FURNITURE_DRESSOIR:
+            return FurnitureDressoir;
+    
+        case Icons.GAMEPAD:
+            return Gamepad;
+    
+        case Icons.GRAPH_UP_ROUND:
+            return GraphUpRound;
+    
+        case Icons.GRAPH_UP:
+            return GraphUp;
+    
+        case Icons.HAIRDRYER:
+            return Hairdryer;
+    
+        case Icons.HAMBURGER:
+            return Hamburger;
+    
+        case Icons.HIGHLIGHT:
+            return Highlight;
+    
+        case Icons.IDEA_FACTORY:
+            return IdeaFactory;
+    
+        case Icons.INDUSTRY3:
+            return Industry3;
+    
+        case Icons.IRON:
+            return Iron;
+    
+        case Icons.KITCHEN_CUTLERY:
+            return KitchenCutlery;
+    
+        case Icons.KITCHEN_UTENSILS:
+            return KitchenUtensils;
+    
+        case Icons.LAPTOP:
+            return Laptop;
+    
+        case Icons.LEAF2:
+            return Leaf2;
+    
+        case Icons.LEAF3:
+            return Leaf3;
+    
+        case Icons.LEAF:
+            return Leaf;
+    
+        case Icons.LEAFS:
+            return Leafs;
+    
+        case Icons.LIQUID_SOAP2:
+            return LiquidSoap2;
+    
+        case Icons.LIQUID_SOAP:
+            return LiquidSoap;
+    
+        case Icons.MAIL_OPEN:
+            return MailOpen;
+    
+        case Icons.MAIL:
+            return Mail;
+    
+        case Icons.MICROWAVE:
+            return Microwave;
+    
+        case Icons.MONEY:
+            return Money;
+    
+        case Icons.MONEYBAG:
+            return Moneybag;
+    
+        case Icons.MUSIC_NOTE_SINGLE:
+            return MusicNoteSingle;
+    
+        case Icons.MUSIC_NOTE:
+            return MusicNote;
+    
+        case Icons.OVEN:
+            return Oven;
+    
+        case Icons.PAPERPLANE:
+            return Paperplane;
+    
+        case Icons.PERCULATOR:
+            return Perculator;
+    
+        case Icons.PLANT:
+            return Plant;
+    
+        case Icons.POLITICIAN2:
+            return Politician2;
+    
+        case Icons.POLITICIAN:
+            return Politician;
+    
+        case Icons.PRINTER:
+            return Printer;
+    
+        case Icons.REELS:
+            return Reels;
+    
+        case Icons.ROOM_SHADE:
+            return RoomShade;
+    
+        case Icons.STOVE:
+            return Stove;
+    
+        case Icons.TABLET_LANDSCAPE:
+            return TabletLandscape;
+    
+        case Icons.TABLET:
+            return Tablet;
+    
+        case Icons.TELEVISION:
+            return Television;
+    
+        case Icons.TEMPLE2:
+            return Temple2;
+    
+        case Icons.TEMPLE:
+            return Temple;
+    
+        case Icons.TERMINAL:
+            return Terminal;
+    
+        case Icons.TREE2:
+            return Tree2;
+    
+        case Icons.TREE3:
+            return Tree3;
+    
+        case Icons.TREE:
+            return Tree;
+    
+        case Icons.TREES2:
+            return Trees2;
+    
+        case Icons.TREES:
+            return Trees;
+    
+        case Icons.TURTLE:
+            return Turtle;
+    
+        case Icons.VIDEO_CAMERA:
+            return VideoCamera;
+    
+        case Icons.VIDEOS:
+            return Videos;
+    
+        case Icons.VOTE:
+            return Vote;
+    
+        case Icons.WALLET:
+            return Wallet;
+    
+        case Icons.WASHING_MACHINE:
+            return WashingMachine;
+    
+        case Icons.WATERCOOKER:
+            return Watercooker;
+    
+        case Icons.WEBSITE:
+            return Website;
+    
+        case Icons.WINE_GLASS:
+            return WineGlass;
+    
+        case Icons.ACCESSIBILITY_PERSON_CICLED:
+            return AccessibilityPersonCicled;
+    
+        case Icons.ACCESSIBILITY_PERSON:
+            return AccessibilityPerson;
     
         case Icons.ADD_FAT:
             return AddFat;
@@ -1111,50 +1415,11 @@ export const getIcon = (icon: Icons) => {
         case Icons.ADD_S:
             return AddS;
     
-        case Icons.ALARM_BELL2:
-            return AlarmBell2;
-    
-        case Icons.ALARM_BELL3:
-            return AlarmBell3;
-    
-        case Icons.ALARM_BELL:
-            return AlarmBell;
-    
         case Icons.AT_SIGN:
             return AtSign;
     
-        case Icons.AUDIO_WAVES:
-            return AudioWaves;
-    
-        case Icons.BINOCULARS:
-            return Binoculars;
-    
-        case Icons.BOARD:
-            return Board;
-    
-        case Icons.BOARD01:
-            return Board01;
-    
-        case Icons.BOARD77:
-            return Board77;
-    
         case Icons.BOARD_ADD2:
             return BoardAdd2;
-    
-        case Icons.BOARD_ADD:
-            return BoardAdd;
-    
-        case Icons.BOARD_CHECK2:
-            return BoardCheck2;
-    
-        case Icons.BOARD_CHECK:
-            return BoardCheck;
-    
-        case Icons.BOARD_EDIT2:
-            return BoardEdit2;
-    
-        case Icons.BOARD_EDIT:
-            return BoardEdit;
     
         case Icons.BOARD_MULTI2_HORIZONTAL:
             return BoardMulti2Horizontal;
@@ -1179,9 +1444,6 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.BOARD_MULTIPLY2:
             return BoardMultiply2;
-    
-        case Icons.BOARD_MULTIPLY:
-            return BoardMultiply;
     
         case Icons.BOARD_SPLIT13_HORIZONTAL:
             return BoardSplit13Horizontal;
@@ -1228,11 +1490,80 @@ export const getIcon = (icon: Icons) => {
         case Icons.BOARD_SUBTRACT2:
             return BoardSubtract2;
     
-        case Icons.BULB:
-            return Bulb;
+        case Icons.BOARD:
+            return Board;
     
-        case Icons.CAMERA:
-            return Camera;
+        case Icons.BOY:
+            return Boy;
+    
+        case Icons.BROKEN_HEART_F:
+            return BrokenHeartF;
+    
+        case Icons.BROKEN_HEART_L:
+            return BrokenHeartL;
+    
+        case Icons.BROKEN_HEART_M:
+            return BrokenHeartM;
+    
+        case Icons.BUTTON_ADD:
+            return ButtonAdd;
+    
+        case Icons.BUTTON_BROKEN_HEART2:
+            return ButtonBrokenHeart2;
+    
+        case Icons.BUTTON_BROKEN_HEART:
+            return ButtonBrokenHeart;
+    
+        case Icons.BUTTON_CHECK2:
+            return ButtonCheck2;
+    
+        case Icons.BUTTON_CHECK:
+            return ButtonCheck;
+    
+        case Icons.BUTTON_EDIT2:
+            return ButtonEdit2;
+    
+        case Icons.BUTTON_EDIT:
+            return ButtonEdit;
+    
+        case Icons.BUTTON_HEART2:
+            return ButtonHeart2;
+    
+        case Icons.BUTTON_HEART:
+            return ButtonHeart;
+    
+        case Icons.BUTTON_INVISIBLE2:
+            return ButtonInvisible2;
+    
+        case Icons.BUTTON_INVISIBLE:
+            return ButtonInvisible;
+    
+        case Icons.BUTTON_MULTIPLY:
+            return ButtonMultiply;
+    
+        case Icons.BUTTON_SEARCH2:
+            return ButtonSearch2;
+    
+        case Icons.BUTTON_SEARCH:
+            return ButtonSearch;
+    
+        case Icons.BUTTON_STAR2:
+            return ButtonStar2;
+    
+        case Icons.BUTTON_STAR:
+            return ButtonStar;
+    
+        case Icons.BUTTON_SUBTRACT:
+            return ButtonSubtract;
+    
+        case Icons.BUTTON_VISIBLE2:
+            return ButtonVisible2;
+    
+        case Icons.BUTTON_VISIBLE:
+            return ButtonVisible;
+    
+        case Icons.BUTTON:
+            return Button;
     
         case Icons.CHECK_FAT:
             return CheckFat;
@@ -1249,8 +1580,8 @@ export const getIcon = (icon: Icons) => {
         case Icons.CHECK_S:
             return CheckS;
     
-        case Icons.CHIP:
-            return Chip;
+        case Icons.CIRCLE_INVISIBLE:
+            return CircleInvisible;
     
         case Icons.CIRCLE_SUBTRACT:
             return CircleSubtract;
@@ -1258,20 +1589,32 @@ export const getIcon = (icon: Icons) => {
         case Icons.CIRCLED_ADD:
             return CircledAdd;
     
+        case Icons.CIRCLED_BROKEN_HEART:
+            return CircledBrokenHeart;
+    
         case Icons.CIRCLED_CHECK:
             return CircledCheck;
     
         case Icons.CIRCLED_EDIT:
             return CircledEdit;
     
+        case Icons.CIRCLED_HEART:
+            return CircledHeart;
+    
         case Icons.CIRCLED_MULTIPLY:
             return CircledMultiply;
     
+        case Icons.CIRCLED_SEARCH:
+            return CircledSearch;
+    
+        case Icons.CIRCLED_STAR:
+            return CircledStar;
+    
+        case Icons.CIRCLED_VISIBLE:
+            return CircledVisible;
+    
         case Icons.CIRCLED:
             return Circled;
-    
-        case Icons.CLIPBOARD:
-            return Clipboard;
     
         case Icons.CLOUD_RAIN:
             return CloudRain;
@@ -1291,35 +1634,17 @@ export const getIcon = (icon: Icons) => {
         case Icons.CODE_BRACKETS:
             return CodeBrackets;
     
-        case Icons.CODE_CHEVRONS_COPY:
-            return CodeChevronsCopy;
-    
-        case Icons.CODE_CHEVRONS_CIRCLED_COPY:
-            return CodeChevronsCircledCopy;
-    
         case Icons.CODE_CHEVRONS_CIRCLED:
             return CodeChevronsCircled;
     
+        case Icons.CODE_CHEVRONS_OPEN_CIRCLED:
+            return CodeChevronsOpenCircled;
+    
+        case Icons.CODE_CHEVRONS_OPEN:
+            return CodeChevronsOpen;
+    
         case Icons.CODE_CHEVRONS:
             return CodeChevrons;
-    
-        case Icons.COINS:
-            return Coins;
-    
-        case Icons.COLOR_PALLETTE:
-            return ColorPallette;
-    
-        case Icons.COMPASS2:
-            return Compass2;
-    
-        case Icons.COMPASS:
-            return Compass;
-    
-        case Icons.CUBE3D:
-            return Cube3d;
-    
-        case Icons.DESKTOP:
-            return Desktop;
     
         case Icons.EDIT_FAT:
             return EditFat;
@@ -1333,17 +1658,8 @@ export const getIcon = (icon: Icons) => {
         case Icons.EDIT_S:
             return EditS;
     
-        case Icons.EDUCATION:
-            return Education;
-    
-        case Icons.FACTORY_ARM:
-            return FactoryArm;
-    
-        case Icons.FACTORY_BELT:
-            return FactoryBelt;
-    
-        case Icons.FACTORY:
-            return Factory;
+        case Icons.FEMALE_SIMPLIFIED:
+            return FemaleSimplified;
     
         case Icons.FILE_ADD267:
             return FileAdd267;
@@ -1353,6 +1669,12 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.FILE_ADD:
             return FileAdd;
+    
+        case Icons.FILE_BROKEN_HEART2:
+            return FileBrokenHeart2;
+    
+        case Icons.FILE_BROKEN_HEART:
+            return FileBrokenHeart;
     
         case Icons.FILE_CHECK2:
             return FileCheck2;
@@ -1366,8 +1688,32 @@ export const getIcon = (icon: Icons) => {
         case Icons.FILE_EDIT:
             return FileEdit;
     
+        case Icons.FILE_HEART2:
+            return FileHeart2;
+    
+        case Icons.FILE_HEART:
+            return FileHeart;
+    
+        case Icons.FILE_INVISIBLE2:
+            return FileInvisible2;
+    
+        case Icons.FILE_INVISIBLE:
+            return FileInvisible;
+    
         case Icons.FILE_MULTIPLY:
             return FileMultiply;
+    
+        case Icons.FILE_SEARCH2:
+            return FileSearch2;
+    
+        case Icons.FILE_SEARCH:
+            return FileSearch;
+    
+        case Icons.FILE_STAR2:
+            return FileStar2;
+    
+        case Icons.FILE_STAR:
+            return FileStar;
     
         case Icons.FILE_SUBTRACT2:
             return FileSubtract2;
@@ -1375,17 +1721,26 @@ export const getIcon = (icon: Icons) => {
         case Icons.FILE_SUBTRACT:
             return FileSubtract;
     
+        case Icons.FILE_VISIBLE2:
+            return FileVisible2;
+    
+        case Icons.FILE_VISIBLE:
+            return FileVisible;
+    
         case Icons.FILE:
             return File;
-    
-        case Icons.FINGERPRINT:
-            return Fingerprint;
     
         case Icons.FOLDER_ADD2:
             return FolderAdd2;
     
         case Icons.FOLDER_ADD:
             return FolderAdd;
+    
+        case Icons.FOLDER_BROKEN_HEART2:
+            return FolderBrokenHeart2;
+    
+        case Icons.FOLDER_BROKEN_HEART:
+            return FolderBrokenHeart;
     
         case Icons.FOLDER_CHECK2:
             return FolderCheck2;
@@ -1399,11 +1754,35 @@ export const getIcon = (icon: Icons) => {
         case Icons.FOLDER_EDIT:
             return FolderEdit;
     
+        case Icons.FOLDER_HEART2:
+            return FolderHeart2;
+    
+        case Icons.FOLDER_HEART:
+            return FolderHeart;
+    
+        case Icons.FOLDER_INVISIBLE2:
+            return FolderInvisible2;
+    
+        case Icons.FOLDER_INVISIBLE:
+            return FolderInvisible;
+    
         case Icons.FOLDER_MULTIPLY2:
             return FolderMultiply2;
     
         case Icons.FOLDER_MULTIPLY:
             return FolderMultiply;
+    
+        case Icons.FOLDER_SEARCH2:
+            return FolderSearch2;
+    
+        case Icons.FOLDER_SEARCH:
+            return FolderSearch;
+    
+        case Icons.FOLDER_STAR2:
+            return FolderStar2;
+    
+        case Icons.FOLDER_STAR:
+            return FolderStar;
     
         case Icons.FOLDER_SUBTRACT2:
             return FolderSubtract2;
@@ -1411,59 +1790,50 @@ export const getIcon = (icon: Icons) => {
         case Icons.FOLDER_SUBTRACT:
             return FolderSubtract;
     
+        case Icons.FOLDER_VISIBLE2:
+            return FolderVisible2;
+    
+        case Icons.FOLDER_VISIBLE:
+            return FolderVisible;
+    
         case Icons.FOLDER:
             return Folder;
     
-        case Icons.GRAPH_UP_ROUND:
-            return GraphUpRound;
+        case Icons.GIRL:
+            return Girl;
     
-        case Icons.GRAPH_UP:
-            return GraphUp;
+        case Icons.HEART_BROKEN_SMALL:
+            return HeartBrokenSmall;
     
-        case Icons.HEART_BROKEN:
-            return HeartBroken;
+        case Icons.HEART_FAT:
+            return HeartFat;
     
-        case Icons.HEART:
-            return Heart;
+        case Icons.HEART_L:
+            return HeartL;
     
-        case Icons.HIGHLIGHT:
-            return Highlight;
+        case Icons.HEART_M:
+            return HeartM;
     
-        case Icons.IDEA_FACTORY:
-            return IdeaFactory;
+        case Icons.HEART_SMALL:
+            return HeartSmall;
     
-        case Icons.INDUSTRY3:
-            return Industry3;
+        case Icons.INVISIBLE_FAT:
+            return InvisibleFat;
     
-        case Icons.LAPTOP:
-            return Laptop;
+        case Icons.INVISIBLE_L:
+            return InvisibleL;
     
-        case Icons.LEAF2:
-            return Leaf2;
+        case Icons.INVISIBLE_M:
+            return InvisibleM;
     
-        case Icons.LEAF3:
-            return Leaf3;
-    
-        case Icons.LEAF:
-            return Leaf;
-    
-        case Icons.LEAFS:
-            return Leafs;
+        case Icons.INVISIBLE_S:
+            return InvisibleS;
     
         case Icons.LINK:
             return Link;
     
-        case Icons.MAIL_OPEN:
-            return MailOpen;
-    
-        case Icons.MAIL:
-            return Mail;
-    
-        case Icons.MONEY:
-            return Money;
-    
-        case Icons.MONEYBAG:
-            return Moneybag;
+        case Icons.MALE_SIMPLIFIED:
+            return MaleSimplified;
     
         case Icons.MOON:
             return Moon;
@@ -1480,17 +1850,17 @@ export const getIcon = (icon: Icons) => {
         case Icons.MULTIPLY_S:
             return MultiplyS;
     
-        case Icons.MUSIC_NOTE_SINGLE:
-            return MusicNoteSingle;
-    
-        case Icons.MUSIC_NOTE:
-            return MusicNote;
-    
-        case Icons.NOTE_COPY2:
-            return NoteCopy2;
+        case Icons.NOTE_ADD2:
+            return NoteAdd2;
     
         case Icons.NOTE_ADD:
             return NoteAdd;
+    
+        case Icons.NOTE_BROKEN_HEART2:
+            return NoteBrokenHeart2;
+    
+        case Icons.NOTE_BROKEN_HEART:
+            return NoteBrokenHeart;
     
         case Icons.NOTE_CHECK2:
             return NoteCheck2;
@@ -1504,11 +1874,35 @@ export const getIcon = (icon: Icons) => {
         case Icons.NOTE_EDIT:
             return NoteEdit;
     
+        case Icons.NOTE_HEART2:
+            return NoteHeart2;
+    
+        case Icons.NOTE_HEART:
+            return NoteHeart;
+    
+        case Icons.NOTE_INVISIBLE2:
+            return NoteInvisible2;
+    
+        case Icons.NOTE_INVISIBLE:
+            return NoteInvisible;
+    
         case Icons.NOTE_MULTIPLY2:
             return NoteMultiply2;
     
         case Icons.NOTE_MULTIPLY:
             return NoteMultiply;
+    
+        case Icons.NOTE_SEARCH2:
+            return NoteSearch2;
+    
+        case Icons.NOTE_SEARCH:
+            return NoteSearch;
+    
+        case Icons.NOTE_STAR2:
+            return NoteStar2;
+    
+        case Icons.NOTE_STAR:
+            return NoteStar;
     
         case Icons.NOTE_SUBTRACT2:
             return NoteSubtract2;
@@ -1516,26 +1910,41 @@ export const getIcon = (icon: Icons) => {
         case Icons.NOTE_SUBTRACT:
             return NoteSubtract;
     
+        case Icons.NOTE_VISIBLE2:
+            return NoteVisible2;
+    
+        case Icons.NOTE_VISIBLE:
+            return NoteVisible;
+    
         case Icons.NOTE:
             return Note;
     
-        case Icons.POLITICIAN2:
-            return Politician2;
+        case Icons.PARAGRAPH:
+            return Paragraph;
     
-        case Icons.POLITICIAN:
-            return Politician;
+        case Icons.SEARCH_FAT:
+            return SearchFat;
     
-        case Icons.PRINTER:
-            return Printer;
+        case Icons.SEARCH_L:
+            return SearchL;
     
-        case Icons.SEARCH_CIRCLED:
-            return SearchCircled;
+        case Icons.SEARCH_M:
+            return SearchM;
     
-        case Icons.SEARCH:
-            return Search;
+        case Icons.SEARCH_SMALL:
+            return SearchSmall;
     
-        case Icons.SPEECH_BALLOON3:
-            return SpeechBalloon3;
+        case Icons.SETTINGS2:
+            return Settings2;
+    
+        case Icons.SETTINGS3:
+            return Settings3;
+    
+        case Icons.SETTINGS4:
+            return Settings4;
+    
+        case Icons.SETTINGS:
+            return Settings;
     
         case Icons.SPEECH_BALLOON2:
             return SpeechBalloon2;
@@ -1555,23 +1964,50 @@ export const getIcon = (icon: Icons) => {
         case Icons.SQUARED_ADD:
             return SquaredAdd;
     
+        case Icons.SQUARED_BROKEN_HEART:
+            return SquaredBrokenHeart;
+    
         case Icons.SQUARED_CHECK:
             return SquaredCheck;
     
         case Icons.SQUARED_EDIT:
             return SquaredEdit;
     
+        case Icons.SQUARED_HEART:
+            return SquaredHeart;
+    
+        case Icons.SQUARED_INVISIBLE:
+            return SquaredInvisible;
+    
         case Icons.SQUARED_MULTIPLY:
             return SquaredMultiply;
+    
+        case Icons.SQUARED_SEARCH:
+            return SquaredSearch;
+    
+        case Icons.SQUARED_STAR:
+            return SquaredStar;
     
         case Icons.SQUARED_SUBTRACT:
             return SquaredSubtract;
     
+        case Icons.SQUARED_VISIBLE:
+            return SquaredVisible;
+    
         case Icons.SQUARED:
             return Squared;
     
-        case Icons.STAR:
-            return Star;
+        case Icons.STAR_FAT:
+            return StarFat;
+    
+        case Icons.STAR_L:
+            return StarL;
+    
+        case Icons.STAR_M:
+            return StarM;
+    
+        case Icons.STAR_SMALL:
+            return StarSmall;
     
         case Icons.SUBTRACT_FAT:
             return SubtractFat;
@@ -1590,24 +2026,6 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.TABLES:
             return Tables;
-    
-        case Icons.TABLET_LANDSCAPE:
-            return TabletLandscape;
-    
-        case Icons.TABLET:
-            return Tablet;
-    
-        case Icons.TELEVISION:
-            return Television;
-    
-        case Icons.TEMPLE2:
-            return Temple2;
-    
-        case Icons.TEMPLE:
-            return Temple;
-    
-        case Icons.TERMINAL:
-            return Terminal;
     
         case Icons.TEXT_ALIGN_CENTER:
             return TextAlignCenter;
@@ -1636,6 +2054,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.TEXT_BOLD:
             return TextBold;
     
+        case Icons.TEXT_DETAIL_LIST:
+            return TextDetailList;
+    
         case Icons.TEXT_INDENT:
             return TextIndent;
     
@@ -1645,8 +2066,20 @@ export const getIcon = (icon: Icons) => {
         case Icons.TEXT_LINE_THROUGH:
             return TextLineThrough;
     
-        case Icons.TEXT_ORDER_ASC:
-            return TextOrderAsc;
+        case Icons.TEXT_ORDER_ASC123:
+            return TextOrderAsc123;
+    
+        case Icons.TEXT_ORDER_ASC127:
+            return TextOrderAsc127;
+    
+        case Icons.TEXT_ORDER_DESC_COPY2:
+            return TextOrderDescCopy2;
+    
+        case Icons.TEXT_ORDER_DESC_COPY3:
+            return TextOrderDescCopy3;
+    
+        case Icons.TEXT_ORDER_DESC_COPY:
+            return TextOrderDescCopy;
     
         case Icons.TEXT_ORDER_DESC:
             return TextOrderDesc;
@@ -1666,35 +2099,38 @@ export const getIcon = (icon: Icons) => {
         case Icons.THERMOMETER:
             return Thermometer;
     
-        case Icons.TREE2:
-            return Tree2;
+        case Icons.USER_ADD:
+            return UserAdd;
     
-        case Icons.TREE3:
-            return Tree3;
+        case Icons.USER_DELETE:
+            return UserDelete;
     
-        case Icons.TREE:
-            return Tree;
+        case Icons.USER_GROUP:
+            return UserGroup;
     
-        case Icons.TREES2:
-            return Trees2;
+        case Icons.USER:
+            return User;
     
-        case Icons.TREES:
-            return Trees;
+        case Icons.USERS:
+            return Users;
     
-        case Icons.VIDEO_CAMERA:
-            return VideoCamera;
+        case Icons.VISIBLE_FAT:
+            return VisibleFat;
     
-        case Icons.VIDEOS:
-            return Videos;
+        case Icons.VISIBLE_L:
+            return VisibleL;
     
-        case Icons.VOTE:
-            return Vote;
+        case Icons.VISIBLE_M:
+            return VisibleM;
     
-        case Icons.WALLET:
-            return Wallet;
+        case Icons.VISIBLE_S:
+            return VisibleS;
     
-        case Icons.WEBSITE:
-            return Website;
+        case Icons.WHEELCHAIR_ACTION:
+            return WheelchairAction;
+    
+        case Icons.WHEELCHAIR:
+            return Wheelchair;
     
         case Icons.ICON27:
             return Icon27;
@@ -2031,48 +2467,6 @@ export {
     ChevronLeft,
     ChevronRight,
     ChevronUp,
-    AnimalStep,
-    ArtworkFrame,
-    Barbecue,
-    BathroomEssentials,
-    Blender,
-    Bookcase,
-    BreadSlice,
-    CleaningBucket,
-    CleaningSpray,
-    Closet,
-    CoffeeCup,
-    CoffeeMachine,
-    CoffeeBeans,
-    CognacGlass,
-    EspressMachine2,
-    EspressoMachineE61,
-    EspressoMachine,
-    EspressoPistol,
-    Fridge,
-    FurnitureBed,
-    FurnitureBedsideTable,
-    FurnitureChair,
-    FurnitureCouch,
-    FurnitureDesk,
-    FurnitureDressoir,
-    Hairdryer,
-    Hamburger,
-    Iron,
-    KitchenCutlery,
-    KitchenUtensils,
-    LiquidSoap2,
-    LiquidSoap,
-    Microwave,
-    Oven,
-    Perculator,
-    Plant,
-    RoomShade,
-    Stove,
-    Turtle,
-    WashingMachine,
-    Watercooker,
-    WineGlass,
     Icon25,
     Dice1,
     Dice2,
@@ -2096,6 +2490,9 @@ export {
     Euro,
     Percentage,
     Promille,
+    SymbolFemale,
+    SymbolMale,
+    SymbolUnisex,
     ThreeDotsDiagonalMajor,
     ThreeDotsDiagonalMinor,
     ThreeDotsHorizontal,
@@ -2107,26 +2504,117 @@ export {
     TwoDotsLines,
     TwoDotsVertical,
     Yen,
-    Icon177,
+    AlarmBell2,
+    AlarmBell3,
+    AlarmBell,
+    AnimalStep,
+    ArtworkFrame,
+    AudioWaves,
+    Barbecue,
+    BathroomEssentials,
+    Binoculars,
+    Blender,
+    Bookcase,
+    BreadSlice,
+    Bulb,
+    Camera,
+    Chip,
+    CleaningBucket,
+    CleaningSpray,
+    Clipboard,
+    Closet,
+    CoffeeCup,
+    CoffeeMachine,
+    CoffeeBeans,
+    CognacGlass,
+    Coins,
+    ColorPallette,
+    ColorRgb,
+    ColorSwatches,
+    Compass2,
+    Compass,
+    Cube3d,
+    Desktop,
+    Education,
+    EspressMachine2,
+    EspressoMachineE61,
+    EspressoMachine,
+    EspressoPistol,
+    FactoryArm,
+    FactoryBelt,
+    Factory,
+    Filmroll,
+    Fingerprint,
+    Fridge,
+    FurnitureBed,
+    FurnitureBedsideTable,
+    FurnitureChair,
+    FurnitureCouch,
+    FurnitureDesk,
+    FurnitureDressoir,
+    Gamepad,
+    GraphUpRound,
+    GraphUp,
+    Hairdryer,
+    Hamburger,
+    Highlight,
+    IdeaFactory,
+    Industry3,
+    Iron,
+    KitchenCutlery,
+    KitchenUtensils,
+    Laptop,
+    Leaf2,
+    Leaf3,
+    Leaf,
+    Leafs,
+    LiquidSoap2,
+    LiquidSoap,
+    MailOpen,
+    Mail,
+    Microwave,
+    Money,
+    Moneybag,
+    MusicNoteSingle,
+    MusicNote,
+    Oven,
+    Paperplane,
+    Perculator,
+    Plant,
+    Politician2,
+    Politician,
+    Printer,
+    Reels,
+    RoomShade,
+    Stove,
+    TabletLandscape,
+    Tablet,
+    Television,
+    Temple2,
+    Temple,
+    Terminal,
+    Tree2,
+    Tree3,
+    Tree,
+    Trees2,
+    Trees,
+    Turtle,
+    VideoCamera,
+    Videos,
+    Vote,
+    Wallet,
+    WashingMachine,
+    Watercooker,
+    Website,
+    WineGlass,
+    AccessibilityPersonCicled,
+    AccessibilityPerson,
     AddFat,
     AddL,
     AddM,
     AddS,
-    AlarmBell2,
-    AlarmBell3,
-    AlarmBell,
     AtSign,
-    AudioWaves,
-    Binoculars,
-    Board,
-    Board01,
-    Board77,
     BoardAdd2,
-    BoardAdd,
-    BoardCheck2,
-    BoardCheck,
-    BoardEdit2,
-    BoardEdit,
     BoardMulti2Horizontal,
     BoardMulti2Vertical,
     BoardMultiTDown,
@@ -2135,7 +2623,6 @@ export {
     BoardMultiTUp,
     BoardMulti,
     BoardMultiply2,
-    BoardMultiply,
     BoardSplit13Horizontal,
     BoardSplit13Vertical,
     BoardSplit2Horizontal,
@@ -2151,133 +2638,185 @@ export {
     BoardSplitTRight,
     BoardSplitTUp,
     BoardSubtract2,
-    Bulb,
-    Camera,
+    Board,
+    Boy,
+    BrokenHeartF,
+    BrokenHeartL,
+    BrokenHeartM,
+    ButtonAdd,
+    ButtonBrokenHeart2,
+    ButtonBrokenHeart,
+    ButtonCheck2,
+    ButtonCheck,
+    ButtonEdit2,
+    ButtonEdit,
+    ButtonHeart2,
+    ButtonHeart,
+    ButtonInvisible2,
+    ButtonInvisible,
+    ButtonMultiply,
+    ButtonSearch2,
+    ButtonSearch,
+    ButtonStar2,
+    ButtonStar,
+    ButtonSubtract,
+    ButtonVisible2,
+    ButtonVisible,
+    Button,
     CheckFat,
     CheckL,
     CheckList,
     CheckM,
     CheckS,
-    Chip,
+    CircleInvisible,
     CircleSubtract,
     CircledAdd,
+    CircledBrokenHeart,
     CircledCheck,
     CircledEdit,
+    CircledHeart,
     CircledMultiply,
+    CircledSearch,
+    CircledStar,
+    CircledVisible,
     Circled,
-    Clipboard,
     CloudRain,
     CloudSun,
     CloudThermometer,
     Cloud,
     CodeBracketsCircled,
     CodeBrackets,
-    CodeChevronsCopy,
-    CodeChevronsCircledCopy,
     CodeChevronsCircled,
+    CodeChevronsOpenCircled,
+    CodeChevronsOpen,
     CodeChevrons,
-    Coins,
-    ColorPallette,
-    Compass2,
-    Compass,
-    Cube3d,
-    Desktop,
     EditFat,
     EditL,
     EditM,
     EditS,
-    Education,
-    FactoryArm,
-    FactoryBelt,
-    Factory,
+    FemaleSimplified,
     FileAdd267,
     FileAdd269,
     FileAdd,
+    FileBrokenHeart2,
+    FileBrokenHeart,
     FileCheck2,
     FileCheck,
     FileEdit2,
     FileEdit,
+    FileHeart2,
+    FileHeart,
+    FileInvisible2,
+    FileInvisible,
     FileMultiply,
+    FileSearch2,
+    FileSearch,
+    FileStar2,
+    FileStar,
     FileSubtract2,
     FileSubtract,
+    FileVisible2,
+    FileVisible,
     File,
-    Fingerprint,
     FolderAdd2,
     FolderAdd,
+    FolderBrokenHeart2,
+    FolderBrokenHeart,
     FolderCheck2,
     FolderCheck,
     FolderEdit2,
     FolderEdit,
+    FolderHeart2,
+    FolderHeart,
+    FolderInvisible2,
+    FolderInvisible,
     FolderMultiply2,
     FolderMultiply,
+    FolderSearch2,
+    FolderSearch,
+    FolderStar2,
+    FolderStar,
     FolderSubtract2,
     FolderSubtract,
+    FolderVisible2,
+    FolderVisible,
     Folder,
-    GraphUpRound,
-    GraphUp,
-    HeartBroken,
-    Heart,
-    Highlight,
-    IdeaFactory,
-    Industry3,
-    Laptop,
-    Leaf2,
-    Leaf3,
-    Leaf,
-    Leafs,
+    Girl,
+    HeartBrokenSmall,
+    HeartFat,
+    HeartL,
+    HeartM,
+    HeartSmall,
+    InvisibleFat,
+    InvisibleL,
+    InvisibleM,
+    InvisibleS,
     Link,
-    MailOpen,
-    Mail,
-    Money,
-    Moneybag,
+    MaleSimplified,
     Moon,
     MultiplyFat,
     MultiplyL,
     MultiplyM,
     MultiplyS,
-    MusicNoteSingle,
-    MusicNote,
-    NoteCopy2,
+    NoteAdd2,
     NoteAdd,
+    NoteBrokenHeart2,
+    NoteBrokenHeart,
     NoteCheck2,
     NoteCheck,
     NoteEdit2,
     NoteEdit,
+    NoteHeart2,
+    NoteHeart,
+    NoteInvisible2,
+    NoteInvisible,
     NoteMultiply2,
     NoteMultiply,
+    NoteSearch2,
+    NoteSearch,
+    NoteStar2,
+    NoteStar,
     NoteSubtract2,
     NoteSubtract,
+    NoteVisible2,
+    NoteVisible,
     Note,
-    Politician2,
-    Politician,
-    Printer,
-    SearchCircled,
-    Search,
-    SpeechBalloon3,
+    Paragraph,
+    SearchFat,
+    SearchL,
+    SearchM,
+    SearchSmall,
+    Settings2,
+    Settings3,
+    Settings4,
+    Settings,
     SpeechBalloon2,
     SpeechBalloonSquare2,
     SpeechBalloonSquare,
     SpeechBalloon,
     SpeechBalloons,
     SquaredAdd,
+    SquaredBrokenHeart,
     SquaredCheck,
     SquaredEdit,
+    SquaredHeart,
+    SquaredInvisible,
     SquaredMultiply,
+    SquaredSearch,
+    SquaredStar,
     SquaredSubtract,
+    SquaredVisible,
     Squared,
-    Star,
+    StarFat,
+    StarL,
+    StarM,
+    StarSmall,
     SubtractFat,
     SubtractL,
     SubtractM,
     SubtractS,
     Sun,
     Tables,
-    TabletLandscape,
-    Tablet,
-    Television,
-    Temple2,
-    Temple,
-    Terminal,
     TextAlignCenter,
     TextAlignJustifyCentered,
     TextAlignJustifyLeft,
@@ -2287,26 +2826,32 @@ export {
     TextAlignRightOrderDesc,
     TextAlignRight,
     TextBold,
+    TextDetailList,
     TextIndent,
     TextItalic,
     TextLineThrough,
-    TextOrderAsc,
+    TextOrderAsc123,
+    TextOrderAsc127,
+    TextOrderDescCopy2,
+    TextOrderDescCopy3,
+    TextOrderDescCopy,
     TextOrderDesc,
     TextOutdent,
     TextUnderline,
     ThermometerCold,
     ThermometerHot,
     Thermometer,
-    Tree2,
-    Tree3,
-    Tree,
-    Trees2,
-    Trees,
-    VideoCamera,
-    Videos,
-    Vote,
-    Wallet,
-    Website,
+    UserAdd,
+    UserDelete,
+    UserGroup,
+    User,
+    Users,
+    VisibleFat,
+    VisibleL,
+    VisibleM,
+    VisibleS,
+    WheelchairAction,
+    Wheelchair,
     Icon27,
     AirplaneArrivals,
     AirplaneDepartures,
