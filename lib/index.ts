@@ -308,6 +308,9 @@ import BoardSplitTRight from "./board-split-t-right";
 import BoardSplitTUp from "./board-split-t-up";
 import BoardSubtract2 from "./board-subtract2";
 import Board from "./board";
+import BoxIn from "./box-in";
+import BoxOut from "./box-out";
+import Box from "./box";
 import Boy from "./boy";
 import BrokenHeartF from "./broken-heart-f";
 import BrokenHeartL from "./broken-heart-l";
@@ -359,6 +362,7 @@ import CodeChevronsCircled from "./code-chevrons-circled";
 import CodeChevronsOpenCircled from "./code-chevrons-open-circled";
 import CodeChevronsOpen from "./code-chevrons-open";
 import CodeChevrons from "./code-chevrons";
+import Dislike from "./dislike";
 import EditFat from "./edit-fat";
 import EditL from "./edit-l";
 import EditM from "./edit-m";
@@ -367,12 +371,18 @@ import FemaleSimplified from "./female-simplified";
 import FileAdd267 from "./file-add267";
 import FileAdd269 from "./file-add269";
 import FileAdd from "./file-add";
+import FileArrowUp from "./file-arrow-up";
+import FileBinary from "./file-binary";
 import FileBrokenHeart2 from "./file-broken-heart2";
 import FileBrokenHeart from "./file-broken-heart";
 import FileCheck2 from "./file-check2";
 import FileCheck from "./file-check";
+import FileCloud from "./file-cloud";
+import FileCode from "./file-code";
+import FileColumns from "./file-columns";
 import FileEdit2 from "./file-edit2";
 import FileEdit from "./file-edit";
+import FileGraphs from "./file-graphs";
 import FileHeart2 from "./file-heart2";
 import FileHeart from "./file-heart";
 import FileInvisible2 from "./file-invisible2";
@@ -384,6 +394,7 @@ import FileStar2 from "./file-star2";
 import FileStar from "./file-star";
 import FileSubtract2 from "./file-subtract2";
 import FileSubtract from "./file-subtract";
+import FileText from "./file-text";
 import FileVisible2 from "./file-visible2";
 import FileVisible from "./file-visible";
 import File from "./file";
@@ -411,6 +422,14 @@ import FolderVisible2 from "./folder-visible2";
 import FolderVisible from "./folder-visible";
 import Folder from "./folder";
 import Girl from "./girl";
+import GitBranch from "./git-branch";
+import GitCompare from "./git-compare";
+import GitMergeQueue from "./git-merge-queue";
+import GitMerge from "./git-merge";
+import GitPullRequestClosed from "./git-pull-request-closed";
+import GitPullRequestDraft from "./git-pull-request-draft";
+import GitPullRequest from "./git-pull-request";
+import GitRepoFork from "./git-repo-fork";
 import HeartBrokenSmall from "./heart-broken-small";
 import HeartFat from "./heart-fat";
 import HeartL from "./heart-l";
@@ -420,6 +439,7 @@ import InvisibleFat from "./invisible-fat";
 import InvisibleL from "./invisible-l";
 import InvisibleM from "./invisible-m";
 import InvisibleS from "./invisible-s";
+import Like from "./like";
 import Link from "./link";
 import MaleSimplified from "./male-simplified";
 import Moon from "./moon";
@@ -450,6 +470,7 @@ import NoteSubtract from "./note-subtract";
 import NoteVisible2 from "./note-visible2";
 import NoteVisible from "./note-visible";
 import Note from "./note";
+import OnTarget from "./on-target";
 import Paragraph from "./paragraph";
 import SearchFat from "./search-fat";
 import SearchL from "./search-l";
@@ -461,6 +482,7 @@ import Settings4 from "./settings4";
 import Settings from "./settings";
 import SpeechBalloon2 from "./speech-balloon2";
 import SpeechBalloonSquare2 from "./speech-balloon-square2";
+import SpeechBalloonSquareCopy from "./speech-balloon-square-copy";
 import SpeechBalloonSquare from "./speech-balloon-square";
 import SpeechBalloon from "./speech-balloon";
 import SpeechBalloons from "./speech-balloons";
@@ -484,8 +506,22 @@ import SubtractFat from "./subtract-fat";
 import SubtractL from "./subtract-l";
 import SubtractM from "./subtract-m";
 import SubtractS from "./subtract-s";
+import Sun2 from "./sun2";
 import Sun from "./sun";
 import Tables from "./tables";
+import TalkAdd from "./talk-add";
+import TalkCheck from "./talk-check";
+import TalkDelete from "./talk-delete";
+import TalkEdit from "./talk-edit";
+import TalkHeartBroken from "./talk-heart-broken";
+import TalkHeart from "./talk-heart";
+import TalkInvisible from "./talk-invisible";
+import TalkSearch from "./talk-search";
+import TalkStar from "./talk-star";
+import TalkSubtract from "./talk-subtract";
+import TalkVisible from "./talk-visible";
+import Talk from "./talk";
+import Target from "./target";
 import TextAlignCenter from "./text-align-center";
 import TextAlignJustifyCentered from "./text-align-justify-centered";
 import TextAlignJustifyLeft from "./text-align-justify-left";
@@ -1493,6 +1529,15 @@ export const getIcon = (icon: Icons) => {
         case Icons.BOARD:
             return Board;
     
+        case Icons.BOX_IN:
+            return BoxIn;
+    
+        case Icons.BOX_OUT:
+            return BoxOut;
+    
+        case Icons.BOX:
+            return Box;
+    
         case Icons.BOY:
             return Boy;
     
@@ -1646,6 +1691,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.CODE_CHEVRONS:
             return CodeChevrons;
     
+        case Icons.DISLIKE:
+            return Dislike;
+    
         case Icons.EDIT_FAT:
             return EditFat;
     
@@ -1670,6 +1718,12 @@ export const getIcon = (icon: Icons) => {
         case Icons.FILE_ADD:
             return FileAdd;
     
+        case Icons.FILE_ARROW_UP:
+            return FileArrowUp;
+    
+        case Icons.FILE_BINARY:
+            return FileBinary;
+    
         case Icons.FILE_BROKEN_HEART2:
             return FileBrokenHeart2;
     
@@ -1682,11 +1736,23 @@ export const getIcon = (icon: Icons) => {
         case Icons.FILE_CHECK:
             return FileCheck;
     
+        case Icons.FILE_CLOUD:
+            return FileCloud;
+    
+        case Icons.FILE_CODE:
+            return FileCode;
+    
+        case Icons.FILE_COLUMNS:
+            return FileColumns;
+    
         case Icons.FILE_EDIT2:
             return FileEdit2;
     
         case Icons.FILE_EDIT:
             return FileEdit;
+    
+        case Icons.FILE_GRAPHS:
+            return FileGraphs;
     
         case Icons.FILE_HEART2:
             return FileHeart2;
@@ -1720,6 +1786,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.FILE_SUBTRACT:
             return FileSubtract;
+    
+        case Icons.FILE_TEXT:
+            return FileText;
     
         case Icons.FILE_VISIBLE2:
             return FileVisible2;
@@ -1802,6 +1871,30 @@ export const getIcon = (icon: Icons) => {
         case Icons.GIRL:
             return Girl;
     
+        case Icons.GIT_BRANCH:
+            return GitBranch;
+    
+        case Icons.GIT_COMPARE:
+            return GitCompare;
+    
+        case Icons.GIT_MERGE_QUEUE:
+            return GitMergeQueue;
+    
+        case Icons.GIT_MERGE:
+            return GitMerge;
+    
+        case Icons.GIT_PULL_REQUEST_CLOSED:
+            return GitPullRequestClosed;
+    
+        case Icons.GIT_PULL_REQUEST_DRAFT:
+            return GitPullRequestDraft;
+    
+        case Icons.GIT_PULL_REQUEST:
+            return GitPullRequest;
+    
+        case Icons.GIT_REPO_FORK:
+            return GitRepoFork;
+    
         case Icons.HEART_BROKEN_SMALL:
             return HeartBrokenSmall;
     
@@ -1828,6 +1921,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.INVISIBLE_S:
             return InvisibleS;
+    
+        case Icons.LIKE:
+            return Like;
     
         case Icons.LINK:
             return Link;
@@ -1919,6 +2015,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.NOTE:
             return Note;
     
+        case Icons.ON_TARGET:
+            return OnTarget;
+    
         case Icons.PARAGRAPH:
             return Paragraph;
     
@@ -1951,6 +2050,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.SPEECH_BALLOON_SQUARE2:
             return SpeechBalloonSquare2;
+    
+        case Icons.SPEECH_BALLOON_SQUARE_COPY:
+            return SpeechBalloonSquareCopy;
     
         case Icons.SPEECH_BALLOON_SQUARE:
             return SpeechBalloonSquare;
@@ -2021,11 +2123,53 @@ export const getIcon = (icon: Icons) => {
         case Icons.SUBTRACT_S:
             return SubtractS;
     
+        case Icons.SUN2:
+            return Sun2;
+    
         case Icons.SUN:
             return Sun;
     
         case Icons.TABLES:
             return Tables;
+    
+        case Icons.TALK_ADD:
+            return TalkAdd;
+    
+        case Icons.TALK_CHECK:
+            return TalkCheck;
+    
+        case Icons.TALK_DELETE:
+            return TalkDelete;
+    
+        case Icons.TALK_EDIT:
+            return TalkEdit;
+    
+        case Icons.TALK_HEART_BROKEN:
+            return TalkHeartBroken;
+    
+        case Icons.TALK_HEART:
+            return TalkHeart;
+    
+        case Icons.TALK_INVISIBLE:
+            return TalkInvisible;
+    
+        case Icons.TALK_SEARCH:
+            return TalkSearch;
+    
+        case Icons.TALK_STAR:
+            return TalkStar;
+    
+        case Icons.TALK_SUBTRACT:
+            return TalkSubtract;
+    
+        case Icons.TALK_VISIBLE:
+            return TalkVisible;
+    
+        case Icons.TALK:
+            return Talk;
+    
+        case Icons.TARGET:
+            return Target;
     
         case Icons.TEXT_ALIGN_CENTER:
             return TextAlignCenter;
@@ -2639,6 +2783,9 @@ export {
     BoardSplitTUp,
     BoardSubtract2,
     Board,
+    BoxIn,
+    BoxOut,
+    Box,
     Boy,
     BrokenHeartF,
     BrokenHeartL,
@@ -2690,6 +2837,7 @@ export {
     CodeChevronsOpenCircled,
     CodeChevronsOpen,
     CodeChevrons,
+    Dislike,
     EditFat,
     EditL,
     EditM,
@@ -2698,12 +2846,18 @@ export {
     FileAdd267,
     FileAdd269,
     FileAdd,
+    FileArrowUp,
+    FileBinary,
     FileBrokenHeart2,
     FileBrokenHeart,
     FileCheck2,
     FileCheck,
+    FileCloud,
+    FileCode,
+    FileColumns,
     FileEdit2,
     FileEdit,
+    FileGraphs,
     FileHeart2,
     FileHeart,
     FileInvisible2,
@@ -2715,6 +2869,7 @@ export {
     FileStar,
     FileSubtract2,
     FileSubtract,
+    FileText,
     FileVisible2,
     FileVisible,
     File,
@@ -2742,6 +2897,14 @@ export {
     FolderVisible,
     Folder,
     Girl,
+    GitBranch,
+    GitCompare,
+    GitMergeQueue,
+    GitMerge,
+    GitPullRequestClosed,
+    GitPullRequestDraft,
+    GitPullRequest,
+    GitRepoFork,
     HeartBrokenSmall,
     HeartFat,
     HeartL,
@@ -2751,6 +2914,7 @@ export {
     InvisibleL,
     InvisibleM,
     InvisibleS,
+    Like,
     Link,
     MaleSimplified,
     Moon,
@@ -2781,6 +2945,7 @@ export {
     NoteVisible2,
     NoteVisible,
     Note,
+    OnTarget,
     Paragraph,
     SearchFat,
     SearchL,
@@ -2792,6 +2957,7 @@ export {
     Settings,
     SpeechBalloon2,
     SpeechBalloonSquare2,
+    SpeechBalloonSquareCopy,
     SpeechBalloonSquare,
     SpeechBalloon,
     SpeechBalloons,
@@ -2815,8 +2981,22 @@ export {
     SubtractL,
     SubtractM,
     SubtractS,
+    Sun2,
     Sun,
     Tables,
+    TalkAdd,
+    TalkCheck,
+    TalkDelete,
+    TalkEdit,
+    TalkHeartBroken,
+    TalkHeart,
+    TalkInvisible,
+    TalkSearch,
+    TalkStar,
+    TalkSubtract,
+    TalkVisible,
+    Talk,
+    Target,
     TextAlignCenter,
     TextAlignJustifyCentered,
     TextAlignJustifyLeft,

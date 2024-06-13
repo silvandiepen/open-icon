@@ -307,6 +307,9 @@
     BOARD_SPLIT_T_UP: "board-split-t-up",
     BOARD_SUBTRACT2: "board-subtract2",
     BOARD: "board",
+    BOX_IN: "box-in",
+    BOX_OUT: "box-out",
+    BOX: "box",
     BOY: "boy",
     BROKEN_HEART_F: "broken-heart-f",
     BROKEN_HEART_L: "broken-heart-l",
@@ -358,6 +361,7 @@
     CODE_CHEVRONS_OPEN_CIRCLED: "code-chevrons-open-circled",
     CODE_CHEVRONS_OPEN: "code-chevrons-open",
     CODE_CHEVRONS: "code-chevrons",
+    DISLIKE: "dislike",
     EDIT_FAT: "edit-fat",
     EDIT_L: "edit-l",
     EDIT_M: "edit-m",
@@ -366,12 +370,18 @@
     FILE_ADD267: "file-add267",
     FILE_ADD269: "file-add269",
     FILE_ADD: "file-add",
+    FILE_ARROW_UP: "file-arrow-up",
+    FILE_BINARY: "file-binary",
     FILE_BROKEN_HEART2: "file-broken-heart2",
     FILE_BROKEN_HEART: "file-broken-heart",
     FILE_CHECK2: "file-check2",
     FILE_CHECK: "file-check",
+    FILE_CLOUD: "file-cloud",
+    FILE_CODE: "file-code",
+    FILE_COLUMNS: "file-columns",
     FILE_EDIT2: "file-edit2",
     FILE_EDIT: "file-edit",
+    FILE_GRAPHS: "file-graphs",
     FILE_HEART2: "file-heart2",
     FILE_HEART: "file-heart",
     FILE_INVISIBLE2: "file-invisible2",
@@ -383,6 +393,7 @@
     FILE_STAR: "file-star",
     FILE_SUBTRACT2: "file-subtract2",
     FILE_SUBTRACT: "file-subtract",
+    FILE_TEXT: "file-text",
     FILE_VISIBLE2: "file-visible2",
     FILE_VISIBLE: "file-visible",
     FILE: "file",
@@ -410,6 +421,14 @@
     FOLDER_VISIBLE: "folder-visible",
     FOLDER: "folder",
     GIRL: "girl",
+    GIT_BRANCH: "git-branch",
+    GIT_COMPARE: "git-compare",
+    GIT_MERGE_QUEUE: "git-merge-queue",
+    GIT_MERGE: "git-merge",
+    GIT_PULL_REQUEST_CLOSED: "git-pull-request-closed",
+    GIT_PULL_REQUEST_DRAFT: "git-pull-request-draft",
+    GIT_PULL_REQUEST: "git-pull-request",
+    GIT_REPO_FORK: "git-repo-fork",
     HEART_BROKEN_SMALL: "heart-broken-small",
     HEART_FAT: "heart-fat",
     HEART_L: "heart-l",
@@ -419,6 +438,7 @@
     INVISIBLE_L: "invisible-l",
     INVISIBLE_M: "invisible-m",
     INVISIBLE_S: "invisible-s",
+    LIKE: "like",
     LINK: "link",
     MALE_SIMPLIFIED: "male-simplified",
     MOON: "moon",
@@ -449,6 +469,7 @@
     NOTE_VISIBLE2: "note-visible2",
     NOTE_VISIBLE: "note-visible",
     NOTE: "note",
+    ON_TARGET: "on-target",
     PARAGRAPH: "paragraph",
     SEARCH_FAT: "search-fat",
     SEARCH_L: "search-l",
@@ -460,6 +481,7 @@
     SETTINGS: "settings",
     SPEECH_BALLOON2: "speech-balloon2",
     SPEECH_BALLOON_SQUARE2: "speech-balloon-square2",
+    SPEECH_BALLOON_SQUARE_COPY: "speech-balloon-square-copy",
     SPEECH_BALLOON_SQUARE: "speech-balloon-square",
     SPEECH_BALLOON: "speech-balloon",
     SPEECH_BALLOONS: "speech-balloons",
@@ -483,8 +505,22 @@
     SUBTRACT_L: "subtract-l",
     SUBTRACT_M: "subtract-m",
     SUBTRACT_S: "subtract-s",
+    SUN2: "sun2",
     SUN: "sun",
     TABLES: "tables",
+    TALK_ADD: "talk-add",
+    TALK_CHECK: "talk-check",
+    TALK_DELETE: "talk-delete",
+    TALK_EDIT: "talk-edit",
+    TALK_HEART_BROKEN: "talk-heart-broken",
+    TALK_HEART: "talk-heart",
+    TALK_INVISIBLE: "talk-invisible",
+    TALK_SEARCH: "talk-search",
+    TALK_STAR: "talk-star",
+    TALK_SUBTRACT: "talk-subtract",
+    TALK_VISIBLE: "talk-visible",
+    TALK: "talk",
+    TARGET: "target",
     TEXT_ALIGN_CENTER: "text-align-center",
     TEXT_ALIGN_JUSTIFY_CENTERED: "text-align-justify-centered",
     TEXT_ALIGN_JUSTIFY_LEFT: "text-align-justify-left",
@@ -1688,7 +1724,7 @@
   var wine_glass_default = IconWineGlass;
 
   // lib/accessibility-person-cicled.ts
-  var IconAccessibilityPersonCicled = `<svg id="AccessibilityPersonCicled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72.05"><g><path d="M23.55,30.72l6.61,4.4v3.27c0,1.7-.39,3.37-1.15,4.88l-4.01,8.01c-.41.82-.25,1.81.4,2.46l.1.1c.92.92,2.43.81,3.21-.23l7.29-9.73,7.29,9.73c.78,1.04,2.29,1.14,3.21.23l.1-.1c.65-.65.81-1.64.4-2.46l-4.01-8.01c-.76-1.52-1.15-3.19-1.15-4.88v-3.27l6.61-4.4c1.12-.75,1.28-2.33.32-3.28-.65-.65-1.64-.81-2.46-.4l-7.44,3.72c-1.81.91-3.94.91-5.75,0l-7.44-3.72c-.82-.41-1.81-.25-2.46.4-.95.95-.79,2.53.32,3.28Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><circle cx="36" cy="23.43" r="5.85" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g><circle cx="36" cy="36.05" r="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var IconAccessibilityPersonCicled = `<svg id="AccessibilityPersonCicled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72.05"><circle cx="36" cy="36.05" r="27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><g><path d="M23.55,30.72l6.61,4.4v3.27c0,1.7-.39,3.37-1.15,4.88l-4.01,8.01c-.41.82-.25,1.81.4,2.46l.1.1c.92.92,2.43.81,3.21-.23l7.29-9.73,7.29,9.73c.78,1.04,2.29,1.14,3.21.23l.1-.1c.65-.65.81-1.64.4-2.46l-4.01-8.01c-.76-1.52-1.15-3.19-1.15-4.88v-3.27l6.61-4.4c1.12-.75,1.28-2.33.32-3.28-.65-.65-1.64-.81-2.46-.4l-7.44,3.72c-1.81.91-3.94.91-5.75,0l-7.44-3.72c-.82-.41-1.81-.25-2.46.4-.95.95-.79,2.53.32,3.28Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><circle cx="36" cy="23.43" r="5.85" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g><circle cx="36" cy="36.05" r="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var accessibility_person_cicled_default = IconAccessibilityPersonCicled;
 
   // lib/accessibility-person.ts
@@ -1814,6 +1850,18 @@
   // lib/board.ts
   var IconBoard = `<svg id="Board" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="45" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var board_default = IconBoard;
+
+  // lib/box-in.ts
+  var IconBoxIn = `<svg id="BoxIn" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><polyline points="14.07 23.94 36 36 57.93 23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.75,54.56l9.32,5.13c1.2.66,2.66.66,3.86,0l9.32-5.13,9.18-5.05c1.28-.7,2.07-2.05,2.07-3.5v-10.01s0-10.01,0-10.01c0-1.46-.79-2.8-2.07-3.5l-9.18-5.05-9.32-5.13c-1.2-.66-2.66-.66-3.86,0l-9.32,5.13-9.18,5.05c-1.28.7-2.07,2.05-2.07,3.5v5.51" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="4.5" y1="45" x2="27" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 36 27 45 18 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var box_in_default = IconBoxIn;
+
+  // lib/box-out.ts
+  var IconBoxOut = `<svg id="BoxOut" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><path d="M58.5,31.5v-5.51c0-1.46-.79-2.8-2.07-3.5l-9.18-5.05-9.32-5.13c-1.2-.66-2.66-.66-3.86,0l-9.32,5.13-9.18,5.05c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l9.18,5.05,9.32,5.13c1.2.66,2.66.66,3.86,0l9.32-5.13" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="14.07 23.94 36 36 57.93 23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="45" y1="45" x2="67.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 36 67.5 45 58.5 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var box_out_default = IconBoxOut;
+
+  // lib/box.ts
+  var IconBox = `<svg id="Box" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="14.07" y1="23.94" x2="36" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M34.07,12.31l-18.5,10.18c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l18.5,10.18c1.2.66,2.66.66,3.86,0l18.5-10.18c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-18.5-10.18c-1.2-.66-2.66-.66-3.86,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="57.93" y2="23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var box_default = IconBox;
 
   // lib/boy.ts
   var IconBoy = `<svg id="Boy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><polygon points="32.22 21.94 32.23 21.94 32.23 21.93 32.22 21.94" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M22.5,34.88c6.07-2.87,9.64-12.71,9.72-12.94-4.94,1.48-9.61,5.84-9.72,12.94Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M51,17.94c-3.65,6.78-9.61,3.42-15,3.42-1.23,0-2.51.2-3.77.58.05.18,3.87,12.94,17.27,12.94,11.31,0,6.52-12.02,1.5-16.93Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M22.5,34.88c0,7.46,6.04,13.5,13.5,13.5s13.5-6.04,13.5-13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51,63c0-4.97-6.72-9-15-9s-15,4.03-15,9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="37.12" x2="31.5" y2="37.12" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="37.12" x2="40.5" y2="37.12" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polygon points="32.22 21.94 32.23 21.94 32.23 21.93 32.22 21.94" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,34.88c6.07-2.87,9.64-12.71,9.72-12.94-4.94,1.48-9.61,5.84-9.72,12.94Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51,17.94c-3.65,6.78-9.61,3.42-15,3.42-1.23,0-2.51.2-3.77.58.05.18,3.87,12.94,17.27,12.94,11.31,0,6.52-12.02,1.5-16.93Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><polygon points="32.23 21.93 32.22 21.94 32.23 21.94 32.23 21.93" style="fill: white;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2019,6 +2067,10 @@
   var IconCodeChevrons = `<svg id="CodeChevrons" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 22.5 9 36 22.5 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 49.5 63 36 49.5 22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="18" x2="31.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var code_chevrons_default = IconCodeChevrons;
 
+  // lib/dislike.ts
+  var IconDislike = `<svg id="Dislike" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M29.88,18c-1.72,0-3.25,1.1-3.79,2.74l-6.33,19c-.86,2.59,1.06,5.26,3.79,5.26h13.82s-5.49,9.16-5.49,9.16c-1.19,1.99.54,4.34,3.21,4.34h.47c1.13,0,2.2-.44,2.88-1.2l11.05-12.3h0v-27h-19.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M51.5,18h7v27h-7c-1.1,0-2-.9-2-2v-23c0-1.1.9-2,2-2Z" transform="translate(108 63) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M29.88,18c-1.72,0-3.25,1.1-3.79,2.74l-6.33,19c-.86,2.59,1.06,5.26,3.79,5.26h13.82s-5.49,9.16-5.49,9.16c-1.19,1.99.54,4.34,3.21,4.34h.47c1.13,0,2.2-.44,2.88-1.2l11.05-12.3h0v-27h-19.62Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var dislike_default = IconDislike;
+
   // lib/edit-fat.ts
   var IconEditFat = `<svg id="EditFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9.83,43.37L47.02,6.18c1.14-1.14,2.98-1.14,4.11,0l15.51,15.51c1.14,1.14,1.14,2.98,0,4.11L29.45,63H9.83v-19.63Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9.83,43.37L47.02,6.18c1.14-1.14,2.98-1.14,4.11,0l15.51,15.51c1.14,1.14,1.14,2.98,0,4.11L29.45,63H9.83v-19.63Z" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="39.63" y1="13.57" x2="59.26" y2="33.2" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="9.83" y1="43.37" x2="29.45" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
   var edit_fat_default = IconEditFat;
@@ -2051,6 +2103,14 @@
   var IconFileAdd = `<svg id="FileAdd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="27" y1="45" x2="45" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_add_default = IconFileAdd;
 
+  // lib/file-arrow-up.ts
+  var IconFileArrowUp = `<svg id="FileArrowUp" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="40.5 36 49.5 36 49.5 45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 36 36 49.5 31.5 45 22.5 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var file_arrow_up_default = IconFileArrowUp;
+
+  // lib/file-binary.ts
+  var IconFileBinary = `<svg id="FileBinary" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45 54 45 36 40.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="54" x2="49.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="22.5" y="36" width="9" height="18" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var file_binary_default = IconFileBinary;
+
   // lib/file-broken-heart2.ts
   var IconFileBrokenHeart2 = `<svg id="FileBrokenHeart2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="48 48 50.25 54.75 45.75 57 48 66" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M48,66c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_broken_heart2_default = IconFileBrokenHeart2;
@@ -2067,6 +2127,18 @@
   var IconFileCheck = `<svg id="FileCheck" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 41.14 34.71 54 45 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_check_default = IconFileCheck;
 
+  // lib/file-cloud.ts
+  var IconFileCloud = `<svg id="FileCloud" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,42.75c-.1,0-.19,0-.29.01-1-3.89-4.51-6.76-8.71-6.76s-7.71,2.88-8.71,6.76c-.1,0-.19-.01-.29-.01-2.49,0-4.5,2.01-4.5,4.5s2.01,4.5,4.5,4.5c.87,0,1.68-.25,2.37-.68,1.65,1.8,4,2.93,6.63,2.93s4.99-1.13,6.63-2.93c.69.43,1.5.68,2.37.68,2.49,0,4.5-2.01,4.5-4.5s-2.01-4.5-4.5-4.5Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var file_cloud_default = IconFileCloud;
+
+  // lib/file-code.ts
+  var IconFileCode = `<svg id="FileCode" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="31.5 36 22.5 45 31.5 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="40.5 54 49.5 45 40.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var file_code_default = IconFileCode;
+
+  // lib/file-columns.ts
+  var IconFileColumns = `<svg id="FileColumns" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="22.5" y="36" width="27" height="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var file_columns_default = IconFileColumns;
+
   // lib/file-edit2.ts
   var IconFileEdit2 = `<svg id="FileEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M43.66,40.5l14.51,14.51c.44.44.44,1.16,0,1.6l-6.05,6.05c-.44.44-1.16.44-1.6,0l-14.51-14.51v-7.66h7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="55.28" y1="52.13" x2="47.63" y2="59.78" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="43.66" y1="40.5" x2="36" y2="48.16" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_edit2_default = IconFileEdit2;
@@ -2074,6 +2146,10 @@
   // lib/file-edit.ts
   var IconFileEdit = `<svg id="FileEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,46.34l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="34.72" x2="41.78" y2="42.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="46.34" x2="30.16" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_edit_default = IconFileEdit;
+
+  // lib/file-graphs.ts
+  var IconFileGraphs = `<svg id="FileGraphs" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="31.5" x2="27" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="40.5" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="49.5" x2="45" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var file_graphs_default = IconFileGraphs;
 
   // lib/file-heart2.ts
   var IconFileHeart2 = `<svg id="FileHeart2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,67.5c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2118,6 +2194,10 @@
   // lib/file-subtract.ts
   var IconFileSubtract = `<svg id="FileSubtract" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="27" y1="45" x2="45" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_subtract_default = IconFileSubtract;
+
+  // lib/file-text.ts
+  var IconFileText = `<svg id="FileText" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="54" x2="49.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var file_text_default = IconFileText;
 
   // lib/file-visible2.ts
   var IconFileVisible2 = `<svg id="FileVisible2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,58.5s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="54" cy="58.5" r="4.5" style="stroke-width: 0px;"/></svg>`;
@@ -2227,6 +2307,38 @@
   var IconGirl = `<svg id="Girl" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.98,30.16s8.52,2.46,13.02-2.6c4.5,3.94,13.05,2.72,13.05,2.72h0c-1.53-5.78-6.79-10.03-13.05-10.03s-11.45,4.2-13.02,9.91h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M25.71,15.48c-2.64-2.64-6.91-2.64-9.55,0-2.64,2.64-2.39,7.16-7.16,11.93,7.16,2.39,14.07.25,16.71-2.39,2.64-2.64,2.64-6.91,0-9.55Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M55.84,15.48c-2.64-2.64-6.91-2.64-9.55,0-2.64,2.64-2.64,6.91,0,9.55,2.64,2.64,9.55,4.77,16.71,2.39-4.77-4.77-4.52-9.3-7.16-11.93Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="33.75" r="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51,61.88c0-4.97-6.72-9-15-9s-15,4.03-15,9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M25.71,15.48c-2.64-2.64-6.91-2.64-9.55,0-2.64,2.64-2.39,7.16-7.16,11.93,7.16,2.39,14.07.25,16.71-2.39,2.64-2.64,2.64-6.91,0-9.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M55.84,15.48c-2.64-2.64-6.91-2.64-9.55,0-2.64,2.64-2.64,6.91,0,9.55,2.64,2.64,9.55,4.77,16.71,2.39-4.77-4.77-4.52-9.3-7.16-11.93Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.98,30.16s8.52,2.46,13.02-2.6c4.5,3.94,13.05,2.72,13.05,2.72" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="36" x2="31.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="36" x2="40.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var girl_default = IconGirl;
 
+  // lib/git-branch.ts
+  var IconGitBranch = `<svg id="GitBranch" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="22.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="49.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="22.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,45v-1c0-4.42,3.58-8,8-8h11c4.42,0,8-3.58,8-8v-5.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var git_branch_default = IconGitBranch;
+
+  // lib/git-compare.ts
+  var IconGitCompare = `<svg id="GitCompare" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="51.75" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="18" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="51.75" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="42.75 11.25 36 18 42.75 24.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,18h7.75c4.42,0,8,3.58,8,8v23.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="18" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 60.75 33.75 54 27 47.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M33.75,54h-7.75c-4.42,0-8-3.58-8-8v-23.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var git_compare_default = IconGitCompare;
+
+  // lib/git-merge-queue.ts
+  var IconGitMergeQueue = `<svg id="GitMergeQueue" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="22.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="49.5" cy="40.5" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="40.5" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="27" x2="22.5" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="13.5" x2="22.5" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/><line x1="31.5" y1="22.5" x2="31.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/><line x1="40.5" y1="31.5" x2="40.5" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/></svg>`;
+  var git_merge_queue_default = IconGitMergeQueue;
+
+  // lib/git-merge.ts
+  var IconGitMerge = `<svg id="GitMerge" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="22.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="49.5" cy="36" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="22.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="36" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,36h-9c-7.46,0-13.5-6.04-13.5-13.5h0" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var git_merge_default = IconGitMerge;
+
+  // lib/git-pull-request-closed.ts
+  var IconGitPullRequestClosed = `<svg id="GitPullRequestClosed" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="22.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="49.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="22.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="31.5" x2="49.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="13.5" x2="56.25" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="56.25" y1="13.5" x2="42.75" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var git_pull_request_closed_default = IconGitPullRequestClosed;
+
+  // lib/git-pull-request-draft.ts
+  var IconGitPullRequestDraft = `<svg id="GitPullRequestDraft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="22.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="49.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="22.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/><line x1="49.5" y1="27" x2="49.5" y2="27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/><line x1="49.5" y1="13.5" x2="49.5" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/></svg>`;
+  var git_pull_request_draft_default = IconGitPullRequestDraft;
+
+  // lib/git-pull-request.ts
+  var IconGitPullRequest = `<svg id="GitPullRequest" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="22.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="49.5" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="22.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="40.5 11.25 33.75 18 40.5 24.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M33.75,18h7.75c4.42,0,8,3.58,8,8v23.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var git_pull_request_default = IconGitPullRequest;
+
+  // lib/git-repo-fork.ts
+  var IconGitRepoFork = `<svg id="GitRepoFork" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="22.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="54" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="49.5" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="22.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="54" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,22.5v5.5c0,4.42,3.58,8,8,8h11c4.42,0,8-3.58,8-8v-5.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var git_repo_fork_default = IconGitRepoFork;
+
   // lib/heart-broken-small.ts
   var IconHeartBrokenSmall = `<svg id="HeartBrokenSmall" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,49.5c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="36 31.5 38.25 38.25 33.75 40.5 36 49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,49.5c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var heart_broken_small_default = IconHeartBrokenSmall;
@@ -2262,6 +2374,10 @@
   // lib/invisible-s.ts
   var IconInvisibleS = `<svg id="InvisibleS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var invisible_s_default = IconInvisibleS;
+
+  // lib/like.ts
+  var IconLike = `<svg id="Like" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M42.12,54c1.72,0,3.25-1.1,3.79-2.74l6.33-19c.86-2.59-1.06-5.26-3.79-5.26h-13.82s5.49-9.16,5.49-9.16c1.19-1.99-.54-4.34-3.21-4.34h-.47c-1.13,0-2.2.44-2.88,1.2l-11.05,12.3h0v27h19.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M15.5,27h7v27h-7c-1.1,0-2-.9-2-2v-23c0-1.1.9-2,2-2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M42.12,54c1.72,0,3.25-1.1,3.79-2.74l6.33-19c.86-2.59-1.06-5.26-3.79-5.26h-13.82s5.49-9.16,5.49-9.16c1.19-1.99-.54-4.34-3.21-4.34h-.47c-1.13,0-2.2.44-2.88,1.2l-11.05,12.3h0v27h19.62Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var like_default = IconLike;
 
   // lib/link.ts
   var IconLink = `<svg id="Link" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M32.82,39.18c5.27,5.27,10.64,2.09,15.91-3.18s8.45-10.64,3.18-15.91-10.64-2.09-15.91,3.18c-1.12,1.12-2.13,2.24-3,3.36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.18,32.82c-5.27-5.27-10.64-2.09-15.91,3.18s-8.45,10.64-3.18,15.91,10.64,2.09,15.91-3.18c1.12-1.12,2.13-2.24,3-3.36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2383,6 +2499,10 @@
   var IconNote = `<svg id="Note" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var note_default = IconNote;
 
+  // lib/on-target.ts
+  var IconOnTarget = `<svg id="OnTarget" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M58.5,36c0,6.21-2.52,11.84-6.59,15.91s-9.7,6.59-15.91,6.59-11.84-2.52-15.91-6.59-6.59-9.7-6.59-15.91,2.52-11.84,6.59-15.91,9.7-6.59,15.91-6.59" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,36c0,3.73-1.51,7.1-3.95,9.55s-5.82,3.95-9.55,3.95-7.1-1.51-9.55-3.95-3.95-5.82-3.95-9.55,1.51-7.1,3.95-9.55,5.82-3.95,9.55-3.95" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,36c0,1.24-.5,2.37-1.32,3.18s-1.94,1.32-3.18,1.32-2.37-.5-3.18-1.32-1.32-1.94-1.32-3.18.5-2.37,1.32-3.18,1.94-1.32,3.18-1.32" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="40.5 22.5 40.5 31.5 49.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="40.5" y2="31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var on_target_default = IconOnTarget;
+
   // lib/paragraph.ts
   var IconParagraph = `<svg id="Paragraph" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="49.5" y1="58.5" x2="49.5" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="58.5" x2="40.5" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,45h-10.12c-8.7,0-15.75-7.05-15.75-15.75s7.05-15.75,15.75-15.75h23.62" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var paragraph_default = IconParagraph;
@@ -2424,11 +2544,15 @@
   var speech_balloon2_default = IconSpeechBalloon2;
 
   // lib/speech-balloon-square2.ts
-  var IconSpeechBalloonSquare2 = `<svg id="SpeechBalloonSquare2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="58.5 13.5 13.5 13.5 13.5 49.5 40.5 49.5 49.5 58.5 49.5 49.5 58.5 49.5 58.5 13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var IconSpeechBalloonSquare2 = `<svg id="SpeechBalloonSquare2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M54.5,13.5H17.5c-2.21,0-4,1.79-4,4v28c0,2.21,1.79,4,4,4h23l9,9v-9h5c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54.5,13.5H17.5c-2.21,0-4,1.79-4,4v28c0,2.21,1.79,4,4,4h23l9,9v-9h5c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var speech_balloon_square2_default = IconSpeechBalloonSquare2;
 
+  // lib/speech-balloon-square-copy.ts
+  var IconSpeechBalloonSquareCopy = `<svg id="SpeechBalloonSquareCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M54.5,22.5h-28c-2.21,0-4,1.79-4,4v19c0,2.21,1.79,4,4,4h14s9,9,9,9v-9h5c2.21,0,4-1.79,4-4v-19c0-2.21-1.79-4-4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M23.67,48.33c.72.72,1.72,1.17,2.83,1.17h14s9,9,9,9v-9h5c2.21,0,4-1.79,4-4v-19c0-2.21-1.79-4-4-4h-5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h28c2.21,0,4,1.79,4,4v19c0,2.21-1.79,4-4,4h-14s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-19c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h28c2.21,0,4,1.79,4,4v19c0,2.21-1.79,4-4,4h-14s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-19c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var speech_balloon_square_copy_default = IconSpeechBalloonSquareCopy;
+
   // lib/speech-balloon-square.ts
-  var IconSpeechBalloonSquare = `<svg id="SpeechBalloonSquare" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="13.5 13.5 58.5 13.5 58.5 49.5 31.5 49.5 22.5 58.5 22.5 49.5 13.5 49.5 13.5 13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var IconSpeechBalloonSquare = `<svg id="SpeechBalloonSquare" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var speech_balloon_square_default = IconSpeechBalloonSquare;
 
   // lib/speech-balloon.ts
@@ -2519,6 +2643,10 @@
   var IconSubtractS = `<svg id="SubtractS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var subtract_s_default = IconSubtractS;
 
+  // lib/sun2.ts
+  var IconSun2 = `<svg id="Sun2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="67.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="13.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="67.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="13.73" x2="20.09" y2="20.09" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="51.91" x2="58.27" y2="58.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="58.27" x2="20.09" y2="51.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="20.09" x2="58.27" y2="13.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var sun2_default = IconSun2;
+
   // lib/sun.ts
   var IconSun = `<svg id="Sun" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="67.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="13.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="67.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="13.73" x2="20.09" y2="20.09" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="51.91" x2="58.27" y2="58.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="58.27" x2="20.09" y2="51.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="20.09" x2="58.27" y2="13.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var sun_default = IconSun;
@@ -2526,6 +2654,58 @@
   // lib/tables.ts
   var IconTables = `<svg id="Tables" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="45" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="27" x2="58.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="29.25" y1="27" x2="29.25" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="27" x2="42.75" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var tables_default = IconTables;
+
+  // lib/talk-add.ts
+  var IconTalkAdd = `<svg id="TalkAdd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="27" y1="31.5" x2="45" y2="31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_add_default = IconTalkAdd;
+
+  // lib/talk-check.ts
+  var IconTalkCheck = `<svg id="TalkCheck" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="28.36 26.64 36.08 39.5 46.36 21.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_check_default = IconTalkCheck;
+
+  // lib/talk-delete.ts
+  var IconTalkDelete = `<svg id="TalkDelete" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="29.64" y1="25.27" x2="42.36" y2="38" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.36" y1="25.27" x2="29.64" y2="38" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_delete_default = IconTalkDelete;
+
+  // lib/talk-edit.ts
+  var IconTalkEdit = `<svg id="TalkEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M26.11,35.09l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="37.74" y1="23.47" x2="45.39" y2="31.12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="26.11" y1="35.09" x2="33.77" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_edit_default = IconTalkEdit;
+
+  // lib/talk-heart-broken.ts
+  var IconTalkHeartBroken = `<svg id="TalkHeartBroken" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="36 26.3 37.9 32.01 34.1 33.91 36 41.52" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,41.52c-19.76-10.35-9.88-26.07,0-15.52,9.88-10.55,19.76,5.17,0,15.52Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_heart_broken_default = IconTalkHeartBroken;
+
+  // lib/talk-heart.ts
+  var IconTalkHeart = `<svg id="TalkHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,40.47c-18.67-9.78-9.34-24.63,0-14.67,9.34-9.97,18.67,4.89,0,14.67Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_heart_default = IconTalkHeart;
+
+  // lib/talk-invisible.ts
+  var IconTalkInvisible = `<svg id="TalkInvisible" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M49.5,31.5s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="22.5" x2="22.5" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_invisible_default = IconTalkInvisible;
+
+  // lib/talk-search.ts
+  var IconTalkSearch = `<svg id="TalkSearch" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><g><line x1="47.25" y1="42.75" x2="40.11" y2="35.61" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="33.75" cy="29.25" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_search_default = IconTalkSearch;
+
+  // lib/talk-star.ts
+  var IconTalkStar = `<svg id="TalkStar" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36.14,37.22l6.34,4.54c.3.22.7-.08.59-.43l-2.47-7.4,6.27-4.63c.3-.22.14-.69-.23-.69l-7.8.06-2.47-7.4c-.12-.35-.62-.35-.73,0l-2.35,7.43-7.8.06c-.37,0-.52.48-.22.69l6.34,4.54-2.35,7.43c-.11.35.29.64.59.42l6.27-4.63Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_star_default = IconTalkStar;
+
+  // lib/talk-subtract.ts
+  var IconTalkSubtract = `<svg id="TalkSubtract" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="27" y1="31.5" x2="45" y2="31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_subtract_default = IconTalkSubtract;
+
+  // lib/talk-visible.ts
+  var IconTalkVisible = `<svg id="TalkVisible" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M49.5,31.5s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="31.5" r="4.5" style="stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_visible_default = IconTalkVisible;
+
+  // lib/talk.ts
+  var IconTalk = `<svg id="Talk" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var talk_default = IconTalk;
+
+  // lib/target.ts
+  var IconTarget = `<svg id="Target" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var target_default = IconTarget;
 
   // lib/text-align-center.ts
   var IconTextAlignCenter = `<svg id="TextAlignCenter" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="54" x2="54" y2="54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="30" x2="22.5" y2="30" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="42" x2="58.5" y2="42" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2660,11 +2840,11 @@
   var visible_s_default = IconVisibleS;
 
   // lib/wheelchair-action.ts
-  var IconWheelchairAction = `<svg id="WheelchairAction" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72.05"><circle cx="27" cy="44.95" r="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,58.45v-11.5c0-1.1-.9-2-2-2h-7" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,44.95l17.68-17.68c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-4.95,4.95" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="54" cy="17.95" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var IconWheelchairAction = `<svg id="WheelchairAction" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72.05"><circle cx="54" cy="17.95" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="27" cy="44.95" r="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,58.45v-11.5c0-1.1-.9-2-2-2h-7" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,44.95l17.68-17.68c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-4.95,4.95" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="54" cy="17.95" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var wheelchair_action_default = IconWheelchairAction;
 
   // lib/wheelchair.ts
-  var IconWheelchair = `<svg id="Wheelchair" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72.05"><circle cx="27" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,54v-11.5c0-1.1-.9-2-2-2h-14.56c-.86,0-1.63-.55-1.9-1.37l-4.04-12.13" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="31.5" x2="27" y2="31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M28.92,31.75c-2.55.49-4.99,1.73-6.97,3.71-5.27,5.27-5.27,13.82,0,19.09s13.82,5.27,19.09,0" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M41.05,54.55c3.8-3.8,4.86-9.3,3.19-14.05" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var IconWheelchair = `<svg id="Wheelchair" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72.05"><circle cx="27" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="27" cy="18" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,54v-11.5c0-1.1-.9-2-2-2h-14.56c-.86,0-1.63-.55-1.9-1.37l-4.04-12.13" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="31.5" x2="27" y2="31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M28.92,31.75c-2.55.49-4.99,1.73-6.97,3.71-5.27,5.27-5.27,13.82,0,19.09s13.82,5.27,19.09,0" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M41.05,54.55c3.8-3.8,4.86-9.3,3.19-14.05" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var wheelchair_default = IconWheelchair;
 
   // lib/icon27.ts
@@ -3482,6 +3662,12 @@
         return board_subtract2_default;
       case Icons.BOARD:
         return board_default;
+      case Icons.BOX_IN:
+        return box_in_default;
+      case Icons.BOX_OUT:
+        return box_out_default;
+      case Icons.BOX:
+        return box_default;
       case Icons.BOY:
         return boy_default;
       case Icons.BROKEN_HEART_F:
@@ -3584,6 +3770,8 @@
         return code_chevrons_open_default;
       case Icons.CODE_CHEVRONS:
         return code_chevrons_default;
+      case Icons.DISLIKE:
+        return dislike_default;
       case Icons.EDIT_FAT:
         return edit_fat_default;
       case Icons.EDIT_L:
@@ -3600,6 +3788,10 @@
         return file_add269_default;
       case Icons.FILE_ADD:
         return file_add_default;
+      case Icons.FILE_ARROW_UP:
+        return file_arrow_up_default;
+      case Icons.FILE_BINARY:
+        return file_binary_default;
       case Icons.FILE_BROKEN_HEART2:
         return file_broken_heart2_default;
       case Icons.FILE_BROKEN_HEART:
@@ -3608,10 +3800,18 @@
         return file_check2_default;
       case Icons.FILE_CHECK:
         return file_check_default;
+      case Icons.FILE_CLOUD:
+        return file_cloud_default;
+      case Icons.FILE_CODE:
+        return file_code_default;
+      case Icons.FILE_COLUMNS:
+        return file_columns_default;
       case Icons.FILE_EDIT2:
         return file_edit2_default;
       case Icons.FILE_EDIT:
         return file_edit_default;
+      case Icons.FILE_GRAPHS:
+        return file_graphs_default;
       case Icons.FILE_HEART2:
         return file_heart2_default;
       case Icons.FILE_HEART:
@@ -3634,6 +3834,8 @@
         return file_subtract2_default;
       case Icons.FILE_SUBTRACT:
         return file_subtract_default;
+      case Icons.FILE_TEXT:
+        return file_text_default;
       case Icons.FILE_VISIBLE2:
         return file_visible2_default;
       case Icons.FILE_VISIBLE:
@@ -3688,6 +3890,22 @@
         return folder_default;
       case Icons.GIRL:
         return girl_default;
+      case Icons.GIT_BRANCH:
+        return git_branch_default;
+      case Icons.GIT_COMPARE:
+        return git_compare_default;
+      case Icons.GIT_MERGE_QUEUE:
+        return git_merge_queue_default;
+      case Icons.GIT_MERGE:
+        return git_merge_default;
+      case Icons.GIT_PULL_REQUEST_CLOSED:
+        return git_pull_request_closed_default;
+      case Icons.GIT_PULL_REQUEST_DRAFT:
+        return git_pull_request_draft_default;
+      case Icons.GIT_PULL_REQUEST:
+        return git_pull_request_default;
+      case Icons.GIT_REPO_FORK:
+        return git_repo_fork_default;
       case Icons.HEART_BROKEN_SMALL:
         return heart_broken_small_default;
       case Icons.HEART_FAT:
@@ -3706,6 +3924,8 @@
         return invisible_m_default;
       case Icons.INVISIBLE_S:
         return invisible_s_default;
+      case Icons.LIKE:
+        return like_default;
       case Icons.LINK:
         return link_default;
       case Icons.MALE_SIMPLIFIED:
@@ -3766,6 +3986,8 @@
         return note_visible_default;
       case Icons.NOTE:
         return note_default;
+      case Icons.ON_TARGET:
+        return on_target_default;
       case Icons.PARAGRAPH:
         return paragraph_default;
       case Icons.SEARCH_FAT:
@@ -3788,6 +4010,8 @@
         return speech_balloon2_default;
       case Icons.SPEECH_BALLOON_SQUARE2:
         return speech_balloon_square2_default;
+      case Icons.SPEECH_BALLOON_SQUARE_COPY:
+        return speech_balloon_square_copy_default;
       case Icons.SPEECH_BALLOON_SQUARE:
         return speech_balloon_square_default;
       case Icons.SPEECH_BALLOON:
@@ -3834,10 +4058,38 @@
         return subtract_m_default;
       case Icons.SUBTRACT_S:
         return subtract_s_default;
+      case Icons.SUN2:
+        return sun2_default;
       case Icons.SUN:
         return sun_default;
       case Icons.TABLES:
         return tables_default;
+      case Icons.TALK_ADD:
+        return talk_add_default;
+      case Icons.TALK_CHECK:
+        return talk_check_default;
+      case Icons.TALK_DELETE:
+        return talk_delete_default;
+      case Icons.TALK_EDIT:
+        return talk_edit_default;
+      case Icons.TALK_HEART_BROKEN:
+        return talk_heart_broken_default;
+      case Icons.TALK_HEART:
+        return talk_heart_default;
+      case Icons.TALK_INVISIBLE:
+        return talk_invisible_default;
+      case Icons.TALK_SEARCH:
+        return talk_search_default;
+      case Icons.TALK_STAR:
+        return talk_star_default;
+      case Icons.TALK_SUBTRACT:
+        return talk_subtract_default;
+      case Icons.TALK_VISIBLE:
+        return talk_visible_default;
+      case Icons.TALK:
+        return talk_default;
+      case Icons.TARGET:
+        return target_default;
       case Icons.TEXT_ALIGN_CENTER:
         return text_align_center_default;
       case Icons.TEXT_ALIGN_JUSTIFY_CENTERED:
