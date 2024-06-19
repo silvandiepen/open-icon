@@ -6,7 +6,7 @@
     "build/template/[component].ts.ejs"
   ],
   "simplifyColors": true,
-  "replaceName": "icon_",
+"replaceName": "icon_",
   "listTemplate": [
     "build/template/index.ts.ejs",
     "build/template/types.ts.ejs"
@@ -34,6 +34,7 @@
       "stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor));"
     ],
     ["fill:red;", "fill: var(--icon-fill, {{default.iconFill}});"],
+    [["stroke: teal;","stroke:teal;"],"stroke: var(--icon-stroke-invisible, transparent);"],
     [
       ["stroke-width:1;", "stroke-width: 1px;"],
       "stroke-width:var(--icon-stroke-width-xs, calc(var(--icon-stroke-width, {{default.iconStrokeWidth}}) * 0.25));"

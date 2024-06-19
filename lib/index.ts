@@ -276,10 +276,11 @@ import WashingMachine from "./washing-machine";
 import Watercooker from "./watercooker";
 import Website from "./website";
 import WineGlass from "./wine-glass";
-import AccessibilityPersonCicled from "./accessibility-person-cicled";
+import AccessibilityPersonCircled from "./accessibility-person-circled";
 import AccessibilityPerson from "./accessibility-person";
 import AddFat from "./add-fat";
 import AddL from "./add-l";
+import AddLines from "./add-lines";
 import AddM from "./add-m";
 import AddS from "./add-s";
 import AtSign from "./at-sign";
@@ -315,6 +316,9 @@ import Boy from "./boy";
 import BrokenHeartF from "./broken-heart-f";
 import BrokenHeartL from "./broken-heart-l";
 import BrokenHeartM from "./broken-heart-m";
+import BuildingChurch from "./building-church";
+import BuildingHouse from "./building-house";
+import BuildingShop from "./building-shop";
 import ButtonAdd from "./button-add";
 import ButtonBrokenHeart2 from "./button-broken-heart2";
 import ButtonBrokenHeart from "./button-broken-heart";
@@ -435,6 +439,7 @@ import HeartFat from "./heart-fat";
 import HeartL from "./heart-l";
 import HeartM from "./heart-m";
 import HeartSmall from "./heart-small";
+import Image from "./image";
 import InvisibleFat from "./invisible-fat";
 import InvisibleL from "./invisible-l";
 import InvisibleM from "./invisible-m";
@@ -472,6 +477,16 @@ import NoteVisible from "./note-visible";
 import Note from "./note";
 import OnTarget from "./on-target";
 import Paragraph from "./paragraph";
+import PlaybackBackward from "./playback-backward";
+import PlaybackEnd from "./playback-end";
+import PlaybackForward from "./playback-forward";
+import PlaybackNext from "./playback-next";
+import PlaybackPause from "./playback-pause";
+import PlaybackPlay from "./playback-play";
+import PlaybackPrevious from "./playback-previous";
+import PlaybackStart from "./playback-start";
+import PlaybackStop from "./playback-stop";
+import RemoveLines from "./remove-lines";
 import SearchFat from "./search-fat";
 import SearchL from "./search-l";
 import SearchM from "./search-m";
@@ -555,6 +570,11 @@ import VisibleFat from "./visible-fat";
 import VisibleL from "./visible-l";
 import VisibleM from "./visible-m";
 import VisibleS from "./visible-s";
+import VolumeI from "./volume-i";
+import VolumeIi from "./volume-ii";
+import VolumeIii from "./volume-iii";
+import VolumeMute from "./volume-mute";
+import VolumeOff from "./volume-off";
 import WheelchairAction from "./wheelchair-action";
 import Wheelchair from "./wheelchair";
 import Icon27 from "./icon27";
@@ -1433,8 +1453,8 @@ export const getIcon = (icon: Icons) => {
         case Icons.WINE_GLASS:
             return WineGlass;
     
-        case Icons.ACCESSIBILITY_PERSON_CICLED:
-            return AccessibilityPersonCicled;
+        case Icons.ACCESSIBILITY_PERSON_CIRCLED:
+            return AccessibilityPersonCircled;
     
         case Icons.ACCESSIBILITY_PERSON:
             return AccessibilityPerson;
@@ -1444,6 +1464,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.ADD_L:
             return AddL;
+    
+        case Icons.ADD_LINES:
+            return AddLines;
     
         case Icons.ADD_M:
             return AddM;
@@ -1549,6 +1572,15 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.BROKEN_HEART_M:
             return BrokenHeartM;
+    
+        case Icons.BUILDING_CHURCH:
+            return BuildingChurch;
+    
+        case Icons.BUILDING_HOUSE:
+            return BuildingHouse;
+    
+        case Icons.BUILDING_SHOP:
+            return BuildingShop;
     
         case Icons.BUTTON_ADD:
             return ButtonAdd;
@@ -1910,6 +1942,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.HEART_SMALL:
             return HeartSmall;
     
+        case Icons.IMAGE:
+            return Image;
+    
         case Icons.INVISIBLE_FAT:
             return InvisibleFat;
     
@@ -2020,6 +2055,36 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.PARAGRAPH:
             return Paragraph;
+    
+        case Icons.PLAYBACK_BACKWARD:
+            return PlaybackBackward;
+    
+        case Icons.PLAYBACK_END:
+            return PlaybackEnd;
+    
+        case Icons.PLAYBACK_FORWARD:
+            return PlaybackForward;
+    
+        case Icons.PLAYBACK_NEXT:
+            return PlaybackNext;
+    
+        case Icons.PLAYBACK_PAUSE:
+            return PlaybackPause;
+    
+        case Icons.PLAYBACK_PLAY:
+            return PlaybackPlay;
+    
+        case Icons.PLAYBACK_PREVIOUS:
+            return PlaybackPrevious;
+    
+        case Icons.PLAYBACK_START:
+            return PlaybackStart;
+    
+        case Icons.PLAYBACK_STOP:
+            return PlaybackStop;
+    
+        case Icons.REMOVE_LINES:
+            return RemoveLines;
     
         case Icons.SEARCH_FAT:
             return SearchFat;
@@ -2269,6 +2334,21 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.VISIBLE_S:
             return VisibleS;
+    
+        case Icons.VOLUME_I:
+            return VolumeI;
+    
+        case Icons.VOLUME_II:
+            return VolumeIi;
+    
+        case Icons.VOLUME_III:
+            return VolumeIii;
+    
+        case Icons.VOLUME_MUTE:
+            return VolumeMute;
+    
+        case Icons.VOLUME_OFF:
+            return VolumeOff;
     
         case Icons.WHEELCHAIR_ACTION:
             return WheelchairAction;
@@ -2751,10 +2831,11 @@ export {
     Watercooker,
     Website,
     WineGlass,
-    AccessibilityPersonCicled,
+    AccessibilityPersonCircled,
     AccessibilityPerson,
     AddFat,
     AddL,
+    AddLines,
     AddM,
     AddS,
     AtSign,
@@ -2790,6 +2871,9 @@ export {
     BrokenHeartF,
     BrokenHeartL,
     BrokenHeartM,
+    BuildingChurch,
+    BuildingHouse,
+    BuildingShop,
     ButtonAdd,
     ButtonBrokenHeart2,
     ButtonBrokenHeart,
@@ -2910,6 +2994,7 @@ export {
     HeartL,
     HeartM,
     HeartSmall,
+    Image,
     InvisibleFat,
     InvisibleL,
     InvisibleM,
@@ -2947,6 +3032,16 @@ export {
     Note,
     OnTarget,
     Paragraph,
+    PlaybackBackward,
+    PlaybackEnd,
+    PlaybackForward,
+    PlaybackNext,
+    PlaybackPause,
+    PlaybackPlay,
+    PlaybackPrevious,
+    PlaybackStart,
+    PlaybackStop,
+    RemoveLines,
     SearchFat,
     SearchL,
     SearchM,
@@ -3030,6 +3125,11 @@ export {
     VisibleL,
     VisibleM,
     VisibleS,
+    VolumeI,
+    VolumeIi,
+    VolumeIii,
+    VolumeMute,
+    VolumeOff,
     WheelchairAction,
     Wheelchair,
     Icon27,
