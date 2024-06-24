@@ -3,6 +3,10 @@
         "target": "ESNext",
         "module": "commonjs",
         "sourceMap": true,
-        "outDir": "dist"
-    }    
+        "outDir": "dist",
+        "lib": ["ESNext"],
+        "declaration": true,
+        "emitDeclarationOnly": true,
+    },
+    "include": ["lib/index.ts"]
 }

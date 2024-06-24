@@ -12,7 +12,9 @@
   },
   "scripts": {
     "test": "npm run test",
-    "build": "npm run build:icons && tsup lib/index.ts  --format esm,cjs,iife && tsc lib/index.ts --outDir dist --emitDeclarationOnly --declaration" ,
+    "build": "npm run build:icons && npm run build:lib && npm run build:dts",
+    "build:lib": "tsup lib/index.ts  --format esm,cjs,iife",
+    "build:dts": "tsc",
     "build:icons": "sh build/icon-components.sh"
   },
   "keywords": [
@@ -22,6 +24,8 @@
   "author": "Sil van Diepen",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.1.0"
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2"
   }
 }
+
