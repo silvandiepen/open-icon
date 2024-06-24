@@ -327,12 +327,12 @@ import ButtonCheck2 from "./button-check2";
 import ButtonCheck from "./button-check";
 import ButtonEdit2 from "./button-edit2";
 import ButtonEdit from "./button-edit";
-import ButtonExclamationMarkCopy from "./button-exclamation-mark-copy";
-import ButtonExclamationMark2Copy from "./button-exclamation-mark2-copy";
 import ButtonExclamationMark2 from "./button-exclamation-mark2";
 import ButtonExclamationMark from "./button-exclamation-mark";
 import ButtonHeart2 from "./button-heart2";
 import ButtonHeart from "./button-heart";
+import ButtonInfo2 from "./button-info2";
+import ButtonInfo from "./button-info";
 import ButtonInvisible2 from "./button-invisible2";
 import ButtonInvisible from "./button-invisible";
 import ButtonMultiply from "./button-multiply";
@@ -357,9 +357,9 @@ import CircledAdd from "./circled-add";
 import CircledBrokenHeart from "./circled-broken-heart";
 import CircledCheck from "./circled-check";
 import CircledEdit from "./circled-edit";
-import CircledExclamationMarkCopy from "./circled-exclamation-mark-copy";
 import CircledExclamationMark from "./circled-exclamation-mark";
 import CircledHeart from "./circled-heart";
+import CircledInfo from "./circled-info";
 import CircledMultiply from "./circled-multiply";
 import CircledQuestionMark from "./circled-question-mark";
 import CircledSearch from "./circled-search";
@@ -400,13 +400,13 @@ import FileCode from "./file-code";
 import FileColumns from "./file-columns";
 import FileEdit2 from "./file-edit2";
 import FileEdit from "./file-edit";
-import FileExclamationMarkCopy from "./file-exclamation-mark-copy";
-import FileExclamationMark2Copy from "./file-exclamation-mark2-copy";
 import FileExclamationMark2 from "./file-exclamation-mark2";
 import FileExclamationMark from "./file-exclamation-mark";
 import FileGraphs from "./file-graphs";
 import FileHeart2 from "./file-heart2";
 import FileHeart from "./file-heart";
+import FileInfo2 from "./file-info2";
+import FileInfo from "./file-info";
 import FileInvisible2 from "./file-invisible2";
 import FileInvisible from "./file-invisible";
 import FileMultiply from "./file-multiply";
@@ -430,12 +430,12 @@ import FolderCheck2 from "./folder-check2";
 import FolderCheck from "./folder-check";
 import FolderEdit2 from "./folder-edit2";
 import FolderEdit from "./folder-edit";
-import FolderExclamationMarkCopy from "./folder-exclamation-mark-copy";
-import FolderExclamationMark2Copy from "./folder-exclamation-mark2-copy";
 import FolderExclamationMark2 from "./folder-exclamation-mark2";
 import FolderExclamationMark from "./folder-exclamation-mark";
 import FolderHeart2 from "./folder-heart2";
 import FolderHeart from "./folder-heart";
+import FolderInfo2 from "./folder-info2";
+import FolderInfo from "./folder-info";
 import FolderInvisible2 from "./folder-invisible2";
 import FolderInvisible from "./folder-invisible";
 import FolderMultiply2 from "./folder-multiply2";
@@ -469,7 +469,6 @@ import Image from "./image";
 import InfoFat from "./info-fat";
 import InfoL from "./info-l";
 import InfoM from "./info-m";
-import InfoSCopy from "./info-s-copy";
 import InfoS from "./info-s";
 import InvisibleFat from "./invisible-fat";
 import InvisibleL from "./invisible-l";
@@ -491,12 +490,12 @@ import NoteCheck2 from "./note-check2";
 import NoteCheck from "./note-check";
 import NoteEdit2 from "./note-edit2";
 import NoteEdit from "./note-edit";
-import NoteExclamationMarkCopy from "./note-exclamation-mark-copy";
-import NoteExclamationMark2Copy from "./note-exclamation-mark2-copy";
 import NoteExclamationMark2 from "./note-exclamation-mark2";
 import NoteExclamationMark from "./note-exclamation-mark";
 import NoteHeart2 from "./note-heart2";
 import NoteHeart from "./note-heart";
+import NoteInfo2 from "./note-info2";
+import NoteInfo from "./note-info";
 import NoteInvisible2 from "./note-invisible2";
 import NoteInvisible from "./note-invisible";
 import NoteMultiply2 from "./note-multiply2";
@@ -526,6 +525,7 @@ import PlaybackStop from "./playback-stop";
 import QuestionMarkFat from "./question-mark-fat";
 import QuestionMarkL from "./question-mark-l";
 import QuestionMarkM from "./question-mark-m";
+import QuestionMarkS from "./question-mark-s";
 import RemoveLines from "./remove-lines";
 import SearchFat from "./search-fat";
 import SearchL from "./search-l";
@@ -545,9 +545,9 @@ import SquaredAdd from "./squared-add";
 import SquaredBrokenHeart from "./squared-broken-heart";
 import SquaredCheck from "./squared-check";
 import SquaredEdit from "./squared-edit";
-import SquaredExclamationMarkCopy from "./squared-exclamation-mark-copy";
 import SquaredExclamationMark from "./squared-exclamation-mark";
 import SquaredHeart from "./squared-heart";
+import SquaredInfo from "./squared-info";
 import SquaredInvisible from "./squared-invisible";
 import SquaredMultiply from "./squared-multiply";
 import SquaredQuestionMark from "./squared-question-mark";
@@ -571,10 +571,10 @@ import TalkAdd from "./talk-add";
 import TalkCheck from "./talk-check";
 import TalkDelete from "./talk-delete";
 import TalkEdit from "./talk-edit";
-import TalkExclamationMarkCopy from "./talk-exclamation-mark-copy";
 import TalkExclamationMark from "./talk-exclamation-mark";
 import TalkHeartBroken from "./talk-heart-broken";
 import TalkHeart from "./talk-heart";
+import TalkInfo from "./talk-info";
 import TalkInvisible from "./talk-invisible";
 import TalkQuestionMark from "./talk-question-mark";
 import TalkSearch from "./talk-search";
@@ -1656,12 +1656,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.BUTTON_EDIT:
             return ButtonEdit;
     
-        case Icons.BUTTON_EXCLAMATION_MARK_COPY:
-            return ButtonExclamationMarkCopy;
-    
-        case Icons.BUTTON_EXCLAMATION_MARK2_COPY:
-            return ButtonExclamationMark2Copy;
-    
         case Icons.BUTTON_EXCLAMATION_MARK2:
             return ButtonExclamationMark2;
     
@@ -1673,6 +1667,12 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.BUTTON_HEART:
             return ButtonHeart;
+    
+        case Icons.BUTTON_INFO2:
+            return ButtonInfo2;
+    
+        case Icons.BUTTON_INFO:
+            return ButtonInfo;
     
         case Icons.BUTTON_INVISIBLE2:
             return ButtonInvisible2;
@@ -1746,14 +1746,14 @@ export const getIcon = (icon: Icons) => {
         case Icons.CIRCLED_EDIT:
             return CircledEdit;
     
-        case Icons.CIRCLED_EXCLAMATION_MARK_COPY:
-            return CircledExclamationMarkCopy;
-    
         case Icons.CIRCLED_EXCLAMATION_MARK:
             return CircledExclamationMark;
     
         case Icons.CIRCLED_HEART:
             return CircledHeart;
+    
+        case Icons.CIRCLED_INFO:
+            return CircledInfo;
     
         case Icons.CIRCLED_MULTIPLY:
             return CircledMultiply;
@@ -1875,12 +1875,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.FILE_EDIT:
             return FileEdit;
     
-        case Icons.FILE_EXCLAMATION_MARK_COPY:
-            return FileExclamationMarkCopy;
-    
-        case Icons.FILE_EXCLAMATION_MARK2_COPY:
-            return FileExclamationMark2Copy;
-    
         case Icons.FILE_EXCLAMATION_MARK2:
             return FileExclamationMark2;
     
@@ -1895,6 +1889,12 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.FILE_HEART:
             return FileHeart;
+    
+        case Icons.FILE_INFO2:
+            return FileInfo2;
+    
+        case Icons.FILE_INFO:
+            return FileInfo;
     
         case Icons.FILE_INVISIBLE2:
             return FileInvisible2;
@@ -1965,12 +1965,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.FOLDER_EDIT:
             return FolderEdit;
     
-        case Icons.FOLDER_EXCLAMATION_MARK_COPY:
-            return FolderExclamationMarkCopy;
-    
-        case Icons.FOLDER_EXCLAMATION_MARK2_COPY:
-            return FolderExclamationMark2Copy;
-    
         case Icons.FOLDER_EXCLAMATION_MARK2:
             return FolderExclamationMark2;
     
@@ -1982,6 +1976,12 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.FOLDER_HEART:
             return FolderHeart;
+    
+        case Icons.FOLDER_INFO2:
+            return FolderInfo2;
+    
+        case Icons.FOLDER_INFO:
+            return FolderInfo;
     
         case Icons.FOLDER_INVISIBLE2:
             return FolderInvisible2;
@@ -2082,9 +2082,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.INFO_M:
             return InfoM;
     
-        case Icons.INFO_S_COPY:
-            return InfoSCopy;
-    
         case Icons.INFO_S:
             return InfoS;
     
@@ -2148,12 +2145,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.NOTE_EDIT:
             return NoteEdit;
     
-        case Icons.NOTE_EXCLAMATION_MARK_COPY:
-            return NoteExclamationMarkCopy;
-    
-        case Icons.NOTE_EXCLAMATION_MARK2_COPY:
-            return NoteExclamationMark2Copy;
-    
         case Icons.NOTE_EXCLAMATION_MARK2:
             return NoteExclamationMark2;
     
@@ -2165,6 +2156,12 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.NOTE_HEART:
             return NoteHeart;
+    
+        case Icons.NOTE_INFO2:
+            return NoteInfo2;
+    
+        case Icons.NOTE_INFO:
+            return NoteInfo;
     
         case Icons.NOTE_INVISIBLE2:
             return NoteInvisible2;
@@ -2253,6 +2250,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.QUESTION_MARK_M:
             return QuestionMarkM;
     
+        case Icons.QUESTION_MARK_S:
+            return QuestionMarkS;
+    
         case Icons.REMOVE_LINES:
             return RemoveLines;
     
@@ -2310,14 +2310,14 @@ export const getIcon = (icon: Icons) => {
         case Icons.SQUARED_EDIT:
             return SquaredEdit;
     
-        case Icons.SQUARED_EXCLAMATION_MARK_COPY:
-            return SquaredExclamationMarkCopy;
-    
         case Icons.SQUARED_EXCLAMATION_MARK:
             return SquaredExclamationMark;
     
         case Icons.SQUARED_HEART:
             return SquaredHeart;
+    
+        case Icons.SQUARED_INFO:
+            return SquaredInfo;
     
         case Icons.SQUARED_INVISIBLE:
             return SquaredInvisible;
@@ -2388,9 +2388,6 @@ export const getIcon = (icon: Icons) => {
         case Icons.TALK_EDIT:
             return TalkEdit;
     
-        case Icons.TALK_EXCLAMATION_MARK_COPY:
-            return TalkExclamationMarkCopy;
-    
         case Icons.TALK_EXCLAMATION_MARK:
             return TalkExclamationMark;
     
@@ -2399,6 +2396,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.TALK_HEART:
             return TalkHeart;
+    
+        case Icons.TALK_INFO:
+            return TalkInfo;
     
         case Icons.TALK_INVISIBLE:
             return TalkInvisible;
@@ -3082,12 +3082,12 @@ export {
     ButtonCheck,
     ButtonEdit2,
     ButtonEdit,
-    ButtonExclamationMarkCopy,
-    ButtonExclamationMark2Copy,
     ButtonExclamationMark2,
     ButtonExclamationMark,
     ButtonHeart2,
     ButtonHeart,
+    ButtonInfo2,
+    ButtonInfo,
     ButtonInvisible2,
     ButtonInvisible,
     ButtonMultiply,
@@ -3112,9 +3112,9 @@ export {
     CircledBrokenHeart,
     CircledCheck,
     CircledEdit,
-    CircledExclamationMarkCopy,
     CircledExclamationMark,
     CircledHeart,
+    CircledInfo,
     CircledMultiply,
     CircledQuestionMark,
     CircledSearch,
@@ -3155,13 +3155,13 @@ export {
     FileColumns,
     FileEdit2,
     FileEdit,
-    FileExclamationMarkCopy,
-    FileExclamationMark2Copy,
     FileExclamationMark2,
     FileExclamationMark,
     FileGraphs,
     FileHeart2,
     FileHeart,
+    FileInfo2,
+    FileInfo,
     FileInvisible2,
     FileInvisible,
     FileMultiply,
@@ -3185,12 +3185,12 @@ export {
     FolderCheck,
     FolderEdit2,
     FolderEdit,
-    FolderExclamationMarkCopy,
-    FolderExclamationMark2Copy,
     FolderExclamationMark2,
     FolderExclamationMark,
     FolderHeart2,
     FolderHeart,
+    FolderInfo2,
+    FolderInfo,
     FolderInvisible2,
     FolderInvisible,
     FolderMultiply2,
@@ -3224,7 +3224,6 @@ export {
     InfoFat,
     InfoL,
     InfoM,
-    InfoSCopy,
     InfoS,
     InvisibleFat,
     InvisibleL,
@@ -3246,12 +3245,12 @@ export {
     NoteCheck,
     NoteEdit2,
     NoteEdit,
-    NoteExclamationMarkCopy,
-    NoteExclamationMark2Copy,
     NoteExclamationMark2,
     NoteExclamationMark,
     NoteHeart2,
     NoteHeart,
+    NoteInfo2,
+    NoteInfo,
     NoteInvisible2,
     NoteInvisible,
     NoteMultiply2,
@@ -3281,6 +3280,7 @@ export {
     QuestionMarkFat,
     QuestionMarkL,
     QuestionMarkM,
+    QuestionMarkS,
     RemoveLines,
     SearchFat,
     SearchL,
@@ -3300,9 +3300,9 @@ export {
     SquaredBrokenHeart,
     SquaredCheck,
     SquaredEdit,
-    SquaredExclamationMarkCopy,
     SquaredExclamationMark,
     SquaredHeart,
+    SquaredInfo,
     SquaredInvisible,
     SquaredMultiply,
     SquaredQuestionMark,
@@ -3326,10 +3326,10 @@ export {
     TalkCheck,
     TalkDelete,
     TalkEdit,
-    TalkExclamationMarkCopy,
     TalkExclamationMark,
     TalkHeartBroken,
     TalkHeart,
+    TalkInfo,
     TalkInvisible,
     TalkQuestionMark,
     TalkSearch,

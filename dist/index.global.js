@@ -326,12 +326,12 @@
     BUTTON_CHECK: "button-check",
     BUTTON_EDIT2: "button-edit2",
     BUTTON_EDIT: "button-edit",
-    BUTTON_EXCLAMATION_MARK_COPY: "button-exclamation-mark-copy",
-    BUTTON_EXCLAMATION_MARK2_COPY: "button-exclamation-mark2-copy",
     BUTTON_EXCLAMATION_MARK2: "button-exclamation-mark2",
     BUTTON_EXCLAMATION_MARK: "button-exclamation-mark",
     BUTTON_HEART2: "button-heart2",
     BUTTON_HEART: "button-heart",
+    BUTTON_INFO2: "button-info2",
+    BUTTON_INFO: "button-info",
     BUTTON_INVISIBLE2: "button-invisible2",
     BUTTON_INVISIBLE: "button-invisible",
     BUTTON_MULTIPLY: "button-multiply",
@@ -356,9 +356,9 @@
     CIRCLED_BROKEN_HEART: "circled-broken-heart",
     CIRCLED_CHECK: "circled-check",
     CIRCLED_EDIT: "circled-edit",
-    CIRCLED_EXCLAMATION_MARK_COPY: "circled-exclamation-mark-copy",
     CIRCLED_EXCLAMATION_MARK: "circled-exclamation-mark",
     CIRCLED_HEART: "circled-heart",
+    CIRCLED_INFO: "circled-info",
     CIRCLED_MULTIPLY: "circled-multiply",
     CIRCLED_QUESTION_MARK: "circled-question-mark",
     CIRCLED_SEARCH: "circled-search",
@@ -399,13 +399,13 @@
     FILE_COLUMNS: "file-columns",
     FILE_EDIT2: "file-edit2",
     FILE_EDIT: "file-edit",
-    FILE_EXCLAMATION_MARK_COPY: "file-exclamation-mark-copy",
-    FILE_EXCLAMATION_MARK2_COPY: "file-exclamation-mark2-copy",
     FILE_EXCLAMATION_MARK2: "file-exclamation-mark2",
     FILE_EXCLAMATION_MARK: "file-exclamation-mark",
     FILE_GRAPHS: "file-graphs",
     FILE_HEART2: "file-heart2",
     FILE_HEART: "file-heart",
+    FILE_INFO2: "file-info2",
+    FILE_INFO: "file-info",
     FILE_INVISIBLE2: "file-invisible2",
     FILE_INVISIBLE: "file-invisible",
     FILE_MULTIPLY: "file-multiply",
@@ -429,12 +429,12 @@
     FOLDER_CHECK: "folder-check",
     FOLDER_EDIT2: "folder-edit2",
     FOLDER_EDIT: "folder-edit",
-    FOLDER_EXCLAMATION_MARK_COPY: "folder-exclamation-mark-copy",
-    FOLDER_EXCLAMATION_MARK2_COPY: "folder-exclamation-mark2-copy",
     FOLDER_EXCLAMATION_MARK2: "folder-exclamation-mark2",
     FOLDER_EXCLAMATION_MARK: "folder-exclamation-mark",
     FOLDER_HEART2: "folder-heart2",
     FOLDER_HEART: "folder-heart",
+    FOLDER_INFO2: "folder-info2",
+    FOLDER_INFO: "folder-info",
     FOLDER_INVISIBLE2: "folder-invisible2",
     FOLDER_INVISIBLE: "folder-invisible",
     FOLDER_MULTIPLY2: "folder-multiply2",
@@ -468,7 +468,6 @@
     INFO_FAT: "info-fat",
     INFO_L: "info-l",
     INFO_M: "info-m",
-    INFO_S_COPY: "info-s-copy",
     INFO_S: "info-s",
     INVISIBLE_FAT: "invisible-fat",
     INVISIBLE_L: "invisible-l",
@@ -490,12 +489,12 @@
     NOTE_CHECK: "note-check",
     NOTE_EDIT2: "note-edit2",
     NOTE_EDIT: "note-edit",
-    NOTE_EXCLAMATION_MARK_COPY: "note-exclamation-mark-copy",
-    NOTE_EXCLAMATION_MARK2_COPY: "note-exclamation-mark2-copy",
     NOTE_EXCLAMATION_MARK2: "note-exclamation-mark2",
     NOTE_EXCLAMATION_MARK: "note-exclamation-mark",
     NOTE_HEART2: "note-heart2",
     NOTE_HEART: "note-heart",
+    NOTE_INFO2: "note-info2",
+    NOTE_INFO: "note-info",
     NOTE_INVISIBLE2: "note-invisible2",
     NOTE_INVISIBLE: "note-invisible",
     NOTE_MULTIPLY2: "note-multiply2",
@@ -525,6 +524,7 @@
     QUESTION_MARK_FAT: "question-mark-fat",
     QUESTION_MARK_L: "question-mark-l",
     QUESTION_MARK_M: "question-mark-m",
+    QUESTION_MARK_S: "question-mark-s",
     REMOVE_LINES: "remove-lines",
     SEARCH_FAT: "search-fat",
     SEARCH_L: "search-l",
@@ -544,9 +544,9 @@
     SQUARED_BROKEN_HEART: "squared-broken-heart",
     SQUARED_CHECK: "squared-check",
     SQUARED_EDIT: "squared-edit",
-    SQUARED_EXCLAMATION_MARK_COPY: "squared-exclamation-mark-copy",
     SQUARED_EXCLAMATION_MARK: "squared-exclamation-mark",
     SQUARED_HEART: "squared-heart",
+    SQUARED_INFO: "squared-info",
     SQUARED_INVISIBLE: "squared-invisible",
     SQUARED_MULTIPLY: "squared-multiply",
     SQUARED_QUESTION_MARK: "squared-question-mark",
@@ -570,10 +570,10 @@
     TALK_CHECK: "talk-check",
     TALK_DELETE: "talk-delete",
     TALK_EDIT: "talk-edit",
-    TALK_EXCLAMATION_MARK_COPY: "talk-exclamation-mark-copy",
     TALK_EXCLAMATION_MARK: "talk-exclamation-mark",
     TALK_HEART_BROKEN: "talk-heart-broken",
     TALK_HEART: "talk-heart",
+    TALK_INFO: "talk-info",
     TALK_INVISIBLE: "talk-invisible",
     TALK_QUESTION_MARK: "talk-question-mark",
     TALK_SEARCH: "talk-search",
@@ -1997,14 +1997,6 @@
   var IconButtonEdit = `<svg id="ButtonEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,32.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.63" y1="21.22" x2="46.28" y2="28.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="32.84" x2="34.66" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var button_edit_default = IconButtonEdit;
 
-  // lib/button-exclamation-mark-copy.ts
-  var IconButtonExclamationMarkCopy = `<svg id="ButtonExclamationMarkCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 45 36 31.5 31.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var button_exclamation_mark_copy_default = IconButtonExclamationMarkCopy;
-
-  // lib/button-exclamation-mark2-copy.ts
-  var IconButtonExclamationMark2Copy = `<svg id="ButtonExclamationMark2Copy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5v12c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6v-24c0-3.31,2.69-6,6-6h12" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,31.5v21c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6V19.5c0-3.31,2.69-6,6-6h16.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 31.5 49.5 18 45 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="9" x2="49.5" y2="9" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var button_exclamation_mark2_copy_default = IconButtonExclamationMark2Copy;
-
   // lib/button-exclamation-mark2.ts
   var IconButtonExclamationMark2 = `<svg id="ButtonExclamationMark2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5v12c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6v-24c0-3.31,2.69-6,6-6h12" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,31.5v21c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6V19.5c0-3.31,2.69-6,6-6h12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="45" y1="9" x2="45" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="31.5" x2="45" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var button_exclamation_mark2_default = IconButtonExclamationMark2;
@@ -2020,6 +2012,14 @@
   // lib/button-heart.ts
   var IconButtonHeart = `<svg id="ButtonHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,43c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var button_heart_default = IconButtonHeart;
+
+  // lib/button-info2.ts
+  var IconButtonInfo2 = `<svg id="ButtonInfo2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5v12c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6v-24c0-3.31,2.69-6,6-6h12" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,31.5v21c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6V19.5c0-3.31,2.69-6,6-6h16.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 31.5 49.5 18 45 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="9" x2="49.5" y2="9" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var button_info2_default = IconButtonInfo2;
+
+  // lib/button-info.ts
+  var IconButtonInfo = `<svg id="ButtonInfo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 45 36 31.5 31.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var button_info_default = IconButtonInfo;
 
   // lib/button-invisible2.ts
   var IconButtonInvisible2 = `<svg id="ButtonInvisible2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5v12c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6v-24c0-3.31,2.69-6,6-6h12" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,31.5v21c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6V19.5c0-3.31,2.69-6,6-6h12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,18s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="9" x2="36" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2117,10 +2117,6 @@
   var IconCircledEdit = `<svg id="CircledEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,37.34l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.63" y1="25.72" x2="46.28" y2="33.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="37.34" x2="34.66" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var circled_edit_default = IconCircledEdit;
 
-  // lib/circled-exclamation-mark-copy.ts
-  var IconCircledExclamationMarkCopy = `<svg id="CircledExclamationMarkCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 49.5 36 36 31.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var circled_exclamation_mark_copy_default = IconCircledExclamationMarkCopy;
-
   // lib/circled-exclamation-mark.ts
   var IconCircledExclamationMark = `<svg id="CircledExclamationMark" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="36" y1="24.75" x2="36" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="47.25" x2="36" y2="47.25" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var circled_exclamation_mark_default = IconCircledExclamationMark;
@@ -2128,6 +2124,10 @@
   // lib/circled-heart.ts
   var IconCircledHeart = `<svg id="CircledHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,49.5c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var circled_heart_default = IconCircledHeart;
+
+  // lib/circled-info.ts
+  var IconCircledInfo = `<svg id="CircledInfo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 49.5 36 36 31.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var circled_info_default = IconCircledInfo;
 
   // lib/circled-multiply.ts
   var IconCircledMultiply = `<svg id="CircledMultiply" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="29.64" y1="29.64" x2="42.36" y2="42.36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.36" y1="29.64" x2="29.64" y2="42.36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2289,14 +2289,6 @@
   var IconFileEdit = `<svg id="FileEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,46.34l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="34.72" x2="41.78" y2="42.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="46.34" x2="30.16" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_edit_default = IconFileEdit;
 
-  // lib/file-exclamation-mark-copy.ts
-  var IconFileExclamationMarkCopy = `<svg id="FileExclamationMarkCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 54 36 40.5 31.5 40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var file_exclamation_mark_copy_default = IconFileExclamationMarkCopy;
-
-  // lib/file-exclamation-mark2-copy.ts
-  var IconFileExclamationMark2Copy = `<svg id="FileExclamationMark2Copy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,40.5v-13.5l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 67.5 49.5 54 45 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var file_exclamation_mark2_copy_default = IconFileExclamationMark2Copy;
-
   // lib/file-exclamation-mark2.ts
   var IconFileExclamationMark2 = `<svg id="FileExclamationMark2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,40.5v-13.5l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="49.5" y1="40.5" x2="49.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="63" x2="49.5" y2="63" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var file_exclamation_mark2_default = IconFileExclamationMark2;
@@ -2316,6 +2308,14 @@
   // lib/file-heart.ts
   var IconFileHeart = `<svg id="FileHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,56c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var file_heart_default = IconFileHeart;
+
+  // lib/file-info2.ts
+  var IconFileInfo2 = `<svg id="FileInfo2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,40.5v-13.5l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 67.5 49.5 54 45 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var file_info2_default = IconFileInfo2;
+
+  // lib/file-info.ts
+  var IconFileInfo = `<svg id="FileInfo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 54 36 40.5 31.5 40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var file_info_default = IconFileInfo;
 
   // lib/file-invisible2.ts
   var IconFileInvisible2 = `<svg id="FileInvisible2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,58.5s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="67.5" y1="49.5" x2="40.5" y2="67.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2409,14 +2409,6 @@
   var IconFolderEdit = `<svg id="FolderEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,41.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="30.22" x2="41.78" y2="37.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="41.84" x2="30.16" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var folder_edit_default = IconFolderEdit;
 
-  // lib/folder-exclamation-mark-copy.ts
-  var IconFolderExclamationMarkCopy = `<svg id="FolderExclamationMarkCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 54 36 40.5 31.5 40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var folder_exclamation_mark_copy_default = IconFolderExclamationMarkCopy;
-
-  // lib/folder-exclamation-mark2-copy.ts
-  var IconFolderExclamationMark2Copy = `<svg id="FolderExclamationMark2Copy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="31.5" x2="58.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,36v-9.5c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 63 49.5 49.5 45 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var folder_exclamation_mark2_copy_default = IconFolderExclamationMark2Copy;
-
   // lib/folder-exclamation-mark2.ts
   var IconFolderExclamationMark2 = `<svg id="FolderExclamationMark2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="31.5" x2="58.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,36v-9.5c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="49.5" y1="40.5" x2="49.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="58.5" x2="49.5" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var folder_exclamation_mark2_default = IconFolderExclamationMark2;
@@ -2432,6 +2424,14 @@
   // lib/folder-heart.ts
   var IconFolderHeart = `<svg id="FolderHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,53c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var folder_heart_default = IconFolderHeart;
+
+  // lib/folder-info2.ts
+  var IconFolderInfo2 = `<svg id="FolderInfo2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="31.5" x2="58.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,36v-9.5c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 63 49.5 49.5 45 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var folder_info2_default = IconFolderInfo2;
+
+  // lib/folder-info.ts
+  var IconFolderInfo = `<svg id="FolderInfo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 54 36 40.5 31.5 40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var folder_info_default = IconFolderInfo;
 
   // lib/folder-invisible2.ts
   var IconFolderInvisible2 = `<svg id="FolderInvisible2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="13.5" y1="31.5" x2="58.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,40.5v-14c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,54s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="67.5" y1="45" x2="40.5" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2565,10 +2565,6 @@
   var IconInfoM = `<svg id="InfoM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 54 36 31.5 31.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var info_m_default = IconInfoM;
 
-  // lib/info-s-copy.ts
-  var IconInfoSCopy = `<svg id="InfoSCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="49.5" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30,33c0-3.31,2.69-6,6-6s6,2.69,6,6c0,6-6,6-6,12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-  var info_s_copy_default = IconInfoSCopy;
-
   // lib/info-s.ts
   var IconInfoS = `<svg id="InfoS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 49.5 36 31.5 31.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var info_s_default = IconInfoS;
@@ -2653,14 +2649,6 @@
   var IconNoteEdit = `<svg id="NoteEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,41.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="30.22" x2="41.78" y2="37.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="41.84" x2="30.16" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var note_edit_default = IconNoteEdit;
 
-  // lib/note-exclamation-mark-copy.ts
-  var IconNoteExclamationMarkCopy = `<svg id="NoteExclamationMarkCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 49.5 36 36 31.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var note_exclamation_mark_copy_default = IconNoteExclamationMarkCopy;
-
-  // lib/note-exclamation-mark2-copy.ts
-  var IconNoteExclamationMark2Copy = `<svg id="NoteExclamationMark2Copy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M58.5,36v-18.5c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,36v-18.5c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 63 49.5 49.5 45 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var note_exclamation_mark2_copy_default = IconNoteExclamationMark2Copy;
-
   // lib/note-exclamation-mark2.ts
   var IconNoteExclamationMark2 = `<svg id="NoteExclamationMark2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M58.5,36v-18.5c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,36v-18.5c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="49.5" y1="40.5" x2="49.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="63" x2="49.5" y2="63" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var note_exclamation_mark2_default = IconNoteExclamationMark2;
@@ -2676,6 +2664,14 @@
   // lib/note-heart.ts
   var IconNoteHeart = `<svg id="NoteHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,49.5c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var note_heart_default = IconNoteHeart;
+
+  // lib/note-info2.ts
+  var IconNoteInfo2 = `<svg id="NoteInfo2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M58.5,36v-18.5c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,36v-18.5c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="49.5 63 49.5 49.5 45 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var note_info2_default = IconNoteInfo2;
+
+  // lib/note-info.ts
+  var IconNoteInfo = `<svg id="NoteInfo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 49.5 36 36 31.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var note_info_default = IconNoteInfo;
 
   // lib/note-invisible2.ts
   var IconNoteInvisible2 = `<svg id="NoteInvisible2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M58.5,41.5v-24c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,41.5v-24c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,54s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="67.5" y1="45" x2="40.5" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2793,6 +2789,10 @@
   var IconQuestionMarkM = `<svg id="QuestionMarkM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="54" x2="36" y2="54" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M28.5,30c0-4.14,3.36-7.5,7.5-7.5s7.5,3.36,7.5,7.5c0,7.5-7.5,7.5-7.5,15" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var question_mark_m_default = IconQuestionMarkM;
 
+  // lib/question-mark-s.ts
+  var IconQuestionMarkS = `<svg id="QuestionMarkS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="49.5" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30,33c0-3.31,2.69-6,6-6s6,2.69,6,6c0,6-6,6-6,12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+  var question_mark_s_default = IconQuestionMarkS;
+
   // lib/remove-lines.ts
   var IconRemoveLines = `<svg id="RemoveLines" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="54" x2="40.5" y2="54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="30" x2="13.5" y2="30" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="42" x2="40.5" y2="42" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.64" y1="55.86" x2="60.36" y2="43.14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.64" y1="43.14" x2="60.36" y2="55.86" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var remove_lines_default = IconRemoveLines;
@@ -2869,10 +2869,6 @@
   var IconSquaredEdit = `<svg id="SquaredEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,41.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="30.22" x2="41.78" y2="37.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="41.84" x2="30.16" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var squared_edit_default = IconSquaredEdit;
 
-  // lib/squared-exclamation-mark-copy.ts
-  var IconSquaredExclamationMarkCopy = `<svg id="SquaredExclamationMarkCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 49.5 36 36 31.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var squared_exclamation_mark_copy_default = IconSquaredExclamationMarkCopy;
-
   // lib/squared-exclamation-mark.ts
   var IconSquaredExclamationMark = `<svg id="SquaredExclamationMark" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="36" y1="24.75" x2="36" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="47.25" x2="36" y2="47.25" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var squared_exclamation_mark_default = IconSquaredExclamationMark;
@@ -2880,6 +2876,10 @@
   // lib/squared-heart.ts
   var IconSquaredHeart = `<svg id="SquaredHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,49.5c-23.38-12.24-11.69-30.85,0-18.36,11.69-12.48,23.38,6.12,0,18.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var squared_heart_default = IconSquaredHeart;
+
+  // lib/squared-info.ts
+  var IconSquaredInfo = `<svg id="SquaredInfo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 49.5 36 36 31.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var squared_info_default = IconSquaredInfo;
 
   // lib/squared-invisible.ts
   var IconSquaredInvisible = `<svg id="SquaredInvisible" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="27" x2="22.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2973,10 +2973,6 @@
   var IconTalkEdit = `<svg id="TalkEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M26.11,35.09l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="37.74" y1="23.47" x2="45.39" y2="31.12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="26.11" y1="35.09" x2="33.77" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var talk_edit_default = IconTalkEdit;
 
-  // lib/talk-exclamation-mark-copy.ts
-  var IconTalkExclamationMarkCopy = `<svg id="TalkExclamationMarkCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 45 36 31.5 31.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-  var talk_exclamation_mark_copy_default = IconTalkExclamationMarkCopy;
-
   // lib/talk-exclamation-mark.ts
   var IconTalkExclamationMark = `<svg id="TalkExclamationMark" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="36" y1="22.5" x2="36" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="40.5" x2="36" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
   var talk_exclamation_mark_default = IconTalkExclamationMark;
@@ -2988,6 +2984,10 @@
   // lib/talk-heart.ts
   var IconTalkHeart = `<svg id="TalkHeart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,40.47c-18.67-9.78-9.34-24.63,0-14.67,9.34-9.97,18.67,4.89,0,14.67Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
   var talk_heart_default = IconTalkHeart;
+
+  // lib/talk-info.ts
+  var IconTalkInfo = `<svg id="TalkInfo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="36 45 36 31.5 31.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+  var talk_info_default = IconTalkInfo;
 
   // lib/talk-invisible.ts
   var IconTalkInvisible = `<svg id="TalkInvisible" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M49.5,31.5s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="22.5" x2="22.5" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -4050,10 +4050,6 @@
         return button_edit2_default;
       case Icons.BUTTON_EDIT:
         return button_edit_default;
-      case Icons.BUTTON_EXCLAMATION_MARK_COPY:
-        return button_exclamation_mark_copy_default;
-      case Icons.BUTTON_EXCLAMATION_MARK2_COPY:
-        return button_exclamation_mark2_copy_default;
       case Icons.BUTTON_EXCLAMATION_MARK2:
         return button_exclamation_mark2_default;
       case Icons.BUTTON_EXCLAMATION_MARK:
@@ -4062,6 +4058,10 @@
         return button_heart2_default;
       case Icons.BUTTON_HEART:
         return button_heart_default;
+      case Icons.BUTTON_INFO2:
+        return button_info2_default;
+      case Icons.BUTTON_INFO:
+        return button_info_default;
       case Icons.BUTTON_INVISIBLE2:
         return button_invisible2_default;
       case Icons.BUTTON_INVISIBLE:
@@ -4110,12 +4110,12 @@
         return circled_check_default;
       case Icons.CIRCLED_EDIT:
         return circled_edit_default;
-      case Icons.CIRCLED_EXCLAMATION_MARK_COPY:
-        return circled_exclamation_mark_copy_default;
       case Icons.CIRCLED_EXCLAMATION_MARK:
         return circled_exclamation_mark_default;
       case Icons.CIRCLED_HEART:
         return circled_heart_default;
+      case Icons.CIRCLED_INFO:
+        return circled_info_default;
       case Icons.CIRCLED_MULTIPLY:
         return circled_multiply_default;
       case Icons.CIRCLED_QUESTION_MARK:
@@ -4196,10 +4196,6 @@
         return file_edit2_default;
       case Icons.FILE_EDIT:
         return file_edit_default;
-      case Icons.FILE_EXCLAMATION_MARK_COPY:
-        return file_exclamation_mark_copy_default;
-      case Icons.FILE_EXCLAMATION_MARK2_COPY:
-        return file_exclamation_mark2_copy_default;
       case Icons.FILE_EXCLAMATION_MARK2:
         return file_exclamation_mark2_default;
       case Icons.FILE_EXCLAMATION_MARK:
@@ -4210,6 +4206,10 @@
         return file_heart2_default;
       case Icons.FILE_HEART:
         return file_heart_default;
+      case Icons.FILE_INFO2:
+        return file_info2_default;
+      case Icons.FILE_INFO:
+        return file_info_default;
       case Icons.FILE_INVISIBLE2:
         return file_invisible2_default;
       case Icons.FILE_INVISIBLE:
@@ -4256,10 +4256,6 @@
         return folder_edit2_default;
       case Icons.FOLDER_EDIT:
         return folder_edit_default;
-      case Icons.FOLDER_EXCLAMATION_MARK_COPY:
-        return folder_exclamation_mark_copy_default;
-      case Icons.FOLDER_EXCLAMATION_MARK2_COPY:
-        return folder_exclamation_mark2_copy_default;
       case Icons.FOLDER_EXCLAMATION_MARK2:
         return folder_exclamation_mark2_default;
       case Icons.FOLDER_EXCLAMATION_MARK:
@@ -4268,6 +4264,10 @@
         return folder_heart2_default;
       case Icons.FOLDER_HEART:
         return folder_heart_default;
+      case Icons.FOLDER_INFO2:
+        return folder_info2_default;
+      case Icons.FOLDER_INFO:
+        return folder_info_default;
       case Icons.FOLDER_INVISIBLE2:
         return folder_invisible2_default;
       case Icons.FOLDER_INVISIBLE:
@@ -4334,8 +4334,6 @@
         return info_l_default;
       case Icons.INFO_M:
         return info_m_default;
-      case Icons.INFO_S_COPY:
-        return info_s_copy_default;
       case Icons.INFO_S:
         return info_s_default;
       case Icons.INVISIBLE_FAT:
@@ -4378,10 +4376,6 @@
         return note_edit2_default;
       case Icons.NOTE_EDIT:
         return note_edit_default;
-      case Icons.NOTE_EXCLAMATION_MARK_COPY:
-        return note_exclamation_mark_copy_default;
-      case Icons.NOTE_EXCLAMATION_MARK2_COPY:
-        return note_exclamation_mark2_copy_default;
       case Icons.NOTE_EXCLAMATION_MARK2:
         return note_exclamation_mark2_default;
       case Icons.NOTE_EXCLAMATION_MARK:
@@ -4390,6 +4384,10 @@
         return note_heart2_default;
       case Icons.NOTE_HEART:
         return note_heart_default;
+      case Icons.NOTE_INFO2:
+        return note_info2_default;
+      case Icons.NOTE_INFO:
+        return note_info_default;
       case Icons.NOTE_INVISIBLE2:
         return note_invisible2_default;
       case Icons.NOTE_INVISIBLE:
@@ -4448,6 +4446,8 @@
         return question_mark_l_default;
       case Icons.QUESTION_MARK_M:
         return question_mark_m_default;
+      case Icons.QUESTION_MARK_S:
+        return question_mark_s_default;
       case Icons.REMOVE_LINES:
         return remove_lines_default;
       case Icons.SEARCH_FAT:
@@ -4486,12 +4486,12 @@
         return squared_check_default;
       case Icons.SQUARED_EDIT:
         return squared_edit_default;
-      case Icons.SQUARED_EXCLAMATION_MARK_COPY:
-        return squared_exclamation_mark_copy_default;
       case Icons.SQUARED_EXCLAMATION_MARK:
         return squared_exclamation_mark_default;
       case Icons.SQUARED_HEART:
         return squared_heart_default;
+      case Icons.SQUARED_INFO:
+        return squared_info_default;
       case Icons.SQUARED_INVISIBLE:
         return squared_invisible_default;
       case Icons.SQUARED_MULTIPLY:
@@ -4538,14 +4538,14 @@
         return talk_delete_default;
       case Icons.TALK_EDIT:
         return talk_edit_default;
-      case Icons.TALK_EXCLAMATION_MARK_COPY:
-        return talk_exclamation_mark_copy_default;
       case Icons.TALK_EXCLAMATION_MARK:
         return talk_exclamation_mark_default;
       case Icons.TALK_HEART_BROKEN:
         return talk_heart_broken_default;
       case Icons.TALK_HEART:
         return talk_heart_default;
+      case Icons.TALK_INFO:
+        return talk_info_default;
       case Icons.TALK_INVISIBLE:
         return talk_invisible_default;
       case Icons.TALK_QUESTION_MARK:

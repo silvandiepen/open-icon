@@ -1,6 +1,6 @@
 {
   "name": "open-icon",
-  "version": "1.0.0-alpha.0.15",
+  "version": "1.0.0-alpha.0.17",
   "description": "Open Icon",
   "main": "lib/icons/index.js",
   "exports": {
@@ -14,7 +14,7 @@
     "test": "npm run test",
     "build": "npm run build:icons && npm run build:lib && npm run build:dts",
     "build:lib": "tsup lib/index.ts  --format esm,cjs,iife",
-    "build:dts": "tsc",
+    "build:dts": "tsc ",
     "build:icons": "sh build/icon-components.sh"
   },
   "keywords": [
