@@ -162,6 +162,7 @@ __export(lib_exports, {
   ArrowUpLeft: () => arrow_up_left_default,
   ArrowUpRight: () => arrow_up_right_default,
   ArrowUpload: () => arrow_upload_default,
+  ArtSupplies: () => art_supplies_default,
   ArtworkFrame: () => artwork_frame_default,
   AtSign: () => at_sign_default,
   AudioWaves: () => audio_waves_default,
@@ -271,9 +272,12 @@ __export(lib_exports, {
   CleaningBucket: () => cleaning_bucket_default,
   CleaningSpray: () => cleaning_spray_default,
   Clipboard: () => clipboard_default,
+  Clock: () => clock_default,
   Closet: () => closet_default,
   Cloud: () => cloud_default,
   CloudRain: () => cloud_rain_default,
+  CloudRainCopy: () => cloud_rain_copy_default,
+  CloudRainCopy2: () => cloud_rain_copy2_default,
   CloudSun: () => cloud_sun_default,
   CloudThermometer: () => cloud_thermometer_default,
   CodeBrackets: () => code_brackets_default,
@@ -319,6 +323,7 @@ __export(lib_exports, {
   Dollar: () => dollar_default,
   EditFat: () => edit_fat_default,
   EditL: () => edit_l_default,
+  EditLine: () => edit_line_default,
   EditM: () => edit_m_default,
   EditS: () => edit_s_default,
   Education: () => education_default,
@@ -346,6 +351,7 @@ __export(lib_exports, {
   FileAdd: () => file_add_default,
   FileAdd267: () => file_add267_default,
   FileAdd269: () => file_add269_default,
+  FileArchive: () => file_archive_default,
   FileArrowUp: () => file_arrow_up_default,
   FileBinary: () => file_binary_default,
   FileBrokenHeart: () => file_broken_heart_default,
@@ -376,6 +382,8 @@ __export(lib_exports, {
   FileSubtract: () => file_subtract_default,
   FileSubtract2: () => file_subtract2_default,
   FileText: () => file_text_default,
+  FileTray: () => file_tray_default,
+  FileTrayStack: () => file_tray_stack_default,
   FileVisible: () => file_visible_default,
   FileVisible2: () => file_visible2_default,
   Filmroll: () => filmroll_default,
@@ -465,6 +473,7 @@ __export(lib_exports, {
   Leaf2: () => leaf2_default,
   Leaf3: () => leaf3_default,
   Leafs: () => leafs_default,
+  LightningFlash: () => lightning_flash_default,
   Like: () => like_default,
   Link: () => link_default,
   LiquidSoap: () => liquid_soap_default,
@@ -476,12 +485,14 @@ __export(lib_exports, {
   Mail: () => mail_default,
   MailOpen: () => mail_open_default,
   MaleSimplified: () => male_simplified_default,
+  Media: () => media_default,
   Metro: () => metro_default,
   Metro2: () => metro2_default,
   Microwave: () => microwave_default,
   Money: () => money_default,
   Moneybag: () => moneybag_default,
   Moon: () => moon_default,
+  MovingBlock: () => moving_block_default,
   MultiplyFat: () => multiply_fat_default,
   MultiplyL: () => multiply_l_default,
   MultiplyM: () => multiply_m_default,
@@ -545,6 +556,7 @@ __export(lib_exports, {
   QuestionMarkL: () => question_mark_l_default,
   QuestionMarkM: () => question_mark_m_default,
   QuestionMarkS: () => question_mark_s_default,
+  Record: () => record_default,
   Reels: () => reels_default,
   RemoveLines: () => remove_lines_default,
   RentalCar: () => rental_car_default,
@@ -590,6 +602,8 @@ __export(lib_exports, {
   StarL: () => star_l_default,
   StarM: () => star_m_default,
   StarSmall: () => star_small_default,
+  Sticker: () => sticker_default,
+  Stopwatch: () => stopwatch_default,
   Stove: () => stove_default,
   SubtractFat: () => subtract_fat_default,
   SubtractL: () => subtract_l_default,
@@ -653,8 +667,11 @@ __export(lib_exports, {
   ThreeDotsHorizontal: () => three_dots_horizontal_default,
   ThreeDotsLines: () => three_dots_lines_default,
   ThreeDotsVertical: () => three_dots_vertical_default,
+  Timer: () => timer_default,
   Train: () => train_default,
   TrainTrack: () => train_track_default,
+  Trash: () => trash_default,
+  Trash2: () => trash2_default,
   Tree: () => tree_default,
   Tree2: () => tree2_default,
   Tree3: () => tree3_default,
@@ -983,6 +1000,7 @@ var Icons = {
   ADD_LINES: "add-lines",
   ADD_M: "add-m",
   ADD_S: "add-s",
+  ART_SUPPLIES: "art-supplies",
   AT_SIGN: "at-sign",
   BOARD_ADD2: "board-add2",
   BOARD_MULTI2_HORIZONTAL: "board-multi2-horizontal",
@@ -1066,6 +1084,9 @@ var Icons = {
   CIRCLED_STAR: "circled-star",
   CIRCLED_VISIBLE: "circled-visible",
   CIRCLED: "circled",
+  CLOCK: "clock",
+  CLOUD_RAIN_COPY2: "cloud-rain-copy2",
+  CLOUD_RAIN_COPY: "cloud-rain-copy",
   CLOUD_RAIN: "cloud-rain",
   CLOUD_SUN: "cloud-sun",
   CLOUD_THERMOMETER: "cloud-thermometer",
@@ -1079,6 +1100,7 @@ var Icons = {
   DISLIKE: "dislike",
   EDIT_FAT: "edit-fat",
   EDIT_L: "edit-l",
+  EDIT_LINE: "edit-line",
   EDIT_M: "edit-m",
   EDIT_S: "edit-s",
   EXCLAMATION_MARK_FAT: "exclamation-mark-fat",
@@ -1089,6 +1111,7 @@ var Icons = {
   FILE_ADD267: "file-add267",
   FILE_ADD269: "file-add269",
   FILE_ADD: "file-add",
+  FILE_ARCHIVE: "file-archive",
   FILE_ARROW_UP: "file-arrow-up",
   FILE_BINARY: "file-binary",
   FILE_BROKEN_HEART2: "file-broken-heart2",
@@ -1119,6 +1142,8 @@ var Icons = {
   FILE_SUBTRACT2: "file-subtract2",
   FILE_SUBTRACT: "file-subtract",
   FILE_TEXT: "file-text",
+  FILE_TRAY_STACK: "file-tray-stack",
+  FILE_TRAY: "file-tray",
   FILE_VISIBLE2: "file-visible2",
   FILE_VISIBLE: "file-visible",
   FILE: "file",
@@ -1174,10 +1199,13 @@ var Icons = {
   INVISIBLE_L: "invisible-l",
   INVISIBLE_M: "invisible-m",
   INVISIBLE_S: "invisible-s",
+  LIGHTNING_FLASH: "lightning-flash",
   LIKE: "like",
   LINK: "link",
   MALE_SIMPLIFIED: "male-simplified",
+  MEDIA: "media",
   MOON: "moon",
+  MOVING_BLOCK: "moving-block",
   MULTIPLY_FAT: "multiply-fat",
   MULTIPLY_L: "multiply-l",
   MULTIPLY_M: "multiply-m",
@@ -1226,6 +1254,7 @@ var Icons = {
   QUESTION_MARK_L: "question-mark-l",
   QUESTION_MARK_M: "question-mark-m",
   QUESTION_MARK_S: "question-mark-s",
+  RECORD: "record",
   REMOVE_LINES: "remove-lines",
   SEARCH_FAT: "search-fat",
   SEARCH_L: "search-l",
@@ -1260,6 +1289,8 @@ var Icons = {
   STAR_L: "star-l",
   STAR_M: "star-m",
   STAR_SMALL: "star-small",
+  STICKER: "sticker",
+  STOPWATCH: "stopwatch",
   SUBTRACT_FAT: "subtract-fat",
   SUBTRACT_L: "subtract-l",
   SUBTRACT_M: "subtract-m",
@@ -1307,6 +1338,9 @@ var Icons = {
   THERMOMETER_COLD: "thermometer-cold",
   THERMOMETER_HOT: "thermometer-hot",
   THERMOMETER: "thermometer",
+  TIMER: "timer",
+  TRASH2: "trash2",
+  TRASH: "trash",
   TRIANGLED_EXCLAMATION_MARK: "triangled-exclamation-mark",
   TRIANGLED_INFO: "triangled-info",
   TRIANGLED_QUESTION_MARK: "triangled-question-mark",
@@ -2503,7 +2537,7 @@ var IconAccessibilityPerson = `<svg id="AccessibilityPerson" data-name="Layer 1"
 var accessibility_person_default = IconAccessibilityPerson;
 
 // lib/add-fat.ts
-var IconAddFat = `<svg id="AddFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="13.5" x2="36" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/><line x1="13.5" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/></svg>`;
+var IconAddFat = `<svg id="AddFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="13.5" x2="36" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="13.5" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
 var add_fat_default = IconAddFat;
 
 // lib/add-l.ts
@@ -2521,6 +2555,10 @@ var add_m_default = IconAddM;
 // lib/add-s.ts
 var IconAddS = `<svg id="AddS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="22.5" x2="36" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var add_s_default = IconAddS;
+
+// lib/art-supplies.ts
+var IconArtSupplies = `<svg id="ArtSupplies" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M46.06,37.08l15.87,15.87c.78.78.78,2.05,0,2.83l-9.79,9.79c-.78.78-2.05.78-2.83,0l-16.77-16.77" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M24.88,41.14L7.59,23.85c-.78-.78-.78-2.05,0-2.83l9.79-9.79c.78-.78,2.05-.78,2.83,0l16.39,16.39" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M46.06,37.08l15.87,15.87c.78.78.78,2.05,0,2.83l-9.79,9.79c-.78.78-2.05.78-2.83,0l-16.77-16.77" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.88,41.14L7.59,23.85c-.78-.78-.78-2.05,0-2.83l9.79-9.79c.78-.78,2.05-.78,2.83,0l16.39,16.39" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="53.8" y1="44.82" x2="47.44" y2="51.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="28.35" y1="19.36" x2="21.98" y2="25.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g><path d="M31.47,49.62c14.81-11.11,30.33-27.26,25.1-32.5-5.24-5.24-21.39,10.29-32.5,25.1,0,0-1.85,1.85,1.85,5.55s5.55,1.85,5.55,1.85Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27.77,57.02c-5.55,5.55-9.26-1.85-14.81,3.7-1.85-5.55-1.22-9.89,1.85-12.96s8.04-3.07,11.11,0c3.07,3.07,3.7,7.4,1.85,9.26Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+var art_supplies_default = IconArtSupplies;
 
 // lib/at-sign.ts
 var IconAtSign = `<svg id="AtSign" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,36c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75c0-12.43-10.07-22.5-22.5-22.5s-22.5,10.07-22.5,22.5,10.07,22.5,22.5,22.5h9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -2627,15 +2665,15 @@ var IconBoard = `<svg id="Board" data-name="Layer 1" xmlns="http://www.w3.org/20
 var board_default = IconBoard;
 
 // lib/box-in.ts
-var IconBoxIn = `<svg id="BoxIn" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><polyline points="14.07 23.94 36 36 57.93 23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.75,54.56l9.32,5.13c1.2.66,2.66.66,3.86,0l9.32-5.13,9.18-5.05c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-9.18-5.05-9.32-5.13c-1.2-.66-2.66-.66-3.86,0l-9.32,5.13-9.18,5.05c-1.28.7-2.07,2.05-2.07,3.5v5.51" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="4.5" y1="45" x2="27" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 36 27 45 18 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconBoxIn = `<svg id="BoxIn" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M34.07,12.31l-18.5,10.18c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l18.5,10.18c1.2.66,2.66.66,3.86,0l18.5-10.18c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-18.5-10.18c-1.2-.66-2.66-.66-3.86,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><g><polyline points="14.07 23.94 36 36 57.93 23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.75,54.56l9.32,5.13c1.2.66,2.66.66,3.86,0l9.32-5.13,9.18-5.05c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-9.18-5.05-9.32-5.13c-1.2-.66-2.66-.66-3.86,0l-9.32,5.13-9.18,5.05c-1.28.7-2.07,2.05-2.07,3.5v5.51" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="4.5" y1="45" x2="27" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 36 27 45 18 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var box_in_default = IconBoxIn;
 
 // lib/box-out.ts
-var IconBoxOut = `<svg id="BoxOut" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><path d="M58.5,31.5v-5.51c0-1.46-.79-2.8-2.07-3.5l-9.18-5.05-9.32-5.13c-1.2-.66-2.66-.66-3.86,0l-9.32,5.13-9.18,5.05c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l9.18,5.05,9.32,5.13c1.2.66,2.66.66,3.86,0l9.32-5.13" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="14.07 23.94 36 36 57.93 23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="45" y1="45" x2="67.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 36 67.5 45 58.5 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconBoxOut = `<svg id="BoxOut" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M34.07,12.31l-18.5,10.18c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l18.5,10.18c1.2.66,2.66.66,3.86,0l18.5-10.18c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-18.5-10.18c-1.2-.66-2.66-.66-3.86,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><g><path d="M58.5,31.5v-5.51c0-1.46-.79-2.8-2.07-3.5l-9.18-5.05-9.32-5.13c-1.2-.66-2.66-.66-3.86,0l-9.32,5.13-9.18,5.05c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l9.18,5.05,9.32,5.13c1.2.66,2.66.66,3.86,0l9.32-5.13" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="14.07 23.94 36 36 57.93 23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="45" y1="45" x2="67.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 36 67.5 45 58.5 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var box_out_default = IconBoxOut;
 
 // lib/box.ts
-var IconBox = `<svg id="Box" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="14.07" y1="23.94" x2="36" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M34.07,12.31l-18.5,10.18c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l18.5,10.18c1.2.66,2.66.66,3.86,0l18.5-10.18c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-18.5-10.18c-1.2-.66-2.66-.66-3.86,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="57.93" y2="23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+var IconBox = `<svg id="Box" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M34.07,12.31l-18.5,10.18c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l18.5,10.18c1.2.66,2.66.66,3.86,0l18.5-10.18c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-18.5-10.18c-1.2-.66-2.66-.66-3.86,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="14.07" y1="23.94" x2="36" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M34.07,12.31l-18.5,10.18c-1.28.7-2.07,2.05-2.07,3.5v20.02c0,1.46.79,2.8,2.07,3.5l18.5,10.18c1.2.66,2.66.66,3.86,0l18.5-10.18c1.28-.7,2.07-2.05,2.07-3.5v-20.02c0-1.46-.79-2.8-2.07-3.5l-18.5-10.18c-1.2-.66-2.66-.66-3.86,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="57.93" y2="23.94" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="60.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var box_default = IconBox;
 
 // lib/boy.ts
@@ -2691,11 +2729,11 @@ var IconButtonCheck = `<svg id="ButtonCheck" data-name="Layer 1" xmlns="http://w
 var button_check_default = IconButtonCheck;
 
 // lib/button-edit2.ts
-var IconButtonEdit2 = `<svg id="ButtonEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5v12c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6v-24c0-3.31,2.69-6,6-6h21" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,31.5v21c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6V19.5c0-3.31,2.69-6,6-6h21" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,28.34l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.63" y1="16.72" x2="55.28" y2="24.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="28.34" x2="43.66" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconButtonEdit2 = `<svg id="ButtonEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5v12c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6v-24c0-3.31,2.69-6,6-6h21" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,31.5v21c0,3.31-2.69,6-6,6H19.5c-3.31,0-6-2.69-6-6V19.5c0-3.31,2.69-6,6-6h21" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M37.47,28.64l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="48.73" y1="16.91" x2="55.09" y2="23.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var button_edit2_default = IconButtonEdit2;
 
 // lib/button-edit.ts
-var IconButtonEdit = `<svg id="ButtonEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,32.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.63" y1="21.22" x2="46.28" y2="28.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="32.84" x2="34.66" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconButtonEdit = `<svg id="ButtonEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M23.44,33.68l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.69" y1="21.94" x2="41.06" y2="28.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var button_edit_default = IconButtonEdit;
 
 // lib/button-exclamation-mark2.ts
@@ -2775,7 +2813,7 @@ var IconButton = `<svg id="Button" data-name="Layer 1" xmlns="http://www.w3.org/
 var button_default = IconButton;
 
 // lib/check-fat.ts
-var IconCheckFat = `<svg id="CheckFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 23.14 34.71 58.5 63 9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/></svg>`;
+var IconCheckFat = `<svg id="CheckFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 23.14 34.71 58.5 63 9" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
 var check_fat_default = IconCheckFat;
 
 // lib/check-l.ts
@@ -2815,7 +2853,7 @@ var IconCircledCheck = `<svg id="CircledCheck" data-name="Layer 1" xmlns="http:/
 var circled_check_default = IconCircledCheck;
 
 // lib/circled-edit.ts
-var IconCircledEdit = `<svg id="CircledEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,37.34l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.63" y1="25.72" x2="46.28" y2="33.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="37.34" x2="34.66" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconCircledEdit = `<svg id="CircledEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M27.94,38.18l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="39.19" y1="26.44" x2="45.56" y2="32.81" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var circled_edit_default = IconCircledEdit;
 
 // lib/circled-exclamation-mark.ts
@@ -2854,16 +2892,28 @@ var circled_visible_default = IconCircledVisible;
 var IconCircled = `<svg id="Circled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var circled_default = IconCircled;
 
+// lib/clock.ts
+var IconClock = `<svg id="Clock" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="36" y1="18" x2="36" y2="36" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><circle cx="36" cy="36" r="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="36" style="fill: none; stroke: orange; stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="36" style="fill: none; stroke: purple; stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var clock_default = IconClock;
+
+// lib/cloud-rain-copy2.ts
+var IconCloudRainCopy2 = `<svg id="CloudRainCopy2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M54,24.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54,24.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="26" y1="51.5" x2="21.5" y2="60.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="31.5" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="49.5" x2="45" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="54" x2="56.25" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="54" x2="11.25" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var cloud_rain_copy2_default = IconCloudRainCopy2;
+
+// lib/cloud-rain-copy.ts
+var IconCloudRainCopy = `<svg id="CloudRainCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M30.7,46.19v7.14c0,.55.45,1,1,1h4.3v6.67c0,1.02,1.35,1.39,1.86.5l6.5-11.2c.39-.67-.09-1.5-.87-1.5h-3v-2.39" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,24.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54,24.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var cloud_rain_copy_default = IconCloudRainCopy;
+
 // lib/cloud-rain.ts
-var IconCloudRain = `<svg id="CloudRain" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M54,25.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54,25.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="52.5" x2="18" y2="52.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="57" x2="36" y2="57" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="52.5" x2="54" y2="52.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconCloudRain = `<svg id="CloudRain" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M54,25.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54,25.5c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="52.5" x2="18" y2="52.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="57" x2="36" y2="57" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="52.5" x2="54" y2="52.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var cloud_rain_default = IconCloudRain;
 
 // lib/cloud-sun.ts
-var IconCloudSun = `<svg id="CloudSun" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M54,36c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54,36c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45.22" y1="3.41" x2="45.22" y2="9.68" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="60.88" y1="25.33" x2="67.14" y2="25.33" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.73" y1="9.83" x2="34.15" y2="14.26" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="56.29" y1="14.26" x2="60.72" y2="9.83" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M35.15,22.6c1.2-4.44,5.26-7.7,10.07-7.7,5.76,0,10.44,4.67,10.44,10.44,0,2.88-1.17,5.49-3.06,7.38" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconCloudSun = `<svg id="CloudSun" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="45.22" y1="3.41" x2="45.22" y2="9.68" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="60.88" y1="25.33" x2="67.14" y2="25.33" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.73" y1="9.83" x2="34.15" y2="14.26" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="56.29" y1="14.26" x2="60.72" y2="9.83" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M35.15,22.6c1.2-4.44,5.26-7.7,10.07-7.7,5.76,0,10.44,4.67,10.44,10.44,0,2.88-1.17,5.49-3.06,7.38" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,36c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54,36c-.2,0-.39.02-.58.03-1.99-7.77-9.02-13.53-17.42-13.53s-15.43,5.76-17.42,13.53c-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86s9.97-2.27,13.26-5.86c1.38.86,3,1.36,4.74,1.36,4.97,0,9-4.03,9-9s-4.03-9-9-9Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var cloud_sun_default = IconCloudSun;
 
 // lib/cloud-thermometer.ts
-var IconCloudThermometer = `<svg id="CloudThermometer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M45,22.67c-2.65-1.54-5.72-2.42-9-2.42-8.39,0-15.43,5.76-17.42,13.53-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86,1.79,0,3.52-.26,5.15-.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="51.75" cy="51.75" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.75" y1="16.5" x2="51.75" y2="47.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,22.67c-2.65-1.54-5.72-2.42-9-2.42-8.39,0-15.43,5.76-17.42,13.53-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86,1.79,0,3.52-.26,5.15-.75" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconCloudThermometer = `<svg id="CloudThermometer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="51.75" cy="51.75" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.75" y1="16.5" x2="51.75" y2="47.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,22.67c-2.65-1.54-5.72-2.42-9-2.42-8.39,0-15.43,5.76-17.42,13.53-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86,1.79,0,3.52-.26,5.15-.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,22.67c-2.65-1.54-5.72-2.42-9-2.42-8.39,0-15.43,5.76-17.42,13.53-.19-.01-.39-.03-.58-.03-4.97,0-9,4.03-9,9s4.03,9,9,9c1.74,0,3.36-.5,4.74-1.36,3.29,3.59,8.01,5.86,13.26,5.86,1.79,0,3.52-.26,5.15-.75" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var cloud_thermometer_default = IconCloudThermometer;
 
 // lib/cloud.ts
@@ -2899,19 +2949,23 @@ var IconDislike = `<svg id="Dislike" data-name="Layer 1" xmlns="http://www.w3.or
 var dislike_default = IconDislike;
 
 // lib/edit-fat.ts
-var IconEditFat = `<svg id="EditFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9.83,43.37L47.02,6.18c1.14-1.14,2.98-1.14,4.11,0l15.51,15.51c1.14,1.14,1.14,2.98,0,4.11L29.45,63H9.83v-19.63Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9.83,43.37L47.02,6.18c1.14-1.14,2.98-1.14,4.11,0l15.51,15.51c1.14,1.14,1.14,2.98,0,4.11L29.45,63H9.83v-19.63Z" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="39.63" y1="13.57" x2="59.26" y2="33.2" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="9.83" y1="43.37" x2="29.45" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
+var IconEditFat = `<svg id="EditFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width: 8px;"/><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="38.96" y1="20.32" x2="51.68" y2="33.04" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
 var edit_fat_default = IconEditFat;
 
 // lib/edit-l.ts
-var IconEditL = `<svg id="EditL" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,43.37L46.19,6.18c1.14-1.14,2.98-1.14,4.11,0l15.51,15.51c1.14,1.14,1.14,2.98,0,4.11L28.63,63H9v-19.63Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,43.37L46.19,6.18c1.14-1.14,2.98-1.14,4.11,0l15.51,15.51c1.14,1.14,1.14,2.98,0,4.11L28.63,63H9v-19.63Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.8" y1="13.57" x2="58.43" y2="33.2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="43.37" x2="28.63" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconEditL = `<svg id="EditL" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.96" y1="20.32" x2="51.68" y2="33.04" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var edit_l_default = IconEditL;
 
+// lib/edit-line.ts
+var IconEditLine = `<svg id="EditLine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.96" y1="20.32" x2="51.68" y2="33.04" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var edit_line_default = IconEditLine;
+
 // lib/edit-m.ts
-var IconEditM = `<svg id="EditM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18.83,40.5l25.59-25.59c.78-.78,2.05-.78,2.83,0l10.67,10.67c.78.78.78,2.05,0,2.83l-25.59,25.59h-13.5v-13.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18.83,40.5l25.59-25.59c.78-.78,2.05-.78,2.83,0l10.67,10.67c.78.78.78,2.05,0,2.83l-25.59,25.59h-13.5v-13.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="39.33" y1="20" x2="52.83" y2="33.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18.83" y1="40.5" x2="32.33" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconEditM = `<svg id="EditM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M20.3,42.48l-2.3,11.52,11.52-2.3c.61-.12,1.16-.42,1.6-.86l22.01-22.01c1.22-1.22,1.22-3.2,0-4.43l-5.53-5.53c-1.22-1.22-3.2-1.22-4.43,0l-22.01,22.01c-.44.44-.73.99-.86,1.6Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M20.3,42.48l-2.3,11.52,11.52-2.3c.61-.12,1.16-.42,1.6-.86l22.01-22.01c1.22-1.22,1.22-3.2,0-4.43l-5.53-5.53c-1.22-1.22-3.2-1.22-4.43,0l-22.01,22.01c-.44.44-.73.99-.86,1.6Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="37.92" y1="24.12" x2="47.88" y2="34.08" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var edit_m_default = IconEditM;
 
 // lib/edit-s.ts
-var IconEditS = `<svg id="EditS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,40.31l17.41-17.41c.53-.53,1.39-.53,1.92,0l7.26,7.26c.53.53.53,1.39,0,1.92l-17.41,17.41h-9.19v-9.19Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.5,40.31l17.41-17.41c.53-.53,1.39-.53,1.92,0l7.26,7.26c.53.53.53,1.39,0,1.92l-17.41,17.41h-9.19v-9.19Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36.45" y1="26.36" x2="45.64" y2="35.55" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="40.31" x2="31.69" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconEditS = `<svg id="EditS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M23.97,37.64l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M23.97,37.64l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="35.23" y1="25.91" x2="41.59" y2="32.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var edit_s_default = IconEditS;
 
 // lib/exclamation-mark-fat.ts
@@ -2946,6 +3000,10 @@ var file_add269_default = IconFileAdd269;
 var IconFileAdd = `<svg id="FileAdd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="27" y1="45" x2="45" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var file_add_default = IconFileAdd;
 
+// lib/file-archive.ts
+var IconFileArchive = `<svg id="FileArchive" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="13.5" width="54" height="13.5" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M13.5,27v30.5c0,.55.45,1,1,1h43c.55,0,1-.45,1-1v-30.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="13.5" width="54" height="13.5" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,27v30.5c0,.55.45,1,1,1h43c.55,0,1-.45,1-1v-30.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="36" x2="45" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var file_archive_default = IconFileArchive;
+
 // lib/file-arrow-up.ts
 var IconFileArrowUp = `<svg id="FileArrowUp" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="40.5 36 49.5 36 49.5 45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 36 36 49.5 31.5 45 22.5 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var file_arrow_up_default = IconFileArrowUp;
@@ -2979,15 +3037,15 @@ var IconFileCode = `<svg id="FileCode" data-name="Layer 1" xmlns="http://www.w3.
 var file_code_default = IconFileCode;
 
 // lib/file-columns.ts
-var IconFileColumns = `<svg id="FileColumns" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="22.5" y="36" width="27" height="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconFileColumns = `<svg id="FileColumns" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="22.5" y="36" width="27" height="18" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var file_columns_default = IconFileColumns;
 
 // lib/file-edit2.ts
-var IconFileEdit2 = `<svg id="FileEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M43.66,40.5l14.51,14.51c.44.44.44,1.16,0,1.6l-6.05,6.05c-.44.44-1.16.44-1.6,0l-14.51-14.51v-7.66h7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="55.28" y1="52.13" x2="47.63" y2="59.78" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="43.66" y1="40.5" x2="36" y2="48.16" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconFileEdit2 = `<svg id="FileEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M51.14,61.53l7.36,1.47-1.47-7.36c-.08-.39-.27-.74-.55-1.02l-14.07-14.07c-.78-.78-2.05-.78-2.83,0l-3.54,3.54c-.78.78-.78,2.05,0,2.83l14.07,14.07c.28.28.63.47,1.02.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="39.41" y1="50.27" x2="45.77" y2="43.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var file_edit2_default = IconFileEdit2;
 
 // lib/file-edit.ts
-var IconFileEdit = `<svg id="FileEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,46.34l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="34.72" x2="41.78" y2="42.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="46.34" x2="30.16" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconFileEdit = `<svg id="FileEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M23.97,46.64l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="35.23" y1="34.91" x2="41.59" y2="41.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var file_edit_default = IconFileEdit;
 
 // lib/file-exclamation-mark2.ts
@@ -3066,6 +3124,14 @@ var file_subtract_default = IconFileSubtract;
 var IconFileText = `<svg id="FileText" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="54" x2="49.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var file_text_default = IconFileText;
 
+// lib/file-tray-stack.ts
+var IconFileTrayStack = `<svg id="FileTrayStack" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,27v34c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2V27l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,27v34c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2V27l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,27h20.25c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75h20.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,45h20.25c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75h20.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var file_tray_stack_default = IconFileTrayStack;
+
+// lib/file-tray.ts
+var IconFileTray = `<svg id="FileTray" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,36v16c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2v-16l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,36v16c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2v-16l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,36h20.25c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75h20.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var file_tray_default = IconFileTray;
+
 // lib/file-visible2.ts
 var IconFileVisible2 = `<svg id="FileVisible2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,9h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V27l-18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,9v14c0,2.21,1.79,4,4,4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,45v-18l-18-18h-23c-2.21,0-4,1.79-4,4v46c0,2.21,1.79,4,4,4h18.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,58.5s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="54" cy="58.5" r="4.5" style="stroke-width: 0px;"/></svg>`;
 var file_visible2_default = IconFileVisible2;
@@ -3103,11 +3169,11 @@ var IconFolderCheck = `<svg id="FolderCheck" data-name="Layer 1" xmlns="http://w
 var folder_check_default = IconFolderCheck;
 
 // lib/folder-edit2.ts
-var IconFolderEdit2 = `<svg id="FolderEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="13.5" y1="31.5" x2="58.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,40.5v-14c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M48.16,40.5l14.51,14.51c.44.44.44,1.16,0,1.6l-6.05,6.05c-.44.44-1.16.44-1.6,0l-14.51-14.51v-7.66h7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="59.78" y1="52.13" x2="52.13" y2="59.78" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="48.16" y1="40.5" x2="40.5" y2="48.16" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+var IconFolderEdit2 = `<svg id="FolderEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="13.5" y1="31.5" x2="58.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,40.5v-14c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M51.14,57.03l7.36,1.47-1.47-7.36c-.08-.39-.27-.74-.55-1.02l-14.07-14.07c-.78-.78-2.05-.78-2.83,0l-3.54,3.54c-.78.78-.78,2.05,0,2.83l14.07,14.07c.28.28.63.47,1.02.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="39.41" y1="45.77" x2="45.77" y2="39.41" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var folder_edit2_default = IconFolderEdit2;
 
 // lib/folder-edit.ts
-var IconFolderEdit = `<svg id="FolderEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,41.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="30.22" x2="41.78" y2="37.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="41.84" x2="30.16" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconFolderEdit = `<svg id="FolderEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,58.5h37c2.21,0,4-1.79,4-4v-28c0-2.21-1.79-4-4-4h-18.5l-3.39-6.79c-.68-1.36-2.06-2.21-3.58-2.21h-11.53c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M23.44,42.68l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.69" y1="30.94" x2="41.06" y2="37.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var folder_edit_default = IconFolderEdit;
 
 // lib/folder-exclamation-mark2.ts
@@ -3271,20 +3337,24 @@ var IconInfoS = `<svg id="InfoS" data-name="Layer 1" xmlns="http://www.w3.org/20
 var info_s_default = IconInfoS;
 
 // lib/invisible-fat.ts
-var IconInvisibleFat = `<svg id="InvisibleFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="58.5" y1="13.5" x2="13.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
+var IconInvisibleFat = `<svg id="InvisibleFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width: 8px;"/><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="58.5" y1="13.5" x2="13.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
 var invisible_fat_default = IconInvisibleFat;
 
 // lib/invisible-l.ts
-var IconInvisibleL = `<svg id="InvisibleL" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="13.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconInvisibleL = `<svg id="InvisibleL" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="13.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var invisible_l_default = IconInvisibleL;
 
 // lib/invisible-m.ts
-var IconInvisibleM = `<svg id="InvisibleM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M56.25,36s-9.07,13.5-20.25,13.5-20.25-13.5-20.25-13.5c0,0,9.07-13.5,20.25-13.5s20.25,13.5,20.25,13.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="18" x2="18" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconInvisibleM = `<svg id="InvisibleM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M56.25,36s-9.07,13.5-20.25,13.5-20.25-13.5-20.25-13.5c0,0,9.07-13.5,20.25-13.5s20.25,13.5,20.25,13.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M56.25,36s-9.07,13.5-20.25,13.5-20.25-13.5-20.25-13.5c0,0,9.07-13.5,20.25-13.5s20.25,13.5,20.25,13.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="18" x2="18" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var invisible_m_default = IconInvisibleM;
 
 // lib/invisible-s.ts
-var IconInvisibleS = `<svg id="InvisibleS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconInvisibleS = `<svg id="InvisibleS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="22.5" x2="22.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var invisible_s_default = IconInvisibleS;
+
+// lib/lightning-flash.ts
+var IconLightningFlash = `<svg id="LightningFlash" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,9h27l-4.5,22.5h7.48c.72,0,1.2.73.92,1.39l-10.98,25.63c-.43,1-1.92.69-1.92-.39v-17.63h-17c-.55,0-1-.45-1-1V9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.5,9h27l-4.5,22.5h7.48c.72,0,1.2.73.92,1.39l-10.98,25.63c-.43,1-1.92.69-1.92-.39v-17.63h-17c-.55,0-1-.45-1-1V9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var lightning_flash_default = IconLightningFlash;
 
 // lib/like.ts
 var IconLike = `<svg id="Like" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M42.12,54c1.72,0,3.25-1.1,3.79-2.74l6.33-19c.86-2.59-1.06-5.26-3.79-5.26h-13.82s5.49-9.16,5.49-9.16c1.19-1.99-.54-4.34-3.21-4.34h-.47c-1.13,0-2.2.44-2.88,1.2l-11.05,12.3h0v27h19.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M15.5,27h7v27h-7c-1.1,0-2-.9-2-2v-23c0-1.1.9-2,2-2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M42.12,54c1.72,0,3.25-1.1,3.79-2.74l6.33-19c.86-2.59-1.06-5.26-3.79-5.26h-13.82s5.49-9.16,5.49-9.16c1.19-1.99-.54-4.34-3.21-4.34h-.47c-1.13,0-2.2.44-2.88,1.2l-11.05,12.3h0v27h19.62Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
@@ -3298,12 +3368,20 @@ var link_default = IconLink;
 var IconMaleSimplified = `<svg id="MaleSimplified" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><circle cx="35.76" cy="22.5" r="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M27,41.99c-4.61,10.09-4.3,18,9,18s14.2-8.21,9-18c-6.66-12.55-12.38-12.3-18,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><circle cx="35.76" cy="22.5" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,41.99c-4.61,10.09-4.3,18,9,18s14.2-8.21,9-18c-6.66-12.55-12.38-12.3-18,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var male_simplified_default = IconMaleSimplified;
 
+// lib/media.ts
+var IconMedia = `<svg id="Media" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="54" cy="18" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,45l-20.96-25.16c-.8-.96-2.27-.96-3.07,0l-5.96,7.16" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M21.94,40.12v9.76c0,.8.89,1.28,1.55.83l7.32-4.88c.59-.4.59-1.27,0-1.66l-7.32-4.88c-.66-.44-1.55.03-1.55.83Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="54" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M21.94,40.12v9.76c0,.8.89,1.28,1.55.83l7.32-4.88c.59-.4.59-1.27,0-1.66l-7.32-4.88c-.66-.44-1.55.03-1.55.83Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="36" height="36" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M61,45h-16v-16c0-1.1-.9-2-2-2h-16V11c0-1.1.9-2,2-2h32c1.1,0,2,.9,2,2v32c0,1.1-.9,2-2,2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var media_default = IconMedia;
+
 // lib/moon.ts
 var IconMoon = `<svg id="Moon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,34.5c0-7.72,3.89-14.53,9.82-18.58.63-.43.57-1.39-.12-1.72-3.77-1.8-8.11-2.6-12.69-2-10.17,1.32-18.26,9.6-19.37,19.79-1.47,13.55,9.11,25.02,22.36,25.02,3.47,0,6.76-.79,9.69-2.2.69-.33.76-1.29.12-1.73-5.93-4.05-9.82-10.86-9.82-18.58Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,34.5c0-7.72,3.89-14.53,9.82-18.58.63-.43.57-1.39-.12-1.72-3.77-1.8-8.11-2.6-12.69-2-10.17,1.32-18.26,9.6-19.37,19.79-1.47,13.55,9.11,25.02,22.36,25.02,3.47,0,6.76-.79,9.69-2.2.69-.33.76-1.29.12-1.73-5.93-4.05-9.82-10.86-9.82-18.58Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var moon_default = IconMoon;
 
+// lib/moving-block.ts
+var IconMovingBlock = `<svg id="MovingBlock" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="32.27" y="23.27" width="25.46" height="25.46" rx="2" ry="2" transform="translate(-12.28 42.36) rotate(-45)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="32.27" y="23.27" width="25.46" height="25.46" rx="2" ry="2" transform="translate(-12.28 42.36) rotate(-45)" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="36" x2="18" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="49.5" x2="27" y2="49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="22.5" x2="27" y2="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var moving_block_default = IconMovingBlock;
+
 // lib/multiply-fat.ts
-var IconMultiplyFat = `<svg id="MultiplyFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="20.09" y1="20.09" x2="51.91" y2="51.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/><line x1="20.09" y1="51.91" x2="51.91" y2="20.09" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/></svg>`;
+var IconMultiplyFat = `<svg id="MultiplyFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="20.09" y1="20.09" x2="51.91" y2="51.91" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="20.09" y1="51.91" x2="51.91" y2="20.09" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
 var multiply_fat_default = IconMultiplyFat;
 
 // lib/multiply-l.ts
@@ -3343,11 +3421,11 @@ var IconNoteCheck = `<svg id="NoteCheck" data-name="Layer 1" xmlns="http://www.w
 var note_check_default = IconNoteCheck;
 
 // lib/note-edit2.ts
-var IconNoteEdit2 = `<svg id="NoteEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M43.66,36l14.51,14.51c.44.44.44,1.16,0,1.6l-6.05,6.05c-.44.44-1.16.44-1.6,0l-14.51-14.51v-7.66s7.66,0,7.66,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="39.22" y1="46.87" x2="46.87" y2="39.22" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="43.66" y1="36" x2="36" y2="43.66" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M58.5,41.5v-24c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,41.5v-24c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconNoteEdit2 = `<svg id="NoteEdit2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M58.5,41.5v-24c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,41.5v-24c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M51.14,57.03l7.36,1.47-1.47-7.36c-.08-.39-.27-.74-.55-1.02l-14.07-14.07c-.78-.78-2.05-.78-2.83,0l-3.54,3.54c-.78.78-.78,2.05,0,2.83l14.07,14.07c.28.28.63.47,1.02.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="39.41" y1="45.77" x2="45.77" y2="39.41" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var note_edit2_default = IconNoteEdit2;
 
 // lib/note-edit.ts
-var IconNoteEdit = `<svg id="NoteEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,41.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="30.22" x2="41.78" y2="37.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="41.84" x2="30.16" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconNoteEdit = `<svg id="NoteEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="6.5" x2="22.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="6.5" x2="31.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="6.5" x2="40.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.5" x2="49.5" y2="20" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M23.97,42.14l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="35.23" y1="30.41" x2="41.59" y2="36.77" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var note_edit_default = IconNoteEdit;
 
 // lib/note-exclamation-mark2.ts
@@ -3494,6 +3572,10 @@ var question_mark_m_default = IconQuestionMarkM;
 var IconQuestionMarkS = `<svg id="QuestionMarkS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="49.5" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30,33c0-3.31,2.69-6,6-6s6,2.69,6,6c0,6-6,6-6,12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var question_mark_s_default = IconQuestionMarkS;
 
+// lib/record.ts
+var IconRecord = `<svg id="Record" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></svg>`;
+var record_default = IconRecord;
+
 // lib/remove-lines.ts
 var IconRemoveLines = `<svg id="RemoveLines" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="54" x2="40.5" y2="54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="30" x2="13.5" y2="30" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="42" x2="40.5" y2="42" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.64" y1="55.86" x2="60.36" y2="43.14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.64" y1="43.14" x2="60.36" y2="55.86" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var remove_lines_default = IconRemoveLines;
@@ -3567,7 +3649,7 @@ var IconSquaredCheck = `<svg id="SquaredCheck" data-name="Layer 1" xmlns="http:/
 var squared_check_default = IconSquaredCheck;
 
 // lib/squared-edit.ts
-var IconSquaredEdit = `<svg id="SquaredEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,41.84l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.13" y1="30.22" x2="41.78" y2="37.87" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="41.84" x2="30.16" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconSquaredEdit = `<svg id="SquaredEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M23.97,42.14l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="35.23" y1="30.41" x2="41.59" y2="36.77" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var squared_edit_default = IconSquaredEdit;
 
 // lib/squared-exclamation-mark.ts
@@ -3630,8 +3712,16 @@ var star_m_default = IconStarM;
 var IconStarSmall = `<svg id="StarSmall" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M36.1,45.46l10.42,7.45c.5.35,1.16-.13.96-.71l-4.05-12.15,10.31-7.61c.49-.36.23-1.14-.38-1.14l-12.81.1-4.05-12.15c-.19-.58-1.01-.57-1.2,0l-3.87,12.21-12.81.1c-.61,0-.86.79-.36,1.14l10.42,7.45-3.87,12.21c-.18.58.48,1.06.97.7l10.31-7.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M36.1,45.46l10.42,7.45c.5.35,1.16-.13.96-.71l-4.05-12.15,10.31-7.61c.49-.36.23-1.14-.38-1.14l-12.81.1-4.05-12.15c-.19-.58-1.01-.57-1.2,0l-3.87,12.21-12.81.1c-.61,0-.86.79-.36,1.14l10.42,7.45-3.87,12.21c-.18.58.48,1.06.97.7l10.31-7.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var star_small_default = IconStarSmall;
 
+// lib/sticker.ts
+var IconSticker = `<svg id="Sticker" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M58.5,40.5h-14c-2.21,0-4,1.79-4,4v14l18-18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,58.5v-14c0-2.21,1.79-4,4-4h14" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M38.84,58.5h-21.34c-2.21,0-4-1.79-4-4V17.5c0-2.21,1.79-4,4-4h37c2.21,0,4,1.79,4,4v21.34c0,1.06-.42,2.08-1.17,2.83l-15.66,15.66c-.75.75-1.77,1.17-2.83,1.17Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var sticker_default = IconSticker;
+
+// lib/stopwatch.ts
+var IconStopwatch = `<svg id="Stopwatch" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="40.5" r="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="40.5" r="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="13.5" x2="40.5" y2="13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="54 22.5 36 22.5 36 13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="40.5" style="fill: none; stroke: orange; stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var stopwatch_default = IconStopwatch;
+
 // lib/subtract-fat.ts
-var IconSubtractFat = `<svg id="SubtractFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/></svg>`;
+var IconSubtractFat = `<svg id="SubtractFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
 var subtract_fat_default = IconSubtractFat;
 
 // lib/subtract-l.ts
@@ -3647,11 +3737,11 @@ var IconSubtractS = `<svg id="SubtractS" data-name="Layer 1" xmlns="http://www.w
 var subtract_s_default = IconSubtractS;
 
 // lib/sun2.ts
-var IconSun2 = `<svg id="Sun2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="67.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="13.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="67.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="13.73" x2="20.09" y2="20.09" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="51.91" x2="58.27" y2="58.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="58.27" x2="20.09" y2="51.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="20.09" x2="58.27" y2="13.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconSun2 = `<svg id="Sun2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="13.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="67.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="13.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="67.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="13.73" x2="20.09" y2="20.09" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="51.91" x2="58.27" y2="58.27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="58.27" x2="20.09" y2="51.91" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="20.09" x2="58.27" y2="13.73" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var sun2_default = IconSun2;
 
 // lib/sun.ts
-var IconSun = `<svg id="Sun" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="67.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="13.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="67.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="13.73" x2="20.09" y2="20.09" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="51.91" x2="58.27" y2="58.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="58.27" x2="20.09" y2="51.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.91" y1="20.09" x2="58.27" y2="13.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconSun = `<svg id="Sun" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="5.14" x2="36" y2="10.29" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="61.71" x2="36" y2="66.86" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="5.14" y1="36" x2="10.29" y2="36" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="61.71" y1="36" x2="66.86" y2="36" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="14.18" y1="14.18" x2="17.82" y2="17.82" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54.18" y1="54.18" x2="57.82" y2="57.82" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="14.18" y1="57.82" x2="17.82" y2="54.18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54.18" y1="17.82" x2="57.82" y2="14.18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var sun_default = IconSun;
 
 // lib/tables.ts
@@ -3671,7 +3761,7 @@ var IconTalkDelete = `<svg id="TalkDelete" data-name="Layer 1" xmlns="http://www
 var talk_delete_default = IconTalkDelete;
 
 // lib/talk-edit.ts
-var IconTalkEdit = `<svg id="TalkEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M26.11,35.09l14.51-14.51c.44-.44,1.16-.44,1.6,0l6.05,6.05c.44.44.44,1.16,0,1.6l-14.51,14.51h-7.66v-7.66Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="37.74" y1="23.47" x2="45.39" y2="31.12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="26.11" y1="35.09" x2="33.77" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconTalkEdit = `<svg id="TalkEdit" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M23.44,33.68l-1.47,7.36,7.36-1.47c.39-.08.74-.27,1.02-.55l14.07-14.07c.78-.78.78-2.05,0-2.83l-3.54-3.54c-.78-.78-2.05-.78-2.83,0l-14.07,14.07c-.28.28-.47.63-.55,1.02Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.69" y1="21.94" x2="41.06" y2="28.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
 var talk_edit_default = IconTalkEdit;
 
 // lib/talk-exclamation-mark.ts
@@ -3807,7 +3897,7 @@ var IconTextUnderline = `<svg id="TextUnderline" data-name="Layer 1" xmlns="http
 var text_underline_default = IconTextUnderline;
 
 // lib/thermometer-cold.ts
-var IconThermometerCold = `<svg id="ThermometerCold" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="51.75" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="40.5" x2="36" y2="47.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconThermometerCold = `<svg id="ThermometerCold" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="51.75" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="40.5" x2="36" y2="47.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var thermometer_cold_default = IconThermometerCold;
 
 // lib/thermometer-hot.ts
@@ -3815,8 +3905,20 @@ var IconThermometerHot = `<svg id="ThermometerHot" data-name="Layer 1" xmlns="ht
 var thermometer_hot_default = IconThermometerHot;
 
 // lib/thermometer.ts
-var IconThermometer = `<svg id="Thermometer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="51.75" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="47.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconThermometer = `<svg id="Thermometer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="51.75" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="27" x2="36" y2="47.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M42.75,42.77V15.75c0-3.73-3.02-6.75-6.75-6.75s-6.75,3.02-6.75,6.75v27.02c-2.73,2.05-4.5,5.31-4.5,8.98,0,6.21,5.04,11.25,11.25,11.25s11.25-5.04,11.25-11.25c0-3.68-1.77-6.93-4.5-8.98Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var thermometer_default = IconThermometer;
+
+// lib/timer.ts
+var IconTimer = `<svg id="Timer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="36" style="fill: none; stroke: orange; stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var timer_default = IconTimer;
+
+// lib/trash2.ts
+var IconTrash2 = `<svg id="Trash2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,18v36.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18,18v36.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="29.25 18 29.25 9 42.75 9 42.75 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var trash2_default = IconTrash2;
+
+// lib/trash.ts
+var IconTrash = `<svg id="Trash" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,18v38.5c0,1.1.9,2,2,2h32c1.1,0,2-.9,2-2V18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18,18v38.5c0,1.1.9,2,2,2h32c1.1,0,2-.9,2-2V18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="51.81" x2="36" y2="29.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="51.81" x2="27" y2="29.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="51.81" x2="45" y2="29.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="29.25 18 29.25 9 42.75 9 42.75 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var trash_default = IconTrash;
 
 // lib/triangled-exclamation-mark.ts
 var IconTriangledExclamationMark = `<svg id="TriangledExclamationMark" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M34.29,16.36L10.82,55.47c-.8,1.33.16,3.03,1.71,3.03h46.94c1.55,0,2.51-1.7,1.71-3.03l-23.47-39.11c-.78-1.29-2.65-1.29-3.43,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M34.29,16.36L10.82,55.47c-.8,1.33.16,3.03,1.71,3.03h46.94c1.55,0,2.51-1.7,1.71-3.03l-23.47-39.11c-.78-1.29-2.65-1.29-3.43,0Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="36" y1="27" x2="36" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="49.5" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
@@ -3855,19 +3957,19 @@ var IconUsers = `<svg id="Users" data-name="Layer 1" xmlns="http://www.w3.org/20
 var users_default = IconUsers;
 
 // lib/visible-fat.ts
-var IconVisibleFat = `<svg id="VisibleFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><circle cx="36" cy="36" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
+var IconVisibleFat = `<svg id="VisibleFat" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width: 8px;"/><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/><circle cx="36" cy="36" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width: 8px;"/></svg>`;
 var visible_fat_default = IconVisibleFat;
 
 // lib/visible-l.ts
-var IconVisibleL = `<svg id="VisibleL" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconVisibleL = `<svg id="VisibleL" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,36s-12.09,18-27,18-27-18-27-18c0,0,12.09-18,27-18s27,18,27,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var visible_l_default = IconVisibleL;
 
 // lib/visible-m.ts
-var IconVisibleM = `<svg id="VisibleM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M56.25,36s-9.07,13.5-20.25,13.5-20.25-13.5-20.25-13.5c0,0,9.07-13.5,20.25-13.5s20.25,13.5,20.25,13.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="6.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var IconVisibleM = `<svg id="VisibleM" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M56.25,36s-9.07,13.5-20.25,13.5-20.25-13.5-20.25-13.5c0,0,9.07-13.5,20.25-13.5s20.25,13.5,20.25,13.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M56.25,36s-9.07,13.5-20.25,13.5-20.25-13.5-20.25-13.5c0,0,9.07-13.5,20.25-13.5s20.25,13.5,20.25,13.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="6.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
 var visible_m_default = IconVisibleM;
 
 // lib/visible-s.ts
-var IconVisibleS = `<svg id="VisibleS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="4.5" style="stroke-width: 0px;"/></svg>`;
+var IconVisibleS = `<svg id="VisibleS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,36s-6.04,9-13.5,9-13.5-9-13.5-9c0,0,6.04-9,13.5-9s13.5,9,13.5,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="4.5" style="stroke-width: 0px;"/></svg>`;
 var visible_s_default = IconVisibleS;
 
 // lib/volume-i.ts
@@ -4663,6 +4765,8 @@ var getIcon = (icon) => {
       return add_m_default;
     case Icons.ADD_S:
       return add_s_default;
+    case Icons.ART_SUPPLIES:
+      return art_supplies_default;
     case Icons.AT_SIGN:
       return at_sign_default;
     case Icons.BOARD_ADD2:
@@ -4829,6 +4933,12 @@ var getIcon = (icon) => {
       return circled_visible_default;
     case Icons.CIRCLED:
       return circled_default;
+    case Icons.CLOCK:
+      return clock_default;
+    case Icons.CLOUD_RAIN_COPY2:
+      return cloud_rain_copy2_default;
+    case Icons.CLOUD_RAIN_COPY:
+      return cloud_rain_copy_default;
     case Icons.CLOUD_RAIN:
       return cloud_rain_default;
     case Icons.CLOUD_SUN:
@@ -4855,6 +4965,8 @@ var getIcon = (icon) => {
       return edit_fat_default;
     case Icons.EDIT_L:
       return edit_l_default;
+    case Icons.EDIT_LINE:
+      return edit_line_default;
     case Icons.EDIT_M:
       return edit_m_default;
     case Icons.EDIT_S:
@@ -4875,6 +4987,8 @@ var getIcon = (icon) => {
       return file_add269_default;
     case Icons.FILE_ADD:
       return file_add_default;
+    case Icons.FILE_ARCHIVE:
+      return file_archive_default;
     case Icons.FILE_ARROW_UP:
       return file_arrow_up_default;
     case Icons.FILE_BINARY:
@@ -4935,6 +5049,10 @@ var getIcon = (icon) => {
       return file_subtract_default;
     case Icons.FILE_TEXT:
       return file_text_default;
+    case Icons.FILE_TRAY_STACK:
+      return file_tray_stack_default;
+    case Icons.FILE_TRAY:
+      return file_tray_default;
     case Icons.FILE_VISIBLE2:
       return file_visible2_default;
     case Icons.FILE_VISIBLE:
@@ -5045,14 +5163,20 @@ var getIcon = (icon) => {
       return invisible_m_default;
     case Icons.INVISIBLE_S:
       return invisible_s_default;
+    case Icons.LIGHTNING_FLASH:
+      return lightning_flash_default;
     case Icons.LIKE:
       return like_default;
     case Icons.LINK:
       return link_default;
     case Icons.MALE_SIMPLIFIED:
       return male_simplified_default;
+    case Icons.MEDIA:
+      return media_default;
     case Icons.MOON:
       return moon_default;
+    case Icons.MOVING_BLOCK:
+      return moving_block_default;
     case Icons.MULTIPLY_FAT:
       return multiply_fat_default;
     case Icons.MULTIPLY_L:
@@ -5149,6 +5273,8 @@ var getIcon = (icon) => {
       return question_mark_m_default;
     case Icons.QUESTION_MARK_S:
       return question_mark_s_default;
+    case Icons.RECORD:
+      return record_default;
     case Icons.REMOVE_LINES:
       return remove_lines_default;
     case Icons.SEARCH_FAT:
@@ -5217,6 +5343,10 @@ var getIcon = (icon) => {
       return star_m_default;
     case Icons.STAR_SMALL:
       return star_small_default;
+    case Icons.STICKER:
+      return sticker_default;
+    case Icons.STOPWATCH:
+      return stopwatch_default;
     case Icons.SUBTRACT_FAT:
       return subtract_fat_default;
     case Icons.SUBTRACT_L:
@@ -5311,6 +5441,12 @@ var getIcon = (icon) => {
       return thermometer_hot_default;
     case Icons.THERMOMETER:
       return thermometer_default;
+    case Icons.TIMER:
+      return timer_default;
+    case Icons.TRASH2:
+      return trash2_default;
+    case Icons.TRASH:
+      return trash_default;
     case Icons.TRIANGLED_EXCLAMATION_MARK:
       return triangled_exclamation_mark_default;
     case Icons.TRIANGLED_INFO:
@@ -5624,6 +5760,7 @@ var searchIcon = (term, searchIn = void 0) => {
   ArrowUpLeft,
   ArrowUpRight,
   ArrowUpload,
+  ArtSupplies,
   ArtworkFrame,
   AtSign,
   AudioWaves,
@@ -5733,9 +5870,12 @@ var searchIcon = (term, searchIn = void 0) => {
   CleaningBucket,
   CleaningSpray,
   Clipboard,
+  Clock,
   Closet,
   Cloud,
   CloudRain,
+  CloudRainCopy,
+  CloudRainCopy2,
   CloudSun,
   CloudThermometer,
   CodeBrackets,
@@ -5781,6 +5921,7 @@ var searchIcon = (term, searchIn = void 0) => {
   Dollar,
   EditFat,
   EditL,
+  EditLine,
   EditM,
   EditS,
   Education,
@@ -5808,6 +5949,7 @@ var searchIcon = (term, searchIn = void 0) => {
   FileAdd,
   FileAdd267,
   FileAdd269,
+  FileArchive,
   FileArrowUp,
   FileBinary,
   FileBrokenHeart,
@@ -5838,6 +5980,8 @@ var searchIcon = (term, searchIn = void 0) => {
   FileSubtract,
   FileSubtract2,
   FileText,
+  FileTray,
+  FileTrayStack,
   FileVisible,
   FileVisible2,
   Filmroll,
@@ -5927,6 +6071,7 @@ var searchIcon = (term, searchIn = void 0) => {
   Leaf2,
   Leaf3,
   Leafs,
+  LightningFlash,
   Like,
   Link,
   LiquidSoap,
@@ -5938,12 +6083,14 @@ var searchIcon = (term, searchIn = void 0) => {
   Mail,
   MailOpen,
   MaleSimplified,
+  Media,
   Metro,
   Metro2,
   Microwave,
   Money,
   Moneybag,
   Moon,
+  MovingBlock,
   MultiplyFat,
   MultiplyL,
   MultiplyM,
@@ -6007,6 +6154,7 @@ var searchIcon = (term, searchIn = void 0) => {
   QuestionMarkL,
   QuestionMarkM,
   QuestionMarkS,
+  Record,
   Reels,
   RemoveLines,
   RentalCar,
@@ -6052,6 +6200,8 @@ var searchIcon = (term, searchIn = void 0) => {
   StarL,
   StarM,
   StarSmall,
+  Sticker,
+  Stopwatch,
   Stove,
   SubtractFat,
   SubtractL,
@@ -6115,8 +6265,11 @@ var searchIcon = (term, searchIn = void 0) => {
   ThreeDotsHorizontal,
   ThreeDotsLines,
   ThreeDotsVertical,
+  Timer,
   Train,
   TrainTrack,
+  Trash,
+  Trash2,
   Tree,
   Tree2,
   Tree3,

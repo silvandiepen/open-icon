@@ -8,5 +8,5 @@
         "declaration": true,
         "emitDeclarationOnly": true,
     },
-    "include": ["lib/index.ts"]
+    "include": ["lib/index.ts"],
 }

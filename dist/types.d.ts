@@ -280,6 +280,7 @@ export declare const Icons: {
     ADD_LINES: string;
     ADD_M: string;
     ADD_S: string;
+    ART_SUPPLIES: string;
     AT_SIGN: string;
     BOARD_ADD2: string;
     BOARD_MULTI2_HORIZONTAL: string;
@@ -363,6 +364,9 @@ export declare const Icons: {
     CIRCLED_STAR: string;
     CIRCLED_VISIBLE: string;
     CIRCLED: string;
+    CLOCK: string;
+    CLOUD_RAIN_COPY2: string;
+    CLOUD_RAIN_COPY: string;
     CLOUD_RAIN: string;
     CLOUD_SUN: string;
     CLOUD_THERMOMETER: string;
@@ -376,6 +380,7 @@ export declare const Icons: {
     DISLIKE: string;
     EDIT_FAT: string;
     EDIT_L: string;
+    EDIT_LINE: string;
     EDIT_M: string;
     EDIT_S: string;
     EXCLAMATION_MARK_FAT: string;
@@ -386,6 +391,7 @@ export declare const Icons: {
     FILE_ADD267: string;
     FILE_ADD269: string;
     FILE_ADD: string;
+    FILE_ARCHIVE: string;
     FILE_ARROW_UP: string;
     FILE_BINARY: string;
     FILE_BROKEN_HEART2: string;
@@ -416,6 +422,8 @@ export declare const Icons: {
     FILE_SUBTRACT2: string;
     FILE_SUBTRACT: string;
     FILE_TEXT: string;
+    FILE_TRAY_STACK: string;
+    FILE_TRAY: string;
     FILE_VISIBLE2: string;
     FILE_VISIBLE: string;
     FILE: string;
@@ -471,10 +479,13 @@ export declare const Icons: {
     INVISIBLE_L: string;
     INVISIBLE_M: string;
     INVISIBLE_S: string;
+    LIGHTNING_FLASH: string;
     LIKE: string;
     LINK: string;
     MALE_SIMPLIFIED: string;
+    MEDIA: string;
     MOON: string;
+    MOVING_BLOCK: string;
     MULTIPLY_FAT: string;
     MULTIPLY_L: string;
     MULTIPLY_M: string;
@@ -523,6 +534,7 @@ export declare const Icons: {
     QUESTION_MARK_L: string;
     QUESTION_MARK_M: string;
     QUESTION_MARK_S: string;
+    RECORD: string;
     REMOVE_LINES: string;
     SEARCH_FAT: string;
     SEARCH_L: string;
@@ -557,6 +569,8 @@ export declare const Icons: {
     STAR_L: string;
     STAR_M: string;
     STAR_SMALL: string;
+    STICKER: string;
+    STOPWATCH: string;
     SUBTRACT_FAT: string;
     SUBTRACT_L: string;
     SUBTRACT_M: string;
@@ -604,6 +618,9 @@ export declare const Icons: {
     THERMOMETER_COLD: string;
     THERMOMETER_HOT: string;
     THERMOMETER: string;
+    TIMER: string;
+    TRASH2: string;
+    TRASH: string;
     TRIANGLED_EXCLAMATION_MARK: string;
     TRIANGLED_INFO: string;
     TRIANGLED_QUESTION_MARK: string;

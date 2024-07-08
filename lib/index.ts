@@ -283,6 +283,7 @@ import AddL from "./add-l";
 import AddLines from "./add-lines";
 import AddM from "./add-m";
 import AddS from "./add-s";
+import ArtSupplies from "./art-supplies";
 import AtSign from "./at-sign";
 import BoardAdd2 from "./board-add2";
 import BoardMulti2Horizontal from "./board-multi2-horizontal";
@@ -366,6 +367,9 @@ import CircledSearch from "./circled-search";
 import CircledStar from "./circled-star";
 import CircledVisible from "./circled-visible";
 import Circled from "./circled";
+import Clock from "./clock";
+import CloudRainCopy2 from "./cloud-rain-copy2";
+import CloudRainCopy from "./cloud-rain-copy";
 import CloudRain from "./cloud-rain";
 import CloudSun from "./cloud-sun";
 import CloudThermometer from "./cloud-thermometer";
@@ -379,6 +383,7 @@ import CodeChevrons from "./code-chevrons";
 import Dislike from "./dislike";
 import EditFat from "./edit-fat";
 import EditL from "./edit-l";
+import EditLine from "./edit-line";
 import EditM from "./edit-m";
 import EditS from "./edit-s";
 import ExclamationMarkFat from "./exclamation-mark-fat";
@@ -389,6 +394,7 @@ import FemaleSimplified from "./female-simplified";
 import FileAdd267 from "./file-add267";
 import FileAdd269 from "./file-add269";
 import FileAdd from "./file-add";
+import FileArchive from "./file-archive";
 import FileArrowUp from "./file-arrow-up";
 import FileBinary from "./file-binary";
 import FileBrokenHeart2 from "./file-broken-heart2";
@@ -419,6 +425,8 @@ import FileStar from "./file-star";
 import FileSubtract2 from "./file-subtract2";
 import FileSubtract from "./file-subtract";
 import FileText from "./file-text";
+import FileTrayStack from "./file-tray-stack";
+import FileTray from "./file-tray";
 import FileVisible2 from "./file-visible2";
 import FileVisible from "./file-visible";
 import File from "./file";
@@ -474,10 +482,13 @@ import InvisibleFat from "./invisible-fat";
 import InvisibleL from "./invisible-l";
 import InvisibleM from "./invisible-m";
 import InvisibleS from "./invisible-s";
+import LightningFlash from "./lightning-flash";
 import Like from "./like";
 import Link from "./link";
 import MaleSimplified from "./male-simplified";
+import Media from "./media";
 import Moon from "./moon";
+import MovingBlock from "./moving-block";
 import MultiplyFat from "./multiply-fat";
 import MultiplyL from "./multiply-l";
 import MultiplyM from "./multiply-m";
@@ -526,6 +537,7 @@ import QuestionMarkFat from "./question-mark-fat";
 import QuestionMarkL from "./question-mark-l";
 import QuestionMarkM from "./question-mark-m";
 import QuestionMarkS from "./question-mark-s";
+import Record from "./record";
 import RemoveLines from "./remove-lines";
 import SearchFat from "./search-fat";
 import SearchL from "./search-l";
@@ -560,6 +572,8 @@ import StarFat from "./star-fat";
 import StarL from "./star-l";
 import StarM from "./star-m";
 import StarSmall from "./star-small";
+import Sticker from "./sticker";
+import Stopwatch from "./stopwatch";
 import SubtractFat from "./subtract-fat";
 import SubtractL from "./subtract-l";
 import SubtractM from "./subtract-m";
@@ -607,6 +621,9 @@ import TextUnderline from "./text-underline";
 import ThermometerCold from "./thermometer-cold";
 import ThermometerHot from "./thermometer-hot";
 import Thermometer from "./thermometer";
+import Timer from "./timer";
+import Trash2 from "./trash2";
+import Trash from "./trash";
 import TriangledExclamationMark from "./triangled-exclamation-mark";
 import TriangledInfo from "./triangled-info";
 import TriangledQuestionMark from "./triangled-question-mark";
@@ -1524,6 +1541,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.ADD_S:
             return AddS;
     
+        case Icons.ART_SUPPLIES:
+            return ArtSupplies;
+    
         case Icons.AT_SIGN:
             return AtSign;
     
@@ -1773,6 +1793,15 @@ export const getIcon = (icon: Icons) => {
         case Icons.CIRCLED:
             return Circled;
     
+        case Icons.CLOCK:
+            return Clock;
+    
+        case Icons.CLOUD_RAIN_COPY2:
+            return CloudRainCopy2;
+    
+        case Icons.CLOUD_RAIN_COPY:
+            return CloudRainCopy;
+    
         case Icons.CLOUD_RAIN:
             return CloudRain;
     
@@ -1812,6 +1841,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.EDIT_L:
             return EditL;
     
+        case Icons.EDIT_LINE:
+            return EditLine;
+    
         case Icons.EDIT_M:
             return EditM;
     
@@ -1841,6 +1873,9 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.FILE_ADD:
             return FileAdd;
+    
+        case Icons.FILE_ARCHIVE:
+            return FileArchive;
     
         case Icons.FILE_ARROW_UP:
             return FileArrowUp;
@@ -1931,6 +1966,12 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.FILE_TEXT:
             return FileText;
+    
+        case Icons.FILE_TRAY_STACK:
+            return FileTrayStack;
+    
+        case Icons.FILE_TRAY:
+            return FileTray;
     
         case Icons.FILE_VISIBLE2:
             return FileVisible2;
@@ -2097,6 +2138,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.INVISIBLE_S:
             return InvisibleS;
     
+        case Icons.LIGHTNING_FLASH:
+            return LightningFlash;
+    
         case Icons.LIKE:
             return Like;
     
@@ -2106,8 +2150,14 @@ export const getIcon = (icon: Icons) => {
         case Icons.MALE_SIMPLIFIED:
             return MaleSimplified;
     
+        case Icons.MEDIA:
+            return Media;
+    
         case Icons.MOON:
             return Moon;
+    
+        case Icons.MOVING_BLOCK:
+            return MovingBlock;
     
         case Icons.MULTIPLY_FAT:
             return MultiplyFat;
@@ -2253,6 +2303,9 @@ export const getIcon = (icon: Icons) => {
         case Icons.QUESTION_MARK_S:
             return QuestionMarkS;
     
+        case Icons.RECORD:
+            return Record;
+    
         case Icons.REMOVE_LINES:
             return RemoveLines;
     
@@ -2354,6 +2407,12 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.STAR_SMALL:
             return StarSmall;
+    
+        case Icons.STICKER:
+            return Sticker;
+    
+        case Icons.STOPWATCH:
+            return Stopwatch;
     
         case Icons.SUBTRACT_FAT:
             return SubtractFat;
@@ -2495,6 +2554,15 @@ export const getIcon = (icon: Icons) => {
     
         case Icons.THERMOMETER:
             return Thermometer;
+    
+        case Icons.TIMER:
+            return Timer;
+    
+        case Icons.TRASH2:
+            return Trash2;
+    
+        case Icons.TRASH:
+            return Trash;
     
         case Icons.TRIANGLED_EXCLAMATION_MARK:
             return TriangledExclamationMark;
@@ -3038,6 +3106,7 @@ export {
     AddLines,
     AddM,
     AddS,
+    ArtSupplies,
     AtSign,
     BoardAdd2,
     BoardMulti2Horizontal,
@@ -3121,6 +3190,9 @@ export {
     CircledStar,
     CircledVisible,
     Circled,
+    Clock,
+    CloudRainCopy2,
+    CloudRainCopy,
     CloudRain,
     CloudSun,
     CloudThermometer,
@@ -3134,6 +3206,7 @@ export {
     Dislike,
     EditFat,
     EditL,
+    EditLine,
     EditM,
     EditS,
     ExclamationMarkFat,
@@ -3144,6 +3217,7 @@ export {
     FileAdd267,
     FileAdd269,
     FileAdd,
+    FileArchive,
     FileArrowUp,
     FileBinary,
     FileBrokenHeart2,
@@ -3174,6 +3248,8 @@ export {
     FileSubtract2,
     FileSubtract,
     FileText,
+    FileTrayStack,
+    FileTray,
     FileVisible2,
     FileVisible,
     File,
@@ -3229,10 +3305,13 @@ export {
     InvisibleL,
     InvisibleM,
     InvisibleS,
+    LightningFlash,
     Like,
     Link,
     MaleSimplified,
+    Media,
     Moon,
+    MovingBlock,
     MultiplyFat,
     MultiplyL,
     MultiplyM,
@@ -3281,6 +3360,7 @@ export {
     QuestionMarkL,
     QuestionMarkM,
     QuestionMarkS,
+    Record,
     RemoveLines,
     SearchFat,
     SearchL,
@@ -3315,6 +3395,8 @@ export {
     StarL,
     StarM,
     StarSmall,
+    Sticker,
+    Stopwatch,
     SubtractFat,
     SubtractL,
     SubtractM,
@@ -3362,6 +3444,9 @@ export {
     ThermometerCold,
     ThermometerHot,
     Thermometer,
+    Timer,
+    Trash2,
+    Trash,
     TriangledExclamationMark,
     TriangledInfo,
     TriangledQuestionMark,
