@@ -365,9 +365,9 @@ export declare const Icons: {
     CIRCLED_VISIBLE: string;
     CIRCLED: string;
     CLOCK: string;
+    CLOUD_LIGHTNING: string;
     CLOUD_RAIN_COPY2: string;
-    CLOUD_RAIN_COPY: string;
-    CLOUD_RAIN: string;
+    CLOUD_SMALL_RAIN: string;
     CLOUD_SUN: string;
     CLOUD_THERMOMETER: string;
     CLOUD: string;

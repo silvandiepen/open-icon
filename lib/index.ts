@@ -1,2779 +1,2085 @@
 import { Icons } from "./types";
 
 
-
-import Icon24 from "./icon24";
-import ArrowCornerDown from "./arrow-corner-down";
-import ArrowCornerLeft from "./arrow-corner-left";
-import ArrowCornerRight from "./arrow-corner-right";
-import ArrowCornerUp from "./arrow-corner-up";
-import ArrowDiagonalBlTrStop from "./arrow-diagonal-bl-tr-stop";
-import ArrowDiagonalBrTlStop from "./arrow-diagonal-br-tl-stop";
-import ArrowDiagonalInLtBr from "./arrow-diagonal-in-lt-br";
-import ArrowDiagonalInTrBl from "./arrow-diagonal-in-tr-bl";
-import ArrowDiagonalTlBrSplit from "./arrow-diagonal-tl-br-split";
-import ArrowDiagonalTlBrStop from "./arrow-diagonal-tl-br-stop";
-import ArrowDiagonalTlBr from "./arrow-diagonal-tl-br";
-import ArrowDiagonalTrBlSplit from "./arrow-diagonal-tr-bl-split";
-import ArrowDiagonalTrBlStop from "./arrow-diagonal-tr-bl-stop";
-import ArrowDiagonalTrBl from "./arrow-diagonal-tr-bl";
-import ArrowDownCopy from "./arrow-down-copy";
-import ArrowDownLeft from "./arrow-down-left";
-import ArrowDownRight from "./arrow-down-right";
-import ArrowDown from "./arrow-down";
-import ArrowDownload from "./arrow-download";
-import ArrowHeadedCornerDown from "./arrow-headed-corner-down";
-import ArrowHeadedCornerLeft from "./arrow-headed-corner-left";
-import ArrowHeadedCornerRight from "./arrow-headed-corner-right";
-import ArrowHeadedCornerUp from "./arrow-headed-corner-up";
-import ArrowHeadedDiagonalBlTrStop from "./arrow-headed-diagonal-bl-tr-stop";
-import ArrowHeadedDiagonalBrTlStop from "./arrow-headed-diagonal-br-tl-stop";
-import ArrowHeadedDiagonalInLtBr from "./arrow-headed-diagonal-in-lt-br";
-import ArrowHeadedDiagonalInTrBl from "./arrow-headed-diagonal-in-tr-bl";
-import ArrowHeadedDiagonalTlBrSplit from "./arrow-headed-diagonal-tl-br-split";
-import ArrowHeadedDiagonalTlBrStop from "./arrow-headed-diagonal-tl-br-stop";
-import ArrowHeadedDiagonalTlBr from "./arrow-headed-diagonal-tl-br";
-import ArrowHeadedDiagonalTrBlSplit from "./arrow-headed-diagonal-tr-bl-split";
-import ArrowHeadedDiagonalTrBlStop from "./arrow-headed-diagonal-tr-bl-stop";
-import ArrowHeadedDiagonalTrBl from "./arrow-headed-diagonal-tr-bl";
-import ArrowHeadedDownLeft from "./arrow-headed-down-left";
-import ArrowHeadedDownRight from "./arrow-headed-down-right";
-import ArrowHeadedDownStop from "./arrow-headed-down-stop";
-import ArrowHeadedDown from "./arrow-headed-down";
-import ArrowHeadedDownload from "./arrow-headed-download";
-import ArrowHeadedInCenter from "./arrow-headed-in-center";
-import ArrowHeadedInDiagonal from "./arrow-headed-in-diagonal";
-import ArrowHeadedIn from "./arrow-headed-in";
-import ArrowHeadedLeftRightSplit from "./arrow-headed-left-right-split";
-import ArrowHeadedLeftRightStop from "./arrow-headed-left-right-stop";
-import ArrowHeadedLeftRight from "./arrow-headed-left-right";
-import ArrowHeadedLeftStop from "./arrow-headed-left-stop";
-import ArrowHeadedLeft from "./arrow-headed-left";
-import ArrowHeadedOutCenter from "./arrow-headed-out-center";
-import ArrowHeadedReloadDownUp from "./arrow-headed-reload-down-up";
-import ArrowHeadedReloadLeftRight from "./arrow-headed-reload-left-right";
-import ArrowHeadedReloadRightLeft from "./arrow-headed-reload-right-left";
-import ArrowHeadedReloadUpDown from "./arrow-headed-reload-up-down";
-import ArrowHeadedReturnDown from "./arrow-headed-return-down";
-import ArrowHeadedReturnLeft from "./arrow-headed-return-left";
-import ArrowHeadedReturnRight from "./arrow-headed-return-right";
-import ArrowHeadedReturnUp from "./arrow-headed-return-up";
-import ArrowHeadedRight from "./arrow-headed-right";
-import ArrowHeadedRotateBottomLeft from "./arrow-headed-rotate-bottom-left";
-import ArrowHeadedRotateBottomRight from "./arrow-headed-rotate-bottom-right";
-import ArrowHeadedRotateTopLeft from "./arrow-headed-rotate-top-left";
-import ArrowHeadedRotateTopRight from "./arrow-headed-rotate-top-right";
-import ArrowHeadedRoundedLeftUp from "./arrow-headed-rounded-left-up";
-import ArrowHeadedRoundedRightDown from "./arrow-headed-rounded-right-down";
-import ArrowHeadedRoundedRightUp from "./arrow-headed-rounded-right-up";
-import ArrowHeadedRounedLeftDown from "./arrow-headed-rouned-left-down";
-import ArrowHeadedShare from "./arrow-headed-share";
-import ArrowHeadedSpreadSplit from "./arrow-headed-spread-split";
-import ArrowHeadedSpread from "./arrow-headed-spread";
-import ArrowHeadedTwowayDiagonalLr from "./arrow-headed-twoway-diagonal-lr";
-import ArrowHeadedTwowayDiagonalRl from "./arrow-headed-twoway-diagonal-rl";
-import ArrowHeadedTwowayHorizontal from "./arrow-headed-twoway-horizontal";
-import ArrowHeadedTwowayVertical from "./arrow-headed-twoway-vertical";
-import ArrowHeadedUpDownSplit from "./arrow-headed-up-down-split";
-import ArrowHeadedUpDownStop from "./arrow-headed-up-down-stop";
-import ArrowHeadedUpDown from "./arrow-headed-up-down";
-import ArrowHeadedUpLeft from "./arrow-headed-up-left";
-import ArrowHeadedUpRight from "./arrow-headed-up-right";
-import ArrowHeadedUpStop76 from "./arrow-headed-up-stop76";
-import ArrowHeadedUpStop78 from "./arrow-headed-up-stop78";
-import ArrowHeadedUp from "./arrow-headed-up";
-import ArrowHeadedUpload from "./arrow-headed-upload";
-import ArrowInCenter from "./arrow-in-center";
-import ArrowInvert from "./arrow-invert";
-import ArrowLeftRightSplit from "./arrow-left-right-split";
-import ArrowLeftRightStop from "./arrow-left-right-stop";
-import ArrowLeftRight from "./arrow-left-right";
-import ArrowLeftStop from "./arrow-left-stop";
-import ArrowLeft from "./arrow-left";
-import ArrowOutCenter from "./arrow-out-center";
-import ArrowReloadDownUp from "./arrow-reload-down-up";
-import ArrowReloadLeftRight from "./arrow-reload-left-right";
-import ArrowReloadRightLeft from "./arrow-reload-right-left";
-import ArrowReloadUpDown from "./arrow-reload-up-down";
-import ArrowReturnDown from "./arrow-return-down";
-import ArrowReturnLeft from "./arrow-return-left";
-import ArrowReturnRight from "./arrow-return-right";
-import ArrowReturnUp from "./arrow-return-up";
-import ArrowRightStop from "./arrow-right-stop";
-import ArrowRight from "./arrow-right";
-import ArrowRoateBottomRight from "./arrow-roate-bottom-right";
-import ArrowRotateBottomLeft from "./arrow-rotate-bottom-left";
-import ArrowRotateTopLeft from "./arrow-rotate-top-left";
-import ArrowRotateTopRight from "./arrow-rotate-top-right";
-import ArrowRoundedLeftDown from "./arrow-rounded-left-down";
-import ArrowRoundedLeftUp from "./arrow-rounded-left-up";
-import ArrowRoundedRightDown from "./arrow-rounded-right-down";
-import ArrowRoundedRightUp from "./arrow-rounded-right-up";
-import ArrowShare from "./arrow-share";
-import ArrowSpreadSplit from "./arrow-spread-split";
-import ArrowSpread from "./arrow-spread";
-import ArrowTransferBlTr from "./arrow-transfer-bl-tr";
-import ArrowTransferLeftRight from "./arrow-transfer-left-right";
-import ArrowTransferLtBr from "./arrow-transfer-lt-br";
-import ArrowTransferUpDown from "./arrow-transfer-up-down";
-import ArrowTwowayDiagonalLr from "./arrow-twoway-diagonal-lr";
-import ArrowTwowayDiagonalRl from "./arrow-twoway-diagonal-rl";
-import ArrowTwowayHorizontal from "./arrow-twoway-horizontal";
-import ArrowTwowayVertical from "./arrow-twoway-vertical";
-import ArrowUpCopy from "./arrow-up-copy";
-import ArrowUpDownSplit from "./arrow-up-down-split";
-import ArrowUpDownStop from "./arrow-up-down-stop";
-import ArrowUpDown from "./arrow-up-down";
-import ArrowUpLeft from "./arrow-up-left";
-import ArrowUpRight from "./arrow-up-right";
-import ArrowUp from "./arrow-up";
-import ArrowUpload from "./arrow-upload";
-import ChevronDoubleDown from "./chevron-double-down";
-import ChevronDoubleLeft from "./chevron-double-left";
-import ChevronDoubleRight from "./chevron-double-right";
-import ChevronDoubleUp from "./chevron-double-up";
-import ChevronDown from "./chevron-down";
-import ChevronLeft from "./chevron-left";
-import ChevronRight from "./chevron-right";
-import ChevronUp from "./chevron-up";
-import Icon25 from "./icon25";
-import Dice1 from "./dice1";
-import Dice2 from "./dice2";
-import Dice3 from "./dice3";
-import Dice4 from "./dice4";
-import Dice5 from "./dice5";
-import Dice6 from "./dice6";
-import Dice7 from "./dice7";
-import Dice8 from "./dice8";
-import Dice9 from "./dice9";
-import DigitDigital1 from "./digit-digital1";
-import DigitDigital2 from "./digit-digital2";
-import DigitDigital3 from "./digit-digital3";
-import DigitDigital4 from "./digit-digital4";
-import DigitDigital5 from "./digit-digital5";
-import DigitDigital6 from "./digit-digital6";
-import DigitDigital7 from "./digit-digital7";
-import DigitDigital8 from "./digit-digital8";
-import DigitDigital9 from "./digit-digital9";
-import Dollar from "./dollar";
-import Euro from "./euro";
-import Percentage from "./percentage";
-import Promille from "./promille";
-import SymbolFemale from "./symbol-female";
-import SymbolMale from "./symbol-male";
-import SymbolUnisex from "./symbol-unisex";
-import ThreeDotsDiagonalMajor from "./three-dots-diagonal-major";
-import ThreeDotsDiagonalMinor from "./three-dots-diagonal-minor";
-import ThreeDotsHorizontal from "./three-dots-horizontal";
-import ThreeDotsLines from "./three-dots-lines";
-import ThreeDotsVertical from "./three-dots-vertical";
-import TwoDotsDiagonalMajor from "./two-dots-diagonal-major";
-import TwoDotsDiagonalMinor from "./two-dots-diagonal-minor";
-import TwoDotsHorizontal from "./two-dots-horizontal";
-import TwoDotsLines from "./two-dots-lines";
-import TwoDotsVertical from "./two-dots-vertical";
-import Yen from "./yen";
-import AlarmBell2 from "./alarm-bell2";
-import AlarmBell3 from "./alarm-bell3";
-import AlarmBell from "./alarm-bell";
-import AnimalStep from "./animal-step";
-import ArtworkFrame from "./artwork-frame";
-import AudioWaves from "./audio-waves";
-import Barbecue from "./barbecue";
-import BathroomEssentials from "./bathroom-essentials";
-import Binoculars from "./binoculars";
-import Blender from "./blender";
-import Bookcase from "./bookcase";
-import BreadSlice from "./bread-slice";
-import Bulb from "./bulb";
-import Camera from "./camera";
-import Chip from "./chip";
-import CleaningBucket from "./cleaning-bucket";
-import CleaningSpray from "./cleaning-spray";
-import Clipboard from "./clipboard";
-import Closet from "./closet";
-import CoffeeCup from "./coffee-cup";
-import CoffeeMachine from "./coffee-machine";
-import CoffeeBeans from "./coffee-beans";
-import CognacGlass from "./cognac-glass";
-import Coins from "./coins";
-import ColorPallette from "./color-pallette";
-import ColorRgb from "./color-rgb";
-import ColorSwatches from "./color-swatches";
-import Compass2 from "./compass2";
-import Compass from "./compass";
-import Cube3d from "./cube3d";
-import Desktop from "./desktop";
-import Education from "./education";
-import EspressMachine2 from "./espress-machine2";
-import EspressoMachineE61 from "./espresso-machine-e61";
-import EspressoMachine from "./espresso-machine";
-import EspressoPistol from "./espresso-pistol";
-import FactoryArm from "./factory-arm";
-import FactoryBelt from "./factory-belt";
-import Factory from "./factory";
-import Filmroll from "./filmroll";
-import Fingerprint from "./fingerprint";
-import Fridge from "./fridge";
-import FurnitureBed from "./furniture-bed";
-import FurnitureBedsideTable from "./furniture-bedside-table";
-import FurnitureChair from "./furniture-chair";
-import FurnitureCouch from "./furniture-couch";
-import FurnitureDesk from "./furniture-desk";
-import FurnitureDressoir from "./furniture-dressoir";
-import Gamepad from "./gamepad";
-import GraphUpRound from "./graph-up-round";
-import GraphUp from "./graph-up";
-import Hairdryer from "./hairdryer";
-import Hamburger from "./hamburger";
-import Highlight from "./highlight";
-import IdeaFactory from "./idea-factory";
-import Industry3 from "./industry3";
-import Iron from "./iron";
-import KitchenCutlery from "./kitchen-cutlery";
-import KitchenUtensils from "./kitchen-utensils";
-import Laptop from "./laptop";
-import Leaf2 from "./leaf2";
-import Leaf3 from "./leaf3";
-import Leaf from "./leaf";
-import Leafs from "./leafs";
-import LiquidSoap2 from "./liquid-soap2";
-import LiquidSoap from "./liquid-soap";
-import MailOpen from "./mail-open";
-import Mail from "./mail";
-import Microwave from "./microwave";
-import Money from "./money";
-import Moneybag from "./moneybag";
-import MusicNoteSingle from "./music-note-single";
-import MusicNote from "./music-note";
-import Oven from "./oven";
-import Paperplane from "./paperplane";
-import Perculator from "./perculator";
-import Plant from "./plant";
-import Politician2 from "./politician2";
-import Politician from "./politician";
-import Printer from "./printer";
-import Reels from "./reels";
-import RoomShade from "./room-shade";
-import Stove from "./stove";
-import TabletLandscape from "./tablet-landscape";
-import Tablet from "./tablet";
-import Television from "./television";
-import Temple2 from "./temple2";
-import Temple from "./temple";
-import Terminal from "./terminal";
-import Tree2 from "./tree2";
-import Tree3 from "./tree3";
-import Tree from "./tree";
-import Trees2 from "./trees2";
-import Trees from "./trees";
-import Turtle from "./turtle";
-import VideoCamera from "./video-camera";
-import Videos from "./videos";
-import Vote from "./vote";
-import Wallet from "./wallet";
-import WashingMachine from "./washing-machine";
-import Watercooker from "./watercooker";
-import Website from "./website";
-import WineGlass from "./wine-glass";
-import AccessibilityPersonCircled from "./accessibility-person-circled";
-import AccessibilityPerson from "./accessibility-person";
-import AddFat from "./add-fat";
-import AddL from "./add-l";
-import AddLines from "./add-lines";
-import AddM from "./add-m";
-import AddS from "./add-s";
-import ArtSupplies from "./art-supplies";
-import AtSign from "./at-sign";
-import BoardAdd2 from "./board-add2";
-import BoardMulti2Horizontal from "./board-multi2-horizontal";
-import BoardMulti2Vertical from "./board-multi2-vertical";
-import BoardMultiTDown from "./board-multi-t-down";
-import BoardMultiTLeft from "./board-multi-t-left";
-import BoardMultiTRight from "./board-multi-t-right";
-import BoardMultiTUp from "./board-multi-t-up";
-import BoardMulti from "./board-multi";
-import BoardMultiply2 from "./board-multiply2";
-import BoardSplit13Horizontal from "./board-split13-horizontal";
-import BoardSplit13Vertical from "./board-split13-vertical";
-import BoardSplit2Horizontal from "./board-split2-horizontal";
-import BoardSplit2Vertical from "./board-split2-vertical";
-import BoardSplit31Horizontal from "./board-split31-horizontal";
-import BoardSplit31Vertical from "./board-split31-vertical";
-import BoardSplit3Horizontal from "./board-split3-horizontal";
-import BoardSplit3Vertical from "./board-split3-vertical";
-import BoardSplit4Horizontal from "./board-split4-horizontal";
-import BoardSplit4Vertical from "./board-split4-vertical";
-import BoardSplitTDown from "./board-split-t-down";
-import BoardSplitTLeft from "./board-split-t-left";
-import BoardSplitTRight from "./board-split-t-right";
-import BoardSplitTUp from "./board-split-t-up";
-import BoardSubtract2 from "./board-subtract2";
-import Board from "./board";
-import BoxIn from "./box-in";
-import BoxOut from "./box-out";
-import Box from "./box";
-import Boy from "./boy";
-import BrokenHeartF from "./broken-heart-f";
-import BrokenHeartL from "./broken-heart-l";
-import BrokenHeartM from "./broken-heart-m";
-import BuildingChurch from "./building-church";
-import BuildingHouse2 from "./building-house2";
-import BuildingHouse from "./building-house";
-import BuildingShop from "./building-shop";
-import ButtonAdd from "./button-add";
-import ButtonBrokenHeart2 from "./button-broken-heart2";
-import ButtonBrokenHeart from "./button-broken-heart";
-import ButtonCheck2 from "./button-check2";
-import ButtonCheck from "./button-check";
-import ButtonEdit2 from "./button-edit2";
-import ButtonEdit from "./button-edit";
-import ButtonExclamationMark2 from "./button-exclamation-mark2";
-import ButtonExclamationMark from "./button-exclamation-mark";
-import ButtonHeart2 from "./button-heart2";
-import ButtonHeart from "./button-heart";
-import ButtonInfo2 from "./button-info2";
-import ButtonInfo from "./button-info";
-import ButtonInvisible2 from "./button-invisible2";
-import ButtonInvisible from "./button-invisible";
-import ButtonMultiply from "./button-multiply";
-import ButtonQuestionMark2 from "./button-question-mark2";
-import ButtonQuestionMark from "./button-question-mark";
-import ButtonSearch2 from "./button-search2";
-import ButtonSearch from "./button-search";
-import ButtonStar2 from "./button-star2";
-import ButtonStar from "./button-star";
-import ButtonSubtract from "./button-subtract";
-import ButtonVisible2 from "./button-visible2";
-import ButtonVisible from "./button-visible";
-import Button from "./button";
-import CheckFat from "./check-fat";
-import CheckL from "./check-l";
-import CheckList from "./check-list";
-import CheckM from "./check-m";
-import CheckS from "./check-s";
-import CircleInvisible from "./circle-invisible";
-import CircleSubtract from "./circle-subtract";
-import CircledAdd from "./circled-add";
-import CircledBrokenHeart from "./circled-broken-heart";
-import CircledCheck from "./circled-check";
-import CircledEdit from "./circled-edit";
-import CircledExclamationMark from "./circled-exclamation-mark";
-import CircledHeart from "./circled-heart";
-import CircledInfo from "./circled-info";
-import CircledMultiply from "./circled-multiply";
-import CircledQuestionMark from "./circled-question-mark";
-import CircledSearch from "./circled-search";
-import CircledStar from "./circled-star";
-import CircledVisible from "./circled-visible";
-import Circled from "./circled";
-import Clock from "./clock";
-import CloudRainCopy2 from "./cloud-rain-copy2";
-import CloudRainCopy from "./cloud-rain-copy";
-import CloudRain from "./cloud-rain";
-import CloudSun from "./cloud-sun";
-import CloudThermometer from "./cloud-thermometer";
-import Cloud from "./cloud";
-import CodeBracketsCircled from "./code-brackets-circled";
-import CodeBrackets from "./code-brackets";
-import CodeChevronsCircled from "./code-chevrons-circled";
-import CodeChevronsOpenCircled from "./code-chevrons-open-circled";
-import CodeChevronsOpen from "./code-chevrons-open";
-import CodeChevrons from "./code-chevrons";
-import Dislike from "./dislike";
-import EditFat from "./edit-fat";
-import EditL from "./edit-l";
-import EditLine from "./edit-line";
-import EditM from "./edit-m";
-import EditS from "./edit-s";
-import ExclamationMarkFat from "./exclamation-mark-fat";
-import ExclamationMarkL from "./exclamation-mark-l";
-import ExclamationMarkM from "./exclamation-mark-m";
-import ExclamationMarkS from "./exclamation-mark-s";
-import FemaleSimplified from "./female-simplified";
-import FileAdd267 from "./file-add267";
-import FileAdd269 from "./file-add269";
-import FileAdd from "./file-add";
-import FileArchive from "./file-archive";
-import FileArrowUp from "./file-arrow-up";
-import FileBinary from "./file-binary";
-import FileBrokenHeart2 from "./file-broken-heart2";
-import FileBrokenHeart from "./file-broken-heart";
-import FileCheck2 from "./file-check2";
-import FileCheck from "./file-check";
-import FileCloud from "./file-cloud";
-import FileCode from "./file-code";
-import FileColumns from "./file-columns";
-import FileEdit2 from "./file-edit2";
-import FileEdit from "./file-edit";
-import FileExclamationMark2 from "./file-exclamation-mark2";
-import FileExclamationMark from "./file-exclamation-mark";
-import FileGraphs from "./file-graphs";
-import FileHeart2 from "./file-heart2";
-import FileHeart from "./file-heart";
-import FileInfo2 from "./file-info2";
-import FileInfo from "./file-info";
-import FileInvisible2 from "./file-invisible2";
-import FileInvisible from "./file-invisible";
-import FileMultiply from "./file-multiply";
-import FileQuestionMark2 from "./file-question-mark2";
-import FileQuestionMark from "./file-question-mark";
-import FileSearch2 from "./file-search2";
-import FileSearch from "./file-search";
-import FileStar2 from "./file-star2";
-import FileStar from "./file-star";
-import FileSubtract2 from "./file-subtract2";
-import FileSubtract from "./file-subtract";
-import FileText from "./file-text";
-import FileTrayStack from "./file-tray-stack";
-import FileTray from "./file-tray";
-import FileVisible2 from "./file-visible2";
-import FileVisible from "./file-visible";
-import File from "./file";
-import FolderAdd2 from "./folder-add2";
-import FolderAdd from "./folder-add";
-import FolderBrokenHeart2 from "./folder-broken-heart2";
-import FolderBrokenHeart from "./folder-broken-heart";
-import FolderCheck2 from "./folder-check2";
-import FolderCheck from "./folder-check";
-import FolderEdit2 from "./folder-edit2";
-import FolderEdit from "./folder-edit";
-import FolderExclamationMark2 from "./folder-exclamation-mark2";
-import FolderExclamationMark from "./folder-exclamation-mark";
-import FolderHeart2 from "./folder-heart2";
-import FolderHeart from "./folder-heart";
-import FolderInfo2 from "./folder-info2";
-import FolderInfo from "./folder-info";
-import FolderInvisible2 from "./folder-invisible2";
-import FolderInvisible from "./folder-invisible";
-import FolderMultiply2 from "./folder-multiply2";
-import FolderMultiply from "./folder-multiply";
-import FolderQuestionMark2 from "./folder-question-mark2";
-import FolderQuestionMark from "./folder-question-mark";
-import FolderSearch2 from "./folder-search2";
-import FolderSearch from "./folder-search";
-import FolderStar2 from "./folder-star2";
-import FolderStar from "./folder-star";
-import FolderSubtract2 from "./folder-subtract2";
-import FolderSubtract from "./folder-subtract";
-import FolderVisible2 from "./folder-visible2";
-import FolderVisible from "./folder-visible";
-import Folder from "./folder";
-import Girl from "./girl";
-import GitBranch from "./git-branch";
-import GitCompare from "./git-compare";
-import GitMergeQueue from "./git-merge-queue";
-import GitMerge from "./git-merge";
-import GitPullRequestClosed from "./git-pull-request-closed";
-import GitPullRequestDraft from "./git-pull-request-draft";
-import GitPullRequest from "./git-pull-request";
-import GitRepoFork from "./git-repo-fork";
-import HeartBrokenSmall from "./heart-broken-small";
-import HeartFat from "./heart-fat";
-import HeartL from "./heart-l";
-import HeartM from "./heart-m";
-import HeartSmall from "./heart-small";
-import Image from "./image";
-import InfoFat from "./info-fat";
-import InfoL from "./info-l";
-import InfoM from "./info-m";
-import InfoS from "./info-s";
-import InvisibleFat from "./invisible-fat";
-import InvisibleL from "./invisible-l";
-import InvisibleM from "./invisible-m";
-import InvisibleS from "./invisible-s";
-import LightningFlash from "./lightning-flash";
-import Like from "./like";
-import Link from "./link";
-import MaleSimplified from "./male-simplified";
-import Media from "./media";
-import Moon from "./moon";
-import MovingBlock from "./moving-block";
-import MultiplyFat from "./multiply-fat";
-import MultiplyL from "./multiply-l";
-import MultiplyM from "./multiply-m";
-import MultiplyS from "./multiply-s";
-import NoteAdd2 from "./note-add2";
-import NoteAdd from "./note-add";
-import NoteBrokenHeart2 from "./note-broken-heart2";
-import NoteBrokenHeart from "./note-broken-heart";
-import NoteCheck2 from "./note-check2";
-import NoteCheck from "./note-check";
-import NoteEdit2 from "./note-edit2";
-import NoteEdit from "./note-edit";
-import NoteExclamationMark2 from "./note-exclamation-mark2";
-import NoteExclamationMark from "./note-exclamation-mark";
-import NoteHeart2 from "./note-heart2";
-import NoteHeart from "./note-heart";
-import NoteInfo2 from "./note-info2";
-import NoteInfo from "./note-info";
-import NoteInvisible2 from "./note-invisible2";
-import NoteInvisible from "./note-invisible";
-import NoteMultiply2 from "./note-multiply2";
-import NoteMultiply from "./note-multiply";
-import NoteQuestionMark2 from "./note-question-mark2";
-import NoteQuestionMark from "./note-question-mark";
-import NoteSearch2 from "./note-search2";
-import NoteSearch from "./note-search";
-import NoteStar2 from "./note-star2";
-import NoteStar from "./note-star";
-import NoteSubtract2 from "./note-subtract2";
-import NoteSubtract from "./note-subtract";
-import NoteVisible2 from "./note-visible2";
-import NoteVisible from "./note-visible";
-import Note from "./note";
-import OnTarget from "./on-target";
-import Paragraph from "./paragraph";
-import PlaybackBackward from "./playback-backward";
-import PlaybackEnd from "./playback-end";
-import PlaybackForward from "./playback-forward";
-import PlaybackNext from "./playback-next";
-import PlaybackPause from "./playback-pause";
-import PlaybackPlay from "./playback-play";
-import PlaybackPrevious from "./playback-previous";
-import PlaybackStart from "./playback-start";
-import PlaybackStop from "./playback-stop";
-import QuestionMarkFat from "./question-mark-fat";
-import QuestionMarkL from "./question-mark-l";
-import QuestionMarkM from "./question-mark-m";
-import QuestionMarkS from "./question-mark-s";
-import Record from "./record";
-import RemoveLines from "./remove-lines";
-import SearchFat from "./search-fat";
-import SearchL from "./search-l";
-import SearchM from "./search-m";
-import SearchSmall from "./search-small";
-import Settings2 from "./settings2";
-import Settings3 from "./settings3";
-import Settings4 from "./settings4";
-import Settings from "./settings";
-import SpeechBalloon2 from "./speech-balloon2";
-import SpeechBalloonSquare2 from "./speech-balloon-square2";
-import SpeechBalloonSquareCopy from "./speech-balloon-square-copy";
-import SpeechBalloonSquare from "./speech-balloon-square";
-import SpeechBalloon from "./speech-balloon";
-import SpeechBalloons from "./speech-balloons";
-import SquaredAdd from "./squared-add";
-import SquaredBrokenHeart from "./squared-broken-heart";
-import SquaredCheck from "./squared-check";
-import SquaredEdit from "./squared-edit";
-import SquaredExclamationMark from "./squared-exclamation-mark";
-import SquaredHeart from "./squared-heart";
-import SquaredInfo from "./squared-info";
-import SquaredInvisible from "./squared-invisible";
-import SquaredMultiply from "./squared-multiply";
-import SquaredQuestionMark from "./squared-question-mark";
-import SquaredSearch from "./squared-search";
-import SquaredStar from "./squared-star";
-import SquaredSubtract from "./squared-subtract";
-import SquaredVisible from "./squared-visible";
-import Squared from "./squared";
-import StarFat from "./star-fat";
-import StarL from "./star-l";
-import StarM from "./star-m";
-import StarSmall from "./star-small";
-import Sticker from "./sticker";
-import Stopwatch from "./stopwatch";
-import SubtractFat from "./subtract-fat";
-import SubtractL from "./subtract-l";
-import SubtractM from "./subtract-m";
-import SubtractS from "./subtract-s";
-import Sun2 from "./sun2";
-import Sun from "./sun";
-import Tables from "./tables";
-import TalkAdd from "./talk-add";
-import TalkCheck from "./talk-check";
-import TalkDelete from "./talk-delete";
-import TalkEdit from "./talk-edit";
-import TalkExclamationMark from "./talk-exclamation-mark";
-import TalkHeartBroken from "./talk-heart-broken";
-import TalkHeart from "./talk-heart";
-import TalkInfo from "./talk-info";
-import TalkInvisible from "./talk-invisible";
-import TalkQuestionMark from "./talk-question-mark";
-import TalkSearch from "./talk-search";
-import TalkStar from "./talk-star";
-import TalkSubtract from "./talk-subtract";
-import TalkVisible from "./talk-visible";
-import Talk from "./talk";
-import Target from "./target";
-import TextAlignCenter from "./text-align-center";
-import TextAlignJustifyCentered from "./text-align-justify-centered";
-import TextAlignJustifyLeft from "./text-align-justify-left";
-import TextAlignJustifyRight from "./text-align-justify-right";
-import TextAlignJustify from "./text-align-justify";
-import TextAlignLeft from "./text-align-left";
-import TextAlignRightOrderDesc from "./text-align-right-order-desc";
-import TextAlignRight from "./text-align-right";
-import TextBold from "./text-bold";
-import TextDetailList from "./text-detail-list";
-import TextIndent from "./text-indent";
-import TextItalic from "./text-italic";
-import TextLineThrough from "./text-line-through";
-import TextOrderAsc123 from "./text-order-asc123";
-import TextOrderAsc127 from "./text-order-asc127";
-import TextOrderDescCopy2 from "./text-order-desc-copy2";
-import TextOrderDescCopy3 from "./text-order-desc-copy3";
-import TextOrderDescCopy from "./text-order-desc-copy";
-import TextOrderDesc from "./text-order-desc";
-import TextOutdent from "./text-outdent";
-import TextUnderline from "./text-underline";
-import ThermometerCold from "./thermometer-cold";
-import ThermometerHot from "./thermometer-hot";
-import Thermometer from "./thermometer";
-import Timer from "./timer";
-import Trash2 from "./trash2";
-import Trash from "./trash";
-import TriangledExclamationMark from "./triangled-exclamation-mark";
-import TriangledInfo from "./triangled-info";
-import TriangledQuestionMark from "./triangled-question-mark";
-import Triangled from "./triangled";
-import UserAdd from "./user-add";
-import UserDelete from "./user-delete";
-import UserGroup from "./user-group";
-import User from "./user";
-import Users from "./users";
-import VisibleFat from "./visible-fat";
-import VisibleL from "./visible-l";
-import VisibleM from "./visible-m";
-import VisibleS from "./visible-s";
-import VolumeI from "./volume-i";
-import VolumeIi from "./volume-ii";
-import VolumeIii from "./volume-iii";
-import VolumeMute from "./volume-mute";
-import VolumeOff from "./volume-off";
-import WheelchairAction from "./wheelchair-action";
-import Wheelchair from "./wheelchair";
-import Icon27 from "./icon27";
-import AirplaneArrivals from "./airplane-arrivals";
-import AirplaneDepartures from "./airplane-departures";
-import Airplane from "./airplane";
-import AirportConnectFlights from "./airport-connect-flights";
-import AirportTransfer2 from "./airport-transfer2";
-import AirportTransfer from "./airport-transfer";
-import Anchor from "./anchor";
-import BicycleSurfboard from "./bicycle-surfboard";
-import Bicycle from "./bicycle";
-import BriefcaseCross from "./briefcase-cross";
-import Car from "./car";
-import CrossCircled from "./cross-circled";
-import Cross from "./cross";
-import Cruiseship from "./cruiseship";
-import Elevator2 from "./elevator2";
-import Elevator3 from "./elevator3";
-import Elevator4 from "./elevator4";
-import EscalatorDown from "./escalator-down";
-import EscalatorUp from "./escalator-up";
-import Escalator from "./escalator";
-import Ferry from "./ferry";
-import FireExtinguisher from "./fire-extinguisher";
-import FireHose from "./fire-hose";
-import Fire from "./fire";
-import Gravestone2 from "./gravestone2";
-import Gravestone3 from "./gravestone3";
-import Gravestone from "./gravestone";
-import LuggageBelt from "./luggage-belt";
-import LuggageLocker from "./luggage-locker";
-import LuggageTrolley from "./luggage-trolley";
-import Luggage from "./luggage";
-import Metro2 from "./metro2";
-import Metro from "./metro";
-import NoSmokingCircled from "./no-smoking-circled";
-import NoSmoking from "./no-smoking";
-import Plaster from "./plaster";
-import Plasters from "./plasters";
-import RentalCar from "./rental-car";
-import SecurityCamera2 from "./security-camera2";
-import SecurityCamera3 from "./security-camera3";
-import SecurityCamera from "./security-camera";
-import Ship from "./ship";
-import Smoking from "./smoking";
-import StairsDown from "./stairs-down";
-import StairsUp from "./stairs-up";
-import Stairs from "./stairs";
-import Taxi from "./taxi";
-import TrainTrack from "./train-track";
-import Train from "./train";   
-
-export const getIcon = (icon: Icons) => {
+export const getIcon = async (icon: Icons) => {
     switch(icon) {
     
         case Icons.ICON24:
-            return Icon24;
+            return (await import("./icon24")).IconIcon24;
     
         case Icons.ARROW_CORNER_DOWN:
-            return ArrowCornerDown;
+            return (await import("./arrow-corner-down")).IconArrowCornerDown;
     
         case Icons.ARROW_CORNER_LEFT:
-            return ArrowCornerLeft;
+            return (await import("./arrow-corner-left")).IconArrowCornerLeft;
     
         case Icons.ARROW_CORNER_RIGHT:
-            return ArrowCornerRight;
+            return (await import("./arrow-corner-right")).IconArrowCornerRight;
     
         case Icons.ARROW_CORNER_UP:
-            return ArrowCornerUp;
+            return (await import("./arrow-corner-up")).IconArrowCornerUp;
     
         case Icons.ARROW_DIAGONAL_BL_TR_STOP:
-            return ArrowDiagonalBlTrStop;
+            return (await import("./arrow-diagonal-bl-tr-stop")).IconArrowDiagonalBlTrStop;
     
         case Icons.ARROW_DIAGONAL_BR_TL_STOP:
-            return ArrowDiagonalBrTlStop;
+            return (await import("./arrow-diagonal-br-tl-stop")).IconArrowDiagonalBrTlStop;
     
         case Icons.ARROW_DIAGONAL_IN_LT_BR:
-            return ArrowDiagonalInLtBr;
+            return (await import("./arrow-diagonal-in-lt-br")).IconArrowDiagonalInLtBr;
     
         case Icons.ARROW_DIAGONAL_IN_TR_BL:
-            return ArrowDiagonalInTrBl;
+            return (await import("./arrow-diagonal-in-tr-bl")).IconArrowDiagonalInTrBl;
     
         case Icons.ARROW_DIAGONAL_TL_BR_SPLIT:
-            return ArrowDiagonalTlBrSplit;
+            return (await import("./arrow-diagonal-tl-br-split")).IconArrowDiagonalTlBrSplit;
     
         case Icons.ARROW_DIAGONAL_TL_BR_STOP:
-            return ArrowDiagonalTlBrStop;
+            return (await import("./arrow-diagonal-tl-br-stop")).IconArrowDiagonalTlBrStop;
     
         case Icons.ARROW_DIAGONAL_TL_BR:
-            return ArrowDiagonalTlBr;
+            return (await import("./arrow-diagonal-tl-br")).IconArrowDiagonalTlBr;
     
         case Icons.ARROW_DIAGONAL_TR_BL_SPLIT:
-            return ArrowDiagonalTrBlSplit;
+            return (await import("./arrow-diagonal-tr-bl-split")).IconArrowDiagonalTrBlSplit;
     
         case Icons.ARROW_DIAGONAL_TR_BL_STOP:
-            return ArrowDiagonalTrBlStop;
+            return (await import("./arrow-diagonal-tr-bl-stop")).IconArrowDiagonalTrBlStop;
     
         case Icons.ARROW_DIAGONAL_TR_BL:
-            return ArrowDiagonalTrBl;
+            return (await import("./arrow-diagonal-tr-bl")).IconArrowDiagonalTrBl;
     
         case Icons.ARROW_DOWN_COPY:
-            return ArrowDownCopy;
+            return (await import("./arrow-down-copy")).IconArrowDownCopy;
     
         case Icons.ARROW_DOWN_LEFT:
-            return ArrowDownLeft;
+            return (await import("./arrow-down-left")).IconArrowDownLeft;
     
         case Icons.ARROW_DOWN_RIGHT:
-            return ArrowDownRight;
+            return (await import("./arrow-down-right")).IconArrowDownRight;
     
         case Icons.ARROW_DOWN:
-            return ArrowDown;
+            return (await import("./arrow-down")).IconArrowDown;
     
         case Icons.ARROW_DOWNLOAD:
-            return ArrowDownload;
+            return (await import("./arrow-download")).IconArrowDownload;
     
         case Icons.ARROW_HEADED_CORNER_DOWN:
-            return ArrowHeadedCornerDown;
+            return (await import("./arrow-headed-corner-down")).IconArrowHeadedCornerDown;
     
         case Icons.ARROW_HEADED_CORNER_LEFT:
-            return ArrowHeadedCornerLeft;
+            return (await import("./arrow-headed-corner-left")).IconArrowHeadedCornerLeft;
     
         case Icons.ARROW_HEADED_CORNER_RIGHT:
-            return ArrowHeadedCornerRight;
+            return (await import("./arrow-headed-corner-right")).IconArrowHeadedCornerRight;
     
         case Icons.ARROW_HEADED_CORNER_UP:
-            return ArrowHeadedCornerUp;
+            return (await import("./arrow-headed-corner-up")).IconArrowHeadedCornerUp;
     
         case Icons.ARROW_HEADED_DIAGONAL_BL_TR_STOP:
-            return ArrowHeadedDiagonalBlTrStop;
+            return (await import("./arrow-headed-diagonal-bl-tr-stop")).IconArrowHeadedDiagonalBlTrStop;
     
         case Icons.ARROW_HEADED_DIAGONAL_BR_TL_STOP:
-            return ArrowHeadedDiagonalBrTlStop;
+            return (await import("./arrow-headed-diagonal-br-tl-stop")).IconArrowHeadedDiagonalBrTlStop;
     
         case Icons.ARROW_HEADED_DIAGONAL_IN_LT_BR:
-            return ArrowHeadedDiagonalInLtBr;
+            return (await import("./arrow-headed-diagonal-in-lt-br")).IconArrowHeadedDiagonalInLtBr;
     
         case Icons.ARROW_HEADED_DIAGONAL_IN_TR_BL:
-            return ArrowHeadedDiagonalInTrBl;
+            return (await import("./arrow-headed-diagonal-in-tr-bl")).IconArrowHeadedDiagonalInTrBl;
     
         case Icons.ARROW_HEADED_DIAGONAL_TL_BR_SPLIT:
-            return ArrowHeadedDiagonalTlBrSplit;
+            return (await import("./arrow-headed-diagonal-tl-br-split")).IconArrowHeadedDiagonalTlBrSplit;
     
         case Icons.ARROW_HEADED_DIAGONAL_TL_BR_STOP:
-            return ArrowHeadedDiagonalTlBrStop;
+            return (await import("./arrow-headed-diagonal-tl-br-stop")).IconArrowHeadedDiagonalTlBrStop;
     
         case Icons.ARROW_HEADED_DIAGONAL_TL_BR:
-            return ArrowHeadedDiagonalTlBr;
+            return (await import("./arrow-headed-diagonal-tl-br")).IconArrowHeadedDiagonalTlBr;
     
         case Icons.ARROW_HEADED_DIAGONAL_TR_BL_SPLIT:
-            return ArrowHeadedDiagonalTrBlSplit;
+            return (await import("./arrow-headed-diagonal-tr-bl-split")).IconArrowHeadedDiagonalTrBlSplit;
     
         case Icons.ARROW_HEADED_DIAGONAL_TR_BL_STOP:
-            return ArrowHeadedDiagonalTrBlStop;
+            return (await import("./arrow-headed-diagonal-tr-bl-stop")).IconArrowHeadedDiagonalTrBlStop;
     
         case Icons.ARROW_HEADED_DIAGONAL_TR_BL:
-            return ArrowHeadedDiagonalTrBl;
+            return (await import("./arrow-headed-diagonal-tr-bl")).IconArrowHeadedDiagonalTrBl;
     
         case Icons.ARROW_HEADED_DOWN_LEFT:
-            return ArrowHeadedDownLeft;
+            return (await import("./arrow-headed-down-left")).IconArrowHeadedDownLeft;
     
         case Icons.ARROW_HEADED_DOWN_RIGHT:
-            return ArrowHeadedDownRight;
+            return (await import("./arrow-headed-down-right")).IconArrowHeadedDownRight;
     
         case Icons.ARROW_HEADED_DOWN_STOP:
-            return ArrowHeadedDownStop;
+            return (await import("./arrow-headed-down-stop")).IconArrowHeadedDownStop;
     
         case Icons.ARROW_HEADED_DOWN:
-            return ArrowHeadedDown;
+            return (await import("./arrow-headed-down")).IconArrowHeadedDown;
     
         case Icons.ARROW_HEADED_DOWNLOAD:
-            return ArrowHeadedDownload;
+            return (await import("./arrow-headed-download")).IconArrowHeadedDownload;
     
         case Icons.ARROW_HEADED_IN_CENTER:
-            return ArrowHeadedInCenter;
+            return (await import("./arrow-headed-in-center")).IconArrowHeadedInCenter;
     
         case Icons.ARROW_HEADED_IN_DIAGONAL:
-            return ArrowHeadedInDiagonal;
+            return (await import("./arrow-headed-in-diagonal")).IconArrowHeadedInDiagonal;
     
         case Icons.ARROW_HEADED_IN:
-            return ArrowHeadedIn;
+            return (await import("./arrow-headed-in")).IconArrowHeadedIn;
     
         case Icons.ARROW_HEADED_LEFT_RIGHT_SPLIT:
-            return ArrowHeadedLeftRightSplit;
+            return (await import("./arrow-headed-left-right-split")).IconArrowHeadedLeftRightSplit;
     
         case Icons.ARROW_HEADED_LEFT_RIGHT_STOP:
-            return ArrowHeadedLeftRightStop;
+            return (await import("./arrow-headed-left-right-stop")).IconArrowHeadedLeftRightStop;
     
         case Icons.ARROW_HEADED_LEFT_RIGHT:
-            return ArrowHeadedLeftRight;
+            return (await import("./arrow-headed-left-right")).IconArrowHeadedLeftRight;
     
         case Icons.ARROW_HEADED_LEFT_STOP:
-            return ArrowHeadedLeftStop;
+            return (await import("./arrow-headed-left-stop")).IconArrowHeadedLeftStop;
     
         case Icons.ARROW_HEADED_LEFT:
-            return ArrowHeadedLeft;
+            return (await import("./arrow-headed-left")).IconArrowHeadedLeft;
     
         case Icons.ARROW_HEADED_OUT_CENTER:
-            return ArrowHeadedOutCenter;
+            return (await import("./arrow-headed-out-center")).IconArrowHeadedOutCenter;
     
         case Icons.ARROW_HEADED_RELOAD_DOWN_UP:
-            return ArrowHeadedReloadDownUp;
+            return (await import("./arrow-headed-reload-down-up")).IconArrowHeadedReloadDownUp;
     
         case Icons.ARROW_HEADED_RELOAD_LEFT_RIGHT:
-            return ArrowHeadedReloadLeftRight;
+            return (await import("./arrow-headed-reload-left-right")).IconArrowHeadedReloadLeftRight;
     
         case Icons.ARROW_HEADED_RELOAD_RIGHT_LEFT:
-            return ArrowHeadedReloadRightLeft;
+            return (await import("./arrow-headed-reload-right-left")).IconArrowHeadedReloadRightLeft;
     
         case Icons.ARROW_HEADED_RELOAD_UP_DOWN:
-            return ArrowHeadedReloadUpDown;
+            return (await import("./arrow-headed-reload-up-down")).IconArrowHeadedReloadUpDown;
     
         case Icons.ARROW_HEADED_RETURN_DOWN:
-            return ArrowHeadedReturnDown;
+            return (await import("./arrow-headed-return-down")).IconArrowHeadedReturnDown;
     
         case Icons.ARROW_HEADED_RETURN_LEFT:
-            return ArrowHeadedReturnLeft;
+            return (await import("./arrow-headed-return-left")).IconArrowHeadedReturnLeft;
     
         case Icons.ARROW_HEADED_RETURN_RIGHT:
-            return ArrowHeadedReturnRight;
+            return (await import("./arrow-headed-return-right")).IconArrowHeadedReturnRight;
     
         case Icons.ARROW_HEADED_RETURN_UP:
-            return ArrowHeadedReturnUp;
+            return (await import("./arrow-headed-return-up")).IconArrowHeadedReturnUp;
     
         case Icons.ARROW_HEADED_RIGHT:
-            return ArrowHeadedRight;
+            return (await import("./arrow-headed-right")).IconArrowHeadedRight;
     
         case Icons.ARROW_HEADED_ROTATE_BOTTOM_LEFT:
-            return ArrowHeadedRotateBottomLeft;
+            return (await import("./arrow-headed-rotate-bottom-left")).IconArrowHeadedRotateBottomLeft;
     
         case Icons.ARROW_HEADED_ROTATE_BOTTOM_RIGHT:
-            return ArrowHeadedRotateBottomRight;
+            return (await import("./arrow-headed-rotate-bottom-right")).IconArrowHeadedRotateBottomRight;
     
         case Icons.ARROW_HEADED_ROTATE_TOP_LEFT:
-            return ArrowHeadedRotateTopLeft;
+            return (await import("./arrow-headed-rotate-top-left")).IconArrowHeadedRotateTopLeft;
     
         case Icons.ARROW_HEADED_ROTATE_TOP_RIGHT:
-            return ArrowHeadedRotateTopRight;
+            return (await import("./arrow-headed-rotate-top-right")).IconArrowHeadedRotateTopRight;
     
         case Icons.ARROW_HEADED_ROUNDED_LEFT_UP:
-            return ArrowHeadedRoundedLeftUp;
+            return (await import("./arrow-headed-rounded-left-up")).IconArrowHeadedRoundedLeftUp;
     
         case Icons.ARROW_HEADED_ROUNDED_RIGHT_DOWN:
-            return ArrowHeadedRoundedRightDown;
+            return (await import("./arrow-headed-rounded-right-down")).IconArrowHeadedRoundedRightDown;
     
         case Icons.ARROW_HEADED_ROUNDED_RIGHT_UP:
-            return ArrowHeadedRoundedRightUp;
+            return (await import("./arrow-headed-rounded-right-up")).IconArrowHeadedRoundedRightUp;
     
         case Icons.ARROW_HEADED_ROUNED_LEFT_DOWN:
-            return ArrowHeadedRounedLeftDown;
+            return (await import("./arrow-headed-rouned-left-down")).IconArrowHeadedRounedLeftDown;
     
         case Icons.ARROW_HEADED_SHARE:
-            return ArrowHeadedShare;
+            return (await import("./arrow-headed-share")).IconArrowHeadedShare;
     
         case Icons.ARROW_HEADED_SPREAD_SPLIT:
-            return ArrowHeadedSpreadSplit;
+            return (await import("./arrow-headed-spread-split")).IconArrowHeadedSpreadSplit;
     
         case Icons.ARROW_HEADED_SPREAD:
-            return ArrowHeadedSpread;
+            return (await import("./arrow-headed-spread")).IconArrowHeadedSpread;
     
         case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_LR:
-            return ArrowHeadedTwowayDiagonalLr;
+            return (await import("./arrow-headed-twoway-diagonal-lr")).IconArrowHeadedTwowayDiagonalLr;
     
         case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_RL:
-            return ArrowHeadedTwowayDiagonalRl;
+            return (await import("./arrow-headed-twoway-diagonal-rl")).IconArrowHeadedTwowayDiagonalRl;
     
         case Icons.ARROW_HEADED_TWOWAY_HORIZONTAL:
-            return ArrowHeadedTwowayHorizontal;
+            return (await import("./arrow-headed-twoway-horizontal")).IconArrowHeadedTwowayHorizontal;
     
         case Icons.ARROW_HEADED_TWOWAY_VERTICAL:
-            return ArrowHeadedTwowayVertical;
+            return (await import("./arrow-headed-twoway-vertical")).IconArrowHeadedTwowayVertical;
     
         case Icons.ARROW_HEADED_UP_DOWN_SPLIT:
-            return ArrowHeadedUpDownSplit;
+            return (await import("./arrow-headed-up-down-split")).IconArrowHeadedUpDownSplit;
     
         case Icons.ARROW_HEADED_UP_DOWN_STOP:
-            return ArrowHeadedUpDownStop;
+            return (await import("./arrow-headed-up-down-stop")).IconArrowHeadedUpDownStop;
     
         case Icons.ARROW_HEADED_UP_DOWN:
-            return ArrowHeadedUpDown;
+            return (await import("./arrow-headed-up-down")).IconArrowHeadedUpDown;
     
         case Icons.ARROW_HEADED_UP_LEFT:
-            return ArrowHeadedUpLeft;
+            return (await import("./arrow-headed-up-left")).IconArrowHeadedUpLeft;
     
         case Icons.ARROW_HEADED_UP_RIGHT:
-            return ArrowHeadedUpRight;
+            return (await import("./arrow-headed-up-right")).IconArrowHeadedUpRight;
     
         case Icons.ARROW_HEADED_UP_STOP76:
-            return ArrowHeadedUpStop76;
+            return (await import("./arrow-headed-up-stop76")).IconArrowHeadedUpStop76;
     
         case Icons.ARROW_HEADED_UP_STOP78:
-            return ArrowHeadedUpStop78;
+            return (await import("./arrow-headed-up-stop78")).IconArrowHeadedUpStop78;
     
         case Icons.ARROW_HEADED_UP:
-            return ArrowHeadedUp;
+            return (await import("./arrow-headed-up")).IconArrowHeadedUp;
     
         case Icons.ARROW_HEADED_UPLOAD:
-            return ArrowHeadedUpload;
+            return (await import("./arrow-headed-upload")).IconArrowHeadedUpload;
     
         case Icons.ARROW_IN_CENTER:
-            return ArrowInCenter;
+            return (await import("./arrow-in-center")).IconArrowInCenter;
     
         case Icons.ARROW_INVERT:
-            return ArrowInvert;
+            return (await import("./arrow-invert")).IconArrowInvert;
     
         case Icons.ARROW_LEFT_RIGHT_SPLIT:
-            return ArrowLeftRightSplit;
+            return (await import("./arrow-left-right-split")).IconArrowLeftRightSplit;
     
         case Icons.ARROW_LEFT_RIGHT_STOP:
-            return ArrowLeftRightStop;
+            return (await import("./arrow-left-right-stop")).IconArrowLeftRightStop;
     
         case Icons.ARROW_LEFT_RIGHT:
-            return ArrowLeftRight;
+            return (await import("./arrow-left-right")).IconArrowLeftRight;
     
         case Icons.ARROW_LEFT_STOP:
-            return ArrowLeftStop;
+            return (await import("./arrow-left-stop")).IconArrowLeftStop;
     
         case Icons.ARROW_LEFT:
-            return ArrowLeft;
+            return (await import("./arrow-left")).IconArrowLeft;
     
         case Icons.ARROW_OUT_CENTER:
-            return ArrowOutCenter;
+            return (await import("./arrow-out-center")).IconArrowOutCenter;
     
         case Icons.ARROW_RELOAD_DOWN_UP:
-            return ArrowReloadDownUp;
+            return (await import("./arrow-reload-down-up")).IconArrowReloadDownUp;
     
         case Icons.ARROW_RELOAD_LEFT_RIGHT:
-            return ArrowReloadLeftRight;
+            return (await import("./arrow-reload-left-right")).IconArrowReloadLeftRight;
     
         case Icons.ARROW_RELOAD_RIGHT_LEFT:
-            return ArrowReloadRightLeft;
+            return (await import("./arrow-reload-right-left")).IconArrowReloadRightLeft;
     
         case Icons.ARROW_RELOAD_UP_DOWN:
-            return ArrowReloadUpDown;
+            return (await import("./arrow-reload-up-down")).IconArrowReloadUpDown;
     
         case Icons.ARROW_RETURN_DOWN:
-            return ArrowReturnDown;
+            return (await import("./arrow-return-down")).IconArrowReturnDown;
     
         case Icons.ARROW_RETURN_LEFT:
-            return ArrowReturnLeft;
+            return (await import("./arrow-return-left")).IconArrowReturnLeft;
     
         case Icons.ARROW_RETURN_RIGHT:
-            return ArrowReturnRight;
+            return (await import("./arrow-return-right")).IconArrowReturnRight;
     
         case Icons.ARROW_RETURN_UP:
-            return ArrowReturnUp;
+            return (await import("./arrow-return-up")).IconArrowReturnUp;
     
         case Icons.ARROW_RIGHT_STOP:
-            return ArrowRightStop;
+            return (await import("./arrow-right-stop")).IconArrowRightStop;
     
         case Icons.ARROW_RIGHT:
-            return ArrowRight;
+            return (await import("./arrow-right")).IconArrowRight;
     
         case Icons.ARROW_ROATE_BOTTOM_RIGHT:
-            return ArrowRoateBottomRight;
+            return (await import("./arrow-roate-bottom-right")).IconArrowRoateBottomRight;
     
         case Icons.ARROW_ROTATE_BOTTOM_LEFT:
-            return ArrowRotateBottomLeft;
+            return (await import("./arrow-rotate-bottom-left")).IconArrowRotateBottomLeft;
     
         case Icons.ARROW_ROTATE_TOP_LEFT:
-            return ArrowRotateTopLeft;
+            return (await import("./arrow-rotate-top-left")).IconArrowRotateTopLeft;
     
         case Icons.ARROW_ROTATE_TOP_RIGHT:
-            return ArrowRotateTopRight;
+            return (await import("./arrow-rotate-top-right")).IconArrowRotateTopRight;
     
         case Icons.ARROW_ROUNDED_LEFT_DOWN:
-            return ArrowRoundedLeftDown;
+            return (await import("./arrow-rounded-left-down")).IconArrowRoundedLeftDown;
     
         case Icons.ARROW_ROUNDED_LEFT_UP:
-            return ArrowRoundedLeftUp;
+            return (await import("./arrow-rounded-left-up")).IconArrowRoundedLeftUp;
     
         case Icons.ARROW_ROUNDED_RIGHT_DOWN:
-            return ArrowRoundedRightDown;
+            return (await import("./arrow-rounded-right-down")).IconArrowRoundedRightDown;
     
         case Icons.ARROW_ROUNDED_RIGHT_UP:
-            return ArrowRoundedRightUp;
+            return (await import("./arrow-rounded-right-up")).IconArrowRoundedRightUp;
     
         case Icons.ARROW_SHARE:
-            return ArrowShare;
+            return (await import("./arrow-share")).IconArrowShare;
     
         case Icons.ARROW_SPREAD_SPLIT:
-            return ArrowSpreadSplit;
+            return (await import("./arrow-spread-split")).IconArrowSpreadSplit;
     
         case Icons.ARROW_SPREAD:
-            return ArrowSpread;
+            return (await import("./arrow-spread")).IconArrowSpread;
     
         case Icons.ARROW_TRANSFER_BL_TR:
-            return ArrowTransferBlTr;
+            return (await import("./arrow-transfer-bl-tr")).IconArrowTransferBlTr;
     
         case Icons.ARROW_TRANSFER_LEFT_RIGHT:
-            return ArrowTransferLeftRight;
+            return (await import("./arrow-transfer-left-right")).IconArrowTransferLeftRight;
     
         case Icons.ARROW_TRANSFER_LT_BR:
-            return ArrowTransferLtBr;
+            return (await import("./arrow-transfer-lt-br")).IconArrowTransferLtBr;
     
         case Icons.ARROW_TRANSFER_UP_DOWN:
-            return ArrowTransferUpDown;
+            return (await import("./arrow-transfer-up-down")).IconArrowTransferUpDown;
     
         case Icons.ARROW_TWOWAY_DIAGONAL_LR:
-            return ArrowTwowayDiagonalLr;
+            return (await import("./arrow-twoway-diagonal-lr")).IconArrowTwowayDiagonalLr;
     
         case Icons.ARROW_TWOWAY_DIAGONAL_RL:
-            return ArrowTwowayDiagonalRl;
+            return (await import("./arrow-twoway-diagonal-rl")).IconArrowTwowayDiagonalRl;
     
         case Icons.ARROW_TWOWAY_HORIZONTAL:
-            return ArrowTwowayHorizontal;
+            return (await import("./arrow-twoway-horizontal")).IconArrowTwowayHorizontal;
     
         case Icons.ARROW_TWOWAY_VERTICAL:
-            return ArrowTwowayVertical;
+            return (await import("./arrow-twoway-vertical")).IconArrowTwowayVertical;
     
         case Icons.ARROW_UP_COPY:
-            return ArrowUpCopy;
+            return (await import("./arrow-up-copy")).IconArrowUpCopy;
     
         case Icons.ARROW_UP_DOWN_SPLIT:
-            return ArrowUpDownSplit;
+            return (await import("./arrow-up-down-split")).IconArrowUpDownSplit;
     
         case Icons.ARROW_UP_DOWN_STOP:
-            return ArrowUpDownStop;
+            return (await import("./arrow-up-down-stop")).IconArrowUpDownStop;
     
         case Icons.ARROW_UP_DOWN:
-            return ArrowUpDown;
+            return (await import("./arrow-up-down")).IconArrowUpDown;
     
         case Icons.ARROW_UP_LEFT:
-            return ArrowUpLeft;
+            return (await import("./arrow-up-left")).IconArrowUpLeft;
     
         case Icons.ARROW_UP_RIGHT:
-            return ArrowUpRight;
+            return (await import("./arrow-up-right")).IconArrowUpRight;
     
         case Icons.ARROW_UP:
-            return ArrowUp;
+            return (await import("./arrow-up")).IconArrowUp;
     
         case Icons.ARROW_UPLOAD:
-            return ArrowUpload;
+            return (await import("./arrow-upload")).IconArrowUpload;
     
         case Icons.CHEVRON_DOUBLE_DOWN:
-            return ChevronDoubleDown;
+            return (await import("./chevron-double-down")).IconChevronDoubleDown;
     
         case Icons.CHEVRON_DOUBLE_LEFT:
-            return ChevronDoubleLeft;
+            return (await import("./chevron-double-left")).IconChevronDoubleLeft;
     
         case Icons.CHEVRON_DOUBLE_RIGHT:
-            return ChevronDoubleRight;
+            return (await import("./chevron-double-right")).IconChevronDoubleRight;
     
         case Icons.CHEVRON_DOUBLE_UP:
-            return ChevronDoubleUp;
+            return (await import("./chevron-double-up")).IconChevronDoubleUp;
     
         case Icons.CHEVRON_DOWN:
-            return ChevronDown;
+            return (await import("./chevron-down")).IconChevronDown;
     
         case Icons.CHEVRON_LEFT:
-            return ChevronLeft;
+            return (await import("./chevron-left")).IconChevronLeft;
     
         case Icons.CHEVRON_RIGHT:
-            return ChevronRight;
+            return (await import("./chevron-right")).IconChevronRight;
     
         case Icons.CHEVRON_UP:
-            return ChevronUp;
+            return (await import("./chevron-up")).IconChevronUp;
     
         case Icons.ICON25:
-            return Icon25;
+            return (await import("./icon25")).IconIcon25;
     
         case Icons.DICE1:
-            return Dice1;
+            return (await import("./dice1")).IconDice1;
     
         case Icons.DICE2:
-            return Dice2;
+            return (await import("./dice2")).IconDice2;
     
         case Icons.DICE3:
-            return Dice3;
+            return (await import("./dice3")).IconDice3;
     
         case Icons.DICE4:
-            return Dice4;
+            return (await import("./dice4")).IconDice4;
     
         case Icons.DICE5:
-            return Dice5;
+            return (await import("./dice5")).IconDice5;
     
         case Icons.DICE6:
-            return Dice6;
+            return (await import("./dice6")).IconDice6;
     
         case Icons.DICE7:
-            return Dice7;
+            return (await import("./dice7")).IconDice7;
     
         case Icons.DICE8:
-            return Dice8;
+            return (await import("./dice8")).IconDice8;
     
         case Icons.DICE9:
-            return Dice9;
+            return (await import("./dice9")).IconDice9;
     
         case Icons.DIGIT_DIGITAL1:
-            return DigitDigital1;
+            return (await import("./digit-digital1")).IconDigitDigital1;
     
         case Icons.DIGIT_DIGITAL2:
-            return DigitDigital2;
+            return (await import("./digit-digital2")).IconDigitDigital2;
     
         case Icons.DIGIT_DIGITAL3:
-            return DigitDigital3;
+            return (await import("./digit-digital3")).IconDigitDigital3;
     
         case Icons.DIGIT_DIGITAL4:
-            return DigitDigital4;
+            return (await import("./digit-digital4")).IconDigitDigital4;
     
         case Icons.DIGIT_DIGITAL5:
-            return DigitDigital5;
+            return (await import("./digit-digital5")).IconDigitDigital5;
     
         case Icons.DIGIT_DIGITAL6:
-            return DigitDigital6;
+            return (await import("./digit-digital6")).IconDigitDigital6;
     
         case Icons.DIGIT_DIGITAL7:
-            return DigitDigital7;
+            return (await import("./digit-digital7")).IconDigitDigital7;
     
         case Icons.DIGIT_DIGITAL8:
-            return DigitDigital8;
+            return (await import("./digit-digital8")).IconDigitDigital8;
     
         case Icons.DIGIT_DIGITAL9:
-            return DigitDigital9;
+            return (await import("./digit-digital9")).IconDigitDigital9;
     
         case Icons.DOLLAR:
-            return Dollar;
+            return (await import("./dollar")).IconDollar;
     
         case Icons.EURO:
-            return Euro;
+            return (await import("./euro")).IconEuro;
     
         case Icons.PERCENTAGE:
-            return Percentage;
+            return (await import("./percentage")).IconPercentage;
     
         case Icons.PROMILLE:
-            return Promille;
+            return (await import("./promille")).IconPromille;
     
         case Icons.SYMBOL_FEMALE:
-            return SymbolFemale;
+            return (await import("./symbol-female")).IconSymbolFemale;
     
         case Icons.SYMBOL_MALE:
-            return SymbolMale;
+            return (await import("./symbol-male")).IconSymbolMale;
     
         case Icons.SYMBOL_UNISEX:
-            return SymbolUnisex;
+            return (await import("./symbol-unisex")).IconSymbolUnisex;
     
         case Icons.THREE_DOTS_DIAGONAL_MAJOR:
-            return ThreeDotsDiagonalMajor;
+            return (await import("./three-dots-diagonal-major")).IconThreeDotsDiagonalMajor;
     
         case Icons.THREE_DOTS_DIAGONAL_MINOR:
-            return ThreeDotsDiagonalMinor;
+            return (await import("./three-dots-diagonal-minor")).IconThreeDotsDiagonalMinor;
     
         case Icons.THREE_DOTS_HORIZONTAL:
-            return ThreeDotsHorizontal;
+            return (await import("./three-dots-horizontal")).IconThreeDotsHorizontal;
     
         case Icons.THREE_DOTS_LINES:
-            return ThreeDotsLines;
+            return (await import("./three-dots-lines")).IconThreeDotsLines;
     
         case Icons.THREE_DOTS_VERTICAL:
-            return ThreeDotsVertical;
+            return (await import("./three-dots-vertical")).IconThreeDotsVertical;
     
         case Icons.TWO_DOTS_DIAGONAL_MAJOR:
-            return TwoDotsDiagonalMajor;
+            return (await import("./two-dots-diagonal-major")).IconTwoDotsDiagonalMajor;
     
         case Icons.TWO_DOTS_DIAGONAL_MINOR:
-            return TwoDotsDiagonalMinor;
+            return (await import("./two-dots-diagonal-minor")).IconTwoDotsDiagonalMinor;
     
         case Icons.TWO_DOTS_HORIZONTAL:
-            return TwoDotsHorizontal;
+            return (await import("./two-dots-horizontal")).IconTwoDotsHorizontal;
     
         case Icons.TWO_DOTS_LINES:
-            return TwoDotsLines;
+            return (await import("./two-dots-lines")).IconTwoDotsLines;
     
         case Icons.TWO_DOTS_VERTICAL:
-            return TwoDotsVertical;
+            return (await import("./two-dots-vertical")).IconTwoDotsVertical;
     
         case Icons.YEN:
-            return Yen;
+            return (await import("./yen")).IconYen;
     
         case Icons.ALARM_BELL2:
-            return AlarmBell2;
+            return (await import("./alarm-bell2")).IconAlarmBell2;
     
         case Icons.ALARM_BELL3:
-            return AlarmBell3;
+            return (await import("./alarm-bell3")).IconAlarmBell3;
     
         case Icons.ALARM_BELL:
-            return AlarmBell;
+            return (await import("./alarm-bell")).IconAlarmBell;
     
         case Icons.ANIMAL_STEP:
-            return AnimalStep;
+            return (await import("./animal-step")).IconAnimalStep;
     
         case Icons.ARTWORK_FRAME:
-            return ArtworkFrame;
+            return (await import("./artwork-frame")).IconArtworkFrame;
     
         case Icons.AUDIO_WAVES:
-            return AudioWaves;
+            return (await import("./audio-waves")).IconAudioWaves;
     
         case Icons.BARBECUE:
-            return Barbecue;
+            return (await import("./barbecue")).IconBarbecue;
     
         case Icons.BATHROOM_ESSENTIALS:
-            return BathroomEssentials;
+            return (await import("./bathroom-essentials")).IconBathroomEssentials;
     
         case Icons.BINOCULARS:
-            return Binoculars;
+            return (await import("./binoculars")).IconBinoculars;
     
         case Icons.BLENDER:
-            return Blender;
+            return (await import("./blender")).IconBlender;
     
         case Icons.BOOKCASE:
-            return Bookcase;
+            return (await import("./bookcase")).IconBookcase;
     
         case Icons.BREAD_SLICE:
-            return BreadSlice;
+            return (await import("./bread-slice")).IconBreadSlice;
     
         case Icons.BULB:
-            return Bulb;
+            return (await import("./bulb")).IconBulb;
     
         case Icons.CAMERA:
-            return Camera;
+            return (await import("./camera")).IconCamera;
     
         case Icons.CHIP:
-            return Chip;
+            return (await import("./chip")).IconChip;
     
         case Icons.CLEANING_BUCKET:
-            return CleaningBucket;
+            return (await import("./cleaning-bucket")).IconCleaningBucket;
     
         case Icons.CLEANING_SPRAY:
-            return CleaningSpray;
+            return (await import("./cleaning-spray")).IconCleaningSpray;
     
         case Icons.CLIPBOARD:
-            return Clipboard;
+            return (await import("./clipboard")).IconClipboard;
     
         case Icons.CLOSET:
-            return Closet;
+            return (await import("./closet")).IconCloset;
     
         case Icons.COFFEE_CUP:
-            return CoffeeCup;
+            return (await import("./coffee-cup")).IconCoffeeCup;
     
         case Icons.COFFEE_MACHINE:
-            return CoffeeMachine;
+            return (await import("./coffee-machine")).IconCoffeeMachine;
     
         case Icons.COFFEE_BEANS:
-            return CoffeeBeans;
+            return (await import("./coffee-beans")).IconCoffeeBeans;
     
         case Icons.COGNAC_GLASS:
-            return CognacGlass;
+            return (await import("./cognac-glass")).IconCognacGlass;
     
         case Icons.COINS:
-            return Coins;
+            return (await import("./coins")).IconCoins;
     
         case Icons.COLOR_PALLETTE:
-            return ColorPallette;
+            return (await import("./color-pallette")).IconColorPallette;
     
         case Icons.COLOR_RGB:
-            return ColorRgb;
+            return (await import("./color-rgb")).IconColorRgb;
     
         case Icons.COLOR_SWATCHES:
-            return ColorSwatches;
+            return (await import("./color-swatches")).IconColorSwatches;
     
         case Icons.COMPASS2:
-            return Compass2;
+            return (await import("./compass2")).IconCompass2;
     
         case Icons.COMPASS:
-            return Compass;
+            return (await import("./compass")).IconCompass;
     
         case Icons.CUBE3D:
-            return Cube3d;
+            return (await import("./cube3d")).IconCube3d;
     
         case Icons.DESKTOP:
-            return Desktop;
+            return (await import("./desktop")).IconDesktop;
     
         case Icons.EDUCATION:
-            return Education;
+            return (await import("./education")).IconEducation;
     
         case Icons.ESPRESS_MACHINE2:
-            return EspressMachine2;
+            return (await import("./espress-machine2")).IconEspressMachine2;
     
         case Icons.ESPRESSO_MACHINE_E61:
-            return EspressoMachineE61;
+            return (await import("./espresso-machine-e61")).IconEspressoMachineE61;
     
         case Icons.ESPRESSO_MACHINE:
-            return EspressoMachine;
+            return (await import("./espresso-machine")).IconEspressoMachine;
     
         case Icons.ESPRESSO_PISTOL:
-            return EspressoPistol;
+            return (await import("./espresso-pistol")).IconEspressoPistol;
     
         case Icons.FACTORY_ARM:
-            return FactoryArm;
+            return (await import("./factory-arm")).IconFactoryArm;
     
         case Icons.FACTORY_BELT:
-            return FactoryBelt;
+            return (await import("./factory-belt")).IconFactoryBelt;
     
         case Icons.FACTORY:
-            return Factory;
+            return (await import("./factory")).IconFactory;
     
         case Icons.FILMROLL:
-            return Filmroll;
+            return (await import("./filmroll")).IconFilmroll;
     
         case Icons.FINGERPRINT:
-            return Fingerprint;
+            return (await import("./fingerprint")).IconFingerprint;
     
         case Icons.FRIDGE:
-            return Fridge;
+            return (await import("./fridge")).IconFridge;
     
         case Icons.FURNITURE_BED:
-            return FurnitureBed;
+            return (await import("./furniture-bed")).IconFurnitureBed;
     
         case Icons.FURNITURE_BEDSIDE_TABLE:
-            return FurnitureBedsideTable;
+            return (await import("./furniture-bedside-table")).IconFurnitureBedsideTable;
     
         case Icons.FURNITURE_CHAIR:
-            return FurnitureChair;
+            return (await import("./furniture-chair")).IconFurnitureChair;
     
         case Icons.FURNITURE_COUCH:
-            return FurnitureCouch;
+            return (await import("./furniture-couch")).IconFurnitureCouch;
     
         case Icons.FURNITURE_DESK:
-            return FurnitureDesk;
+            return (await import("./furniture-desk")).IconFurnitureDesk;
     
         case Icons.FURNITURE_DRESSOIR:
-            return FurnitureDressoir;
+            return (await import("./furniture-dressoir")).IconFurnitureDressoir;
     
         case Icons.GAMEPAD:
-            return Gamepad;
+            return (await import("./gamepad")).IconGamepad;
     
         case Icons.GRAPH_UP_ROUND:
-            return GraphUpRound;
+            return (await import("./graph-up-round")).IconGraphUpRound;
     
         case Icons.GRAPH_UP:
-            return GraphUp;
+            return (await import("./graph-up")).IconGraphUp;
     
         case Icons.HAIRDRYER:
-            return Hairdryer;
+            return (await import("./hairdryer")).IconHairdryer;
     
         case Icons.HAMBURGER:
-            return Hamburger;
+            return (await import("./hamburger")).IconHamburger;
     
         case Icons.HIGHLIGHT:
-            return Highlight;
+            return (await import("./highlight")).IconHighlight;
     
         case Icons.IDEA_FACTORY:
-            return IdeaFactory;
+            return (await import("./idea-factory")).IconIdeaFactory;
     
         case Icons.INDUSTRY3:
-            return Industry3;
+            return (await import("./industry3")).IconIndustry3;
     
         case Icons.IRON:
-            return Iron;
+            return (await import("./iron")).IconIron;
     
         case Icons.KITCHEN_CUTLERY:
-            return KitchenCutlery;
+            return (await import("./kitchen-cutlery")).IconKitchenCutlery;
     
         case Icons.KITCHEN_UTENSILS:
-            return KitchenUtensils;
+            return (await import("./kitchen-utensils")).IconKitchenUtensils;
     
         case Icons.LAPTOP:
-            return Laptop;
+            return (await import("./laptop")).IconLaptop;
     
         case Icons.LEAF2:
-            return Leaf2;
+            return (await import("./leaf2")).IconLeaf2;
     
         case Icons.LEAF3:
-            return Leaf3;
+            return (await import("./leaf3")).IconLeaf3;
     
         case Icons.LEAF:
-            return Leaf;
+            return (await import("./leaf")).IconLeaf;
     
         case Icons.LEAFS:
-            return Leafs;
+            return (await import("./leafs")).IconLeafs;
     
         case Icons.LIQUID_SOAP2:
-            return LiquidSoap2;
+            return (await import("./liquid-soap2")).IconLiquidSoap2;
     
         case Icons.LIQUID_SOAP:
-            return LiquidSoap;
+            return (await import("./liquid-soap")).IconLiquidSoap;
     
         case Icons.MAIL_OPEN:
-            return MailOpen;
+            return (await import("./mail-open")).IconMailOpen;
     
         case Icons.MAIL:
-            return Mail;
+            return (await import("./mail")).IconMail;
     
         case Icons.MICROWAVE:
-            return Microwave;
+            return (await import("./microwave")).IconMicrowave;
     
         case Icons.MONEY:
-            return Money;
+            return (await import("./money")).IconMoney;
     
         case Icons.MONEYBAG:
-            return Moneybag;
+            return (await import("./moneybag")).IconMoneybag;
     
         case Icons.MUSIC_NOTE_SINGLE:
-            return MusicNoteSingle;
+            return (await import("./music-note-single")).IconMusicNoteSingle;
     
         case Icons.MUSIC_NOTE:
-            return MusicNote;
+            return (await import("./music-note")).IconMusicNote;
     
         case Icons.OVEN:
-            return Oven;
+            return (await import("./oven")).IconOven;
     
         case Icons.PAPERPLANE:
-            return Paperplane;
+            return (await import("./paperplane")).IconPaperplane;
     
         case Icons.PERCULATOR:
-            return Perculator;
+            return (await import("./perculator")).IconPerculator;
     
         case Icons.PLANT:
-            return Plant;
+            return (await import("./plant")).IconPlant;
     
         case Icons.POLITICIAN2:
-            return Politician2;
+            return (await import("./politician2")).IconPolitician2;
     
         case Icons.POLITICIAN:
-            return Politician;
+            return (await import("./politician")).IconPolitician;
     
         case Icons.PRINTER:
-            return Printer;
+            return (await import("./printer")).IconPrinter;
     
         case Icons.REELS:
-            return Reels;
+            return (await import("./reels")).IconReels;
     
         case Icons.ROOM_SHADE:
-            return RoomShade;
+            return (await import("./room-shade")).IconRoomShade;
     
         case Icons.STOVE:
-            return Stove;
+            return (await import("./stove")).IconStove;
     
         case Icons.TABLET_LANDSCAPE:
-            return TabletLandscape;
+            return (await import("./tablet-landscape")).IconTabletLandscape;
     
         case Icons.TABLET:
-            return Tablet;
+            return (await import("./tablet")).IconTablet;
     
         case Icons.TELEVISION:
-            return Television;
+            return (await import("./television")).IconTelevision;
     
         case Icons.TEMPLE2:
-            return Temple2;
+            return (await import("./temple2")).IconTemple2;
     
         case Icons.TEMPLE:
-            return Temple;
+            return (await import("./temple")).IconTemple;
     
         case Icons.TERMINAL:
-            return Terminal;
+            return (await import("./terminal")).IconTerminal;
     
         case Icons.TREE2:
-            return Tree2;
+            return (await import("./tree2")).IconTree2;
     
         case Icons.TREE3:
-            return Tree3;
+            return (await import("./tree3")).IconTree3;
     
         case Icons.TREE:
-            return Tree;
+            return (await import("./tree")).IconTree;
     
         case Icons.TREES2:
-            return Trees2;
+            return (await import("./trees2")).IconTrees2;
     
         case Icons.TREES:
-            return Trees;
+            return (await import("./trees")).IconTrees;
     
         case Icons.TURTLE:
-            return Turtle;
+            return (await import("./turtle")).IconTurtle;
     
         case Icons.VIDEO_CAMERA:
-            return VideoCamera;
+            return (await import("./video-camera")).IconVideoCamera;
     
         case Icons.VIDEOS:
-            return Videos;
+            return (await import("./videos")).IconVideos;
     
         case Icons.VOTE:
-            return Vote;
+            return (await import("./vote")).IconVote;
     
         case Icons.WALLET:
-            return Wallet;
+            return (await import("./wallet")).IconWallet;
     
         case Icons.WASHING_MACHINE:
-            return WashingMachine;
+            return (await import("./washing-machine")).IconWashingMachine;
     
         case Icons.WATERCOOKER:
-            return Watercooker;
+            return (await import("./watercooker")).IconWatercooker;
     
         case Icons.WEBSITE:
-            return Website;
+            return (await import("./website")).IconWebsite;
     
         case Icons.WINE_GLASS:
-            return WineGlass;
+            return (await import("./wine-glass")).IconWineGlass;
     
         case Icons.ACCESSIBILITY_PERSON_CIRCLED:
-            return AccessibilityPersonCircled;
+            return (await import("./accessibility-person-circled")).IconAccessibilityPersonCircled;
     
         case Icons.ACCESSIBILITY_PERSON:
-            return AccessibilityPerson;
+            return (await import("./accessibility-person")).IconAccessibilityPerson;
     
         case Icons.ADD_FAT:
-            return AddFat;
+            return (await import("./add-fat")).IconAddFat;
     
         case Icons.ADD_L:
-            return AddL;
+            return (await import("./add-l")).IconAddL;
     
         case Icons.ADD_LINES:
-            return AddLines;
+            return (await import("./add-lines")).IconAddLines;
     
         case Icons.ADD_M:
-            return AddM;
+            return (await import("./add-m")).IconAddM;
     
         case Icons.ADD_S:
-            return AddS;
+            return (await import("./add-s")).IconAddS;
     
         case Icons.ART_SUPPLIES:
-            return ArtSupplies;
+            return (await import("./art-supplies")).IconArtSupplies;
     
         case Icons.AT_SIGN:
-            return AtSign;
+            return (await import("./at-sign")).IconAtSign;
     
         case Icons.BOARD_ADD2:
-            return BoardAdd2;
+            return (await import("./board-add2")).IconBoardAdd2;
     
         case Icons.BOARD_MULTI2_HORIZONTAL:
-            return BoardMulti2Horizontal;
+            return (await import("./board-multi2-horizontal")).IconBoardMulti2Horizontal;
     
         case Icons.BOARD_MULTI2_VERTICAL:
-            return BoardMulti2Vertical;
+            return (await import("./board-multi2-vertical")).IconBoardMulti2Vertical;
     
         case Icons.BOARD_MULTI_T_DOWN:
-            return BoardMultiTDown;
+            return (await import("./board-multi-t-down")).IconBoardMultiTDown;
     
         case Icons.BOARD_MULTI_T_LEFT:
-            return BoardMultiTLeft;
+            return (await import("./board-multi-t-left")).IconBoardMultiTLeft;
     
         case Icons.BOARD_MULTI_T_RIGHT:
-            return BoardMultiTRight;
+            return (await import("./board-multi-t-right")).IconBoardMultiTRight;
     
         case Icons.BOARD_MULTI_T_UP:
-            return BoardMultiTUp;
+            return (await import("./board-multi-t-up")).IconBoardMultiTUp;
     
         case Icons.BOARD_MULTI:
-            return BoardMulti;
+            return (await import("./board-multi")).IconBoardMulti;
     
         case Icons.BOARD_MULTIPLY2:
-            return BoardMultiply2;
+            return (await import("./board-multiply2")).IconBoardMultiply2;
     
         case Icons.BOARD_SPLIT13_HORIZONTAL:
-            return BoardSplit13Horizontal;
+            return (await import("./board-split13-horizontal")).IconBoardSplit13Horizontal;
     
         case Icons.BOARD_SPLIT13_VERTICAL:
-            return BoardSplit13Vertical;
+            return (await import("./board-split13-vertical")).IconBoardSplit13Vertical;
     
         case Icons.BOARD_SPLIT2_HORIZONTAL:
-            return BoardSplit2Horizontal;
+            return (await import("./board-split2-horizontal")).IconBoardSplit2Horizontal;
     
         case Icons.BOARD_SPLIT2_VERTICAL:
-            return BoardSplit2Vertical;
+            return (await import("./board-split2-vertical")).IconBoardSplit2Vertical;
     
         case Icons.BOARD_SPLIT31_HORIZONTAL:
-            return BoardSplit31Horizontal;
+            return (await import("./board-split31-horizontal")).IconBoardSplit31Horizontal;
     
         case Icons.BOARD_SPLIT31_VERTICAL:
-            return BoardSplit31Vertical;
+            return (await import("./board-split31-vertical")).IconBoardSplit31Vertical;
     
         case Icons.BOARD_SPLIT3_HORIZONTAL:
-            return BoardSplit3Horizontal;
+            return (await import("./board-split3-horizontal")).IconBoardSplit3Horizontal;
     
         case Icons.BOARD_SPLIT3_VERTICAL:
-            return BoardSplit3Vertical;
+            return (await import("./board-split3-vertical")).IconBoardSplit3Vertical;
     
         case Icons.BOARD_SPLIT4_HORIZONTAL:
-            return BoardSplit4Horizontal;
+            return (await import("./board-split4-horizontal")).IconBoardSplit4Horizontal;
     
         case Icons.BOARD_SPLIT4_VERTICAL:
-            return BoardSplit4Vertical;
+            return (await import("./board-split4-vertical")).IconBoardSplit4Vertical;
     
         case Icons.BOARD_SPLIT_T_DOWN:
-            return BoardSplitTDown;
+            return (await import("./board-split-t-down")).IconBoardSplitTDown;
     
         case Icons.BOARD_SPLIT_T_LEFT:
-            return BoardSplitTLeft;
+            return (await import("./board-split-t-left")).IconBoardSplitTLeft;
     
         case Icons.BOARD_SPLIT_T_RIGHT:
-            return BoardSplitTRight;
+            return (await import("./board-split-t-right")).IconBoardSplitTRight;
     
         case Icons.BOARD_SPLIT_T_UP:
-            return BoardSplitTUp;
+            return (await import("./board-split-t-up")).IconBoardSplitTUp;
     
         case Icons.BOARD_SUBTRACT2:
-            return BoardSubtract2;
+            return (await import("./board-subtract2")).IconBoardSubtract2;
     
         case Icons.BOARD:
-            return Board;
+            return (await import("./board")).IconBoard;
     
         case Icons.BOX_IN:
-            return BoxIn;
+            return (await import("./box-in")).IconBoxIn;
     
         case Icons.BOX_OUT:
-            return BoxOut;
+            return (await import("./box-out")).IconBoxOut;
     
         case Icons.BOX:
-            return Box;
+            return (await import("./box")).IconBox;
     
         case Icons.BOY:
-            return Boy;
+            return (await import("./boy")).IconBoy;
     
         case Icons.BROKEN_HEART_F:
-            return BrokenHeartF;
+            return (await import("./broken-heart-f")).IconBrokenHeartF;
     
         case Icons.BROKEN_HEART_L:
-            return BrokenHeartL;
+            return (await import("./broken-heart-l")).IconBrokenHeartL;
     
         case Icons.BROKEN_HEART_M:
-            return BrokenHeartM;
+            return (await import("./broken-heart-m")).IconBrokenHeartM;
     
         case Icons.BUILDING_CHURCH:
-            return BuildingChurch;
+            return (await import("./building-church")).IconBuildingChurch;
     
         case Icons.BUILDING_HOUSE2:
-            return BuildingHouse2;
+            return (await import("./building-house2")).IconBuildingHouse2;
     
         case Icons.BUILDING_HOUSE:
-            return BuildingHouse;
+            return (await import("./building-house")).IconBuildingHouse;
     
         case Icons.BUILDING_SHOP:
-            return BuildingShop;
+            return (await import("./building-shop")).IconBuildingShop;
     
         case Icons.BUTTON_ADD:
-            return ButtonAdd;
+            return (await import("./button-add")).IconButtonAdd;
     
         case Icons.BUTTON_BROKEN_HEART2:
-            return ButtonBrokenHeart2;
+            return (await import("./button-broken-heart2")).IconButtonBrokenHeart2;
     
         case Icons.BUTTON_BROKEN_HEART:
-            return ButtonBrokenHeart;
+            return (await import("./button-broken-heart")).IconButtonBrokenHeart;
     
         case Icons.BUTTON_CHECK2:
-            return ButtonCheck2;
+            return (await import("./button-check2")).IconButtonCheck2;
     
         case Icons.BUTTON_CHECK:
-            return ButtonCheck;
+            return (await import("./button-check")).IconButtonCheck;
     
         case Icons.BUTTON_EDIT2:
-            return ButtonEdit2;
+            return (await import("./button-edit2")).IconButtonEdit2;
     
         case Icons.BUTTON_EDIT:
-            return ButtonEdit;
+            return (await import("./button-edit")).IconButtonEdit;
     
         case Icons.BUTTON_EXCLAMATION_MARK2:
-            return ButtonExclamationMark2;
+            return (await import("./button-exclamation-mark2")).IconButtonExclamationMark2;
     
         case Icons.BUTTON_EXCLAMATION_MARK:
-            return ButtonExclamationMark;
+            return (await import("./button-exclamation-mark")).IconButtonExclamationMark;
     
         case Icons.BUTTON_HEART2:
-            return ButtonHeart2;
+            return (await import("./button-heart2")).IconButtonHeart2;
     
         case Icons.BUTTON_HEART:
-            return ButtonHeart;
+            return (await import("./button-heart")).IconButtonHeart;
     
         case Icons.BUTTON_INFO2:
-            return ButtonInfo2;
+            return (await import("./button-info2")).IconButtonInfo2;
     
         case Icons.BUTTON_INFO:
-            return ButtonInfo;
+            return (await import("./button-info")).IconButtonInfo;
     
         case Icons.BUTTON_INVISIBLE2:
-            return ButtonInvisible2;
+            return (await import("./button-invisible2")).IconButtonInvisible2;
     
         case Icons.BUTTON_INVISIBLE:
-            return ButtonInvisible;
+            return (await import("./button-invisible")).IconButtonInvisible;
     
         case Icons.BUTTON_MULTIPLY:
-            return ButtonMultiply;
+            return (await import("./button-multiply")).IconButtonMultiply;
     
         case Icons.BUTTON_QUESTION_MARK2:
-            return ButtonQuestionMark2;
+            return (await import("./button-question-mark2")).IconButtonQuestionMark2;
     
         case Icons.BUTTON_QUESTION_MARK:
-            return ButtonQuestionMark;
+            return (await import("./button-question-mark")).IconButtonQuestionMark;
     
         case Icons.BUTTON_SEARCH2:
-            return ButtonSearch2;
+            return (await import("./button-search2")).IconButtonSearch2;
     
         case Icons.BUTTON_SEARCH:
-            return ButtonSearch;
+            return (await import("./button-search")).IconButtonSearch;
     
         case Icons.BUTTON_STAR2:
-            return ButtonStar2;
+            return (await import("./button-star2")).IconButtonStar2;
     
         case Icons.BUTTON_STAR:
-            return ButtonStar;
+            return (await import("./button-star")).IconButtonStar;
     
         case Icons.BUTTON_SUBTRACT:
-            return ButtonSubtract;
+            return (await import("./button-subtract")).IconButtonSubtract;
     
         case Icons.BUTTON_VISIBLE2:
-            return ButtonVisible2;
+            return (await import("./button-visible2")).IconButtonVisible2;
     
         case Icons.BUTTON_VISIBLE:
-            return ButtonVisible;
+            return (await import("./button-visible")).IconButtonVisible;
     
         case Icons.BUTTON:
-            return Button;
+            return (await import("./button")).IconButton;
     
         case Icons.CHECK_FAT:
-            return CheckFat;
+            return (await import("./check-fat")).IconCheckFat;
     
         case Icons.CHECK_L:
-            return CheckL;
+            return (await import("./check-l")).IconCheckL;
     
         case Icons.CHECK_LIST:
-            return CheckList;
+            return (await import("./check-list")).IconCheckList;
     
         case Icons.CHECK_M:
-            return CheckM;
+            return (await import("./check-m")).IconCheckM;
     
         case Icons.CHECK_S:
-            return CheckS;
+            return (await import("./check-s")).IconCheckS;
     
         case Icons.CIRCLE_INVISIBLE:
-            return CircleInvisible;
+            return (await import("./circle-invisible")).IconCircleInvisible;
     
         case Icons.CIRCLE_SUBTRACT:
-            return CircleSubtract;
+            return (await import("./circle-subtract")).IconCircleSubtract;
     
         case Icons.CIRCLED_ADD:
-            return CircledAdd;
+            return (await import("./circled-add")).IconCircledAdd;
     
         case Icons.CIRCLED_BROKEN_HEART:
-            return CircledBrokenHeart;
+            return (await import("./circled-broken-heart")).IconCircledBrokenHeart;
     
         case Icons.CIRCLED_CHECK:
-            return CircledCheck;
+            return (await import("./circled-check")).IconCircledCheck;
     
         case Icons.CIRCLED_EDIT:
-            return CircledEdit;
+            return (await import("./circled-edit")).IconCircledEdit;
     
         case Icons.CIRCLED_EXCLAMATION_MARK:
-            return CircledExclamationMark;
+            return (await import("./circled-exclamation-mark")).IconCircledExclamationMark;
     
         case Icons.CIRCLED_HEART:
-            return CircledHeart;
+            return (await import("./circled-heart")).IconCircledHeart;
     
         case Icons.CIRCLED_INFO:
-            return CircledInfo;
+            return (await import("./circled-info")).IconCircledInfo;
     
         case Icons.CIRCLED_MULTIPLY:
-            return CircledMultiply;
+            return (await import("./circled-multiply")).IconCircledMultiply;
     
         case Icons.CIRCLED_QUESTION_MARK:
-            return CircledQuestionMark;
+            return (await import("./circled-question-mark")).IconCircledQuestionMark;
     
         case Icons.CIRCLED_SEARCH:
-            return CircledSearch;
+            return (await import("./circled-search")).IconCircledSearch;
     
         case Icons.CIRCLED_STAR:
-            return CircledStar;
+            return (await import("./circled-star")).IconCircledStar;
     
         case Icons.CIRCLED_VISIBLE:
-            return CircledVisible;
+            return (await import("./circled-visible")).IconCircledVisible;
     
         case Icons.CIRCLED:
-            return Circled;
+            return (await import("./circled")).IconCircled;
     
         case Icons.CLOCK:
-            return Clock;
+            return (await import("./clock")).IconClock;
+    
+        case Icons.CLOUD_LIGHTNING:
+            return (await import("./cloud-lightning")).IconCloudLightning;
     
         case Icons.CLOUD_RAIN_COPY2:
-            return CloudRainCopy2;
+            return (await import("./cloud-rain-copy2")).IconCloudRainCopy2;
     
-        case Icons.CLOUD_RAIN_COPY:
-            return CloudRainCopy;
-    
-        case Icons.CLOUD_RAIN:
-            return CloudRain;
+        case Icons.CLOUD_SMALL_RAIN:
+            return (await import("./cloud-small-rain")).IconCloudSmallRain;
     
         case Icons.CLOUD_SUN:
-            return CloudSun;
+            return (await import("./cloud-sun")).IconCloudSun;
     
         case Icons.CLOUD_THERMOMETER:
-            return CloudThermometer;
+            return (await import("./cloud-thermometer")).IconCloudThermometer;
     
         case Icons.CLOUD:
-            return Cloud;
+            return (await import("./cloud")).IconCloud;
     
         case Icons.CODE_BRACKETS_CIRCLED:
-            return CodeBracketsCircled;
+            return (await import("./code-brackets-circled")).IconCodeBracketsCircled;
     
         case Icons.CODE_BRACKETS:
-            return CodeBrackets;
+            return (await import("./code-brackets")).IconCodeBrackets;
     
         case Icons.CODE_CHEVRONS_CIRCLED:
-            return CodeChevronsCircled;
+            return (await import("./code-chevrons-circled")).IconCodeChevronsCircled;
     
         case Icons.CODE_CHEVRONS_OPEN_CIRCLED:
-            return CodeChevronsOpenCircled;
+            return (await import("./code-chevrons-open-circled")).IconCodeChevronsOpenCircled;
     
         case Icons.CODE_CHEVRONS_OPEN:
-            return CodeChevronsOpen;
+            return (await import("./code-chevrons-open")).IconCodeChevronsOpen;
     
         case Icons.CODE_CHEVRONS:
-            return CodeChevrons;
+            return (await import("./code-chevrons")).IconCodeChevrons;
     
         case Icons.DISLIKE:
-            return Dislike;
+            return (await import("./dislike")).IconDislike;
     
         case Icons.EDIT_FAT:
-            return EditFat;
+            return (await import("./edit-fat")).IconEditFat;
     
         case Icons.EDIT_L:
-            return EditL;
+            return (await import("./edit-l")).IconEditL;
     
         case Icons.EDIT_LINE:
-            return EditLine;
+            return (await import("./edit-line")).IconEditLine;
     
         case Icons.EDIT_M:
-            return EditM;
+            return (await import("./edit-m")).IconEditM;
     
         case Icons.EDIT_S:
-            return EditS;
+            return (await import("./edit-s")).IconEditS;
     
         case Icons.EXCLAMATION_MARK_FAT:
-            return ExclamationMarkFat;
+            return (await import("./exclamation-mark-fat")).IconExclamationMarkFat;
     
         case Icons.EXCLAMATION_MARK_L:
-            return ExclamationMarkL;
+            return (await import("./exclamation-mark-l")).IconExclamationMarkL;
     
         case Icons.EXCLAMATION_MARK_M:
-            return ExclamationMarkM;
+            return (await import("./exclamation-mark-m")).IconExclamationMarkM;
     
         case Icons.EXCLAMATION_MARK_S:
-            return ExclamationMarkS;
+            return (await import("./exclamation-mark-s")).IconExclamationMarkS;
     
         case Icons.FEMALE_SIMPLIFIED:
-            return FemaleSimplified;
+            return (await import("./female-simplified")).IconFemaleSimplified;
     
         case Icons.FILE_ADD267:
-            return FileAdd267;
+            return (await import("./file-add267")).IconFileAdd267;
     
         case Icons.FILE_ADD269:
-            return FileAdd269;
+            return (await import("./file-add269")).IconFileAdd269;
     
         case Icons.FILE_ADD:
-            return FileAdd;
+            return (await import("./file-add")).IconFileAdd;
     
         case Icons.FILE_ARCHIVE:
-            return FileArchive;
+            return (await import("./file-archive")).IconFileArchive;
     
         case Icons.FILE_ARROW_UP:
-            return FileArrowUp;
+            return (await import("./file-arrow-up")).IconFileArrowUp;
     
         case Icons.FILE_BINARY:
-            return FileBinary;
+            return (await import("./file-binary")).IconFileBinary;
     
         case Icons.FILE_BROKEN_HEART2:
-            return FileBrokenHeart2;
+            return (await import("./file-broken-heart2")).IconFileBrokenHeart2;
     
         case Icons.FILE_BROKEN_HEART:
-            return FileBrokenHeart;
+            return (await import("./file-broken-heart")).IconFileBrokenHeart;
     
         case Icons.FILE_CHECK2:
-            return FileCheck2;
+            return (await import("./file-check2")).IconFileCheck2;
     
         case Icons.FILE_CHECK:
-            return FileCheck;
+            return (await import("./file-check")).IconFileCheck;
     
         case Icons.FILE_CLOUD:
-            return FileCloud;
+            return (await import("./file-cloud")).IconFileCloud;
     
         case Icons.FILE_CODE:
-            return FileCode;
+            return (await import("./file-code")).IconFileCode;
     
         case Icons.FILE_COLUMNS:
-            return FileColumns;
+            return (await import("./file-columns")).IconFileColumns;
     
         case Icons.FILE_EDIT2:
-            return FileEdit2;
+            return (await import("./file-edit2")).IconFileEdit2;
     
         case Icons.FILE_EDIT:
-            return FileEdit;
+            return (await import("./file-edit")).IconFileEdit;
     
         case Icons.FILE_EXCLAMATION_MARK2:
-            return FileExclamationMark2;
+            return (await import("./file-exclamation-mark2")).IconFileExclamationMark2;
     
         case Icons.FILE_EXCLAMATION_MARK:
-            return FileExclamationMark;
+            return (await import("./file-exclamation-mark")).IconFileExclamationMark;
     
         case Icons.FILE_GRAPHS:
-            return FileGraphs;
+            return (await import("./file-graphs")).IconFileGraphs;
     
         case Icons.FILE_HEART2:
-            return FileHeart2;
+            return (await import("./file-heart2")).IconFileHeart2;
     
         case Icons.FILE_HEART:
-            return FileHeart;
+            return (await import("./file-heart")).IconFileHeart;
     
         case Icons.FILE_INFO2:
-            return FileInfo2;
+            return (await import("./file-info2")).IconFileInfo2;
     
         case Icons.FILE_INFO:
-            return FileInfo;
+            return (await import("./file-info")).IconFileInfo;
     
         case Icons.FILE_INVISIBLE2:
-            return FileInvisible2;
+            return (await import("./file-invisible2")).IconFileInvisible2;
     
         case Icons.FILE_INVISIBLE:
-            return FileInvisible;
+            return (await import("./file-invisible")).IconFileInvisible;
     
         case Icons.FILE_MULTIPLY:
-            return FileMultiply;
+            return (await import("./file-multiply")).IconFileMultiply;
     
         case Icons.FILE_QUESTION_MARK2:
-            return FileQuestionMark2;
+            return (await import("./file-question-mark2")).IconFileQuestionMark2;
     
         case Icons.FILE_QUESTION_MARK:
-            return FileQuestionMark;
+            return (await import("./file-question-mark")).IconFileQuestionMark;
     
         case Icons.FILE_SEARCH2:
-            return FileSearch2;
+            return (await import("./file-search2")).IconFileSearch2;
     
         case Icons.FILE_SEARCH:
-            return FileSearch;
+            return (await import("./file-search")).IconFileSearch;
     
         case Icons.FILE_STAR2:
-            return FileStar2;
+            return (await import("./file-star2")).IconFileStar2;
     
         case Icons.FILE_STAR:
-            return FileStar;
+            return (await import("./file-star")).IconFileStar;
     
         case Icons.FILE_SUBTRACT2:
-            return FileSubtract2;
+            return (await import("./file-subtract2")).IconFileSubtract2;
     
         case Icons.FILE_SUBTRACT:
-            return FileSubtract;
+            return (await import("./file-subtract")).IconFileSubtract;
     
         case Icons.FILE_TEXT:
-            return FileText;
+            return (await import("./file-text")).IconFileText;
     
         case Icons.FILE_TRAY_STACK:
-            return FileTrayStack;
+            return (await import("./file-tray-stack")).IconFileTrayStack;
     
         case Icons.FILE_TRAY:
-            return FileTray;
+            return (await import("./file-tray")).IconFileTray;
     
         case Icons.FILE_VISIBLE2:
-            return FileVisible2;
+            return (await import("./file-visible2")).IconFileVisible2;
     
         case Icons.FILE_VISIBLE:
-            return FileVisible;
+            return (await import("./file-visible")).IconFileVisible;
     
         case Icons.FILE:
-            return File;
+            return (await import("./file")).IconFile;
     
         case Icons.FOLDER_ADD2:
-            return FolderAdd2;
+            return (await import("./folder-add2")).IconFolderAdd2;
     
         case Icons.FOLDER_ADD:
-            return FolderAdd;
+            return (await import("./folder-add")).IconFolderAdd;
     
         case Icons.FOLDER_BROKEN_HEART2:
-            return FolderBrokenHeart2;
+            return (await import("./folder-broken-heart2")).IconFolderBrokenHeart2;
     
         case Icons.FOLDER_BROKEN_HEART:
-            return FolderBrokenHeart;
+            return (await import("./folder-broken-heart")).IconFolderBrokenHeart;
     
         case Icons.FOLDER_CHECK2:
-            return FolderCheck2;
+            return (await import("./folder-check2")).IconFolderCheck2;
     
         case Icons.FOLDER_CHECK:
-            return FolderCheck;
+            return (await import("./folder-check")).IconFolderCheck;
     
         case Icons.FOLDER_EDIT2:
-            return FolderEdit2;
+            return (await import("./folder-edit2")).IconFolderEdit2;
     
         case Icons.FOLDER_EDIT:
-            return FolderEdit;
+            return (await import("./folder-edit")).IconFolderEdit;
     
         case Icons.FOLDER_EXCLAMATION_MARK2:
-            return FolderExclamationMark2;
+            return (await import("./folder-exclamation-mark2")).IconFolderExclamationMark2;
     
         case Icons.FOLDER_EXCLAMATION_MARK:
-            return FolderExclamationMark;
+            return (await import("./folder-exclamation-mark")).IconFolderExclamationMark;
     
         case Icons.FOLDER_HEART2:
-            return FolderHeart2;
+            return (await import("./folder-heart2")).IconFolderHeart2;
     
         case Icons.FOLDER_HEART:
-            return FolderHeart;
+            return (await import("./folder-heart")).IconFolderHeart;
     
         case Icons.FOLDER_INFO2:
-            return FolderInfo2;
+            return (await import("./folder-info2")).IconFolderInfo2;
     
         case Icons.FOLDER_INFO:
-            return FolderInfo;
+            return (await import("./folder-info")).IconFolderInfo;
     
         case Icons.FOLDER_INVISIBLE2:
-            return FolderInvisible2;
+            return (await import("./folder-invisible2")).IconFolderInvisible2;
     
         case Icons.FOLDER_INVISIBLE:
-            return FolderInvisible;
+            return (await import("./folder-invisible")).IconFolderInvisible;
     
         case Icons.FOLDER_MULTIPLY2:
-            return FolderMultiply2;
+            return (await import("./folder-multiply2")).IconFolderMultiply2;
     
         case Icons.FOLDER_MULTIPLY:
-            return FolderMultiply;
+            return (await import("./folder-multiply")).IconFolderMultiply;
     
         case Icons.FOLDER_QUESTION_MARK2:
-            return FolderQuestionMark2;
+            return (await import("./folder-question-mark2")).IconFolderQuestionMark2;
     
         case Icons.FOLDER_QUESTION_MARK:
-            return FolderQuestionMark;
+            return (await import("./folder-question-mark")).IconFolderQuestionMark;
     
         case Icons.FOLDER_SEARCH2:
-            return FolderSearch2;
+            return (await import("./folder-search2")).IconFolderSearch2;
     
         case Icons.FOLDER_SEARCH:
-            return FolderSearch;
+            return (await import("./folder-search")).IconFolderSearch;
     
         case Icons.FOLDER_STAR2:
-            return FolderStar2;
+            return (await import("./folder-star2")).IconFolderStar2;
     
         case Icons.FOLDER_STAR:
-            return FolderStar;
+            return (await import("./folder-star")).IconFolderStar;
     
         case Icons.FOLDER_SUBTRACT2:
-            return FolderSubtract2;
+            return (await import("./folder-subtract2")).IconFolderSubtract2;
     
         case Icons.FOLDER_SUBTRACT:
-            return FolderSubtract;
+            return (await import("./folder-subtract")).IconFolderSubtract;
     
         case Icons.FOLDER_VISIBLE2:
-            return FolderVisible2;
+            return (await import("./folder-visible2")).IconFolderVisible2;
     
         case Icons.FOLDER_VISIBLE:
-            return FolderVisible;
+            return (await import("./folder-visible")).IconFolderVisible;
     
         case Icons.FOLDER:
-            return Folder;
+            return (await import("./folder")).IconFolder;
     
         case Icons.GIRL:
-            return Girl;
+            return (await import("./girl")).IconGirl;
     
         case Icons.GIT_BRANCH:
-            return GitBranch;
+            return (await import("./git-branch")).IconGitBranch;
     
         case Icons.GIT_COMPARE:
-            return GitCompare;
+            return (await import("./git-compare")).IconGitCompare;
     
         case Icons.GIT_MERGE_QUEUE:
-            return GitMergeQueue;
+            return (await import("./git-merge-queue")).IconGitMergeQueue;
     
         case Icons.GIT_MERGE:
-            return GitMerge;
+            return (await import("./git-merge")).IconGitMerge;
     
         case Icons.GIT_PULL_REQUEST_CLOSED:
-            return GitPullRequestClosed;
+            return (await import("./git-pull-request-closed")).IconGitPullRequestClosed;
     
         case Icons.GIT_PULL_REQUEST_DRAFT:
-            return GitPullRequestDraft;
+            return (await import("./git-pull-request-draft")).IconGitPullRequestDraft;
     
         case Icons.GIT_PULL_REQUEST:
-            return GitPullRequest;
+            return (await import("./git-pull-request")).IconGitPullRequest;
     
         case Icons.GIT_REPO_FORK:
-            return GitRepoFork;
+            return (await import("./git-repo-fork")).IconGitRepoFork;
     
         case Icons.HEART_BROKEN_SMALL:
-            return HeartBrokenSmall;
+            return (await import("./heart-broken-small")).IconHeartBrokenSmall;
     
         case Icons.HEART_FAT:
-            return HeartFat;
+            return (await import("./heart-fat")).IconHeartFat;
     
         case Icons.HEART_L:
-            return HeartL;
+            return (await import("./heart-l")).IconHeartL;
     
         case Icons.HEART_M:
-            return HeartM;
+            return (await import("./heart-m")).IconHeartM;
     
         case Icons.HEART_SMALL:
-            return HeartSmall;
+            return (await import("./heart-small")).IconHeartSmall;
     
         case Icons.IMAGE:
-            return Image;
+            return (await import("./image")).IconImage;
     
         case Icons.INFO_FAT:
-            return InfoFat;
+            return (await import("./info-fat")).IconInfoFat;
     
         case Icons.INFO_L:
-            return InfoL;
+            return (await import("./info-l")).IconInfoL;
     
         case Icons.INFO_M:
-            return InfoM;
+            return (await import("./info-m")).IconInfoM;
     
         case Icons.INFO_S:
-            return InfoS;
+            return (await import("./info-s")).IconInfoS;
     
         case Icons.INVISIBLE_FAT:
-            return InvisibleFat;
+            return (await import("./invisible-fat")).IconInvisibleFat;
     
         case Icons.INVISIBLE_L:
-            return InvisibleL;
+            return (await import("./invisible-l")).IconInvisibleL;
     
         case Icons.INVISIBLE_M:
-            return InvisibleM;
+            return (await import("./invisible-m")).IconInvisibleM;
     
         case Icons.INVISIBLE_S:
-            return InvisibleS;
+            return (await import("./invisible-s")).IconInvisibleS;
     
         case Icons.LIGHTNING_FLASH:
-            return LightningFlash;
+            return (await import("./lightning-flash")).IconLightningFlash;
     
         case Icons.LIKE:
-            return Like;
+            return (await import("./like")).IconLike;
     
         case Icons.LINK:
-            return Link;
+            return (await import("./link")).IconLink;
     
         case Icons.MALE_SIMPLIFIED:
-            return MaleSimplified;
+            return (await import("./male-simplified")).IconMaleSimplified;
     
         case Icons.MEDIA:
-            return Media;
+            return (await import("./media")).IconMedia;
     
         case Icons.MOON:
-            return Moon;
+            return (await import("./moon")).IconMoon;
     
         case Icons.MOVING_BLOCK:
-            return MovingBlock;
+            return (await import("./moving-block")).IconMovingBlock;
     
         case Icons.MULTIPLY_FAT:
-            return MultiplyFat;
+            return (await import("./multiply-fat")).IconMultiplyFat;
     
         case Icons.MULTIPLY_L:
-            return MultiplyL;
+            return (await import("./multiply-l")).IconMultiplyL;
     
         case Icons.MULTIPLY_M:
-            return MultiplyM;
+            return (await import("./multiply-m")).IconMultiplyM;
     
         case Icons.MULTIPLY_S:
-            return MultiplyS;
+            return (await import("./multiply-s")).IconMultiplyS;
     
         case Icons.NOTE_ADD2:
-            return NoteAdd2;
+            return (await import("./note-add2")).IconNoteAdd2;
     
         case Icons.NOTE_ADD:
-            return NoteAdd;
+            return (await import("./note-add")).IconNoteAdd;
     
         case Icons.NOTE_BROKEN_HEART2:
-            return NoteBrokenHeart2;
+            return (await import("./note-broken-heart2")).IconNoteBrokenHeart2;
     
         case Icons.NOTE_BROKEN_HEART:
-            return NoteBrokenHeart;
+            return (await import("./note-broken-heart")).IconNoteBrokenHeart;
     
         case Icons.NOTE_CHECK2:
-            return NoteCheck2;
+            return (await import("./note-check2")).IconNoteCheck2;
     
         case Icons.NOTE_CHECK:
-            return NoteCheck;
+            return (await import("./note-check")).IconNoteCheck;
     
         case Icons.NOTE_EDIT2:
-            return NoteEdit2;
+            return (await import("./note-edit2")).IconNoteEdit2;
     
         case Icons.NOTE_EDIT:
-            return NoteEdit;
+            return (await import("./note-edit")).IconNoteEdit;
     
         case Icons.NOTE_EXCLAMATION_MARK2:
-            return NoteExclamationMark2;
+            return (await import("./note-exclamation-mark2")).IconNoteExclamationMark2;
     
         case Icons.NOTE_EXCLAMATION_MARK:
-            return NoteExclamationMark;
+            return (await import("./note-exclamation-mark")).IconNoteExclamationMark;
     
         case Icons.NOTE_HEART2:
-            return NoteHeart2;
+            return (await import("./note-heart2")).IconNoteHeart2;
     
         case Icons.NOTE_HEART:
-            return NoteHeart;
+            return (await import("./note-heart")).IconNoteHeart;
     
         case Icons.NOTE_INFO2:
-            return NoteInfo2;
+            return (await import("./note-info2")).IconNoteInfo2;
     
         case Icons.NOTE_INFO:
-            return NoteInfo;
+            return (await import("./note-info")).IconNoteInfo;
     
         case Icons.NOTE_INVISIBLE2:
-            return NoteInvisible2;
+            return (await import("./note-invisible2")).IconNoteInvisible2;
     
         case Icons.NOTE_INVISIBLE:
-            return NoteInvisible;
+            return (await import("./note-invisible")).IconNoteInvisible;
     
         case Icons.NOTE_MULTIPLY2:
-            return NoteMultiply2;
+            return (await import("./note-multiply2")).IconNoteMultiply2;
     
         case Icons.NOTE_MULTIPLY:
-            return NoteMultiply;
+            return (await import("./note-multiply")).IconNoteMultiply;
     
         case Icons.NOTE_QUESTION_MARK2:
-            return NoteQuestionMark2;
+            return (await import("./note-question-mark2")).IconNoteQuestionMark2;
     
         case Icons.NOTE_QUESTION_MARK:
-            return NoteQuestionMark;
+            return (await import("./note-question-mark")).IconNoteQuestionMark;
     
         case Icons.NOTE_SEARCH2:
-            return NoteSearch2;
+            return (await import("./note-search2")).IconNoteSearch2;
     
         case Icons.NOTE_SEARCH:
-            return NoteSearch;
+            return (await import("./note-search")).IconNoteSearch;
     
         case Icons.NOTE_STAR2:
-            return NoteStar2;
+            return (await import("./note-star2")).IconNoteStar2;
     
         case Icons.NOTE_STAR:
-            return NoteStar;
+            return (await import("./note-star")).IconNoteStar;
     
         case Icons.NOTE_SUBTRACT2:
-            return NoteSubtract2;
+            return (await import("./note-subtract2")).IconNoteSubtract2;
     
         case Icons.NOTE_SUBTRACT:
-            return NoteSubtract;
+            return (await import("./note-subtract")).IconNoteSubtract;
     
         case Icons.NOTE_VISIBLE2:
-            return NoteVisible2;
+            return (await import("./note-visible2")).IconNoteVisible2;
     
         case Icons.NOTE_VISIBLE:
-            return NoteVisible;
+            return (await import("./note-visible")).IconNoteVisible;
     
         case Icons.NOTE:
-            return Note;
+            return (await import("./note")).IconNote;
     
         case Icons.ON_TARGET:
-            return OnTarget;
+            return (await import("./on-target")).IconOnTarget;
     
         case Icons.PARAGRAPH:
-            return Paragraph;
+            return (await import("./paragraph")).IconParagraph;
     
         case Icons.PLAYBACK_BACKWARD:
-            return PlaybackBackward;
+            return (await import("./playback-backward")).IconPlaybackBackward;
     
         case Icons.PLAYBACK_END:
-            return PlaybackEnd;
+            return (await import("./playback-end")).IconPlaybackEnd;
     
         case Icons.PLAYBACK_FORWARD:
-            return PlaybackForward;
+            return (await import("./playback-forward")).IconPlaybackForward;
     
         case Icons.PLAYBACK_NEXT:
-            return PlaybackNext;
+            return (await import("./playback-next")).IconPlaybackNext;
     
         case Icons.PLAYBACK_PAUSE:
-            return PlaybackPause;
+            return (await import("./playback-pause")).IconPlaybackPause;
     
         case Icons.PLAYBACK_PLAY:
-            return PlaybackPlay;
+            return (await import("./playback-play")).IconPlaybackPlay;
     
         case Icons.PLAYBACK_PREVIOUS:
-            return PlaybackPrevious;
+            return (await import("./playback-previous")).IconPlaybackPrevious;
     
         case Icons.PLAYBACK_START:
-            return PlaybackStart;
+            return (await import("./playback-start")).IconPlaybackStart;
     
         case Icons.PLAYBACK_STOP:
-            return PlaybackStop;
+            return (await import("./playback-stop")).IconPlaybackStop;
     
         case Icons.QUESTION_MARK_FAT:
-            return QuestionMarkFat;
+            return (await import("./question-mark-fat")).IconQuestionMarkFat;
     
         case Icons.QUESTION_MARK_L:
-            return QuestionMarkL;
+            return (await import("./question-mark-l")).IconQuestionMarkL;
     
         case Icons.QUESTION_MARK_M:
-            return QuestionMarkM;
+            return (await import("./question-mark-m")).IconQuestionMarkM;
     
         case Icons.QUESTION_MARK_S:
-            return QuestionMarkS;
+            return (await import("./question-mark-s")).IconQuestionMarkS;
     
         case Icons.RECORD:
-            return Record;
+            return (await import("./record")).IconRecord;
     
         case Icons.REMOVE_LINES:
-            return RemoveLines;
+            return (await import("./remove-lines")).IconRemoveLines;
     
         case Icons.SEARCH_FAT:
-            return SearchFat;
+            return (await import("./search-fat")).IconSearchFat;
     
         case Icons.SEARCH_L:
-            return SearchL;
+            return (await import("./search-l")).IconSearchL;
     
         case Icons.SEARCH_M:
-            return SearchM;
+            return (await import("./search-m")).IconSearchM;
     
         case Icons.SEARCH_SMALL:
-            return SearchSmall;
+            return (await import("./search-small")).IconSearchSmall;
     
         case Icons.SETTINGS2:
-            return Settings2;
+            return (await import("./settings2")).IconSettings2;
     
         case Icons.SETTINGS3:
-            return Settings3;
+            return (await import("./settings3")).IconSettings3;
     
         case Icons.SETTINGS4:
-            return Settings4;
+            return (await import("./settings4")).IconSettings4;
     
         case Icons.SETTINGS:
-            return Settings;
+            return (await import("./settings")).IconSettings;
     
         case Icons.SPEECH_BALLOON2:
-            return SpeechBalloon2;
+            return (await import("./speech-balloon2")).IconSpeechBalloon2;
     
         case Icons.SPEECH_BALLOON_SQUARE2:
-            return SpeechBalloonSquare2;
+            return (await import("./speech-balloon-square2")).IconSpeechBalloonSquare2;
     
         case Icons.SPEECH_BALLOON_SQUARE_COPY:
-            return SpeechBalloonSquareCopy;
+            return (await import("./speech-balloon-square-copy")).IconSpeechBalloonSquareCopy;
     
         case Icons.SPEECH_BALLOON_SQUARE:
-            return SpeechBalloonSquare;
+            return (await import("./speech-balloon-square")).IconSpeechBalloonSquare;
     
         case Icons.SPEECH_BALLOON:
-            return SpeechBalloon;
+            return (await import("./speech-balloon")).IconSpeechBalloon;
     
         case Icons.SPEECH_BALLOONS:
-            return SpeechBalloons;
+            return (await import("./speech-balloons")).IconSpeechBalloons;
     
         case Icons.SQUARED_ADD:
-            return SquaredAdd;
+            return (await import("./squared-add")).IconSquaredAdd;
     
         case Icons.SQUARED_BROKEN_HEART:
-            return SquaredBrokenHeart;
+            return (await import("./squared-broken-heart")).IconSquaredBrokenHeart;
     
         case Icons.SQUARED_CHECK:
-            return SquaredCheck;
+            return (await import("./squared-check")).IconSquaredCheck;
     
         case Icons.SQUARED_EDIT:
-            return SquaredEdit;
+            return (await import("./squared-edit")).IconSquaredEdit;
     
         case Icons.SQUARED_EXCLAMATION_MARK:
-            return SquaredExclamationMark;
+            return (await import("./squared-exclamation-mark")).IconSquaredExclamationMark;
     
         case Icons.SQUARED_HEART:
-            return SquaredHeart;
+            return (await import("./squared-heart")).IconSquaredHeart;
     
         case Icons.SQUARED_INFO:
-            return SquaredInfo;
+            return (await import("./squared-info")).IconSquaredInfo;
     
         case Icons.SQUARED_INVISIBLE:
-            return SquaredInvisible;
+            return (await import("./squared-invisible")).IconSquaredInvisible;
     
         case Icons.SQUARED_MULTIPLY:
-            return SquaredMultiply;
+            return (await import("./squared-multiply")).IconSquaredMultiply;
     
         case Icons.SQUARED_QUESTION_MARK:
-            return SquaredQuestionMark;
+            return (await import("./squared-question-mark")).IconSquaredQuestionMark;
     
         case Icons.SQUARED_SEARCH:
-            return SquaredSearch;
+            return (await import("./squared-search")).IconSquaredSearch;
     
         case Icons.SQUARED_STAR:
-            return SquaredStar;
+            return (await import("./squared-star")).IconSquaredStar;
     
         case Icons.SQUARED_SUBTRACT:
-            return SquaredSubtract;
+            return (await import("./squared-subtract")).IconSquaredSubtract;
     
         case Icons.SQUARED_VISIBLE:
-            return SquaredVisible;
+            return (await import("./squared-visible")).IconSquaredVisible;
     
         case Icons.SQUARED:
-            return Squared;
+            return (await import("./squared")).IconSquared;
     
         case Icons.STAR_FAT:
-            return StarFat;
+            return (await import("./star-fat")).IconStarFat;
     
         case Icons.STAR_L:
-            return StarL;
+            return (await import("./star-l")).IconStarL;
     
         case Icons.STAR_M:
-            return StarM;
+            return (await import("./star-m")).IconStarM;
     
         case Icons.STAR_SMALL:
-            return StarSmall;
+            return (await import("./star-small")).IconStarSmall;
     
         case Icons.STICKER:
-            return Sticker;
+            return (await import("./sticker")).IconSticker;
     
         case Icons.STOPWATCH:
-            return Stopwatch;
+            return (await import("./stopwatch")).IconStopwatch;
     
         case Icons.SUBTRACT_FAT:
-            return SubtractFat;
+            return (await import("./subtract-fat")).IconSubtractFat;
     
         case Icons.SUBTRACT_L:
-            return SubtractL;
+            return (await import("./subtract-l")).IconSubtractL;
     
         case Icons.SUBTRACT_M:
-            return SubtractM;
+            return (await import("./subtract-m")).IconSubtractM;
     
         case Icons.SUBTRACT_S:
-            return SubtractS;
+            return (await import("./subtract-s")).IconSubtractS;
     
         case Icons.SUN2:
-            return Sun2;
+            return (await import("./sun2")).IconSun2;
     
         case Icons.SUN:
-            return Sun;
+            return (await import("./sun")).IconSun;
     
         case Icons.TABLES:
-            return Tables;
+            return (await import("./tables")).IconTables;
     
         case Icons.TALK_ADD:
-            return TalkAdd;
+            return (await import("./talk-add")).IconTalkAdd;
     
         case Icons.TALK_CHECK:
-            return TalkCheck;
+            return (await import("./talk-check")).IconTalkCheck;
     
         case Icons.TALK_DELETE:
-            return TalkDelete;
+            return (await import("./talk-delete")).IconTalkDelete;
     
         case Icons.TALK_EDIT:
-            return TalkEdit;
+            return (await import("./talk-edit")).IconTalkEdit;
     
         case Icons.TALK_EXCLAMATION_MARK:
-            return TalkExclamationMark;
+            return (await import("./talk-exclamation-mark")).IconTalkExclamationMark;
     
         case Icons.TALK_HEART_BROKEN:
-            return TalkHeartBroken;
+            return (await import("./talk-heart-broken")).IconTalkHeartBroken;
     
         case Icons.TALK_HEART:
-            return TalkHeart;
+            return (await import("./talk-heart")).IconTalkHeart;
     
         case Icons.TALK_INFO:
-            return TalkInfo;
+            return (await import("./talk-info")).IconTalkInfo;
     
         case Icons.TALK_INVISIBLE:
-            return TalkInvisible;
+            return (await import("./talk-invisible")).IconTalkInvisible;
     
         case Icons.TALK_QUESTION_MARK:
-            return TalkQuestionMark;
+            return (await import("./talk-question-mark")).IconTalkQuestionMark;
     
         case Icons.TALK_SEARCH:
-            return TalkSearch;
+            return (await import("./talk-search")).IconTalkSearch;
     
         case Icons.TALK_STAR:
-            return TalkStar;
+            return (await import("./talk-star")).IconTalkStar;
     
         case Icons.TALK_SUBTRACT:
-            return TalkSubtract;
+            return (await import("./talk-subtract")).IconTalkSubtract;
     
         case Icons.TALK_VISIBLE:
-            return TalkVisible;
+            return (await import("./talk-visible")).IconTalkVisible;
     
         case Icons.TALK:
-            return Talk;
+            return (await import("./talk")).IconTalk;
     
         case Icons.TARGET:
-            return Target;
+            return (await import("./target")).IconTarget;
     
         case Icons.TEXT_ALIGN_CENTER:
-            return TextAlignCenter;
+            return (await import("./text-align-center")).IconTextAlignCenter;
     
         case Icons.TEXT_ALIGN_JUSTIFY_CENTERED:
-            return TextAlignJustifyCentered;
+            return (await import("./text-align-justify-centered")).IconTextAlignJustifyCentered;
     
         case Icons.TEXT_ALIGN_JUSTIFY_LEFT:
-            return TextAlignJustifyLeft;
+            return (await import("./text-align-justify-left")).IconTextAlignJustifyLeft;
     
         case Icons.TEXT_ALIGN_JUSTIFY_RIGHT:
-            return TextAlignJustifyRight;
+            return (await import("./text-align-justify-right")).IconTextAlignJustifyRight;
     
         case Icons.TEXT_ALIGN_JUSTIFY:
-            return TextAlignJustify;
+            return (await import("./text-align-justify")).IconTextAlignJustify;
     
         case Icons.TEXT_ALIGN_LEFT:
-            return TextAlignLeft;
+            return (await import("./text-align-left")).IconTextAlignLeft;
     
         case Icons.TEXT_ALIGN_RIGHT_ORDER_DESC:
-            return TextAlignRightOrderDesc;
+            return (await import("./text-align-right-order-desc")).IconTextAlignRightOrderDesc;
     
         case Icons.TEXT_ALIGN_RIGHT:
-            return TextAlignRight;
+            return (await import("./text-align-right")).IconTextAlignRight;
     
         case Icons.TEXT_BOLD:
-            return TextBold;
+            return (await import("./text-bold")).IconTextBold;
     
         case Icons.TEXT_DETAIL_LIST:
-            return TextDetailList;
+            return (await import("./text-detail-list")).IconTextDetailList;
     
         case Icons.TEXT_INDENT:
-            return TextIndent;
+            return (await import("./text-indent")).IconTextIndent;
     
         case Icons.TEXT_ITALIC:
-            return TextItalic;
+            return (await import("./text-italic")).IconTextItalic;
     
         case Icons.TEXT_LINE_THROUGH:
-            return TextLineThrough;
+            return (await import("./text-line-through")).IconTextLineThrough;
     
         case Icons.TEXT_ORDER_ASC123:
-            return TextOrderAsc123;
+            return (await import("./text-order-asc123")).IconTextOrderAsc123;
     
         case Icons.TEXT_ORDER_ASC127:
-            return TextOrderAsc127;
+            return (await import("./text-order-asc127")).IconTextOrderAsc127;
     
         case Icons.TEXT_ORDER_DESC_COPY2:
-            return TextOrderDescCopy2;
+            return (await import("./text-order-desc-copy2")).IconTextOrderDescCopy2;
     
         case Icons.TEXT_ORDER_DESC_COPY3:
-            return TextOrderDescCopy3;
+            return (await import("./text-order-desc-copy3")).IconTextOrderDescCopy3;
     
         case Icons.TEXT_ORDER_DESC_COPY:
-            return TextOrderDescCopy;
+            return (await import("./text-order-desc-copy")).IconTextOrderDescCopy;
     
         case Icons.TEXT_ORDER_DESC:
-            return TextOrderDesc;
+            return (await import("./text-order-desc")).IconTextOrderDesc;
     
         case Icons.TEXT_OUTDENT:
-            return TextOutdent;
+            return (await import("./text-outdent")).IconTextOutdent;
     
         case Icons.TEXT_UNDERLINE:
-            return TextUnderline;
+            return (await import("./text-underline")).IconTextUnderline;
     
         case Icons.THERMOMETER_COLD:
-            return ThermometerCold;
+            return (await import("./thermometer-cold")).IconThermometerCold;
     
         case Icons.THERMOMETER_HOT:
-            return ThermometerHot;
+            return (await import("./thermometer-hot")).IconThermometerHot;
     
         case Icons.THERMOMETER:
-            return Thermometer;
+            return (await import("./thermometer")).IconThermometer;
     
         case Icons.TIMER:
-            return Timer;
+            return (await import("./timer")).IconTimer;
     
         case Icons.TRASH2:
-            return Trash2;
+            return (await import("./trash2")).IconTrash2;
     
         case Icons.TRASH:
-            return Trash;
+            return (await import("./trash")).IconTrash;
     
         case Icons.TRIANGLED_EXCLAMATION_MARK:
-            return TriangledExclamationMark;
+            return (await import("./triangled-exclamation-mark")).IconTriangledExclamationMark;
     
         case Icons.TRIANGLED_INFO:
-            return TriangledInfo;
+            return (await import("./triangled-info")).IconTriangledInfo;
     
         case Icons.TRIANGLED_QUESTION_MARK:
-            return TriangledQuestionMark;
+            return (await import("./triangled-question-mark")).IconTriangledQuestionMark;
     
         case Icons.TRIANGLED:
-            return Triangled;
+            return (await import("./triangled")).IconTriangled;
     
         case Icons.USER_ADD:
-            return UserAdd;
+            return (await import("./user-add")).IconUserAdd;
     
         case Icons.USER_DELETE:
-            return UserDelete;
+            return (await import("./user-delete")).IconUserDelete;
     
         case Icons.USER_GROUP:
-            return UserGroup;
+            return (await import("./user-group")).IconUserGroup;
     
         case Icons.USER:
-            return User;
+            return (await import("./user")).IconUser;
     
         case Icons.USERS:
-            return Users;
+            return (await import("./users")).IconUsers;
     
         case Icons.VISIBLE_FAT:
-            return VisibleFat;
+            return (await import("./visible-fat")).IconVisibleFat;
     
         case Icons.VISIBLE_L:
-            return VisibleL;
+            return (await import("./visible-l")).IconVisibleL;
     
         case Icons.VISIBLE_M:
-            return VisibleM;
+            return (await import("./visible-m")).IconVisibleM;
     
         case Icons.VISIBLE_S:
-            return VisibleS;
+            return (await import("./visible-s")).IconVisibleS;
     
         case Icons.VOLUME_I:
-            return VolumeI;
+            return (await import("./volume-i")).IconVolumeI;
     
         case Icons.VOLUME_II:
-            return VolumeIi;
+            return (await import("./volume-ii")).IconVolumeIi;
     
         case Icons.VOLUME_III:
-            return VolumeIii;
+            return (await import("./volume-iii")).IconVolumeIii;
     
         case Icons.VOLUME_MUTE:
-            return VolumeMute;
+            return (await import("./volume-mute")).IconVolumeMute;
     
         case Icons.VOLUME_OFF:
-            return VolumeOff;
+            return (await import("./volume-off")).IconVolumeOff;
     
         case Icons.WHEELCHAIR_ACTION:
-            return WheelchairAction;
+            return (await import("./wheelchair-action")).IconWheelchairAction;
     
         case Icons.WHEELCHAIR:
-            return Wheelchair;
+            return (await import("./wheelchair")).IconWheelchair;
     
         case Icons.ICON27:
-            return Icon27;
+            return (await import("./icon27")).IconIcon27;
     
         case Icons.AIRPLANE_ARRIVALS:
-            return AirplaneArrivals;
+            return (await import("./airplane-arrivals")).IconAirplaneArrivals;
     
         case Icons.AIRPLANE_DEPARTURES:
-            return AirplaneDepartures;
+            return (await import("./airplane-departures")).IconAirplaneDepartures;
     
         case Icons.AIRPLANE:
-            return Airplane;
+            return (await import("./airplane")).IconAirplane;
     
         case Icons.AIRPORT_CONNECT_FLIGHTS:
-            return AirportConnectFlights;
+            return (await import("./airport-connect-flights")).IconAirportConnectFlights;
     
         case Icons.AIRPORT_TRANSFER2:
-            return AirportTransfer2;
+            return (await import("./airport-transfer2")).IconAirportTransfer2;
     
         case Icons.AIRPORT_TRANSFER:
-            return AirportTransfer;
+            return (await import("./airport-transfer")).IconAirportTransfer;
     
         case Icons.ANCHOR:
-            return Anchor;
+            return (await import("./anchor")).IconAnchor;
     
         case Icons.BICYCLE_SURFBOARD:
-            return BicycleSurfboard;
+            return (await import("./bicycle-surfboard")).IconBicycleSurfboard;
     
         case Icons.BICYCLE:
-            return Bicycle;
+            return (await import("./bicycle")).IconBicycle;
     
         case Icons.BRIEFCASE_CROSS:
-            return BriefcaseCross;
+            return (await import("./briefcase-cross")).IconBriefcaseCross;
     
         case Icons.CAR:
-            return Car;
+            return (await import("./car")).IconCar;
     
         case Icons.CROSS_CIRCLED:
-            return CrossCircled;
+            return (await import("./cross-circled")).IconCrossCircled;
     
         case Icons.CROSS:
-            return Cross;
+            return (await import("./cross")).IconCross;
     
         case Icons.CRUISESHIP:
-            return Cruiseship;
+            return (await import("./cruiseship")).IconCruiseship;
     
         case Icons.ELEVATOR2:
-            return Elevator2;
+            return (await import("./elevator2")).IconElevator2;
     
         case Icons.ELEVATOR3:
-            return Elevator3;
+            return (await import("./elevator3")).IconElevator3;
     
         case Icons.ELEVATOR4:
-            return Elevator4;
+            return (await import("./elevator4")).IconElevator4;
     
         case Icons.ESCALATOR_DOWN:
-            return EscalatorDown;
+            return (await import("./escalator-down")).IconEscalatorDown;
     
         case Icons.ESCALATOR_UP:
-            return EscalatorUp;
+            return (await import("./escalator-up")).IconEscalatorUp;
     
         case Icons.ESCALATOR:
-            return Escalator;
+            return (await import("./escalator")).IconEscalator;
     
         case Icons.FERRY:
-            return Ferry;
+            return (await import("./ferry")).IconFerry;
     
         case Icons.FIRE_EXTINGUISHER:
-            return FireExtinguisher;
+            return (await import("./fire-extinguisher")).IconFireExtinguisher;
     
         case Icons.FIRE_HOSE:
-            return FireHose;
+            return (await import("./fire-hose")).IconFireHose;
     
         case Icons.FIRE:
-            return Fire;
+            return (await import("./fire")).IconFire;
     
         case Icons.GRAVESTONE2:
-            return Gravestone2;
+            return (await import("./gravestone2")).IconGravestone2;
     
         case Icons.GRAVESTONE3:
-            return Gravestone3;
+            return (await import("./gravestone3")).IconGravestone3;
     
         case Icons.GRAVESTONE:
-            return Gravestone;
+            return (await import("./gravestone")).IconGravestone;
     
         case Icons.LUGGAGE_BELT:
-            return LuggageBelt;
+            return (await import("./luggage-belt")).IconLuggageBelt;
     
         case Icons.LUGGAGE_LOCKER:
-            return LuggageLocker;
+            return (await import("./luggage-locker")).IconLuggageLocker;
     
         case Icons.LUGGAGE_TROLLEY:
-            return LuggageTrolley;
+            return (await import("./luggage-trolley")).IconLuggageTrolley;
     
         case Icons.LUGGAGE:
-            return Luggage;
+            return (await import("./luggage")).IconLuggage;
     
         case Icons.METRO2:
-            return Metro2;
+            return (await import("./metro2")).IconMetro2;
     
         case Icons.METRO:
-            return Metro;
+            return (await import("./metro")).IconMetro;
     
         case Icons.NO_SMOKING_CIRCLED:
-            return NoSmokingCircled;
+            return (await import("./no-smoking-circled")).IconNoSmokingCircled;
     
         case Icons.NO_SMOKING:
-            return NoSmoking;
+            return (await import("./no-smoking")).IconNoSmoking;
     
         case Icons.PLASTER:
-            return Plaster;
+            return (await import("./plaster")).IconPlaster;
     
         case Icons.PLASTERS:
-            return Plasters;
+            return (await import("./plasters")).IconPlasters;
     
         case Icons.RENTAL_CAR:
-            return RentalCar;
+            return (await import("./rental-car")).IconRentalCar;
     
         case Icons.SECURITY_CAMERA2:
-            return SecurityCamera2;
+            return (await import("./security-camera2")).IconSecurityCamera2;
     
         case Icons.SECURITY_CAMERA3:
-            return SecurityCamera3;
+            return (await import("./security-camera3")).IconSecurityCamera3;
     
         case Icons.SECURITY_CAMERA:
-            return SecurityCamera;
+            return (await import("./security-camera")).IconSecurityCamera;
     
         case Icons.SHIP:
-            return Ship;
+            return (await import("./ship")).IconShip;
     
         case Icons.SMOKING:
-            return Smoking;
+            return (await import("./smoking")).IconSmoking;
     
         case Icons.STAIRS_DOWN:
-            return StairsDown;
+            return (await import("./stairs-down")).IconStairsDown;
     
         case Icons.STAIRS_UP:
-            return StairsUp;
+            return (await import("./stairs-up")).IconStairsUp;
     
         case Icons.STAIRS:
-            return Stairs;
+            return (await import("./stairs")).IconStairs;
     
         case Icons.TAXI:
-            return Taxi;
+            return (await import("./taxi")).IconTaxi;
     
         case Icons.TRAIN_TRACK:
-            return TrainTrack;
+            return (await import("./train-track")).IconTrainTrack;
     
         case Icons.TRAIN:
-            return Train;
-            default: 
+            return (await import("./train")).IconTrain;
+            default:
             return null;
     }
 }
@@ -2799,7 +2105,7 @@ export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' |
 
 
     const meta = {};
-    
+
     const mergedIcons = Object.keys(Icons).map((key) => {
         const value = Icons[key as keyof typeof Icons];
         const metaData = meta[key as keyof typeof Icons];
@@ -2824,697 +2130,5 @@ export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' |
 
 
 export {
-    Icons,
-    Icon24,
-    ArrowCornerDown,
-    ArrowCornerLeft,
-    ArrowCornerRight,
-    ArrowCornerUp,
-    ArrowDiagonalBlTrStop,
-    ArrowDiagonalBrTlStop,
-    ArrowDiagonalInLtBr,
-    ArrowDiagonalInTrBl,
-    ArrowDiagonalTlBrSplit,
-    ArrowDiagonalTlBrStop,
-    ArrowDiagonalTlBr,
-    ArrowDiagonalTrBlSplit,
-    ArrowDiagonalTrBlStop,
-    ArrowDiagonalTrBl,
-    ArrowDownCopy,
-    ArrowDownLeft,
-    ArrowDownRight,
-    ArrowDown,
-    ArrowDownload,
-    ArrowHeadedCornerDown,
-    ArrowHeadedCornerLeft,
-    ArrowHeadedCornerRight,
-    ArrowHeadedCornerUp,
-    ArrowHeadedDiagonalBlTrStop,
-    ArrowHeadedDiagonalBrTlStop,
-    ArrowHeadedDiagonalInLtBr,
-    ArrowHeadedDiagonalInTrBl,
-    ArrowHeadedDiagonalTlBrSplit,
-    ArrowHeadedDiagonalTlBrStop,
-    ArrowHeadedDiagonalTlBr,
-    ArrowHeadedDiagonalTrBlSplit,
-    ArrowHeadedDiagonalTrBlStop,
-    ArrowHeadedDiagonalTrBl,
-    ArrowHeadedDownLeft,
-    ArrowHeadedDownRight,
-    ArrowHeadedDownStop,
-    ArrowHeadedDown,
-    ArrowHeadedDownload,
-    ArrowHeadedInCenter,
-    ArrowHeadedInDiagonal,
-    ArrowHeadedIn,
-    ArrowHeadedLeftRightSplit,
-    ArrowHeadedLeftRightStop,
-    ArrowHeadedLeftRight,
-    ArrowHeadedLeftStop,
-    ArrowHeadedLeft,
-    ArrowHeadedOutCenter,
-    ArrowHeadedReloadDownUp,
-    ArrowHeadedReloadLeftRight,
-    ArrowHeadedReloadRightLeft,
-    ArrowHeadedReloadUpDown,
-    ArrowHeadedReturnDown,
-    ArrowHeadedReturnLeft,
-    ArrowHeadedReturnRight,
-    ArrowHeadedReturnUp,
-    ArrowHeadedRight,
-    ArrowHeadedRotateBottomLeft,
-    ArrowHeadedRotateBottomRight,
-    ArrowHeadedRotateTopLeft,
-    ArrowHeadedRotateTopRight,
-    ArrowHeadedRoundedLeftUp,
-    ArrowHeadedRoundedRightDown,
-    ArrowHeadedRoundedRightUp,
-    ArrowHeadedRounedLeftDown,
-    ArrowHeadedShare,
-    ArrowHeadedSpreadSplit,
-    ArrowHeadedSpread,
-    ArrowHeadedTwowayDiagonalLr,
-    ArrowHeadedTwowayDiagonalRl,
-    ArrowHeadedTwowayHorizontal,
-    ArrowHeadedTwowayVertical,
-    ArrowHeadedUpDownSplit,
-    ArrowHeadedUpDownStop,
-    ArrowHeadedUpDown,
-    ArrowHeadedUpLeft,
-    ArrowHeadedUpRight,
-    ArrowHeadedUpStop76,
-    ArrowHeadedUpStop78,
-    ArrowHeadedUp,
-    ArrowHeadedUpload,
-    ArrowInCenter,
-    ArrowInvert,
-    ArrowLeftRightSplit,
-    ArrowLeftRightStop,
-    ArrowLeftRight,
-    ArrowLeftStop,
-    ArrowLeft,
-    ArrowOutCenter,
-    ArrowReloadDownUp,
-    ArrowReloadLeftRight,
-    ArrowReloadRightLeft,
-    ArrowReloadUpDown,
-    ArrowReturnDown,
-    ArrowReturnLeft,
-    ArrowReturnRight,
-    ArrowReturnUp,
-    ArrowRightStop,
-    ArrowRight,
-    ArrowRoateBottomRight,
-    ArrowRotateBottomLeft,
-    ArrowRotateTopLeft,
-    ArrowRotateTopRight,
-    ArrowRoundedLeftDown,
-    ArrowRoundedLeftUp,
-    ArrowRoundedRightDown,
-    ArrowRoundedRightUp,
-    ArrowShare,
-    ArrowSpreadSplit,
-    ArrowSpread,
-    ArrowTransferBlTr,
-    ArrowTransferLeftRight,
-    ArrowTransferLtBr,
-    ArrowTransferUpDown,
-    ArrowTwowayDiagonalLr,
-    ArrowTwowayDiagonalRl,
-    ArrowTwowayHorizontal,
-    ArrowTwowayVertical,
-    ArrowUpCopy,
-    ArrowUpDownSplit,
-    ArrowUpDownStop,
-    ArrowUpDown,
-    ArrowUpLeft,
-    ArrowUpRight,
-    ArrowUp,
-    ArrowUpload,
-    ChevronDoubleDown,
-    ChevronDoubleLeft,
-    ChevronDoubleRight,
-    ChevronDoubleUp,
-    ChevronDown,
-    ChevronLeft,
-    ChevronRight,
-    ChevronUp,
-    Icon25,
-    Dice1,
-    Dice2,
-    Dice3,
-    Dice4,
-    Dice5,
-    Dice6,
-    Dice7,
-    Dice8,
-    Dice9,
-    DigitDigital1,
-    DigitDigital2,
-    DigitDigital3,
-    DigitDigital4,
-    DigitDigital5,
-    DigitDigital6,
-    DigitDigital7,
-    DigitDigital8,
-    DigitDigital9,
-    Dollar,
-    Euro,
-    Percentage,
-    Promille,
-    SymbolFemale,
-    SymbolMale,
-    SymbolUnisex,
-    ThreeDotsDiagonalMajor,
-    ThreeDotsDiagonalMinor,
-    ThreeDotsHorizontal,
-    ThreeDotsLines,
-    ThreeDotsVertical,
-    TwoDotsDiagonalMajor,
-    TwoDotsDiagonalMinor,
-    TwoDotsHorizontal,
-    TwoDotsLines,
-    TwoDotsVertical,
-    Yen,
-    AlarmBell2,
-    AlarmBell3,
-    AlarmBell,
-    AnimalStep,
-    ArtworkFrame,
-    AudioWaves,
-    Barbecue,
-    BathroomEssentials,
-    Binoculars,
-    Blender,
-    Bookcase,
-    BreadSlice,
-    Bulb,
-    Camera,
-    Chip,
-    CleaningBucket,
-    CleaningSpray,
-    Clipboard,
-    Closet,
-    CoffeeCup,
-    CoffeeMachine,
-    CoffeeBeans,
-    CognacGlass,
-    Coins,
-    ColorPallette,
-    ColorRgb,
-    ColorSwatches,
-    Compass2,
-    Compass,
-    Cube3d,
-    Desktop,
-    Education,
-    EspressMachine2,
-    EspressoMachineE61,
-    EspressoMachine,
-    EspressoPistol,
-    FactoryArm,
-    FactoryBelt,
-    Factory,
-    Filmroll,
-    Fingerprint,
-    Fridge,
-    FurnitureBed,
-    FurnitureBedsideTable,
-    FurnitureChair,
-    FurnitureCouch,
-    FurnitureDesk,
-    FurnitureDressoir,
-    Gamepad,
-    GraphUpRound,
-    GraphUp,
-    Hairdryer,
-    Hamburger,
-    Highlight,
-    IdeaFactory,
-    Industry3,
-    Iron,
-    KitchenCutlery,
-    KitchenUtensils,
-    Laptop,
-    Leaf2,
-    Leaf3,
-    Leaf,
-    Leafs,
-    LiquidSoap2,
-    LiquidSoap,
-    MailOpen,
-    Mail,
-    Microwave,
-    Money,
-    Moneybag,
-    MusicNoteSingle,
-    MusicNote,
-    Oven,
-    Paperplane,
-    Perculator,
-    Plant,
-    Politician2,
-    Politician,
-    Printer,
-    Reels,
-    RoomShade,
-    Stove,
-    TabletLandscape,
-    Tablet,
-    Television,
-    Temple2,
-    Temple,
-    Terminal,
-    Tree2,
-    Tree3,
-    Tree,
-    Trees2,
-    Trees,
-    Turtle,
-    VideoCamera,
-    Videos,
-    Vote,
-    Wallet,
-    WashingMachine,
-    Watercooker,
-    Website,
-    WineGlass,
-    AccessibilityPersonCircled,
-    AccessibilityPerson,
-    AddFat,
-    AddL,
-    AddLines,
-    AddM,
-    AddS,
-    ArtSupplies,
-    AtSign,
-    BoardAdd2,
-    BoardMulti2Horizontal,
-    BoardMulti2Vertical,
-    BoardMultiTDown,
-    BoardMultiTLeft,
-    BoardMultiTRight,
-    BoardMultiTUp,
-    BoardMulti,
-    BoardMultiply2,
-    BoardSplit13Horizontal,
-    BoardSplit13Vertical,
-    BoardSplit2Horizontal,
-    BoardSplit2Vertical,
-    BoardSplit31Horizontal,
-    BoardSplit31Vertical,
-    BoardSplit3Horizontal,
-    BoardSplit3Vertical,
-    BoardSplit4Horizontal,
-    BoardSplit4Vertical,
-    BoardSplitTDown,
-    BoardSplitTLeft,
-    BoardSplitTRight,
-    BoardSplitTUp,
-    BoardSubtract2,
-    Board,
-    BoxIn,
-    BoxOut,
-    Box,
-    Boy,
-    BrokenHeartF,
-    BrokenHeartL,
-    BrokenHeartM,
-    BuildingChurch,
-    BuildingHouse2,
-    BuildingHouse,
-    BuildingShop,
-    ButtonAdd,
-    ButtonBrokenHeart2,
-    ButtonBrokenHeart,
-    ButtonCheck2,
-    ButtonCheck,
-    ButtonEdit2,
-    ButtonEdit,
-    ButtonExclamationMark2,
-    ButtonExclamationMark,
-    ButtonHeart2,
-    ButtonHeart,
-    ButtonInfo2,
-    ButtonInfo,
-    ButtonInvisible2,
-    ButtonInvisible,
-    ButtonMultiply,
-    ButtonQuestionMark2,
-    ButtonQuestionMark,
-    ButtonSearch2,
-    ButtonSearch,
-    ButtonStar2,
-    ButtonStar,
-    ButtonSubtract,
-    ButtonVisible2,
-    ButtonVisible,
-    Button,
-    CheckFat,
-    CheckL,
-    CheckList,
-    CheckM,
-    CheckS,
-    CircleInvisible,
-    CircleSubtract,
-    CircledAdd,
-    CircledBrokenHeart,
-    CircledCheck,
-    CircledEdit,
-    CircledExclamationMark,
-    CircledHeart,
-    CircledInfo,
-    CircledMultiply,
-    CircledQuestionMark,
-    CircledSearch,
-    CircledStar,
-    CircledVisible,
-    Circled,
-    Clock,
-    CloudRainCopy2,
-    CloudRainCopy,
-    CloudRain,
-    CloudSun,
-    CloudThermometer,
-    Cloud,
-    CodeBracketsCircled,
-    CodeBrackets,
-    CodeChevronsCircled,
-    CodeChevronsOpenCircled,
-    CodeChevronsOpen,
-    CodeChevrons,
-    Dislike,
-    EditFat,
-    EditL,
-    EditLine,
-    EditM,
-    EditS,
-    ExclamationMarkFat,
-    ExclamationMarkL,
-    ExclamationMarkM,
-    ExclamationMarkS,
-    FemaleSimplified,
-    FileAdd267,
-    FileAdd269,
-    FileAdd,
-    FileArchive,
-    FileArrowUp,
-    FileBinary,
-    FileBrokenHeart2,
-    FileBrokenHeart,
-    FileCheck2,
-    FileCheck,
-    FileCloud,
-    FileCode,
-    FileColumns,
-    FileEdit2,
-    FileEdit,
-    FileExclamationMark2,
-    FileExclamationMark,
-    FileGraphs,
-    FileHeart2,
-    FileHeart,
-    FileInfo2,
-    FileInfo,
-    FileInvisible2,
-    FileInvisible,
-    FileMultiply,
-    FileQuestionMark2,
-    FileQuestionMark,
-    FileSearch2,
-    FileSearch,
-    FileStar2,
-    FileStar,
-    FileSubtract2,
-    FileSubtract,
-    FileText,
-    FileTrayStack,
-    FileTray,
-    FileVisible2,
-    FileVisible,
-    File,
-    FolderAdd2,
-    FolderAdd,
-    FolderBrokenHeart2,
-    FolderBrokenHeart,
-    FolderCheck2,
-    FolderCheck,
-    FolderEdit2,
-    FolderEdit,
-    FolderExclamationMark2,
-    FolderExclamationMark,
-    FolderHeart2,
-    FolderHeart,
-    FolderInfo2,
-    FolderInfo,
-    FolderInvisible2,
-    FolderInvisible,
-    FolderMultiply2,
-    FolderMultiply,
-    FolderQuestionMark2,
-    FolderQuestionMark,
-    FolderSearch2,
-    FolderSearch,
-    FolderStar2,
-    FolderStar,
-    FolderSubtract2,
-    FolderSubtract,
-    FolderVisible2,
-    FolderVisible,
-    Folder,
-    Girl,
-    GitBranch,
-    GitCompare,
-    GitMergeQueue,
-    GitMerge,
-    GitPullRequestClosed,
-    GitPullRequestDraft,
-    GitPullRequest,
-    GitRepoFork,
-    HeartBrokenSmall,
-    HeartFat,
-    HeartL,
-    HeartM,
-    HeartSmall,
-    Image,
-    InfoFat,
-    InfoL,
-    InfoM,
-    InfoS,
-    InvisibleFat,
-    InvisibleL,
-    InvisibleM,
-    InvisibleS,
-    LightningFlash,
-    Like,
-    Link,
-    MaleSimplified,
-    Media,
-    Moon,
-    MovingBlock,
-    MultiplyFat,
-    MultiplyL,
-    MultiplyM,
-    MultiplyS,
-    NoteAdd2,
-    NoteAdd,
-    NoteBrokenHeart2,
-    NoteBrokenHeart,
-    NoteCheck2,
-    NoteCheck,
-    NoteEdit2,
-    NoteEdit,
-    NoteExclamationMark2,
-    NoteExclamationMark,
-    NoteHeart2,
-    NoteHeart,
-    NoteInfo2,
-    NoteInfo,
-    NoteInvisible2,
-    NoteInvisible,
-    NoteMultiply2,
-    NoteMultiply,
-    NoteQuestionMark2,
-    NoteQuestionMark,
-    NoteSearch2,
-    NoteSearch,
-    NoteStar2,
-    NoteStar,
-    NoteSubtract2,
-    NoteSubtract,
-    NoteVisible2,
-    NoteVisible,
-    Note,
-    OnTarget,
-    Paragraph,
-    PlaybackBackward,
-    PlaybackEnd,
-    PlaybackForward,
-    PlaybackNext,
-    PlaybackPause,
-    PlaybackPlay,
-    PlaybackPrevious,
-    PlaybackStart,
-    PlaybackStop,
-    QuestionMarkFat,
-    QuestionMarkL,
-    QuestionMarkM,
-    QuestionMarkS,
-    Record,
-    RemoveLines,
-    SearchFat,
-    SearchL,
-    SearchM,
-    SearchSmall,
-    Settings2,
-    Settings3,
-    Settings4,
-    Settings,
-    SpeechBalloon2,
-    SpeechBalloonSquare2,
-    SpeechBalloonSquareCopy,
-    SpeechBalloonSquare,
-    SpeechBalloon,
-    SpeechBalloons,
-    SquaredAdd,
-    SquaredBrokenHeart,
-    SquaredCheck,
-    SquaredEdit,
-    SquaredExclamationMark,
-    SquaredHeart,
-    SquaredInfo,
-    SquaredInvisible,
-    SquaredMultiply,
-    SquaredQuestionMark,
-    SquaredSearch,
-    SquaredStar,
-    SquaredSubtract,
-    SquaredVisible,
-    Squared,
-    StarFat,
-    StarL,
-    StarM,
-    StarSmall,
-    Sticker,
-    Stopwatch,
-    SubtractFat,
-    SubtractL,
-    SubtractM,
-    SubtractS,
-    Sun2,
-    Sun,
-    Tables,
-    TalkAdd,
-    TalkCheck,
-    TalkDelete,
-    TalkEdit,
-    TalkExclamationMark,
-    TalkHeartBroken,
-    TalkHeart,
-    TalkInfo,
-    TalkInvisible,
-    TalkQuestionMark,
-    TalkSearch,
-    TalkStar,
-    TalkSubtract,
-    TalkVisible,
-    Talk,
-    Target,
-    TextAlignCenter,
-    TextAlignJustifyCentered,
-    TextAlignJustifyLeft,
-    TextAlignJustifyRight,
-    TextAlignJustify,
-    TextAlignLeft,
-    TextAlignRightOrderDesc,
-    TextAlignRight,
-    TextBold,
-    TextDetailList,
-    TextIndent,
-    TextItalic,
-    TextLineThrough,
-    TextOrderAsc123,
-    TextOrderAsc127,
-    TextOrderDescCopy2,
-    TextOrderDescCopy3,
-    TextOrderDescCopy,
-    TextOrderDesc,
-    TextOutdent,
-    TextUnderline,
-    ThermometerCold,
-    ThermometerHot,
-    Thermometer,
-    Timer,
-    Trash2,
-    Trash,
-    TriangledExclamationMark,
-    TriangledInfo,
-    TriangledQuestionMark,
-    Triangled,
-    UserAdd,
-    UserDelete,
-    UserGroup,
-    User,
-    Users,
-    VisibleFat,
-    VisibleL,
-    VisibleM,
-    VisibleS,
-    VolumeI,
-    VolumeIi,
-    VolumeIii,
-    VolumeMute,
-    VolumeOff,
-    WheelchairAction,
-    Wheelchair,
-    Icon27,
-    AirplaneArrivals,
-    AirplaneDepartures,
-    Airplane,
-    AirportConnectFlights,
-    AirportTransfer2,
-    AirportTransfer,
-    Anchor,
-    BicycleSurfboard,
-    Bicycle,
-    BriefcaseCross,
-    Car,
-    CrossCircled,
-    Cross,
-    Cruiseship,
-    Elevator2,
-    Elevator3,
-    Elevator4,
-    EscalatorDown,
-    EscalatorUp,
-    Escalator,
-    Ferry,
-    FireExtinguisher,
-    FireHose,
-    Fire,
-    Gravestone2,
-    Gravestone3,
-    Gravestone,
-    LuggageBelt,
-    LuggageLocker,
-    LuggageTrolley,
-    Luggage,
-    Metro2,
-    Metro,
-    NoSmokingCircled,
-    NoSmoking,
-    Plaster,
-    Plasters,
-    RentalCar,
-    SecurityCamera2,
-    SecurityCamera3,
-    SecurityCamera,
-    Ship,
-    Smoking,
-    StairsDown,
-    StairsUp,
-    Stairs,
-    Taxi,
-    TrainTrack,
-    Train,
-    }
+    Icons
+}

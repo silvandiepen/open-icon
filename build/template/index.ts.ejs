@@ -1,18 +1,13 @@
 import { Icons } from "./types";
 
 
-<% files.forEach(function(file,index) { %>
-import <%= file.meta.componentName %> from "./<%= file.meta.fileName %>";<% }); 
--%>
-   
-
-export const getIcon = (icon: Icons) => {
+export const getIcon = async (icon: Icons) => {
     switch(icon) {
     <% files.forEach(function(file,index) { %>
         case Icons.<%= constCase(file.meta.fileName) %>:
-            return <%= file.meta.componentName %>;
+            return (await import("./<%= file.meta.fileName %>")).Icon<%= file.meta.componentName %>;
     <% }); -%>
-        default: 
+        default:
             return null;
     }
 }
@@ -38,7 +33,7 @@ export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' |
 
 
     const meta = {};
-    
+
     const mergedIcons = Object.keys(Icons).map((key) => {
         const value = Icons[key as keyof typeof Icons];
         const metaData = meta[key as keyof typeof Icons];
@@ -63,8 +58,6 @@ export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' |
 
 
 export {
-    Icons,
-    <% files.forEach(function(file,index) { %><%= file.meta.componentName %>,
-    <% }); -%>
+    Icons
 }
 

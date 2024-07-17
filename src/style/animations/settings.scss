@@ -1,0 +1,63 @@
+@mixin settings() {
+  svg {
+    line,
+    circle {
+      transition: transform var(--transition-time, 0.3s)
+        var(--transition-timing-function, cubic-bezier(0.4, 0, 0.2, 1));
+    }
+    line{
+      color: var(--settings-line-color, inherit);
+    }
+    circle{
+      color: var(--settings-dot-color, inherit);
+      fill: var(--settings-dot-fill, var(--icon-fill, currentColor));
+    }
+
+    line {
+      transform-box: fill-box;
+    }
+    circle {
+      &:nth-of-type(4) {
+        transform: translateX(40%);
+      }
+
+      &:nth-of-type(5) {
+        transform: translateX(-40%);
+      }
+
+      &:nth-of-type(6) {
+        transform: translateX(20%);
+      }
+    }
+
+    line {
+      &:nth-child(4) {
+        transform: scale(0.2, 1);
+      }
+
+      &:nth-child(5) {
+        transform: translateX(70%) scale(0.3, 1);
+      }
+
+      &:nth-child(6) {
+        transform: scale(7, 1);
+      }
+
+      &:nth-child(7) {
+        transform: scale(7.5, 1) translateX(-80%);
+      }
+
+      &:nth-child(8) {
+        transform: scale(0.5, 1) translateX(120%);
+      }
+
+      &:nth-child(9) {
+        transform: scale(1.8, 1);
+      }
+    }
+  }
+}
+
+.icon-settings-animation {
+  @include settings;
+}
