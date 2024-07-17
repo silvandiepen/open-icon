@@ -1,12 +1,14 @@
 {
     "compilerOptions": {
+        "module": "ESNext",
         "target": "ESNext",
-        "module": "commonjs",
-        "sourceMap": true,
-        "outDir": "dist",
-        "lib": ["ESNext"],
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
         "declaration": true,
         "emitDeclarationOnly": true,
+        "outDir": "./dist",
+        "sourceMap": true
     },
     "include": ["lib/index.ts"],
 }
