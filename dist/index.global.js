@@ -1773,6 +1773,62 @@
     }
   });
 
+  // lib/chevron-connect2.ts
+  var chevron_connect2_exports = {};
+  __export(chevron_connect2_exports, {
+    IconChevronConnect2: () => IconChevronConnect2,
+    default: () => chevron_connect2_default
+  });
+  var IconChevronConnect2, chevron_connect2_default;
+  var init_chevron_connect2 = __esm({
+    "lib/chevron-connect2.ts"() {
+      IconChevronConnect2 = `<svg id="ChevronConnect2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="9.34 13.61 27.23 31.5 45.11 13.61" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="62.66 58.16 45 40.5 27.34 58.16" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chevron_connect2_default = IconChevronConnect2;
+    }
+  });
+
+  // lib/chevron-connect.ts
+  var chevron_connect_exports = {};
+  __export(chevron_connect_exports, {
+    IconChevronConnect: () => IconChevronConnect,
+    default: () => chevron_connect_default
+  });
+  var IconChevronConnect, chevron_connect_default;
+  var init_chevron_connect = __esm({
+    "lib/chevron-connect.ts"() {
+      IconChevronConnect = `<svg id="ChevronConnect" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="58.27 9.23 40.39 27.11 58.27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="13.73 62.55 31.39 44.89 13.73 27.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chevron_connect_default = IconChevronConnect;
+    }
+  });
+
+  // lib/chevron-disconnect2.ts
+  var chevron_disconnect2_exports = {};
+  __export(chevron_disconnect2_exports, {
+    IconChevronDisconnect2: () => IconChevronDisconnect2,
+    default: () => chevron_disconnect2_default
+  });
+  var IconChevronDisconnect2, chevron_disconnect2_default;
+  var init_chevron_disconnect2 = __esm({
+    "lib/chevron-disconnect2.ts"() {
+      IconChevronDisconnect2 = `<svg id="ChevronDisconnect2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="9.23 40.27 27.11 58.16 45 40.27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="62.55 31.27 44.89 13.61 27.23 31.27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chevron_disconnect2_default = IconChevronDisconnect2;
+    }
+  });
+
+  // lib/chevron-disconnect.ts
+  var chevron_disconnect_exports = {};
+  __export(chevron_disconnect_exports, {
+    IconChevronDisconnect: () => IconChevronDisconnect,
+    default: () => chevron_disconnect_default
+  });
+  var IconChevronDisconnect, chevron_disconnect_default;
+  var init_chevron_disconnect = __esm({
+    "lib/chevron-disconnect.ts"() {
+      IconChevronDisconnect = `<svg id="ChevronDisconnect" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="31.5 9.23 13.61 27.11 31.5 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="40.5 62.55 58.16 44.89 40.5 27.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chevron_disconnect_default = IconChevronDisconnect;
+    }
+  });
+
   // lib/chevron-double-down.ts
   var chevron_double_down_exports = {};
   __export(chevron_double_down_exports, {
@@ -1885,17 +1941,913 @@
     }
   });
 
-  // lib/icon25.ts
-  var icon25_exports = {};
-  __export(icon25_exports, {
-    IconIcon25: () => IconIcon25,
-    default: () => icon25_default
+  // lib/icon01.ts
+  var icon01_exports = {};
+  __export(icon01_exports, {
+    IconIcon01: () => IconIcon01,
+    default: () => icon01_default
   });
-  var IconIcon25, icon25_default;
-  var init_icon25 = __esm({
-    "lib/icon25.ts"() {
-      IconIcon25 = `<svg id="Icon25" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="28.72 15 25.88 12 28.72 9 42.96 9 45.81 12 42.96 15 28.72 15" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="51.5 31.67 48.65 34.67 45.81 31.67 45.81 16.67 48.65 13.67 51.5 16.67 51.5 31.67" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="51.5 55.67 48.65 58.67 45.81 55.67 45.81 40.67 48.65 37.67 51.5 40.67 51.5 55.67" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="26.19 31.5 23.35 34.5 20.5 31.5 20.5 16.5 23.35 13.5 26.19 16.5 26.19 31.5" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="26.19 55.5 23.35 58.5 20.5 55.5 20.5 40.5 23.35 37.5 26.19 40.5 26.19 55.5" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="28.72 63 25.88 60 28.72 57 42.96 57 45.81 60 42.96 63 28.72 63" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></svg>`;
-      icon25_default = IconIcon25;
+  var IconIcon01, icon01_default;
+  var init_icon01 = __esm({
+    "lib/icon01.ts"() {
+      IconIcon01 = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89"/>`;
+      icon01_default = IconIcon01;
+    }
+  });
+
+  // lib/bottle.ts
+  var bottle_exports = {};
+  __export(bottle_exports, {
+    IconBottle: () => IconBottle,
+    default: () => bottle_default
+  });
+  var IconBottle, bottle_default;
+  var init_bottle = __esm({
+    "lib/bottle.ts"() {
+      IconBottle = `<svg id="Bottle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M40.5,28.21v-14.71h-9v14.71c-2.69,1.56-4.5,4.46-4.5,7.79v27h18v-27c0-3.33-1.81-6.23-4.5-7.79Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      bottle_default = IconBottle;
+    }
+  });
+
+  // lib/bottles.ts
+  var bottles_exports = {};
+  __export(bottles_exports, {
+    IconBottles: () => IconBottles,
+    default: () => bottles_default
+  });
+  var IconBottles, bottles_default;
+  var init_bottles = __esm({
+    "lib/bottles.ts"() {
+      IconBottles = `<svg id="Bottles" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M27,28.21v-14.71h-9v14.71c-2.69,1.56-4.5,4.46-4.5,7.79v27h18v-27c0-3.33-1.81-6.23-4.5-7.79Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,28.21v-14.71h-9v14.71c-2.69,1.56-4.5,4.46-4.5,7.79v27h18v-27c0-3.33-1.81-6.23-4.5-7.79Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      bottles_default = IconBottles;
+    }
+  });
+
+  // lib/bread-slice.ts
+  var bread_slice_exports = {};
+  __export(bread_slice_exports, {
+    IconBreadSlice: () => IconBreadSlice,
+    default: () => bread_slice_default
+  });
+  var IconBreadSlice, bread_slice_default;
+  var init_bread_slice = __esm({
+    "lib/bread-slice.ts"() {
+      IconBreadSlice = `<svg id="BreadSlice" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M58.5,24.75c0-6.21-5.04-11.25-11.25-11.25s-11.25,4.5-11.25,4.5c0,0-5.04-4.5-11.25-4.5s-11.25,5.04-11.25,11.25c0,4.16,2.27,7.79,5.62,9.73v24.02h33.75v-24.02c3.36-1.95,5.62-5.57,5.62-9.73Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,24.75c0-6.21-5.04-11.25-11.25-11.25s-11.25,4.5-11.25,4.5c0,0-5.04-4.5-11.25-4.5s-11.25,5.04-11.25,11.25c0,4.16,2.27,7.79,5.62,9.73v24.02h33.75v-24.02c3.36-1.95,5.62-5.57,5.62-9.73Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      bread_slice_default = IconBreadSlice;
+    }
+  });
+
+  // lib/coffee-cup.ts
+  var coffee_cup_exports = {};
+  __export(coffee_cup_exports, {
+    IconCoffeeCup: () => IconCoffeeCup,
+    default: () => coffee_cup_default
+  });
+  var IconCoffeeCup, coffee_cup_default;
+  var init_coffee_cup = __esm({
+    "lib/coffee-cup.ts"() {
+      IconCoffeeCup = `<svg id="CoffeeCup" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,36c0,12.43,0,22.5,20.25,22.5s20.25-10.07,20.25-22.5H13.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M13.5,36c0,12.43,0,22.5,20.25,22.5s20.25-10.07,20.25-22.5H13.5Z" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.32,12c.31,9,6.96,6,6.96,15" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M35.79,9c.31,9,6.96,6,6.96,15" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M56.25,36h2.25c.79,0,1.55.14,2.25.38,2.62.93,4.5,3.43,4.5,6.37,0,3.73-3.02,6.75-6.75,6.75h-2.25" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      coffee_cup_default = IconCoffeeCup;
+    }
+  });
+
+  // lib/coffee-machine.ts
+  var coffee_machine_exports = {};
+  __export(coffee_machine_exports, {
+    IconCoffeeMachine: () => IconCoffeeMachine,
+    default: () => coffee_machine_default
+  });
+  var IconCoffeeMachine, coffee_machine_default;
+  var init_coffee_machine = __esm({
+    "lib/coffee-machine.ts"() {
+      IconCoffeeMachine = `<svg id="CoffeeMachine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18.19,49.5c-.14,1.17-.05,2.35.36,3.46,1.65,4.5,6.82,5.55,12.95,5.55s11.3-1.04,12.95-5.55c.61-1.67.53-3.51-.03-5.19l-1.61-4.82h-.68c-13.33,0-13.41,6.47-23.94,6.55Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.5,13v10c0,2.21,1.79,4,4,4h27.5v36H18h45V13c0-2.21-1.79-4-4-4H26.5c-2.21,0-4,1.79-4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="49.5" y1="18" x2="49.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,13v10c0,2.21,1.79,4,4,4h27.5v36H18h45V13c0-2.21-1.79-4-4-4H26.5c-2.21,0-4,1.79-4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M44.42,47.76c.56,1.68.64,3.53.03,5.19-1.65,4.5-6.82,5.55-12.95,5.55s-11.3-1.04-12.95-5.55c-.61-1.67-.53-3.51.03-5.19l3.92-11.76h18l3.92,11.76Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,49.5c10.73,0,10.73-6.56,24.14-6.56" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,36h-9.5c-2.21,0-4,1.79-4,4v10c0,2.21,1.79,4,4,4h5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      coffee_machine_default = IconCoffeeMachine;
+    }
+  });
+
+  // lib/cognac-glass.ts
+  var cognac_glass_exports = {};
+  __export(cognac_glass_exports, {
+    IconCognacGlass: () => IconCognacGlass,
+    default: () => cognac_glass_default
+  });
+  var IconCognacGlass, cognac_glass_default;
+  var init_cognac_glass = __esm({
+    "lib/cognac-glass.ts"() {
+      IconCognacGlass = `<svg id="CognacGlass" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M16.27,41.25c2.54,6.65,9.58,8.22,17.88,8.22s15.66-1.63,18.05-8.64c.26-.75.44-1.79.55-2.97.2-2.13.13-4.27-.18-6.37l-.38-.02c-19.97,0-20,9.74-35.92,9.78Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M51.56,25.93c1.35,3.79,1.94,7.9,1.56,11.96-.11,1.17-.29,2.21-.55,2.97-2.39,7.01-9.57,8.64-18.05,8.64s-15.66-1.63-18.05-8.64c-.26-.75-.44-1.79-.55-2.97-.38-4.07.21-8.18,1.56-11.96l4.43-12.43h25.2l4.43,12.43Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M16.57,41.28c16,0,16-9.78,36-9.78" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.57" y1="58.5" x2="34.44" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="25.57" y1="58.5" x2="43.57" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      cognac_glass_default = IconCognacGlass;
+    }
+  });
+
+  // lib/espress-machine2.ts
+  var espress_machine2_exports = {};
+  __export(espress_machine2_exports, {
+    IconEspressMachine2: () => IconEspressMachine2,
+    default: () => espress_machine2_default
+  });
+  var IconEspressMachine2, espress_machine2_default;
+  var init_espress_machine2 = __esm({
+    "lib/espress-machine2.ts"() {
+      IconEspressMachine2 = `<svg id="EspressMachine2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M45,27l-4.5,9h-9l-4.5-9h-13.5v36h45V27h-13.5ZM42.75,54c0,3.73-3.02,6.75-6.75,6.75s-6.75-3.02-6.75-6.75v-4.5h13.5v4.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="18" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="13.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="63" x2="58.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 27 31.5 36 40.5 36 45 27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M29.25,54v-4.5h13.5v4.5c0,3.73-3.02,6.75-6.75,6.75s-6.75-3.02-6.75-6.75Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="63" x2="63" y2="63" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="47" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="18" x2="45" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      espress_machine2_default = IconEspressMachine2;
+    }
+  });
+
+  // lib/espresso-machine-e61.ts
+  var espresso_machine_e61_exports = {};
+  __export(espresso_machine_e61_exports, {
+    IconEspressoMachineE61: () => IconEspressoMachineE61,
+    default: () => espresso_machine_e61_default
+  });
+  var IconEspressoMachineE61, espresso_machine_e61_default;
+  var init_espresso_machine_e61 = __esm({
+    "lib/espresso-machine-e61.ts"() {
+      IconEspressoMachineE61 = `<svg id="EspressoMachineE61" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,9v45h45V9H13.5ZM42.75,36.37v5c0,2.21-1.79,4-4,4h-5.5c-2.21,0-4-1.79-4-4v-5h-.75l2.32-9.76c1.3-5.45,9.05-5.45,10.35,0l2.32,9.76h-.75Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 49.5 13.5 9 58.5 9 58.5 54 13.5 54 13.5 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="18" x2="22.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="18" x2="49.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="47.25" y1="36.37" x2="24.75" y2="36.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M28.5,36.37l2.32-9.76c1.3-5.45,9.05-5.45,10.35,0l2.32,9.76" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M29.25,36.37h13.5v5c0,2.21-1.79,4-4,4h-5.5c-2.21,0-4-1.79-4-4v-5h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="45" y1="40.87" x2="63" y2="40.87" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      espresso_machine_e61_default = IconEspressoMachineE61;
+    }
+  });
+
+  // lib/espresso-machine.ts
+  var espresso_machine_exports = {};
+  __export(espresso_machine_exports, {
+    IconEspressoMachine: () => IconEspressoMachine,
+    default: () => espresso_machine_default
+  });
+  var IconEspressoMachine, espresso_machine_default;
+  var init_espresso_machine = __esm({
+    "lib/espresso-machine.ts"() {
+      IconEspressoMachine = `<svg id="EspressoMachine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="47.25 27 47.25 36 42.75 36 42.75 45 29.25 45 29.25 36 24.75 36 24.75 27 13.5 27 18 54 54 54 58.5 27 47.25 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17,9h38c4.42,0,8,3.58,8,8v10H9v-10c0-4.42,3.58-8,8-8Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="18" x2="18" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="18" x2="27" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17,9h38c4.42,0,8,3.58,8,8v10H9v-10c0-4.42,3.58-8,8-8Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="27" x2="18" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="27" x2="54" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="24.75" y="27" width="22.5" height="9" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="29.25" y="36" width="13.5" height="9" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="40.5" x2="60.75" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      espresso_machine_default = IconEspressoMachine;
+    }
+  });
+
+  // lib/espresso-pistol.ts
+  var espresso_pistol_exports = {};
+  __export(espresso_pistol_exports, {
+    IconEspressoPistol: () => IconEspressoPistol,
+    default: () => espresso_pistol_default
+  });
+  var IconEspressoPistol, espresso_pistol_default;
+  var init_espresso_pistol = __esm({
+    "lib/espresso-pistol.ts"() {
+      IconEspressoPistol = `<svg id="EspressoPistol" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><circle cx="50.25" cy="21.75" r="11.25" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M30.09,32.36l9.55,9.55-19.09,19.09c-2.64,2.64-6.91,2.64-9.55,0h0c-2.64-2.64-2.64-6.91,0-9.55l19.09-19.09Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><polyline points="44.14 34.23 38.05 40.31 31.69 33.95 37.77 27.86" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><polyline points="43.88 9.03 43.88 9.03 37.52 15.39 37.52 15.39" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><polyline points="56.61 34.48 56.61 34.48 62.97 28.12 62.97 28.12" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><circle cx="50.25" cy="21.75" r="11.25" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30.09,32.36l9.55,9.55-19.09,19.09c-2.64,2.64-6.91,2.64-9.55,0h0c-2.64-2.64-2.64-6.91,0-9.55l19.09-19.09Z" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="44.14 34.23 38.05 40.31 31.69 33.95 37.77 27.86" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="43.88 9.03 43.88 9.03 37.52 15.39 37.52 15.39" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="56.61 34.48 56.61 34.48 62.97 28.12 62.97 28.12" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      espresso_pistol_default = IconEspressoPistol;
+    }
+  });
+
+  // lib/hamburger.ts
+  var hamburger_exports = {};
+  __export(hamburger_exports, {
+    IconHamburger: () => IconHamburger,
+    default: () => hamburger_default
+  });
+  var IconHamburger, hamburger_default;
+  var init_hamburger = __esm({
+    "lib/hamburger.ts"() {
+      IconHamburger = `<svg id="Hamburger" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,29.25h54s0-18-27-18S9,29.25,9,29.25Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,51.75q0,9,27,9t27-9H9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,28.5h54s0-18-27-18S9,28.5,9,28.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,51q0,9,27,9t27-9H9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,42c-6.75,0-6.75-3.38-13.5-3.38-6.75,0-6.75,3.38-13.5,3.38s-6.75-3.38-13.5-3.38c-6.75,0-6.75,3.38-13.5,3.38" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      hamburger_default = IconHamburger;
+    }
+  });
+
+  // lib/perculator.ts
+  var perculator_exports = {};
+  __export(perculator_exports, {
+    IconPerculator: () => IconPerculator,
+    default: () => perculator_default
+  });
+  var IconPerculator, perculator_default;
+  var init_perculator = __esm({
+    "lib/perculator.ts"() {
+      IconPerculator = `<svg id="Perculator" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 40.5 63 18 54 18 54 9 22.5 9 22.5 18 27 40.5 27 49.5 22.5 63 27 63 49.5 63 54 63 49.5 49.5 49.5 40.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="13.5 36 13.5 18 22.5 18" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="18" x2="36" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="49.5" x2="45" y2="63" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="63" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="40.5" x2="45" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 18 54 9 22.5 9 22.5 18 27 40.5 27 49.5 22.5 63 27 63 49.5 63 54 63 49.5 49.5 49.5 40.5 54 18" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="22.5 18 54 18 63 18 49.5 40.5 27 40.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="49.5" x2="49.5" y2="49.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      perculator_default = IconPerculator;
+    }
+  });
+
+  // lib/wine-glass.ts
+  var wine_glass_exports = {};
+  __export(wine_glass_exports, {
+    IconWineGlass: () => IconWineGlass,
+    default: () => wine_glass_default
+  });
+  var IconWineGlass, wine_glass_default;
+  var init_wine_glass = __esm({
+    "lib/wine-glass.ts"() {
+      IconWineGlass = `<svg id="WineGlass" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M21.85,32.79c1.76,4.62,6.65,5.71,12.42,5.71s10.87-1.13,12.53-6c.18-.52.3-1.25.38-2.06.14-1.48.09-2.98-.13-4.44h-.26c-13.87,0-13.89,6.77-24.95,6.79Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M46.35,22.13c.94,2.63,1.35,5.48,1.09,8.31-.08.81-.2,1.54-.38,2.06-1.66,4.87-6.65,6-12.53,6s-10.87-1.13-12.53-6c-.18-.52-.3-1.25-.38-2.06-.26-2.82.15-5.68,1.09-8.31l3.08-8.63h17.5l3.08,8.63Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.05,32.79c11.11,0,11.11-6.79,25-6.79" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.57" y1="58.5" x2="34.43" y2="38.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="24.57" y1="58.5" x2="44.57" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      wine_glass_default = IconWineGlass;
+    }
+  });
+
+  // lib/alarm-bell2.ts
+  var alarm_bell2_exports = {};
+  __export(alarm_bell2_exports, {
+    IconAlarmBell2: () => IconAlarmBell2,
+    default: () => alarm_bell2_default
+  });
+  var IconAlarmBell2, alarm_bell2_default;
+  var init_alarm_bell2 = __esm({
+    "lib/alarm-bell2.ts"() {
+      IconAlarmBell2 = `<svg id="AlarmBell2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M46.34,21.16c-6.33-6.33-14.44-4.89-24.18,1.27l-13.48,8.53c-1.08.69-1.25,2.2-.34,3.1l12.55,12.55,12.55,12.55c.91.91,2.42.74,3.1-.34l8.53-13.48c6.17-9.75,7.6-17.86,1.27-24.18h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M27.25,52.98c-3.51,3.51-9.21,3.51-12.73,0s-3.51-9.21,0-12.73" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M46.34,21.16c-6.33-6.33-14.44-4.89-24.18,1.27l-13.48,8.53c-1.08.69-1.25,2.2-.34,3.1l12.55,12.55,12.55,12.55c.91.91,2.42.74,3.1-.34l8.53-13.48c6.17-9.75,7.6-17.86,1.27-24.18h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M15.05,15.33c4.98-8.2,14.71-12.71,21.74-10.08" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M52.17,52.45c8.2-4.98,12.71-14.71,10.08-21.74" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      alarm_bell2_default = IconAlarmBell2;
+    }
+  });
+
+  // lib/alarm-bell3.ts
+  var alarm_bell3_exports = {};
+  __export(alarm_bell3_exports, {
+    IconAlarmBell3: () => IconAlarmBell3,
+    default: () => alarm_bell3_default
+  });
+  var IconAlarmBell3, alarm_bell3_default;
+  var init_alarm_bell3 = __esm({
+    "lib/alarm-bell3.ts"() {
+      IconAlarmBell3 = `<svg id="AlarmBell3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M45,49.5c0,4.97-4.03,9-9,9s-9-4.03-9-9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9.75,31.5c-2.28-9.32,1.41-19.39,8.25-22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M62.25,31.5c2.28-9.32-1.41-19.39-8.25-22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      alarm_bell3_default = IconAlarmBell3;
+    }
+  });
+
+  // lib/alarm-bell.ts
+  var alarm_bell_exports = {};
+  __export(alarm_bell_exports, {
+    IconAlarmBell: () => IconAlarmBell,
+    default: () => alarm_bell_default
+  });
+  var IconAlarmBell, alarm_bell_default;
+  var init_alarm_bell = __esm({
+    "lib/alarm-bell.ts"() {
+      IconAlarmBell = `<svg id="AlarmBell" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M45,49.5c0,4.97-4.03,9-9,9s-9-4.03-9-9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      alarm_bell_default = IconAlarmBell;
+    }
+  });
+
+  // lib/art-supplies.ts
+  var art_supplies_exports = {};
+  __export(art_supplies_exports, {
+    IconArtSupplies: () => IconArtSupplies,
+    default: () => art_supplies_default
+  });
+  var IconArtSupplies, art_supplies_default;
+  var init_art_supplies = __esm({
+    "lib/art-supplies.ts"() {
+      IconArtSupplies = `<svg id="ArtSupplies" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M46.06,37.08l15.87,15.87c.78.78.78,2.05,0,2.83l-9.79,9.79c-.78.78-2.05.78-2.83,0l-16.77-16.77" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M24.88,41.14L7.59,23.85c-.78-.78-.78-2.05,0-2.83l9.79-9.79c.78-.78,2.05-.78,2.83,0l16.39,16.39" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M46.06,37.08l15.87,15.87c.78.78.78,2.05,0,2.83l-9.79,9.79c-.78.78-2.05.78-2.83,0l-16.77-16.77" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.88,41.14L7.59,23.85c-.78-.78-.78-2.05,0-2.83l9.79-9.79c.78-.78,2.05-.78,2.83,0l16.39,16.39" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="53.8" y1="44.82" x2="47.44" y2="51.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="28.35" y1="19.36" x2="21.98" y2="25.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g><path d="M31.47,49.62c14.81-11.11,30.33-27.26,25.1-32.5-5.24-5.24-21.39,10.29-32.5,25.1,0,0-1.85,1.85,1.85,5.55,3.7,3.7,5.55,1.85,5.55,1.85Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27.77,57.02c-5.55,5.55-9.26-1.85-14.81,3.7-1.85-5.55-1.22-9.89,1.85-12.96,3.07-3.07,8.04-3.07,11.11,0,3.07,3.07,3.7,7.4,1.85,9.26Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      art_supplies_default = IconArtSupplies;
+    }
+  });
+
+  // lib/audio-waves.ts
+  var audio_waves_exports = {};
+  __export(audio_waves_exports, {
+    IconAudioWaves: () => IconAudioWaves,
+    default: () => audio_waves_default
+  });
+  var IconAudioWaves, audio_waves_default;
+  var init_audio_waves = __esm({
+    "lib/audio-waves.ts"() {
+      IconAudioWaves = `<svg id="AudioWaves" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="9" y1="27" x2="9" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="22.5" x2="18" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="18" x2="27" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="31.5" x2="45" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="54" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="31.5" x2="63" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      audio_waves_default = IconAudioWaves;
+    }
+  });
+
+  // lib/camera.ts
+  var camera_exports = {};
+  __export(camera_exports, {
+    IconCamera: () => IconCamera,
+    default: () => camera_default
+  });
+  var IconCamera, camera_default;
+  var init_camera = __esm({
+    "lib/camera.ts"() {
+      IconCamera = `<svg id="Camera" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M57,18H15c-3.31,0-6,2.69-6,6v24c0,3.31,2.69,6,6,6h42c3.31,0,6-2.69,6-6v-24c0-3.31-2.69-6-6-6ZM36,45c-4.97,0-9-4.03-9-9s4.03-9,9-9,9,4.03,9,9-4.03,9-9,9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="9" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M31,9h10c2.21,0,4,1.79,4,4v5h-18v-5c0-2.21,1.79-4,4-4Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="18" width="54" height="36" rx="6" ry="6" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      camera_default = IconCamera;
+    }
+  });
+
+  // lib/clipboard.ts
+  var clipboard_exports = {};
+  __export(clipboard_exports, {
+    IconClipboard: () => IconClipboard,
+    default: () => clipboard_default
+  });
+  var IconClipboard, clipboard_default;
+  var init_clipboard = __esm({
+    "lib/clipboard.ts"() {
+      IconClipboard = `<svg id="Clipboard" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M50,13.5h-9.5v4.5h-9v-4.5h-9.5c-2.21,0-4,1.79-4,4v41.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V17.5c0-2.21-1.79-4-4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,13.5h9.5c2.21,0,4,1.79,4,4v41.5c0,2.21-1.79,4-4,4h-28c-2.21,0-4-1.79-4-4V17.5c0-2.21,1.79-4,4-4h9.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="31.5" y="9" width="9" height="9" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      clipboard_default = IconClipboard;
+    }
+  });
+
+  // lib/color-pallette.ts
+  var color_pallette_exports = {};
+  __export(color_pallette_exports, {
+    IconColorPallette: () => IconColorPallette,
+    default: () => color_pallette_default
+  });
+  var IconColorPallette, color_pallette_default;
+  var init_color_pallette = __esm({
+    "lib/color-pallette.ts"() {
+      IconColorPallette = `<svg id="ColorPallette" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36c0,9.97-14.18,4.84-22.5,9-9,4.5,9,18-4.5,18-14.91,0-27-12.09-27-27s12.09-27,27-27,27,12.09,27,27Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M63,36c0,9.97-14.18,4.84-22.5,9-9,4.5,9,18-4.5,18-14.91,0-27-12.09-27-27s12.09-27,27-27,27,12.09,27,27Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="18" x2="36" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="22.5" y1="22.5" x2="22.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="22.5" y1="49.5" x2="22.5" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="49.5" y1="22.5" x2="49.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      color_pallette_default = IconColorPallette;
+    }
+  });
+
+  // lib/color-rgb.ts
+  var color_rgb_exports = {};
+  __export(color_rgb_exports, {
+    IconColorRgb: () => IconColorRgb,
+    default: () => color_rgb_default
+  });
+  var IconColorRgb, color_rgb_default;
+  var init_color_rgb = __esm({
+    "lib/color-rgb.ts"() {
+      IconColorRgb = `<svg id="ColorRgb" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><circle cx="26.37" cy="44.44" r="15.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="45.86" cy="44.44" r="15.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36.12" cy="27.56" r="15.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></g><g><circle cx="35.88" cy="27.56" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="35.88" cy="27.56" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="26.14" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="26.14" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="45.63" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="45.63" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      color_rgb_default = IconColorRgb;
+    }
+  });
+
+  // lib/color-swatches.ts
+  var color_swatches_exports = {};
+  __export(color_swatches_exports, {
+    IconColorSwatches: () => IconColorSwatches,
+    default: () => color_swatches_default
+  });
+  var IconColorSwatches, color_swatches_default;
+  var init_color_swatches = __esm({
+    "lib/color-swatches.ts"() {
+      IconColorSwatches = `<svg id="ColorSwatches" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="27.94" y1="19.43" x2="43.53" y2="28.43" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="23.82" y1="33.21" x2="36.53" y2="40.55" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="23.82" y1="48.22" x2="30.03" y2="51.81" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.39" y1="29.63" x2="56.39" y2="45.21" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="37.03" y1="39.68" x2="44.27" y2="52.21" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.52" y1="52.68" x2="33.01" y2="58.71" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M46.57,15.17l-8.66-5c-1.91-1.1-4.36-.45-5.46,1.46l-8.63,14.94v30.93c0,2.21-1.79,4-4,4,1.91,1.1,4.36.45,5.46-1.46l22.75-39.4c1.1-1.91.45-4.36-1.46-5.46Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M65.65,35.25l-5-8.66c-1.1-1.91-3.55-2.57-5.46-1.46l-14.62,8.44-15.28,26.47c-1.1,1.91-3.55,2.57-5.46,1.46h-.79l.29.5c1.1,1.91,3.55,2.57,5.46,1.46l39.4-22.75c1.91-1.1,2.57-3.55,1.46-5.46Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="5.82" y="8" width="18" height="53.5" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="5.82" y="8" width="18" height="53.5" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="5.82" y1="21" x2="23.82" y2="21" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="5.82" y1="35" x2="23.82" y2="35" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="5.82" y1="48" x2="23.82" y2="48" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      color_swatches_default = IconColorSwatches;
+    }
+  });
+
+  // lib/desktop.ts
+  var desktop_exports = {};
+  __export(desktop_exports, {
+    IconDesktop: () => IconDesktop,
+    default: () => desktop_default
+  });
+  var IconDesktop, desktop_default;
+  var init_desktop = __esm({
+    "lib/desktop.ts"() {
+      IconDesktop = `<svg id="Desktop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,45V13c0-2.21-1.79-4-4-4H13c-2.21,0-4,1.79-4,4v32h54Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="9" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="54" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="63" x2="45" y2="63" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="63" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      desktop_default = IconDesktop;
+    }
+  });
+
+  // lib/filmroll.ts
+  var filmroll_exports = {};
+  __export(filmroll_exports, {
+    IconFilmroll: () => IconFilmroll,
+    default: () => filmroll_default
+  });
+  var IconFilmroll, filmroll_default;
+  var init_filmroll = __esm({
+    "lib/filmroll.ts"() {
+      IconFilmroll = `<svg id="Filmroll" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="54" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="18" y1="9" x2="18" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="9" x2="54" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="18" x2="18" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="27" x2="18" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="36" x2="18" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="45" x2="18" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="54" x2="18" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="54" x2="63" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="63" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="63" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="18" x2="63" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="54" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      filmroll_default = IconFilmroll;
+    }
+  });
+
+  // lib/gamepad-classic.ts
+  var gamepad_classic_exports = {};
+  __export(gamepad_classic_exports, {
+    IconGamepadClassic: () => IconGamepadClassic,
+    default: () => gamepad_classic_default
+  });
+  var IconGamepadClassic, gamepad_classic_default;
+  var init_gamepad_classic = __esm({
+    "lib/gamepad-classic.ts"() {
+      IconGamepadClassic = `<svg id="GamepadClassic" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M47.25,20.25h-22.5c-8.7,0-15.75,7.05-15.75,15.75s7.05,15.75,15.75,15.75h22.5c8.7,0,15.75-7.05,15.75-15.75s-7.05-15.75-15.75-15.75Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M47.25,20.25h-22.5c-8.7,0-15.75,7.05-15.75,15.75s7.05,15.75,15.75,15.75h22.5c8.7,0,15.75-7.05,15.75-15.75s-7.05-15.75-15.75-15.75Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="24.75" y1="29.25" x2="24.75" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="31.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="31.5" x2="45" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="49.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      gamepad_classic_default = IconGamepadClassic;
+    }
+  });
+
+  // lib/gamepad.ts
+  var gamepad_exports = {};
+  __export(gamepad_exports, {
+    IconGamepad: () => IconGamepad,
+    default: () => gamepad_default
+  });
+  var IconGamepad, gamepad_default;
+  var init_gamepad = __esm({
+    "lib/gamepad.ts"() {
+      IconGamepad = `<svg id="Gamepad" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M21.01,18h29.97c1.83,0,3.48,1.09,4.2,2.77l9.47,22.09c2.26,5.27-1.61,11.14-7.34,11.14h0c-2.12,0-4.15-.84-5.65-2.34l-7.95-7.95h-15.43l-7.95,7.95c-1.5,1.5-3.53,2.34-5.65,2.34h0c-5.74,0-9.6-5.87-7.34-11.14l9.47-22.09c.72-1.68,2.37-2.77,4.2-2.77Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="45" y1="27" x2="45" y2="27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="31.5" x2="40.5" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="31.5" x2="49.5" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="36" x2="45" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M21.01,18h29.97c1.83,0,3.48,1.09,4.2,2.77l9.47,22.09c2.26,5.27-1.61,11.14-7.34,11.14h0c-2.12,0-4.15-.84-5.65-2.34l-7.95-7.95h-15.43l-7.95,7.95c-1.5,1.5-3.53,2.34-5.65,2.34h0c-5.74,0-9.6-5.87-7.34-11.14l9.47-22.09c.72-1.68,2.37-2.77,4.2-2.77Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="27" y1="26" x2="27" y2="35" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="30.5" x2="31.5" y2="30.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      gamepad_default = IconGamepad;
+    }
+  });
+
+  // lib/highlight.ts
+  var highlight_exports = {};
+  __export(highlight_exports, {
+    IconHighlight: () => IconHighlight,
+    default: () => highlight_default
+  });
+  var IconHighlight, highlight_default;
+  var init_highlight = __esm({
+    "lib/highlight.ts"() {
+      IconHighlight = `<svg id="Highlight" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.95,37.77l-12.5,12.5c-1.93,1.93-1.42,5.22,1.04,6.41,5.06,2.45,13.97,4.04,24.19-6.17" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.95,37.77l-12.5,12.5c-1.93,1.93-1.42,5.22,1.04,6.41,5.06,2.45,13.97,4.04,24.19-6.17" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="27.34" y="25.86" width="13.5" height="27" transform="translate(-17.85 35.63) rotate(-45)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,31.41l-13.08,13.08c-1.56,1.56-4.09,1.56-5.66,0l-19.8-19.8c-1.56-1.56-1.56-4.09,0-5.66l13.08-13.08" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      highlight_default = IconHighlight;
+    }
+  });
+
+  // lib/image.ts
+  var image_exports = {};
+  __export(image_exports, {
+    IconImage: () => IconImage,
+    default: () => image_default
+  });
+  var IconImage, image_default;
+  var init_image = __esm({
+    "lib/image.ts"() {
+      IconImage = `<svg id="Image" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="47.25" cy="24.75" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,49.5v11.5c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2v-16h-22.5l-13.5-18-18,22.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="9 49.5 27 27 54 63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="47.25" cy="24.75" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="54" height="54" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      image_default = IconImage;
+    }
+  });
+
+  // lib/laptop.ts
+  var laptop_exports = {};
+  __export(laptop_exports, {
+    IconLaptop: () => IconLaptop,
+    default: () => laptop_default
+  });
+  var IconLaptop, laptop_default;
+  var init_laptop = __esm({
+    "lib/laptop.ts"() {
+      IconLaptop = `<svg id="Laptop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M17.5,16h37c2.21,0,4,1.79,4,4v27H13.5v-27c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M9,47h54v3c0,3.31-2.69,6-6,6H15c-3.31,0-6-2.69-6-6v-3Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M17.5,16h37c2.21,0,4,1.79,4,4v27H13.5v-27c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,47h54v3c0,3.31-2.69,6-6,6H15c-3.31,0-6-2.69-6-6v-3Z" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      laptop_default = IconLaptop;
+    }
+  });
+
+  // lib/mail-open.ts
+  var mail_open_exports = {};
+  __export(mail_open_exports, {
+    IconMailOpen: () => IconMailOpen,
+    default: () => mail_open_default
+  });
+  var IconMailOpen, mail_open_default;
+  var init_mail_open = __esm({
+    "lib/mail-open.ts"() {
+      IconMailOpen = `<svg id="MailOpen" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="18 39 18 18 54 18 54 39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="46.8 18 36 9 25.2 18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 24 9 31.5 36 54 63 31.5 54 24" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      mail_open_default = IconMailOpen;
+    }
+  });
+
+  // lib/mail.ts
+  var mail_exports = {};
+  __export(mail_exports, {
+    IconMail: () => IconMail,
+    default: () => mail_default
+  });
+  var IconMail, mail_default;
+  var init_mail = __esm({
+    "lib/mail.ts"() {
+      IconMail = `<svg id="Mail" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="10.17 19.17 36 40.5 61.69 19.31" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      mail_default = IconMail;
+    }
+  });
+
+  // lib/media.ts
+  var media_exports = {};
+  __export(media_exports, {
+    IconMedia: () => IconMedia,
+    default: () => media_default
+  });
+  var IconMedia, media_default;
+  var init_media = __esm({
+    "lib/media.ts"() {
+      IconMedia = `<svg id="Media" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="54" cy="18" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,45l-20.96-25.16c-.8-.96-2.27-.96-3.07,0l-5.96,7.16" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M21.94,40.12v9.76c0,.8.89,1.28,1.55.83l7.32-4.88c.59-.4.59-1.27,0-1.66l-7.32-4.88c-.66-.44-1.55.03-1.55.83Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="54" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M21.94,40.12v9.76c0,.8.89,1.28,1.55.83l7.32-4.88c.59-.4.59-1.27,0-1.66l-7.32-4.88c-.66-.44-1.55.03-1.55.83Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="36" height="36" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M61,45h-16v-16c0-1.1-.9-2-2-2h-16V11c0-1.1.9-2,2-2h32c1.1,0,2,.9,2,2v32c0,1.1-.9,2-2,2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      media_default = IconMedia;
+    }
+  });
+
+  // lib/microphone.ts
+  var microphone_exports = {};
+  __export(microphone_exports, {
+    IconMicrophone: () => IconMicrophone,
+    default: () => microphone_default
+  });
+  var IconMicrophone, microphone_default;
+  var init_microphone = __esm({
+    "lib/microphone.ts"() {
+      IconMicrophone = `<svg id="Microphone" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72"><defs><clipPath id="clippath"><rect x="27" y="9" width="18" height="31.5" style="fill: none; stroke-width: 0px;"/></clipPath></defs><g style="clip-path: url(#clippath);"><path d="M36,9c-4.97,0-9,4.03-9,9v13.5c0,4.97,4.03,9,9,9s9-4.03,9-9v-13.5c0-4.97-4.03-9-9-9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></g><line x1="22.5" y1="63" x2="49.5" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="49.5" x2="36" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,9c-4.97,0-9,4.03-9,9v13.5c0,4.97,4.03,9,9,9s9-4.03,9-9v-13.5c0-4.97-4.03-9-9-9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,31.5c0,9.94-8.06,18-18,18s-18-8.06-18-18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      microphone_default = IconMicrophone;
+    }
+  });
+
+  // lib/music-note-single.ts
+  var music_note_single_exports = {};
+  __export(music_note_single_exports, {
+    IconMusicNoteSingle: () => IconMusicNoteSingle,
+    default: () => music_note_single_default
+  });
+  var IconMusicNoteSingle, music_note_single_default;
+  var init_music_note_single = __esm({
+    "lib/music-note-single.ts"() {
+      IconMusicNoteSingle = `<svg id="MusicNoteSingle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><ellipse cx="27" cy="52.4" rx="9" ry="6.1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M46.54,24.04c-10.54-3.51-10.54-10.54-10.54-10.54v14.05s14.05,3.51,14.05,14.05c7.03-7.03,3.94-15.08-3.51-17.57Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><ellipse cx="27" cy="52.4" rx="9" ry="6.1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="52.4" x2="36" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5s0,7.03,10.54,10.54c7.45,2.48,10.54,10.54,3.51,17.57,0-10.54-14.05-14.05-14.05-14.05" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      music_note_single_default = IconMusicNoteSingle;
+    }
+  });
+
+  // lib/music-note.ts
+  var music_note_exports = {};
+  __export(music_note_exports, {
+    IconMusicNote: () => IconMusicNote,
+    default: () => music_note_default
+  });
+  var IconMusicNote, music_note_default;
+  var init_music_note = __esm({
+    "lib/music-note.ts"() {
+      IconMusicNote = `<svg id="MusicNote" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><ellipse cx="18" cy="56.9" rx="9" ry="6.1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><ellipse cx="49.5" cy="52.4" rx="9" ry="6.1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="58.5 22.5 27 27 27 18 58.5 13.5 58.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="58.5 52.4 58.5 13.5 27 18 27 56.9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><ellipse cx="18" cy="56.9" rx="9" ry="6.1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="57.81" y1="22.5" x2="27" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><ellipse cx="49.5" cy="52.4" rx="9" ry="6.1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      music_note_default = IconMusicNote;
+    }
+  });
+
+  // lib/pacman.ts
+  var pacman_exports = {};
+  __export(pacman_exports, {
+    IconPacman: () => IconPacman,
+    default: () => pacman_default
+  });
+  var IconPacman, pacman_default;
+  var init_pacman = __esm({
+    "lib/pacman.ts"() {
+      IconPacman = `<svg id="Pacman" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,36l20.12-10.06c-3.69-7.37-11.32-12.44-20.12-12.44-12.43,0-22.5,10.07-22.5,22.5s10.07,22.5,22.5,22.5c8.81,0,16.43-5.06,20.12-12.44l-20.12-10.06Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,36l20.12-10.06c-3.69-7.37-11.32-12.44-20.12-12.44-12.43,0-22.5,10.07-22.5,22.5s10.07,22.5,22.5,22.5c8.81,0,16.43-5.06,20.12-12.44l-20.12-10.06Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="25" x2="36" y2="25" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/></svg>`;
+      pacman_default = IconPacman;
+    }
+  });
+
+  // lib/paperplane.ts
+  var paperplane_exports = {};
+  __export(paperplane_exports, {
+    IconPaperplane: () => IconPaperplane,
+    default: () => paperplane_default
+  });
+  var IconPaperplane, paperplane_default;
+  var init_paperplane = __esm({
+    "lib/paperplane.ts"() {
+      IconPaperplane = `<svg id="Paperplane" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9.45 30.73 54 18 41.27 62.55 28.54 43.46 9.45 30.73" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="54" y1="18" x2="28.54" y2="43.46" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9.45 30.73 54 18 41.27 62.55 28.54 43.46 9.45 30.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      paperplane_default = IconPaperplane;
+    }
+  });
+
+  // lib/playback-backward.ts
+  var playback_backward_exports = {};
+  __export(playback_backward_exports, {
+    IconPlaybackBackward: () => IconPlaybackBackward,
+    default: () => playback_backward_default
+  });
+  var IconPlaybackBackward, playback_backward_default;
+  var init_playback_backward = __esm({
+    "lib/playback-backward.ts"() {
+      IconPlaybackBackward = `<svg id="PlaybackBackward" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M53.73,55.99V16.8c0-.95-1.2-1.37-1.79-.62l-15.3,19.59c-.28.36-.28.87,0,1.23l15.3,19.59c.59.75,1.79.34,1.79-.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M35.45,55.17V16.01c0-.95-1.21-1.37-1.79-.61l-15.17,19.58c-.28.36-.28.86,0,1.23l15.17,19.58c.58.75,1.79.34,1.79-.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g></g><g><path d="M53.73,55.99V16.8c0-.95-1.2-1.37-1.79-.62l-15.3,19.59c-.28.36-.28.87,0,1.23l15.3,19.59c.59.75,1.79.34,1.79-.62Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M35.45,55.17V16.01c0-.95-1.21-1.37-1.79-.61l-15.17,19.58c-.28.36-.28.86,0,1.23l15.17,19.58c.58.75,1.79.34,1.79-.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      playback_backward_default = IconPlaybackBackward;
+    }
+  });
+
+  // lib/playback-end.ts
+  var playback_end_exports = {};
+  __export(playback_end_exports, {
+    IconPlaybackEnd: () => IconPlaybackEnd,
+    default: () => playback_end_default
+  });
+  var IconPlaybackEnd, playback_end_default;
+  var init_playback_end = __esm({
+    "lib/playback-end.ts"() {
+      IconPlaybackEnd = `<svg id="PlaybackEnd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M18.28,16.84v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M31.93,17.65v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: red; stroke-width: 0px;"/></g><g><g><path d="M18.28,16.84v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M31.93,17.65v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      playback_end_default = IconPlaybackEnd;
+    }
+  });
+
+  // lib/playback-forward.ts
+  var playback_forward_exports = {};
+  __export(playback_forward_exports, {
+    IconPlaybackForward: () => IconPlaybackForward,
+    default: () => playback_forward_default
+  });
+  var IconPlaybackForward, playback_forward_default;
+  var init_playback_forward = __esm({
+    "lib/playback-forward.ts"() {
+      IconPlaybackForward = `<svg id="PlaybackForward" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M18.27,16.01v39.19c0,.95,1.2,1.37,1.79.62l15.3-19.59c.28-.36.28-.87,0-1.23l-15.3-19.59c-.59-.75-1.79-.34-1.79.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M36.55,16.83v39.15c0,.95,1.21,1.37,1.79.61l15.17-19.58c.28-.36.28-.86,0-1.23l-15.17-19.58c-.58-.75-1.79-.34-1.79.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g></g><g><path d="M18.27,16.01v39.19c0,.95,1.2,1.37,1.79.62l15.3-19.59c.28-.36.28-.87,0-1.23l-15.3-19.59c-.59-.75-1.79-.34-1.79.62Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36.55,16.83v39.15c0,.95,1.21,1.37,1.79.61l15.17-19.58c.28-.36.28-.86,0-1.23l-15.17-19.58c-.58-.75-1.79-.34-1.79.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      playback_forward_default = IconPlaybackForward;
+    }
+  });
+
+  // lib/playback-next.ts
+  var playback_next_exports = {};
+  __export(playback_next_exports, {
+    IconPlaybackNext: () => IconPlaybackNext,
+    default: () => playback_next_default
+  });
+  var IconPlaybackNext, playback_next_default;
+  var init_playback_next = __esm({
+    "lib/playback-next.ts"() {
+      IconPlaybackNext = `<svg id="PlaybackNext" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M22.5,16.33v40.15c0,.89,1.08,1.34,1.71.71l19.96-20.08c.39-.39.39-1.02,0-1.41L24.21,15.62c-.63-.63-1.71-.19-1.71.71Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M22.5,16.33v40.15c0,.89,1.08,1.34,1.71.71l19.96-20.08c.39-.39.39-1.02,0-1.41L24.21,15.62c-.63-.63-1.71-.19-1.71.71Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      playback_next_default = IconPlaybackNext;
+    }
+  });
+
+  // lib/playback-pause.ts
+  var playback_pause_exports = {};
+  __export(playback_pause_exports, {
+    IconPlaybackPause: () => IconPlaybackPause,
+    default: () => playback_pause_default
+  });
+  var IconPlaybackPause, playback_pause_default;
+  var init_playback_pause = __esm({
+    "lib/playback-pause.ts"() {
+      IconPlaybackPause = `<svg id="PlaybackPause" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><rect x="45" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><rect x="13.5" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="45" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      playback_pause_default = IconPlaybackPause;
+    }
+  });
+
+  // lib/playback-play.ts
+  var playback_play_exports = {};
+  __export(playback_play_exports, {
+    IconPlaybackPlay: () => IconPlaybackPlay,
+    default: () => playback_play_default
+  });
+  var IconPlaybackPlay, playback_play_default;
+  var init_playback_play = __esm({
+    "lib/playback-play.ts"() {
+      IconPlaybackPlay = `<svg id="PlaybackPlay" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,15.3v41.39c0,.79.86,1.26,1.53.85l33.11-20.7c.63-.39.63-1.3,0-1.7L24.03,14.46c-.67-.42-1.53.06-1.53.85Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.5,15.3v41.39c0,.79.86,1.26,1.53.85l33.11-20.7c.63-.39.63-1.3,0-1.7L24.03,14.46c-.67-.42-1.53.06-1.53.85Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      playback_play_default = IconPlaybackPlay;
+    }
+  });
+
+  // lib/playback-previous.ts
+  var playback_previous_exports = {};
+  __export(playback_previous_exports, {
+    IconPlaybackPrevious: () => IconPlaybackPrevious,
+    default: () => playback_previous_default
+  });
+  var IconPlaybackPrevious, playback_previous_default;
+  var init_playback_previous = __esm({
+    "lib/playback-previous.ts"() {
+      IconPlaybackPrevious = `<svg id="PlaybackPrevious" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M49.5,55.67V15.52c0-.89-1.08-1.34-1.71-.71l-19.96,20.08c-.39.39-.39,1.02,0,1.41l19.96,20.08c.63.63,1.71.19,1.71-.71Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M49.5,55.67V15.52c0-.89-1.08-1.34-1.71-.71l-19.96,20.08c-.39.39-.39,1.02,0,1.41l19.96,20.08c.63.63,1.71.19,1.71-.71Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      playback_previous_default = IconPlaybackPrevious;
+    }
+  });
+
+  // lib/playback-start.ts
+  var playback_start_exports = {};
+  __export(playback_start_exports, {
+    IconPlaybackStart: () => IconPlaybackStart,
+    default: () => playback_start_default
+  });
+  var IconPlaybackStart, playback_start_default;
+  var init_playback_start = __esm({
+    "lib/playback-start.ts"() {
+      IconPlaybackStart = `<svg id="PlaybackStart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M53.72,55.16V17.65c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M40.07,54.35V16.84c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: red; stroke-width: 0px;"/></g><g><g><path d="M53.72,55.16V17.65c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.07,54.35V16.84c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      playback_start_default = IconPlaybackStart;
+    }
+  });
+
+  // lib/playback-stop.ts
+  var playback_stop_exports = {};
+  __export(playback_stop_exports, {
+    IconPlaybackStop: () => IconPlaybackStop,
+    default: () => playback_stop_default
+  });
+  var IconPlaybackStop, playback_stop_default;
+  var init_playback_stop = __esm({
+    "lib/playback-stop.ts"() {
+      IconPlaybackStop = `<svg id="PlaybackStop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      playback_stop_default = IconPlaybackStop;
+    }
+  });
+
+  // lib/printer.ts
+  var printer_exports = {};
+  __export(printer_exports, {
+    IconPrinter: () => IconPrinter,
+    default: () => printer_default
+  });
+  var IconPrinter, printer_default;
+  var init_printer = __esm({
+    "lib/printer.ts"() {
+      IconPrinter = `<svg id="Printer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="45" width="36" height="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="9" width="36" height="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="45" width="36" height="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="54" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="45" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9 27 9 54 18 54 18 45 54 45 54 54 63 54 63 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      printer_default = IconPrinter;
+    }
+  });
+
+  // lib/record.ts
+  var record_exports = {};
+  __export(record_exports, {
+    IconRecord: () => IconRecord,
+    default: () => record_default
+  });
+  var IconRecord, record_default;
+  var init_record = __esm({
+    "lib/record.ts"() {
+      IconRecord = `<svg id="Record" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></svg>`;
+      record_default = IconRecord;
+    }
+  });
+
+  // lib/reels.ts
+  var reels_exports = {};
+  __export(reels_exports, {
+    IconReels: () => IconReels,
+    default: () => reels_default
+  });
+  var IconReels, reels_default;
+  var init_reels = __esm({
+    "lib/reels.ts"() {
+      IconReels = `<svg id="Reels" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,22.5v36.5c0,2.21,1.79,4,4,4h46c2.21,0,4-1.79,4-4V22.5H9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M31.5,34.68v16.13c0,.4.45.64.78.42l12.1-8.07c.3-.2.3-.63,0-.83l-12.1-8.07c-.33-.22-.78.02-.78.42Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="22.5" x2="63" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="9" x2="31.5" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="45" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      reels_default = IconReels;
+    }
+  });
+
+  // lib/tablet-landscape.ts
+  var tablet_landscape_exports = {};
+  __export(tablet_landscape_exports, {
+    IconTabletLandscape: () => IconTabletLandscape,
+    default: () => tablet_landscape_default
+  });
+  var IconTabletLandscape, tablet_landscape_default;
+  var init_tablet_landscape = __esm({
+    "lib/tablet-landscape.ts"() {
+      IconTabletLandscape = `<svg id="TabletLandscape" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      tablet_landscape_default = IconTabletLandscape;
+    }
+  });
+
+  // lib/tablet.ts
+  var tablet_exports = {};
+  __export(tablet_exports, {
+    IconTablet: () => IconTablet,
+    default: () => tablet_default
+  });
+  var IconTablet, tablet_default;
+  var init_tablet = __esm({
+    "lib/tablet.ts"() {
+      IconTablet = `<svg id="Tablet" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="13.5" width="36" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="13.5" width="36" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      tablet_default = IconTablet;
+    }
+  });
+
+  // lib/television.ts
+  var television_exports = {};
+  __export(television_exports, {
+    IconTelevision: () => IconTelevision,
+    default: () => television_default
+  });
+  var IconTelevision, television_default;
+  var init_television = __esm({
+    "lib/television.ts"() {
+      IconTelevision = `<svg id="Television" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M59,18H13c-2.21,0-4,1.79-4,4v32.5c0,2.21,1.79,4,4,4h46c2.21,0,4-1.79,4-4V22c0-2.21-1.79-4-4-4ZM45,49.5h-27v-22.5h27v22.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="18" width="54" height="40.5" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="27" width="27" height="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="9" x2="31.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="9" x2="40.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="31.5" x2="54" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="40.5" x2="54" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      television_default = IconTelevision;
+    }
+  });
+
+  // lib/terminal.ts
+  var terminal_exports = {};
+  __export(terminal_exports, {
+    IconTerminal: () => IconTerminal,
+    default: () => terminal_default
+  });
+  var IconTerminal, terminal_default;
+  var init_terminal = __esm({
+    "lib/terminal.ts"() {
+      IconTerminal = `<svg id="Terminal" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 18 24.75 24.75 18 31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="31.5" x2="40.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      terminal_default = IconTerminal;
+    }
+  });
+
+  // lib/video-camera.ts
+  var video_camera_exports = {};
+  __export(video_camera_exports, {
+    IconVideoCamera: () => IconVideoCamera,
+    default: () => video_camera_default
+  });
+  var IconVideoCamera, video_camera_default;
+  var init_video_camera = __esm({
+    "lib/video-camera.ts"() {
+      IconVideoCamera = `<svg id="VideoCamera" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="27" width="40.5" height="28.5" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="40.5" height="28.5" rx="6" ry="6" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 37.5 63 28.5 63 55.5 49.5 46.5 49.5 37.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="22.5" cy="20.25" r="6.75" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="20.25" r="6.75" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      video_camera_default = IconVideoCamera;
+    }
+  });
+
+  // lib/videos.ts
+  var videos_exports = {};
+  __export(videos_exports, {
+    IconVideos: () => IconVideos,
+    default: () => videos_default
+  });
+  var IconVideos, videos_default;
+  var init_videos = __esm({
+    "lib/videos.ts"() {
+      IconVideos = `<svg id="Videos" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M50,27H13c-2.21,0-4,1.79-4,4v23.5c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4v-23.5c0-2.21-1.79-4-4-4ZM26.44,49.5v-13.5l10.12,6.75-10.12,6.75Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="45" height="31.5" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,49.5h5c2.21,0,4-1.79,4-4v-23.5c0-2.21-1.79-4-4-4H22c-2.21,0-4,1.79-4,4v5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.44 36 26.44 49.5 36.56 42.75 26.44 36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      videos_default = IconVideos;
+    }
+  });
+
+  // lib/volume-i.ts
+  var volume_i_exports = {};
+  __export(volume_i_exports, {
+    IconVolumeI: () => IconVolumeI,
+    default: () => volume_i_default
+  });
+  var IconVolumeI, volume_i_default;
+  var init_volume_i = __esm({
+    "lib/volume-i.ts"() {
+      IconVolumeI = `<svg id="VolumeI" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 26.96 9 44.96 18 44.96 31.5 53.96 31.5 17.96 18 26.96 9 26.96" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 26.96 9 44.96 18 44.96 31.5 53.96 31.5 17.96 18 26.96 9 26.96" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.27c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.16c5.08,4.69,8.37,11.31,8.66,18.76s-2.45,14.32-7.14,19.39" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.55c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      volume_i_default = IconVolumeI;
+    }
+  });
+
+  // lib/volume-ii.ts
+  var volume_ii_exports = {};
+  __export(volume_ii_exports, {
+    IconVolumeIi: () => IconVolumeIi,
+    default: () => volume_ii_default
+  });
+  var IconVolumeIi, volume_ii_default;
+  var init_volume_ii = __esm({
+    "lib/volume-ii.ts"() {
+      IconVolumeIi = `<svg id="VolumeIi" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.32c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.2c5.08,4.69,8.37,11.31,8.66,18.76s-2.45,14.32-7.14,19.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.59c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      volume_ii_default = IconVolumeIi;
+    }
+  });
+
+  // lib/volume-iii.ts
+  var volume_iii_exports = {};
+  __export(volume_iii_exports, {
+    IconVolumeIii: () => IconVolumeIii,
+    default: () => volume_iii_default
+  });
+  var IconVolumeIii, volume_iii_default;
+  var init_volume_iii = __esm({
+    "lib/volume-iii.ts"() {
+      IconVolumeIii = `<svg id="VolumeIii" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.32c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.2c5.08,4.69,8.37,11.31,8.66,18.76s-2.45,14.32-7.14,19.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.59c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      volume_iii_default = IconVolumeIii;
+    }
+  });
+
+  // lib/volume-mute.ts
+  var volume_mute_exports = {};
+  __export(volume_mute_exports, {
+    IconVolumeMute: () => IconVolumeMute,
+    default: () => volume_mute_default
+  });
+  var IconVolumeMute, volume_mute_default;
+  var init_volume_mute = __esm({
+    "lib/volume-mute.ts"() {
+      IconVolumeMute = `<svg id="VolumeMute" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="22.5 27 22.5 45 31.5 45 45 54 45 18 31.5 27 22.5 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="22.5 27 22.5 45 31.5 45 45 54 45 18 31.5 27 22.5 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="13.5" y2="63" style="fill: white; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      volume_mute_default = IconVolumeMute;
+    }
+  });
+
+  // lib/volume-off.ts
+  var volume_off_exports = {};
+  __export(volume_off_exports, {
+    IconVolumeOff: () => IconVolumeOff,
+    default: () => volume_off_default
+  });
+  var IconVolumeOff, volume_off_default;
+  var init_volume_off = __esm({
+    "lib/volume-off.ts"() {
+      IconVolumeOff = `<svg id="VolumeOff" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.32c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.2c5.08,4.69,8.37,11.31,8.66,18.76s-2.45,14.32-7.14,19.39" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.59c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      volume_off_default = IconVolumeOff;
+    }
+  });
+
+  // lib/website.ts
+  var website_exports = {};
+  __export(website_exports, {
+    IconWebsite: () => IconWebsite,
+    default: () => website_default
+  });
+  var IconWebsite, website_default;
+  var init_website = __esm({
+    "lib/website.ts"() {
+      IconWebsite = `<svg id="Website" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="7.39" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="7.39" y1="27" x2="61.39" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="16.39" y1="18" x2="16.39" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="25.39" y1="18" x2="25.39" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.39" y1="18" x2="34.39" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M34.39,36l13.5,4.5-3.25,2.25,6.75,6.75-3.5,3.5-6.75-6.75-2.25,3.25-4.5-13.5M34.39,32c-1.04,0-2.07.41-2.83,1.17-1.07,1.07-1.45,2.66-.97,4.09l4.5,13.5c.48,1.44,1.73,2.48,3.23,2.69.19.03.38.04.57.04,1.02,0,2.01-.39,2.75-1.09l3.42,3.42c.78.78,1.8,1.17,2.83,1.17s2.05-.39,2.83-1.17l3.5-3.5c1.56-1.56,1.56-4.09,0-5.66l-3.42-3.42c.83-.88,1.23-2.09,1.05-3.31-.21-1.5-1.26-2.75-2.69-3.23l-13.5-4.5c-.41-.14-.84-.21-1.26-.21h0Z" style="fill: red; stroke-width: 0px;"/><rect x="7.39" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      website_default = IconWebsite;
+    }
+  });
+
+  // lib/icon43.ts
+  var icon43_exports = {};
+  __export(icon43_exports, {
+    IconIcon43: () => IconIcon43,
+    default: () => icon43_default
+  });
+  var IconIcon43, icon43_default;
+  var init_icon43 = __esm({
+    "lib/icon43.ts"() {
+      IconIcon43 = `<svg id="Icon43" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="27" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/><line x1="22.5" y1="36" x2="22.5" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/><line x1="49.5" y1="36" x2="49.5" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/></svg>`;
+      icon43_default = IconIcon43;
+    }
+  });
+
+  // lib/baht-symbol.ts
+  var baht_symbol_exports = {};
+  __export(baht_symbol_exports, {
+    IconBahtSymbol: () => IconBahtSymbol,
+    default: () => baht_symbol_default
+  });
+  var IconBahtSymbol, baht_symbol_default;
+  var init_baht_symbol = __esm({
+    "lib/baht-symbol.ts"() {
+      IconBahtSymbol = `<svg id="BahtSymbol" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M37.57,36c4.97,0,9,4.03,9,9s-4.03,9-9,9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M23.18,36h12.82c4.97,0,9-4.03,9-9s-4.03-9-9-9h-12.82v36h14.4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="9" x2="31.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="54" x2="31.5" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="37.57" y1="36" x2="25.54" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      baht_symbol_default = IconBahtSymbol;
     }
   });
 
@@ -2151,6 +3103,20 @@
     }
   });
 
+  // lib/digit-digtal0.ts
+  var digit_digtal0_exports = {};
+  __export(digit_digtal0_exports, {
+    IconDigitDigtal0: () => IconDigitDigtal0,
+    default: () => digit_digtal0_default
+  });
+  var IconDigitDigtal0, digit_digtal0_default;
+  var init_digit_digtal0 = __esm({
+    "lib/digit-digtal0.ts"() {
+      IconDigitDigtal0 = `<svg id="DigitDigtal0" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="28.72 15 25.88 12 28.72 9 42.96 9 45.81 12 42.96 15 28.72 15" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="51.5 31.67 48.65 34.67 45.81 31.67 45.81 16.67 48.65 13.67 51.5 16.67 51.5 31.67" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="51.5 55.67 48.65 58.67 45.81 55.67 45.81 40.67 48.65 37.67 51.5 40.67 51.5 55.67" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="26.19 31.5 23.35 34.5 20.5 31.5 20.5 16.5 23.35 13.5 26.19 16.5 26.19 31.5" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="26.19 55.5 23.35 58.5 20.5 55.5 20.5 40.5 23.35 37.5 26.19 40.5 26.19 55.5" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><polygon points="28.72 63 25.88 60 28.72 57 42.96 57 45.81 60 42.96 63 28.72 63" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></svg>`;
+      digit_digtal0_default = IconDigitDigtal0;
+    }
+  });
+
   // lib/dollar.ts
   var dollar_exports = {};
   __export(dollar_exports, {
@@ -2160,7 +3126,7 @@
   var IconDollar, dollar_default;
   var init_dollar = __esm({
     "lib/dollar.ts"() {
-      IconDollar = `<svg id="Dollar" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="40.5" y1="9" x2="40.5" y2="63" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="9" x2="31.5" y2="63" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,13.5h-13.5c-.92,0-1.83.08-2.7.23-6.16,1.04-10.8,5.58-10.8,11.03,0,11.25,27,11.25,27,22.5,0,5.44-4.64,9.98-10.8,11.03-.87.15-1.78.23-2.7.23h-13.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      IconDollar = `<svg id="Dollar" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M44.44,17.89s-25.65-8.55-25.65,8.55,29.92,4.27,29.92,21.38-25.65,8.55-25.65,8.55" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="15.75" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="63" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       dollar_default = IconDollar;
     }
   });
@@ -2174,7 +3140,7 @@
   var IconEuro, euro_default;
   var init_euro = __esm({
     "lib/euro.ts"() {
-      IconEuro = `<svg id="Euro" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M45,58.5c-12.43,0-22.5-10.07-22.5-22.5s10.07-22.5,22.5-22.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="31.5" x2="45" y2="31.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="40.5" x2="45" y2="40.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconEuro = `<svg id="Euro" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M50.77,21.23c-3.25-4.67-8.65-7.73-14.77-7.73-9.94,0-18,8.06-18,18v9c0,9.94,8.06,18,18,18,5.96,0,11.22-2.91,14.5-7.37" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="31.5" x2="36" y2="31.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="40.5" x2="36" y2="40.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       euro_default = IconEuro;
     }
   });
@@ -2193,6 +3159,20 @@
     }
   });
 
+  // lib/pound-symbol.ts
+  var pound_symbol_exports = {};
+  __export(pound_symbol_exports, {
+    IconPoundSymbol: () => IconPoundSymbol,
+    default: () => pound_symbol_default
+  });
+  var IconPoundSymbol, pound_symbol_default;
+  var init_pound_symbol = __esm({
+    "lib/pound-symbol.ts"() {
+      IconPoundSymbol = `<svg id="PoundSymbol" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M23.85,30.15c0,8.1,2.25,12.15,2.25,16.2s-2.25,12.15-2.25,12.15h24.3" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M23.85,30.15c0-6.71,5.44-12.15,12.15-12.15s12.15,5.44,12.15,12.15" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="45" x2="36" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pound_symbol_default = IconPoundSymbol;
+    }
+  });
+
   // lib/promille.ts
   var promille_exports = {};
   __export(promille_exports, {
@@ -2204,6 +3184,48 @@
     "lib/promille.ts"() {
       IconPromille = `<svg id="Promille" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="58.5" x2="58.5" y2="13.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="20.25" cy="20.25" r="6.75" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="51.75" cy="51.75" r="6.75" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="38.25" cy="51.75" r="6.75" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       promille_default = IconPromille;
+    }
+  });
+
+  // lib/rubles-symbol.ts
+  var rubles_symbol_exports = {};
+  __export(rubles_symbol_exports, {
+    IconRublesSymbol: () => IconRublesSymbol,
+    default: () => rubles_symbol_default
+  });
+  var IconRublesSymbol, rubles_symbol_default;
+  var init_rubles_symbol = __esm({
+    "lib/rubles-symbol.ts"() {
+      IconRublesSymbol = `<svg id="RublesSymbol" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,58.5V18h15c6.21,0,11.25,5.04,11.25,11.25s-5.04,11.25-11.25,11.25H13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="49.5" x2="31.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      rubles_symbol_default = IconRublesSymbol;
+    }
+  });
+
+  // lib/rupee-symbol-copy.ts
+  var rupee_symbol_copy_exports = {};
+  __export(rupee_symbol_copy_exports, {
+    IconRupeeSymbolCopy: () => IconRupeeSymbolCopy,
+    default: () => rupee_symbol_copy_default
+  });
+  var IconRupeeSymbolCopy, rupee_symbol_copy_default;
+  var init_rupee_symbol_copy = __esm({
+    "lib/rupee-symbol-copy.ts"() {
+      IconRupeeSymbolCopy = `<svg id="RupeeSymbolCopy" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="18 18 27 54 36 18 45 54 54 18" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="31.5" x2="21.35" y2="31.5" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="40.5" x2="23.68" y2="40.5" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="50.65" y1="31.5" x2="58.5" y2="31.5" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="48.25" y1="40.5" x2="58.5" y2="40.5" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      rupee_symbol_copy_default = IconRupeeSymbolCopy;
+    }
+  });
+
+  // lib/rupee-symbol.ts
+  var rupee_symbol_exports = {};
+  __export(rupee_symbol_exports, {
+    IconRupeeSymbol: () => IconRupeeSymbol,
+    default: () => rupee_symbol_default
+  });
+  var IconRupeeSymbol, rupee_symbol_default;
+  var init_rupee_symbol = __esm({
+    "lib/rupee-symbol.ts"() {
+      IconRupeeSymbol = `<svg id="RupeeSymbol" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.5" y1="18" x2="49.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="27" x2="49.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,54l-22.5-18h13.5c4.97,0,9-4.03,9-9s-4.03-9-9-9h-13.5" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      rupee_symbol_default = IconRupeeSymbol;
     }
   });
 
@@ -2398,50 +3420,64 @@
   var IconYen, yen_default;
   var init_yen = __esm({
     "lib/yen.ts"() {
-      IconYen = `<svg id="Yen" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18" y1="36" x2="54" y2="36" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="45" x2="54" y2="45" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 13.5 36 40.5 54 13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="58.5" x2="36" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      IconYen = `<svg id="Yen" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="49.5" y2="45" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 13.5 36 36 54 13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       yen_default = IconYen;
     }
   });
 
-  // lib/alarm-bell2.ts
-  var alarm_bell2_exports = {};
-  __export(alarm_bell2_exports, {
-    IconAlarmBell2: () => IconAlarmBell2,
-    default: () => alarm_bell2_default
+  // lib/ai-face.ts
+  var ai_face_exports = {};
+  __export(ai_face_exports, {
+    IconAiFace: () => IconAiFace,
+    default: () => ai_face_default
   });
-  var IconAlarmBell2, alarm_bell2_default;
-  var init_alarm_bell2 = __esm({
-    "lib/alarm-bell2.ts"() {
-      IconAlarmBell2 = `<svg id="AlarmBell2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M46.34,21.16c-6.33-6.33-14.44-4.89-24.18,1.27l-13.48,8.53c-1.08.69-1.25,2.2-.34,3.1l12.55,12.55,12.55,12.55c.91.91,2.42.74,3.1-.34l8.53-13.48c6.17-9.75,7.6-17.86,1.27-24.18h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M27.25,52.98c-3.51,3.51-9.21,3.51-12.73,0s-3.51-9.21,0-12.73" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M46.34,21.16c-6.33-6.33-14.44-4.89-24.18,1.27l-13.48,8.53c-1.08.69-1.25,2.2-.34,3.1l12.55,12.55,12.55,12.55c.91.91,2.42.74,3.1-.34l8.53-13.48c6.17-9.75,7.6-17.86,1.27-24.18h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M15.05,15.33c4.98-8.2,14.71-12.71,21.74-10.08" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M52.17,52.45c8.2-4.98,12.71-14.71,10.08-21.74" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      alarm_bell2_default = IconAlarmBell2;
+  var IconAiFace, ai_face_default;
+  var init_ai_face = __esm({
+    "lib/ai-face.ts"() {
+      IconAiFace = `<svg id="AiFace" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="9" x2="36" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="63" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="63" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="36" x2="18" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="27" x2="18" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="18" width="36" height="36" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="18" width="36" height="36" rx="4" ry="4" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="31.5" x2="27" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 8px;"/><line x1="45" y1="31.5" x2="45" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 8px;"/><path d="M45,40.5c-4.5,4.5-13.5,4.5-18,0" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      ai_face_default = IconAiFace;
     }
   });
 
-  // lib/alarm-bell3.ts
-  var alarm_bell3_exports = {};
-  __export(alarm_bell3_exports, {
-    IconAlarmBell3: () => IconAlarmBell3,
-    default: () => alarm_bell3_default
+  // lib/ai-letters-blocked.ts
+  var ai_letters_blocked_exports = {};
+  __export(ai_letters_blocked_exports, {
+    IconAiLettersBlocked: () => IconAiLettersBlocked,
+    default: () => ai_letters_blocked_default
   });
-  var IconAlarmBell3, alarm_bell3_default;
-  var init_alarm_bell3 = __esm({
-    "lib/alarm-bell3.ts"() {
-      IconAlarmBell3 = `<svg id="AlarmBell3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M45,49.5c0,4.97-4.03,9-9,9s-9-4.03-9-9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9.75,31.5c-2.28-9.32,1.41-19.39,8.25-22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M62.25,31.5c2.28-9.32-1.41-19.39-8.25-22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      alarm_bell3_default = IconAlarmBell3;
+  var IconAiLettersBlocked, ai_letters_blocked_default;
+  var init_ai_letters_blocked = __esm({
+    "lib/ai-letters-blocked.ts"() {
+      IconAiLettersBlocked = `<svg id="AiLettersBlocked" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="2" ry="2" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M20.25,47.25v-18.5c0-2.21,1.79-4,4-4h5.5c2.21,0,4,1.79,4,4v18.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.25" y1="38.25" x2="33.75" y2="38.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="24.75" x2="51.75" y2="24.75" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="47.25" x2="51.75" y2="47.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.25" y1="24.75" x2="47.25" y2="47.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      ai_letters_blocked_default = IconAiLettersBlocked;
     }
   });
 
-  // lib/alarm-bell.ts
-  var alarm_bell_exports = {};
-  __export(alarm_bell_exports, {
-    IconAlarmBell: () => IconAlarmBell,
-    default: () => alarm_bell_default
+  // lib/ai-letters-circled.ts
+  var ai_letters_circled_exports = {};
+  __export(ai_letters_circled_exports, {
+    IconAiLettersCircled: () => IconAiLettersCircled,
+    default: () => ai_letters_circled_default
   });
-  var IconAlarmBell, alarm_bell_default;
-  var init_alarm_bell = __esm({
-    "lib/alarm-bell.ts"() {
-      IconAlarmBell = `<svg id="AlarmBell" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M45,49.5c0,4.97-4.03,9-9,9s-9-4.03-9-9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5c-8.95,0-13.67,6.75-16.2,18l-3.5,15.56c-.28,1.25.67,2.44,1.95,2.44h17.75s17.75,0,17.75,0c1.28,0,2.23-1.19,1.95-2.44l-3.5-15.56c-2.53-11.25-7.25-18-16.2-18h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      alarm_bell_default = IconAlarmBell;
+  var IconAiLettersCircled, ai_letters_circled_default;
+  var init_ai_letters_circled = __esm({
+    "lib/ai-letters-circled.ts"() {
+      IconAiLettersCircled = `<svg id="AiLettersCircled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="27" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M20.25,47.25v-18.5c0-2.21,1.79-4,4-4h5.5c2.21,0,4,1.79,4,4v18.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.25" y1="38.25" x2="33.75" y2="38.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="24.75" x2="51.75" y2="24.75" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="47.25" x2="51.75" y2="47.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.25" y1="24.75" x2="47.25" y2="47.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      ai_letters_circled_default = IconAiLettersCircled;
+    }
+  });
+
+  // lib/ai-letters.ts
+  var ai_letters_exports = {};
+  __export(ai_letters_exports, {
+    IconAiLetters: () => IconAiLetters,
+    default: () => ai_letters_default
+  });
+  var IconAiLetters, ai_letters_default;
+  var init_ai_letters = __esm({
+    "lib/ai-letters.ts"() {
+      IconAiLetters = `<svg id="AiLetters" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M20.25,47.25v-18.5c0-2.21,1.79-4,4-4h5.5c2.21,0,4,1.79,4,4v18.5" style="fill: white;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.25" y1="38.25" x2="33.75" y2="38.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="24.75" x2="51.75" y2="24.75" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="47.25" x2="51.75" y2="47.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.25" y1="24.75" x2="47.25" y2="47.25" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      ai_letters_default = IconAiLetters;
     }
   });
 
@@ -2470,20 +3506,6 @@
     "lib/artwork-frame.ts"() {
       IconArtworkFrame = `<svg id="ArtworkFrame" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="18" width="36" height="36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18,9s2.01,2.5,4.5,2.5,4.5-2.5,4.5-2.5c0,0,2.01,2.5,4.5,2.5s4.5-2.5,4.5-2.5c0,0,2.01,2.5,4.5,2.5s4.5-2.5,4.5-2.5c0,0,2.01,2.5,4.5,2.5s4.5-2.5,4.5-2.5h9v9s-2.5,2.01-2.5,4.5,2.5,4.5,2.5,4.5c0,0-2.5,2.01-2.5,4.5s2.5,4.5,2.5,4.5c0,0-2.5,2.01-2.5,4.5s2.5,4.5,2.5,4.5c0,0-2.5,2.01-2.5,4.5s2.5,4.5,2.5,4.5v9h-9s-2.01-2.5-4.5-2.5-4.5,2.5-4.5,2.5c0,0-2.01-2.5-4.5-2.5s-4.5,2.5-4.5,2.5c0,0-2.01-2.5-4.5-2.5s-4.5,2.5-4.5,2.5c0,0-2.01-2.5-4.5-2.5s-4.5,2.5-4.5,2.5h-9v-9s2.5-2.01,2.5-4.5-2.5-4.5-2.5-4.5c0,0,2.5-2.01,2.5-4.5s-2.5-4.5-2.5-4.5c0,0,2.5-2.01,2.5-4.5s-2.5-4.5-2.5-4.5c0,0,2.5-2.01,2.5-4.5s-2.5-4.5-2.5-4.5v-9h9Z" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="18" width="36" height="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       artwork_frame_default = IconArtworkFrame;
-    }
-  });
-
-  // lib/audio-waves.ts
-  var audio_waves_exports = {};
-  __export(audio_waves_exports, {
-    IconAudioWaves: () => IconAudioWaves,
-    default: () => audio_waves_default
-  });
-  var IconAudioWaves, audio_waves_default;
-  var init_audio_waves = __esm({
-    "lib/audio-waves.ts"() {
-      IconAudioWaves = `<svg id="AudioWaves" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="9" y1="27" x2="9" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="22.5" x2="18" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="18" x2="27" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="31.5" x2="45" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="54" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="31.5" x2="63" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      audio_waves_default = IconAudioWaves;
     }
   });
 
@@ -2557,20 +3579,6 @@
     }
   });
 
-  // lib/bread-slice.ts
-  var bread_slice_exports = {};
-  __export(bread_slice_exports, {
-    IconBreadSlice: () => IconBreadSlice,
-    default: () => bread_slice_default
-  });
-  var IconBreadSlice, bread_slice_default;
-  var init_bread_slice = __esm({
-    "lib/bread-slice.ts"() {
-      IconBreadSlice = `<svg id="BreadSlice" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M58.5,24.75c0-6.21-5.04-11.25-11.25-11.25s-11.25,4.5-11.25,4.5c0,0-5.04-4.5-11.25-4.5s-11.25,5.04-11.25,11.25c0,4.16,2.27,7.79,5.62,9.73v24.02h33.75v-24.02c3.36-1.95,5.62-5.57,5.62-9.73Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,24.75c0-6.21-5.04-11.25-11.25-11.25s-11.25,4.5-11.25,4.5c0,0-5.04-4.5-11.25-4.5s-11.25,5.04-11.25,11.25c0,4.16,2.27,7.79,5.62,9.73v24.02h33.75v-24.02c3.36-1.95,5.62-5.57,5.62-9.73Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      bread_slice_default = IconBreadSlice;
-    }
-  });
-
   // lib/bulb.ts
   var bulb_exports = {};
   __export(bulb_exports, {
@@ -2585,20 +3593,6 @@
     }
   });
 
-  // lib/camera.ts
-  var camera_exports = {};
-  __export(camera_exports, {
-    IconCamera: () => IconCamera,
-    default: () => camera_default
-  });
-  var IconCamera, camera_default;
-  var init_camera = __esm({
-    "lib/camera.ts"() {
-      IconCamera = `<svg id="Camera" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M57,18H15c-3.31,0-6,2.69-6,6v24c0,3.31,2.69,6,6,6h42c3.31,0,6-2.69,6-6v-24c0-3.31-2.69-6-6-6ZM36,45c-4.97,0-9-4.03-9-9s4.03-9,9-9,9,4.03,9,9-4.03,9-9,9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="9" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M31,9h10c2.21,0,4,1.79,4,4v5h-18v-5c0-2.21,1.79-4,4-4Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="18" width="54" height="36" rx="6" ry="6" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      camera_default = IconCamera;
-    }
-  });
-
   // lib/chip.ts
   var chip_exports = {};
   __export(chip_exports, {
@@ -2608,7 +3602,7 @@
   var IconChip, chip_default;
   var init_chip = __esm({
     "lib/chip.ts"() {
-      IconChip = `<svg id="Chip" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="18" width="36" height="36" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="18" width="36" height="36" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="9" x2="27" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="9" x2="45" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="27" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="54" x2="45" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="45" x2="18" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="36" x2="18" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="27" x2="18" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="63" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="63" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconChip = `<svg id="Chip" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="27" y1="9" x2="27" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="9" x2="45" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="27" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="54" x2="45" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="45" x2="18" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="36" x2="18" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="27" x2="18" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="63" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="63" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="18" width="36" height="36" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="18" width="36" height="36" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       chip_default = IconChip;
     }
   });
@@ -2641,20 +3635,6 @@
     }
   });
 
-  // lib/clipboard.ts
-  var clipboard_exports = {};
-  __export(clipboard_exports, {
-    IconClipboard: () => IconClipboard,
-    default: () => clipboard_default
-  });
-  var IconClipboard, clipboard_default;
-  var init_clipboard = __esm({
-    "lib/clipboard.ts"() {
-      IconClipboard = `<svg id="Clipboard" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M50,13.5h-9.5v4.5h-9v-4.5h-9.5c-2.21,0-4,1.79-4,4v41.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V17.5c0-2.21-1.79-4-4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,13.5h9.5c2.21,0,4,1.79,4,4v41.5c0,2.21-1.79,4-4,4h-28c-2.21,0-4-1.79-4-4V17.5c0-2.21,1.79-4,4-4h9.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="31.5" y="9" width="9" height="9" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      clipboard_default = IconClipboard;
-    }
-  });
-
   // lib/closet.ts
   var closet_exports = {};
   __export(closet_exports, {
@@ -2666,34 +3646,6 @@
     "lib/closet.ts"() {
       IconCloset = `<svg id="Closet" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="9" width="45" height="49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="29" y1="27" x2="29" y2="27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="51.22" x2="36" y2="51.22" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="43" y1="27" x2="43" y2="27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="9" width="45" height="49.5" rx="2" ry="2" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="63" x2="22.5" y2="58.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="63" x2="49.5" y2="58.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="45" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="45" x2="58.5" y2="45" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       closet_default = IconCloset;
-    }
-  });
-
-  // lib/coffee-cup.ts
-  var coffee_cup_exports = {};
-  __export(coffee_cup_exports, {
-    IconCoffeeCup: () => IconCoffeeCup,
-    default: () => coffee_cup_default
-  });
-  var IconCoffeeCup, coffee_cup_default;
-  var init_coffee_cup = __esm({
-    "lib/coffee-cup.ts"() {
-      IconCoffeeCup = `<svg id="CoffeeCup" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,36c0,12.43,0,22.5,20.25,22.5s20.25-10.07,20.25-22.5H13.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M13.5,36c0,12.43,0,22.5,20.25,22.5s20.25-10.07,20.25-22.5H13.5Z" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.32,12c.31,9,6.96,6,6.96,15" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M35.79,9c.31,9,6.96,6,6.96,15" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M56.25,36h2.25c.79,0,1.55.14,2.25.38,2.62.93,4.5,3.43,4.5,6.37,0,3.73-3.02,6.75-6.75,6.75h-2.25" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      coffee_cup_default = IconCoffeeCup;
-    }
-  });
-
-  // lib/coffee-machine.ts
-  var coffee_machine_exports = {};
-  __export(coffee_machine_exports, {
-    IconCoffeeMachine: () => IconCoffeeMachine,
-    default: () => coffee_machine_default
-  });
-  var IconCoffeeMachine, coffee_machine_default;
-  var init_coffee_machine = __esm({
-    "lib/coffee-machine.ts"() {
-      IconCoffeeMachine = `<svg id="CoffeeMachine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18.19,49.5c-.14,1.17-.05,2.35.36,3.46,1.65,4.5,6.82,5.55,12.95,5.55s11.3-1.04,12.95-5.55c.61-1.67.53-3.51-.03-5.19l-1.61-4.82h-.68c-13.33,0-13.41,6.47-23.94,6.55Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.5,13v10c0,2.21,1.79,4,4,4h27.5v36H18h45V13c0-2.21-1.79-4-4-4H26.5c-2.21,0-4,1.79-4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="49.5" y1="18" x2="49.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,13v10c0,2.21,1.79,4,4,4h27.5v36H18h45V13c0-2.21-1.79-4-4-4H26.5c-2.21,0-4,1.79-4,4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M44.42,47.76c.56,1.68.64,3.53.03,5.19-1.65,4.5-6.82,5.55-12.95,5.55s-11.3-1.04-12.95-5.55c-.61-1.67-.53-3.51.03-5.19l3.92-11.76h18l3.92,11.76Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,49.5c10.73,0,10.73-6.56,24.14-6.56" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,36h-9.5c-2.21,0-4,1.79-4,4v10c0,2.21,1.79,4,4,4h5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      coffee_machine_default = IconCoffeeMachine;
     }
   });
 
@@ -2711,20 +3663,6 @@
     }
   });
 
-  // lib/cognac-glass.ts
-  var cognac_glass_exports = {};
-  __export(cognac_glass_exports, {
-    IconCognacGlass: () => IconCognacGlass,
-    default: () => cognac_glass_default
-  });
-  var IconCognacGlass, cognac_glass_default;
-  var init_cognac_glass = __esm({
-    "lib/cognac-glass.ts"() {
-      IconCognacGlass = `<svg id="CognacGlass" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M16.27,41.25c2.54,6.65,9.58,8.22,17.88,8.22s15.66-1.63,18.05-8.64c.26-.75.44-1.79.55-2.97.2-2.13.13-4.27-.18-6.37l-.38-.02c-19.97,0-20,9.74-35.92,9.78Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M51.56,25.93c1.35,3.79,1.94,7.9,1.56,11.96-.11,1.17-.29,2.21-.55,2.97-2.39,7.01-9.57,8.64-18.05,8.64s-15.66-1.63-18.05-8.64c-.26-.75-.44-1.79-.55-2.97-.38-4.07.21-8.18,1.56-11.96l4.43-12.43h25.2l4.43,12.43Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M16.57,41.28c16,0,16-9.78,36-9.78" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.57" y1="58.5" x2="34.44" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="25.57" y1="58.5" x2="43.57" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      cognac_glass_default = IconCognacGlass;
-    }
-  });
-
   // lib/coins.ts
   var coins_exports = {};
   __export(coins_exports, {
@@ -2736,48 +3674,6 @@
     "lib/coins.ts"() {
       IconCoins = `<svg id="Coins" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,13.5c-13.5,0-13.5,4.5-13.5,4.5v36s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5V18s0-4.5-13.5-4.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,31.5s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,22.5s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,40.5s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="9 22.5 9 31.5 9 40.5 9 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,18c-13.5,0-13.5,4.5-13.5,4.5v27s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5v-27s0-4.5-13.5-4.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,27s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,18s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,45s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,36s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="36 22.5 36 31.5 36 40.5 36 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,13.5c-13.5,0-13.5,4.5-13.5,4.5v36s0,4.5,13.5,4.5,13.5-4.5,13.5-4.5V18s0-4.5-13.5-4.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       coins_default = IconCoins;
-    }
-  });
-
-  // lib/color-pallette.ts
-  var color_pallette_exports = {};
-  __export(color_pallette_exports, {
-    IconColorPallette: () => IconColorPallette,
-    default: () => color_pallette_default
-  });
-  var IconColorPallette, color_pallette_default;
-  var init_color_pallette = __esm({
-    "lib/color-pallette.ts"() {
-      IconColorPallette = `<svg id="ColorPallette" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,36c0,9.97-14.18,4.84-22.5,9-9,4.5,9,18-4.5,18-14.91,0-27-12.09-27-27s12.09-27,27-27,27,12.09,27,27Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M63,36c0,9.97-14.18,4.84-22.5,9-9,4.5,9,18-4.5,18-14.91,0-27-12.09-27-27s12.09-27,27-27,27,12.09,27,27Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="18" x2="36" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="22.5" y1="22.5" x2="22.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="22.5" y1="49.5" x2="22.5" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="49.5" y1="22.5" x2="49.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
-      color_pallette_default = IconColorPallette;
-    }
-  });
-
-  // lib/color-rgb.ts
-  var color_rgb_exports = {};
-  __export(color_rgb_exports, {
-    IconColorRgb: () => IconColorRgb,
-    default: () => color_rgb_default
-  });
-  var IconColorRgb, color_rgb_default;
-  var init_color_rgb = __esm({
-    "lib/color-rgb.ts"() {
-      IconColorRgb = `<svg id="ColorRgb" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><circle cx="26.37" cy="44.44" r="15.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="45.86" cy="44.44" r="15.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36.12" cy="27.56" r="15.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></g><g><circle cx="35.88" cy="27.56" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="35.88" cy="27.56" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="26.14" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="26.14" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="45.63" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="45.63" cy="44.44" r="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      color_rgb_default = IconColorRgb;
-    }
-  });
-
-  // lib/color-swatches.ts
-  var color_swatches_exports = {};
-  __export(color_swatches_exports, {
-    IconColorSwatches: () => IconColorSwatches,
-    default: () => color_swatches_default
-  });
-  var IconColorSwatches, color_swatches_default;
-  var init_color_swatches = __esm({
-    "lib/color-swatches.ts"() {
-      IconColorSwatches = `<svg id="ColorSwatches" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="27.94" y1="19.43" x2="43.53" y2="28.43" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="23.82" y1="33.21" x2="36.53" y2="40.55" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="23.82" y1="48.22" x2="30.03" y2="51.81" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.39" y1="29.63" x2="56.39" y2="45.21" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="37.03" y1="39.68" x2="44.27" y2="52.21" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.52" y1="52.68" x2="33.01" y2="58.71" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M46.57,15.17l-8.66-5c-1.91-1.1-4.36-.45-5.46,1.46l-8.63,14.94v30.93c0,2.21-1.79,4-4,4,1.91,1.1,4.36.45,5.46-1.46l22.75-39.4c1.1-1.91.45-4.36-1.46-5.46Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M65.65,35.25l-5-8.66c-1.1-1.91-3.55-2.57-5.46-1.46l-14.62,8.44-15.28,26.47c-1.1,1.91-3.55,2.57-5.46,1.46h-.79l.29.5c1.1,1.91,3.55,2.57,5.46,1.46l39.4-22.75c1.91-1.1,2.57-3.55,1.46-5.46Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="5.82" y="8" width="18" height="53.5" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="5.82" y="8" width="18" height="53.5" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="5.82" y1="21" x2="23.82" y2="21" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="5.82" y1="35" x2="23.82" y2="35" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="5.82" y1="48" x2="23.82" y2="48" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      color_swatches_default = IconColorSwatches;
     }
   });
 
@@ -2823,20 +3719,6 @@
     }
   });
 
-  // lib/desktop.ts
-  var desktop_exports = {};
-  __export(desktop_exports, {
-    IconDesktop: () => IconDesktop,
-    default: () => desktop_default
-  });
-  var IconDesktop, desktop_default;
-  var init_desktop = __esm({
-    "lib/desktop.ts"() {
-      IconDesktop = `<svg id="Desktop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,45V13c0-2.21-1.79-4-4-4H13c-2.21,0-4,1.79-4,4v32h54Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="45" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="63" x2="45" y2="63" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="63" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      desktop_default = IconDesktop;
-    }
-  });
-
   // lib/education.ts
   var education_exports = {};
   __export(education_exports, {
@@ -2848,62 +3730,6 @@
     "lib/education.ts"() {
       IconEducation = `<svg id="Education" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M58.5,31.5l-22.5-13.5-22.5,13.5,7.5,4.5h-.75v13.5s7.05,4.5,15.75,4.5,15.75-4.5,15.75-4.5v-13.5h-.75l7.5-4.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="13.5" y1="31.5" x2="13.5" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 31.5 36 18 58.5 31.5 36 45 13.5 31.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.75,36v13.5s-7.05,4.5-15.75,4.5-15.75-4.5-15.75-4.5v-13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       education_default = IconEducation;
-    }
-  });
-
-  // lib/espress-machine2.ts
-  var espress_machine2_exports = {};
-  __export(espress_machine2_exports, {
-    IconEspressMachine2: () => IconEspressMachine2,
-    default: () => espress_machine2_default
-  });
-  var IconEspressMachine2, espress_machine2_default;
-  var init_espress_machine2 = __esm({
-    "lib/espress-machine2.ts"() {
-      IconEspressMachine2 = `<svg id="EspressMachine2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M45,27l-4.5,9h-9l-4.5-9h-13.5v36h45V27h-13.5ZM42.75,54c0,3.73-3.02,6.75-6.75,6.75s-6.75-3.02-6.75-6.75v-4.5h13.5v4.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="18" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="13.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="63" x2="58.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 27 31.5 36 40.5 36 45 27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M29.25,54v-4.5h13.5v4.5c0,3.73-3.02,6.75-6.75,6.75s-6.75-3.02-6.75-6.75Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="63" x2="63" y2="63" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="47" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="18" x2="45" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="18" x2="54" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      espress_machine2_default = IconEspressMachine2;
-    }
-  });
-
-  // lib/espresso-machine-e61.ts
-  var espresso_machine_e61_exports = {};
-  __export(espresso_machine_e61_exports, {
-    IconEspressoMachineE61: () => IconEspressoMachineE61,
-    default: () => espresso_machine_e61_default
-  });
-  var IconEspressoMachineE61, espresso_machine_e61_default;
-  var init_espresso_machine_e61 = __esm({
-    "lib/espresso-machine-e61.ts"() {
-      IconEspressoMachineE61 = `<svg id="EspressoMachineE61" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,9v45h45V9H13.5ZM42.75,36.37v5c0,2.21-1.79,4-4,4h-5.5c-2.21,0-4-1.79-4-4v-5h-.75l2.32-9.76c1.3-5.45,9.05-5.45,10.35,0l2.32,9.76h-.75Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 49.5 13.5 9 58.5 9 58.5 54 13.5 54 13.5 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="18" x2="22.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="18" x2="49.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="47.25" y1="36.37" x2="24.75" y2="36.37" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M28.5,36.37l2.32-9.76c1.3-5.45,9.05-5.45,10.35,0l2.32,9.76" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M29.25,36.37h13.5v5c0,2.21-1.79,4-4,4h-5.5c-2.21,0-4-1.79-4-4v-5h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="45" y1="40.87" x2="63" y2="40.87" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      espresso_machine_e61_default = IconEspressoMachineE61;
-    }
-  });
-
-  // lib/espresso-machine.ts
-  var espresso_machine_exports = {};
-  __export(espresso_machine_exports, {
-    IconEspressoMachine: () => IconEspressoMachine,
-    default: () => espresso_machine_default
-  });
-  var IconEspressoMachine, espresso_machine_default;
-  var init_espresso_machine = __esm({
-    "lib/espresso-machine.ts"() {
-      IconEspressoMachine = `<svg id="EspressoMachine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="47.25 27 47.25 36 42.75 36 42.75 45 29.25 45 29.25 36 24.75 36 24.75 27 13.5 27 18 54 54 54 58.5 27 47.25 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17,9h38c4.42,0,8,3.58,8,8v10H9v-10c0-4.42,3.58-8,8-8Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="54" width="54" height="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="18" x2="18" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="18" x2="27" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M17,9h38c4.42,0,8,3.58,8,8v10H9v-10c0-4.42,3.58-8,8-8Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="27" x2="18" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="27" x2="54" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="24.75" y="27" width="22.5" height="9" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="29.25" y="36" width="13.5" height="9" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="40.5" x2="60.75" y2="40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      espresso_machine_default = IconEspressoMachine;
-    }
-  });
-
-  // lib/espresso-pistol.ts
-  var espresso_pistol_exports = {};
-  __export(espresso_pistol_exports, {
-    IconEspressoPistol: () => IconEspressoPistol,
-    default: () => espresso_pistol_default
-  });
-  var IconEspressoPistol, espresso_pistol_default;
-  var init_espresso_pistol = __esm({
-    "lib/espresso-pistol.ts"() {
-      IconEspressoPistol = `<svg id="EspressoPistol" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><circle cx="50.25" cy="21.75" r="11.25" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M30.09,32.36l9.55,9.55-19.09,19.09c-2.64,2.64-6.91,2.64-9.55,0h0c-2.64-2.64-2.64-6.91,0-9.55l19.09-19.09Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><polyline points="44.14 34.23 38.05 40.31 31.69 33.95 37.77 27.86" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><polyline points="43.88 9.03 43.88 9.03 37.52 15.39 37.52 15.39" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><polyline points="56.61 34.48 56.61 34.48 62.97 28.12 62.97 28.12" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><circle cx="50.25" cy="21.75" r="11.25" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30.09,32.36l9.55,9.55-19.09,19.09c-2.64,2.64-6.91,2.64-9.55,0h0c-2.64-2.64-2.64-6.91,0-9.55l19.09-19.09Z" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="44.14 34.23 38.05 40.31 31.69 33.95 37.77 27.86" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="43.88 9.03 43.88 9.03 37.52 15.39 37.52 15.39" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="56.61 34.48 56.61 34.48 62.97 28.12 62.97 28.12" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      espresso_pistol_default = IconEspressoPistol;
     }
   });
 
@@ -2946,20 +3772,6 @@
     "lib/factory.ts"() {
       IconFactory = `<svg id="Factory" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 58.5 9 45 9 31.5 27 40.5 27 31.5 45 40.5 45 40.5 45 31.5 63 40.5 63 58.5 9 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 58.5 9 45 9 31.5 27 40.5 27 31.5 45 40.5 45 40.5 45 31.5 63 40.5 63 58.5 9 58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="9 49.5 9 13.5 18 13.5 18 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       factory_default = IconFactory;
-    }
-  });
-
-  // lib/filmroll.ts
-  var filmroll_exports = {};
-  __export(filmroll_exports, {
-    IconFilmroll: () => IconFilmroll,
-    default: () => filmroll_default
-  });
-  var IconFilmroll, filmroll_default;
-  var init_filmroll = __esm({
-    "lib/filmroll.ts"() {
-      IconFilmroll = `<svg id="Filmroll" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="54" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="18" y1="9" x2="18" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="9" x2="54" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="18" x2="18" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="27" x2="18" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="36" x2="18" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="45" x2="18" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="54" x2="18" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="54" x2="63" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="63" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="27" x2="63" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="18" x2="63" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="54" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      filmroll_default = IconFilmroll;
     }
   });
 
@@ -3075,20 +3887,6 @@
     }
   });
 
-  // lib/gamepad.ts
-  var gamepad_exports = {};
-  __export(gamepad_exports, {
-    IconGamepad: () => IconGamepad,
-    default: () => gamepad_default
-  });
-  var IconGamepad, gamepad_default;
-  var init_gamepad = __esm({
-    "lib/gamepad.ts"() {
-      IconGamepad = `<svg id="Gamepad" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M47.25,20.25h-22.5c-8.7,0-15.75,7.05-15.75,15.75s7.05,15.75,15.75,15.75h22.5c8.7,0,15.75-7.05,15.75-15.75s-7.05-15.75-15.75-15.75Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="24.75" y1="29.25" x2="24.75" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="31.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="31.5" x2="45" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="49.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
-      gamepad_default = IconGamepad;
-    }
-  });
-
   // lib/graph-up-round.ts
   var graph_up_round_exports = {};
   __export(graph_up_round_exports, {
@@ -3128,34 +3926,6 @@
     "lib/hairdryer.ts"() {
       IconHairdryer = `<svg id="Hairdryer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,63h10.46c3.46,0,5.72-3.65,4.17-6.74l-1.13-2.26" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,31.5s-22.5,9-31.5,9c-7.46,0-13.5-6.04-13.5-13.5s6.04-13.5,13.5-13.5c9,0,31.5,9,31.5,9v9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5s-22.5,9-31.5,9c-7.46,0-13.5-6.04-13.5-13.5s6.04-13.5,13.5-13.5c9,0,31.5,9,31.5,9v9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,39.02l4.5,14.98h-9s-14.07-11.72-17.23-22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="27" cy="27" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       hairdryer_default = IconHairdryer;
-    }
-  });
-
-  // lib/hamburger.ts
-  var hamburger_exports = {};
-  __export(hamburger_exports, {
-    IconHamburger: () => IconHamburger,
-    default: () => hamburger_default
-  });
-  var IconHamburger, hamburger_default;
-  var init_hamburger = __esm({
-    "lib/hamburger.ts"() {
-      IconHamburger = `<svg id="Hamburger" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,29.25h54s0-18-27-18S9,29.25,9,29.25Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,51.75q0,9,27,9t27-9H9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,28.5h54s0-18-27-18S9,28.5,9,28.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,51q0,9,27,9t27-9H9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,42c-6.75,0-6.75-3.38-13.5-3.38-6.75,0-6.75,3.38-13.5,3.38s-6.75-3.38-13.5-3.38c-6.75,0-6.75,3.38-13.5,3.38" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      hamburger_default = IconHamburger;
-    }
-  });
-
-  // lib/highlight.ts
-  var highlight_exports = {};
-  __export(highlight_exports, {
-    IconHighlight: () => IconHighlight,
-    default: () => highlight_default
-  });
-  var IconHighlight, highlight_default;
-  var init_highlight = __esm({
-    "lib/highlight.ts"() {
-      IconHighlight = `<svg id="Highlight" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.95,37.77l-12.5,12.5c-1.93,1.93-1.42,5.22,1.04,6.41,5.06,2.45,13.97,4.04,24.19-6.17" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.95,37.77l-12.5,12.5c-1.93,1.93-1.42,5.22,1.04,6.41,5.06,2.45,13.97,4.04,24.19-6.17" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="27.34" y="25.86" width="13.5" height="27" transform="translate(-17.85 35.63) rotate(-45)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.5,31.41l-13.08,13.08c-1.56,1.56-4.09,1.56-5.66,0l-19.8-19.8c-1.56-1.56-1.56-4.09,0-5.66l13.08-13.08" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      highlight_default = IconHighlight;
     }
   });
 
@@ -3226,20 +3996,6 @@
     "lib/kitchen-utensils.ts"() {
       IconKitchenUtensils = `<svg id="KitchenUtensils" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M6.75,25.5c0,4.97,4.03,9,9,9s9-4.03,9-9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><ellipse cx="56.25" cy="22.5" rx="6.75" ry="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,58.5V13.5h0-2.25c-3.73,0-6.75,10.54-6.75,18s3.02,9,6.75,9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><ellipse cx="56.25" cy="22.5" rx="6.75" ry="9" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.62,13.5v12c0,4.97-3.97,9-8.87,9s-8.87-4.03-8.87-9v-12" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="56.25" y1="58.5" x2="56.25" y2="31.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="15.75" y1="34.5" x2="15.75" y2="58.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="15.75" y1="13.5" x2="15.75" y2="23.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,58.5V13.5h0-2.25c-3.73,0-6.75,10.54-6.75,18s3.02,9,6.75,9" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="6.88" y1="25.5" x2="24.62" y2="25.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       kitchen_utensils_default = IconKitchenUtensils;
-    }
-  });
-
-  // lib/laptop.ts
-  var laptop_exports = {};
-  __export(laptop_exports, {
-    IconLaptop: () => IconLaptop,
-    default: () => laptop_default
-  });
-  var IconLaptop, laptop_default;
-  var init_laptop = __esm({
-    "lib/laptop.ts"() {
-      IconLaptop = `<svg id="Laptop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M17.5,16h37c2.21,0,4,1.79,4,4v27H13.5v-27c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M9,47h54v3c0,3.31-2.69,6-6,6H15c-3.31,0-6-2.69-6-6v-3Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M17.5,16h37c2.21,0,4,1.79,4,4v27H13.5v-27c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,47h54v3c0,3.31-2.69,6-6,6H15c-3.31,0-6-2.69-6-6v-3Z" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      laptop_default = IconLaptop;
     }
   });
 
@@ -3327,34 +4083,6 @@
     }
   });
 
-  // lib/mail-open.ts
-  var mail_open_exports = {};
-  __export(mail_open_exports, {
-    IconMailOpen: () => IconMailOpen,
-    default: () => mail_open_default
-  });
-  var IconMailOpen, mail_open_default;
-  var init_mail_open = __esm({
-    "lib/mail-open.ts"() {
-      IconMailOpen = `<svg id="MailOpen" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="18 39 18 18 54 18 54 39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,31.5l27,22.5,27-22.5v27.5c0,2.21-1.79,4-4,4H13c-2.21,0-4-1.79-4-4v-27.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><polyline points="46.8 18 36 9 25.2 18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 24 9 31.5 36 54 63 31.5 54 24" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      mail_open_default = IconMailOpen;
-    }
-  });
-
-  // lib/mail.ts
-  var mail_exports = {};
-  __export(mail_exports, {
-    IconMail: () => IconMail,
-    default: () => mail_default
-  });
-  var IconMail, mail_default;
-  var init_mail = __esm({
-    "lib/mail.ts"() {
-      IconMail = `<svg id="Mail" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="10.17 19.17 36 40.5 61.69 19.31" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      mail_default = IconMail;
-    }
-  });
-
   // lib/microwave.ts
   var microwave_exports = {};
   __export(microwave_exports, {
@@ -3397,34 +4125,6 @@
     }
   });
 
-  // lib/music-note-single.ts
-  var music_note_single_exports = {};
-  __export(music_note_single_exports, {
-    IconMusicNoteSingle: () => IconMusicNoteSingle,
-    default: () => music_note_single_default
-  });
-  var IconMusicNoteSingle, music_note_single_default;
-  var init_music_note_single = __esm({
-    "lib/music-note-single.ts"() {
-      IconMusicNoteSingle = `<svg id="MusicNoteSingle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><ellipse cx="27" cy="52.4" rx="9" ry="6.1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M46.54,24.04c-10.54-3.51-10.54-10.54-10.54-10.54v14.05s14.05,3.51,14.05,14.05c7.03-7.03,3.94-15.08-3.51-17.57Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><ellipse cx="27" cy="52.4" rx="9" ry="6.1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="52.4" x2="36" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5s0,7.03,10.54,10.54c7.45,2.48,10.54,10.54,3.51,17.57,0-10.54-14.05-14.05-14.05-14.05" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      music_note_single_default = IconMusicNoteSingle;
-    }
-  });
-
-  // lib/music-note.ts
-  var music_note_exports = {};
-  __export(music_note_exports, {
-    IconMusicNote: () => IconMusicNote,
-    default: () => music_note_default
-  });
-  var IconMusicNote, music_note_default;
-  var init_music_note = __esm({
-    "lib/music-note.ts"() {
-      IconMusicNote = `<svg id="MusicNote" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><ellipse cx="18" cy="56.9" rx="9" ry="6.1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><ellipse cx="49.5" cy="52.4" rx="9" ry="6.1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="58.5 22.5 27 27 27 18 58.5 13.5 58.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="58.5 52.4 58.5 13.5 27 18 27 56.9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><ellipse cx="18" cy="56.9" rx="9" ry="6.1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="57.81" y1="22.5" x2="27" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><ellipse cx="49.5" cy="52.4" rx="9" ry="6.1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      music_note_default = IconMusicNote;
-    }
-  });
-
   // lib/oven.ts
   var oven_exports = {};
   __export(oven_exports, {
@@ -3436,34 +4136,6 @@
     "lib/oven.ts"() {
       IconOven = `<svg id="Oven" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,9v54h45V9H13.5ZM49.5,54h-27v-22.5h27v22.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><g><line x1="22.5" y1="16.5" x2="22.5" y2="16.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="16.5" x2="31.5" y2="16.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="16.5" x2="40.5" y2="16.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="16.5" x2="49.5" y2="16.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="9" width="45" height="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="22.5" x2="58.5" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="22.5" y="31.5" width="27" height="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
       oven_default = IconOven;
-    }
-  });
-
-  // lib/paperplane.ts
-  var paperplane_exports = {};
-  __export(paperplane_exports, {
-    IconPaperplane: () => IconPaperplane,
-    default: () => paperplane_default
-  });
-  var IconPaperplane, paperplane_default;
-  var init_paperplane = __esm({
-    "lib/paperplane.ts"() {
-      IconPaperplane = `<svg id="Paperplane" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9.45 30.73 54 18 41.27 62.55 28.54 43.46 9.45 30.73" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="54" y1="18" x2="28.54" y2="43.46" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9.45 30.73 54 18 41.27 62.55 28.54 43.46 9.45 30.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      paperplane_default = IconPaperplane;
-    }
-  });
-
-  // lib/perculator.ts
-  var perculator_exports = {};
-  __export(perculator_exports, {
-    IconPerculator: () => IconPerculator,
-    default: () => perculator_default
-  });
-  var IconPerculator, perculator_default;
-  var init_perculator = __esm({
-    "lib/perculator.ts"() {
-      IconPerculator = `<svg id="Perculator" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 40.5 63 18 54 18 54 9 22.5 9 22.5 18 27 40.5 27 49.5 22.5 63 27 63 49.5 63 54 63 49.5 49.5 49.5 40.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="13.5 36 13.5 18 22.5 18" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="18" x2="36" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="49.5" x2="45" y2="63" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="63" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="40.5" x2="45" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 18 54 9 22.5 9 22.5 18 27 40.5 27 49.5 22.5 63 27 63 49.5 63 54 63 49.5 49.5 49.5 40.5 54 18" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="22.5 18 54 18 63 18 49.5 40.5 27 40.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="49.5" x2="49.5" y2="49.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      perculator_default = IconPerculator;
     }
   });
 
@@ -3509,34 +4181,6 @@
     }
   });
 
-  // lib/printer.ts
-  var printer_exports = {};
-  __export(printer_exports, {
-    IconPrinter: () => IconPrinter,
-    default: () => printer_default
-  });
-  var IconPrinter, printer_default;
-  var init_printer = __esm({
-    "lib/printer.ts"() {
-      IconPrinter = `<svg id="Printer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="45" width="36" height="18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="9" width="36" height="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="45" width="36" height="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="54" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="45" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9 27 9 54 18 54 18 45 54 45 54 54 63 54 63 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      printer_default = IconPrinter;
-    }
-  });
-
-  // lib/reels.ts
-  var reels_exports = {};
-  __export(reels_exports, {
-    IconReels: () => IconReels,
-    default: () => reels_default
-  });
-  var IconReels, reels_default;
-  var init_reels = __esm({
-    "lib/reels.ts"() {
-      IconReels = `<svg id="Reels" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,22.5v36.5c0,2.21,1.79,4,4,4h46c2.21,0,4-1.79,4-4V22.5H9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M31.5,34.68v16.13c0,.4.45.64.78.42l12.1-8.07c.3-.2.3-.63,0-.83l-12.1-8.07c-.33-.22-.78.02-.78.42Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="22.5" x2="63" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="9" x2="31.5" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="45" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      reels_default = IconReels;
-    }
-  });
-
   // lib/room-shade.ts
   var room_shade_exports = {};
   __export(room_shade_exports, {
@@ -3565,48 +4209,6 @@
     }
   });
 
-  // lib/tablet-landscape.ts
-  var tablet_landscape_exports = {};
-  __export(tablet_landscape_exports, {
-    IconTabletLandscape: () => IconTabletLandscape,
-    default: () => tablet_landscape_default
-  });
-  var IconTabletLandscape, tablet_landscape_default;
-  var init_tablet_landscape = __esm({
-    "lib/tablet-landscape.ts"() {
-      IconTabletLandscape = `<svg id="TabletLandscape" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="9" width="36" height="54" rx="4" ry="4" transform="translate(0 72) rotate(-90)" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      tablet_landscape_default = IconTabletLandscape;
-    }
-  });
-
-  // lib/tablet.ts
-  var tablet_exports = {};
-  __export(tablet_exports, {
-    IconTablet: () => IconTablet,
-    default: () => tablet_default
-  });
-  var IconTablet, tablet_default;
-  var init_tablet = __esm({
-    "lib/tablet.ts"() {
-      IconTablet = `<svg id="Tablet" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="13.5" width="36" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="13.5" width="36" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      tablet_default = IconTablet;
-    }
-  });
-
-  // lib/television.ts
-  var television_exports = {};
-  __export(television_exports, {
-    IconTelevision: () => IconTelevision,
-    default: () => television_default
-  });
-  var IconTelevision, television_default;
-  var init_television = __esm({
-    "lib/television.ts"() {
-      IconTelevision = `<svg id="Television" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M59,18H13c-2.21,0-4,1.79-4,4v32.5c0,2.21,1.79,4,4,4h46c2.21,0,4-1.79,4-4V22c0-2.21-1.79-4-4-4ZM45,49.5h-27v-22.5h27v22.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="18" width="54" height="40.5" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="27" width="27" height="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="9" x2="31.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="9" x2="40.5" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="31.5" x2="54" y2="31.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="40.5" x2="54" y2="40.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      television_default = IconTelevision;
-    }
-  });
-
   // lib/temple2.ts
   var temple2_exports = {};
   __export(temple2_exports, {
@@ -3630,22 +4232,8 @@
   var IconTemple, temple_default;
   var init_temple = __esm({
     "lib/temple.ts"() {
-      IconTemple = `<svg id="Temple" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.5" y1="27" x2="22.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="27" x2="31.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="27" x2="40.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="27" x2="49.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="58.5" x2="58.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M14.8,22.5h42.4c.28,0,.35-.38.09-.48l-21.29-8.52-21.29,8.52c-.26.1-.18.48.09.48Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconTemple = `<svg id="Temple" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.5" y1="27" x2="22.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="27" x2="31.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="27" x2="40.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="27" x2="49.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="58.5" x2="58.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 22.5 58.5 22.5 36 13.5 13.5 22.5" style="fill: none;  stroke-linejoin: bevel; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       temple_default = IconTemple;
-    }
-  });
-
-  // lib/terminal.ts
-  var terminal_exports = {};
-  __export(terminal_exports, {
-    IconTerminal: () => IconTerminal,
-    default: () => terminal_default
-  });
-  var IconTerminal, terminal_default;
-  var init_terminal = __esm({
-    "lib/terminal.ts"() {
-      IconTerminal = `<svg id="Terminal" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 18 24.75 24.75 18 31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="31.5" x2="40.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      terminal_default = IconTerminal;
     }
   });
 
@@ -3733,34 +4321,6 @@
     }
   });
 
-  // lib/video-camera.ts
-  var video_camera_exports = {};
-  __export(video_camera_exports, {
-    IconVideoCamera: () => IconVideoCamera,
-    default: () => video_camera_default
-  });
-  var IconVideoCamera, video_camera_default;
-  var init_video_camera = __esm({
-    "lib/video-camera.ts"() {
-      IconVideoCamera = `<svg id="VideoCamera" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="27" width="40.5" height="28.5" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="40.5" height="28.5" rx="6" ry="6" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 37.5 63 28.5 63 55.5 49.5 46.5 49.5 37.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="22.5" cy="20.25" r="6.75" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="20.25" r="6.75" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      video_camera_default = IconVideoCamera;
-    }
-  });
-
-  // lib/videos.ts
-  var videos_exports = {};
-  __export(videos_exports, {
-    IconVideos: () => IconVideos,
-    default: () => videos_default
-  });
-  var IconVideos, videos_default;
-  var init_videos = __esm({
-    "lib/videos.ts"() {
-      IconVideos = `<svg id="Videos" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M50,27H13c-2.21,0-4,1.79-4,4v23.5c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4v-23.5c0-2.21-1.79-4-4-4ZM26.44,49.5v-13.5l10.12,6.75-10.12,6.75Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="45" height="31.5" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,49.5h5c2.21,0,4-1.79,4-4v-23.5c0-2.21-1.79-4-4-4H22c-2.21,0-4,1.79-4,4v5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.44 36 26.44 49.5 36.56 42.75 26.44 36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      videos_default = IconVideos;
-    }
-  });
-
   // lib/vote.ts
   var vote_exports = {};
   __export(vote_exports, {
@@ -3814,34 +4374,6 @@
     "lib/watercooker.ts"() {
       IconWatercooker = `<svg id="Watercooker" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M19.61,40.49l-1.32,12.96c-.03.29.2.55.5.55h34.89c.3,0,.53-.26.5-.55l-2.23-21.95c-17.93.08-18.25,8.75-32.34,8.99Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18.81,40.5c14.73,0,14.73-9,33.14-9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18.55,54h34.89c.3,0,.53-.26.5-.55l-3.78-37.17c-.37-4.12-3.83-7.28-7.97-7.28h-12.39c-4.14,0-7.59,3.16-7.97,7.28l-3.78,37.17c-.03.29.2.55.5.55Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,40.5l4.18-20.89c.19-.93,1.01-1.61,1.96-1.61h45.48c1.28,0,2.23,1.19,1.95,2.44-.92,4.11-3.65,11.98-10.94,11.98" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="63" x2="54" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       watercooker_default = IconWatercooker;
-    }
-  });
-
-  // lib/website.ts
-  var website_exports = {};
-  __export(website_exports, {
-    IconWebsite: () => IconWebsite,
-    default: () => website_default
-  });
-  var IconWebsite, website_default;
-  var init_website = __esm({
-    "lib/website.ts"() {
-      IconWebsite = `<svg id="Website" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="7.39" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="7.39" y1="27" x2="61.39" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="16.39" y1="18" x2="16.39" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="25.39" y1="18" x2="25.39" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.39" y1="18" x2="34.39" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M34.39,36l13.5,4.5-3.25,2.25,6.75,6.75-3.5,3.5-6.75-6.75-2.25,3.25-4.5-13.5M34.39,32c-1.04,0-2.07.41-2.83,1.17-1.07,1.07-1.45,2.66-.97,4.09l4.5,13.5c.48,1.44,1.73,2.48,3.23,2.69.19.03.38.04.57.04,1.02,0,2.01-.39,2.75-1.09l3.42,3.42c.78.78,1.8,1.17,2.83,1.17s2.05-.39,2.83-1.17l3.5-3.5c1.56-1.56,1.56-4.09,0-5.66l-3.42-3.42c.83-.88,1.23-2.09,1.05-3.31-.21-1.5-1.26-2.75-2.69-3.23l-13.5-4.5c-.41-.14-.84-.21-1.26-.21h0Z" style="fill: red; stroke-width: 0px;"/><rect x="7.39" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      website_default = IconWebsite;
-    }
-  });
-
-  // lib/wine-glass.ts
-  var wine_glass_exports = {};
-  __export(wine_glass_exports, {
-    IconWineGlass: () => IconWineGlass,
-    default: () => wine_glass_default
-  });
-  var IconWineGlass, wine_glass_default;
-  var init_wine_glass = __esm({
-    "lib/wine-glass.ts"() {
-      IconWineGlass = `<svg id="WineGlass" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M21.85,32.79c1.76,4.62,6.65,5.71,12.42,5.71s10.87-1.13,12.53-6c.18-.52.3-1.25.38-2.06.14-1.48.09-2.98-.13-4.44h-.26c-13.87,0-13.89,6.77-24.95,6.79Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M46.35,22.13c.94,2.63,1.35,5.48,1.09,8.31-.08.81-.2,1.54-.38,2.06-1.66,4.87-6.65,6-12.53,6s-10.87-1.13-12.53-6c-.18-.52-.3-1.25-.38-2.06-.26-2.82.15-5.68,1.09-8.31l3.08-8.63h17.5l3.08,8.63Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.05,32.79c11.11,0,11.11-6.79,25-6.79" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="34.57" y1="58.5" x2="34.43" y2="38.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="24.57" y1="58.5" x2="44.57" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      wine_glass_default = IconWineGlass;
     }
   });
 
@@ -3943,20 +4475,6 @@
     }
   });
 
-  // lib/art-supplies.ts
-  var art_supplies_exports = {};
-  __export(art_supplies_exports, {
-    IconArtSupplies: () => IconArtSupplies,
-    default: () => art_supplies_default
-  });
-  var IconArtSupplies, art_supplies_default;
-  var init_art_supplies = __esm({
-    "lib/art-supplies.ts"() {
-      IconArtSupplies = `<svg id="ArtSupplies" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M46.06,37.08l15.87,15.87c.78.78.78,2.05,0,2.83l-9.79,9.79c-.78.78-2.05.78-2.83,0l-16.77-16.77" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M24.88,41.14L7.59,23.85c-.78-.78-.78-2.05,0-2.83l9.79-9.79c.78-.78,2.05-.78,2.83,0l16.39,16.39" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M46.06,37.08l15.87,15.87c.78.78.78,2.05,0,2.83l-9.79,9.79c-.78.78-2.05.78-2.83,0l-16.77-16.77" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M24.88,41.14L7.59,23.85c-.78-.78-.78-2.05,0-2.83l9.79-9.79c.78-.78,2.05-.78,2.83,0l16.39,16.39" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="53.8" y1="44.82" x2="47.44" y2="51.18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="28.35" y1="19.36" x2="21.98" y2="25.73" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g><path d="M31.47,49.62c14.81-11.11,30.33-27.26,25.1-32.5-5.24-5.24-21.39,10.29-32.5,25.1,0,0-1.85,1.85,1.85,5.55s5.55,1.85,5.55,1.85Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27.77,57.02c-5.55,5.55-9.26-1.85-14.81,3.7-1.85-5.55-1.22-9.89,1.85-12.96s8.04-3.07,11.11,0c3.07,3.07,3.7,7.4,1.85,9.26Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      art_supplies_default = IconArtSupplies;
-    }
-  });
-
   // lib/at-sign.ts
   var at_sign_exports = {};
   __export(at_sign_exports, {
@@ -3968,6 +4486,20 @@
     "lib/at-sign.ts"() {
       IconAtSign = `<svg id="AtSign" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,36c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75c0-12.43-10.07-22.5-22.5-22.5s-22.5,10.07-22.5,22.5,10.07,22.5,22.5,22.5h9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       at_sign_default = IconAtSign;
+    }
+  });
+
+  // lib/block-partials.ts
+  var block_partials_exports = {};
+  __export(block_partials_exports, {
+    IconBlockPartials: () => IconBlockPartials,
+    default: () => block_partials_default
+  });
+  var IconBlockPartials, block_partials_default;
+  var init_block_partials = __esm({
+    "lib/block-partials.ts"() {
+      IconBlockPartials = `<svg id="BlockPartials" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.11,13.5c.25.7.39,1.46.39,2.25,0,3.73-3.02,6.75-6.75,6.75-.79,0-1.55-.14-2.25-.39v36.39h36.39c-.25-.7-.39-1.46-.39-2.25,0-3.73,3.02-6.75,6.75-6.75.79,0,1.55.14,2.25.39V13.5H22.11Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M49.5,58.5H17.5c-2.21,0-4-1.79-4-4V22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,13.5h32c2.21,0,4,1.79,4,4v32" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="15.75" cy="15.75" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="56.25" cy="56.25" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      block_partials_default = IconBlockPartials;
     }
   });
 
@@ -4010,6 +4542,20 @@
     "lib/board-multi2-vertical.ts"() {
       IconBoardMulti2Vertical = `<svg id="BoardMulti2Vertical" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="27" y="27" width="45" height="18" rx="2" ry="2" transform="translate(13.5 85.5) rotate(-90)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect y="27" width="45" height="18" rx="2" ry="2" transform="translate(-13.5 58.5) rotate(-90)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect y="27" width="45" height="18" rx="2" ry="2" transform="translate(-13.5 58.5) rotate(-90)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="27" y="27" width="45" height="18" rx="2" ry="2" transform="translate(13.5 85.5) rotate(-90)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       board_multi2_vertical_default = IconBoardMulti2Vertical;
+    }
+  });
+
+  // lib/board-multi-dashboard.ts
+  var board_multi_dashboard_exports = {};
+  __export(board_multi_dashboard_exports, {
+    IconBoardMultiDashboard: () => IconBoardMultiDashboard,
+    default: () => board_multi_dashboard_default
+  });
+  var IconBoardMultiDashboard, board_multi_dashboard_default;
+  var init_board_multi_dashboard = __esm({
+    "lib/board-multi-dashboard.ts"() {
+      IconBoardMultiDashboard = `<svg id="BoardMultiDashboard" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="40.5" y="47" width="18" height="11.5" rx="2" ry="2" transform="translate(99 105.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="34" width="18" height="24.5" rx="2" ry="2" transform="translate(45 92.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="18" height="11.5" rx="2" ry="2" transform="translate(45 38.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="13.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 51.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="47" width="18" height="11.5" rx="2" ry="2" transform="translate(99 105.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="34" width="18" height="24.5" rx="2" ry="2" transform="translate(45 92.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="40.5" y="13.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 51.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="18" height="11.5" rx="2" ry="2" transform="translate(45 38.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      board_multi_dashboard_default = IconBoardMultiDashboard;
     }
   });
 
@@ -4428,7 +4974,7 @@
   var IconBuildingChurch, building_church_default;
   var init_building_church = __esm({
     "lib/building-church.ts"() {
-      IconBuildingChurch = `<svg id="BuildingChurch" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M57.75,38.81l-20.49-16.39c-.74-.59-1.78-.58-2.51.01l-20.51,16.73c-.47.38-.74.95-.74,1.55v15.78c0,1.1.9,2,2,2h16v-11.5c0-1.1.9-2,2-2h5c1.1,0,2,.9,2,2v11.5h16c1.1,0,2-.9,2-2v-16.12c0-.61-.28-1.18-.75-1.56Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,58.28v-11.5c0-1.1-.9-2-2-2h-5c-1.1,0-2,.9-2,2v11.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M14.24,39.68l20.51-16.73c.73-.6,1.78-.6,2.51-.01l20.49,16.39c.47.38.75.95.75,1.56v16.12c0,1.1-.9,2-2,2H15.5c-1.1,0-2-.9-2-2v-15.78c0-.6.27-1.17.74-1.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.25" y1="11" x2="42.75" y2="11" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconBuildingChurch = `<svg id="BuildingChurch" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M57.75,38.81l-20.49-16.39c-.74-.59-1.78-.58-2.51.01l-20.51,16.73c-.47.38-.74.95-.74,1.55v15.78c0,1.1.9,2,2,2h16v-11.5c0-1.1.9-2,2-2h5c1.1,0,2,.9,2,2v11.5h16c1.1,0,2-.9,2-2v-16.12c0-.61-.28-1.18-.75-1.56Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,58.28v-11.5c0-1.1-.9-2-2-2h-5c-1.1,0-2,.9-2,2v11.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M14.24,39.68l20.51-16.73c.73-.6,1.78-.6,2.51-.01l20.49,16.39c.47.38.75.95.75,1.56v16.12c0,1.1-.9,2-2,2H15.5c-1.1,0-2-.9-2-2v-15.78c0-.6.27-1.17.74-1.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.25" y1="11" x2="42.75" y2="11" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       building_church_default = IconBuildingChurch;
     }
   });
@@ -4456,7 +5002,7 @@
   var IconBuildingHouse, building_house_default;
   var init_building_house = __esm({
     "lib/building-house.ts"() {
-      IconBuildingHouse = `<svg id="BuildingHouse" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M57.75,30.55l-20.49-16.39c-.74-.59-1.78-.58-2.51.01L14.24,30.9c-.47.38-.74.95-.74,1.55v24.05c0,1.1.9,2,2,2h16v-11.5c0-1.1.9-2,2-2h5c1.1,0,2,.9,2,2v11.5h16c1.1,0,2-.9,2-2v-24.39c0-.61-.28-1.18-.75-1.56Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,58.5v-11.5c0-1.1-.9-2-2-2h-5c-1.1,0-2,.9-2,2v11.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M14.24,30.9l20.51-16.73c.73-.6,1.78-.6,2.51-.01l20.49,16.39c.47.38.75.95.75,1.56v24.39c0,1.1-.9,2-2,2H15.5c-1.1,0-2-.9-2-2v-24.05c0-.6.27-1.17.74-1.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconBuildingHouse = `<svg id="BuildingHouse" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M57.75,30.55l-20.49-16.39c-.74-.59-1.78-.58-2.51.01L14.24,30.9c-.47.38-.74.95-.74,1.55v24.05c0,1.1.9,2,2,2h16v-11.5c0-1.1.9-2,2-2h5c1.1,0,2,.9,2,2v11.5h16c1.1,0,2-.9,2-2v-24.39c0-.61-.28-1.18-.75-1.56Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.5,58.5v-11.5c0-1.1-.9-2-2-2h-5c-1.1,0-2,.9-2,2v11.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M14.24,30.9l20.51-16.73c.73-.6,1.78-.6,2.51-.01l20.49,16.39c.47.38.75.95.75,1.56v24.39c0,1.1-.9,2-2,2H15.5c-1.1,0-2-.9-2-2v-24.05c0-.6.27-1.17.74-1.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       building_house_default = IconBuildingHouse;
     }
   });
@@ -4470,7 +5016,7 @@
   var IconBuildingShop, building_shop_default;
   var init_building_shop = __esm({
     "lib/building-shop.ts"() {
-      IconBuildingShop = `<svg id="BuildingShop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M61.31,30.38l-2.53-15.2c-.16-.96-1-1.67-1.97-1.67H15.19c-.98,0-1.81.71-1.97,1.67l-2.53,15.2c-.59,3.52.58,6.73,2.83,8.55h-.01v17.57c0,1.1.9,2,2,2h16v-11.5c0-1.1.9-2,2-2h5c1.1,0,2,.9,2,2v11.5h16c1.1,0,2-.9,2-2v-17.57h-.01c2.25-1.82,3.41-5.03,2.83-8.55Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M61.31,30.38c.9,5.43-2.34,10.13-7.31,10.13s-9.26-4.7-9.56-10.13c.3,5.43-3.47,10.13-8.44,10.13s-8.74-4.7-8.44-10.13c-.3,5.43-4.59,10.13-9.56,10.13s-8.22-4.7-7.31-10.13l2.53-15.2c.16-.96,1-1.67,1.97-1.67h41.61c.98,0,1.81.71,1.97,1.67l2.53,15.2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,58.5v-11.5c0-1.1-.9-2-2-2h-5c-1.1,0-2,.9-2,2v11.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,38.93v17.57c0,1.1.9,2,2,2h41c1.1,0,2-.9,2-2v-17.57" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconBuildingShop = `<svg id="BuildingShop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M61.31,30.38l-2.53-15.2c-.16-.96-1-1.67-1.97-1.67H15.19c-.98,0-1.81.71-1.97,1.67l-2.53,15.2c-.59,3.52.58,6.73,2.83,8.55h-.01v17.57c0,1.1.9,2,2,2h16v-11.5c0-1.1.9-2,2-2h5c1.1,0,2,.9,2,2v11.5h16c1.1,0,2-.9,2-2v-17.57h-.01c2.25-1.82,3.41-5.03,2.83-8.55Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M61.31,30.38c.9,5.43-2.34,10.13-7.31,10.13s-9.26-4.7-9.56-10.13c.3,5.43-3.47,10.13-8.44,10.13s-8.74-4.7-8.44-10.13c-.3,5.43-4.59,10.13-9.56,10.13s-8.22-4.7-7.31-10.13l2.53-15.2c.16-.96,1-1.67,1.97-1.67h41.61c.98,0,1.81.71,1.97,1.67l2.53,15.2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,58.5v-11.5c0-1.1-.9-2-2-2h-5c-1.1,0-2,.9-2,2v11.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,38.93v17.57c0,1.1.9,2,2,2h41c1.1,0,2-.9,2-2v-17.57" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       building_shop_default = IconBuildingShop;
     }
   });
@@ -4836,6 +5382,104 @@
     "lib/button.ts"() {
       IconButton = `<svg id="Button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="45" height="36" rx="6" ry="6" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="6" ry="6" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       button_default = IconButton;
+    }
+  });
+
+  // lib/chart-bars-squared.ts
+  var chart_bars_squared_exports = {};
+  __export(chart_bars_squared_exports, {
+    IconChartBarsSquared: () => IconChartBarsSquared,
+    default: () => chart_bars_squared_default
+  });
+  var IconChartBarsSquared, chart_bars_squared_default;
+  var init_chart_bars_squared = __esm({
+    "lib/chart-bars-squared.ts"() {
+      IconChartBarsSquared = `<svg id="ChartBarsSquared" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="22.5" x2="22.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="27" x2="49.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chart_bars_squared_default = IconChartBarsSquared;
+    }
+  });
+
+  // lib/chart-bubbles.ts
+  var chart_bubbles_exports = {};
+  __export(chart_bubbles_exports, {
+    IconChartBubbles: () => IconChartBubbles,
+    default: () => chart_bubbles_default
+  });
+  var IconChartBubbles, chart_bubbles_default;
+  var init_chart_bubbles = __esm({
+    "lib/chart-bubbles.ts"() {
+      IconChartBubbles = `<svg id="ChartBubbles" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="18" cy="27" r="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="29.25" cy="51.75" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="22.5" r="13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="18" cy="27" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="29.25" cy="51.75" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="49.5" cy="22.5" r="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chart_bubbles_default = IconChartBubbles;
+    }
+  });
+
+  // lib/chart-candles.ts
+  var chart_candles_exports = {};
+  __export(chart_candles_exports, {
+    IconChartCandles: () => IconChartCandles,
+    default: () => chart_candles_default
+  });
+  var IconChartCandles, chart_candles_default;
+  var init_chart_candles = __esm({
+    "lib/chart-candles.ts"() {
+      IconChartCandles = `<svg id="ChartCandles" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="18" width="9" height="27" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="45" y="27" width="9" height="22.5" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="22.5" y1="9" x2="22.5" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="22.5" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="9" x2="49.5" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="49.5" x2="49.5" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="18" width="9" height="27" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="45" y="27" width="9" height="22.5" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chart_candles_default = IconChartCandles;
+    }
+  });
+
+  // lib/chart-half-circle.ts
+  var chart_half_circle_exports = {};
+  __export(chart_half_circle_exports, {
+    IconChartHalfCircle: () => IconChartHalfCircle,
+    default: () => chart_half_circle_default
+  });
+  var IconChartHalfCircle, chart_half_circle_default;
+  var init_chart_half_circle = __esm({
+    "lib/chart-half-circle.ts"() {
+      IconChartHalfCircle = `<svg id="ChartHalfCircle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,19c-14.91,0-27,12.09-27,27h18c0-4.97,4.03-9,9-9s9,4.03,9,9h18c0-14.91-12.09-27-27-27Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="42.36" y1="39.64" x2="55.09" y2="26.91" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.64" y1="39.64" x2="16.91" y2="26.91" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="19" x2="36" y2="37" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,19c-14.91,0-27,12.09-27,27h18c0-4.97,4.03-9,9-9s9,4.03,9,9h18c0-14.91-12.09-27-27-27Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chart_half_circle_default = IconChartHalfCircle;
+    }
+  });
+
+  // lib/chart-line-squared.ts
+  var chart_line_squared_exports = {};
+  __export(chart_line_squared_exports, {
+    IconChartLineSquared: () => IconChartLineSquared,
+    default: () => chart_line_squared_default
+  });
+  var IconChartLineSquared, chart_line_squared_default;
+  var init_chart_line_squared = __esm({
+    "lib/chart-line-squared.ts"() {
+      IconChartLineSquared = `<svg id="ChartLineSquared" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 54 31.5 31.5 40.5 40.5 54 18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chart_line_squared_default = IconChartLineSquared;
+    }
+  });
+
+  // lib/chart-line.ts
+  var chart_line_exports = {};
+  __export(chart_line_exports, {
+    IconChartLine: () => IconChartLine,
+    default: () => chart_line_default
+  });
+  var IconChartLine, chart_line_default;
+  var init_chart_line = __esm({
+    "lib/chart-line.ts"() {
+      IconChartLine = `<svg id="ChartLine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,13.5v41c0,2.21,1.79,4,4,4h41" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="22.5 49.5 36 36 40.5 40.5 58.5 22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      chart_line_default = IconChartLine;
+    }
+  });
+
+  // lib/chart-pie.ts
+  var chart_pie_exports = {};
+  __export(chart_pie_exports, {
+    IconChartPie: () => IconChartPie,
+    default: () => chart_pie_default
+  });
+  var IconChartPie, chart_pie_default;
+  var init_chart_pie = __esm({
+    "lib/chart-pie.ts"() {
+      IconChartPie = `<svg id="ChartPie" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M31.5,9c-12.43,0-22.5,10.07-22.5,22.5h22.5V9Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.5,18v22.5h-22.5c0,12.43,10.07,22.5,22.5,22.5s22.5-10.07,22.5-22.5-10.07-22.5-22.5-22.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M31.5,9c-12.43,0-22.5,10.07-22.5,22.5h22.5V9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></svg>`;
+      chart_pie_default = IconChartPie;
     }
   });
 
@@ -5343,6 +5987,20 @@
     }
   });
 
+  // lib/edit-line-swirl.ts
+  var edit_line_swirl_exports = {};
+  __export(edit_line_swirl_exports, {
+    IconEditLineSwirl: () => IconEditLineSwirl,
+    default: () => edit_line_swirl_default
+  });
+  var IconEditLineSwirl, edit_line_swirl_default;
+  var init_edit_line_swirl = __esm({
+    "lib/edit-line-swirl.ts"() {
+      IconEditLineSwirl = `<svg id="EditLineSwirl" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,58.5l-.95-6.66c-.73-5.09-1.98-10.14-4.32-14.72-1.16-2.26-1.09-5.07.42-7.35l.51-.76c2.34-3.52,7.18-4.3,10.52-1.71l29.26,22.75c2.9,2.25,7.01,2,9.61-.6h0c2.56-2.56,2.85-6.61.68-9.51l-23.22-30.95" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M16.44,43.78l-2.94,14.72,14.72-2.94c.77-.15,1.49-.54,2.04-1.09l28.13-28.13c1.56-1.56,1.56-4.09,0-5.66l-7.07-7.07c-1.56-1.56-4.09-1.56-5.66,0l-28.13,28.13c-.56.56-.94,1.27-1.09,2.04Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="38.96" y1="20.32" x2="51.68" y2="33.04" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      edit_line_swirl_default = IconEditLineSwirl;
+    }
+  });
+
   // lib/edit-line.ts
   var edit_line_exports = {};
   __export(edit_line_exports, {
@@ -5506,7 +6164,7 @@
   var IconFileArchive, file_archive_default;
   var init_file_archive = __esm({
     "lib/file-archive.ts"() {
-      IconFileArchive = `<svg id="FileArchive" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="13.5" width="54" height="13.5" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M13.5,27v30.5c0,.55.45,1,1,1h43c.55,0,1-.45,1-1v-30.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="13.5" width="54" height="13.5" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,27v30.5c0,.55.45,1,1,1h43c.55,0,1-.45,1-1v-30.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="36" x2="45" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconFileArchive = `<svg id="FileArchive" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="13.5" width="54" height="13.5" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M13.5,27v30.5c0,.55.45,1,1,1h43c.55,0,1-.45,1-1v-30.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="13.5" width="54" height="13.5" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,27v30.5c0,.55.45,1,1,1h43c.55,0,1-.45,1-1v-30.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="36" x2="45" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       file_archive_default = IconFileArchive;
     }
   });
@@ -5940,7 +6598,7 @@
   var IconFileTrayStack, file_tray_stack_default;
   var init_file_tray_stack = __esm({
     "lib/file-tray-stack.ts"() {
-      IconFileTrayStack = `<svg id="FileTrayStack" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,27v34c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2V27l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,27v34c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2V27l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,27h20.25c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75h20.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,45h20.25c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75h20.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconFileTrayStack = `<svg id="FileTrayStack" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,27v34c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2V27l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,27h20.25c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75h20.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,45h20.25c0,3.73,3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75h20.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,27v34c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2V27l-8.41-12.61c-.37-.56-1-.89-1.66-.89H19.07c-.67,0-1.29.33-1.66.89l-8.41,12.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       file_tray_stack_default = IconFileTrayStack;
     }
   });
@@ -6603,20 +7261,6 @@
     }
   });
 
-  // lib/image.ts
-  var image_exports = {};
-  __export(image_exports, {
-    IconImage: () => IconImage,
-    default: () => image_default
-  });
-  var IconImage, image_default;
-  var init_image = __esm({
-    "lib/image.ts"() {
-      IconImage = `<svg id="Image" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="47.25" cy="24.75" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M9,49.5v11.5c0,1.1.9,2,2,2h50c1.1,0,2-.9,2-2v-16h-22.5l-13.5-18-18,22.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="9 49.5 27 27 54 63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="45" x2="63" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="47.25" cy="24.75" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="54" height="54" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      image_default = IconImage;
-    }
-  });
-
   // lib/info-fat.ts
   var info_fat_exports = {};
   __export(info_fat_exports, {
@@ -6729,6 +7373,216 @@
     }
   });
 
+  // lib/key-backspace.ts
+  var key_backspace_exports = {};
+  __export(key_backspace_exports, {
+    IconKeyBackspace: () => IconKeyBackspace,
+    default: () => key_backspace_default
+  });
+  var IconKeyBackspace, key_backspace_default;
+  var init_key_backspace = __esm({
+    "lib/key-backspace.ts"() {
+      IconKeyBackspace = `<svg id="KeyBackspace" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M4.5,36l17.41-17.41c.38-.38.88-.59,1.41-.59h37.67c1.1,0,2,.9,2,2v32c0,1.1-.9,2-2,2H23.33c-.53,0-1.04-.21-1.41-.59L4.5,36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="27" x2="49.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="27" x2="31.5" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_backspace_default = IconKeyBackspace;
+    }
+  });
+
+  // lib/key-delete.ts
+  var key_delete_exports = {};
+  __export(key_delete_exports, {
+    IconKeyDelete: () => IconKeyDelete,
+    default: () => key_delete_default
+  });
+  var IconKeyDelete, key_delete_default;
+  var init_key_delete = __esm({
+    "lib/key-delete.ts"() {
+      IconKeyDelete = `<svg id="KeyDelete" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="18" width="35.17" height="36" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="26.17" y1="27" x2="44.17" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="44.17" y1="27" x2="26.17" y2="45" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_delete_default = IconKeyDelete;
+    }
+  });
+
+  // lib/key-down.ts
+  var key_down_exports = {};
+  __export(key_down_exports, {
+    IconKeyDown: () => IconKeyDown,
+    default: () => key_down_default
+  });
+  var IconKeyDown, key_down_default;
+  var init_key_down = __esm({
+    "lib/key-down.ts"() {
+      IconKeyDown = `<svg id="KeyDown" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="49.5 40.5 36 54 22.5 40.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="18" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_down_default = IconKeyDown;
+    }
+  });
+
+  // lib/key-eject.ts
+  var key_eject_exports = {};
+  __export(key_eject_exports, {
+    IconKeyEject: () => IconKeyEject,
+    default: () => key_eject_default
+  });
+  var IconKeyEject, key_eject_default;
+  var init_key_eject = __esm({
+    "lib/key-eject.ts"() {
+      IconKeyEject = `<svg id="KeyEject" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,36h20.09c.89,0,1.34-1.08.71-1.71l-20.79-20.79-20.79,20.79c-.63.63-.18,1.71.71,1.71h20.09Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M14,45h44v7c0,1.1-.9,2-2,2H16c-1.1,0-2-.9-2-2v-7h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_eject_default = IconKeyEject;
+    }
+  });
+
+  // lib/key-enter.ts
+  var key_enter_exports = {};
+  __export(key_enter_exports, {
+    IconKeyEnter: () => IconKeyEnter,
+    default: () => key_enter_default
+  });
+  var IconKeyEnter, key_enter_default;
+  var init_key_enter = __esm({
+    "lib/key-enter.ts"() {
+      IconKeyEnter = `<svg id="KeyEnter" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 40.5 13.5 49.5 22.5 58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,49.5h41c2.21,0,4-1.79,4-4v-19c0-2.21-1.79-4-4-4h-9.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_enter_default = IconKeyEnter;
+    }
+  });
+
+  // lib/key-function.ts
+  var key_function_exports = {};
+  __export(key_function_exports, {
+    IconKeyFunction: () => IconKeyFunction,
+    default: () => key_function_default
+  });
+  var IconKeyFunction, key_function_default;
+  var init_key_function = __esm({
+    "lib/key-function.ts"() {
+      IconKeyFunction = `<svg id="KeyFunction" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M31.5,18h-1c-4.42,0-8,3.58-8,8v28" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="54" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,54v-13.5c0-4.97-4.03-9-9-9s-9,4.03-9,9" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="31.5" x2="27" y2="31.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_function_default = IconKeyFunction;
+    }
+  });
+
+  // lib/key-mac-command.ts
+  var key_mac_command_exports = {};
+  __export(key_mac_command_exports, {
+    IconKeyMacCommand: () => IconKeyMacCommand,
+    default: () => key_mac_command_default
+  });
+  var IconKeyMacCommand, key_mac_command_default;
+  var init_key_mac_command = __esm({
+    "lib/key-mac-command.ts"() {
+      IconKeyMacCommand = `<svg id="KeyMacCommand" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,9c-4.97,0-9,4.03-9,9s4.03,9,9,9h9v-9c0-4.97-4.03-9-9-9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,18c0-4.97-4.03-9-9-9s-9,4.03-9,9v9h9c4.97,0,9-4.03,9-9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,63c4.97,0,9-4.03,9-9s-4.03-9-9-9h-9v9c0,4.97,4.03,9,9,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M9,54c0,4.97,4.03,9,9,9s9-4.03,9-9v-9h-9c-4.97,0-9,4.03-9,9Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="27" y="27" width="18" height="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_mac_command_default = IconKeyMacCommand;
+    }
+  });
+
+  // lib/key-option.ts
+  var key_option_exports = {};
+  __export(key_option_exports, {
+    IconKeyOption: () => IconKeyOption,
+    default: () => key_option_default
+  });
+  var IconKeyOption, key_option_default;
+  var init_key_option = __esm({
+    "lib/key-option.ts"() {
+      IconKeyOption = `<svg id="KeyOption" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="4.5 27 18 27 31.5 49.5 63 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="27" x2="31.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_option_default = IconKeyOption;
+    }
+  });
+
+  // lib/key-page-down.ts
+  var key_page_down_exports = {};
+  __export(key_page_down_exports, {
+    IconKeyPageDown: () => IconKeyPageDown,
+    default: () => key_page_down_default
+  });
+  var IconKeyPageDown, key_page_down_default;
+  var init_key_page_down = __esm({
+    "lib/key-page-down.ts"() {
+      IconKeyPageDown = `<svg id="KeyPageDown" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="49.5 36 36 49.5 22.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="58.5" x2="22.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="13.5" x2="36" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_page_down_default = IconKeyPageDown;
+    }
+  });
+
+  // lib/key-page-next.ts
+  var key_page_next_exports = {};
+  __export(key_page_next_exports, {
+    IconKeyPageNext: () => IconKeyPageNext,
+    default: () => key_page_next_default
+  });
+  var IconKeyPageNext, key_page_next_default;
+  var init_key_page_next = __esm({
+    "lib/key-page-next.ts"() {
+      IconKeyPageNext = `<svg id="KeyPageNext" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 22.5 49.5 36 36 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="22.5" x2="58.5" y2="49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_page_next_default = IconKeyPageNext;
+    }
+  });
+
+  // lib/key-page-up.ts
+  var key_page_up_exports = {};
+  __export(key_page_up_exports, {
+    IconKeyPageUp: () => IconKeyPageUp,
+    default: () => key_page_up_default
+  });
+  var IconKeyPageUp, key_page_up_default;
+  var init_key_page_up = __esm({
+    "lib/key-page-up.ts"() {
+      IconKeyPageUp = `<svg id="KeyPageUp" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 36 36 22.5 49.5 36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="13.5" x2="49.5" y2="13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_page_up_default = IconKeyPageUp;
+    }
+  });
+
+  // lib/key-previous-up.ts
+  var key_previous_up_exports = {};
+  __export(key_previous_up_exports, {
+    IconKeyPreviousUp: () => IconKeyPreviousUp,
+    default: () => key_previous_up_default
+  });
+  var IconKeyPreviousUp, key_previous_up_default;
+  var init_key_previous_up = __esm({
+    "lib/key-previous-up.ts"() {
+      IconKeyPreviousUp = `<svg id="KeyPreviousUp" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 49.5 36 36 49.5 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="27" x2="49.5" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_previous_up_default = IconKeyPreviousUp;
+    }
+  });
+
+  // lib/key-shift.ts
+  var key_shift_exports = {};
+  __export(key_shift_exports, {
+    IconKeyShift: () => IconKeyShift,
+    default: () => key_shift_default
+  });
+  var IconKeyShift, key_shift_default;
+  var init_key_shift = __esm({
+    "lib/key-shift.ts"() {
+      IconKeyShift = `<svg id="KeyShift" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M11.76,36h10.74v17c0,.55.45,1,1,1h25c.55,0,1-.45,1-1v-17h10.74c.94,0,1.36-1.17.64-1.77l-24.88-20.73-24.88,20.73c-.72.6-.3,1.77.64,1.77Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_shift_default = IconKeyShift;
+    }
+  });
+
+  // lib/key-tab.ts
+  var key_tab_exports = {};
+  __export(key_tab_exports, {
+    IconKeyTab: () => IconKeyTab,
+    default: () => key_tab_default
+  });
+  var IconKeyTab, key_tab_default;
+  var init_key_tab = __esm({
+    "lib/key-tab.ts"() {
+      IconKeyTab = `<svg id="KeyTab" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M11.76,31.5h10.74v9h27v-9h10.74c.94,0,1.36-1.17.64-1.77l-24.88-20.73L11.12,29.73c-.72.6-.3,1.77.64,1.77Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,49.5h27v7c0,1.1-.9,2-2,2h-23c-1.1,0-2-.9-2-2v-7h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_tab_default = IconKeyTab;
+    }
+  });
+
+  // lib/key-up.ts
+  var key_up_exports = {};
+  __export(key_up_exports, {
+    IconKeyUp: () => IconKeyUp,
+    default: () => key_up_default
+  });
+  var IconKeyUp, key_up_default;
+  var init_key_up = __esm({
+    "lib/key-up.ts"() {
+      IconKeyUp = `<svg id="KeyUp" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 31.5 36 18 49.5 31.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      key_up_default = IconKeyUp;
+    }
+  });
+
   // lib/lightning-flash.ts
   var lightning_flash_exports = {};
   __export(lightning_flash_exports, {
@@ -6771,6 +7625,62 @@
     }
   });
 
+  // lib/loader-dots2.ts
+  var loader_dots2_exports = {};
+  __export(loader_dots2_exports, {
+    IconLoaderDots2: () => IconLoaderDots2,
+    default: () => loader_dots2_default
+  });
+  var IconLoaderDots2, loader_dots2_default;
+  var init_loader_dots2 = __esm({
+    "lib/loader-dots2.ts"() {
+      IconLoaderDots2 = `<svg id="LoaderDots2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/><line x1="36" y1="54" x2="36" y2="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.25" y1="38.25" x2="20.25" y2="38.25" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.75" y1="38.25" x2="51.75" y2="38.25" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="24.86" y1="27.11" x2="24.86" y2="27.11" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.14" y1="49.39" x2="47.14" y2="49.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="24.86" y1="49.39" x2="24.86" y2="49.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.14" y1="27.11" x2="47.14" y2="27.11" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/></svg>`;
+      loader_dots2_default = IconLoaderDots2;
+    }
+  });
+
+  // lib/loader-dots.ts
+  var loader_dots_exports = {};
+  __export(loader_dots_exports, {
+    IconLoaderDots: () => IconLoaderDots,
+    default: () => loader_dots_default
+  });
+  var IconLoaderDots, loader_dots_default;
+  var init_loader_dots = __esm({
+    "lib/loader-dots.ts"() {
+      IconLoaderDots = `<svg id="LoaderDots" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="22.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-xl, calc(var(--icon-stroke-width, 5) * 3));"/><line x1="36" y1="54" x2="36" y2="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.25" y1="38.25" x2="20.25" y2="38.25" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="51.75" y1="38.25" x2="51.75" y2="38.25" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="24.86" y1="27.11" x2="24.86" y2="27.11" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/><line x1="47.14" y1="49.39" x2="47.14" y2="49.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="24.86" y1="49.39" x2="24.86" y2="49.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.14" y1="27.11" x2="47.14" y2="27.11" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px;"/></svg>`;
+      loader_dots_default = IconLoaderDots;
+    }
+  });
+
+  // lib/location-marker.ts
+  var location_marker_exports = {};
+  __export(location_marker_exports, {
+    IconLocationMarker: () => IconLocationMarker,
+    default: () => location_marker_default
+  });
+  var IconLocationMarker, location_marker_default;
+  var init_location_marker = __esm({
+    "lib/location-marker.ts"() {
+      IconLocationMarker = `<svg id="LocationMarker" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,9c-12.43,0-22.5,10.07-22.5,22.5,0,18,22.5,31.5,22.5,31.5,0,0,22.5-13.5,22.5-31.5,0-12.43-10.07-22.5-22.5-22.5ZM36,40.5c-4.97,0-9-4.03-9-9s4.03-9,9-9,9,4.03,9,9-4.03,9-9,9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,31.5c0,18-22.5,31.5-22.5,31.5,0,0-22.5-13.5-22.5-31.5,0-12.43,10.07-22.5,22.5-22.5s22.5,10.07,22.5,22.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="31.5" r="9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      location_marker_default = IconLocationMarker;
+    }
+  });
+
+  // lib/location-pin.ts
+  var location_pin_exports = {};
+  __export(location_pin_exports, {
+    IconLocationPin: () => IconLocationPin,
+    default: () => location_pin_default
+  });
+  var IconLocationPin, location_pin_default;
+  var init_location_pin = __esm({
+    "lib/location-pin.ts"() {
+      IconLocationPin = `<svg id="LocationPin" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="22.73" r="13.27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="36" y1="63" x2="36" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="35.77" cy="22.73" r="13.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      location_pin_default = IconLocationPin;
+    }
+  });
+
   // lib/male-simplified.ts
   var male_simplified_exports = {};
   __export(male_simplified_exports, {
@@ -6782,20 +7692,6 @@
     "lib/male-simplified.ts"() {
       IconMaleSimplified = `<svg id="MaleSimplified" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><circle cx="35.76" cy="22.5" r="9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M27,41.99c-4.61,10.09-4.3,18,9,18s14.2-8.21,9-18c-6.66-12.55-12.38-12.3-18,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><circle cx="35.76" cy="22.5" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,41.99c-4.61,10.09-4.3,18,9,18s14.2-8.21,9-18c-6.66-12.55-12.38-12.3-18,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
       male_simplified_default = IconMaleSimplified;
-    }
-  });
-
-  // lib/media.ts
-  var media_exports = {};
-  __export(media_exports, {
-    IconMedia: () => IconMedia,
-    default: () => media_default
-  });
-  var IconMedia, media_default;
-  var init_media = __esm({
-    "lib/media.ts"() {
-      IconMedia = `<svg id="Media" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="54" cy="18" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,45l-20.96-25.16c-.8-.96-2.27-.96-3.07,0l-5.96,7.16" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M21.94,40.12v9.76c0,.8.89,1.28,1.55.83l7.32-4.88c.59-.4.59-1.27,0-1.66l-7.32-4.88c-.66-.44-1.55.03-1.55.83Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="54" cy="18" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M21.94,40.12v9.76c0,.8.89,1.28,1.55.83l7.32-4.88c.59-.4.59-1.27,0-1.66l-7.32-4.88c-.66-.44-1.55.03-1.55.83Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="36" height="36" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M61,45h-16v-16c0-1.1-.9-2-2-2h-16V11c0-1.1.9-2,2-2h32c1.1,0,2,.9,2,2v32c0,1.1-.9,2-2,2Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      media_default = IconMedia;
     }
   });
 
@@ -7317,129 +8213,185 @@
     }
   });
 
-  // lib/playback-backward.ts
-  var playback_backward_exports = {};
-  __export(playback_backward_exports, {
-    IconPlaybackBackward: () => IconPlaybackBackward,
-    default: () => playback_backward_default
+  // lib/performance2.ts
+  var performance2_exports = {};
+  __export(performance2_exports, {
+    IconPerformance2: () => IconPerformance2,
+    default: () => performance2_default
   });
-  var IconPlaybackBackward, playback_backward_default;
-  var init_playback_backward = __esm({
-    "lib/playback-backward.ts"() {
-      IconPlaybackBackward = `<svg id="PlaybackBackward" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M53.73,55.99V16.8c0-.95-1.2-1.37-1.79-.62l-15.3,19.59c-.28.36-.28.87,0,1.23l15.3,19.59c.59.75,1.79.34,1.79-.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M35.45,55.17V16.01c0-.95-1.21-1.37-1.79-.61l-15.17,19.58c-.28.36-.28.86,0,1.23l15.17,19.58c.58.75,1.79.34,1.79-.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g></g><g><path d="M53.73,55.99V16.8c0-.95-1.2-1.37-1.79-.62l-15.3,19.59c-.28.36-.28.87,0,1.23l15.3,19.59c.59.75,1.79.34,1.79-.62Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M35.45,55.17V16.01c0-.95-1.21-1.37-1.79-.61l-15.17,19.58c-.28.36-.28.86,0,1.23l15.17,19.58c.58.75,1.79.34,1.79-.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      playback_backward_default = IconPlaybackBackward;
+  var IconPerformance2, performance2_default;
+  var init_performance2 = __esm({
+    "lib/performance2.ts"() {
+      IconPerformance2 = `<svg id="Performance2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M59.38,54c2.3-3.97,3.62-8.58,3.62-13.5,0-14.91-12.09-27-27-27s-27,12.09-27,27c0,4.92,1.32,9.53,3.62,13.5h46.76Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.2,38.4l-4.2-29.4-4.2,29.4c-.19,1.32.26,2.66,1.2,3.6h0c1.66,1.66,4.34,1.66,6,0h0c.94-.94,1.39-2.28,1.2-3.6Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M27.6,14.83c-10.8,3.53-18.6,13.69-18.6,25.67,0,4.92,1.32,9.53,3.62,13.5h46.76c2.3-3.97,3.62-8.58,3.62-13.5,0-11.98-7.8-22.14-18.6-25.67" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.2,38.4l-4.2-29.4-4.2,29.4c-.19,1.32.26,2.66,1.2,3.6h0c1.66,1.66,4.34,1.66,6,0h0c.94-.94,1.39-2.28,1.2-3.6Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="67.5" y1="40.5" x2="58.5" y2="40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="40.5" x2="4.5" y2="40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="18.23" x2="20.09" y2="24.59" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.27" y1="18.23" x2="51.91" y2="24.59" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      performance2_default = IconPerformance2;
     }
   });
 
-  // lib/playback-end.ts
-  var playback_end_exports = {};
-  __export(playback_end_exports, {
-    IconPlaybackEnd: () => IconPlaybackEnd,
-    default: () => playback_end_default
+  // lib/performance.ts
+  var performance_exports = {};
+  __export(performance_exports, {
+    IconPerformance: () => IconPerformance,
+    default: () => performance_default
   });
-  var IconPlaybackEnd, playback_end_default;
-  var init_playback_end = __esm({
-    "lib/playback-end.ts"() {
-      IconPlaybackEnd = `<svg id="PlaybackEnd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M18.28,16.84v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M31.93,17.65v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: red; stroke-width: 0px;"/></g><g><g><path d="M18.28,16.84v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M31.93,17.65v37.51c0,1.02,1.36,1.39,1.87.5l10.79-18.76c.18-.31.18-.69,0-1l-10.79-18.76c-.51-.89-1.87-.53-1.87.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      playback_end_default = IconPlaybackEnd;
+  var IconPerformance, performance_default;
+  var init_performance = __esm({
+    "lib/performance.ts"() {
+      IconPerformance = `<svg id="Performance" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M59.38,54c2.3-3.97,3.62-8.58,3.62-13.5,0-14.91-12.09-27-27-27s-27,12.09-27,27c0,4.92,1.32,9.53,3.62,13.5h46.76Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.2,38.4l-4.2-29.4-4.2,29.4c-.19,1.32.26,2.66,1.2,3.6h0c1.66,1.66,4.34,1.66,6,0h0c.94-.94,1.39-2.28,1.2-3.6Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M27.6,14.83c-10.8,3.53-18.6,13.69-18.6,25.67,0,4.92,1.32,9.53,3.62,13.5h46.76c2.3-3.97,3.62-8.58,3.62-13.5,0-11.98-7.8-22.14-18.6-25.67" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.2,38.4l-4.2-29.4-4.2,29.4c-.19,1.32.26,2.66,1.2,3.6h0c1.66,1.66,4.34,1.66,6,0h0c.94-.94,1.39-2.28,1.2-3.6Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      performance_default = IconPerformance;
     }
   });
 
-  // lib/playback-forward.ts
-  var playback_forward_exports = {};
-  __export(playback_forward_exports, {
-    IconPlaybackForward: () => IconPlaybackForward,
-    default: () => playback_forward_default
+  // lib/pin-tilted.ts
+  var pin_tilted_exports = {};
+  __export(pin_tilted_exports, {
+    IconPinTilted: () => IconPinTilted,
+    default: () => pin_tilted_default
   });
-  var IconPlaybackForward, playback_forward_default;
-  var init_playback_forward = __esm({
-    "lib/playback-forward.ts"() {
-      IconPlaybackForward = `<svg id="PlaybackForward" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M18.27,16.01v39.19c0,.95,1.2,1.37,1.79.62l15.3-19.59c.28-.36.28-.87,0-1.23l-15.3-19.59c-.59-.75-1.79-.34-1.79.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M36.55,16.83v39.15c0,.95,1.21,1.37,1.79.61l15.17-19.58c.28-.36.28-.86,0-1.23l-15.17-19.58c-.58-.75-1.79-.34-1.79.61Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g></g><g><path d="M18.27,16.01v39.19c0,.95,1.2,1.37,1.79.62l15.3-19.59c.28-.36.28-.87,0-1.23l-15.3-19.59c-.59-.75-1.79-.34-1.79.62Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36.55,16.83v39.15c0,.95,1.21,1.37,1.79.61l15.17-19.58c.28-.36.28-.86,0-1.23l-15.17-19.58c-.58-.75-1.79-.34-1.79.61Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      playback_forward_default = IconPlaybackForward;
+  var IconPinTilted, pin_tilted_default;
+  var init_pin_tilted = __esm({
+    "lib/pin-tilted.ts"() {
+      IconPinTilted = `<svg id="PinTilted" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M43.73,37.82l12.73-12.73-9.55-9.55-12.73,12.73c-5.55-1.97-11.97-.75-16.41,3.69l22.27,22.27c4.44-4.44,5.66-10.87,3.69-16.41Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><line x1="29.41" y1="42.59" x2="13.5" y2="58.5" style="fill: white; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="42.14" y1="10.77" x2="61.23" y2="29.86" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M43.73,37.82l12.73-12.73-9.55-9.55-12.73,12.73c-5.55-1.97-11.97-.75-16.41,3.69l22.27,22.27c4.44-4.44,5.66-10.87,3.69-16.41Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      pin_tilted_default = IconPinTilted;
     }
   });
 
-  // lib/playback-next.ts
-  var playback_next_exports = {};
-  __export(playback_next_exports, {
-    IconPlaybackNext: () => IconPlaybackNext,
-    default: () => playback_next_default
+  // lib/pin.ts
+  var pin_exports = {};
+  __export(pin_exports, {
+    IconPin: () => IconPin,
+    default: () => pin_default
   });
-  var IconPlaybackNext, playback_next_default;
-  var init_playback_next = __esm({
-    "lib/playback-next.ts"() {
-      IconPlaybackNext = `<svg id="PlaybackNext" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M22.5,16.33v40.15c0,.89,1.08,1.34,1.71.71l19.96-20.08c.39-.39.39-1.02,0-1.41L24.21,15.62c-.63-.63-1.71-.19-1.71.71Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M22.5,16.33v40.15c0,.89,1.08,1.34,1.71.71l19.96-20.08c.39-.39.39-1.02,0-1.41L24.21,15.62c-.63-.63-1.71-.19-1.71.71Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="44.72" y="18" width="9" height="36" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      playback_next_default = IconPlaybackNext;
+  var IconPin, pin_default;
+  var init_pin = __esm({
+    "lib/pin.ts"() {
+      IconPin = `<svg id="Pin" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M42.75,31.5V13.5h-13.5v18c-5.32,2.53-9,7.93-9,14.21h31.5c0-6.28-3.68-11.68-9-14.21Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><line x1="36" y1="45" x2="36" y2="67.5" style="fill: white; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="22.5" y1="13.5" x2="49.5" y2="13.5" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M42.75,31.5V13.5h-13.5v18c-5.32,2.53-9,7.93-9,14.21h31.5c0-6.28-3.68-11.68-9-14.21Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      pin_default = IconPin;
     }
   });
 
-  // lib/playback-pause.ts
-  var playback_pause_exports = {};
-  __export(playback_pause_exports, {
-    IconPlaybackPause: () => IconPlaybackPause,
-    default: () => playback_pause_default
+  // lib/pointer-arrow-line.ts
+  var pointer_arrow_line_exports = {};
+  __export(pointer_arrow_line_exports, {
+    IconPointerArrowLine: () => IconPointerArrowLine,
+    default: () => pointer_arrow_line_default
   });
-  var IconPlaybackPause, playback_pause_default;
-  var init_playback_pause = __esm({
-    "lib/playback-pause.ts"() {
-      IconPlaybackPause = `<svg id="PlaybackPause" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><rect x="45" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><rect x="13.5" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="45" y="13.5" width="13.5" height="45" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      playback_pause_default = IconPlaybackPause;
+  var IconPointerArrowLine, pointer_arrow_line_default;
+  var init_pointer_arrow_line = __esm({
+    "lib/pointer-arrow-line.ts"() {
+      IconPointerArrowLine = `<svg id="PointerArrowLine" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="13.5 13.5 36 63 45 45 63 36 13.5 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="45" y1="45" x2="13.5" y2="13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="45" x2="63" y2="36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="45" y1="45" x2="63" y2="36" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 13.5 36 63 45 45 63 36 13.5 13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_arrow_line_default = IconPointerArrowLine;
     }
   });
 
-  // lib/playback-play.ts
-  var playback_play_exports = {};
-  __export(playback_play_exports, {
-    IconPlaybackPlay: () => IconPlaybackPlay,
-    default: () => playback_play_default
+  // lib/pointer-arrow.ts
+  var pointer_arrow_exports = {};
+  __export(pointer_arrow_exports, {
+    IconPointerArrow: () => IconPointerArrow,
+    default: () => pointer_arrow_default
   });
-  var IconPlaybackPlay, playback_play_default;
-  var init_playback_play = __esm({
-    "lib/playback-play.ts"() {
-      IconPlaybackPlay = `<svg id="PlaybackPlay" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,15.3v41.39c0,.79.86,1.26,1.53.85l33.11-20.7c.63-.39.63-1.3,0-1.7L24.03,14.46c-.67-.42-1.53.06-1.53.85Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.5,15.3v41.39c0,.79.86,1.26,1.53.85l33.11-20.7c.63-.39.63-1.3,0-1.7L24.03,14.46c-.67-.42-1.53.06-1.53.85Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      playback_play_default = IconPlaybackPlay;
+  var IconPointerArrow, pointer_arrow_default;
+  var init_pointer_arrow = __esm({
+    "lib/pointer-arrow.ts"() {
+      IconPointerArrow = `<svg id="PointerArrow" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 13.5 31.5 63 40.5 45 58.5 36 9 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 13.5 31.5 63 40.5 45 58.5 36 9 13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_arrow_default = IconPointerArrow;
     }
   });
 
-  // lib/playback-previous.ts
-  var playback_previous_exports = {};
-  __export(playback_previous_exports, {
-    IconPlaybackPrevious: () => IconPlaybackPrevious,
-    default: () => playback_previous_default
+  // lib/pointer-cross.ts
+  var pointer_cross_exports = {};
+  __export(pointer_cross_exports, {
+    IconPointerCross: () => IconPointerCross,
+    default: () => pointer_cross_default
   });
-  var IconPlaybackPrevious, playback_previous_default;
-  var init_playback_previous = __esm({
-    "lib/playback-previous.ts"() {
-      IconPlaybackPrevious = `<svg id="PlaybackPrevious" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M49.5,55.67V15.52c0-.89-1.08-1.34-1.71-.71l-19.96,20.08c-.39.39-.39,1.02,0,1.41l19.96,20.08c.63.63,1.71.19,1.71-.71Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M49.5,55.67V15.52c0-.89-1.08-1.34-1.71-.71l-19.96,20.08c-.39.39-.39,1.02,0,1.41l19.96,20.08c.63.63,1.71.19,1.71-.71Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      playback_previous_default = IconPlaybackPrevious;
+  var IconPointerCross, pointer_cross_default;
+  var init_pointer_cross = __esm({
+    "lib/pointer-cross.ts"() {
+      IconPointerCross = `<svg id="PointerCross" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="9" x2="36" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="40.5" x2="36" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="36" x2="31.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="36" x2="63" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_cross_default = IconPointerCross;
     }
   });
 
-  // lib/playback-start.ts
-  var playback_start_exports = {};
-  __export(playback_start_exports, {
-    IconPlaybackStart: () => IconPlaybackStart,
-    default: () => playback_start_default
+  // lib/pointer-hand.ts
+  var pointer_hand_exports = {};
+  __export(pointer_hand_exports, {
+    IconPointerHand: () => IconPointerHand,
+    default: () => pointer_hand_default
   });
-  var IconPlaybackStart, playback_start_default;
-  var init_playback_start = __esm({
-    "lib/playback-start.ts"() {
-      IconPlaybackStart = `<svg id="PlaybackStart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><g style="opacity: .5;"></g><path d="M53.72,55.16V17.65c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M40.07,54.35V16.84c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: red; stroke-width: 0px;"/></g><g><g><path d="M53.72,55.16V17.65c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.07,54.35V16.84c0-1.02-1.36-1.39-1.87-.5l-10.79,18.76c-.18.31-.18.69,0,1l10.79,18.76c.51.89,1.87.53,1.87-.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><rect x="18.28" y="18" width="9" height="36" rx="1" ry="1" transform="translate(45.56 72) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
-      playback_start_default = IconPlaybackStart;
+  var IconPointerHand, pointer_hand_default;
+  var init_pointer_hand = __esm({
+    "lib/pointer-hand.ts"() {
+      IconPointerHand = `<svg id="PointerHand" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M54,36c-2.49,0-4.5,2.01-4.5,4.5h0v-4.5c0-2.49-2.01-4.5-4.5-4.5s-4.5,2.01-4.5,4.5v4.5-9c0-2.49-2.01-4.5-4.5-4.5s-4.5,2.01-4.5,4.5v9V13.5c0-2.49-2.01-4.5-4.5-4.5s-4.5,2.01-4.5,4.5v31.5l-9-9-4.5,4.15s4.5,13.85,18,27.35h22.5s9-9,9-22.5v-4.5c0-2.49-2.01-4.5-4.5-4.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M54,36c-2.49,0-4.5,2.01-4.5,4.5h0v-4.5c0-2.49-2.01-4.5-4.5-4.5s-4.5,2.01-4.5,4.5v4.5-9c0-2.49-2.01-4.5-4.5-4.5s-4.5,2.01-4.5,4.5v9V13.5c0-2.49-2.01-4.5-4.5-4.5s-4.5,2.01-4.5,4.5v31.5l-9-9-4.5,4.15s4.5,13.85,18,27.35h22.5s9-9,9-22.5v-4.5c0-2.49-2.01-4.5-4.5-4.5Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_hand_default = IconPointerHand;
     }
   });
 
-  // lib/playback-stop.ts
-  var playback_stop_exports = {};
-  __export(playback_stop_exports, {
-    IconPlaybackStop: () => IconPlaybackStop,
-    default: () => playback_stop_default
+  // lib/pointer-left.ts
+  var pointer_left_exports = {};
+  __export(pointer_left_exports, {
+    IconPointerLeft: () => IconPointerLeft,
+    default: () => pointer_left_default
   });
-  var IconPlaybackStop, playback_stop_default;
-  var init_playback_stop = __esm({
-    "lib/playback-stop.ts"() {
-      IconPlaybackStop = `<svg id="PlaybackStop" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.5" y="13.5" width="45" height="45" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="13.5" y="13.5" width="45" height="45" rx="1" ry="1" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      playback_stop_default = IconPlaybackStop;
+  var IconPointerLeft, pointer_left_default;
+  var init_pointer_left = __esm({
+    "lib/pointer-left.ts"() {
+      IconPointerLeft = `<svg id="PointerLeft" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="13.5 13.5 31.5 58.5 39 43.5 54 58.5 58.5 54 43.5 39 58.5 31.5 13.5 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="13.5 13.5 31.5 58.5 39 43.5 54 58.5 58.5 54 43.5 39 58.5 31.5 13.5 13.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_left_default = IconPointerLeft;
+    }
+  });
+
+  // lib/pointer-mouse.ts
+  var pointer_mouse_exports = {};
+  __export(pointer_mouse_exports, {
+    IconPointerMouse: () => IconPointerMouse,
+    default: () => pointer_mouse_default
+  });
+  var IconPointerMouse, pointer_mouse_default;
+  var init_pointer_mouse = __esm({
+    "lib/pointer-mouse.ts"() {
+      IconPointerMouse = `<svg id="PointerMouse" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,18c-8.13,0-14.73,6.59-14.73,14.73v15.55c0,8.13,6.59,14.73,14.73,14.73s14.73-6.59,14.73-14.73v-15.55c0-8.13-6.59-14.73-14.73-14.73Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,18c-8.13,0-14.73,6.59-14.73,14.73v15.55c0,8.13,6.59,14.73,14.73,14.73s14.73-6.59,14.73-14.73v-15.55c0-8.13-6.59-14.73-14.73-14.73Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_mouse_default = IconPointerMouse;
+    }
+  });
+
+  // lib/pointer-pen.ts
+  var pointer_pen_exports = {};
+  __export(pointer_pen_exports, {
+    IconPointerPen: () => IconPointerPen,
+    default: () => pointer_pen_default
+  });
+  var IconPointerPen, pointer_pen_default;
+  var init_pointer_pen = __esm({
+    "lib/pointer-pen.ts"() {
+      IconPointerPen = `<svg id="PointerPen" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,9l-15.55,27.21c-1.5,2.63-1.39,5.89.29,8.41l6.26,9.39h18l6.26-9.39c1.68-2.52,1.79-5.78.29-8.41l-15.55-27.21Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="36" y1="36" x2="36" y2="9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,9l-15.55,27.21c-1.5,2.63-1.39,5.89.29,8.41l6.26,9.39h18l6.26-9.39c1.68-2.52,1.79-5.78.29-8.41l-15.55-27.21Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,54h18v7c0,1.1-.9,2-2,2h-14c-1.1,0-2-.9-2-2v-7h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_pen_default = IconPointerPen;
+    }
+  });
+
+  // lib/pointer-target.ts
+  var pointer_target_exports = {};
+  __export(pointer_target_exports, {
+    IconPointerTarget: () => IconPointerTarget,
+    default: () => pointer_target_default
+  });
+  var IconPointerTarget, pointer_target_default;
+  var init_pointer_target = __esm({
+    "lib/pointer-target.ts"() {
+      IconPointerTarget = `<svg id="PointerTarget" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="36" r="22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="49.5" x2="36" y2="67.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="22.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="36" x2="67.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="36" x2="40.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_target_default = IconPointerTarget;
+    }
+  });
+
+  // lib/pointer-text.ts
+  var pointer_text_exports = {};
+  __export(pointer_text_exports, {
+    IconPointerText: () => IconPointerText,
+    default: () => pointer_text_default
+  });
+  var IconPointerText, pointer_text_default;
+  var init_pointer_text = __esm({
+    "lib/pointer-text.ts"() {
+      IconPointerText = `<svg id="PointerText" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,18c0-4.97-4.03-9-9-9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45,9c-4.97,0-9,4.03-9,9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,54c0,4.97,4.03,9,9,9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,63c4.97,0,9-4.03,9-9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="18" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="36" x2="40.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      pointer_text_default = IconPointerText;
     }
   });
 
@@ -7496,20 +8448,6 @@
     "lib/question-mark-s.ts"() {
       IconQuestionMarkS = `<svg id="QuestionMarkS" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="49.5" x2="36" y2="49.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30,33c0-3.31,2.69-6,6-6s6,2.69,6,6c0,6-6,6-6,12" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       question_mark_s_default = IconQuestionMarkS;
-    }
-  });
-
-  // lib/record.ts
-  var record_exports = {};
-  __export(record_exports, {
-    IconRecord: () => IconRecord,
-    default: () => record_default
-  });
-  var IconRecord, record_default;
-  var init_record = __esm({
-    "lib/record.ts"() {
-      IconRecord = `<svg id="Record" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></svg>`;
-      record_default = IconRecord;
     }
   });
 
@@ -7583,6 +8521,20 @@
     }
   });
 
+  // lib/section.ts
+  var section_exports = {};
+  __export(section_exports, {
+    IconSection: () => IconSection,
+    default: () => section_default
+  });
+  var IconSection, section_default;
+  var init_section = __esm({
+    "lib/section.ts"() {
+      IconSection = `<svg id="Section" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M54.5,13.5h-14v2.5c0,1.1-.9,2-2,2H13.5v36.5c0,2.21,1.79,4,4,4h37c2.21,0,4-1.79,4-4V17.5c0-2.21-1.79-4-4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M40.5,13.5h14c2.21,0,4,1.79,4,4v37c0,2.21-1.79,4-4,4H17.5c-2.21,0-4-1.79-4-4V18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="9" y="9" width="31.5" height="9" rx="2" ry="2" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      section_default = IconSection;
+    }
+  });
+
   // lib/settings2.ts
   var settings2_exports = {};
   __export(settings2_exports, {
@@ -7625,6 +8577,20 @@
     }
   });
 
+  // lib/settings5.ts
+  var settings5_exports = {};
+  __export(settings5_exports, {
+    IconSettings5: () => IconSettings5,
+    default: () => settings5_default
+  });
+  var IconSettings5, settings5_default;
+  var init_settings5 = __esm({
+    "lib/settings5.ts"() {
+      IconSettings5 = `<svg id="Settings5" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="9" y1="54" x2="63" y2="54" style="fill: none;  stroke-dasharray: 0 0 32 22; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><circle cx="51.75" cy="54" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="51.75" cy="54" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="9" y1="36" x2="63" y2="36" style="fill: none;  stroke-dasharray: 0 0 32 22; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><circle cx="51.75" cy="36" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="51.75" cy="36" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="9" y1="18" x2="63" y2="18" style="fill: none;  stroke-dasharray: 0 0 32 22; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><circle cx="51.75" cy="18" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="51.75" cy="18" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+      settings5_default = IconSettings5;
+    }
+  });
+
   // lib/settings.ts
   var settings_exports = {};
   __export(settings_exports, {
@@ -7636,6 +8602,20 @@
     "lib/settings.ts"() {
       IconSettings = `<svg id="Settings" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="20.25" cy="18" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="51.75" cy="36" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="33.75" cy="54" r="6.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="45" y1="36" x2="9" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="18" x2="27" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="18" x2="9" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="63" y1="54" x2="40.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="9" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="20.25" cy="18" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="51.75" cy="36" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="33.75" cy="54" r="6.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       settings_default = IconSettings;
+    }
+  });
+
+  // lib/simple-sun.ts
+  var simple_sun_exports = {};
+  __export(simple_sun_exports, {
+    IconSimpleSun: () => IconSimpleSun,
+    default: () => simple_sun_default
+  });
+  var IconSimpleSun, simple_sun_default;
+  var init_simple_sun = __esm({
+    "lib/simple-sun.ts"() {
+      IconSimpleSun = `<svg id="SimpleSun" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="49.5" x2="36" y2="67.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="4.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="36" x2="67.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="4.5" y1="36" x2="22.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45.55" y1="45.55" x2="58.27" y2="58.27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="13.73" x2="26.45" y2="26.45" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45.55" y1="26.45" x2="58.27" y2="13.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.73" y1="58.27" x2="26.45" y2="45.55" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      simple_sun_default = IconSimpleSun;
     }
   });
 
@@ -7930,6 +8910,20 @@
     "lib/squared.ts"() {
       IconSquared = `<svg id="Squared" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       squared_default = IconSquared;
+    }
+  });
+
+  // lib/stamp.ts
+  var stamp_exports = {};
+  __export(stamp_exports, {
+    IconStamp: () => IconStamp,
+    default: () => stamp_default
+  });
+  var IconStamp, stamp_default;
+  var init_stamp = __esm({
+    "lib/stamp.ts"() {
+      IconStamp = `<svg id="Stamp" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M30.37,39.91c-.16,1.75-.55,3.49-1.25,5.09h13.74c-.06-.14-.13-.28-.2-.41-2-4.51-1.42-9.87,1.67-13.71,1.47-1.83,2.35-4.16,2.35-6.69,0-6.32-5.48-11.35-11.94-10.62-4.77.54-8.67,4.33-9.33,9.09-.42,3,.42,5.81,2.06,7.97,2.03,2.68,3.19,5.94,2.89,9.28Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="18 54 18 49.5 29.12 45 42.86 45 54 49.5 54 54 18 54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30.37,39.91c-.16,1.75-.55,3.49-1.25,5.09h13.74c-.06-.14-.13-.28-.2-.41-2-4.51-1.42-9.87,1.67-13.71,1.47-1.83,2.35-4.16,2.35-6.69,0-6.32-5.48-11.35-11.94-10.62-4.77.54-8.67,4.33-9.33,9.09-.42,3,.42,5.81,2.06,7.97,2.03,2.68,3.19,5.94,2.89,9.28Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      stamp_default = IconStamp;
     }
   });
 
@@ -8698,7 +9692,7 @@
   var IconTrash2, trash2_default;
   var init_trash2 = __esm({
     "lib/trash2.ts"() {
-      IconTrash2 = `<svg id="Trash2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,18v36.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18,18v36.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="29.25 18 29.25 9 42.75 9 42.75 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconTrash2 = `<svg id="Trash2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="29.25 18 29.25 9 42.75 9 42.75 18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,18v36.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18,18v36.5c0,2.21,1.79,4,4,4h28c2.21,0,4-1.79,4-4V18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       trash2_default = IconTrash2;
     }
   });
@@ -8712,7 +9706,7 @@
   var IconTrash, trash_default;
   var init_trash = __esm({
     "lib/trash.ts"() {
-      IconTrash = `<svg id="Trash" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,18v38.5c0,1.1.9,2,2,2h32c1.1,0,2-.9,2-2V18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18,18v38.5c0,1.1.9,2,2,2h32c1.1,0,2-.9,2-2V18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="51.81" x2="36" y2="29.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="51.81" x2="27" y2="29.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="51.81" x2="45" y2="29.31" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="29.25 18 29.25 9 42.75 9 42.75 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconTrash = `<svg id="Trash" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="29.25 18 29.25 9 42.75 9 42.75 18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,18v38.5c0,1.1.9,2,2,2h32c1.1,0,2-.9,2-2V18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M18,18v38.5c0,1.1.9,2,2,2h32c1.1,0,2-.9,2-2V18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="51.81" x2="36" y2="29.31" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="51.81" x2="27" y2="29.31" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="51.81" x2="45" y2="29.31" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="18" x2="58.5" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       trash_default = IconTrash;
     }
   });
@@ -8899,76 +9893,6 @@
     }
   });
 
-  // lib/volume-i.ts
-  var volume_i_exports = {};
-  __export(volume_i_exports, {
-    IconVolumeI: () => IconVolumeI,
-    default: () => volume_i_default
-  });
-  var IconVolumeI, volume_i_default;
-  var init_volume_i = __esm({
-    "lib/volume-i.ts"() {
-      IconVolumeI = `<svg id="VolumeI" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 26.96 9 44.96 18 44.96 31.5 53.96 31.5 17.96 18 26.96 9 26.96" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 26.96 9 44.96 18 44.96 31.5 53.96 31.5 17.96 18 26.96 9 26.96" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.27c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.16c5.08,4.69,8.37,11.31,8.66,18.76s-2.45,14.32-7.14,19.39" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.55c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      volume_i_default = IconVolumeI;
-    }
-  });
-
-  // lib/volume-ii.ts
-  var volume_ii_exports = {};
-  __export(volume_ii_exports, {
-    IconVolumeIi: () => IconVolumeIi,
-    default: () => volume_ii_default
-  });
-  var IconVolumeIi, volume_ii_default;
-  var init_volume_ii = __esm({
-    "lib/volume-ii.ts"() {
-      IconVolumeIi = `<svg id="VolumeIi" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.32c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.2c5.08,4.69,8.37,11.31,8.66,18.76.3,7.45-2.45,14.32-7.14,19.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.59c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      volume_ii_default = IconVolumeIi;
-    }
-  });
-
-  // lib/volume-iii.ts
-  var volume_iii_exports = {};
-  __export(volume_iii_exports, {
-    IconVolumeIii: () => IconVolumeIii,
-    default: () => volume_iii_default
-  });
-  var IconVolumeIii, volume_iii_default;
-  var init_volume_iii = __esm({
-    "lib/volume-iii.ts"() {
-      IconVolumeIii = `<svg id="VolumeIii" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.32c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.2c5.08,4.69,8.37,11.31,8.66,18.76.3,7.45-2.45,14.32-7.14,19.39" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.59c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      volume_iii_default = IconVolumeIii;
-    }
-  });
-
-  // lib/volume-mute.ts
-  var volume_mute_exports = {};
-  __export(volume_mute_exports, {
-    IconVolumeMute: () => IconVolumeMute,
-    default: () => volume_mute_default
-  });
-  var IconVolumeMute, volume_mute_default;
-  var init_volume_mute = __esm({
-    "lib/volume-mute.ts"() {
-      IconVolumeMute = `<svg id="VolumeMute" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="22.5 27 22.5 45 31.5 45 45 54 45 18 31.5 27 22.5 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="22.5 27 22.5 45 31.5 45 45 54 45 18 31.5 27 22.5 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="13.5" y2="63" style="fill: white; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      volume_mute_default = IconVolumeMute;
-    }
-  });
-
-  // lib/volume-off.ts
-  var volume_off_exports = {};
-  __export(volume_off_exports, {
-    IconVolumeOff: () => IconVolumeOff,
-    default: () => volume_off_default
-  });
-  var IconVolumeOff, volume_off_default;
-  var init_volume_off = __esm({
-    "lib/volume-off.ts"() {
-      IconVolumeOff = `<svg id="VolumeOff" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="9 27 9 45 18 45 31.5 54 31.5 18 18 27 9 27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.73,23.32c3.26,3.26,5.27,7.76,5.27,12.73s-2.01,9.47-5.27,12.73" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M45.31,16.2c5.08,4.69,8.37,11.31,8.66,18.76.3,7.45-2.45,14.32-7.14,19.39" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M51.42,9.59c6.77,6.25,11.16,15.08,11.55,25.01s-3.27,19.09-9.52,25.86" style="fill: none; stroke: var(--icon-stroke-invisible, transparent); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      volume_off_default = IconVolumeOff;
-    }
-  });
-
   // lib/wheelchair-action.ts
   var wheelchair_action_exports = {};
   __export(wheelchair_action_exports, {
@@ -8997,20 +9921,6 @@
     }
   });
 
-  // lib/icon27.ts
-  var icon27_exports = {};
-  __export(icon27_exports, {
-    IconIcon27: () => IconIcon27,
-    default: () => icon27_default
-  });
-  var IconIcon27, icon27_default;
-  var init_icon27 = __esm({
-    "lib/icon27.ts"() {
-      IconIcon27 = `<svg id="Icon27" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="63" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="15.75 42.75 22.5 49.5 29.25 42.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="27" x2="22.5" y2="49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="56.25 29.25 49.5 22.5 42.75 29.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="45" x2="49.5" y2="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-      icon27_default = IconIcon27;
-    }
-  });
-
   // lib/airplane-arrivals.ts
   var airplane_arrivals_exports = {};
   __export(airplane_arrivals_exports, {
@@ -9020,7 +9930,7 @@
   var IconAirplaneArrivals, airplane_arrivals_default;
   var init_airplane_arrivals = __esm({
     "lib/airplane-arrivals.ts"() {
-      IconAirplaneArrivals = `<svg id="AirplaneArrivals" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><path d="M15.78,49.17l12.09-18.05,16.63,6.89-24.82,13.67c-.27.15-.58.16-.87.05l-2.59-1.07c-.58-.24-.8-.96-.45-1.48Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M61.28,44.48c.69-2.25-.59-4.64-2.76-5.54L19.2,22.66l-4.35-6.49c-.11-.16-.27-.29-.45-.37l-2.38-.99c-.69-.28-1.43.25-1.38.99l-.04.46c-.64,7.21,3.47,14,10.16,16.77l34.49,14.29c2.43,1.01,5.24-.27,6.03-2.85Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M29.31,23.84l12.6,5.22-5.29-18.27c-.08-.29-.3-.53-.58-.65l-2.59-1.07c-.58-.24-1.24.11-1.36.73l-2.78,14.04Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g><line x1="31.5" y1="63.2" x2="63" y2="63.2" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconAirplaneArrivals = `<svg id="AirplaneArrivals" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M58.52,38.94L19.2,22.66l-4.35-6.49c-.11-.16-.27-.29-.45-.37l-2.38-.99c-.69-.29-1.43.25-1.38.99l-.04.46c-.64,7.21,3.47,14,10.16,16.77l4.56,1.89-9.54,14.24c-.35.52-.13,1.24.45,1.48l2.59,1.07c.28.12.6.1.87-.05l19.77-10.89,15.8,6.54c2.43,1.01,5.24-.27,6.03-2.85.69-2.25-.59-4.64-2.76-5.54Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M36.61,10.79c-.08-.29-.3-.53-.58-.65l-2.59-1.07c-.58-.24-1.24.11-1.36.73l-2.78,14.04,12.6,5.22-5.29-18.27Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><line x1="31.5" y1="63.2" x2="63" y2="63.2" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M16.23,50.65l2.59,1.07c.28.12.6.1.87-.05l19.77-10.89,15.8,6.54c2.43,1.01,5.24-.27,6.03-2.85.69-2.25-.59-4.64-2.76-5.54L19.2,22.66l-4.35-6.49c-.11-.16-.27-.29-.45-.37l-2.38-.99c-.69-.29-1.43.25-1.38.99l-.04.46c-.64,7.21,3.47,14,10.16,16.77l4.56,1.89-9.54,14.24c-.35.52-.13,1.24.45,1.48Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36.04,10.15l-2.59-1.07c-.58-.24-1.24.11-1.36.73l-2.78,14.04,12.6,5.22-5.29-18.27c-.08-.29-.3-.53-.58-.65Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
       airplane_arrivals_default = IconAirplaneArrivals;
     }
   });
@@ -9034,7 +9944,7 @@
   var IconAirplaneDepartures, airplane_departures_default;
   var init_airplane_departures = __esm({
     "lib/airplane-departures.ts"() {
-      IconAirplaneDepartures = `<svg id="AirplaneDepartures" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><path d="M35.09,53.19l-4.22-21.31,16.63-6.89-7.89,27.21c-.08.29-.3.53-.58.65l-2.59,1.07c-.58.24-1.24-.11-1.36-.73Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M63.95,17.7c-1.1-2.08-3.7-2.86-5.87-1.96l-39.32,16.29-7.66-1.52c-.19-.04-.39-.02-.58.06l-2.38.99c-.69.28-.83,1.19-.27,1.68l.3.36c4.64,5.55,12.35,7.45,19.04,4.68l34.49-14.29c2.43-1.01,3.51-3.9,2.25-6.28Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M26.75,25.72l12.6-5.22-16.66-9.18c-.27-.15-.58-.16-.87-.05l-2.59,1.07c-.58.24-.8.96-.45,1.48l7.96,11.89Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g><line x1="9" y1="63" x2="40.5" y2="63" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconAirplaneDepartures = `<svg id="AirplaneDepartures" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M63.95,17.7c-1.1-2.08-3.7-2.86-5.87-1.96l-39.32,16.29-7.66-1.52c-.19-.04-.39-.02-.58.06l-2.38.99c-.69.28-.83,1.19-.27,1.68l.3.36c4.64,5.55,12.35,7.45,19.04,4.68l4.56-1.89,3.33,16.81c.12.62.78.97,1.36.73l2.59-1.07c.28-.12.49-.35.58-.65l6.28-21.68,15.8-6.54c2.43-1.01,3.51-3.9,2.25-6.28Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M26.75,25.72l12.6-5.22-16.66-9.18c-.27-.15-.58-.16-.87-.05l-2.59,1.07c-.58.24-.8.96-.45,1.48l7.96,11.89Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><line x1="9" y1="63" x2="40.5" y2="63" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M8.17,33.59c4.64,5.55,12.35,7.45,19.04,4.68l4.56-1.89,3.33,16.81c.12.62.78.97,1.36.73l2.59-1.07c.28-.12.49-.35.58-.65l6.28-21.68,15.8-6.54c2.43-1.01,3.51-3.9,2.25-6.28-1.1-2.08-3.7-2.86-5.87-1.96l-39.32,16.29-7.66-1.52c-.19-.04-.39-.02-.58.06l-2.38.99c-.69.28-.83,1.19-.27,1.68l.3.36Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M26.75,25.72l12.6-5.22-16.66-9.18c-.27-.15-.58-.16-.87-.05l-2.59,1.07c-.58.24-.8.96-.45,1.48l7.96,11.89Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
       airplane_departures_default = IconAirplaneDepartures;
     }
   });
@@ -9048,7 +9958,7 @@
   var IconAirplane, airplane_default;
   var init_airplane = __esm({
     "lib/airplane.ts"() {
-      IconAirplane = `<svg id="Airplane" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M12.93,28.94l18.08,12.05,12.73-12.73-28.16-3.13c-.3-.03-.6.07-.82.29l-1.98,1.98c-.45.45-.37,1.19.15,1.54Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M43.06,59.07l-12.05-18.08,12.73-12.73,3.13,28.16c.03.3-.07.6-.29.82l-1.98,1.98c-.45.45-1.19.37-1.54-.15Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M9.88,49.39l1.12-1.12c.14-.14.32-.23.51-.27l16.32-3.83-3.83,16.32c-.04.19-.13.37-.27.51l-1.12,1.12c-.53.53-1.42.31-1.66-.39l-2.67-8.01-8.01-2.67c-.71-.24-.92-1.13-.39-1.66Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M53.28,25.08l-19.09,19.09c-1.76,1.76-14.15,11.3-15.91,9.55h0c-1.76-1.76,7.79-14.15,9.55-15.91l19.09-19.09c3.18-3.18,7.79-4.94,9.55-3.18h0c1.76,1.76,0,6.36-3.18,9.55Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></svg>`;
+      IconAirplane = `<svg id="Airplane" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M56.46,15.54c-1.76-1.76-6.36,0-9.55,3.18l-8.91,8.91-22.43-2.49c-.3-.03-.6.07-.82.29l-1.98,1.98c-.45.45-.37,1.19.15,1.54l14.29,9.53c-1.19,1.38-3.4,4.22-5.36,7.1l-10.36,2.43c-.19.04-.37.13-.51.27l-1.12,1.12c-.53.53-.31,1.42.39,1.66l8.01,2.67,2.67,8.01c.24.71,1.13.92,1.66.39l1.12-1.12c.14-.14.23-.32.27-.51l2.43-10.36c2.88-1.96,5.72-4.17,7.1-5.36l9.53,14.29c.35.52,1.09.6,1.54.15l1.98-1.98c.21-.21.32-.52.29-.82l-2.49-22.43,8.91-8.91c3.18-3.18,4.94-7.79,3.18-9.55Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M56.46,15.54c-1.76-1.76-6.36,0-9.55,3.18l-8.91,8.91-22.43-2.49c-.3-.03-.6.07-.82.29l-1.98,1.98c-.45.45-.37,1.19.15,1.54l14.29,9.53c-1.19,1.38-3.4,4.22-5.36,7.1l-10.36,2.43c-.19.04-.37.13-.51.27l-1.12,1.12c-.53.53-.31,1.42.39,1.66l8.01,2.67,2.67,8.01c.24.71,1.13.92,1.66.39l1.12-1.12c.14-.14.23-.32.27-.51l2.43-10.36c2.88-1.96,5.72-4.17,7.1-5.36l9.53,14.29c.35.52,1.09.6,1.54.15l1.98-1.98c.21-.21.32-.52.29-.82l-2.49-22.43,8.91-8.91c3.18-3.18,4.94-7.79,3.18-9.55Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       airplane_default = IconAirplane;
     }
   });
@@ -9062,7 +9972,7 @@
   var IconAirportConnectFlights, airport_connect_flights_default;
   var init_airport_connect_flights = __esm({
     "lib/airport-connect-flights.ts"() {
-      IconAirportConnectFlights = `<svg id="AirportConnectFlights" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="27" y1="36" x2="27" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="31.5" y1="36" x2="31.5" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="40.5" y1="36" x2="40.5" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="45" y1="36" x2="45" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><g><path d="M5.32,55.36l14.68-2.94v-12.4l-15.24,12.2c-.16.13-.26.33-.26.54v1.93c0,.43.4.76.82.68Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M34.68,55.36l-14.68-2.94v-12.4l15.24,12.2c.16.13.26.33.26.54v1.93c0,.43-.4.76-.82.68Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M13.8,66.81v-1.09c0-.14.04-.27.12-.38l6.09-9.82,6.09,9.82c.08.11.12.25.12.38v1.09c0,.51-.54.85-1,.62l-5.2-2.6-5.2,2.6c-.46.23-1-.1-1-.62Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M23.1,33.82v18.6c0,1.71-1.39,12.4-3.1,12.4h0c-1.71,0-3.1-10.69-3.1-12.4v-18.6c0-3.1,1.39-6.2,3.1-6.2h0c1.71,0,3.1,3.1,3.1,6.2Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g><g><path d="M37.32,32.24l14.68-2.94v-12.4l-15.24,12.2c-.16.13-.26.33-.26.54v1.93c0,.43.4.76.82.68Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M66.68,32.24l-14.68-2.94v-12.4l15.24,12.2c.16.13.26.33.26.54v1.93c0,.43-.4.76-.82.68Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M45.8,43.69v-1.09c0-.14.04-.27.12-.38l6.09-9.82,6.09,9.82c.08.11.12.25.12.38v1.09c0,.51-.54.85-1,.62l-5.2-2.6-5.2,2.6c-.46.23-1-.1-1-.62Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M55.1,10.7v18.6c0,1.71-1.39,12.4-3.1,12.4h0c-1.71,0-3.1-10.69-3.1-12.4V10.7c0-3.1,1.39-6.2,3.1-6.2h0c1.71,0,3.1,3.1,3.1,6.2Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g></svg>`;
+      IconAirportConnectFlights = `<svg id="AirportConnectFlights" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="27" y1="36" x2="27" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="31.5" y1="36" x2="31.5" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="40.5" y1="36" x2="40.5" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><line x1="45" y1="36" x2="45" y2="36" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-s, calc(var(--icon-stroke-width, 5) * 0.5));"/><g ><path d="M5.32,55.36l14.68-2.94v-12.4l-15.24,12.2c-.16.13-.26.33-.26.54v1.93c0,.43.4.76.82.68Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M34.68,55.36l-14.68-2.94v-12.4l15.24,12.2c.16.13.26.33.26.54v1.93c0,.43-.4.76-.82.68Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M13.8,66.81v-1.09c0-.14.04-.27.12-.38l6.09-9.82,6.09,9.82c.08.11.12.25.12.38v1.09c0,.51-.54.85-1,.62l-5.2-2.6-5.2,2.6c-.46.23-1-.1-1-.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M23.1,33.82v18.6c0,1.71-1.39,12.4-3.1,12.4h0c-1.71,0-3.1-10.69-3.1-12.4v-18.6c0-3.1,1.39-6.2,3.1-6.2h0c1.71,0,3.1,3.1,3.1,6.2Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g ><path d="M37.32,32.24l14.68-2.94v-12.4l-15.24,12.2c-.16.13-.26.33-.26.54v1.93c0,.43.4.76.82.68Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M66.68,32.24l-14.68-2.94v-12.4l15.24,12.2c.16.13.26.33.26.54v1.93c0,.43-.4.76-.82.68Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M45.8,43.69v-1.09c0-.14.04-.27.12-.38l6.09-9.82,6.09,9.82c.08.11.12.25.12.38v1.09c0,.51-.54.85-1,.62l-5.2-2.6-5.2,2.6c-.46.23-1-.1-1-.62Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M55.1,10.7v18.6c0,1.71-1.39,12.4-3.1,12.4h0c-1.71,0-3.1-10.69-3.1-12.4V10.7c0-3.1,1.39-6.2,3.1-6.2h0c1.71,0,3.1,3.1,3.1,6.2Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M23.1,42.5v-8.68c0-3.1-1.39-6.2-3.1-6.2s-3.1,3.1-3.1,6.2v8.68l-12.14,9.71c-.16.13-.26.33-.26.54v1.93c0,.43.4.76.82.68l11.61-2.32c.09,1.25.4,3.72.85,6.07l-3.86,6.23c-.08.11-.12.25-.12.38v1.09c0,.51.54.85,1,.62l5.2-2.6,5.2,2.6c.46.23,1-.1,1-.62v-1.09c0-.14-.04-.27-.12-.38l-3.86-6.23c.45-2.35.76-4.82.85-6.07l11.61,2.32c.43.09.82-.24.82-.68v-1.93c0-.21-.1-.41-.26-.54l-12.14-9.71Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M67.24,29.1l-12.14-9.72v-8.68c0-3.1-1.39-6.2-3.1-6.2h0c-1.71,0-3.1,3.1-3.1,6.2v8.68l-12.14,9.72c-.16.13-.26.33-.26.54v1.93c0,.43.4.76.82.68l11.61-2.32c.09,1.25.4,3.72.85,6.07l-3.86,6.23c-.08.11-.12.25-.12.38v1.09c0,.51.54.85,1,.62l5.2-2.6,5.2,2.6c.46.23,1-.1,1-.62v-1.09c0-.14-.04-.27-.12-.38l-3.86-6.23c.45-2.35.76-4.82.85-6.07l11.61,2.32c.43.09.82-.24.82-.68v-1.93c0-.21-.1-.41-.26-.54Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
       airport_connect_flights_default = IconAirportConnectFlights;
     }
   });
@@ -9104,7 +10014,7 @@
   var IconAnchor, anchor_default;
   var init_anchor = __esm({
     "lib/anchor.ts"() {
-      IconAnchor = `<svg id="Anchor" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="58.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="31.5" x2="40.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,40.5c0,8.7-8.06,15.75-18,15.75s-18-7.05-18-15.75" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="18" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="13.5 40.5 18 36 22.5 40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 40.5 54 36 58.5 40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconAnchor = `<svg id="Anchor" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="58.5" x2="36" y2="22.5" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="31.5" x2="40.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,40.5c0,8.7-8.06,15.75-18,15.75s-18-7.05-18-15.75" style="fill: none;  stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="18" r="4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="13.5 40.5 18 36 22.5 40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 40.5 54 36 58.5 40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: square; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       anchor_default = IconAnchor;
     }
   });
@@ -9188,7 +10098,7 @@
   var IconCross, cross_default;
   var init_cross = __esm({
     "lib/cross.ts"() {
-      IconCross = `<svg id="Cross" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 9 45 9 45 27 63 27 63 45 45 45 45 63 27 63 27 45 9 45 9 27 27 27 27 9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconCross = `<svg id="Cross" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 9 45 9 45 27 63 27 63 45 45 45 45 63 27 63 27 45 9 45 9 27 27 27 27 9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="27 9 45 9 45 27 63 27 63 45 45 45 45 63 27 63 27 45 9 45 9 27 27 27 27 9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       cross_default = IconCross;
     }
   });
@@ -9202,8 +10112,22 @@
   var IconCruiseship, cruiseship_default;
   var init_cruiseship = __esm({
     "lib/cruiseship.ts"() {
-      IconCruiseship = `<svg id="Cruiseship" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M4.5,58.5c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><path d="M31.62,30.85c2.84-.95,5.91-.96,8.75-.03l10.88,3.53c.73.24,1.44-.4,1.29-1.15l-2.48-12.4c-.09-.47-.5-.8-.98-.8h-26.16c-.48,0-.89.34-.98.8l-2.51,12.53c-.15.75.57,1.39,1.3,1.14l10.89-3.63Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M43.28,14.55l-1.67-3.34c-.68-1.36-2.06-2.21-3.58-2.21h-4.06c-1.51,0-2.9.86-3.58,2.21l-1.67,3.34c-.33.66.15,1.45.89,1.45h12.76c.74,0,1.23-.78.89-1.45Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M39.14,34.62c-2.03-.66-4.22-.65-6.25.02l-18.43,6.15c-.48.16-.76.65-.66,1.14l2.45,12.24c3.09.82,6.18,4.32,9.26,4.32,3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5c3.09,0,6.18-3.5,9.26-4.32l2.48-12.42c.1-.5-.19-.99-.67-1.15l-18.44-5.99Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g></svg>`;
+      IconCruiseship = `<svg id="Cruiseship" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M31.62,30.85c2.84-.95,5.91-.96,8.75-.03l10.88,3.53c.73.24,1.44-.4,1.29-1.15l-2.48-12.4c-.09-.47-.5-.8-.98-.8h-26.16c-.48,0-.89.34-.98.8l-2.51,12.53c-.15.75.57,1.39,1.3,1.14l10.89-3.63Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M43.28,14.55l-1.67-3.34c-.68-1.36-2.06-2.21-3.58-2.21h-4.06c-1.51,0-2.9.86-3.58,2.21l-1.67,3.34c-.33.66.15,1.45.89,1.45h12.76c.74,0,1.23-.78.89-1.45Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M39.14,34.62c-2.03-.66-4.22-.65-6.25.02l-18.43,6.15c-.48.16-.76.65-.66,1.14l2.45,12.24c3.09.82,6.18,4.32,9.26,4.32,3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5c3.09,0,6.18-3.5,9.26-4.32l2.48-12.42c.1-.5-.19-.99-.67-1.15l-18.44-5.99Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><path d="M31.62,30.85c2.84-.95,5.91-.96,8.75-.03l10.88,3.53c.73.24,1.44-.4,1.29-1.15l-2.48-12.4c-.09-.47-.5-.8-.98-.8h-26.16c-.48,0-.89.34-.98.8l-2.51,12.53c-.15.75.57,1.39,1.3,1.14l10.89-3.63Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M43.28,14.55l-1.67-3.34c-.68-1.36-2.06-2.21-3.58-2.21h-4.06c-1.51,0-2.9.86-3.58,2.21l-1.67,3.34c-.33.66.15,1.45.89,1.45h12.76c.74,0,1.23-.78.89-1.45Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.14,34.62c-2.03-.66-4.22-.65-6.25.02l-18.43,6.15c-.48.16-.76.65-.66,1.14l2.45,12.24c3.09.82,6.18,4.32,9.26,4.32,3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5c3.09,0,6.18-3.5,9.26-4.32l2.48-12.42c.1-.5-.19-.99-.67-1.15l-18.44-5.99Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><path d="M4.5,58.5c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       cruiseship_default = IconCruiseship;
+    }
+  });
+
+  // lib/elevator1.ts
+  var elevator1_exports = {};
+  __export(elevator1_exports, {
+    IconElevator1: () => IconElevator1,
+    default: () => elevator1_default
+  });
+  var IconElevator1, elevator1_default;
+  var init_elevator1 = __esm({
+    "lib/elevator1.ts"() {
+      IconElevator1 = `<svg id="Elevator1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="63" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="15.75 42.75 22.5 49.5 29.25 42.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="27" x2="22.5" y2="49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="56.25 29.25 49.5 22.5 42.75 29.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="45" x2="49.5" y2="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      elevator1_default = IconElevator1;
     }
   });
 
@@ -9216,7 +10140,7 @@
   var IconElevator2, elevator2_default;
   var init_elevator2 = __esm({
     "lib/elevator2.ts"() {
-      IconElevator2 = `<svg id="Elevator2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g ><path d="M31.5,41.5c0,3.73-3.02,10.12-6.75,10.12s-6.75-6.4-6.75-10.12,3.02-6.75,6.75-6.75,6.75,3.02,6.75,6.75Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><circle cx="24.75" cy="27.56" r="5.06" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><polyline points="54 31.5 47.25 24.75 40.5 31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="54 40.5 47.25 47.25 40.5 40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconElevator2 = `<svg id="Elevator2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g ><path d="M31.5,41.5c0,3.73-3.02,10.12-6.75,10.12s-6.75-6.4-6.75-10.12,3.02-6.75,6.75-6.75,6.75,3.02,6.75,6.75Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><circle cx="24.75" cy="27.56" r="5.06" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><polyline points="54 31.5 47.25 24.75 40.5 31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="54 40.5 47.25 47.25 40.5 40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       elevator2_default = IconElevator2;
     }
   });
@@ -9230,7 +10154,7 @@
   var IconElevator3, elevator3_default;
   var init_elevator3 = __esm({
     "lib/elevator3.ts"() {
-      IconElevator3 = `<svg id="Elevator3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="31.5" y1="22.5" x2="31.5" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,26.5v32h36V26.5c0-2.21-1.79-4-4-4h-28c-2.21,0-4,1.79-4,4Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 9 22.5 13.5 18 9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45 13.5 40.5 9 36 13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="27" x2="58.5" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="45" x2="58.5" y2="45" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconElevator3 = `<svg id="Elevator3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,26.5v32h36V26.5c0-2.21-1.79-4-4-4h-28c-2.21,0-4,1.79-4,4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="31.5" y1="22.5" x2="31.5" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,26.5v32h36V26.5c0-2.21-1.79-4-4-4h-28c-2.21,0-4,1.79-4,4Z" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 9 22.5 13.5 18 9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45 13.5 40.5 9 36 13.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="27" x2="58.5" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="58.5" y2="36" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="45" x2="58.5" y2="45" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       elevator3_default = IconElevator3;
     }
   });
@@ -9244,7 +10168,7 @@
   var IconElevator4, elevator4_default;
   var init_elevator4 = __esm({
     "lib/elevator4.ts"() {
-      IconElevator4 = `<svg id="Elevator4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="22.5 42.75 29.25 49.5 36 42.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.25" y1="27" x2="29.25" y2="49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 29.25 42.75 22.5 36 29.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="45" x2="42.75" y2="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconElevator4 = `<svg id="Elevator4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="22.5 42.75 29.25 49.5 36 42.75" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.25" y1="27" x2="29.25" y2="49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 29.25 42.75 22.5 36 29.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.75" y1="45" x2="42.75" y2="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       elevator4_default = IconElevator4;
     }
   });
@@ -9300,7 +10224,7 @@
   var IconFerry, ferry_default;
   var init_ferry = __esm({
     "lib/ferry.ts"() {
-      IconFerry = `<svg id="Ferry" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M4.5,58.5c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="22.5" y="22.5" width="27" height="9" rx=".5" ry=".5" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><rect x="31.5" y="13.5" width="9" height="4.5" rx=".5" ry=".5" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M17.08,28.37l-7.92,11.88c-.1.15-.11.34-.03.5l4.37,13.24,9,4.5v-8.5c0-.28.22-.5.5-.5h26c.28,0,.5.22.5.5v8.5l9-4.5,4.37-13.24c.08-.16.07-.35-.03-.5l-7.92-11.88c-.27-.41-.92-.22-.92.28v6.85c0,.28-.22.5-.5.5H18.5c-.28,0-.5-.22-.5-.5v-6.85c0-.49-.64-.69-.92-.28Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></svg>`;
+      IconFerry = `<svg id="Ferry" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M13.5,54l.33.16c.39-.1.78-.16,1.17-.16,2.5,0,5,2.29,7.5,3.6v-7.6c0-.28.22-.5.5-.5h26c.28,0,.5.22.5.5v7.6c2.5-1.31,5-3.6,7.5-3.6.39,0,.78.06,1.17.16l.33-.16,4.37-13.24c.08-.16.07-.35-.03-.5l-7.92-11.88c-.27-.41-.92-.22-.92.28v6.85c0,.28-.22.5-.5.5H18.5c-.28,0-.5-.22-.5-.5v-6.85c0-.49-.64-.69-.92-.28l-7.92,11.88c-.1.15-.11.34-.03.5l4.37,13.24Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g ><rect x="22.5" y="22.5" width="27" height="9" rx=".5" ry=".5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g ><rect x="31.5" y="13.5" width="9" height="4.5" rx=".5" ry=".5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><rect x="22.5" y="22.5" width="27" height="9" rx=".5" ry=".5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="31.5" y="13.5" width="9" height="4.5" rx=".5" ry=".5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,54l.33.16c.39-.1.78-.16,1.17-.16,2.5,0,5,2.29,7.5,3.6v-7.6c0-.28.22-.5.5-.5h26c.28,0,.5.22.5.5v7.6c2.5-1.31,5-3.6,7.5-3.6.39,0,.78.06,1.17.16l.33-.16,4.37-13.24c.08-.16.07-.35-.03-.5l-7.92-11.88c-.27-.41-.92-.22-.92.28v6.85c0,.28-.22.5-.5.5H18.5c-.28,0-.5-.22-.5-.5v-6.85c0-.49-.64-.69-.92-.28l-7.92,11.88c-.1.15-.11.34-.03.5l4.37,13.24Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M4.5,58.5c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       ferry_default = IconFerry;
     }
   });
@@ -9356,7 +10280,7 @@
   var IconGravestone2, gravestone2_default;
   var init_gravestone2 = __esm({
     "lib/gravestone2.ts"() {
-      IconGravestone2 = `<svg id="Gravestone2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><path d="M30.5,27h11c4.42,0,8,3.58,8,8v28h-27v-28c0-4.42,3.58-8,8-8Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="9" x2="36" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="27" y1="18" x2="45" y2="18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      IconGravestone2 = `<svg id="Gravestone2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M30.5,27h11c4.42,0,8,3.58,8,8v28h-27v-28c0-4.42,3.58-8,8-8Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="36" y1="9" x2="36" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="18" x2="45" y2="18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M30.5,27h11c4.42,0,8,3.58,8,8v28h-27v-28c0-4.42,3.58-8,8-8Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       gravestone2_default = IconGravestone2;
     }
   });
@@ -9370,7 +10294,7 @@
   var IconGravestone3, gravestone3_default;
   var init_gravestone3 = __esm({
     "lib/gravestone3.ts"() {
-      IconGravestone3 = `<svg id="Gravestone3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><polyline points="27 63 27 40.5 13.5 40.5 13.5 22.5 27 22.5 27 9 45 9 45 22.5 58.5 22.5 58.5 40.5 45 40.5 45 63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      IconGravestone3 = `<svg id="Gravestone3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="27 63 27 40.5 13.5 40.5 13.5 22.5 27 22.5 27 9 45 9 45 22.5 58.5 22.5 58.5 40.5 45 40.5 45 63" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="27 63 27 40.5 13.5 40.5 13.5 22.5 27 22.5 27 9 45 9 45 22.5 58.5 22.5 58.5 40.5 45 40.5 45 63" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       gravestone3_default = IconGravestone3;
     }
   });
@@ -9384,7 +10308,7 @@
   var IconGravestone, gravestone_default;
   var init_gravestone = __esm({
     "lib/gravestone.ts"() {
-      IconGravestone = `<svg id="Gravestone" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="58.5" x2="58.5" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><path d="M30.5,19h11c4.42,0,8,3.58,8,8v31.5h-27v-31.5c0-4.42,3.58-8,8-8Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      IconGravestone = `<svg id="Gravestone" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M30.5,19h11c4.42,0,8,3.58,8,8v31.5h-27v-31.5c0-4.42,3.58-8,8-8Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M30.5,19h11c4.42,0,8,3.58,8,8v31.5h-27v-31.5c0-4.42,3.58-8,8-8Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="58.5" x2="58.5" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       gravestone_default = IconGravestone;
     }
   });
@@ -9398,7 +10322,7 @@
   var IconLuggageBelt, luggage_belt_default;
   var init_luggage_belt = __esm({
     "lib/luggage-belt.ts"() {
-      IconLuggageBelt = `<svg id="LuggageBelt" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="27" width="36" height="22.5" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="36" height="22.5" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M21.38,27v-5c0-1.1.9-2,2-2h7.25c1.1,0,2,.9,2,2v5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="58.5" x2="9" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="58.5" x2="18" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="27" y1="58.5" x2="27" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="58.5" x2="36" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="45" y1="58.5" x2="45" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="54" y1="58.5" x2="54" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="63" y1="58.5" x2="63" y2="58.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      IconLuggageBelt = `<svg id="LuggageBelt" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="27" width="36" height="22.5" rx="2" ry="2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="27" width="36" height="22.5" rx="2" ry="2" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M21.38,27v-5c0-1.1.9-2,2-2h7.25c1.1,0,2,.9,2,2v5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="58.5" x2="9" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="58.5" x2="18" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="27" y1="58.5" x2="27" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="58.5" x2="36" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="45" y1="58.5" x2="45" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="54" y1="58.5" x2="54" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="63" y1="58.5" x2="63" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
       luggage_belt_default = IconLuggageBelt;
     }
   });
@@ -9482,7 +10406,7 @@
   var IconNoSmokingCircled, no_smoking_circled_default;
   var init_no_smoking_circled = __esm({
     "lib/no-smoking-circled.ts"() {
-      IconNoSmokingCircled = `<svg id="NoSmokingCircled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="22.5" y="31.5" width="31.5" height="9" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M18,28.8c0-3.15,6.3-9.45,15.75-3.15s15.75,0,15.75-3.15" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="31.5" x2="18" y2="40.5" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="16.91" y1="16.91" x2="55.09" y2="55.09" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconNoSmokingCircled = `<svg id="NoSmokingCircled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="22.5" y="31.5" width="31.5" height="9" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M18,28.8c0-3.15,6.3-9.45,15.75-3.15s15.75,0,15.75-3.15" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="31.5" x2="18" y2="40.5" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="16.91" y1="16.91" x2="55.09" y2="55.09" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       no_smoking_circled_default = IconNoSmokingCircled;
     }
   });
@@ -9496,8 +10420,92 @@
   var IconNoSmoking, no_smoking_default;
   var init_no_smoking = __esm({
     "lib/no-smoking.ts"() {
-      IconNoSmoking = `<svg id="NoSmoking" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="36" width="45" height="9" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M13.5,31.5c0-4.5,9-13.5,22.5-4.5s22.5,0,22.5-4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="13.5" y2="45" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="13.5" x2="58.5" y2="58.5" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconNoSmoking = `<svg id="NoSmoking" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="36" width="45" height="9" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M13.5,31.5c0-4.5,9-13.5,22.5-4.5s22.5,0,22.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="13.5" y2="45" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="13.5" x2="58.5" y2="58.5" style="fill: var(--icon-line-color, currentColor); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       no_smoking_default = IconNoSmoking;
+    }
+  });
+
+  // lib/palmtree-island-wave.ts
+  var palmtree_island_wave_exports = {};
+  __export(palmtree_island_wave_exports, {
+    IconPalmtreeIslandWave: () => IconPalmtreeIslandWave,
+    default: () => palmtree_island_wave_default
+  });
+  var IconPalmtreeIslandWave, palmtree_island_wave_default;
+  var init_palmtree_island_wave = __esm({
+    "lib/palmtree-island-wave.ts"() {
+      IconPalmtreeIslandWave = `<svg id="PalmtreeIslandWave" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,19.98c6.77,9.03,13.54,13.54,20.31,15.8,0-8.73-9.09-15.8-20.31-15.8s-20.31,7.07-20.31,15.8c4.51-2.26,15.8-6.77,20.31-15.8" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,19.98c-4.84-6.45-9.67-9.67-14.51-11.29,0,6.23,6.5,11.29,14.51,11.29s14.51-5.05,14.51-11.29c-3.22,1.61-11.29,4.84-14.51,11.29" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.51,31.26c0,6.23-4.51,11.29-4.51,11.29,0,0-4.51-5.05-4.51-11.29s4.51-11.29,4.51-11.29c0,0,4.51,5.05,4.51,11.29Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,19.98s-9,11.52-6.45,30.09" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,19.98c6.77,9.03,13.54,13.54,20.31,15.8,0-8.73-9.09-15.8-20.31-15.8s-20.31,7.07-20.31,15.8c4.51-2.26,15.8-6.77,20.31-15.8" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,19.98c-4.84-6.45-9.67-9.67-14.51-11.29,0,6.23,6.5,11.29,14.51,11.29s14.51-5.05,14.51-11.29c-3.22,1.61-11.29,4.84-14.51,11.29" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.51,31.26c0,6.23-4.51,11.29-4.51,11.29,0,0-4.51-5.05-4.51-11.29s4.51-11.29,4.51-11.29c0,0,4.51,5.05,4.51,11.29Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M15,58.5c3.5,0,7,4.5,10.5,4.5s7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5c.07,0,.15.01.22.02-3.08-5.25-11.42-9.02-21.22-9.02s-18.14,3.77-21.22,9.02c.08,0,.15-.02.22-.02Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M57,58.5c.07,0,.15.01.22.02-3.08-5.25-11.42-9.02-21.22-9.02s-18.14,3.77-21.22,9.02c.08,0,.15-.02.22-.02" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M4.5,63c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      palmtree_island_wave_default = IconPalmtreeIslandWave;
+    }
+  });
+
+  // lib/palmtree-island.ts
+  var palmtree_island_exports = {};
+  __export(palmtree_island_exports, {
+    IconPalmtreeIsland: () => IconPalmtreeIsland,
+    default: () => palmtree_island_default
+  });
+  var IconPalmtreeIsland, palmtree_island_default;
+  var init_palmtree_island = __esm({
+    "lib/palmtree-island.ts"() {
+      IconPalmtreeIsland = `<svg id="PalmtreeIsland" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,19.98s-13.5,16.02-4.5,34.02" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,63c0-4.97-10.07-9-22.5-9s-22.5,4.03-22.5,9h45Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M58.5,63c0-4.97-10.07-9-22.5-9s-22.5,4.03-22.5,9h45Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,19.98c6.77,9.03,13.54,13.54,20.31,15.8,0-8.73-9.09-15.8-20.31-15.8s-20.31,7.07-20.31,15.8c4.51-2.26,15.8-6.77,20.31-15.8" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,19.98c-4.84-6.45-9.67-9.67-14.51-11.29,0,6.23,6.5,11.29,14.51,11.29s14.51-5.05,14.51-11.29c-3.22,1.61-11.29,4.84-14.51,11.29" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M40.51,31.26c0,6.23-4.51,11.29-4.51,11.29,0,0-4.51-5.05-4.51-11.29s4.51-11.29,4.51-11.29c0,0,4.51,5.05,4.51,11.29Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,19.98c6.77,9.03,13.54,13.54,20.31,15.8,0-8.73-9.09-15.8-20.31-15.8s-20.31,7.07-20.31,15.8c4.51-2.26,15.8-6.77,20.31-15.8" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,19.98c-4.84-6.45-9.67-9.67-14.51-11.29,0,6.23,6.5,11.29,14.51,11.29s14.51-5.05,14.51-11.29c-3.22,1.61-11.29,4.84-14.51,11.29" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M40.51,31.26c0,6.23-4.51,11.29-4.51,11.29,0,0-4.51-5.05-4.51-11.29s4.51-11.29,4.51-11.29c0,0,4.51,5.05,4.51,11.29Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      palmtree_island_default = IconPalmtreeIsland;
+    }
+  });
+
+  // lib/palmtree.ts
+  var palmtree_exports = {};
+  __export(palmtree_exports, {
+    IconPalmtree: () => IconPalmtree,
+    default: () => palmtree_default
+  });
+  var IconPalmtree, palmtree_default;
+  var init_palmtree = __esm({
+    "lib/palmtree.ts"() {
+      IconPalmtree = `<svg id="Palmtree" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36,22.5c8.1,10.8,16.2,16.2,24.3,18.9,0-10.44-10.88-18.9-24.3-18.9s-24.3,8.46-24.3,18.9c5.4-2.7,18.9-8.1,24.3-18.9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,22.5c-5.79-7.71-11.57-11.57-17.36-13.5,0,7.46,7.77,13.5,17.36,13.5s17.36-6.04,17.36-13.5c-3.86,1.93-13.5,5.79-17.36,13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M41.4,36c0,7.46-5.4,13.5-5.4,13.5,0,0-5.4-6.04-5.4-13.5s5.4-13.5,5.4-13.5c0,0,5.4,6.04,5.4,13.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,22.5s-18,22.5-4.5,40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,22.5c8.1,10.8,16.2,16.2,24.3,18.9,0-10.44-10.88-18.9-24.3-18.9s-24.3,8.46-24.3,18.9c5.4-2.7,18.9-8.1,24.3-18.9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,22.5c-5.79-7.71-11.57-11.57-17.36-13.5,0,7.46,7.77,13.5,17.36,13.5s17.36-6.04,17.36-13.5c-3.86,1.93-13.5,5.79-17.36,13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M41.4,36c0,7.46-5.4,13.5-5.4,13.5,0,0-5.4-6.04-5.4-13.5s5.4-13.5,5.4-13.5c0,0,5.4,6.04,5.4,13.5Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      palmtree_default = IconPalmtree;
+    }
+  });
+
+  // lib/parasol-island-wave.ts
+  var parasol_island_wave_exports = {};
+  __export(parasol_island_wave_exports, {
+    IconParasolIslandWave: () => IconParasolIslandWave,
+    default: () => parasol_island_wave_default
+  });
+  var IconParasolIslandWave, parasol_island_wave_default;
+  var init_parasol_island_wave = __esm({
+    "lib/parasol-island-wave.ts"() {
+      IconParasolIslandWave = `<svg id="ParasolIslandWave" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M23.42,12.77c-11.48,4.76-16.93,17.92-12.18,29.4,0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c0,0,2.76-4.62,7.68-6.66s10.14-.72,10.14-.72c0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c-4.76-11.48-17.92-16.93-29.4-12.18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M40.94,29.87c-7.38-17.82-17.52-17.1-17.52-17.1,0,0-7.68,6.66-.3,24.48" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="30.8" y1="30.59" x2="36" y2="49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M23.42,12.77c-11.48,4.76-16.93,17.92-12.18,29.4,0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c0,0,2.76-4.62,7.68-6.66s10.14-.72,10.14-.72c0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c-4.76-11.48-17.92-16.93-29.4-12.18Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M15,58.5c3.5,0,7,4.5,10.5,4.5s7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5c.07,0,.15.01.22.02-3.08-5.25-11.42-9.02-21.22-9.02s-18.14,3.77-21.22,9.02c.08,0,.15-.02.22-.02Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M57,58.5c.07,0,.15.01.22.02-3.08-5.25-11.42-9.02-21.22-9.02s-18.14,3.77-21.22,9.02c.08,0,.15-.02.22-.02" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M4.5,63c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      parasol_island_wave_default = IconParasolIslandWave;
+    }
+  });
+
+  // lib/parasol-island.ts
+  var parasol_island_exports = {};
+  __export(parasol_island_exports, {
+    IconParasolIsland: () => IconParasolIsland,
+    default: () => parasol_island_default
+  });
+  var IconParasolIsland, parasol_island_default;
+  var init_parasol_island = __esm({
+    "lib/parasol-island.ts"() {
+      IconParasolIsland = `<svg id="ParasolIsland" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M26.06,12.77c-11.48,4.76-16.93,17.92-12.18,29.4,0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c0,0,2.76-4.62,7.68-6.66s10.14-.72,10.14-.72c0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c-4.76-11.48-17.92-16.93-29.4-12.18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M58.5,63c0-4.97-10.07-9-22.5-9s-22.5,4.03-22.5,9h45Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M43.58,29.87c-7.38-17.82-17.52-17.1-17.52-17.1,0,0-7.68,6.66-.3,24.48" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="33.44" y1="30.59" x2="43.14" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M26.06,12.77c-11.48,4.76-16.93,17.92-12.18,29.4,0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c0,0,2.76-4.62,7.68-6.66s10.14-.72,10.14-.72c0,0,1.43-4.07,4.71-5.43s7.17.51,7.17.51c-4.76-11.48-17.92-16.93-29.4-12.18Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M58.5,63c0-4.97-10.07-9-22.5-9s-22.5,4.03-22.5,9h45Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      parasol_island_default = IconParasolIsland;
+    }
+  });
+
+  // lib/parasol.ts
+  var parasol_exports = {};
+  __export(parasol_exports, {
+    IconParasol: () => IconParasol,
+    default: () => parasol_default
+  });
+  var IconParasol, parasol_default;
+  var init_parasol = __esm({
+    "lib/parasol.ts"() {
+      IconParasol = `<svg id="Parasol" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M36,13.5c-12.43,0-22.5,10.07-22.5,22.5,0,0,2.88-3.21,6.43-3.21s6.43,3.21,6.43,3.21c0,0,4.32-3.21,9.64-3.21s9.64,3.21,9.64,3.21c0,0,2.88-3.21,6.43-3.21s6.43,3.21,6.43,3.21c0-12.43-10.07-22.5-22.5-22.5Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M45.64,36c0-19.29-9.64-22.5-9.64-22.5,0,0-9.64,3.21-9.64,22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="32.79" x2="36" y2="63" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36,13.5c-12.43,0-22.5,10.07-22.5,22.5,0,0,2.88-3.21,6.43-3.21s6.43,3.21,6.43,3.21c0,0,4.32-3.21,9.64-3.21s9.64,3.21,9.64,3.21c0,0,2.88-3.21,6.43-3.21s6.43,3.21,6.43,3.21c0-12.43-10.07-22.5-22.5-22.5Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="63" x2="58.5" y2="63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      parasol_default = IconParasol;
     }
   });
 
@@ -9510,7 +10518,7 @@
   var IconPlaster, plaster_default;
   var init_plaster = __esm({
     "lib/plaster.ts"() {
-      IconPlaster = `<svg id="Plaster" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="16.91" y1="36" x2="36" y2="55.09" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="16.91" x2="55.09" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.64" y1="36" x2="29.64" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="29.64" x2="36" y2="29.64" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="42.36" x2="36" y2="42.36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.36" y1="36" x2="42.36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09s13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconPlaster = `<svg id="Plaster" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09s13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="16.91" y1="36" x2="36" y2="55.09" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="16.91" x2="55.09" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.64" y1="36" x2="29.64" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="29.64" x2="36" y2="29.64" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="42.36" x2="36" y2="42.36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.36" y1="36" x2="42.36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09s13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       plaster_default = IconPlaster;
     }
   });
@@ -9524,7 +10532,7 @@
   var IconPlasters, plasters_default;
   var init_plasters = __esm({
     "lib/plasters.ts"() {
-      IconPlasters = `<svg id="Plasters" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.73,32.82l25.46,25.46c5.27,5.27,13.82,5.27,19.09,0s5.27-13.82,0-19.09l-25.46-25.46c-5.27-5.27-13.82-5.27-19.09,0-5.27,5.27-5.27,13.82,0,19.09Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="16.91" y1="36" x2="36" y2="55.09" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="16.91" x2="55.09" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.64" y1="36" x2="29.64" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="29.64" x2="36" y2="29.64" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="42.36" x2="36" y2="42.36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.36" y1="36" x2="42.36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09,5.27,5.27,13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconPlasters = `<svg id="Plasters" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09,5.27,5.27,13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M13.73,32.82l25.46,25.46c5.27,5.27,13.82,5.27,19.09,0s5.27-13.82,0-19.09l-25.46-25.46c-5.27-5.27-13.82-5.27-19.09,0-5.27,5.27-5.27,13.82,0,19.09Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="16.91" y1="36" x2="36" y2="55.09" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="16.91" x2="55.09" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="29.64" y1="36" x2="29.64" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="29.64" x2="36" y2="29.64" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="42.36" x2="36" y2="42.36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="42.36" y1="36" x2="42.36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M39.18,13.73l-25.46,25.46c-5.27,5.27-5.27,13.82,0,19.09,5.27,5.27,13.82,5.27,19.09,0l25.46-25.46c5.27-5.27,5.27-13.82,0-19.09-5.27-5.27-13.82-5.27-19.09,0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       plasters_default = IconPlasters;
     }
   });
@@ -9552,7 +10560,7 @@
   var IconSecurityCamera2, security_camera2_default;
   var init_security_camera2 = __esm({
     "lib/security-camera2.ts"() {
-      IconSecurityCamera2 = `<svg id="SecurityCamera2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,58.5h7c1.1,0,2-.9,2-2v-16" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><rect x="14.21" y="25.64" width="40.5" height="18" rx="2" ry="2" transform="translate(34.58 -14.22) rotate(45)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.33" y1="52.14" x2="51.96" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><path d="M13.5,54v9c2.49,0,4.5-2.01,4.5-4.5s-2.01-4.5-4.5-4.5Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="27" x2="27" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconSecurityCamera2 = `<svg id="SecurityCamera2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="14.21" y="25.64" width="40.5" height="18" rx="2" ry="2" transform="translate(34.58 -14.22) rotate(45)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><line x1="58.33" y1="52.14" x2="51.96" y2="58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><path d="M18,58.5h7c1.1,0,2-.9,2-2v-16" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><rect x="14.21" y="25.64" width="40.5" height="18" rx="2" ry="2" transform="translate(34.58 -14.22) rotate(45)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.33" y1="52.14" x2="51.96" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><path d="M13.5,54v9c2.49,0,4.5-2.01,4.5-4.5s-2.01-4.5-4.5-4.5Z" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="27" x2="27" y2="27" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       security_camera2_default = IconSecurityCamera2;
     }
   });
@@ -9566,7 +10574,7 @@
   var IconSecurityCamera3, security_camera3_default;
   var init_security_camera3 = __esm({
     "lib/security-camera3.ts"() {
-      IconSecurityCamera3 = `<svg id="SecurityCamera3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="45" r="9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,31.5v4.5c0,9.94,8.06,18,18,18s18-8.06,18-18v-4.5H18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,18h45v11.5c0,1.1-.9,2-2,2H15.5c-1.1,0-2-.9-2-2v-11.5h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="45" x2="36" y2="45" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconSecurityCamera3 = `<svg id="SecurityCamera3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,31.5v4.5c0,9.94,8.06,18,18,18s18-8.06,18-18v-4.5H18Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><circle cx="36" cy="45" r="9" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,31.5v4.5c0,9.94,8.06,18,18,18s18-8.06,18-18v-4.5H18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M13.5,18h45v11.5c0,1.1-.9,2-2,2H15.5c-1.1,0-2-.9-2-2v-11.5h0Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="45" x2="36" y2="45" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       security_camera3_default = IconSecurityCamera3;
     }
   });
@@ -9580,7 +10588,7 @@
   var IconSecurityCamera, security_camera_default;
   var init_security_camera = __esm({
     "lib/security-camera.ts"() {
-      IconSecurityCamera = `<svg id="SecurityCamera" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><rect x="13.74" y="24.99" width="40.5" height="18" rx="2" ry="2" transform="translate(33.99 -14.08) rotate(45)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="57.86" y1="51.5" x2="51.5" y2="57.86" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="36" y1="9" x2="36" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27.04" y1="26.26" x2="27.04" y2="26.26" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconSecurityCamera = `<svg id="SecurityCamera" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><rect x="13.74" y="24.99" width="40.5" height="18" rx="2" ry="2" transform="translate(33.99 -14.08) rotate(45)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><line x1="57.86" y1="51.5" x2="51.5" y2="57.86" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><rect x="13.74" y="24.99" width="40.5" height="18" rx="2" ry="2" transform="translate(33.99 -14.08) rotate(45)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="57.86" y1="51.5" x2="51.5" y2="57.86" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="36" y1="9" x2="36" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27.04" y1="26.26" x2="27.04" y2="26.26" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       security_camera_default = IconSecurityCamera;
     }
   });
@@ -9594,8 +10602,36 @@
   var IconShip, ship_default;
   var init_ship = __esm({
     "lib/ship.ts"() {
-      IconShip = `<svg id="Ship" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M4.5,58.5c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 54.86 13.5 40.5 36 27 58.5 40.5 54 54.86" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 37.8 22.5 18 49.5 18 54 37.8" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 18 27 18 31.5 9 40.5 9 45 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="14.98 45.22 36 36 57.02 45.22" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconShip = `<svg id="Ship" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="18 54.86 13.5 40.5 36 27 58.5 40.5 54 54.86" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="18 37.8 22.5 18 49.5 18 54 37.8" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 18 27 18 31.5 9 40.5 9 45 18" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="36" x2="36" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="14.98 45.22 36 36 57.02 45.22" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M4.5,58.5c3.5,0,7-4.5,10.5-4.5s7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5,7-4.5,10.5-4.5,7,4.5,10.5,4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       ship_default = IconShip;
+    }
+  });
+
+  // lib/signpost2.ts
+  var signpost2_exports = {};
+  __export(signpost2_exports, {
+    IconSignpost2: () => IconSignpost2,
+    default: () => signpost2_default
+  });
+  var IconSignpost2, signpost2_default;
+  var init_signpost2 = __esm({
+    "lib/signpost2.ts"() {
+      IconSignpost2 = `<svg id="Signpost2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="45 18 22.5 18 13.5 24.75 22.5 31.5 54 31.5 54 18 45 18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="33 49.5 48 49.5 54 45 48 40.5 27 40.5 27 49.5 33 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="36" y1="49.5" x2="36" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="31.5" x2="36" y2="40.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="58.5" x2="58.5" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 18 22.5 18 13.5 24.75 22.5 31.5 54 31.5 54 18 45 18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="33 49.5 48 49.5 54 45 48 40.5 27 40.5 27 49.5 33 49.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      signpost2_default = IconSignpost2;
+    }
+  });
+
+  // lib/signpost.ts
+  var signpost_exports = {};
+  __export(signpost_exports, {
+    IconSignpost: () => IconSignpost,
+    default: () => signpost_default
+  });
+  var IconSignpost, signpost_default;
+  var init_signpost = __esm({
+    "lib/signpost.ts"() {
+      IconSignpost = `<svg id="Signpost" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="45 18 22.5 18 13.5 24.75 22.5 31.5 54 31.5 54 18 45 18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="36" y1="31.5" x2="36" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="58.5" x2="58.5" y2="58.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 18 22.5 18 13.5 24.75 22.5 31.5 54 31.5 54 18 45 18" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      signpost_default = IconSignpost;
     }
   });
 
@@ -9608,7 +10644,7 @@
   var IconSmoking, smoking_default;
   var init_smoking = __esm({
     "lib/smoking.ts"() {
-      IconSmoking = `<svg id="Smoking" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="36" width="45" height="9" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M13.5,31.5c0-4.5,9-13.5,22.5-4.5s22.5,0,22.5-4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="13.5" y2="45" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+      IconSmoking = `<svg id="Smoking" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="18" y="36" width="45" height="9" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M13.5,31.5c0-4.5,9-13.5,22.5-4.5s22.5,0,22.5-4.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="13.5" y2="45" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
       smoking_default = IconSmoking;
     }
   });
@@ -9678,7 +10714,7 @@
   var IconTrainTrack, train_track_default;
   var init_train_track = __esm({
     "lib/train-track.ts"() {
-      IconTrainTrack = `<svg id="TrainTrack" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.5" y1="6.75" x2="22.5" y2="65.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.75" x2="49.5" y2="65.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="15.75" x2="58.5" y2="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="13.5" y1="29.25" x2="58.5" y2="29.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="13.5" y1="42.75" x2="58.5" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="13.5" y1="56.25" x2="58.5" y2="56.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
+      IconTrainTrack = `<svg id="TrainTrack" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.5" y1="6.75" x2="22.5" y2="65.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="6.75" x2="49.5" y2="65.25" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="15.75" x2="58.5" y2="15.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="13.5" y1="29.25" x2="58.5" y2="29.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="13.5" y1="42.75" x2="58.5" y2="42.75" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="13.5" y1="56.25" x2="58.5" y2="56.25" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/></svg>`;
       train_track_default = IconTrainTrack;
     }
   });
@@ -9825,6 +10861,10 @@
     ARROW_UP_RIGHT: "arrow-up-right",
     ARROW_UP: "arrow-up",
     ARROW_UPLOAD: "arrow-upload",
+    CHEVRON_CONNECT2: "chevron-connect2",
+    CHEVRON_CONNECT: "chevron-connect",
+    CHEVRON_DISCONNECT2: "chevron-disconnect2",
+    CHEVRON_DISCONNECT: "chevron-disconnect",
     CHEVRON_DOUBLE_DOWN: "chevron-double-down",
     CHEVRON_DOUBLE_LEFT: "chevron-double-left",
     CHEVRON_DOUBLE_RIGHT: "chevron-double-right",
@@ -9833,7 +10873,71 @@
     CHEVRON_LEFT: "chevron-left",
     CHEVRON_RIGHT: "chevron-right",
     CHEVRON_UP: "chevron-up",
-    ICON25: "icon25",
+    ICON01: "icon01",
+    BOTTLE: "bottle",
+    BOTTLES: "bottles",
+    BREAD_SLICE: "bread-slice",
+    COFFEE_CUP: "coffee-cup",
+    COFFEE_MACHINE: "coffee-machine",
+    COGNAC_GLASS: "cognac-glass",
+    ESPRESS_MACHINE2: "espress-machine2",
+    ESPRESSO_MACHINE_E61: "espresso-machine-e61",
+    ESPRESSO_MACHINE: "espresso-machine",
+    ESPRESSO_PISTOL: "espresso-pistol",
+    HAMBURGER: "hamburger",
+    PERCULATOR: "perculator",
+    WINE_GLASS: "wine-glass",
+    ALARM_BELL2: "alarm-bell2",
+    ALARM_BELL3: "alarm-bell3",
+    ALARM_BELL: "alarm-bell",
+    ART_SUPPLIES: "art-supplies",
+    AUDIO_WAVES: "audio-waves",
+    CAMERA: "camera",
+    CLIPBOARD: "clipboard",
+    COLOR_PALLETTE: "color-pallette",
+    COLOR_RGB: "color-rgb",
+    COLOR_SWATCHES: "color-swatches",
+    DESKTOP: "desktop",
+    FILMROLL: "filmroll",
+    GAMEPAD_CLASSIC: "gamepad-classic",
+    GAMEPAD: "gamepad",
+    HIGHLIGHT: "highlight",
+    IMAGE: "image",
+    LAPTOP: "laptop",
+    MAIL_OPEN: "mail-open",
+    MAIL: "mail",
+    MEDIA: "media",
+    MICROPHONE: "microphone",
+    MUSIC_NOTE_SINGLE: "music-note-single",
+    MUSIC_NOTE: "music-note",
+    PACMAN: "pacman",
+    PAPERPLANE: "paperplane",
+    PLAYBACK_BACKWARD: "playback-backward",
+    PLAYBACK_END: "playback-end",
+    PLAYBACK_FORWARD: "playback-forward",
+    PLAYBACK_NEXT: "playback-next",
+    PLAYBACK_PAUSE: "playback-pause",
+    PLAYBACK_PLAY: "playback-play",
+    PLAYBACK_PREVIOUS: "playback-previous",
+    PLAYBACK_START: "playback-start",
+    PLAYBACK_STOP: "playback-stop",
+    PRINTER: "printer",
+    RECORD: "record",
+    REELS: "reels",
+    TABLET_LANDSCAPE: "tablet-landscape",
+    TABLET: "tablet",
+    TELEVISION: "television",
+    TERMINAL: "terminal",
+    VIDEO_CAMERA: "video-camera",
+    VIDEOS: "videos",
+    VOLUME_I: "volume-i",
+    VOLUME_II: "volume-ii",
+    VOLUME_III: "volume-iii",
+    VOLUME_MUTE: "volume-mute",
+    VOLUME_OFF: "volume-off",
+    WEBSITE: "website",
+    ICON43: "icon43",
+    BAHT_SYMBOL: "baht-symbol",
     DICE1: "dice1",
     DICE2: "dice2",
     DICE3: "dice3",
@@ -9852,10 +10956,15 @@
     DIGIT_DIGITAL7: "digit-digital7",
     DIGIT_DIGITAL8: "digit-digital8",
     DIGIT_DIGITAL9: "digit-digital9",
+    DIGIT_DIGTAL0: "digit-digtal0",
     DOLLAR: "dollar",
     EURO: "euro",
     PERCENTAGE: "percentage",
+    POUND_SYMBOL: "pound-symbol",
     PROMILLE: "promille",
+    RUBLES_SYMBOL: "rubles-symbol",
+    RUPEE_SYMBOL_COPY: "rupee-symbol-copy",
+    RUPEE_SYMBOL: "rupee-symbol",
     SYMBOL_FEMALE: "symbol-female",
     SYMBOL_MALE: "symbol-male",
     SYMBOL_UNISEX: "symbol-unisex",
@@ -9870,46 +10979,31 @@
     TWO_DOTS_LINES: "two-dots-lines",
     TWO_DOTS_VERTICAL: "two-dots-vertical",
     YEN: "yen",
-    ALARM_BELL2: "alarm-bell2",
-    ALARM_BELL3: "alarm-bell3",
-    ALARM_BELL: "alarm-bell",
+    AI_FACE: "ai-face",
+    AI_LETTERS_BLOCKED: "ai-letters-blocked",
+    AI_LETTERS_CIRCLED: "ai-letters-circled",
+    AI_LETTERS: "ai-letters",
     ANIMAL_STEP: "animal-step",
     ARTWORK_FRAME: "artwork-frame",
-    AUDIO_WAVES: "audio-waves",
     BARBECUE: "barbecue",
     BATHROOM_ESSENTIALS: "bathroom-essentials",
     BINOCULARS: "binoculars",
     BLENDER: "blender",
     BOOKCASE: "bookcase",
-    BREAD_SLICE: "bread-slice",
     BULB: "bulb",
-    CAMERA: "camera",
     CHIP: "chip",
     CLEANING_BUCKET: "cleaning-bucket",
     CLEANING_SPRAY: "cleaning-spray",
-    CLIPBOARD: "clipboard",
     CLOSET: "closet",
-    COFFEE_CUP: "coffee-cup",
-    COFFEE_MACHINE: "coffee-machine",
     COFFEE_BEANS: "coffee-beans",
-    COGNAC_GLASS: "cognac-glass",
     COINS: "coins",
-    COLOR_PALLETTE: "color-pallette",
-    COLOR_RGB: "color-rgb",
-    COLOR_SWATCHES: "color-swatches",
     COMPASS2: "compass2",
     COMPASS: "compass",
     CUBE3D: "cube3d",
-    DESKTOP: "desktop",
     EDUCATION: "education",
-    ESPRESS_MACHINE2: "espress-machine2",
-    ESPRESSO_MACHINE_E61: "espresso-machine-e61",
-    ESPRESSO_MACHINE: "espresso-machine",
-    ESPRESSO_PISTOL: "espresso-pistol",
     FACTORY_ARM: "factory-arm",
     FACTORY_BELT: "factory-belt",
     FACTORY: "factory",
-    FILMROLL: "filmroll",
     FINGERPRINT: "fingerprint",
     FRIDGE: "fridge",
     FURNITURE_BED: "furniture-bed",
@@ -9918,61 +11012,41 @@
     FURNITURE_COUCH: "furniture-couch",
     FURNITURE_DESK: "furniture-desk",
     FURNITURE_DRESSOIR: "furniture-dressoir",
-    GAMEPAD: "gamepad",
     GRAPH_UP_ROUND: "graph-up-round",
     GRAPH_UP: "graph-up",
     HAIRDRYER: "hairdryer",
-    HAMBURGER: "hamburger",
-    HIGHLIGHT: "highlight",
     IDEA_FACTORY: "idea-factory",
     INDUSTRY3: "industry3",
     IRON: "iron",
     KITCHEN_CUTLERY: "kitchen-cutlery",
     KITCHEN_UTENSILS: "kitchen-utensils",
-    LAPTOP: "laptop",
     LEAF2: "leaf2",
     LEAF3: "leaf3",
     LEAF: "leaf",
     LEAFS: "leafs",
     LIQUID_SOAP2: "liquid-soap2",
     LIQUID_SOAP: "liquid-soap",
-    MAIL_OPEN: "mail-open",
-    MAIL: "mail",
     MICROWAVE: "microwave",
     MONEY: "money",
     MONEYBAG: "moneybag",
-    MUSIC_NOTE_SINGLE: "music-note-single",
-    MUSIC_NOTE: "music-note",
     OVEN: "oven",
-    PAPERPLANE: "paperplane",
-    PERCULATOR: "perculator",
     PLANT: "plant",
     POLITICIAN2: "politician2",
     POLITICIAN: "politician",
-    PRINTER: "printer",
-    REELS: "reels",
     ROOM_SHADE: "room-shade",
     STOVE: "stove",
-    TABLET_LANDSCAPE: "tablet-landscape",
-    TABLET: "tablet",
-    TELEVISION: "television",
     TEMPLE2: "temple2",
     TEMPLE: "temple",
-    TERMINAL: "terminal",
     TREE2: "tree2",
     TREE3: "tree3",
     TREE: "tree",
     TREES2: "trees2",
     TREES: "trees",
     TURTLE: "turtle",
-    VIDEO_CAMERA: "video-camera",
-    VIDEOS: "videos",
     VOTE: "vote",
     WALLET: "wallet",
     WASHING_MACHINE: "washing-machine",
     WATERCOOKER: "watercooker",
-    WEBSITE: "website",
-    WINE_GLASS: "wine-glass",
     ACCESSIBILITY_PERSON_CIRCLED: "accessibility-person-circled",
     ACCESSIBILITY_PERSON: "accessibility-person",
     ADD_FAT: "add-fat",
@@ -9980,11 +11054,12 @@
     ADD_LINES: "add-lines",
     ADD_M: "add-m",
     ADD_S: "add-s",
-    ART_SUPPLIES: "art-supplies",
     AT_SIGN: "at-sign",
+    BLOCK_PARTIALS: "block-partials",
     BOARD_ADD2: "board-add2",
     BOARD_MULTI2_HORIZONTAL: "board-multi2-horizontal",
     BOARD_MULTI2_VERTICAL: "board-multi2-vertical",
+    BOARD_MULTI_DASHBOARD: "board-multi-dashboard",
     BOARD_MULTI_T_DOWN: "board-multi-t-down",
     BOARD_MULTI_T_LEFT: "board-multi-t-left",
     BOARD_MULTI_T_RIGHT: "board-multi-t-right",
@@ -10044,6 +11119,13 @@
     BUTTON_VISIBLE2: "button-visible2",
     BUTTON_VISIBLE: "button-visible",
     BUTTON: "button",
+    CHART_BARS_SQUARED: "chart-bars-squared",
+    CHART_BUBBLES: "chart-bubbles",
+    CHART_CANDLES: "chart-candles",
+    CHART_HALF_CIRCLE: "chart-half-circle",
+    CHART_LINE_SQUARED: "chart-line-squared",
+    CHART_LINE: "chart-line",
+    CHART_PIE: "chart-pie",
     CHECK_FAT: "check-fat",
     CHECK_L: "check-l",
     CHECK_LIST: "check-list",
@@ -10080,6 +11162,7 @@
     DISLIKE: "dislike",
     EDIT_FAT: "edit-fat",
     EDIT_L: "edit-l",
+    EDIT_LINE_SWIRL: "edit-line-swirl",
     EDIT_LINE: "edit-line",
     EDIT_M: "edit-m",
     EDIT_S: "edit-s",
@@ -10170,7 +11253,6 @@
     HEART_L: "heart-l",
     HEART_M: "heart-m",
     HEART_SMALL: "heart-small",
-    IMAGE: "image",
     INFO_FAT: "info-fat",
     INFO_L: "info-l",
     INFO_M: "info-m",
@@ -10179,11 +11261,29 @@
     INVISIBLE_L: "invisible-l",
     INVISIBLE_M: "invisible-m",
     INVISIBLE_S: "invisible-s",
+    KEY_BACKSPACE: "key-backspace",
+    KEY_DELETE: "key-delete",
+    KEY_DOWN: "key-down",
+    KEY_EJECT: "key-eject",
+    KEY_ENTER: "key-enter",
+    KEY_FUNCTION: "key-function",
+    KEY_MAC_COMMAND: "key-mac-command",
+    KEY_OPTION: "key-option",
+    KEY_PAGE_DOWN: "key-page-down",
+    KEY_PAGE_NEXT: "key-page-next",
+    KEY_PAGE_UP: "key-page-up",
+    KEY_PREVIOUS_UP: "key-previous-up",
+    KEY_SHIFT: "key-shift",
+    KEY_TAB: "key-tab",
+    KEY_UP: "key-up",
     LIGHTNING_FLASH: "lightning-flash",
     LIKE: "like",
     LINK: "link",
+    LOADER_DOTS2: "loader-dots2",
+    LOADER_DOTS: "loader-dots",
+    LOCATION_MARKER: "location-marker",
+    LOCATION_PIN: "location-pin",
     MALE_SIMPLIFIED: "male-simplified",
-    MEDIA: "media",
     MOON: "moon",
     MOVING_BLOCK: "moving-block",
     MULTIPLY_FAT: "multiply-fat",
@@ -10221,29 +11321,35 @@
     NOTE: "note",
     ON_TARGET: "on-target",
     PARAGRAPH: "paragraph",
-    PLAYBACK_BACKWARD: "playback-backward",
-    PLAYBACK_END: "playback-end",
-    PLAYBACK_FORWARD: "playback-forward",
-    PLAYBACK_NEXT: "playback-next",
-    PLAYBACK_PAUSE: "playback-pause",
-    PLAYBACK_PLAY: "playback-play",
-    PLAYBACK_PREVIOUS: "playback-previous",
-    PLAYBACK_START: "playback-start",
-    PLAYBACK_STOP: "playback-stop",
+    PERFORMANCE2: "performance2",
+    PERFORMANCE: "performance",
+    PIN_TILTED: "pin-tilted",
+    PIN: "pin",
+    POINTER_ARROW_LINE: "pointer-arrow-line",
+    POINTER_ARROW: "pointer-arrow",
+    POINTER_CROSS: "pointer-cross",
+    POINTER_HAND: "pointer-hand",
+    POINTER_LEFT: "pointer-left",
+    POINTER_MOUSE: "pointer-mouse",
+    POINTER_PEN: "pointer-pen",
+    POINTER_TARGET: "pointer-target",
+    POINTER_TEXT: "pointer-text",
     QUESTION_MARK_FAT: "question-mark-fat",
     QUESTION_MARK_L: "question-mark-l",
     QUESTION_MARK_M: "question-mark-m",
     QUESTION_MARK_S: "question-mark-s",
-    RECORD: "record",
     REMOVE_LINES: "remove-lines",
     SEARCH_FAT: "search-fat",
     SEARCH_L: "search-l",
     SEARCH_M: "search-m",
     SEARCH_SMALL: "search-small",
+    SECTION: "section",
     SETTINGS2: "settings2",
     SETTINGS3: "settings3",
     SETTINGS4: "settings4",
+    SETTINGS5: "settings5",
     SETTINGS: "settings",
+    SIMPLE_SUN: "simple-sun",
     SPEECH_BALLOON2: "speech-balloon2",
     SPEECH_BALLOON_SQUARE2: "speech-balloon-square2",
     SPEECH_BALLOON_SQUARE_COPY: "speech-balloon-square-copy",
@@ -10265,6 +11371,7 @@
     SQUARED_SUBTRACT: "squared-subtract",
     SQUARED_VISIBLE: "squared-visible",
     SQUARED: "squared",
+    STAMP: "stamp",
     STAR_FAT: "star-fat",
     STAR_L: "star-l",
     STAR_M: "star-m",
@@ -10334,14 +11441,8 @@
     VISIBLE_L: "visible-l",
     VISIBLE_M: "visible-m",
     VISIBLE_S: "visible-s",
-    VOLUME_I: "volume-i",
-    VOLUME_II: "volume-ii",
-    VOLUME_III: "volume-iii",
-    VOLUME_MUTE: "volume-mute",
-    VOLUME_OFF: "volume-off",
     WHEELCHAIR_ACTION: "wheelchair-action",
     WHEELCHAIR: "wheelchair",
-    ICON27: "icon27",
     AIRPLANE_ARRIVALS: "airplane-arrivals",
     AIRPLANE_DEPARTURES: "airplane-departures",
     AIRPLANE: "airplane",
@@ -10356,6 +11457,7 @@
     CROSS_CIRCLED: "cross-circled",
     CROSS: "cross",
     CRUISESHIP: "cruiseship",
+    ELEVATOR1: "elevator1",
     ELEVATOR2: "elevator2",
     ELEVATOR3: "elevator3",
     ELEVATOR4: "elevator4",
@@ -10377,6 +11479,12 @@
     METRO: "metro",
     NO_SMOKING_CIRCLED: "no-smoking-circled",
     NO_SMOKING: "no-smoking",
+    PALMTREE_ISLAND_WAVE: "palmtree-island-wave",
+    PALMTREE_ISLAND: "palmtree-island",
+    PALMTREE: "palmtree",
+    PARASOL_ISLAND_WAVE: "parasol-island-wave",
+    PARASOL_ISLAND: "parasol-island",
+    PARASOL: "parasol",
     PLASTER: "plaster",
     PLASTERS: "plasters",
     RENTAL_CAR: "rental-car",
@@ -10384,6 +11492,8 @@
     SECURITY_CAMERA3: "security-camera3",
     SECURITY_CAMERA: "security-camera",
     SHIP: "ship",
+    SIGNPOST2: "signpost2",
+    SIGNPOST: "signpost",
     SMOKING: "smoking",
     STAIRS_DOWN: "stairs-down",
     STAIRS_UP: "stairs-up",
@@ -10667,6 +11777,14 @@
         return (await Promise.resolve().then(() => (init_arrow_up(), arrow_up_exports))).IconArrowUp;
       case Icons.ARROW_UPLOAD:
         return (await Promise.resolve().then(() => (init_arrow_upload(), arrow_upload_exports))).IconArrowUpload;
+      case Icons.CHEVRON_CONNECT2:
+        return (await Promise.resolve().then(() => (init_chevron_connect2(), chevron_connect2_exports))).IconChevronConnect2;
+      case Icons.CHEVRON_CONNECT:
+        return (await Promise.resolve().then(() => (init_chevron_connect(), chevron_connect_exports))).IconChevronConnect;
+      case Icons.CHEVRON_DISCONNECT2:
+        return (await Promise.resolve().then(() => (init_chevron_disconnect2(), chevron_disconnect2_exports))).IconChevronDisconnect2;
+      case Icons.CHEVRON_DISCONNECT:
+        return (await Promise.resolve().then(() => (init_chevron_disconnect(), chevron_disconnect_exports))).IconChevronDisconnect;
       case Icons.CHEVRON_DOUBLE_DOWN:
         return (await Promise.resolve().then(() => (init_chevron_double_down(), chevron_double_down_exports))).IconChevronDoubleDown;
       case Icons.CHEVRON_DOUBLE_LEFT:
@@ -10683,8 +11801,136 @@
         return (await Promise.resolve().then(() => (init_chevron_right(), chevron_right_exports))).IconChevronRight;
       case Icons.CHEVRON_UP:
         return (await Promise.resolve().then(() => (init_chevron_up(), chevron_up_exports))).IconChevronUp;
-      case Icons.ICON25:
-        return (await Promise.resolve().then(() => (init_icon25(), icon25_exports))).IconIcon25;
+      case Icons.ICON01:
+        return (await Promise.resolve().then(() => (init_icon01(), icon01_exports))).IconIcon01;
+      case Icons.BOTTLE:
+        return (await Promise.resolve().then(() => (init_bottle(), bottle_exports))).IconBottle;
+      case Icons.BOTTLES:
+        return (await Promise.resolve().then(() => (init_bottles(), bottles_exports))).IconBottles;
+      case Icons.BREAD_SLICE:
+        return (await Promise.resolve().then(() => (init_bread_slice(), bread_slice_exports))).IconBreadSlice;
+      case Icons.COFFEE_CUP:
+        return (await Promise.resolve().then(() => (init_coffee_cup(), coffee_cup_exports))).IconCoffeeCup;
+      case Icons.COFFEE_MACHINE:
+        return (await Promise.resolve().then(() => (init_coffee_machine(), coffee_machine_exports))).IconCoffeeMachine;
+      case Icons.COGNAC_GLASS:
+        return (await Promise.resolve().then(() => (init_cognac_glass(), cognac_glass_exports))).IconCognacGlass;
+      case Icons.ESPRESS_MACHINE2:
+        return (await Promise.resolve().then(() => (init_espress_machine2(), espress_machine2_exports))).IconEspressMachine2;
+      case Icons.ESPRESSO_MACHINE_E61:
+        return (await Promise.resolve().then(() => (init_espresso_machine_e61(), espresso_machine_e61_exports))).IconEspressoMachineE61;
+      case Icons.ESPRESSO_MACHINE:
+        return (await Promise.resolve().then(() => (init_espresso_machine(), espresso_machine_exports))).IconEspressoMachine;
+      case Icons.ESPRESSO_PISTOL:
+        return (await Promise.resolve().then(() => (init_espresso_pistol(), espresso_pistol_exports))).IconEspressoPistol;
+      case Icons.HAMBURGER:
+        return (await Promise.resolve().then(() => (init_hamburger(), hamburger_exports))).IconHamburger;
+      case Icons.PERCULATOR:
+        return (await Promise.resolve().then(() => (init_perculator(), perculator_exports))).IconPerculator;
+      case Icons.WINE_GLASS:
+        return (await Promise.resolve().then(() => (init_wine_glass(), wine_glass_exports))).IconWineGlass;
+      case Icons.ALARM_BELL2:
+        return (await Promise.resolve().then(() => (init_alarm_bell2(), alarm_bell2_exports))).IconAlarmBell2;
+      case Icons.ALARM_BELL3:
+        return (await Promise.resolve().then(() => (init_alarm_bell3(), alarm_bell3_exports))).IconAlarmBell3;
+      case Icons.ALARM_BELL:
+        return (await Promise.resolve().then(() => (init_alarm_bell(), alarm_bell_exports))).IconAlarmBell;
+      case Icons.ART_SUPPLIES:
+        return (await Promise.resolve().then(() => (init_art_supplies(), art_supplies_exports))).IconArtSupplies;
+      case Icons.AUDIO_WAVES:
+        return (await Promise.resolve().then(() => (init_audio_waves(), audio_waves_exports))).IconAudioWaves;
+      case Icons.CAMERA:
+        return (await Promise.resolve().then(() => (init_camera(), camera_exports))).IconCamera;
+      case Icons.CLIPBOARD:
+        return (await Promise.resolve().then(() => (init_clipboard(), clipboard_exports))).IconClipboard;
+      case Icons.COLOR_PALLETTE:
+        return (await Promise.resolve().then(() => (init_color_pallette(), color_pallette_exports))).IconColorPallette;
+      case Icons.COLOR_RGB:
+        return (await Promise.resolve().then(() => (init_color_rgb(), color_rgb_exports))).IconColorRgb;
+      case Icons.COLOR_SWATCHES:
+        return (await Promise.resolve().then(() => (init_color_swatches(), color_swatches_exports))).IconColorSwatches;
+      case Icons.DESKTOP:
+        return (await Promise.resolve().then(() => (init_desktop(), desktop_exports))).IconDesktop;
+      case Icons.FILMROLL:
+        return (await Promise.resolve().then(() => (init_filmroll(), filmroll_exports))).IconFilmroll;
+      case Icons.GAMEPAD_CLASSIC:
+        return (await Promise.resolve().then(() => (init_gamepad_classic(), gamepad_classic_exports))).IconGamepadClassic;
+      case Icons.GAMEPAD:
+        return (await Promise.resolve().then(() => (init_gamepad(), gamepad_exports))).IconGamepad;
+      case Icons.HIGHLIGHT:
+        return (await Promise.resolve().then(() => (init_highlight(), highlight_exports))).IconHighlight;
+      case Icons.IMAGE:
+        return (await Promise.resolve().then(() => (init_image(), image_exports))).IconImage;
+      case Icons.LAPTOP:
+        return (await Promise.resolve().then(() => (init_laptop(), laptop_exports))).IconLaptop;
+      case Icons.MAIL_OPEN:
+        return (await Promise.resolve().then(() => (init_mail_open(), mail_open_exports))).IconMailOpen;
+      case Icons.MAIL:
+        return (await Promise.resolve().then(() => (init_mail(), mail_exports))).IconMail;
+      case Icons.MEDIA:
+        return (await Promise.resolve().then(() => (init_media(), media_exports))).IconMedia;
+      case Icons.MICROPHONE:
+        return (await Promise.resolve().then(() => (init_microphone(), microphone_exports))).IconMicrophone;
+      case Icons.MUSIC_NOTE_SINGLE:
+        return (await Promise.resolve().then(() => (init_music_note_single(), music_note_single_exports))).IconMusicNoteSingle;
+      case Icons.MUSIC_NOTE:
+        return (await Promise.resolve().then(() => (init_music_note(), music_note_exports))).IconMusicNote;
+      case Icons.PACMAN:
+        return (await Promise.resolve().then(() => (init_pacman(), pacman_exports))).IconPacman;
+      case Icons.PAPERPLANE:
+        return (await Promise.resolve().then(() => (init_paperplane(), paperplane_exports))).IconPaperplane;
+      case Icons.PLAYBACK_BACKWARD:
+        return (await Promise.resolve().then(() => (init_playback_backward(), playback_backward_exports))).IconPlaybackBackward;
+      case Icons.PLAYBACK_END:
+        return (await Promise.resolve().then(() => (init_playback_end(), playback_end_exports))).IconPlaybackEnd;
+      case Icons.PLAYBACK_FORWARD:
+        return (await Promise.resolve().then(() => (init_playback_forward(), playback_forward_exports))).IconPlaybackForward;
+      case Icons.PLAYBACK_NEXT:
+        return (await Promise.resolve().then(() => (init_playback_next(), playback_next_exports))).IconPlaybackNext;
+      case Icons.PLAYBACK_PAUSE:
+        return (await Promise.resolve().then(() => (init_playback_pause(), playback_pause_exports))).IconPlaybackPause;
+      case Icons.PLAYBACK_PLAY:
+        return (await Promise.resolve().then(() => (init_playback_play(), playback_play_exports))).IconPlaybackPlay;
+      case Icons.PLAYBACK_PREVIOUS:
+        return (await Promise.resolve().then(() => (init_playback_previous(), playback_previous_exports))).IconPlaybackPrevious;
+      case Icons.PLAYBACK_START:
+        return (await Promise.resolve().then(() => (init_playback_start(), playback_start_exports))).IconPlaybackStart;
+      case Icons.PLAYBACK_STOP:
+        return (await Promise.resolve().then(() => (init_playback_stop(), playback_stop_exports))).IconPlaybackStop;
+      case Icons.PRINTER:
+        return (await Promise.resolve().then(() => (init_printer(), printer_exports))).IconPrinter;
+      case Icons.RECORD:
+        return (await Promise.resolve().then(() => (init_record(), record_exports))).IconRecord;
+      case Icons.REELS:
+        return (await Promise.resolve().then(() => (init_reels(), reels_exports))).IconReels;
+      case Icons.TABLET_LANDSCAPE:
+        return (await Promise.resolve().then(() => (init_tablet_landscape(), tablet_landscape_exports))).IconTabletLandscape;
+      case Icons.TABLET:
+        return (await Promise.resolve().then(() => (init_tablet(), tablet_exports))).IconTablet;
+      case Icons.TELEVISION:
+        return (await Promise.resolve().then(() => (init_television(), television_exports))).IconTelevision;
+      case Icons.TERMINAL:
+        return (await Promise.resolve().then(() => (init_terminal(), terminal_exports))).IconTerminal;
+      case Icons.VIDEO_CAMERA:
+        return (await Promise.resolve().then(() => (init_video_camera(), video_camera_exports))).IconVideoCamera;
+      case Icons.VIDEOS:
+        return (await Promise.resolve().then(() => (init_videos(), videos_exports))).IconVideos;
+      case Icons.VOLUME_I:
+        return (await Promise.resolve().then(() => (init_volume_i(), volume_i_exports))).IconVolumeI;
+      case Icons.VOLUME_II:
+        return (await Promise.resolve().then(() => (init_volume_ii(), volume_ii_exports))).IconVolumeIi;
+      case Icons.VOLUME_III:
+        return (await Promise.resolve().then(() => (init_volume_iii(), volume_iii_exports))).IconVolumeIii;
+      case Icons.VOLUME_MUTE:
+        return (await Promise.resolve().then(() => (init_volume_mute(), volume_mute_exports))).IconVolumeMute;
+      case Icons.VOLUME_OFF:
+        return (await Promise.resolve().then(() => (init_volume_off(), volume_off_exports))).IconVolumeOff;
+      case Icons.WEBSITE:
+        return (await Promise.resolve().then(() => (init_website(), website_exports))).IconWebsite;
+      case Icons.ICON43:
+        return (await Promise.resolve().then(() => (init_icon43(), icon43_exports))).IconIcon43;
+      case Icons.BAHT_SYMBOL:
+        return (await Promise.resolve().then(() => (init_baht_symbol(), baht_symbol_exports))).IconBahtSymbol;
       case Icons.DICE1:
         return (await Promise.resolve().then(() => (init_dice1(), dice1_exports))).IconDice1;
       case Icons.DICE2:
@@ -10721,14 +11967,24 @@
         return (await Promise.resolve().then(() => (init_digit_digital8(), digit_digital8_exports))).IconDigitDigital8;
       case Icons.DIGIT_DIGITAL9:
         return (await Promise.resolve().then(() => (init_digit_digital9(), digit_digital9_exports))).IconDigitDigital9;
+      case Icons.DIGIT_DIGTAL0:
+        return (await Promise.resolve().then(() => (init_digit_digtal0(), digit_digtal0_exports))).IconDigitDigtal0;
       case Icons.DOLLAR:
         return (await Promise.resolve().then(() => (init_dollar(), dollar_exports))).IconDollar;
       case Icons.EURO:
         return (await Promise.resolve().then(() => (init_euro(), euro_exports))).IconEuro;
       case Icons.PERCENTAGE:
         return (await Promise.resolve().then(() => (init_percentage(), percentage_exports))).IconPercentage;
+      case Icons.POUND_SYMBOL:
+        return (await Promise.resolve().then(() => (init_pound_symbol(), pound_symbol_exports))).IconPoundSymbol;
       case Icons.PROMILLE:
         return (await Promise.resolve().then(() => (init_promille(), promille_exports))).IconPromille;
+      case Icons.RUBLES_SYMBOL:
+        return (await Promise.resolve().then(() => (init_rubles_symbol(), rubles_symbol_exports))).IconRublesSymbol;
+      case Icons.RUPEE_SYMBOL_COPY:
+        return (await Promise.resolve().then(() => (init_rupee_symbol_copy(), rupee_symbol_copy_exports))).IconRupeeSymbolCopy;
+      case Icons.RUPEE_SYMBOL:
+        return (await Promise.resolve().then(() => (init_rupee_symbol(), rupee_symbol_exports))).IconRupeeSymbol;
       case Icons.SYMBOL_FEMALE:
         return (await Promise.resolve().then(() => (init_symbol_female(), symbol_female_exports))).IconSymbolFemale;
       case Icons.SYMBOL_MALE:
@@ -10757,18 +12013,18 @@
         return (await Promise.resolve().then(() => (init_two_dots_vertical(), two_dots_vertical_exports))).IconTwoDotsVertical;
       case Icons.YEN:
         return (await Promise.resolve().then(() => (init_yen(), yen_exports))).IconYen;
-      case Icons.ALARM_BELL2:
-        return (await Promise.resolve().then(() => (init_alarm_bell2(), alarm_bell2_exports))).IconAlarmBell2;
-      case Icons.ALARM_BELL3:
-        return (await Promise.resolve().then(() => (init_alarm_bell3(), alarm_bell3_exports))).IconAlarmBell3;
-      case Icons.ALARM_BELL:
-        return (await Promise.resolve().then(() => (init_alarm_bell(), alarm_bell_exports))).IconAlarmBell;
+      case Icons.AI_FACE:
+        return (await Promise.resolve().then(() => (init_ai_face(), ai_face_exports))).IconAiFace;
+      case Icons.AI_LETTERS_BLOCKED:
+        return (await Promise.resolve().then(() => (init_ai_letters_blocked(), ai_letters_blocked_exports))).IconAiLettersBlocked;
+      case Icons.AI_LETTERS_CIRCLED:
+        return (await Promise.resolve().then(() => (init_ai_letters_circled(), ai_letters_circled_exports))).IconAiLettersCircled;
+      case Icons.AI_LETTERS:
+        return (await Promise.resolve().then(() => (init_ai_letters(), ai_letters_exports))).IconAiLetters;
       case Icons.ANIMAL_STEP:
         return (await Promise.resolve().then(() => (init_animal_step(), animal_step_exports))).IconAnimalStep;
       case Icons.ARTWORK_FRAME:
         return (await Promise.resolve().then(() => (init_artwork_frame(), artwork_frame_exports))).IconArtworkFrame;
-      case Icons.AUDIO_WAVES:
-        return (await Promise.resolve().then(() => (init_audio_waves(), audio_waves_exports))).IconAudioWaves;
       case Icons.BARBECUE:
         return (await Promise.resolve().then(() => (init_barbecue(), barbecue_exports))).IconBarbecue;
       case Icons.BATHROOM_ESSENTIALS:
@@ -10779,64 +12035,34 @@
         return (await Promise.resolve().then(() => (init_blender(), blender_exports))).IconBlender;
       case Icons.BOOKCASE:
         return (await Promise.resolve().then(() => (init_bookcase(), bookcase_exports))).IconBookcase;
-      case Icons.BREAD_SLICE:
-        return (await Promise.resolve().then(() => (init_bread_slice(), bread_slice_exports))).IconBreadSlice;
       case Icons.BULB:
         return (await Promise.resolve().then(() => (init_bulb(), bulb_exports))).IconBulb;
-      case Icons.CAMERA:
-        return (await Promise.resolve().then(() => (init_camera(), camera_exports))).IconCamera;
       case Icons.CHIP:
         return (await Promise.resolve().then(() => (init_chip(), chip_exports))).IconChip;
       case Icons.CLEANING_BUCKET:
         return (await Promise.resolve().then(() => (init_cleaning_bucket(), cleaning_bucket_exports))).IconCleaningBucket;
       case Icons.CLEANING_SPRAY:
         return (await Promise.resolve().then(() => (init_cleaning_spray(), cleaning_spray_exports))).IconCleaningSpray;
-      case Icons.CLIPBOARD:
-        return (await Promise.resolve().then(() => (init_clipboard(), clipboard_exports))).IconClipboard;
       case Icons.CLOSET:
         return (await Promise.resolve().then(() => (init_closet(), closet_exports))).IconCloset;
-      case Icons.COFFEE_CUP:
-        return (await Promise.resolve().then(() => (init_coffee_cup(), coffee_cup_exports))).IconCoffeeCup;
-      case Icons.COFFEE_MACHINE:
-        return (await Promise.resolve().then(() => (init_coffee_machine(), coffee_machine_exports))).IconCoffeeMachine;
       case Icons.COFFEE_BEANS:
         return (await Promise.resolve().then(() => (init_coffee_beans(), coffee_beans_exports))).IconCoffeeBeans;
-      case Icons.COGNAC_GLASS:
-        return (await Promise.resolve().then(() => (init_cognac_glass(), cognac_glass_exports))).IconCognacGlass;
       case Icons.COINS:
         return (await Promise.resolve().then(() => (init_coins(), coins_exports))).IconCoins;
-      case Icons.COLOR_PALLETTE:
-        return (await Promise.resolve().then(() => (init_color_pallette(), color_pallette_exports))).IconColorPallette;
-      case Icons.COLOR_RGB:
-        return (await Promise.resolve().then(() => (init_color_rgb(), color_rgb_exports))).IconColorRgb;
-      case Icons.COLOR_SWATCHES:
-        return (await Promise.resolve().then(() => (init_color_swatches(), color_swatches_exports))).IconColorSwatches;
       case Icons.COMPASS2:
         return (await Promise.resolve().then(() => (init_compass2(), compass2_exports))).IconCompass2;
       case Icons.COMPASS:
         return (await Promise.resolve().then(() => (init_compass(), compass_exports))).IconCompass;
       case Icons.CUBE3D:
         return (await Promise.resolve().then(() => (init_cube3d(), cube3d_exports))).IconCube3d;
-      case Icons.DESKTOP:
-        return (await Promise.resolve().then(() => (init_desktop(), desktop_exports))).IconDesktop;
       case Icons.EDUCATION:
         return (await Promise.resolve().then(() => (init_education(), education_exports))).IconEducation;
-      case Icons.ESPRESS_MACHINE2:
-        return (await Promise.resolve().then(() => (init_espress_machine2(), espress_machine2_exports))).IconEspressMachine2;
-      case Icons.ESPRESSO_MACHINE_E61:
-        return (await Promise.resolve().then(() => (init_espresso_machine_e61(), espresso_machine_e61_exports))).IconEspressoMachineE61;
-      case Icons.ESPRESSO_MACHINE:
-        return (await Promise.resolve().then(() => (init_espresso_machine(), espresso_machine_exports))).IconEspressoMachine;
-      case Icons.ESPRESSO_PISTOL:
-        return (await Promise.resolve().then(() => (init_espresso_pistol(), espresso_pistol_exports))).IconEspressoPistol;
       case Icons.FACTORY_ARM:
         return (await Promise.resolve().then(() => (init_factory_arm(), factory_arm_exports))).IconFactoryArm;
       case Icons.FACTORY_BELT:
         return (await Promise.resolve().then(() => (init_factory_belt(), factory_belt_exports))).IconFactoryBelt;
       case Icons.FACTORY:
         return (await Promise.resolve().then(() => (init_factory(), factory_exports))).IconFactory;
-      case Icons.FILMROLL:
-        return (await Promise.resolve().then(() => (init_filmroll(), filmroll_exports))).IconFilmroll;
       case Icons.FINGERPRINT:
         return (await Promise.resolve().then(() => (init_fingerprint(), fingerprint_exports))).IconFingerprint;
       case Icons.FRIDGE:
@@ -10853,18 +12079,12 @@
         return (await Promise.resolve().then(() => (init_furniture_desk(), furniture_desk_exports))).IconFurnitureDesk;
       case Icons.FURNITURE_DRESSOIR:
         return (await Promise.resolve().then(() => (init_furniture_dressoir(), furniture_dressoir_exports))).IconFurnitureDressoir;
-      case Icons.GAMEPAD:
-        return (await Promise.resolve().then(() => (init_gamepad(), gamepad_exports))).IconGamepad;
       case Icons.GRAPH_UP_ROUND:
         return (await Promise.resolve().then(() => (init_graph_up_round(), graph_up_round_exports))).IconGraphUpRound;
       case Icons.GRAPH_UP:
         return (await Promise.resolve().then(() => (init_graph_up(), graph_up_exports))).IconGraphUp;
       case Icons.HAIRDRYER:
         return (await Promise.resolve().then(() => (init_hairdryer(), hairdryer_exports))).IconHairdryer;
-      case Icons.HAMBURGER:
-        return (await Promise.resolve().then(() => (init_hamburger(), hamburger_exports))).IconHamburger;
-      case Icons.HIGHLIGHT:
-        return (await Promise.resolve().then(() => (init_highlight(), highlight_exports))).IconHighlight;
       case Icons.IDEA_FACTORY:
         return (await Promise.resolve().then(() => (init_idea_factory(), idea_factory_exports))).IconIdeaFactory;
       case Icons.INDUSTRY3:
@@ -10875,8 +12095,6 @@
         return (await Promise.resolve().then(() => (init_kitchen_cutlery(), kitchen_cutlery_exports))).IconKitchenCutlery;
       case Icons.KITCHEN_UTENSILS:
         return (await Promise.resolve().then(() => (init_kitchen_utensils(), kitchen_utensils_exports))).IconKitchenUtensils;
-      case Icons.LAPTOP:
-        return (await Promise.resolve().then(() => (init_laptop(), laptop_exports))).IconLaptop;
       case Icons.LEAF2:
         return (await Promise.resolve().then(() => (init_leaf2(), leaf2_exports))).IconLeaf2;
       case Icons.LEAF3:
@@ -10889,52 +12107,28 @@
         return (await Promise.resolve().then(() => (init_liquid_soap2(), liquid_soap2_exports))).IconLiquidSoap2;
       case Icons.LIQUID_SOAP:
         return (await Promise.resolve().then(() => (init_liquid_soap(), liquid_soap_exports))).IconLiquidSoap;
-      case Icons.MAIL_OPEN:
-        return (await Promise.resolve().then(() => (init_mail_open(), mail_open_exports))).IconMailOpen;
-      case Icons.MAIL:
-        return (await Promise.resolve().then(() => (init_mail(), mail_exports))).IconMail;
       case Icons.MICROWAVE:
         return (await Promise.resolve().then(() => (init_microwave(), microwave_exports))).IconMicrowave;
       case Icons.MONEY:
         return (await Promise.resolve().then(() => (init_money(), money_exports))).IconMoney;
       case Icons.MONEYBAG:
         return (await Promise.resolve().then(() => (init_moneybag(), moneybag_exports))).IconMoneybag;
-      case Icons.MUSIC_NOTE_SINGLE:
-        return (await Promise.resolve().then(() => (init_music_note_single(), music_note_single_exports))).IconMusicNoteSingle;
-      case Icons.MUSIC_NOTE:
-        return (await Promise.resolve().then(() => (init_music_note(), music_note_exports))).IconMusicNote;
       case Icons.OVEN:
         return (await Promise.resolve().then(() => (init_oven(), oven_exports))).IconOven;
-      case Icons.PAPERPLANE:
-        return (await Promise.resolve().then(() => (init_paperplane(), paperplane_exports))).IconPaperplane;
-      case Icons.PERCULATOR:
-        return (await Promise.resolve().then(() => (init_perculator(), perculator_exports))).IconPerculator;
       case Icons.PLANT:
         return (await Promise.resolve().then(() => (init_plant(), plant_exports))).IconPlant;
       case Icons.POLITICIAN2:
         return (await Promise.resolve().then(() => (init_politician2(), politician2_exports))).IconPolitician2;
       case Icons.POLITICIAN:
         return (await Promise.resolve().then(() => (init_politician(), politician_exports))).IconPolitician;
-      case Icons.PRINTER:
-        return (await Promise.resolve().then(() => (init_printer(), printer_exports))).IconPrinter;
-      case Icons.REELS:
-        return (await Promise.resolve().then(() => (init_reels(), reels_exports))).IconReels;
       case Icons.ROOM_SHADE:
         return (await Promise.resolve().then(() => (init_room_shade(), room_shade_exports))).IconRoomShade;
       case Icons.STOVE:
         return (await Promise.resolve().then(() => (init_stove(), stove_exports))).IconStove;
-      case Icons.TABLET_LANDSCAPE:
-        return (await Promise.resolve().then(() => (init_tablet_landscape(), tablet_landscape_exports))).IconTabletLandscape;
-      case Icons.TABLET:
-        return (await Promise.resolve().then(() => (init_tablet(), tablet_exports))).IconTablet;
-      case Icons.TELEVISION:
-        return (await Promise.resolve().then(() => (init_television(), television_exports))).IconTelevision;
       case Icons.TEMPLE2:
         return (await Promise.resolve().then(() => (init_temple2(), temple2_exports))).IconTemple2;
       case Icons.TEMPLE:
         return (await Promise.resolve().then(() => (init_temple(), temple_exports))).IconTemple;
-      case Icons.TERMINAL:
-        return (await Promise.resolve().then(() => (init_terminal(), terminal_exports))).IconTerminal;
       case Icons.TREE2:
         return (await Promise.resolve().then(() => (init_tree2(), tree2_exports))).IconTree2;
       case Icons.TREE3:
@@ -10947,10 +12141,6 @@
         return (await Promise.resolve().then(() => (init_trees(), trees_exports))).IconTrees;
       case Icons.TURTLE:
         return (await Promise.resolve().then(() => (init_turtle(), turtle_exports))).IconTurtle;
-      case Icons.VIDEO_CAMERA:
-        return (await Promise.resolve().then(() => (init_video_camera(), video_camera_exports))).IconVideoCamera;
-      case Icons.VIDEOS:
-        return (await Promise.resolve().then(() => (init_videos(), videos_exports))).IconVideos;
       case Icons.VOTE:
         return (await Promise.resolve().then(() => (init_vote(), vote_exports))).IconVote;
       case Icons.WALLET:
@@ -10959,10 +12149,6 @@
         return (await Promise.resolve().then(() => (init_washing_machine(), washing_machine_exports))).IconWashingMachine;
       case Icons.WATERCOOKER:
         return (await Promise.resolve().then(() => (init_watercooker(), watercooker_exports))).IconWatercooker;
-      case Icons.WEBSITE:
-        return (await Promise.resolve().then(() => (init_website(), website_exports))).IconWebsite;
-      case Icons.WINE_GLASS:
-        return (await Promise.resolve().then(() => (init_wine_glass(), wine_glass_exports))).IconWineGlass;
       case Icons.ACCESSIBILITY_PERSON_CIRCLED:
         return (await Promise.resolve().then(() => (init_accessibility_person_circled(), accessibility_person_circled_exports))).IconAccessibilityPersonCircled;
       case Icons.ACCESSIBILITY_PERSON:
@@ -10977,16 +12163,18 @@
         return (await Promise.resolve().then(() => (init_add_m(), add_m_exports))).IconAddM;
       case Icons.ADD_S:
         return (await Promise.resolve().then(() => (init_add_s(), add_s_exports))).IconAddS;
-      case Icons.ART_SUPPLIES:
-        return (await Promise.resolve().then(() => (init_art_supplies(), art_supplies_exports))).IconArtSupplies;
       case Icons.AT_SIGN:
         return (await Promise.resolve().then(() => (init_at_sign(), at_sign_exports))).IconAtSign;
+      case Icons.BLOCK_PARTIALS:
+        return (await Promise.resolve().then(() => (init_block_partials(), block_partials_exports))).IconBlockPartials;
       case Icons.BOARD_ADD2:
         return (await Promise.resolve().then(() => (init_board_add2(), board_add2_exports))).IconBoardAdd2;
       case Icons.BOARD_MULTI2_HORIZONTAL:
         return (await Promise.resolve().then(() => (init_board_multi2_horizontal(), board_multi2_horizontal_exports))).IconBoardMulti2Horizontal;
       case Icons.BOARD_MULTI2_VERTICAL:
         return (await Promise.resolve().then(() => (init_board_multi2_vertical(), board_multi2_vertical_exports))).IconBoardMulti2Vertical;
+      case Icons.BOARD_MULTI_DASHBOARD:
+        return (await Promise.resolve().then(() => (init_board_multi_dashboard(), board_multi_dashboard_exports))).IconBoardMultiDashboard;
       case Icons.BOARD_MULTI_T_DOWN:
         return (await Promise.resolve().then(() => (init_board_multi_t_down(), board_multi_t_down_exports))).IconBoardMultiTDown;
       case Icons.BOARD_MULTI_T_LEFT:
@@ -11105,6 +12293,20 @@
         return (await Promise.resolve().then(() => (init_button_visible(), button_visible_exports))).IconButtonVisible;
       case Icons.BUTTON:
         return (await Promise.resolve().then(() => (init_button(), button_exports))).IconButton;
+      case Icons.CHART_BARS_SQUARED:
+        return (await Promise.resolve().then(() => (init_chart_bars_squared(), chart_bars_squared_exports))).IconChartBarsSquared;
+      case Icons.CHART_BUBBLES:
+        return (await Promise.resolve().then(() => (init_chart_bubbles(), chart_bubbles_exports))).IconChartBubbles;
+      case Icons.CHART_CANDLES:
+        return (await Promise.resolve().then(() => (init_chart_candles(), chart_candles_exports))).IconChartCandles;
+      case Icons.CHART_HALF_CIRCLE:
+        return (await Promise.resolve().then(() => (init_chart_half_circle(), chart_half_circle_exports))).IconChartHalfCircle;
+      case Icons.CHART_LINE_SQUARED:
+        return (await Promise.resolve().then(() => (init_chart_line_squared(), chart_line_squared_exports))).IconChartLineSquared;
+      case Icons.CHART_LINE:
+        return (await Promise.resolve().then(() => (init_chart_line(), chart_line_exports))).IconChartLine;
+      case Icons.CHART_PIE:
+        return (await Promise.resolve().then(() => (init_chart_pie(), chart_pie_exports))).IconChartPie;
       case Icons.CHECK_FAT:
         return (await Promise.resolve().then(() => (init_check_fat(), check_fat_exports))).IconCheckFat;
       case Icons.CHECK_L:
@@ -11177,6 +12379,8 @@
         return (await Promise.resolve().then(() => (init_edit_fat(), edit_fat_exports))).IconEditFat;
       case Icons.EDIT_L:
         return (await Promise.resolve().then(() => (init_edit_l(), edit_l_exports))).IconEditL;
+      case Icons.EDIT_LINE_SWIRL:
+        return (await Promise.resolve().then(() => (init_edit_line_swirl(), edit_line_swirl_exports))).IconEditLineSwirl;
       case Icons.EDIT_LINE:
         return (await Promise.resolve().then(() => (init_edit_line(), edit_line_exports))).IconEditLine;
       case Icons.EDIT_M:
@@ -11357,8 +12561,6 @@
         return (await Promise.resolve().then(() => (init_heart_m(), heart_m_exports))).IconHeartM;
       case Icons.HEART_SMALL:
         return (await Promise.resolve().then(() => (init_heart_small(), heart_small_exports))).IconHeartSmall;
-      case Icons.IMAGE:
-        return (await Promise.resolve().then(() => (init_image(), image_exports))).IconImage;
       case Icons.INFO_FAT:
         return (await Promise.resolve().then(() => (init_info_fat(), info_fat_exports))).IconInfoFat;
       case Icons.INFO_L:
@@ -11375,16 +12577,52 @@
         return (await Promise.resolve().then(() => (init_invisible_m(), invisible_m_exports))).IconInvisibleM;
       case Icons.INVISIBLE_S:
         return (await Promise.resolve().then(() => (init_invisible_s(), invisible_s_exports))).IconInvisibleS;
+      case Icons.KEY_BACKSPACE:
+        return (await Promise.resolve().then(() => (init_key_backspace(), key_backspace_exports))).IconKeyBackspace;
+      case Icons.KEY_DELETE:
+        return (await Promise.resolve().then(() => (init_key_delete(), key_delete_exports))).IconKeyDelete;
+      case Icons.KEY_DOWN:
+        return (await Promise.resolve().then(() => (init_key_down(), key_down_exports))).IconKeyDown;
+      case Icons.KEY_EJECT:
+        return (await Promise.resolve().then(() => (init_key_eject(), key_eject_exports))).IconKeyEject;
+      case Icons.KEY_ENTER:
+        return (await Promise.resolve().then(() => (init_key_enter(), key_enter_exports))).IconKeyEnter;
+      case Icons.KEY_FUNCTION:
+        return (await Promise.resolve().then(() => (init_key_function(), key_function_exports))).IconKeyFunction;
+      case Icons.KEY_MAC_COMMAND:
+        return (await Promise.resolve().then(() => (init_key_mac_command(), key_mac_command_exports))).IconKeyMacCommand;
+      case Icons.KEY_OPTION:
+        return (await Promise.resolve().then(() => (init_key_option(), key_option_exports))).IconKeyOption;
+      case Icons.KEY_PAGE_DOWN:
+        return (await Promise.resolve().then(() => (init_key_page_down(), key_page_down_exports))).IconKeyPageDown;
+      case Icons.KEY_PAGE_NEXT:
+        return (await Promise.resolve().then(() => (init_key_page_next(), key_page_next_exports))).IconKeyPageNext;
+      case Icons.KEY_PAGE_UP:
+        return (await Promise.resolve().then(() => (init_key_page_up(), key_page_up_exports))).IconKeyPageUp;
+      case Icons.KEY_PREVIOUS_UP:
+        return (await Promise.resolve().then(() => (init_key_previous_up(), key_previous_up_exports))).IconKeyPreviousUp;
+      case Icons.KEY_SHIFT:
+        return (await Promise.resolve().then(() => (init_key_shift(), key_shift_exports))).IconKeyShift;
+      case Icons.KEY_TAB:
+        return (await Promise.resolve().then(() => (init_key_tab(), key_tab_exports))).IconKeyTab;
+      case Icons.KEY_UP:
+        return (await Promise.resolve().then(() => (init_key_up(), key_up_exports))).IconKeyUp;
       case Icons.LIGHTNING_FLASH:
         return (await Promise.resolve().then(() => (init_lightning_flash(), lightning_flash_exports))).IconLightningFlash;
       case Icons.LIKE:
         return (await Promise.resolve().then(() => (init_like(), like_exports))).IconLike;
       case Icons.LINK:
         return (await Promise.resolve().then(() => (init_link(), link_exports))).IconLink;
+      case Icons.LOADER_DOTS2:
+        return (await Promise.resolve().then(() => (init_loader_dots2(), loader_dots2_exports))).IconLoaderDots2;
+      case Icons.LOADER_DOTS:
+        return (await Promise.resolve().then(() => (init_loader_dots(), loader_dots_exports))).IconLoaderDots;
+      case Icons.LOCATION_MARKER:
+        return (await Promise.resolve().then(() => (init_location_marker(), location_marker_exports))).IconLocationMarker;
+      case Icons.LOCATION_PIN:
+        return (await Promise.resolve().then(() => (init_location_pin(), location_pin_exports))).IconLocationPin;
       case Icons.MALE_SIMPLIFIED:
         return (await Promise.resolve().then(() => (init_male_simplified(), male_simplified_exports))).IconMaleSimplified;
-      case Icons.MEDIA:
-        return (await Promise.resolve().then(() => (init_media(), media_exports))).IconMedia;
       case Icons.MOON:
         return (await Promise.resolve().then(() => (init_moon(), moon_exports))).IconMoon;
       case Icons.MOVING_BLOCK:
@@ -11459,24 +12697,32 @@
         return (await Promise.resolve().then(() => (init_on_target(), on_target_exports))).IconOnTarget;
       case Icons.PARAGRAPH:
         return (await Promise.resolve().then(() => (init_paragraph(), paragraph_exports))).IconParagraph;
-      case Icons.PLAYBACK_BACKWARD:
-        return (await Promise.resolve().then(() => (init_playback_backward(), playback_backward_exports))).IconPlaybackBackward;
-      case Icons.PLAYBACK_END:
-        return (await Promise.resolve().then(() => (init_playback_end(), playback_end_exports))).IconPlaybackEnd;
-      case Icons.PLAYBACK_FORWARD:
-        return (await Promise.resolve().then(() => (init_playback_forward(), playback_forward_exports))).IconPlaybackForward;
-      case Icons.PLAYBACK_NEXT:
-        return (await Promise.resolve().then(() => (init_playback_next(), playback_next_exports))).IconPlaybackNext;
-      case Icons.PLAYBACK_PAUSE:
-        return (await Promise.resolve().then(() => (init_playback_pause(), playback_pause_exports))).IconPlaybackPause;
-      case Icons.PLAYBACK_PLAY:
-        return (await Promise.resolve().then(() => (init_playback_play(), playback_play_exports))).IconPlaybackPlay;
-      case Icons.PLAYBACK_PREVIOUS:
-        return (await Promise.resolve().then(() => (init_playback_previous(), playback_previous_exports))).IconPlaybackPrevious;
-      case Icons.PLAYBACK_START:
-        return (await Promise.resolve().then(() => (init_playback_start(), playback_start_exports))).IconPlaybackStart;
-      case Icons.PLAYBACK_STOP:
-        return (await Promise.resolve().then(() => (init_playback_stop(), playback_stop_exports))).IconPlaybackStop;
+      case Icons.PERFORMANCE2:
+        return (await Promise.resolve().then(() => (init_performance2(), performance2_exports))).IconPerformance2;
+      case Icons.PERFORMANCE:
+        return (await Promise.resolve().then(() => (init_performance(), performance_exports))).IconPerformance;
+      case Icons.PIN_TILTED:
+        return (await Promise.resolve().then(() => (init_pin_tilted(), pin_tilted_exports))).IconPinTilted;
+      case Icons.PIN:
+        return (await Promise.resolve().then(() => (init_pin(), pin_exports))).IconPin;
+      case Icons.POINTER_ARROW_LINE:
+        return (await Promise.resolve().then(() => (init_pointer_arrow_line(), pointer_arrow_line_exports))).IconPointerArrowLine;
+      case Icons.POINTER_ARROW:
+        return (await Promise.resolve().then(() => (init_pointer_arrow(), pointer_arrow_exports))).IconPointerArrow;
+      case Icons.POINTER_CROSS:
+        return (await Promise.resolve().then(() => (init_pointer_cross(), pointer_cross_exports))).IconPointerCross;
+      case Icons.POINTER_HAND:
+        return (await Promise.resolve().then(() => (init_pointer_hand(), pointer_hand_exports))).IconPointerHand;
+      case Icons.POINTER_LEFT:
+        return (await Promise.resolve().then(() => (init_pointer_left(), pointer_left_exports))).IconPointerLeft;
+      case Icons.POINTER_MOUSE:
+        return (await Promise.resolve().then(() => (init_pointer_mouse(), pointer_mouse_exports))).IconPointerMouse;
+      case Icons.POINTER_PEN:
+        return (await Promise.resolve().then(() => (init_pointer_pen(), pointer_pen_exports))).IconPointerPen;
+      case Icons.POINTER_TARGET:
+        return (await Promise.resolve().then(() => (init_pointer_target(), pointer_target_exports))).IconPointerTarget;
+      case Icons.POINTER_TEXT:
+        return (await Promise.resolve().then(() => (init_pointer_text(), pointer_text_exports))).IconPointerText;
       case Icons.QUESTION_MARK_FAT:
         return (await Promise.resolve().then(() => (init_question_mark_fat(), question_mark_fat_exports))).IconQuestionMarkFat;
       case Icons.QUESTION_MARK_L:
@@ -11485,8 +12731,6 @@
         return (await Promise.resolve().then(() => (init_question_mark_m(), question_mark_m_exports))).IconQuestionMarkM;
       case Icons.QUESTION_MARK_S:
         return (await Promise.resolve().then(() => (init_question_mark_s(), question_mark_s_exports))).IconQuestionMarkS;
-      case Icons.RECORD:
-        return (await Promise.resolve().then(() => (init_record(), record_exports))).IconRecord;
       case Icons.REMOVE_LINES:
         return (await Promise.resolve().then(() => (init_remove_lines(), remove_lines_exports))).IconRemoveLines;
       case Icons.SEARCH_FAT:
@@ -11497,14 +12741,20 @@
         return (await Promise.resolve().then(() => (init_search_m(), search_m_exports))).IconSearchM;
       case Icons.SEARCH_SMALL:
         return (await Promise.resolve().then(() => (init_search_small(), search_small_exports))).IconSearchSmall;
+      case Icons.SECTION:
+        return (await Promise.resolve().then(() => (init_section(), section_exports))).IconSection;
       case Icons.SETTINGS2:
         return (await Promise.resolve().then(() => (init_settings2(), settings2_exports))).IconSettings2;
       case Icons.SETTINGS3:
         return (await Promise.resolve().then(() => (init_settings3(), settings3_exports))).IconSettings3;
       case Icons.SETTINGS4:
         return (await Promise.resolve().then(() => (init_settings4(), settings4_exports))).IconSettings4;
+      case Icons.SETTINGS5:
+        return (await Promise.resolve().then(() => (init_settings5(), settings5_exports))).IconSettings5;
       case Icons.SETTINGS:
         return (await Promise.resolve().then(() => (init_settings(), settings_exports))).IconSettings;
+      case Icons.SIMPLE_SUN:
+        return (await Promise.resolve().then(() => (init_simple_sun(), simple_sun_exports))).IconSimpleSun;
       case Icons.SPEECH_BALLOON2:
         return (await Promise.resolve().then(() => (init_speech_balloon2(), speech_balloon2_exports))).IconSpeechBalloon2;
       case Icons.SPEECH_BALLOON_SQUARE2:
@@ -11547,6 +12797,8 @@
         return (await Promise.resolve().then(() => (init_squared_visible(), squared_visible_exports))).IconSquaredVisible;
       case Icons.SQUARED:
         return (await Promise.resolve().then(() => (init_squared(), squared_exports))).IconSquared;
+      case Icons.STAMP:
+        return (await Promise.resolve().then(() => (init_stamp(), stamp_exports))).IconStamp;
       case Icons.STAR_FAT:
         return (await Promise.resolve().then(() => (init_star_fat(), star_fat_exports))).IconStarFat;
       case Icons.STAR_L:
@@ -11685,22 +12937,10 @@
         return (await Promise.resolve().then(() => (init_visible_m(), visible_m_exports))).IconVisibleM;
       case Icons.VISIBLE_S:
         return (await Promise.resolve().then(() => (init_visible_s(), visible_s_exports))).IconVisibleS;
-      case Icons.VOLUME_I:
-        return (await Promise.resolve().then(() => (init_volume_i(), volume_i_exports))).IconVolumeI;
-      case Icons.VOLUME_II:
-        return (await Promise.resolve().then(() => (init_volume_ii(), volume_ii_exports))).IconVolumeIi;
-      case Icons.VOLUME_III:
-        return (await Promise.resolve().then(() => (init_volume_iii(), volume_iii_exports))).IconVolumeIii;
-      case Icons.VOLUME_MUTE:
-        return (await Promise.resolve().then(() => (init_volume_mute(), volume_mute_exports))).IconVolumeMute;
-      case Icons.VOLUME_OFF:
-        return (await Promise.resolve().then(() => (init_volume_off(), volume_off_exports))).IconVolumeOff;
       case Icons.WHEELCHAIR_ACTION:
         return (await Promise.resolve().then(() => (init_wheelchair_action(), wheelchair_action_exports))).IconWheelchairAction;
       case Icons.WHEELCHAIR:
         return (await Promise.resolve().then(() => (init_wheelchair(), wheelchair_exports))).IconWheelchair;
-      case Icons.ICON27:
-        return (await Promise.resolve().then(() => (init_icon27(), icon27_exports))).IconIcon27;
       case Icons.AIRPLANE_ARRIVALS:
         return (await Promise.resolve().then(() => (init_airplane_arrivals(), airplane_arrivals_exports))).IconAirplaneArrivals;
       case Icons.AIRPLANE_DEPARTURES:
@@ -11729,6 +12969,8 @@
         return (await Promise.resolve().then(() => (init_cross(), cross_exports))).IconCross;
       case Icons.CRUISESHIP:
         return (await Promise.resolve().then(() => (init_cruiseship(), cruiseship_exports))).IconCruiseship;
+      case Icons.ELEVATOR1:
+        return (await Promise.resolve().then(() => (init_elevator1(), elevator1_exports))).IconElevator1;
       case Icons.ELEVATOR2:
         return (await Promise.resolve().then(() => (init_elevator2(), elevator2_exports))).IconElevator2;
       case Icons.ELEVATOR3:
@@ -11771,6 +13013,18 @@
         return (await Promise.resolve().then(() => (init_no_smoking_circled(), no_smoking_circled_exports))).IconNoSmokingCircled;
       case Icons.NO_SMOKING:
         return (await Promise.resolve().then(() => (init_no_smoking(), no_smoking_exports))).IconNoSmoking;
+      case Icons.PALMTREE_ISLAND_WAVE:
+        return (await Promise.resolve().then(() => (init_palmtree_island_wave(), palmtree_island_wave_exports))).IconPalmtreeIslandWave;
+      case Icons.PALMTREE_ISLAND:
+        return (await Promise.resolve().then(() => (init_palmtree_island(), palmtree_island_exports))).IconPalmtreeIsland;
+      case Icons.PALMTREE:
+        return (await Promise.resolve().then(() => (init_palmtree(), palmtree_exports))).IconPalmtree;
+      case Icons.PARASOL_ISLAND_WAVE:
+        return (await Promise.resolve().then(() => (init_parasol_island_wave(), parasol_island_wave_exports))).IconParasolIslandWave;
+      case Icons.PARASOL_ISLAND:
+        return (await Promise.resolve().then(() => (init_parasol_island(), parasol_island_exports))).IconParasolIsland;
+      case Icons.PARASOL:
+        return (await Promise.resolve().then(() => (init_parasol(), parasol_exports))).IconParasol;
       case Icons.PLASTER:
         return (await Promise.resolve().then(() => (init_plaster(), plaster_exports))).IconPlaster;
       case Icons.PLASTERS:
@@ -11785,6 +13039,10 @@
         return (await Promise.resolve().then(() => (init_security_camera(), security_camera_exports))).IconSecurityCamera;
       case Icons.SHIP:
         return (await Promise.resolve().then(() => (init_ship(), ship_exports))).IconShip;
+      case Icons.SIGNPOST2:
+        return (await Promise.resolve().then(() => (init_signpost2(), signpost2_exports))).IconSignpost2;
+      case Icons.SIGNPOST:
+        return (await Promise.resolve().then(() => (init_signpost(), signpost_exports))).IconSignpost;
       case Icons.SMOKING:
         return (await Promise.resolve().then(() => (init_smoking(), smoking_exports))).IconSmoking;
       case Icons.STAIRS_DOWN:

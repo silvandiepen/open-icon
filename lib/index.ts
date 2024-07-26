@@ -382,6 +382,18 @@ export const getIcon = async (icon: Icons) => {
         case Icons.ARROW_UPLOAD:
             return (await import("./arrow-upload")).IconArrowUpload;
     
+        case Icons.CHEVRON_CONNECT2:
+            return (await import("./chevron-connect2")).IconChevronConnect2;
+    
+        case Icons.CHEVRON_CONNECT:
+            return (await import("./chevron-connect")).IconChevronConnect;
+    
+        case Icons.CHEVRON_DISCONNECT2:
+            return (await import("./chevron-disconnect2")).IconChevronDisconnect2;
+    
+        case Icons.CHEVRON_DISCONNECT:
+            return (await import("./chevron-disconnect")).IconChevronDisconnect;
+    
         case Icons.CHEVRON_DOUBLE_DOWN:
             return (await import("./chevron-double-down")).IconChevronDoubleDown;
     
@@ -406,8 +418,200 @@ export const getIcon = async (icon: Icons) => {
         case Icons.CHEVRON_UP:
             return (await import("./chevron-up")).IconChevronUp;
     
-        case Icons.ICON25:
-            return (await import("./icon25")).IconIcon25;
+        case Icons.ICON01:
+            return (await import("./icon01")).IconIcon01;
+    
+        case Icons.BOTTLE:
+            return (await import("./bottle")).IconBottle;
+    
+        case Icons.BOTTLES:
+            return (await import("./bottles")).IconBottles;
+    
+        case Icons.BREAD_SLICE:
+            return (await import("./bread-slice")).IconBreadSlice;
+    
+        case Icons.COFFEE_CUP:
+            return (await import("./coffee-cup")).IconCoffeeCup;
+    
+        case Icons.COFFEE_MACHINE:
+            return (await import("./coffee-machine")).IconCoffeeMachine;
+    
+        case Icons.COGNAC_GLASS:
+            return (await import("./cognac-glass")).IconCognacGlass;
+    
+        case Icons.ESPRESS_MACHINE2:
+            return (await import("./espress-machine2")).IconEspressMachine2;
+    
+        case Icons.ESPRESSO_MACHINE_E61:
+            return (await import("./espresso-machine-e61")).IconEspressoMachineE61;
+    
+        case Icons.ESPRESSO_MACHINE:
+            return (await import("./espresso-machine")).IconEspressoMachine;
+    
+        case Icons.ESPRESSO_PISTOL:
+            return (await import("./espresso-pistol")).IconEspressoPistol;
+    
+        case Icons.HAMBURGER:
+            return (await import("./hamburger")).IconHamburger;
+    
+        case Icons.PERCULATOR:
+            return (await import("./perculator")).IconPerculator;
+    
+        case Icons.WINE_GLASS:
+            return (await import("./wine-glass")).IconWineGlass;
+    
+        case Icons.ALARM_BELL2:
+            return (await import("./alarm-bell2")).IconAlarmBell2;
+    
+        case Icons.ALARM_BELL3:
+            return (await import("./alarm-bell3")).IconAlarmBell3;
+    
+        case Icons.ALARM_BELL:
+            return (await import("./alarm-bell")).IconAlarmBell;
+    
+        case Icons.ART_SUPPLIES:
+            return (await import("./art-supplies")).IconArtSupplies;
+    
+        case Icons.AUDIO_WAVES:
+            return (await import("./audio-waves")).IconAudioWaves;
+    
+        case Icons.CAMERA:
+            return (await import("./camera")).IconCamera;
+    
+        case Icons.CLIPBOARD:
+            return (await import("./clipboard")).IconClipboard;
+    
+        case Icons.COLOR_PALLETTE:
+            return (await import("./color-pallette")).IconColorPallette;
+    
+        case Icons.COLOR_RGB:
+            return (await import("./color-rgb")).IconColorRgb;
+    
+        case Icons.COLOR_SWATCHES:
+            return (await import("./color-swatches")).IconColorSwatches;
+    
+        case Icons.DESKTOP:
+            return (await import("./desktop")).IconDesktop;
+    
+        case Icons.FILMROLL:
+            return (await import("./filmroll")).IconFilmroll;
+    
+        case Icons.GAMEPAD_CLASSIC:
+            return (await import("./gamepad-classic")).IconGamepadClassic;
+    
+        case Icons.GAMEPAD:
+            return (await import("./gamepad")).IconGamepad;
+    
+        case Icons.HIGHLIGHT:
+            return (await import("./highlight")).IconHighlight;
+    
+        case Icons.IMAGE:
+            return (await import("./image")).IconImage;
+    
+        case Icons.LAPTOP:
+            return (await import("./laptop")).IconLaptop;
+    
+        case Icons.MAIL_OPEN:
+            return (await import("./mail-open")).IconMailOpen;
+    
+        case Icons.MAIL:
+            return (await import("./mail")).IconMail;
+    
+        case Icons.MEDIA:
+            return (await import("./media")).IconMedia;
+    
+        case Icons.MICROPHONE:
+            return (await import("./microphone")).IconMicrophone;
+    
+        case Icons.MUSIC_NOTE_SINGLE:
+            return (await import("./music-note-single")).IconMusicNoteSingle;
+    
+        case Icons.MUSIC_NOTE:
+            return (await import("./music-note")).IconMusicNote;
+    
+        case Icons.PACMAN:
+            return (await import("./pacman")).IconPacman;
+    
+        case Icons.PAPERPLANE:
+            return (await import("./paperplane")).IconPaperplane;
+    
+        case Icons.PLAYBACK_BACKWARD:
+            return (await import("./playback-backward")).IconPlaybackBackward;
+    
+        case Icons.PLAYBACK_END:
+            return (await import("./playback-end")).IconPlaybackEnd;
+    
+        case Icons.PLAYBACK_FORWARD:
+            return (await import("./playback-forward")).IconPlaybackForward;
+    
+        case Icons.PLAYBACK_NEXT:
+            return (await import("./playback-next")).IconPlaybackNext;
+    
+        case Icons.PLAYBACK_PAUSE:
+            return (await import("./playback-pause")).IconPlaybackPause;
+    
+        case Icons.PLAYBACK_PLAY:
+            return (await import("./playback-play")).IconPlaybackPlay;
+    
+        case Icons.PLAYBACK_PREVIOUS:
+            return (await import("./playback-previous")).IconPlaybackPrevious;
+    
+        case Icons.PLAYBACK_START:
+            return (await import("./playback-start")).IconPlaybackStart;
+    
+        case Icons.PLAYBACK_STOP:
+            return (await import("./playback-stop")).IconPlaybackStop;
+    
+        case Icons.PRINTER:
+            return (await import("./printer")).IconPrinter;
+    
+        case Icons.RECORD:
+            return (await import("./record")).IconRecord;
+    
+        case Icons.REELS:
+            return (await import("./reels")).IconReels;
+    
+        case Icons.TABLET_LANDSCAPE:
+            return (await import("./tablet-landscape")).IconTabletLandscape;
+    
+        case Icons.TABLET:
+            return (await import("./tablet")).IconTablet;
+    
+        case Icons.TELEVISION:
+            return (await import("./television")).IconTelevision;
+    
+        case Icons.TERMINAL:
+            return (await import("./terminal")).IconTerminal;
+    
+        case Icons.VIDEO_CAMERA:
+            return (await import("./video-camera")).IconVideoCamera;
+    
+        case Icons.VIDEOS:
+            return (await import("./videos")).IconVideos;
+    
+        case Icons.VOLUME_I:
+            return (await import("./volume-i")).IconVolumeI;
+    
+        case Icons.VOLUME_II:
+            return (await import("./volume-ii")).IconVolumeIi;
+    
+        case Icons.VOLUME_III:
+            return (await import("./volume-iii")).IconVolumeIii;
+    
+        case Icons.VOLUME_MUTE:
+            return (await import("./volume-mute")).IconVolumeMute;
+    
+        case Icons.VOLUME_OFF:
+            return (await import("./volume-off")).IconVolumeOff;
+    
+        case Icons.WEBSITE:
+            return (await import("./website")).IconWebsite;
+    
+        case Icons.ICON43:
+            return (await import("./icon43")).IconIcon43;
+    
+        case Icons.BAHT_SYMBOL:
+            return (await import("./baht-symbol")).IconBahtSymbol;
     
         case Icons.DICE1:
             return (await import("./dice1")).IconDice1;
@@ -463,6 +667,9 @@ export const getIcon = async (icon: Icons) => {
         case Icons.DIGIT_DIGITAL9:
             return (await import("./digit-digital9")).IconDigitDigital9;
     
+        case Icons.DIGIT_DIGTAL0:
+            return (await import("./digit-digtal0")).IconDigitDigtal0;
+    
         case Icons.DOLLAR:
             return (await import("./dollar")).IconDollar;
     
@@ -472,8 +679,20 @@ export const getIcon = async (icon: Icons) => {
         case Icons.PERCENTAGE:
             return (await import("./percentage")).IconPercentage;
     
+        case Icons.POUND_SYMBOL:
+            return (await import("./pound-symbol")).IconPoundSymbol;
+    
         case Icons.PROMILLE:
             return (await import("./promille")).IconPromille;
+    
+        case Icons.RUBLES_SYMBOL:
+            return (await import("./rubles-symbol")).IconRublesSymbol;
+    
+        case Icons.RUPEE_SYMBOL_COPY:
+            return (await import("./rupee-symbol-copy")).IconRupeeSymbolCopy;
+    
+        case Icons.RUPEE_SYMBOL:
+            return (await import("./rupee-symbol")).IconRupeeSymbol;
     
         case Icons.SYMBOL_FEMALE:
             return (await import("./symbol-female")).IconSymbolFemale;
@@ -517,23 +736,23 @@ export const getIcon = async (icon: Icons) => {
         case Icons.YEN:
             return (await import("./yen")).IconYen;
     
-        case Icons.ALARM_BELL2:
-            return (await import("./alarm-bell2")).IconAlarmBell2;
+        case Icons.AI_FACE:
+            return (await import("./ai-face")).IconAiFace;
     
-        case Icons.ALARM_BELL3:
-            return (await import("./alarm-bell3")).IconAlarmBell3;
+        case Icons.AI_LETTERS_BLOCKED:
+            return (await import("./ai-letters-blocked")).IconAiLettersBlocked;
     
-        case Icons.ALARM_BELL:
-            return (await import("./alarm-bell")).IconAlarmBell;
+        case Icons.AI_LETTERS_CIRCLED:
+            return (await import("./ai-letters-circled")).IconAiLettersCircled;
+    
+        case Icons.AI_LETTERS:
+            return (await import("./ai-letters")).IconAiLetters;
     
         case Icons.ANIMAL_STEP:
             return (await import("./animal-step")).IconAnimalStep;
     
         case Icons.ARTWORK_FRAME:
             return (await import("./artwork-frame")).IconArtworkFrame;
-    
-        case Icons.AUDIO_WAVES:
-            return (await import("./audio-waves")).IconAudioWaves;
     
         case Icons.BARBECUE:
             return (await import("./barbecue")).IconBarbecue;
@@ -550,14 +769,8 @@ export const getIcon = async (icon: Icons) => {
         case Icons.BOOKCASE:
             return (await import("./bookcase")).IconBookcase;
     
-        case Icons.BREAD_SLICE:
-            return (await import("./bread-slice")).IconBreadSlice;
-    
         case Icons.BULB:
             return (await import("./bulb")).IconBulb;
-    
-        case Icons.CAMERA:
-            return (await import("./camera")).IconCamera;
     
         case Icons.CHIP:
             return (await import("./chip")).IconChip;
@@ -568,35 +781,14 @@ export const getIcon = async (icon: Icons) => {
         case Icons.CLEANING_SPRAY:
             return (await import("./cleaning-spray")).IconCleaningSpray;
     
-        case Icons.CLIPBOARD:
-            return (await import("./clipboard")).IconClipboard;
-    
         case Icons.CLOSET:
             return (await import("./closet")).IconCloset;
-    
-        case Icons.COFFEE_CUP:
-            return (await import("./coffee-cup")).IconCoffeeCup;
-    
-        case Icons.COFFEE_MACHINE:
-            return (await import("./coffee-machine")).IconCoffeeMachine;
     
         case Icons.COFFEE_BEANS:
             return (await import("./coffee-beans")).IconCoffeeBeans;
     
-        case Icons.COGNAC_GLASS:
-            return (await import("./cognac-glass")).IconCognacGlass;
-    
         case Icons.COINS:
             return (await import("./coins")).IconCoins;
-    
-        case Icons.COLOR_PALLETTE:
-            return (await import("./color-pallette")).IconColorPallette;
-    
-        case Icons.COLOR_RGB:
-            return (await import("./color-rgb")).IconColorRgb;
-    
-        case Icons.COLOR_SWATCHES:
-            return (await import("./color-swatches")).IconColorSwatches;
     
         case Icons.COMPASS2:
             return (await import("./compass2")).IconCompass2;
@@ -607,23 +799,8 @@ export const getIcon = async (icon: Icons) => {
         case Icons.CUBE3D:
             return (await import("./cube3d")).IconCube3d;
     
-        case Icons.DESKTOP:
-            return (await import("./desktop")).IconDesktop;
-    
         case Icons.EDUCATION:
             return (await import("./education")).IconEducation;
-    
-        case Icons.ESPRESS_MACHINE2:
-            return (await import("./espress-machine2")).IconEspressMachine2;
-    
-        case Icons.ESPRESSO_MACHINE_E61:
-            return (await import("./espresso-machine-e61")).IconEspressoMachineE61;
-    
-        case Icons.ESPRESSO_MACHINE:
-            return (await import("./espresso-machine")).IconEspressoMachine;
-    
-        case Icons.ESPRESSO_PISTOL:
-            return (await import("./espresso-pistol")).IconEspressoPistol;
     
         case Icons.FACTORY_ARM:
             return (await import("./factory-arm")).IconFactoryArm;
@@ -633,9 +810,6 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.FACTORY:
             return (await import("./factory")).IconFactory;
-    
-        case Icons.FILMROLL:
-            return (await import("./filmroll")).IconFilmroll;
     
         case Icons.FINGERPRINT:
             return (await import("./fingerprint")).IconFingerprint;
@@ -661,9 +835,6 @@ export const getIcon = async (icon: Icons) => {
         case Icons.FURNITURE_DRESSOIR:
             return (await import("./furniture-dressoir")).IconFurnitureDressoir;
     
-        case Icons.GAMEPAD:
-            return (await import("./gamepad")).IconGamepad;
-    
         case Icons.GRAPH_UP_ROUND:
             return (await import("./graph-up-round")).IconGraphUpRound;
     
@@ -672,12 +843,6 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.HAIRDRYER:
             return (await import("./hairdryer")).IconHairdryer;
-    
-        case Icons.HAMBURGER:
-            return (await import("./hamburger")).IconHamburger;
-    
-        case Icons.HIGHLIGHT:
-            return (await import("./highlight")).IconHighlight;
     
         case Icons.IDEA_FACTORY:
             return (await import("./idea-factory")).IconIdeaFactory;
@@ -693,9 +858,6 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.KITCHEN_UTENSILS:
             return (await import("./kitchen-utensils")).IconKitchenUtensils;
-    
-        case Icons.LAPTOP:
-            return (await import("./laptop")).IconLaptop;
     
         case Icons.LEAF2:
             return (await import("./leaf2")).IconLeaf2;
@@ -715,12 +877,6 @@ export const getIcon = async (icon: Icons) => {
         case Icons.LIQUID_SOAP:
             return (await import("./liquid-soap")).IconLiquidSoap;
     
-        case Icons.MAIL_OPEN:
-            return (await import("./mail-open")).IconMailOpen;
-    
-        case Icons.MAIL:
-            return (await import("./mail")).IconMail;
-    
         case Icons.MICROWAVE:
             return (await import("./microwave")).IconMicrowave;
     
@@ -730,20 +886,8 @@ export const getIcon = async (icon: Icons) => {
         case Icons.MONEYBAG:
             return (await import("./moneybag")).IconMoneybag;
     
-        case Icons.MUSIC_NOTE_SINGLE:
-            return (await import("./music-note-single")).IconMusicNoteSingle;
-    
-        case Icons.MUSIC_NOTE:
-            return (await import("./music-note")).IconMusicNote;
-    
         case Icons.OVEN:
             return (await import("./oven")).IconOven;
-    
-        case Icons.PAPERPLANE:
-            return (await import("./paperplane")).IconPaperplane;
-    
-        case Icons.PERCULATOR:
-            return (await import("./perculator")).IconPerculator;
     
         case Icons.PLANT:
             return (await import("./plant")).IconPlant;
@@ -754,35 +898,17 @@ export const getIcon = async (icon: Icons) => {
         case Icons.POLITICIAN:
             return (await import("./politician")).IconPolitician;
     
-        case Icons.PRINTER:
-            return (await import("./printer")).IconPrinter;
-    
-        case Icons.REELS:
-            return (await import("./reels")).IconReels;
-    
         case Icons.ROOM_SHADE:
             return (await import("./room-shade")).IconRoomShade;
     
         case Icons.STOVE:
             return (await import("./stove")).IconStove;
     
-        case Icons.TABLET_LANDSCAPE:
-            return (await import("./tablet-landscape")).IconTabletLandscape;
-    
-        case Icons.TABLET:
-            return (await import("./tablet")).IconTablet;
-    
-        case Icons.TELEVISION:
-            return (await import("./television")).IconTelevision;
-    
         case Icons.TEMPLE2:
             return (await import("./temple2")).IconTemple2;
     
         case Icons.TEMPLE:
             return (await import("./temple")).IconTemple;
-    
-        case Icons.TERMINAL:
-            return (await import("./terminal")).IconTerminal;
     
         case Icons.TREE2:
             return (await import("./tree2")).IconTree2;
@@ -802,12 +928,6 @@ export const getIcon = async (icon: Icons) => {
         case Icons.TURTLE:
             return (await import("./turtle")).IconTurtle;
     
-        case Icons.VIDEO_CAMERA:
-            return (await import("./video-camera")).IconVideoCamera;
-    
-        case Icons.VIDEOS:
-            return (await import("./videos")).IconVideos;
-    
         case Icons.VOTE:
             return (await import("./vote")).IconVote;
     
@@ -819,12 +939,6 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.WATERCOOKER:
             return (await import("./watercooker")).IconWatercooker;
-    
-        case Icons.WEBSITE:
-            return (await import("./website")).IconWebsite;
-    
-        case Icons.WINE_GLASS:
-            return (await import("./wine-glass")).IconWineGlass;
     
         case Icons.ACCESSIBILITY_PERSON_CIRCLED:
             return (await import("./accessibility-person-circled")).IconAccessibilityPersonCircled;
@@ -847,11 +961,11 @@ export const getIcon = async (icon: Icons) => {
         case Icons.ADD_S:
             return (await import("./add-s")).IconAddS;
     
-        case Icons.ART_SUPPLIES:
-            return (await import("./art-supplies")).IconArtSupplies;
-    
         case Icons.AT_SIGN:
             return (await import("./at-sign")).IconAtSign;
+    
+        case Icons.BLOCK_PARTIALS:
+            return (await import("./block-partials")).IconBlockPartials;
     
         case Icons.BOARD_ADD2:
             return (await import("./board-add2")).IconBoardAdd2;
@@ -861,6 +975,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.BOARD_MULTI2_VERTICAL:
             return (await import("./board-multi2-vertical")).IconBoardMulti2Vertical;
+    
+        case Icons.BOARD_MULTI_DASHBOARD:
+            return (await import("./board-multi-dashboard")).IconBoardMultiDashboard;
     
         case Icons.BOARD_MULTI_T_DOWN:
             return (await import("./board-multi-t-down")).IconBoardMultiTDown;
@@ -1039,6 +1156,27 @@ export const getIcon = async (icon: Icons) => {
         case Icons.BUTTON:
             return (await import("./button")).IconButton;
     
+        case Icons.CHART_BARS_SQUARED:
+            return (await import("./chart-bars-squared")).IconChartBarsSquared;
+    
+        case Icons.CHART_BUBBLES:
+            return (await import("./chart-bubbles")).IconChartBubbles;
+    
+        case Icons.CHART_CANDLES:
+            return (await import("./chart-candles")).IconChartCandles;
+    
+        case Icons.CHART_HALF_CIRCLE:
+            return (await import("./chart-half-circle")).IconChartHalfCircle;
+    
+        case Icons.CHART_LINE_SQUARED:
+            return (await import("./chart-line-squared")).IconChartLineSquared;
+    
+        case Icons.CHART_LINE:
+            return (await import("./chart-line")).IconChartLine;
+    
+        case Icons.CHART_PIE:
+            return (await import("./chart-pie")).IconChartPie;
+    
         case Icons.CHECK_FAT:
             return (await import("./check-fat")).IconCheckFat;
     
@@ -1146,6 +1284,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.EDIT_L:
             return (await import("./edit-l")).IconEditL;
+    
+        case Icons.EDIT_LINE_SWIRL:
+            return (await import("./edit-line-swirl")).IconEditLineSwirl;
     
         case Icons.EDIT_LINE:
             return (await import("./edit-line")).IconEditLine;
@@ -1417,9 +1558,6 @@ export const getIcon = async (icon: Icons) => {
         case Icons.HEART_SMALL:
             return (await import("./heart-small")).IconHeartSmall;
     
-        case Icons.IMAGE:
-            return (await import("./image")).IconImage;
-    
         case Icons.INFO_FAT:
             return (await import("./info-fat")).IconInfoFat;
     
@@ -1444,6 +1582,51 @@ export const getIcon = async (icon: Icons) => {
         case Icons.INVISIBLE_S:
             return (await import("./invisible-s")).IconInvisibleS;
     
+        case Icons.KEY_BACKSPACE:
+            return (await import("./key-backspace")).IconKeyBackspace;
+    
+        case Icons.KEY_DELETE:
+            return (await import("./key-delete")).IconKeyDelete;
+    
+        case Icons.KEY_DOWN:
+            return (await import("./key-down")).IconKeyDown;
+    
+        case Icons.KEY_EJECT:
+            return (await import("./key-eject")).IconKeyEject;
+    
+        case Icons.KEY_ENTER:
+            return (await import("./key-enter")).IconKeyEnter;
+    
+        case Icons.KEY_FUNCTION:
+            return (await import("./key-function")).IconKeyFunction;
+    
+        case Icons.KEY_MAC_COMMAND:
+            return (await import("./key-mac-command")).IconKeyMacCommand;
+    
+        case Icons.KEY_OPTION:
+            return (await import("./key-option")).IconKeyOption;
+    
+        case Icons.KEY_PAGE_DOWN:
+            return (await import("./key-page-down")).IconKeyPageDown;
+    
+        case Icons.KEY_PAGE_NEXT:
+            return (await import("./key-page-next")).IconKeyPageNext;
+    
+        case Icons.KEY_PAGE_UP:
+            return (await import("./key-page-up")).IconKeyPageUp;
+    
+        case Icons.KEY_PREVIOUS_UP:
+            return (await import("./key-previous-up")).IconKeyPreviousUp;
+    
+        case Icons.KEY_SHIFT:
+            return (await import("./key-shift")).IconKeyShift;
+    
+        case Icons.KEY_TAB:
+            return (await import("./key-tab")).IconKeyTab;
+    
+        case Icons.KEY_UP:
+            return (await import("./key-up")).IconKeyUp;
+    
         case Icons.LIGHTNING_FLASH:
             return (await import("./lightning-flash")).IconLightningFlash;
     
@@ -1453,11 +1636,20 @@ export const getIcon = async (icon: Icons) => {
         case Icons.LINK:
             return (await import("./link")).IconLink;
     
+        case Icons.LOADER_DOTS2:
+            return (await import("./loader-dots2")).IconLoaderDots2;
+    
+        case Icons.LOADER_DOTS:
+            return (await import("./loader-dots")).IconLoaderDots;
+    
+        case Icons.LOCATION_MARKER:
+            return (await import("./location-marker")).IconLocationMarker;
+    
+        case Icons.LOCATION_PIN:
+            return (await import("./location-pin")).IconLocationPin;
+    
         case Icons.MALE_SIMPLIFIED:
             return (await import("./male-simplified")).IconMaleSimplified;
-    
-        case Icons.MEDIA:
-            return (await import("./media")).IconMedia;
     
         case Icons.MOON:
             return (await import("./moon")).IconMoon;
@@ -1570,32 +1762,44 @@ export const getIcon = async (icon: Icons) => {
         case Icons.PARAGRAPH:
             return (await import("./paragraph")).IconParagraph;
     
-        case Icons.PLAYBACK_BACKWARD:
-            return (await import("./playback-backward")).IconPlaybackBackward;
+        case Icons.PERFORMANCE2:
+            return (await import("./performance2")).IconPerformance2;
     
-        case Icons.PLAYBACK_END:
-            return (await import("./playback-end")).IconPlaybackEnd;
+        case Icons.PERFORMANCE:
+            return (await import("./performance")).IconPerformance;
     
-        case Icons.PLAYBACK_FORWARD:
-            return (await import("./playback-forward")).IconPlaybackForward;
+        case Icons.PIN_TILTED:
+            return (await import("./pin-tilted")).IconPinTilted;
     
-        case Icons.PLAYBACK_NEXT:
-            return (await import("./playback-next")).IconPlaybackNext;
+        case Icons.PIN:
+            return (await import("./pin")).IconPin;
     
-        case Icons.PLAYBACK_PAUSE:
-            return (await import("./playback-pause")).IconPlaybackPause;
+        case Icons.POINTER_ARROW_LINE:
+            return (await import("./pointer-arrow-line")).IconPointerArrowLine;
     
-        case Icons.PLAYBACK_PLAY:
-            return (await import("./playback-play")).IconPlaybackPlay;
+        case Icons.POINTER_ARROW:
+            return (await import("./pointer-arrow")).IconPointerArrow;
     
-        case Icons.PLAYBACK_PREVIOUS:
-            return (await import("./playback-previous")).IconPlaybackPrevious;
+        case Icons.POINTER_CROSS:
+            return (await import("./pointer-cross")).IconPointerCross;
     
-        case Icons.PLAYBACK_START:
-            return (await import("./playback-start")).IconPlaybackStart;
+        case Icons.POINTER_HAND:
+            return (await import("./pointer-hand")).IconPointerHand;
     
-        case Icons.PLAYBACK_STOP:
-            return (await import("./playback-stop")).IconPlaybackStop;
+        case Icons.POINTER_LEFT:
+            return (await import("./pointer-left")).IconPointerLeft;
+    
+        case Icons.POINTER_MOUSE:
+            return (await import("./pointer-mouse")).IconPointerMouse;
+    
+        case Icons.POINTER_PEN:
+            return (await import("./pointer-pen")).IconPointerPen;
+    
+        case Icons.POINTER_TARGET:
+            return (await import("./pointer-target")).IconPointerTarget;
+    
+        case Icons.POINTER_TEXT:
+            return (await import("./pointer-text")).IconPointerText;
     
         case Icons.QUESTION_MARK_FAT:
             return (await import("./question-mark-fat")).IconQuestionMarkFat;
@@ -1608,9 +1812,6 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.QUESTION_MARK_S:
             return (await import("./question-mark-s")).IconQuestionMarkS;
-    
-        case Icons.RECORD:
-            return (await import("./record")).IconRecord;
     
         case Icons.REMOVE_LINES:
             return (await import("./remove-lines")).IconRemoveLines;
@@ -1627,6 +1828,9 @@ export const getIcon = async (icon: Icons) => {
         case Icons.SEARCH_SMALL:
             return (await import("./search-small")).IconSearchSmall;
     
+        case Icons.SECTION:
+            return (await import("./section")).IconSection;
+    
         case Icons.SETTINGS2:
             return (await import("./settings2")).IconSettings2;
     
@@ -1636,8 +1840,14 @@ export const getIcon = async (icon: Icons) => {
         case Icons.SETTINGS4:
             return (await import("./settings4")).IconSettings4;
     
+        case Icons.SETTINGS5:
+            return (await import("./settings5")).IconSettings5;
+    
         case Icons.SETTINGS:
             return (await import("./settings")).IconSettings;
+    
+        case Icons.SIMPLE_SUN:
+            return (await import("./simple-sun")).IconSimpleSun;
     
         case Icons.SPEECH_BALLOON2:
             return (await import("./speech-balloon2")).IconSpeechBalloon2;
@@ -1701,6 +1911,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.SQUARED:
             return (await import("./squared")).IconSquared;
+    
+        case Icons.STAMP:
+            return (await import("./stamp")).IconStamp;
     
         case Icons.STAR_FAT:
             return (await import("./star-fat")).IconStarFat;
@@ -1909,29 +2122,11 @@ export const getIcon = async (icon: Icons) => {
         case Icons.VISIBLE_S:
             return (await import("./visible-s")).IconVisibleS;
     
-        case Icons.VOLUME_I:
-            return (await import("./volume-i")).IconVolumeI;
-    
-        case Icons.VOLUME_II:
-            return (await import("./volume-ii")).IconVolumeIi;
-    
-        case Icons.VOLUME_III:
-            return (await import("./volume-iii")).IconVolumeIii;
-    
-        case Icons.VOLUME_MUTE:
-            return (await import("./volume-mute")).IconVolumeMute;
-    
-        case Icons.VOLUME_OFF:
-            return (await import("./volume-off")).IconVolumeOff;
-    
         case Icons.WHEELCHAIR_ACTION:
             return (await import("./wheelchair-action")).IconWheelchairAction;
     
         case Icons.WHEELCHAIR:
             return (await import("./wheelchair")).IconWheelchair;
-    
-        case Icons.ICON27:
-            return (await import("./icon27")).IconIcon27;
     
         case Icons.AIRPLANE_ARRIVALS:
             return (await import("./airplane-arrivals")).IconAirplaneArrivals;
@@ -1974,6 +2169,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.CRUISESHIP:
             return (await import("./cruiseship")).IconCruiseship;
+    
+        case Icons.ELEVATOR1:
+            return (await import("./elevator1")).IconElevator1;
     
         case Icons.ELEVATOR2:
             return (await import("./elevator2")).IconElevator2;
@@ -2038,6 +2236,24 @@ export const getIcon = async (icon: Icons) => {
         case Icons.NO_SMOKING:
             return (await import("./no-smoking")).IconNoSmoking;
     
+        case Icons.PALMTREE_ISLAND_WAVE:
+            return (await import("./palmtree-island-wave")).IconPalmtreeIslandWave;
+    
+        case Icons.PALMTREE_ISLAND:
+            return (await import("./palmtree-island")).IconPalmtreeIsland;
+    
+        case Icons.PALMTREE:
+            return (await import("./palmtree")).IconPalmtree;
+    
+        case Icons.PARASOL_ISLAND_WAVE:
+            return (await import("./parasol-island-wave")).IconParasolIslandWave;
+    
+        case Icons.PARASOL_ISLAND:
+            return (await import("./parasol-island")).IconParasolIsland;
+    
+        case Icons.PARASOL:
+            return (await import("./parasol")).IconParasol;
+    
         case Icons.PLASTER:
             return (await import("./plaster")).IconPlaster;
     
@@ -2058,6 +2274,12 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.SHIP:
             return (await import("./ship")).IconShip;
+    
+        case Icons.SIGNPOST2:
+            return (await import("./signpost2")).IconSignpost2;
+    
+        case Icons.SIGNPOST:
+            return (await import("./signpost")).IconSignpost;
     
         case Icons.SMOKING:
             return (await import("./smoking")).IconSmoking;

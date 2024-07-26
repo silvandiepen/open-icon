@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: #ed2024; opacity: .5; stroke-width: 0px;"/>
   <rect x="9" y="9" width="54" height="54" rx="4" ry="4" style="fill: none; stroke: #000; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <g style="opacity: .5;">
     <path d="M31.5,41.5c0,3.73-3.02,10.12-6.75,10.12s-6.75-6.4-6.75-10.12,3.02-6.75,6.75-6.75,6.75,3.02,6.75,6.75Z" style="fill: #ed1f24; stroke-width: 0px;"/>

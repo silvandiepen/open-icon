@@ -126,6 +126,10 @@ var Icons = {
   ARROW_UP_RIGHT: "arrow-up-right",
   ARROW_UP: "arrow-up",
   ARROW_UPLOAD: "arrow-upload",
+  CHEVRON_CONNECT2: "chevron-connect2",
+  CHEVRON_CONNECT: "chevron-connect",
+  CHEVRON_DISCONNECT2: "chevron-disconnect2",
+  CHEVRON_DISCONNECT: "chevron-disconnect",
   CHEVRON_DOUBLE_DOWN: "chevron-double-down",
   CHEVRON_DOUBLE_LEFT: "chevron-double-left",
   CHEVRON_DOUBLE_RIGHT: "chevron-double-right",
@@ -134,7 +138,71 @@ var Icons = {
   CHEVRON_LEFT: "chevron-left",
   CHEVRON_RIGHT: "chevron-right",
   CHEVRON_UP: "chevron-up",
-  ICON25: "icon25",
+  ICON01: "icon01",
+  BOTTLE: "bottle",
+  BOTTLES: "bottles",
+  BREAD_SLICE: "bread-slice",
+  COFFEE_CUP: "coffee-cup",
+  COFFEE_MACHINE: "coffee-machine",
+  COGNAC_GLASS: "cognac-glass",
+  ESPRESS_MACHINE2: "espress-machine2",
+  ESPRESSO_MACHINE_E61: "espresso-machine-e61",
+  ESPRESSO_MACHINE: "espresso-machine",
+  ESPRESSO_PISTOL: "espresso-pistol",
+  HAMBURGER: "hamburger",
+  PERCULATOR: "perculator",
+  WINE_GLASS: "wine-glass",
+  ALARM_BELL2: "alarm-bell2",
+  ALARM_BELL3: "alarm-bell3",
+  ALARM_BELL: "alarm-bell",
+  ART_SUPPLIES: "art-supplies",
+  AUDIO_WAVES: "audio-waves",
+  CAMERA: "camera",
+  CLIPBOARD: "clipboard",
+  COLOR_PALLETTE: "color-pallette",
+  COLOR_RGB: "color-rgb",
+  COLOR_SWATCHES: "color-swatches",
+  DESKTOP: "desktop",
+  FILMROLL: "filmroll",
+  GAMEPAD_CLASSIC: "gamepad-classic",
+  GAMEPAD: "gamepad",
+  HIGHLIGHT: "highlight",
+  IMAGE: "image",
+  LAPTOP: "laptop",
+  MAIL_OPEN: "mail-open",
+  MAIL: "mail",
+  MEDIA: "media",
+  MICROPHONE: "microphone",
+  MUSIC_NOTE_SINGLE: "music-note-single",
+  MUSIC_NOTE: "music-note",
+  PACMAN: "pacman",
+  PAPERPLANE: "paperplane",
+  PLAYBACK_BACKWARD: "playback-backward",
+  PLAYBACK_END: "playback-end",
+  PLAYBACK_FORWARD: "playback-forward",
+  PLAYBACK_NEXT: "playback-next",
+  PLAYBACK_PAUSE: "playback-pause",
+  PLAYBACK_PLAY: "playback-play",
+  PLAYBACK_PREVIOUS: "playback-previous",
+  PLAYBACK_START: "playback-start",
+  PLAYBACK_STOP: "playback-stop",
+  PRINTER: "printer",
+  RECORD: "record",
+  REELS: "reels",
+  TABLET_LANDSCAPE: "tablet-landscape",
+  TABLET: "tablet",
+  TELEVISION: "television",
+  TERMINAL: "terminal",
+  VIDEO_CAMERA: "video-camera",
+  VIDEOS: "videos",
+  VOLUME_I: "volume-i",
+  VOLUME_II: "volume-ii",
+  VOLUME_III: "volume-iii",
+  VOLUME_MUTE: "volume-mute",
+  VOLUME_OFF: "volume-off",
+  WEBSITE: "website",
+  ICON43: "icon43",
+  BAHT_SYMBOL: "baht-symbol",
   DICE1: "dice1",
   DICE2: "dice2",
   DICE3: "dice3",
@@ -153,10 +221,15 @@ var Icons = {
   DIGIT_DIGITAL7: "digit-digital7",
   DIGIT_DIGITAL8: "digit-digital8",
   DIGIT_DIGITAL9: "digit-digital9",
+  DIGIT_DIGTAL0: "digit-digtal0",
   DOLLAR: "dollar",
   EURO: "euro",
   PERCENTAGE: "percentage",
+  POUND_SYMBOL: "pound-symbol",
   PROMILLE: "promille",
+  RUBLES_SYMBOL: "rubles-symbol",
+  RUPEE_SYMBOL_COPY: "rupee-symbol-copy",
+  RUPEE_SYMBOL: "rupee-symbol",
   SYMBOL_FEMALE: "symbol-female",
   SYMBOL_MALE: "symbol-male",
   SYMBOL_UNISEX: "symbol-unisex",
@@ -171,46 +244,31 @@ var Icons = {
   TWO_DOTS_LINES: "two-dots-lines",
   TWO_DOTS_VERTICAL: "two-dots-vertical",
   YEN: "yen",
-  ALARM_BELL2: "alarm-bell2",
-  ALARM_BELL3: "alarm-bell3",
-  ALARM_BELL: "alarm-bell",
+  AI_FACE: "ai-face",
+  AI_LETTERS_BLOCKED: "ai-letters-blocked",
+  AI_LETTERS_CIRCLED: "ai-letters-circled",
+  AI_LETTERS: "ai-letters",
   ANIMAL_STEP: "animal-step",
   ARTWORK_FRAME: "artwork-frame",
-  AUDIO_WAVES: "audio-waves",
   BARBECUE: "barbecue",
   BATHROOM_ESSENTIALS: "bathroom-essentials",
   BINOCULARS: "binoculars",
   BLENDER: "blender",
   BOOKCASE: "bookcase",
-  BREAD_SLICE: "bread-slice",
   BULB: "bulb",
-  CAMERA: "camera",
   CHIP: "chip",
   CLEANING_BUCKET: "cleaning-bucket",
   CLEANING_SPRAY: "cleaning-spray",
-  CLIPBOARD: "clipboard",
   CLOSET: "closet",
-  COFFEE_CUP: "coffee-cup",
-  COFFEE_MACHINE: "coffee-machine",
   COFFEE_BEANS: "coffee-beans",
-  COGNAC_GLASS: "cognac-glass",
   COINS: "coins",
-  COLOR_PALLETTE: "color-pallette",
-  COLOR_RGB: "color-rgb",
-  COLOR_SWATCHES: "color-swatches",
   COMPASS2: "compass2",
   COMPASS: "compass",
   CUBE3D: "cube3d",
-  DESKTOP: "desktop",
   EDUCATION: "education",
-  ESPRESS_MACHINE2: "espress-machine2",
-  ESPRESSO_MACHINE_E61: "espresso-machine-e61",
-  ESPRESSO_MACHINE: "espresso-machine",
-  ESPRESSO_PISTOL: "espresso-pistol",
   FACTORY_ARM: "factory-arm",
   FACTORY_BELT: "factory-belt",
   FACTORY: "factory",
-  FILMROLL: "filmroll",
   FINGERPRINT: "fingerprint",
   FRIDGE: "fridge",
   FURNITURE_BED: "furniture-bed",
@@ -219,61 +277,41 @@ var Icons = {
   FURNITURE_COUCH: "furniture-couch",
   FURNITURE_DESK: "furniture-desk",
   FURNITURE_DRESSOIR: "furniture-dressoir",
-  GAMEPAD: "gamepad",
   GRAPH_UP_ROUND: "graph-up-round",
   GRAPH_UP: "graph-up",
   HAIRDRYER: "hairdryer",
-  HAMBURGER: "hamburger",
-  HIGHLIGHT: "highlight",
   IDEA_FACTORY: "idea-factory",
   INDUSTRY3: "industry3",
   IRON: "iron",
   KITCHEN_CUTLERY: "kitchen-cutlery",
   KITCHEN_UTENSILS: "kitchen-utensils",
-  LAPTOP: "laptop",
   LEAF2: "leaf2",
   LEAF3: "leaf3",
   LEAF: "leaf",
   LEAFS: "leafs",
   LIQUID_SOAP2: "liquid-soap2",
   LIQUID_SOAP: "liquid-soap",
-  MAIL_OPEN: "mail-open",
-  MAIL: "mail",
   MICROWAVE: "microwave",
   MONEY: "money",
   MONEYBAG: "moneybag",
-  MUSIC_NOTE_SINGLE: "music-note-single",
-  MUSIC_NOTE: "music-note",
   OVEN: "oven",
-  PAPERPLANE: "paperplane",
-  PERCULATOR: "perculator",
   PLANT: "plant",
   POLITICIAN2: "politician2",
   POLITICIAN: "politician",
-  PRINTER: "printer",
-  REELS: "reels",
   ROOM_SHADE: "room-shade",
   STOVE: "stove",
-  TABLET_LANDSCAPE: "tablet-landscape",
-  TABLET: "tablet",
-  TELEVISION: "television",
   TEMPLE2: "temple2",
   TEMPLE: "temple",
-  TERMINAL: "terminal",
   TREE2: "tree2",
   TREE3: "tree3",
   TREE: "tree",
   TREES2: "trees2",
   TREES: "trees",
   TURTLE: "turtle",
-  VIDEO_CAMERA: "video-camera",
-  VIDEOS: "videos",
   VOTE: "vote",
   WALLET: "wallet",
   WASHING_MACHINE: "washing-machine",
   WATERCOOKER: "watercooker",
-  WEBSITE: "website",
-  WINE_GLASS: "wine-glass",
   ACCESSIBILITY_PERSON_CIRCLED: "accessibility-person-circled",
   ACCESSIBILITY_PERSON: "accessibility-person",
   ADD_FAT: "add-fat",
@@ -281,11 +319,12 @@ var Icons = {
   ADD_LINES: "add-lines",
   ADD_M: "add-m",
   ADD_S: "add-s",
-  ART_SUPPLIES: "art-supplies",
   AT_SIGN: "at-sign",
+  BLOCK_PARTIALS: "block-partials",
   BOARD_ADD2: "board-add2",
   BOARD_MULTI2_HORIZONTAL: "board-multi2-horizontal",
   BOARD_MULTI2_VERTICAL: "board-multi2-vertical",
+  BOARD_MULTI_DASHBOARD: "board-multi-dashboard",
   BOARD_MULTI_T_DOWN: "board-multi-t-down",
   BOARD_MULTI_T_LEFT: "board-multi-t-left",
   BOARD_MULTI_T_RIGHT: "board-multi-t-right",
@@ -345,6 +384,13 @@ var Icons = {
   BUTTON_VISIBLE2: "button-visible2",
   BUTTON_VISIBLE: "button-visible",
   BUTTON: "button",
+  CHART_BARS_SQUARED: "chart-bars-squared",
+  CHART_BUBBLES: "chart-bubbles",
+  CHART_CANDLES: "chart-candles",
+  CHART_HALF_CIRCLE: "chart-half-circle",
+  CHART_LINE_SQUARED: "chart-line-squared",
+  CHART_LINE: "chart-line",
+  CHART_PIE: "chart-pie",
   CHECK_FAT: "check-fat",
   CHECK_L: "check-l",
   CHECK_LIST: "check-list",
@@ -381,6 +427,7 @@ var Icons = {
   DISLIKE: "dislike",
   EDIT_FAT: "edit-fat",
   EDIT_L: "edit-l",
+  EDIT_LINE_SWIRL: "edit-line-swirl",
   EDIT_LINE: "edit-line",
   EDIT_M: "edit-m",
   EDIT_S: "edit-s",
@@ -471,7 +518,6 @@ var Icons = {
   HEART_L: "heart-l",
   HEART_M: "heart-m",
   HEART_SMALL: "heart-small",
-  IMAGE: "image",
   INFO_FAT: "info-fat",
   INFO_L: "info-l",
   INFO_M: "info-m",
@@ -480,11 +526,29 @@ var Icons = {
   INVISIBLE_L: "invisible-l",
   INVISIBLE_M: "invisible-m",
   INVISIBLE_S: "invisible-s",
+  KEY_BACKSPACE: "key-backspace",
+  KEY_DELETE: "key-delete",
+  KEY_DOWN: "key-down",
+  KEY_EJECT: "key-eject",
+  KEY_ENTER: "key-enter",
+  KEY_FUNCTION: "key-function",
+  KEY_MAC_COMMAND: "key-mac-command",
+  KEY_OPTION: "key-option",
+  KEY_PAGE_DOWN: "key-page-down",
+  KEY_PAGE_NEXT: "key-page-next",
+  KEY_PAGE_UP: "key-page-up",
+  KEY_PREVIOUS_UP: "key-previous-up",
+  KEY_SHIFT: "key-shift",
+  KEY_TAB: "key-tab",
+  KEY_UP: "key-up",
   LIGHTNING_FLASH: "lightning-flash",
   LIKE: "like",
   LINK: "link",
+  LOADER_DOTS2: "loader-dots2",
+  LOADER_DOTS: "loader-dots",
+  LOCATION_MARKER: "location-marker",
+  LOCATION_PIN: "location-pin",
   MALE_SIMPLIFIED: "male-simplified",
-  MEDIA: "media",
   MOON: "moon",
   MOVING_BLOCK: "moving-block",
   MULTIPLY_FAT: "multiply-fat",
@@ -522,29 +586,35 @@ var Icons = {
   NOTE: "note",
   ON_TARGET: "on-target",
   PARAGRAPH: "paragraph",
-  PLAYBACK_BACKWARD: "playback-backward",
-  PLAYBACK_END: "playback-end",
-  PLAYBACK_FORWARD: "playback-forward",
-  PLAYBACK_NEXT: "playback-next",
-  PLAYBACK_PAUSE: "playback-pause",
-  PLAYBACK_PLAY: "playback-play",
-  PLAYBACK_PREVIOUS: "playback-previous",
-  PLAYBACK_START: "playback-start",
-  PLAYBACK_STOP: "playback-stop",
+  PERFORMANCE2: "performance2",
+  PERFORMANCE: "performance",
+  PIN_TILTED: "pin-tilted",
+  PIN: "pin",
+  POINTER_ARROW_LINE: "pointer-arrow-line",
+  POINTER_ARROW: "pointer-arrow",
+  POINTER_CROSS: "pointer-cross",
+  POINTER_HAND: "pointer-hand",
+  POINTER_LEFT: "pointer-left",
+  POINTER_MOUSE: "pointer-mouse",
+  POINTER_PEN: "pointer-pen",
+  POINTER_TARGET: "pointer-target",
+  POINTER_TEXT: "pointer-text",
   QUESTION_MARK_FAT: "question-mark-fat",
   QUESTION_MARK_L: "question-mark-l",
   QUESTION_MARK_M: "question-mark-m",
   QUESTION_MARK_S: "question-mark-s",
-  RECORD: "record",
   REMOVE_LINES: "remove-lines",
   SEARCH_FAT: "search-fat",
   SEARCH_L: "search-l",
   SEARCH_M: "search-m",
   SEARCH_SMALL: "search-small",
+  SECTION: "section",
   SETTINGS2: "settings2",
   SETTINGS3: "settings3",
   SETTINGS4: "settings4",
+  SETTINGS5: "settings5",
   SETTINGS: "settings",
+  SIMPLE_SUN: "simple-sun",
   SPEECH_BALLOON2: "speech-balloon2",
   SPEECH_BALLOON_SQUARE2: "speech-balloon-square2",
   SPEECH_BALLOON_SQUARE_COPY: "speech-balloon-square-copy",
@@ -566,6 +636,7 @@ var Icons = {
   SQUARED_SUBTRACT: "squared-subtract",
   SQUARED_VISIBLE: "squared-visible",
   SQUARED: "squared",
+  STAMP: "stamp",
   STAR_FAT: "star-fat",
   STAR_L: "star-l",
   STAR_M: "star-m",
@@ -635,14 +706,8 @@ var Icons = {
   VISIBLE_L: "visible-l",
   VISIBLE_M: "visible-m",
   VISIBLE_S: "visible-s",
-  VOLUME_I: "volume-i",
-  VOLUME_II: "volume-ii",
-  VOLUME_III: "volume-iii",
-  VOLUME_MUTE: "volume-mute",
-  VOLUME_OFF: "volume-off",
   WHEELCHAIR_ACTION: "wheelchair-action",
   WHEELCHAIR: "wheelchair",
-  ICON27: "icon27",
   AIRPLANE_ARRIVALS: "airplane-arrivals",
   AIRPLANE_DEPARTURES: "airplane-departures",
   AIRPLANE: "airplane",
@@ -657,6 +722,7 @@ var Icons = {
   CROSS_CIRCLED: "cross-circled",
   CROSS: "cross",
   CRUISESHIP: "cruiseship",
+  ELEVATOR1: "elevator1",
   ELEVATOR2: "elevator2",
   ELEVATOR3: "elevator3",
   ELEVATOR4: "elevator4",
@@ -678,6 +744,12 @@ var Icons = {
   METRO: "metro",
   NO_SMOKING_CIRCLED: "no-smoking-circled",
   NO_SMOKING: "no-smoking",
+  PALMTREE_ISLAND_WAVE: "palmtree-island-wave",
+  PALMTREE_ISLAND: "palmtree-island",
+  PALMTREE: "palmtree",
+  PARASOL_ISLAND_WAVE: "parasol-island-wave",
+  PARASOL_ISLAND: "parasol-island",
+  PARASOL: "parasol",
   PLASTER: "plaster",
   PLASTERS: "plasters",
   RENTAL_CAR: "rental-car",
@@ -685,6 +757,8 @@ var Icons = {
   SECURITY_CAMERA3: "security-camera3",
   SECURITY_CAMERA: "security-camera",
   SHIP: "ship",
+  SIGNPOST2: "signpost2",
+  SIGNPOST: "signpost",
   SMOKING: "smoking",
   STAIRS_DOWN: "stairs-down",
   STAIRS_UP: "stairs-up",
@@ -968,6 +1042,14 @@ var getIcon = async (icon) => {
       return (await import("./arrow-up-7CK2EP53.mjs")).IconArrowUp;
     case Icons.ARROW_UPLOAD:
       return (await import("./arrow-upload-2RMZ4PEP.mjs")).IconArrowUpload;
+    case Icons.CHEVRON_CONNECT2:
+      return (await import("./chevron-connect2-XKSGEFSJ.mjs")).IconChevronConnect2;
+    case Icons.CHEVRON_CONNECT:
+      return (await import("./chevron-connect-FRLXGTG6.mjs")).IconChevronConnect;
+    case Icons.CHEVRON_DISCONNECT2:
+      return (await import("./chevron-disconnect2-SQNKY5HO.mjs")).IconChevronDisconnect2;
+    case Icons.CHEVRON_DISCONNECT:
+      return (await import("./chevron-disconnect-4EOGE3KE.mjs")).IconChevronDisconnect;
     case Icons.CHEVRON_DOUBLE_DOWN:
       return (await import("./chevron-double-down-MXM2C6FL.mjs")).IconChevronDoubleDown;
     case Icons.CHEVRON_DOUBLE_LEFT:
@@ -984,8 +1066,136 @@ var getIcon = async (icon) => {
       return (await import("./chevron-right-NRNWFDOH.mjs")).IconChevronRight;
     case Icons.CHEVRON_UP:
       return (await import("./chevron-up-PWLJRQK7.mjs")).IconChevronUp;
-    case Icons.ICON25:
-      return (await import("./icon25-SOE2OXWZ.mjs")).IconIcon25;
+    case Icons.ICON01:
+      return (await import("./icon01-RESRW5OK.mjs")).IconIcon01;
+    case Icons.BOTTLE:
+      return (await import("./bottle-UGRMUHUE.mjs")).IconBottle;
+    case Icons.BOTTLES:
+      return (await import("./bottles-Y2FZKALH.mjs")).IconBottles;
+    case Icons.BREAD_SLICE:
+      return (await import("./bread-slice-HTBX4DZO.mjs")).IconBreadSlice;
+    case Icons.COFFEE_CUP:
+      return (await import("./coffee-cup-GNLSKKMB.mjs")).IconCoffeeCup;
+    case Icons.COFFEE_MACHINE:
+      return (await import("./coffee-machine-A4N4AI66.mjs")).IconCoffeeMachine;
+    case Icons.COGNAC_GLASS:
+      return (await import("./cognac-glass-CQ7Y2DEU.mjs")).IconCognacGlass;
+    case Icons.ESPRESS_MACHINE2:
+      return (await import("./espress-machine2-IZZWKUAM.mjs")).IconEspressMachine2;
+    case Icons.ESPRESSO_MACHINE_E61:
+      return (await import("./espresso-machine-e61-3TWSMQLQ.mjs")).IconEspressoMachineE61;
+    case Icons.ESPRESSO_MACHINE:
+      return (await import("./espresso-machine-QZSLKPT4.mjs")).IconEspressoMachine;
+    case Icons.ESPRESSO_PISTOL:
+      return (await import("./espresso-pistol-OPDN6PWY.mjs")).IconEspressoPistol;
+    case Icons.HAMBURGER:
+      return (await import("./hamburger-CTSZDK3V.mjs")).IconHamburger;
+    case Icons.PERCULATOR:
+      return (await import("./perculator-2HMW3T6S.mjs")).IconPerculator;
+    case Icons.WINE_GLASS:
+      return (await import("./wine-glass-XZQWTOMS.mjs")).IconWineGlass;
+    case Icons.ALARM_BELL2:
+      return (await import("./alarm-bell2-2CA5GGUN.mjs")).IconAlarmBell2;
+    case Icons.ALARM_BELL3:
+      return (await import("./alarm-bell3-JVGJCY3F.mjs")).IconAlarmBell3;
+    case Icons.ALARM_BELL:
+      return (await import("./alarm-bell-K4ELIMOG.mjs")).IconAlarmBell;
+    case Icons.ART_SUPPLIES:
+      return (await import("./art-supplies-Z45TCYUD.mjs")).IconArtSupplies;
+    case Icons.AUDIO_WAVES:
+      return (await import("./audio-waves-KE7UDFI2.mjs")).IconAudioWaves;
+    case Icons.CAMERA:
+      return (await import("./camera-FE65LLZA.mjs")).IconCamera;
+    case Icons.CLIPBOARD:
+      return (await import("./clipboard-2XV6U23H.mjs")).IconClipboard;
+    case Icons.COLOR_PALLETTE:
+      return (await import("./color-pallette-3LFV2ZDD.mjs")).IconColorPallette;
+    case Icons.COLOR_RGB:
+      return (await import("./color-rgb-HBAKEI35.mjs")).IconColorRgb;
+    case Icons.COLOR_SWATCHES:
+      return (await import("./color-swatches-BUX4QX3J.mjs")).IconColorSwatches;
+    case Icons.DESKTOP:
+      return (await import("./desktop-ARJKQB33.mjs")).IconDesktop;
+    case Icons.FILMROLL:
+      return (await import("./filmroll-NBOKX2YU.mjs")).IconFilmroll;
+    case Icons.GAMEPAD_CLASSIC:
+      return (await import("./gamepad-classic-WC7BYKWF.mjs")).IconGamepadClassic;
+    case Icons.GAMEPAD:
+      return (await import("./gamepad-5BAEDWX3.mjs")).IconGamepad;
+    case Icons.HIGHLIGHT:
+      return (await import("./highlight-QVFLDPKV.mjs")).IconHighlight;
+    case Icons.IMAGE:
+      return (await import("./image-TQNEFIVT.mjs")).IconImage;
+    case Icons.LAPTOP:
+      return (await import("./laptop-K3S57FRN.mjs")).IconLaptop;
+    case Icons.MAIL_OPEN:
+      return (await import("./mail-open-764U2UTQ.mjs")).IconMailOpen;
+    case Icons.MAIL:
+      return (await import("./mail-JSHPRYC2.mjs")).IconMail;
+    case Icons.MEDIA:
+      return (await import("./media-YK3HYLSM.mjs")).IconMedia;
+    case Icons.MICROPHONE:
+      return (await import("./microphone-QOKLRZQZ.mjs")).IconMicrophone;
+    case Icons.MUSIC_NOTE_SINGLE:
+      return (await import("./music-note-single-NE4DUU2R.mjs")).IconMusicNoteSingle;
+    case Icons.MUSIC_NOTE:
+      return (await import("./music-note-DNISWRAL.mjs")).IconMusicNote;
+    case Icons.PACMAN:
+      return (await import("./pacman-C4JNCRLX.mjs")).IconPacman;
+    case Icons.PAPERPLANE:
+      return (await import("./paperplane-DEOA3QBI.mjs")).IconPaperplane;
+    case Icons.PLAYBACK_BACKWARD:
+      return (await import("./playback-backward-7NSQPJJL.mjs")).IconPlaybackBackward;
+    case Icons.PLAYBACK_END:
+      return (await import("./playback-end-EM2QG4MA.mjs")).IconPlaybackEnd;
+    case Icons.PLAYBACK_FORWARD:
+      return (await import("./playback-forward-XFU5FOMD.mjs")).IconPlaybackForward;
+    case Icons.PLAYBACK_NEXT:
+      return (await import("./playback-next-6PJ7XG3V.mjs")).IconPlaybackNext;
+    case Icons.PLAYBACK_PAUSE:
+      return (await import("./playback-pause-T273IPGD.mjs")).IconPlaybackPause;
+    case Icons.PLAYBACK_PLAY:
+      return (await import("./playback-play-RPCJB4TK.mjs")).IconPlaybackPlay;
+    case Icons.PLAYBACK_PREVIOUS:
+      return (await import("./playback-previous-OBMAZZV5.mjs")).IconPlaybackPrevious;
+    case Icons.PLAYBACK_START:
+      return (await import("./playback-start-FNU2EZVP.mjs")).IconPlaybackStart;
+    case Icons.PLAYBACK_STOP:
+      return (await import("./playback-stop-VJK5K6NU.mjs")).IconPlaybackStop;
+    case Icons.PRINTER:
+      return (await import("./printer-46LRRVY4.mjs")).IconPrinter;
+    case Icons.RECORD:
+      return (await import("./record-MMIK53ZB.mjs")).IconRecord;
+    case Icons.REELS:
+      return (await import("./reels-R36XKLDN.mjs")).IconReels;
+    case Icons.TABLET_LANDSCAPE:
+      return (await import("./tablet-landscape-4GMI7SKG.mjs")).IconTabletLandscape;
+    case Icons.TABLET:
+      return (await import("./tablet-GWN5Y6OQ.mjs")).IconTablet;
+    case Icons.TELEVISION:
+      return (await import("./television-LKECRLPV.mjs")).IconTelevision;
+    case Icons.TERMINAL:
+      return (await import("./terminal-XX5ZEZLO.mjs")).IconTerminal;
+    case Icons.VIDEO_CAMERA:
+      return (await import("./video-camera-RWQYQJJU.mjs")).IconVideoCamera;
+    case Icons.VIDEOS:
+      return (await import("./videos-MWFRU4WC.mjs")).IconVideos;
+    case Icons.VOLUME_I:
+      return (await import("./volume-i-TK7LC6TM.mjs")).IconVolumeI;
+    case Icons.VOLUME_II:
+      return (await import("./volume-ii-PDSKZ4GN.mjs")).IconVolumeIi;
+    case Icons.VOLUME_III:
+      return (await import("./volume-iii-SFME6ZRK.mjs")).IconVolumeIii;
+    case Icons.VOLUME_MUTE:
+      return (await import("./volume-mute-JXCP657L.mjs")).IconVolumeMute;
+    case Icons.VOLUME_OFF:
+      return (await import("./volume-off-BLNEQ3AF.mjs")).IconVolumeOff;
+    case Icons.WEBSITE:
+      return (await import("./website-UJL2ESHB.mjs")).IconWebsite;
+    case Icons.ICON43:
+      return (await import("./icon43-WLSUBKQH.mjs")).IconIcon43;
+    case Icons.BAHT_SYMBOL:
+      return (await import("./baht-symbol-TJHKIT7M.mjs")).IconBahtSymbol;
     case Icons.DICE1:
       return (await import("./dice1-TEOBW5BL.mjs")).IconDice1;
     case Icons.DICE2:
@@ -1022,14 +1232,24 @@ var getIcon = async (icon) => {
       return (await import("./digit-digital8-OT3Q3YLA.mjs")).IconDigitDigital8;
     case Icons.DIGIT_DIGITAL9:
       return (await import("./digit-digital9-BMEZMMM5.mjs")).IconDigitDigital9;
+    case Icons.DIGIT_DIGTAL0:
+      return (await import("./digit-digtal0-RXT4NNOG.mjs")).IconDigitDigtal0;
     case Icons.DOLLAR:
-      return (await import("./dollar-RGSARS66.mjs")).IconDollar;
+      return (await import("./dollar-NB4DP6VL.mjs")).IconDollar;
     case Icons.EURO:
-      return (await import("./euro-7XXAYC3T.mjs")).IconEuro;
+      return (await import("./euro-UQU4N4HA.mjs")).IconEuro;
     case Icons.PERCENTAGE:
       return (await import("./percentage-PAKMXCLN.mjs")).IconPercentage;
+    case Icons.POUND_SYMBOL:
+      return (await import("./pound-symbol-IMPL6JHX.mjs")).IconPoundSymbol;
     case Icons.PROMILLE:
       return (await import("./promille-WZSWVBJT.mjs")).IconPromille;
+    case Icons.RUBLES_SYMBOL:
+      return (await import("./rubles-symbol-Y6F3TTYZ.mjs")).IconRublesSymbol;
+    case Icons.RUPEE_SYMBOL_COPY:
+      return (await import("./rupee-symbol-copy-NNOZJS7C.mjs")).IconRupeeSymbolCopy;
+    case Icons.RUPEE_SYMBOL:
+      return (await import("./rupee-symbol-CVWRQEXC.mjs")).IconRupeeSymbol;
     case Icons.SYMBOL_FEMALE:
       return (await import("./symbol-female-W4QKG3UT.mjs")).IconSymbolFemale;
     case Icons.SYMBOL_MALE:
@@ -1057,19 +1277,19 @@ var getIcon = async (icon) => {
     case Icons.TWO_DOTS_VERTICAL:
       return (await import("./two-dots-vertical-VJ2AZ53P.mjs")).IconTwoDotsVertical;
     case Icons.YEN:
-      return (await import("./yen-FO7VKK3B.mjs")).IconYen;
-    case Icons.ALARM_BELL2:
-      return (await import("./alarm-bell2-2CA5GGUN.mjs")).IconAlarmBell2;
-    case Icons.ALARM_BELL3:
-      return (await import("./alarm-bell3-JVGJCY3F.mjs")).IconAlarmBell3;
-    case Icons.ALARM_BELL:
-      return (await import("./alarm-bell-K4ELIMOG.mjs")).IconAlarmBell;
+      return (await import("./yen-24ZQ3B34.mjs")).IconYen;
+    case Icons.AI_FACE:
+      return (await import("./ai-face-LWX36TZC.mjs")).IconAiFace;
+    case Icons.AI_LETTERS_BLOCKED:
+      return (await import("./ai-letters-blocked-NPS4BMRJ.mjs")).IconAiLettersBlocked;
+    case Icons.AI_LETTERS_CIRCLED:
+      return (await import("./ai-letters-circled-B5KJAUY4.mjs")).IconAiLettersCircled;
+    case Icons.AI_LETTERS:
+      return (await import("./ai-letters-2Z7DILEN.mjs")).IconAiLetters;
     case Icons.ANIMAL_STEP:
       return (await import("./animal-step-USKRVT37.mjs")).IconAnimalStep;
     case Icons.ARTWORK_FRAME:
       return (await import("./artwork-frame-VCEEIRYM.mjs")).IconArtworkFrame;
-    case Icons.AUDIO_WAVES:
-      return (await import("./audio-waves-KE7UDFI2.mjs")).IconAudioWaves;
     case Icons.BARBECUE:
       return (await import("./barbecue-6OIQCLBQ.mjs")).IconBarbecue;
     case Icons.BATHROOM_ESSENTIALS:
@@ -1080,64 +1300,34 @@ var getIcon = async (icon) => {
       return (await import("./blender-37V3QBWE.mjs")).IconBlender;
     case Icons.BOOKCASE:
       return (await import("./bookcase-HMQOC65B.mjs")).IconBookcase;
-    case Icons.BREAD_SLICE:
-      return (await import("./bread-slice-HTBX4DZO.mjs")).IconBreadSlice;
     case Icons.BULB:
       return (await import("./bulb-JL3QOMKD.mjs")).IconBulb;
-    case Icons.CAMERA:
-      return (await import("./camera-FE65LLZA.mjs")).IconCamera;
     case Icons.CHIP:
-      return (await import("./chip-OR7H5GLH.mjs")).IconChip;
+      return (await import("./chip-LP6CYLKU.mjs")).IconChip;
     case Icons.CLEANING_BUCKET:
       return (await import("./cleaning-bucket-4IJT7A2F.mjs")).IconCleaningBucket;
     case Icons.CLEANING_SPRAY:
       return (await import("./cleaning-spray-ZLU4RYEV.mjs")).IconCleaningSpray;
-    case Icons.CLIPBOARD:
-      return (await import("./clipboard-2XV6U23H.mjs")).IconClipboard;
     case Icons.CLOSET:
       return (await import("./closet-BJZQTYLA.mjs")).IconCloset;
-    case Icons.COFFEE_CUP:
-      return (await import("./coffee-cup-GNLSKKMB.mjs")).IconCoffeeCup;
-    case Icons.COFFEE_MACHINE:
-      return (await import("./coffee-machine-A4N4AI66.mjs")).IconCoffeeMachine;
     case Icons.COFFEE_BEANS:
       return (await import("./coffee-beans-XALZJGD2.mjs")).IconCoffeeBeans;
-    case Icons.COGNAC_GLASS:
-      return (await import("./cognac-glass-CQ7Y2DEU.mjs")).IconCognacGlass;
     case Icons.COINS:
       return (await import("./coins-G5HMLWJQ.mjs")).IconCoins;
-    case Icons.COLOR_PALLETTE:
-      return (await import("./color-pallette-3LFV2ZDD.mjs")).IconColorPallette;
-    case Icons.COLOR_RGB:
-      return (await import("./color-rgb-HBAKEI35.mjs")).IconColorRgb;
-    case Icons.COLOR_SWATCHES:
-      return (await import("./color-swatches-BUX4QX3J.mjs")).IconColorSwatches;
     case Icons.COMPASS2:
       return (await import("./compass2-UG2TLB2Y.mjs")).IconCompass2;
     case Icons.COMPASS:
       return (await import("./compass-V3IW3VSO.mjs")).IconCompass;
     case Icons.CUBE3D:
       return (await import("./cube3d-VSS6AXY3.mjs")).IconCube3d;
-    case Icons.DESKTOP:
-      return (await import("./desktop-MR4RESAW.mjs")).IconDesktop;
     case Icons.EDUCATION:
       return (await import("./education-QJDB5FKS.mjs")).IconEducation;
-    case Icons.ESPRESS_MACHINE2:
-      return (await import("./espress-machine2-IZZWKUAM.mjs")).IconEspressMachine2;
-    case Icons.ESPRESSO_MACHINE_E61:
-      return (await import("./espresso-machine-e61-3TWSMQLQ.mjs")).IconEspressoMachineE61;
-    case Icons.ESPRESSO_MACHINE:
-      return (await import("./espresso-machine-QZSLKPT4.mjs")).IconEspressoMachine;
-    case Icons.ESPRESSO_PISTOL:
-      return (await import("./espresso-pistol-OPDN6PWY.mjs")).IconEspressoPistol;
     case Icons.FACTORY_ARM:
       return (await import("./factory-arm-LZOXE74K.mjs")).IconFactoryArm;
     case Icons.FACTORY_BELT:
       return (await import("./factory-belt-4VHD2MHX.mjs")).IconFactoryBelt;
     case Icons.FACTORY:
       return (await import("./factory-YA7P5IQA.mjs")).IconFactory;
-    case Icons.FILMROLL:
-      return (await import("./filmroll-NBOKX2YU.mjs")).IconFilmroll;
     case Icons.FINGERPRINT:
       return (await import("./fingerprint-JGJRWC5T.mjs")).IconFingerprint;
     case Icons.FRIDGE:
@@ -1154,18 +1344,12 @@ var getIcon = async (icon) => {
       return (await import("./furniture-desk-5DH7HC3A.mjs")).IconFurnitureDesk;
     case Icons.FURNITURE_DRESSOIR:
       return (await import("./furniture-dressoir-EO77Z25M.mjs")).IconFurnitureDressoir;
-    case Icons.GAMEPAD:
-      return (await import("./gamepad-LOH2BQWC.mjs")).IconGamepad;
     case Icons.GRAPH_UP_ROUND:
       return (await import("./graph-up-round-YZ6QP4TC.mjs")).IconGraphUpRound;
     case Icons.GRAPH_UP:
       return (await import("./graph-up-6JVLLVD5.mjs")).IconGraphUp;
     case Icons.HAIRDRYER:
       return (await import("./hairdryer-A5MUPXVB.mjs")).IconHairdryer;
-    case Icons.HAMBURGER:
-      return (await import("./hamburger-CTSZDK3V.mjs")).IconHamburger;
-    case Icons.HIGHLIGHT:
-      return (await import("./highlight-QVFLDPKV.mjs")).IconHighlight;
     case Icons.IDEA_FACTORY:
       return (await import("./idea-factory-2JVNHM27.mjs")).IconIdeaFactory;
     case Icons.INDUSTRY3:
@@ -1176,8 +1360,6 @@ var getIcon = async (icon) => {
       return (await import("./kitchen-cutlery-VDUFRQIN.mjs")).IconKitchenCutlery;
     case Icons.KITCHEN_UTENSILS:
       return (await import("./kitchen-utensils-DWEONZKS.mjs")).IconKitchenUtensils;
-    case Icons.LAPTOP:
-      return (await import("./laptop-K3S57FRN.mjs")).IconLaptop;
     case Icons.LEAF2:
       return (await import("./leaf2-MYGAXNNO.mjs")).IconLeaf2;
     case Icons.LEAF3:
@@ -1190,52 +1372,28 @@ var getIcon = async (icon) => {
       return (await import("./liquid-soap2-46G7TYKT.mjs")).IconLiquidSoap2;
     case Icons.LIQUID_SOAP:
       return (await import("./liquid-soap-XPFGO4SZ.mjs")).IconLiquidSoap;
-    case Icons.MAIL_OPEN:
-      return (await import("./mail-open-764U2UTQ.mjs")).IconMailOpen;
-    case Icons.MAIL:
-      return (await import("./mail-JSHPRYC2.mjs")).IconMail;
     case Icons.MICROWAVE:
       return (await import("./microwave-NCTPXVLB.mjs")).IconMicrowave;
     case Icons.MONEY:
       return (await import("./money-AOHXLXCI.mjs")).IconMoney;
     case Icons.MONEYBAG:
       return (await import("./moneybag-T6F2YNT2.mjs")).IconMoneybag;
-    case Icons.MUSIC_NOTE_SINGLE:
-      return (await import("./music-note-single-NE4DUU2R.mjs")).IconMusicNoteSingle;
-    case Icons.MUSIC_NOTE:
-      return (await import("./music-note-DNISWRAL.mjs")).IconMusicNote;
     case Icons.OVEN:
       return (await import("./oven-UFOOOYXM.mjs")).IconOven;
-    case Icons.PAPERPLANE:
-      return (await import("./paperplane-DEOA3QBI.mjs")).IconPaperplane;
-    case Icons.PERCULATOR:
-      return (await import("./perculator-2HMW3T6S.mjs")).IconPerculator;
     case Icons.PLANT:
       return (await import("./plant-2ZMMXUV6.mjs")).IconPlant;
     case Icons.POLITICIAN2:
       return (await import("./politician2-S7UIRU57.mjs")).IconPolitician2;
     case Icons.POLITICIAN:
       return (await import("./politician-XDTTQGK2.mjs")).IconPolitician;
-    case Icons.PRINTER:
-      return (await import("./printer-46LRRVY4.mjs")).IconPrinter;
-    case Icons.REELS:
-      return (await import("./reels-R36XKLDN.mjs")).IconReels;
     case Icons.ROOM_SHADE:
       return (await import("./room-shade-22YVBSZV.mjs")).IconRoomShade;
     case Icons.STOVE:
       return (await import("./stove-4MCKVM2Y.mjs")).IconStove;
-    case Icons.TABLET_LANDSCAPE:
-      return (await import("./tablet-landscape-4GMI7SKG.mjs")).IconTabletLandscape;
-    case Icons.TABLET:
-      return (await import("./tablet-GWN5Y6OQ.mjs")).IconTablet;
-    case Icons.TELEVISION:
-      return (await import("./television-LKECRLPV.mjs")).IconTelevision;
     case Icons.TEMPLE2:
       return (await import("./temple2-ONVQEPLQ.mjs")).IconTemple2;
     case Icons.TEMPLE:
-      return (await import("./temple-GN3ITLME.mjs")).IconTemple;
-    case Icons.TERMINAL:
-      return (await import("./terminal-XX5ZEZLO.mjs")).IconTerminal;
+      return (await import("./temple-DCL5S6BS.mjs")).IconTemple;
     case Icons.TREE2:
       return (await import("./tree2-5YWDQ7RY.mjs")).IconTree2;
     case Icons.TREE3:
@@ -1248,10 +1406,6 @@ var getIcon = async (icon) => {
       return (await import("./trees-3BQTDSTZ.mjs")).IconTrees;
     case Icons.TURTLE:
       return (await import("./turtle-B3ROH2QT.mjs")).IconTurtle;
-    case Icons.VIDEO_CAMERA:
-      return (await import("./video-camera-RWQYQJJU.mjs")).IconVideoCamera;
-    case Icons.VIDEOS:
-      return (await import("./videos-MWFRU4WC.mjs")).IconVideos;
     case Icons.VOTE:
       return (await import("./vote-HRAAZF64.mjs")).IconVote;
     case Icons.WALLET:
@@ -1260,10 +1414,6 @@ var getIcon = async (icon) => {
       return (await import("./washing-machine-U4FOQLQC.mjs")).IconWashingMachine;
     case Icons.WATERCOOKER:
       return (await import("./watercooker-B7UID2WP.mjs")).IconWatercooker;
-    case Icons.WEBSITE:
-      return (await import("./website-UJL2ESHB.mjs")).IconWebsite;
-    case Icons.WINE_GLASS:
-      return (await import("./wine-glass-XZQWTOMS.mjs")).IconWineGlass;
     case Icons.ACCESSIBILITY_PERSON_CIRCLED:
       return (await import("./accessibility-person-circled-Q4RXGWPX.mjs")).IconAccessibilityPersonCircled;
     case Icons.ACCESSIBILITY_PERSON:
@@ -1278,16 +1428,18 @@ var getIcon = async (icon) => {
       return (await import("./add-m-NVPQGGBL.mjs")).IconAddM;
     case Icons.ADD_S:
       return (await import("./add-s-3QJWGDFP.mjs")).IconAddS;
-    case Icons.ART_SUPPLIES:
-      return (await import("./art-supplies-3OYP3CGC.mjs")).IconArtSupplies;
     case Icons.AT_SIGN:
       return (await import("./at-sign-NKKANPEW.mjs")).IconAtSign;
+    case Icons.BLOCK_PARTIALS:
+      return (await import("./block-partials-APEAL4CX.mjs")).IconBlockPartials;
     case Icons.BOARD_ADD2:
       return (await import("./board-add2-ET6W7W2I.mjs")).IconBoardAdd2;
     case Icons.BOARD_MULTI2_HORIZONTAL:
       return (await import("./board-multi2-horizontal-UVCHKLTZ.mjs")).IconBoardMulti2Horizontal;
     case Icons.BOARD_MULTI2_VERTICAL:
       return (await import("./board-multi2-vertical-2WS37V3C.mjs")).IconBoardMulti2Vertical;
+    case Icons.BOARD_MULTI_DASHBOARD:
+      return (await import("./board-multi-dashboard-TUOZEAVY.mjs")).IconBoardMultiDashboard;
     case Icons.BOARD_MULTI_T_DOWN:
       return (await import("./board-multi-t-down-4NTND4QG.mjs")).IconBoardMultiTDown;
     case Icons.BOARD_MULTI_T_LEFT:
@@ -1347,13 +1499,13 @@ var getIcon = async (icon) => {
     case Icons.BROKEN_HEART_M:
       return (await import("./broken-heart-m-5KZQLWPF.mjs")).IconBrokenHeartM;
     case Icons.BUILDING_CHURCH:
-      return (await import("./building-church-UJ3AE223.mjs")).IconBuildingChurch;
+      return (await import("./building-church-Q7SMJLJV.mjs")).IconBuildingChurch;
     case Icons.BUILDING_HOUSE2:
       return (await import("./building-house2-JC7JA6MS.mjs")).IconBuildingHouse2;
     case Icons.BUILDING_HOUSE:
-      return (await import("./building-house-L2XDFEAR.mjs")).IconBuildingHouse;
+      return (await import("./building-house-YTQ3GIQU.mjs")).IconBuildingHouse;
     case Icons.BUILDING_SHOP:
-      return (await import("./building-shop-F7FTDNAL.mjs")).IconBuildingShop;
+      return (await import("./building-shop-7IAFSABU.mjs")).IconBuildingShop;
     case Icons.BUTTON_ADD:
       return (await import("./button-add-ZPPLC4DT.mjs")).IconButtonAdd;
     case Icons.BUTTON_BROKEN_HEART2:
@@ -1406,6 +1558,20 @@ var getIcon = async (icon) => {
       return (await import("./button-visible-SADINKWB.mjs")).IconButtonVisible;
     case Icons.BUTTON:
       return (await import("./button-I6PQGPG5.mjs")).IconButton;
+    case Icons.CHART_BARS_SQUARED:
+      return (await import("./chart-bars-squared-YM4H52AO.mjs")).IconChartBarsSquared;
+    case Icons.CHART_BUBBLES:
+      return (await import("./chart-bubbles-MPT7XCCJ.mjs")).IconChartBubbles;
+    case Icons.CHART_CANDLES:
+      return (await import("./chart-candles-HIGSPUJB.mjs")).IconChartCandles;
+    case Icons.CHART_HALF_CIRCLE:
+      return (await import("./chart-half-circle-MW6J3PI4.mjs")).IconChartHalfCircle;
+    case Icons.CHART_LINE_SQUARED:
+      return (await import("./chart-line-squared-P2MQBDJO.mjs")).IconChartLineSquared;
+    case Icons.CHART_LINE:
+      return (await import("./chart-line-UPD6SSDH.mjs")).IconChartLine;
+    case Icons.CHART_PIE:
+      return (await import("./chart-pie-2XAVOL3U.mjs")).IconChartPie;
     case Icons.CHECK_FAT:
       return (await import("./check-fat-M5X2Z4MV.mjs")).IconCheckFat;
     case Icons.CHECK_L:
@@ -1478,6 +1644,8 @@ var getIcon = async (icon) => {
       return (await import("./edit-fat-USI2PPQM.mjs")).IconEditFat;
     case Icons.EDIT_L:
       return (await import("./edit-l-76SNYBBK.mjs")).IconEditL;
+    case Icons.EDIT_LINE_SWIRL:
+      return (await import("./edit-line-swirl-HUDH2Y7D.mjs")).IconEditLineSwirl;
     case Icons.EDIT_LINE:
       return (await import("./edit-line-7LN2FUBH.mjs")).IconEditLine;
     case Icons.EDIT_M:
@@ -1501,7 +1669,7 @@ var getIcon = async (icon) => {
     case Icons.FILE_ADD:
       return (await import("./file-add-2K4RUM3J.mjs")).IconFileAdd;
     case Icons.FILE_ARCHIVE:
-      return (await import("./file-archive-P4GBIHIZ.mjs")).IconFileArchive;
+      return (await import("./file-archive-ZCLD5MCN.mjs")).IconFileArchive;
     case Icons.FILE_ARROW_UP:
       return (await import("./file-arrow-up-VTYFVP2U.mjs")).IconFileArrowUp;
     case Icons.FILE_BINARY:
@@ -1563,7 +1731,7 @@ var getIcon = async (icon) => {
     case Icons.FILE_TEXT:
       return (await import("./file-text-TN4J5YP6.mjs")).IconFileText;
     case Icons.FILE_TRAY_STACK:
-      return (await import("./file-tray-stack-Y6V2JSNM.mjs")).IconFileTrayStack;
+      return (await import("./file-tray-stack-GBYZTVVW.mjs")).IconFileTrayStack;
     case Icons.FILE_TRAY:
       return (await import("./file-tray-JI4KR3OJ.mjs")).IconFileTray;
     case Icons.FILE_VISIBLE2:
@@ -1658,8 +1826,6 @@ var getIcon = async (icon) => {
       return (await import("./heart-m-5H6DT67H.mjs")).IconHeartM;
     case Icons.HEART_SMALL:
       return (await import("./heart-small-PZEACMZK.mjs")).IconHeartSmall;
-    case Icons.IMAGE:
-      return (await import("./image-TQNEFIVT.mjs")).IconImage;
     case Icons.INFO_FAT:
       return (await import("./info-fat-U7NWCNLF.mjs")).IconInfoFat;
     case Icons.INFO_L:
@@ -1676,16 +1842,52 @@ var getIcon = async (icon) => {
       return (await import("./invisible-m-TV4SLIXN.mjs")).IconInvisibleM;
     case Icons.INVISIBLE_S:
       return (await import("./invisible-s-GUHLASLF.mjs")).IconInvisibleS;
+    case Icons.KEY_BACKSPACE:
+      return (await import("./key-backspace-GOY7RJL3.mjs")).IconKeyBackspace;
+    case Icons.KEY_DELETE:
+      return (await import("./key-delete-6VNNSRAX.mjs")).IconKeyDelete;
+    case Icons.KEY_DOWN:
+      return (await import("./key-down-MWUDODGE.mjs")).IconKeyDown;
+    case Icons.KEY_EJECT:
+      return (await import("./key-eject-D3L3KGSW.mjs")).IconKeyEject;
+    case Icons.KEY_ENTER:
+      return (await import("./key-enter-CVNR6GUN.mjs")).IconKeyEnter;
+    case Icons.KEY_FUNCTION:
+      return (await import("./key-function-LC2HP627.mjs")).IconKeyFunction;
+    case Icons.KEY_MAC_COMMAND:
+      return (await import("./key-mac-command-YOKM75OX.mjs")).IconKeyMacCommand;
+    case Icons.KEY_OPTION:
+      return (await import("./key-option-OJYGG3RY.mjs")).IconKeyOption;
+    case Icons.KEY_PAGE_DOWN:
+      return (await import("./key-page-down-G4URX2QE.mjs")).IconKeyPageDown;
+    case Icons.KEY_PAGE_NEXT:
+      return (await import("./key-page-next-RHXXGCYV.mjs")).IconKeyPageNext;
+    case Icons.KEY_PAGE_UP:
+      return (await import("./key-page-up-DFO5MXXQ.mjs")).IconKeyPageUp;
+    case Icons.KEY_PREVIOUS_UP:
+      return (await import("./key-previous-up-55PF7PQ7.mjs")).IconKeyPreviousUp;
+    case Icons.KEY_SHIFT:
+      return (await import("./key-shift-ECER2XXP.mjs")).IconKeyShift;
+    case Icons.KEY_TAB:
+      return (await import("./key-tab-PVL4PZFW.mjs")).IconKeyTab;
+    case Icons.KEY_UP:
+      return (await import("./key-up-IR3HLYIO.mjs")).IconKeyUp;
     case Icons.LIGHTNING_FLASH:
       return (await import("./lightning-flash-MGHHTSFZ.mjs")).IconLightningFlash;
     case Icons.LIKE:
       return (await import("./like-ZUUWJJT7.mjs")).IconLike;
     case Icons.LINK:
       return (await import("./link-2MTUX5PD.mjs")).IconLink;
+    case Icons.LOADER_DOTS2:
+      return (await import("./loader-dots2-QXVIHZ7Z.mjs")).IconLoaderDots2;
+    case Icons.LOADER_DOTS:
+      return (await import("./loader-dots-KAC4HU3E.mjs")).IconLoaderDots;
+    case Icons.LOCATION_MARKER:
+      return (await import("./location-marker-X2C573GZ.mjs")).IconLocationMarker;
+    case Icons.LOCATION_PIN:
+      return (await import("./location-pin-CZTQEYJV.mjs")).IconLocationPin;
     case Icons.MALE_SIMPLIFIED:
       return (await import("./male-simplified-SAJ3KZVP.mjs")).IconMaleSimplified;
-    case Icons.MEDIA:
-      return (await import("./media-YK3HYLSM.mjs")).IconMedia;
     case Icons.MOON:
       return (await import("./moon-DZSJG7GW.mjs")).IconMoon;
     case Icons.MOVING_BLOCK:
@@ -1760,24 +1962,32 @@ var getIcon = async (icon) => {
       return (await import("./on-target-DUBHPYHK.mjs")).IconOnTarget;
     case Icons.PARAGRAPH:
       return (await import("./paragraph-6P4VQEDS.mjs")).IconParagraph;
-    case Icons.PLAYBACK_BACKWARD:
-      return (await import("./playback-backward-7NSQPJJL.mjs")).IconPlaybackBackward;
-    case Icons.PLAYBACK_END:
-      return (await import("./playback-end-EM2QG4MA.mjs")).IconPlaybackEnd;
-    case Icons.PLAYBACK_FORWARD:
-      return (await import("./playback-forward-XFU5FOMD.mjs")).IconPlaybackForward;
-    case Icons.PLAYBACK_NEXT:
-      return (await import("./playback-next-6PJ7XG3V.mjs")).IconPlaybackNext;
-    case Icons.PLAYBACK_PAUSE:
-      return (await import("./playback-pause-T273IPGD.mjs")).IconPlaybackPause;
-    case Icons.PLAYBACK_PLAY:
-      return (await import("./playback-play-RPCJB4TK.mjs")).IconPlaybackPlay;
-    case Icons.PLAYBACK_PREVIOUS:
-      return (await import("./playback-previous-OBMAZZV5.mjs")).IconPlaybackPrevious;
-    case Icons.PLAYBACK_START:
-      return (await import("./playback-start-FNU2EZVP.mjs")).IconPlaybackStart;
-    case Icons.PLAYBACK_STOP:
-      return (await import("./playback-stop-VJK5K6NU.mjs")).IconPlaybackStop;
+    case Icons.PERFORMANCE2:
+      return (await import("./performance2-Q3LB75WH.mjs")).IconPerformance2;
+    case Icons.PERFORMANCE:
+      return (await import("./performance-NAU2YWXM.mjs")).IconPerformance;
+    case Icons.PIN_TILTED:
+      return (await import("./pin-tilted-VBM6DXIM.mjs")).IconPinTilted;
+    case Icons.PIN:
+      return (await import("./pin-EBQGRVP4.mjs")).IconPin;
+    case Icons.POINTER_ARROW_LINE:
+      return (await import("./pointer-arrow-line-YDAQI3IH.mjs")).IconPointerArrowLine;
+    case Icons.POINTER_ARROW:
+      return (await import("./pointer-arrow-TGJQYHC7.mjs")).IconPointerArrow;
+    case Icons.POINTER_CROSS:
+      return (await import("./pointer-cross-KCOP6VRW.mjs")).IconPointerCross;
+    case Icons.POINTER_HAND:
+      return (await import("./pointer-hand-4FRO5AOW.mjs")).IconPointerHand;
+    case Icons.POINTER_LEFT:
+      return (await import("./pointer-left-K6FWC66G.mjs")).IconPointerLeft;
+    case Icons.POINTER_MOUSE:
+      return (await import("./pointer-mouse-YPE757OO.mjs")).IconPointerMouse;
+    case Icons.POINTER_PEN:
+      return (await import("./pointer-pen-TKQFPF5C.mjs")).IconPointerPen;
+    case Icons.POINTER_TARGET:
+      return (await import("./pointer-target-2I5TYMKL.mjs")).IconPointerTarget;
+    case Icons.POINTER_TEXT:
+      return (await import("./pointer-text-XZ7UKB4N.mjs")).IconPointerText;
     case Icons.QUESTION_MARK_FAT:
       return (await import("./question-mark-fat-55IBAZ76.mjs")).IconQuestionMarkFat;
     case Icons.QUESTION_MARK_L:
@@ -1786,8 +1996,6 @@ var getIcon = async (icon) => {
       return (await import("./question-mark-m-EGMNV6YE.mjs")).IconQuestionMarkM;
     case Icons.QUESTION_MARK_S:
       return (await import("./question-mark-s-WDQQMFN4.mjs")).IconQuestionMarkS;
-    case Icons.RECORD:
-      return (await import("./record-MMIK53ZB.mjs")).IconRecord;
     case Icons.REMOVE_LINES:
       return (await import("./remove-lines-CQBBRW25.mjs")).IconRemoveLines;
     case Icons.SEARCH_FAT:
@@ -1798,14 +2006,20 @@ var getIcon = async (icon) => {
       return (await import("./search-m-BSCENK5H.mjs")).IconSearchM;
     case Icons.SEARCH_SMALL:
       return (await import("./search-small-WGR77LEE.mjs")).IconSearchSmall;
+    case Icons.SECTION:
+      return (await import("./section-EPJSWENJ.mjs")).IconSection;
     case Icons.SETTINGS2:
       return (await import("./settings2-5LRFQ6KR.mjs")).IconSettings2;
     case Icons.SETTINGS3:
       return (await import("./settings3-RF37FAEE.mjs")).IconSettings3;
     case Icons.SETTINGS4:
       return (await import("./settings4-OUGDN2WM.mjs")).IconSettings4;
+    case Icons.SETTINGS5:
+      return (await import("./settings5-2YWXFPXV.mjs")).IconSettings5;
     case Icons.SETTINGS:
       return (await import("./settings-CGFG5WEN.mjs")).IconSettings;
+    case Icons.SIMPLE_SUN:
+      return (await import("./simple-sun-3UMW4UAH.mjs")).IconSimpleSun;
     case Icons.SPEECH_BALLOON2:
       return (await import("./speech-balloon2-SNOKGA4L.mjs")).IconSpeechBalloon2;
     case Icons.SPEECH_BALLOON_SQUARE2:
@@ -1848,6 +2062,8 @@ var getIcon = async (icon) => {
       return (await import("./squared-visible-7SQN23LI.mjs")).IconSquaredVisible;
     case Icons.SQUARED:
       return (await import("./squared-ZQGKJGIE.mjs")).IconSquared;
+    case Icons.STAMP:
+      return (await import("./stamp-FV2SKUP4.mjs")).IconStamp;
     case Icons.STAR_FAT:
       return (await import("./star-fat-WIZ7QMPO.mjs")).IconStarFat;
     case Icons.STAR_L:
@@ -1957,9 +2173,9 @@ var getIcon = async (icon) => {
     case Icons.TIMER:
       return (await import("./timer-Z73NMCB6.mjs")).IconTimer;
     case Icons.TRASH2:
-      return (await import("./trash2-P4LDYXNR.mjs")).IconTrash2;
+      return (await import("./trash2-IEKN2VDL.mjs")).IconTrash2;
     case Icons.TRASH:
-      return (await import("./trash-R2MLEEF3.mjs")).IconTrash;
+      return (await import("./trash-MJU74ZZL.mjs")).IconTrash;
     case Icons.TRIANGLED_EXCLAMATION_MARK:
       return (await import("./triangled-exclamation-mark-KXGBEXWC.mjs")).IconTriangledExclamationMark;
     case Icons.TRIANGLED_INFO:
@@ -1986,36 +2202,24 @@ var getIcon = async (icon) => {
       return (await import("./visible-m-3VIAEZQZ.mjs")).IconVisibleM;
     case Icons.VISIBLE_S:
       return (await import("./visible-s-TEECZ7VK.mjs")).IconVisibleS;
-    case Icons.VOLUME_I:
-      return (await import("./volume-i-TK7LC6TM.mjs")).IconVolumeI;
-    case Icons.VOLUME_II:
-      return (await import("./volume-ii-UBZQ3OWD.mjs")).IconVolumeIi;
-    case Icons.VOLUME_III:
-      return (await import("./volume-iii-BKSK6T4V.mjs")).IconVolumeIii;
-    case Icons.VOLUME_MUTE:
-      return (await import("./volume-mute-JXCP657L.mjs")).IconVolumeMute;
-    case Icons.VOLUME_OFF:
-      return (await import("./volume-off-GW6KGXJA.mjs")).IconVolumeOff;
     case Icons.WHEELCHAIR_ACTION:
       return (await import("./wheelchair-action-COEVMPRW.mjs")).IconWheelchairAction;
     case Icons.WHEELCHAIR:
       return (await import("./wheelchair-AJYUS3XJ.mjs")).IconWheelchair;
-    case Icons.ICON27:
-      return (await import("./icon27-GYTRW5ZE.mjs")).IconIcon27;
     case Icons.AIRPLANE_ARRIVALS:
-      return (await import("./airplane-arrivals-VWPTS2R4.mjs")).IconAirplaneArrivals;
+      return (await import("./airplane-arrivals-OO4EKT6S.mjs")).IconAirplaneArrivals;
     case Icons.AIRPLANE_DEPARTURES:
-      return (await import("./airplane-departures-ZJSDMYWV.mjs")).IconAirplaneDepartures;
+      return (await import("./airplane-departures-XZMUI2FK.mjs")).IconAirplaneDepartures;
     case Icons.AIRPLANE:
-      return (await import("./airplane-GHUXHXBO.mjs")).IconAirplane;
+      return (await import("./airplane-NCCORZ4L.mjs")).IconAirplane;
     case Icons.AIRPORT_CONNECT_FLIGHTS:
-      return (await import("./airport-connect-flights-KY3RHD7S.mjs")).IconAirportConnectFlights;
+      return (await import("./airport-connect-flights-VKOUIQWX.mjs")).IconAirportConnectFlights;
     case Icons.AIRPORT_TRANSFER2:
       return (await import("./airport-transfer2-EH7DUS6F.mjs")).IconAirportTransfer2;
     case Icons.AIRPORT_TRANSFER:
       return (await import("./airport-transfer-POSIQHK7.mjs")).IconAirportTransfer;
     case Icons.ANCHOR:
-      return (await import("./anchor-MTTVAONA.mjs")).IconAnchor;
+      return (await import("./anchor-AVTKVCZO.mjs")).IconAnchor;
     case Icons.BICYCLE_SURFBOARD:
       return (await import("./bicycle-surfboard-JTFAY7OU.mjs")).IconBicycleSurfboard;
     case Icons.BICYCLE:
@@ -2027,15 +2231,17 @@ var getIcon = async (icon) => {
     case Icons.CROSS_CIRCLED:
       return (await import("./cross-circled-RXGSN5B4.mjs")).IconCrossCircled;
     case Icons.CROSS:
-      return (await import("./cross-IARY6FBG.mjs")).IconCross;
+      return (await import("./cross-6KNYSCNW.mjs")).IconCross;
     case Icons.CRUISESHIP:
-      return (await import("./cruiseship-LENQZIIX.mjs")).IconCruiseship;
+      return (await import("./cruiseship-45Q222OB.mjs")).IconCruiseship;
+    case Icons.ELEVATOR1:
+      return (await import("./elevator1-QAOJTJBO.mjs")).IconElevator1;
     case Icons.ELEVATOR2:
-      return (await import("./elevator2-CRHGXTHA.mjs")).IconElevator2;
+      return (await import("./elevator2-G4EPH2WQ.mjs")).IconElevator2;
     case Icons.ELEVATOR3:
-      return (await import("./elevator3-DKG6DQIO.mjs")).IconElevator3;
+      return (await import("./elevator3-NEEUBWEA.mjs")).IconElevator3;
     case Icons.ELEVATOR4:
-      return (await import("./elevator4-KYZMJB7A.mjs")).IconElevator4;
+      return (await import("./elevator4-6NAP2JOM.mjs")).IconElevator4;
     case Icons.ESCALATOR_DOWN:
       return (await import("./escalator-down-ZSLTN63H.mjs")).IconEscalatorDown;
     case Icons.ESCALATOR_UP:
@@ -2043,7 +2249,7 @@ var getIcon = async (icon) => {
     case Icons.ESCALATOR:
       return (await import("./escalator-4TAR6PEM.mjs")).IconEscalator;
     case Icons.FERRY:
-      return (await import("./ferry-TVDPGR4W.mjs")).IconFerry;
+      return (await import("./ferry-PVKAHLO5.mjs")).IconFerry;
     case Icons.FIRE_EXTINGUISHER:
       return (await import("./fire-extinguisher-ACVA5UAT.mjs")).IconFireExtinguisher;
     case Icons.FIRE_HOSE:
@@ -2051,13 +2257,13 @@ var getIcon = async (icon) => {
     case Icons.FIRE:
       return (await import("./fire-YWOBKV3O.mjs")).IconFire;
     case Icons.GRAVESTONE2:
-      return (await import("./gravestone2-SNXL6YNK.mjs")).IconGravestone2;
+      return (await import("./gravestone2-BLO5RCTX.mjs")).IconGravestone2;
     case Icons.GRAVESTONE3:
-      return (await import("./gravestone3-LMSCZDOF.mjs")).IconGravestone3;
+      return (await import("./gravestone3-AOXJJAKA.mjs")).IconGravestone3;
     case Icons.GRAVESTONE:
-      return (await import("./gravestone-AHHHGDNN.mjs")).IconGravestone;
+      return (await import("./gravestone-6PI43JE5.mjs")).IconGravestone;
     case Icons.LUGGAGE_BELT:
-      return (await import("./luggage-belt-4GP235AB.mjs")).IconLuggageBelt;
+      return (await import("./luggage-belt-AGP7GK7M.mjs")).IconLuggageBelt;
     case Icons.LUGGAGE_LOCKER:
       return (await import("./luggage-locker-G767EAL4.mjs")).IconLuggageLocker;
     case Icons.LUGGAGE_TROLLEY:
@@ -2069,25 +2275,41 @@ var getIcon = async (icon) => {
     case Icons.METRO:
       return (await import("./metro-ABCQ7THM.mjs")).IconMetro;
     case Icons.NO_SMOKING_CIRCLED:
-      return (await import("./no-smoking-circled-LTS62ZGI.mjs")).IconNoSmokingCircled;
+      return (await import("./no-smoking-circled-FXFAM7E7.mjs")).IconNoSmokingCircled;
     case Icons.NO_SMOKING:
-      return (await import("./no-smoking-KCFHT7W5.mjs")).IconNoSmoking;
+      return (await import("./no-smoking-BOTYLCGO.mjs")).IconNoSmoking;
+    case Icons.PALMTREE_ISLAND_WAVE:
+      return (await import("./palmtree-island-wave-54SDRE5Z.mjs")).IconPalmtreeIslandWave;
+    case Icons.PALMTREE_ISLAND:
+      return (await import("./palmtree-island-U2YM5FXQ.mjs")).IconPalmtreeIsland;
+    case Icons.PALMTREE:
+      return (await import("./palmtree-XRSWJ3FG.mjs")).IconPalmtree;
+    case Icons.PARASOL_ISLAND_WAVE:
+      return (await import("./parasol-island-wave-BZVHGIXC.mjs")).IconParasolIslandWave;
+    case Icons.PARASOL_ISLAND:
+      return (await import("./parasol-island-GSPIQJU3.mjs")).IconParasolIsland;
+    case Icons.PARASOL:
+      return (await import("./parasol-IMKAJPR4.mjs")).IconParasol;
     case Icons.PLASTER:
-      return (await import("./plaster-XRE6RCS6.mjs")).IconPlaster;
+      return (await import("./plaster-3ETD2U2S.mjs")).IconPlaster;
     case Icons.PLASTERS:
-      return (await import("./plasters-CIS3CF6J.mjs")).IconPlasters;
+      return (await import("./plasters-YKK4WL63.mjs")).IconPlasters;
     case Icons.RENTAL_CAR:
       return (await import("./rental-car-DRR42CYY.mjs")).IconRentalCar;
     case Icons.SECURITY_CAMERA2:
-      return (await import("./security-camera2-ZRHS2LOF.mjs")).IconSecurityCamera2;
+      return (await import("./security-camera2-444JCZ4R.mjs")).IconSecurityCamera2;
     case Icons.SECURITY_CAMERA3:
-      return (await import("./security-camera3-Q5IW4GKM.mjs")).IconSecurityCamera3;
+      return (await import("./security-camera3-SSKB556I.mjs")).IconSecurityCamera3;
     case Icons.SECURITY_CAMERA:
-      return (await import("./security-camera-7VIV5C4A.mjs")).IconSecurityCamera;
+      return (await import("./security-camera-DSNZC4EI.mjs")).IconSecurityCamera;
     case Icons.SHIP:
-      return (await import("./ship-MUYCXPNY.mjs")).IconShip;
+      return (await import("./ship-TL3PWWMF.mjs")).IconShip;
+    case Icons.SIGNPOST2:
+      return (await import("./signpost2-SE2U3LYC.mjs")).IconSignpost2;
+    case Icons.SIGNPOST:
+      return (await import("./signpost-N4Y73BE6.mjs")).IconSignpost;
     case Icons.SMOKING:
-      return (await import("./smoking-IB7M66RB.mjs")).IconSmoking;
+      return (await import("./smoking-CTGPXR4N.mjs")).IconSmoking;
     case Icons.STAIRS_DOWN:
       return (await import("./stairs-down-UTSIAXWV.mjs")).IconStairsDown;
     case Icons.STAIRS_UP:
@@ -2097,7 +2319,7 @@ var getIcon = async (icon) => {
     case Icons.TAXI:
       return (await import("./taxi-3NREQBGD.mjs")).IconTaxi;
     case Icons.TRAIN_TRACK:
-      return (await import("./train-track-TUIDXSQJ.mjs")).IconTrainTrack;
+      return (await import("./train-track-HYAWAZFH.mjs")).IconTrainTrack;
     case Icons.TRAIN:
       return (await import("./train-EGLLFMVP.mjs")).IconTrain;
     default:

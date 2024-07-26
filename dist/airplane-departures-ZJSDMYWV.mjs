@@ -1,7 +1,0 @@
-// lib/airplane-departures.ts
-var IconAirplaneDepartures = `<svg id="AirplaneDepartures" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><path d="M35.09,53.19l-4.22-21.31,16.63-6.89-7.89,27.21c-.08.29-.3.53-.58.65l-2.59,1.07c-.58.24-1.24-.11-1.36-.73Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M63.95,17.7c-1.1-2.08-3.7-2.86-5.87-1.96l-39.32,16.29-7.66-1.52c-.19-.04-.39-.02-.58.06l-2.38.99c-.69.28-.83,1.19-.27,1.68l.3.36c4.64,5.55,12.35,7.45,19.04,4.68l34.49-14.29c2.43-1.01,3.51-3.9,2.25-6.28Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/><path d="M26.75,25.72l12.6-5.22-16.66-9.18c-.27-.15-.58-.16-.87-.05l-2.59,1.07c-.58.24-.8.96-.45,1.48l7.96,11.89Z" style="fill: var(--icon-line-color, currentColor); stroke-width: 0px;"/></g><line x1="9" y1="63" x2="40.5" y2="63" style="fill: var(--icon-line-color, currentColor);  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
-var airplane_departures_default = IconAirplaneDepartures;
-export {
-  IconAirplaneDepartures,
-  airplane_departures_default as default
-};
