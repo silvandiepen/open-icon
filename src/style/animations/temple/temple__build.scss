@@ -1,0 +1,37 @@
+@mixin iconTemple__build() {
+    svg {
+      line:nth-child(1),
+      line:nth-child(2),
+      line:nth-child(3),
+      line:nth-child(4) {
+        animation: iconTemple__build_pilars 0.5s ease-in-out forwards;
+        @keyframes iconTemple__build_pilars {
+          50% {
+            stroke-dasharray: 2em;
+            stroke-dashoffset: -2em;
+          }
+          0%,
+          100% {
+            stroke-dasharray: 2em;
+            stroke-dashoffset: 0em;
+          }
+        }
+      }
+      path {
+        animation: iconTemple__build_roof 0.5s ease-in-out forwards;
+        @keyframes iconTemple__build_roof {
+          50% {
+            transform: translateY(50%);
+          }
+          0%,
+          100% {
+            transform: translateY(0%);
+          }
+        }
+      }
+    }
+  }
+
+.icon-temple__build {
+  @include iconTemple__build();
+}

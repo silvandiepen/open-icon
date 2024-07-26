@@ -1,0 +1,27 @@
+@mixin iconLuggage {
+  overflow: hidden;
+  svg {
+    animation: luggage 1s ease-in-out forwards;
+
+    @keyframes luggage {
+      0% {
+        transform: translateX(0%);
+      }
+      25%,
+      49.9% {
+        transform: translateX(200%);
+      }
+
+      50% {
+        transform: translateX(-200%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+  }
+}
+
+.icon-luggage-animated {
+  @include iconLuggage();
+}

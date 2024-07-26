@@ -1,0 +1,19 @@
+@mixin icon-chip__rotate {
+  svg {
+    animation: icon_chip__rotate 1s ease-in-out infinite;
+
+    @keyframes icon_chip__rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      25%,
+      100% {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+.icon-chip__rotate {
+  @include icon-chip__rotate();
+}

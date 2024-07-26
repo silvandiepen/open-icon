@@ -1,0 +1,39 @@
+@mixin icon-graph-up__paint {
+  svg {
+    line {
+      stroke-dashoffset: 2em;
+      stroke-dasharray: 2em;
+      animation: icon_graph_up__paint_lines 1s linear forwards;
+      @keyframes icon_graph_up__paint_lines {
+        0% {
+          stroke-dashoffset: 2em;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+      @for $i from 1 through 6 {
+        &:nth-child(#{$i}) {
+          animation-delay: $i * 0.1s;
+        }
+      }
+    }
+    polyline {
+      stroke-dashoffset: 5em;
+      stroke-dasharray: 5em;
+      animation: icon_graph_up__paint_polyline 1s linear forwards;
+      @keyframes icon_graph_up__paint_polyline {
+        0% {
+          stroke-dashoffset: 5em;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+    }
+  }
+}
+
+.icon-graph-up__paint {
+  @include icon-graph-up__paint();
+}

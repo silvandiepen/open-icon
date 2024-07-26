@@ -1,0 +1,18 @@
+@mixin iconStar__rotate {
+  svg {
+    animation: iconStar__rotate 1s ease-in-out forwards;
+
+    @keyframes iconStar__rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      25%,
+      100% {
+        transform: rotate(72deg);
+      }
+    }
+  }
+}
+.icon-star__rotate {
+  @include iconStar__rotate();
+}
