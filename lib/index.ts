@@ -1870,6 +1870,9 @@ export const getIcon = async (icon: Icons) => {
         case Icons.SPEECH_BALLOON_SQUARE_COPY:
             return (await import("./speech-balloon-square-copy")).IconSpeechBalloonSquareCopy;
     
+        case Icons.SPEECH_BALLOON_SQUARE_TEXT:
+            return (await import("./speech-balloon-square-text")).IconSpeechBalloonSquareText;
+    
         case Icons.SPEECH_BALLOON_SQUARE:
             return (await import("./speech-balloon-square")).IconSpeechBalloonSquare;
     

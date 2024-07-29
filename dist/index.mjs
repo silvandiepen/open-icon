@@ -622,6 +622,7 @@ var Icons = {
   SPEECH_BALLOON2: "speech-balloon2",
   SPEECH_BALLOON_SQUARE2: "speech-balloon-square2",
   SPEECH_BALLOON_SQUARE_COPY: "speech-balloon-square-copy",
+  SPEECH_BALLOON_SQUARE_TEXT: "speech-balloon-square-text",
   SPEECH_BALLOON_SQUARE: "speech-balloon-square",
   SPEECH_BALLOON: "speech-balloon",
   SPEECH_BALLOONS: "speech-balloons",
@@ -1443,7 +1444,7 @@ var getIcon = async (icon) => {
     case Icons.BOARD_MULTI2_VERTICAL:
       return (await import("./board-multi2-vertical-2WS37V3C.mjs")).IconBoardMulti2Vertical;
     case Icons.BOARD_MULTI_DASHBOARD:
-      return (await import("./board-multi-dashboard-TUOZEAVY.mjs")).IconBoardMultiDashboard;
+      return (await import("./board-multi-dashboard-VZRGOCNE.mjs")).IconBoardMultiDashboard;
     case Icons.BOARD_MULTI_T_DOWN:
       return (await import("./board-multi-t-down-4NTND4QG.mjs")).IconBoardMultiTDown;
     case Icons.BOARD_MULTI_T_LEFT:
@@ -2038,6 +2039,8 @@ var getIcon = async (icon) => {
       return (await import("./speech-balloon-square2-235DCYCP.mjs")).IconSpeechBalloonSquare2;
     case Icons.SPEECH_BALLOON_SQUARE_COPY:
       return (await import("./speech-balloon-square-copy-VB3Z4GY6.mjs")).IconSpeechBalloonSquareCopy;
+    case Icons.SPEECH_BALLOON_SQUARE_TEXT:
+      return (await import("./speech-balloon-square-text-6QFPOKTK.mjs")).IconSpeechBalloonSquareText;
     case Icons.SPEECH_BALLOON_SQUARE:
       return (await import("./speech-balloon-square-LEPZUXRP.mjs")).IconSpeechBalloonSquare;
     case Icons.SPEECH_BALLOON:

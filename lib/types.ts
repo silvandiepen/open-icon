@@ -622,6 +622,7 @@ export const Icons = {
      SPEECH_BALLOON2: "speech-balloon2", 
      SPEECH_BALLOON_SQUARE2: "speech-balloon-square2", 
      SPEECH_BALLOON_SQUARE_COPY: "speech-balloon-square-copy", 
+     SPEECH_BALLOON_SQUARE_TEXT: "speech-balloon-square-text", 
      SPEECH_BALLOON_SQUARE: "speech-balloon-square", 
      SPEECH_BALLOON: "speech-balloon", 
      SPEECH_BALLOONS: "speech-balloons", 

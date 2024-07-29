@@ -4564,7 +4564,7 @@ __export(board_multi_dashboard_exports, {
 var IconBoardMultiDashboard, board_multi_dashboard_default;
 var init_board_multi_dashboard = __esm({
   "lib/board-multi-dashboard.ts"() {
-    IconBoardMultiDashboard = `<svg id="BoardMultiDashboard" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="40.5" y="47" width="18" height="11.5" rx="2" ry="2" transform="translate(99 105.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="34" width="18" height="24.5" rx="2" ry="2" transform="translate(45 92.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="18" height="11.5" rx="2" ry="2" transform="translate(45 38.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="13.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 51.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="47" width="18" height="11.5" rx="2" ry="2" transform="translate(99 105.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="34" width="18" height="24.5" rx="2" ry="2" transform="translate(45 92.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="40.5" y="13.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 51.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="18" height="11.5" rx="2" ry="2" transform="translate(45 38.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconBoardMultiDashboard = `<svg id="BoardMultiDashboard" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72"><defs><clipPath id="clippath"><rect x="9" y="9" width="54" height="54" style="fill: none; stroke-width: 0px;"/></clipPath></defs><g style="clip-path: url(#clippath);"><g><rect x="40.5" y="47" width="18" height="11.5" rx="2" ry="2" transform="translate(99 105.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="13.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 51.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="47" width="18" height="11.5" rx="2" ry="2" transform="translate(99 105.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="40.5" y="13.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 51.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="40.5" y="67.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 159.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="67.5" width="18" height="24.5" rx="2" ry="2" transform="translate(99 159.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g><rect x="13.5" y="34" width="18" height="24.5" rx="2" ry="2" transform="translate(45 92.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="13.5" width="18" height="11.5" rx="2" ry="2" transform="translate(45 38.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="34" width="18" height="24.5" rx="2" ry="2" transform="translate(45 92.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="-20" width="18" height="24.5" rx="2" ry="2" transform="translate(45 -15.5) rotate(180)" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="13.5" y="-20" width="18" height="24.5" rx="2" ry="2" transform="translate(45 -15.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="18" height="11.5" rx="2" ry="2" transform="translate(45 38.5) rotate(180)" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></g></svg>`;
     board_multi_dashboard_default = IconBoardMultiDashboard;
   }
 });
@@ -8727,6 +8727,20 @@ var init_speech_balloon_square_copy = __esm({
   }
 });
 
+// lib/speech-balloon-square-text.ts
+var speech_balloon_square_text_exports = {};
+__export(speech_balloon_square_text_exports, {
+  IconSpeechBalloonSquareText: () => IconSpeechBalloonSquareText,
+  default: () => speech_balloon_square_text_default
+});
+var IconSpeechBalloonSquareText, speech_balloon_square_text_default;
+var init_speech_balloon_square_text = __esm({
+  "lib/speech-balloon-square-text.ts"() {
+    IconSpeechBalloonSquareText = `<svg id="SpeechBalloonSquareText" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M17.5,13.5h37c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-23s-9,9-9,9v-9s-5,0-5,0c-2.21,0-4-1.79-4-4v-28c0-2.21,1.79-4,4-4Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="22.5" x2="49.5" y2="22.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="31.5" x2="49.5" y2="31.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="40.5" x2="49.5" y2="40.5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    speech_balloon_square_text_default = IconSpeechBalloonSquareText;
+  }
+});
+
 // lib/speech-balloon-square.ts
 var speech_balloon_square_exports = {};
 __export(speech_balloon_square_exports, {
@@ -11432,6 +11446,7 @@ var Icons = {
   SPEECH_BALLOON2: "speech-balloon2",
   SPEECH_BALLOON_SQUARE2: "speech-balloon-square2",
   SPEECH_BALLOON_SQUARE_COPY: "speech-balloon-square-copy",
+  SPEECH_BALLOON_SQUARE_TEXT: "speech-balloon-square-text",
   SPEECH_BALLOON_SQUARE: "speech-balloon-square",
   SPEECH_BALLOON: "speech-balloon",
   SPEECH_BALLOONS: "speech-balloons",
@@ -12848,6 +12863,8 @@ var getIcon = async (icon) => {
       return (await Promise.resolve().then(() => (init_speech_balloon_square2(), speech_balloon_square2_exports))).IconSpeechBalloonSquare2;
     case Icons.SPEECH_BALLOON_SQUARE_COPY:
       return (await Promise.resolve().then(() => (init_speech_balloon_square_copy(), speech_balloon_square_copy_exports))).IconSpeechBalloonSquareCopy;
+    case Icons.SPEECH_BALLOON_SQUARE_TEXT:
+      return (await Promise.resolve().then(() => (init_speech_balloon_square_text(), speech_balloon_square_text_exports))).IconSpeechBalloonSquareText;
     case Icons.SPEECH_BALLOON_SQUARE:
       return (await Promise.resolve().then(() => (init_speech_balloon_square(), speech_balloon_square_exports))).IconSpeechBalloonSquare;
     case Icons.SPEECH_BALLOON:

@@ -1,6 +1,6 @@
 {
   "name": "open-icon",
-  "version": "1.0.0-alpha.0.24",
+  "version": "1.0.0-alpha.0.25",
   "description": "Open Icon",
   "main": "lib/icons/index.js",
   "exports": {

@@ -621,6 +621,7 @@ export declare const Icons: {
     SPEECH_BALLOON2: string;
     SPEECH_BALLOON_SQUARE2: string;
     SPEECH_BALLOON_SQUARE_COPY: string;
+    SPEECH_BALLOON_SQUARE_TEXT: string;
     SPEECH_BALLOON_SQUARE: string;
     SPEECH_BALLOON: string;
     SPEECH_BALLOONS: string;
