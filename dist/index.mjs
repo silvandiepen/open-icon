@@ -384,6 +384,8 @@ var Icons = {
   BUTTON_VISIBLE2: "button-visible2",
   BUTTON_VISIBLE: "button-visible",
   BUTTON: "button",
+  CALENDAR2: "calendar2",
+  CALENDAR: "calendar",
   CHART_BARS_SQUARED: "chart-bars-squared",
   CHART_BUBBLES: "chart-bubbles",
   CHART_CANDLES: "chart-candles",
@@ -424,6 +426,7 @@ var Icons = {
   CODE_CHEVRONS_OPEN_CIRCLED: "code-chevrons-open-circled",
   CODE_CHEVRONS_OPEN: "code-chevrons-open",
   CODE_CHEVRONS: "code-chevrons",
+  COMPANY: "company",
   DISLIKE: "dislike",
   EDIT_FAT: "edit-fat",
   EDIT_L: "edit-l",
@@ -590,6 +593,7 @@ var Icons = {
   PERFORMANCE: "performance",
   PIN_TILTED: "pin-tilted",
   PIN: "pin",
+  PLANNER: "planner",
   POINTER_ARROW_LINE: "pointer-arrow-line",
   POINTER_ARROW: "pointer-arrow",
   POINTER_CROSS: "pointer-cross",
@@ -1558,6 +1562,10 @@ var getIcon = async (icon) => {
       return (await import("./button-visible-SADINKWB.mjs")).IconButtonVisible;
     case Icons.BUTTON:
       return (await import("./button-I6PQGPG5.mjs")).IconButton;
+    case Icons.CALENDAR2:
+      return (await import("./calendar2-YI6BI277.mjs")).IconCalendar2;
+    case Icons.CALENDAR:
+      return (await import("./calendar-KA6GXCUA.mjs")).IconCalendar;
     case Icons.CHART_BARS_SQUARED:
       return (await import("./chart-bars-squared-YM4H52AO.mjs")).IconChartBarsSquared;
     case Icons.CHART_BUBBLES:
@@ -1638,6 +1646,8 @@ var getIcon = async (icon) => {
       return (await import("./code-chevrons-open-L4MRIIK4.mjs")).IconCodeChevronsOpen;
     case Icons.CODE_CHEVRONS:
       return (await import("./code-chevrons-BKTTAIOQ.mjs")).IconCodeChevrons;
+    case Icons.COMPANY:
+      return (await import("./company-745FQHMN.mjs")).IconCompany;
     case Icons.DISLIKE:
       return (await import("./dislike-JPZBA33U.mjs")).IconDislike;
     case Icons.EDIT_FAT:
@@ -1970,6 +1980,8 @@ var getIcon = async (icon) => {
       return (await import("./pin-tilted-VBM6DXIM.mjs")).IconPinTilted;
     case Icons.PIN:
       return (await import("./pin-EBQGRVP4.mjs")).IconPin;
+    case Icons.PLANNER:
+      return (await import("./planner-YGLVDRPG.mjs")).IconPlanner;
     case Icons.POINTER_ARROW_LINE:
       return (await import("./pointer-arrow-line-YDAQI3IH.mjs")).IconPointerArrowLine;
     case Icons.POINTER_ARROW:

@@ -383,6 +383,8 @@ export declare const Icons: {
     BUTTON_VISIBLE2: string;
     BUTTON_VISIBLE: string;
     BUTTON: string;
+    CALENDAR2: string;
+    CALENDAR: string;
     CHART_BARS_SQUARED: string;
     CHART_BUBBLES: string;
     CHART_CANDLES: string;
@@ -423,6 +425,7 @@ export declare const Icons: {
     CODE_CHEVRONS_OPEN_CIRCLED: string;
     CODE_CHEVRONS_OPEN: string;
     CODE_CHEVRONS: string;
+    COMPANY: string;
     DISLIKE: string;
     EDIT_FAT: string;
     EDIT_L: string;
@@ -589,6 +592,7 @@ export declare const Icons: {
     PERFORMANCE: string;
     PIN_TILTED: string;
     PIN: string;
+    PLANNER: string;
     POINTER_ARROW_LINE: string;
     POINTER_ARROW: string;
     POINTER_CROSS: string;

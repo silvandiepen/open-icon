@@ -1156,6 +1156,12 @@ export const getIcon = async (icon: Icons) => {
         case Icons.BUTTON:
             return (await import("./button")).IconButton;
     
+        case Icons.CALENDAR2:
+            return (await import("./calendar2")).IconCalendar2;
+    
+        case Icons.CALENDAR:
+            return (await import("./calendar")).IconCalendar;
+    
         case Icons.CHART_BARS_SQUARED:
             return (await import("./chart-bars-squared")).IconChartBarsSquared;
     
@@ -1275,6 +1281,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.CODE_CHEVRONS:
             return (await import("./code-chevrons")).IconCodeChevrons;
+    
+        case Icons.COMPANY:
+            return (await import("./company")).IconCompany;
     
         case Icons.DISLIKE:
             return (await import("./dislike")).IconDislike;
@@ -1773,6 +1782,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.PIN:
             return (await import("./pin")).IconPin;
+    
+        case Icons.PLANNER:
+            return (await import("./planner")).IconPlanner;
     
         case Icons.POINTER_ARROW_LINE:
             return (await import("./pointer-arrow-line")).IconPointerArrowLine;

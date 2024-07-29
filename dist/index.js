@@ -5395,6 +5395,34 @@ var init_button = __esm({
   }
 });
 
+// lib/calendar2.ts
+var calendar2_exports = {};
+__export(calendar2_exports, {
+  IconCalendar2: () => IconCalendar2,
+  default: () => calendar2_default
+});
+var IconCalendar2, calendar2_default;
+var init_calendar2 = __esm({
+  "lib/calendar2.ts"() {
+    IconCalendar2 = `<svg id="Calendar2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="13.5" width="54" height="49.5" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="13.5" width="54" height="49.5" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="9" x2="18" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="9" x2="27" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="9" x2="45" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="9" x2="54" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="27" x2="22.5" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="27" x2="31.5" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="27" x2="40.5" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="27" x2="49.5" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="36" x2="22.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="36" x2="31.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="36" x2="40.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="36" x2="49.5" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="45" x2="22.5" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="45" x2="31.5" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="45" x2="40.5" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="45" x2="49.5" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="54" x2="22.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="54" x2="31.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="54" x2="40.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="54" x2="49.5" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    calendar2_default = IconCalendar2;
+  }
+});
+
+// lib/calendar.ts
+var calendar_exports = {};
+__export(calendar_exports, {
+  IconCalendar: () => IconCalendar,
+  default: () => calendar_default
+});
+var IconCalendar, calendar_default;
+var init_calendar = __esm({
+  "lib/calendar.ts"() {
+    IconCalendar = `<svg id="Calendar" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M9,27v32c0,2.21,1.79,4,4,4h46c2.21,0,4-1.79,4-4V27H9Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="9" y="13.5" width="54" height="49.5" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="9" y1="27" x2="63" y2="27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="45" x2="18" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="54" x2="18" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="27" y1="54" x2="27" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="54" x2="36" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="45" y1="54" x2="45" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="54" y1="54" x2="54" y2="54" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="54" y1="45" x2="54" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="54" y1="36" x2="54" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="45" y1="36" x2="45" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="45" y1="45" x2="45" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="45" x2="36" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="27" y1="45" x2="27" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="27" y1="36" x2="27" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="36" y1="36" x2="36" y2="36" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-l,  calc(var(--icon-stroke-width, 5) * 1.5));"/><line x1="18" y1="9" x2="18" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="9" x2="27" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="9" x2="45" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="9" x2="54" y2="13.5" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="16.5" y1="20.5" x2="30" y2="20.5" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    calendar_default = IconCalendar;
+  }
+});
+
 // lib/chart-bars-squared.ts
 var chart_bars_squared_exports = {};
 __export(chart_bars_squared_exports, {
@@ -5952,6 +5980,20 @@ var init_code_chevrons = __esm({
   "lib/code-chevrons.ts"() {
     IconCodeChevrons = `<svg id="CodeChevrons" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 22.5 9 36 22.5 49.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="49.5 49.5 63 36 49.5 22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="40.5" y1="18" x2="31.5" y2="54" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     code_chevrons_default = IconCodeChevrons;
+  }
+});
+
+// lib/company.ts
+var company_exports = {};
+__export(company_exports, {
+  IconCompany: () => IconCompany,
+  default: () => company_default
+});
+var IconCompany, company_default;
+var init_company = __esm({
+  "lib/company.ts"() {
+    IconCompany = `<svg id="Company" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><rect x="9" y="9" width="27" height="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="36" y="27" width="27" height="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="18" x2="18" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="18" x2="27" y2="18" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="27" x2="18" y2="27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="27" x2="27" y2="27" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="18" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="36" x2="27" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="45" x2="18" y2="45" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="45" x2="27" y2="45" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="54" x2="18" y2="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="54" x2="27" y2="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="54" x2="45" y2="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="54" x2="54" y2="54" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="45" x2="45" y2="45" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="45" x2="54" y2="45" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="36" x2="45" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="36" x2="54" y2="36" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    company_default = IconCompany;
   }
 });
 
@@ -8276,6 +8318,20 @@ var init_pin = __esm({
   "lib/pin.ts"() {
     IconPin = `<svg id="Pin" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><path d="M42.75,31.5V13.5h-13.5v18c-5.32,2.53-9,7.93-9,14.21h31.5c0-6.28-3.68-11.68-9-14.21Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><line x1="36" y1="45" x2="36" y2="67.5" style="fill: white; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><g><line x1="22.5" y1="13.5" x2="49.5" y2="13.5" style="fill: white;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M42.75,31.5V13.5h-13.5v18c-5.32,2.53-9,7.93-9,14.21h31.5c0-6.28-3.68-11.68-9-14.21Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
     pin_default = IconPin;
+  }
+});
+
+// lib/planner.ts
+var planner_exports = {};
+__export(planner_exports, {
+  IconPlanner: () => IconPlanner,
+  default: () => planner_default
+});
+var IconPlanner, planner_default;
+var init_planner = __esm({
+  "lib/planner.ts"() {
+    IconPlanner = `<svg id="Planner" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72"><defs><clipPath id="clippath"><rect x="9" y="13.5" width="54" height="49.5" rx="4" ry="4" style="fill: none; stroke-width: 0px;"/></clipPath></defs><g style="clip-path: url(#clippath);"><g><rect x="4.5" y="22.5" width="18" height="9" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="18" y="40.5" width="13.5" height="9" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="-4.5" y="40.5" width="13.5" height="9" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="22.5" width="13.5" height="9" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="40.5" y="54" width="27" height="9" rx="1" ry="1" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><rect x="4.5" y="22.5" width="18" height="9" rx="1" ry="1" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="18" y="40.5" width="13.5" height="9" rx="1" ry="1" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="72" y="40.5" width="13.5" height="9" rx="1" ry="1" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="-4.5" y="40.5" width="13.5" height="9" rx="1" ry="1" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="40.5" y="22.5" width="13.5" height="9" rx="1" ry="1" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="40.5" y="54" width="27" height="9" rx="1" ry="1" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></g><rect x="9" y="13.5" width="54" height="49.5" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="9" x2="18" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="9" x2="36" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="9" x2="27" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="9" x2="45" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="9" x2="54" y2="18" style="fill: none;  stroke-linecap: round; stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    planner_default = IconPlanner;
   }
 });
 
@@ -11138,6 +11194,8 @@ var Icons = {
   BUTTON_VISIBLE2: "button-visible2",
   BUTTON_VISIBLE: "button-visible",
   BUTTON: "button",
+  CALENDAR2: "calendar2",
+  CALENDAR: "calendar",
   CHART_BARS_SQUARED: "chart-bars-squared",
   CHART_BUBBLES: "chart-bubbles",
   CHART_CANDLES: "chart-candles",
@@ -11178,6 +11236,7 @@ var Icons = {
   CODE_CHEVRONS_OPEN_CIRCLED: "code-chevrons-open-circled",
   CODE_CHEVRONS_OPEN: "code-chevrons-open",
   CODE_CHEVRONS: "code-chevrons",
+  COMPANY: "company",
   DISLIKE: "dislike",
   EDIT_FAT: "edit-fat",
   EDIT_L: "edit-l",
@@ -11344,6 +11403,7 @@ var Icons = {
   PERFORMANCE: "performance",
   PIN_TILTED: "pin-tilted",
   PIN: "pin",
+  PLANNER: "planner",
   POINTER_ARROW_LINE: "pointer-arrow-line",
   POINTER_ARROW: "pointer-arrow",
   POINTER_CROSS: "pointer-cross",
@@ -12312,6 +12372,10 @@ var getIcon = async (icon) => {
       return (await Promise.resolve().then(() => (init_button_visible(), button_visible_exports))).IconButtonVisible;
     case Icons.BUTTON:
       return (await Promise.resolve().then(() => (init_button(), button_exports))).IconButton;
+    case Icons.CALENDAR2:
+      return (await Promise.resolve().then(() => (init_calendar2(), calendar2_exports))).IconCalendar2;
+    case Icons.CALENDAR:
+      return (await Promise.resolve().then(() => (init_calendar(), calendar_exports))).IconCalendar;
     case Icons.CHART_BARS_SQUARED:
       return (await Promise.resolve().then(() => (init_chart_bars_squared(), chart_bars_squared_exports))).IconChartBarsSquared;
     case Icons.CHART_BUBBLES:
@@ -12392,6 +12456,8 @@ var getIcon = async (icon) => {
       return (await Promise.resolve().then(() => (init_code_chevrons_open(), code_chevrons_open_exports))).IconCodeChevronsOpen;
     case Icons.CODE_CHEVRONS:
       return (await Promise.resolve().then(() => (init_code_chevrons(), code_chevrons_exports))).IconCodeChevrons;
+    case Icons.COMPANY:
+      return (await Promise.resolve().then(() => (init_company(), company_exports))).IconCompany;
     case Icons.DISLIKE:
       return (await Promise.resolve().then(() => (init_dislike(), dislike_exports))).IconDislike;
     case Icons.EDIT_FAT:
@@ -12724,6 +12790,8 @@ var getIcon = async (icon) => {
       return (await Promise.resolve().then(() => (init_pin_tilted(), pin_tilted_exports))).IconPinTilted;
     case Icons.PIN:
       return (await Promise.resolve().then(() => (init_pin(), pin_exports))).IconPin;
+    case Icons.PLANNER:
+      return (await Promise.resolve().then(() => (init_planner(), planner_exports))).IconPlanner;
     case Icons.POINTER_ARROW_LINE:
       return (await Promise.resolve().then(() => (init_pointer_arrow_line(), pointer_arrow_line_exports))).IconPointerArrowLine;
     case Icons.POINTER_ARROW:
