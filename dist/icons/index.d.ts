@@ -8,4 +8,3 @@ export declare const searchIcon: (term: string, searchIn?: "name" | "category" |
     tag: string[];
     description: string;
 }[] | undefined;
-export { Icons };

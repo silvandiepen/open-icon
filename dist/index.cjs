@@ -35666,6 +35666,8 @@ var init_icon_train_svg = __esm({
 // lib/index.ts
 var lib_exports = {};
 __export(lib_exports, {
+  Aliasses: () => Aliasses,
+  BaseIcons: () => BaseIcons,
   IconCategories: () => IconCategories,
   IconTags: () => IconTags,
   Icons: () => Icons,
@@ -41842,6 +41844,8 @@ var getMeta = async (icon) => {
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
+  Aliasses,
+  BaseIcons,
   IconCategories,
   IconTags,
   Icons,

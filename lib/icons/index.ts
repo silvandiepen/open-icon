@@ -2361,11 +2361,4 @@ export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' |
             return ['name', 'category', 'tag', 'description', 'title'].some(field => findIt(term, icon[field as keyof typeof icon]));
         }
     });
-
-}
-
-
-
-export {
-    Icons
 }

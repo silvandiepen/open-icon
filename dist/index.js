@@ -6164,6 +6164,8 @@ var getMeta = async (icon) => {
   }
 };
 export {
+  Aliasses,
+  BaseIcons,
   IconCategories,
   IconTags,
   Icons,
