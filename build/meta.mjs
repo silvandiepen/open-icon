@@ -145,16 +145,16 @@ async function processIcons() {
   cli.blockMid("global files");
   try {
     const categoryString = JSON.stringify(Array.from(globalCategory), null, 2);
-    const categoryData = `export const categories = ${categoryString}`;
-    fs.writeFileSync(path.join(__dirname, "categories.ts"), categoryData);
+    const categoryData = `export const IconCategories = ${categoryString}`;
+    fs.writeFileSync(path.join(metaDirPath, "categories.ts"), categoryData);
     cli.blockLineSuccess("categories.json is generated successfully.");
   } catch (error) {
     console.error("Error generating icon meta:", error);
   }
   try {
     const tagString = JSON.stringify(Array.from(globalTag), null, 2);
-    const tagData = `export const tags = ${tagString}`;
-    fs.writeFileSync(path.join(__dirname, "tags.ts"), tagData);
+    const tagData = `export const IconTags = ${tagString}`;
+    fs.writeFileSync(path.join(metaDirPath, "tags.ts"), tagData);
     cli.blockLineSuccess("tags.json is generated successfully.");
   } catch (error) {
     console.error("Error generating icon meta:", error);
@@ -163,15 +163,24 @@ async function processIcons() {
   const indexFilePath = path.join(metaDirPath, "index.ts");
   const indexFileContent = `
     import { Icons } from "../icons/types";
+    export * from "./categories";
+    export * from "./tags";
 
-
-export const getMeta = async (icon: Icons) => {
+    export interface IconMeta {
+        description: string;
+        category: string[];
+        tag: string[];
+        title: string;
+    }
+export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
     switch(icon) {
         ${AllIcons.map(
           (icon) => `
         case Icons.${upperSnakeCase(icon.name)}:
             return (await import("./${icon.file.toLowerCase()}")).default;`
         ).join("\n")}
+        default:
+          return null;
     }
       }`;
   fs.writeFileSync(indexFilePath, indexFileContent);

@@ -1,8 +1,15 @@
 
     import { Icons } from "../icons/types";
+    export * from "./categories";
+    export * from "./tags";
 
-
-export const getMeta = async (icon: Icons) => {
+    export interface IconMeta {
+        description: string;
+        category: string[];
+        tag: string[];
+        title: string;
+    }
+export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
     switch(icon) {
         
         case Icons.ICON24:
@@ -2317,5 +2324,7 @@ export const getMeta = async (icon: Icons) => {
 
         case Icons.TRAIN:
             return (await import("./icon_train.svg")).default;
+        default:
+          return null;
     }
       }

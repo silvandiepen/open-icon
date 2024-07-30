@@ -1,6 +1,6 @@
 {
   "name": "open-icon",
-  "version": "1.0.0-alpha.0.27",
+  "version": "1.0.0-alpha.0.28",
   "description": "Open Icon",
   "main": "lib/icons/index.js",
   "type": "module",
@@ -28,7 +28,7 @@
     "build:style": "sass src/style/index.scss dist/style.css",
     "build:dts": "tsc ",
     "build:icons": "sh build/icon-components.sh",
-    "build:meta:copy": "cp -r src/meta lib",
+    "build:meta:copy": "cp -r src/meta lib && ",
     "build:meta": "node build/meta.mjs && npm run build:meta:copy"
   },
   "keywords": [

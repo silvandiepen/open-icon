@@ -1,4 +1,4 @@
-export const tags = [
+export const IconTags = [
   "arrow",
   "navigation",
   "direction",
