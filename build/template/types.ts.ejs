@@ -1,13 +1,17 @@
-export const Icons = {
+export const BaseIcons = {
     <% files.forEach(function(file,index) { %>
      <%= constCase(file.meta.fileName) %>: "<%= file.meta.fileName %>"<% if(index < files.length -1){ %>,<% } %> <% }); %>
 };
+export type BaseIcons = typeof BaseIcons[keyof typeof BaseIcons];
 
 export const Aliasses = {
     <% Object.keys(alias).forEach((key,index)=>{ %> <% if(alias[key].length > 1){ %> <% alias[key].forEach((a,index)=>{ %>
-    <%= constCase(a) %>: Icons.<%= constCase(key) %>, <% }) %>  <% } %>  <% }) %>
+    <%= constCase(a) %>: BaseIcons.<%= constCase(key) %>, <% }) %>  <% } %>  <% }) %>
 }
+export type Aliases = typeof Aliasses[keyof typeof Aliasses];
 
-type Aliases = typeof Aliasses[keyof typeof Aliasses];
-
-export type Icons = typeof Icons[keyof typeof Icons] & Aliases;
+export const Icons = {
+    ...BaseIcons,
+    ...Aliasses
+}
+export type Icons = typeof Icons[keyof typeof Icons];

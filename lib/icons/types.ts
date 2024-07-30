@@ -1,4 +1,4 @@
-export const Icons = {
+export const BaseIcons = {
     
      ICON24: "icon24", 
      ARROW_CORNER_DOWN: "arrow-corner-down", 
@@ -772,28 +772,32 @@ export const Icons = {
      TRAIN_TRACK: "train-track", 
      TRAIN: "train" 
 };
+export type BaseIcons = typeof BaseIcons[keyof typeof BaseIcons];
 
 export const Aliasses = {
          
-    ADD: Icons.ADD_M, 
-    PLUS: Icons.ADD_M,       
-    MINUS: Icons.SUBTRACT_M, 
-    MIN: Icons.SUBTRACT_M, 
-    SUBTRACT: Icons.SUBTRACT_M,       
-    MULTIPLY: Icons.MULTIPLY_M, 
-    TIMES: Icons.MULTIPLY_M, 
-    X: Icons.MULTIPLY_M, 
-    CLOSE: Icons.MULTIPLY_M,          
-    VISIBLE: Icons.VISIBLE_M, 
-    EYE: Icons.VISIBLE_M, 
-    SHOW: Icons.VISIBLE_M,       
-    INVISIBLE: Icons.INVISIBLE_M, 
-    EYE_SLASH: Icons.INVISIBLE_M, 
-    HIDE: Icons.INVISIBLE_M,       
-    HEART: Icons.HEART_M, 
-    LOVE: Icons.HEART_M,        
+    ADD: BaseIcons.ADD_M, 
+    PLUS: BaseIcons.ADD_M,       
+    MINUS: BaseIcons.SUBTRACT_M, 
+    MIN: BaseIcons.SUBTRACT_M, 
+    SUBTRACT: BaseIcons.SUBTRACT_M,       
+    MULTIPLY: BaseIcons.MULTIPLY_M, 
+    TIMES: BaseIcons.MULTIPLY_M, 
+    X: BaseIcons.MULTIPLY_M, 
+    CLOSE: BaseIcons.MULTIPLY_M,          
+    VISIBLE: BaseIcons.VISIBLE_M, 
+    EYE: BaseIcons.VISIBLE_M, 
+    SHOW: BaseIcons.VISIBLE_M,       
+    INVISIBLE: BaseIcons.INVISIBLE_M, 
+    EYE_SLASH: BaseIcons.INVISIBLE_M, 
+    HIDE: BaseIcons.INVISIBLE_M,       
+    HEART: BaseIcons.HEART_M, 
+    LOVE: BaseIcons.HEART_M,        
 }
+export type Aliases = typeof Aliasses[keyof typeof Aliasses];
 
-type Aliases = typeof Aliasses[keyof typeof Aliasses];
-
-export type Icons = typeof Icons[keyof typeof Icons] & Aliases;
+export const Icons = {
+    ...BaseIcons,
+    ...Aliasses
+}
+export type Icons = typeof Icons[keyof typeof Icons];
