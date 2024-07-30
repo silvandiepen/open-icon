@@ -1,14 +1,15 @@
 {
   "name": "open-icon",
-  "version": "1.0.0-alpha.0.25",
+  "version": "1.0.0-alpha.0.26",
   "description": "Open Icon",
   "main": "lib/icons/index.js",
   "type": "module",
   "exports": {
     ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.global.js"
     },
     "./scss": {
       "require": "./src/index.scss",
