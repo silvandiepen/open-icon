@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "Calendar icon suitable for UI design, representing schedules and events.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "date",
+    "time",
+    "event",
+    "planner",
+    "schedule",
+    "appointment",
+    "reminder",
+    "organization",
+    "time management",
+    "tracking"
+  ],
+  "title": "Calendar"
+}
+                export default meta;
+            

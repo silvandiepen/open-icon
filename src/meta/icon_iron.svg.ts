@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The iron icon represents the metal material that is heavy, silvery-white and ductile. It is commonly used in manufacturing and construction.",
+  "category": [
+    "Things"
+  ],
+  "tag": [
+    "metal",
+    "material",
+    "heavy",
+    "silver",
+    "construction",
+    "manufacturing",
+    "iron",
+    "workmanship",
+    "strong",
+    "equipment"
+  ],
+  "title": "Iron"
+}
+                export default meta;
+            

@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "A heart-shaped button icon that can be used to signify liking or favoriting content on a user interface.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "heart",
+    "button",
+    "like",
+    "favorite",
+    "ui",
+    "icon",
+    "design",
+    "web",
+    "love",
+    "emotion"
+  ],
+  "title": "Button Heart"
+}
+                export default meta;
+            

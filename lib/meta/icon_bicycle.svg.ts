@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The bicycle icon is used to indicate a bicycle route or path for cyclists. It is commonly used in wayfinding systems to guide users to bike-friendly paths.",
+  "category": [
+    "Wayfinding",
+    "Transport"
+  ],
+  "tag": [
+    "bike",
+    "cycling",
+    "route",
+    "path",
+    "navigation",
+    "outdoor",
+    "exercise",
+    "recreation",
+    "direction",
+    "signage"
+  ],
+  "title": "Bicycle"
+}
+                export default meta;
+            

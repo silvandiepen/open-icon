@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A squared chart line icon depicting a graph or data visualization. It is typically used to represent analytics, statistics, and trends in a square format.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "chart",
+    "line",
+    "graph",
+    "data",
+    "analytics",
+    "statistics",
+    "trends",
+    "visualization",
+    "square"
+  ],
+  "title": "Chart Line Squared"
+}
+                export default meta;
+            

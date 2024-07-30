@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The planner icon represents a tool used for organizing and managing schedules, tasks, and appointments. It is commonly used in user interface design to symbolize planning and time management.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "planner",
+    "organization",
+    "schedule",
+    "task",
+    "appointment",
+    "time management",
+    "calendar",
+    "tool",
+    "ui",
+    "icon"
+  ],
+  "title": "Planner"
+}
+                export default meta;
+            

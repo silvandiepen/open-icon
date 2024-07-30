@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "The playback-next icon is used to indicate moving to the next media content, such as the next song or video in a playlist.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "music",
+    "video",
+    "playlist",
+    "skip",
+    "forward",
+    "control",
+    "multimedia",
+    "entertainment",
+    "arrow"
+  ],
+  "title": "Playback Next"
+}
+                export default meta;
+            

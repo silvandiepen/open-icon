@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The arrow-headed-out-center icon illustrates an arrow pointing outwards from the center, symbolizing expansion or navigation away from a central point. This icon is commonly used to indicate zooming out, navigation to different sections, or redirecting focus to external content.",
+  "category": [
+    "Arrows",
+    "Interface"
+  ],
+  "tag": [
+    "arrow",
+    "direction",
+    "centered",
+    "expansion",
+    "navigation",
+    "zoom out",
+    "pointer",
+    "external",
+    "focus",
+    "move"
+  ],
+  "title": "Arrow Headed Out Center"
+}
+                export default meta;
+            

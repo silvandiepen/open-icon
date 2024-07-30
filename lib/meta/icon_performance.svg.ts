@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The performance icon is commonly used to represent speed, efficiency, and productivity. It can be used in UI design to indicate high performance levels or optimization.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "efficiency",
+    "productivity",
+    "speed",
+    "optimization",
+    "UI design",
+    "speedometer",
+    "progress",
+    "achievement",
+    "success",
+    "fast"
+  ],
+  "title": "Performance"
+}
+                export default meta;
+            

@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The key-backspace icon is a combination of a key and a backspace arrow, indicating a function to delete text or elements using a keyboard shortcut.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "keyboard",
+    "delete",
+    "backspace",
+    "shortcut",
+    "input",
+    "text editing",
+    "ui",
+    "function",
+    "shortcut",
+    "key"
+  ],
+  "title": "Key Backspace"
+}
+                export default meta;
+            

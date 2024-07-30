@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An icon representing a leftward arrow next to an octagonal stop sign, indicating stopping or pausing in the left direction.",
+  "category": [
+    "Arrows",
+    "Symbol"
+  ],
+  "tag": [
+    "left",
+    "arrow",
+    "stop",
+    "direction",
+    "pause",
+    "navigation",
+    "traffic",
+    "warning",
+    "sign",
+    "safety"
+  ],
+  "title": "Arrow Headed Left Stop"
+}
+                export default meta;
+            

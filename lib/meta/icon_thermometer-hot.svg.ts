@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon representing a hot thermometer, typically used to indicate high temperature or heat. It is commonly used in user interfaces to display weather information or climate settings.",
+  "category": [
+    "Interface",
+    "Weather"
+  ],
+  "tag": [
+    "temperature",
+    "hot",
+    "weather",
+    "climate",
+    "heat",
+    "thermometer",
+    "indicator",
+    "measurement",
+    "icon"
+  ],
+  "title": "Thermometer Hot"
+}
+                export default meta;
+            

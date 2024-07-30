@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A simple question mark icon designed in a modern and sleek style. Perfect for use in user interface designs to indicate help, support, or FAQs.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "question mark",
+    "help",
+    "support",
+    "FAQ",
+    "UI",
+    "user interface",
+    "information",
+    "query",
+    "unknown",
+    "puzzle"
+  ],
+  "title": "Question Mark L"
+}
+                export default meta;
+            

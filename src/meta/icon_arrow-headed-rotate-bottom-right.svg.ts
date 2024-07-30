@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon depicting an arrow pointing to the bottom right corner with a distinctive arrowhead, symbolizing rotation or direction change.",
+  "category": [
+    "Arrows"
+  ],
+  "tag": [
+    "pointer",
+    "rotation",
+    "direction",
+    "movement",
+    "navigation",
+    "arrowhead",
+    "angled",
+    "change",
+    "transition",
+    "rotate"
+  ],
+  "title": "Arrow Headed Rotate Bottom Right"
+}
+                export default meta;
+            

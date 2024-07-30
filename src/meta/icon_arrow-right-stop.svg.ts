@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The arrow-right-stop icon is a graphical representation of a right arrow with a stop symbol, indicating the action of stopping or halting the rightward movement. This icon is commonly used in interfaces and applications to indicate a pause or cancellation of a process.",
+  "category": [
+    "Arrows",
+    "Interface"
+  ],
+  "tag": [
+    "arrow",
+    "right",
+    "stop",
+    "navigation",
+    "direction",
+    "interface",
+    "symbol",
+    "pause",
+    "cancel",
+    "halt"
+  ],
+  "title": "Arrow Right Stop"
+}
+                export default meta;
+            

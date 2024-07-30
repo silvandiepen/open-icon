@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The mail icon represents electronic mail, often used as a symbol for emails and communication. It typically depicts an envelope with a paper inside, indicating sending and receiving messages.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "communication",
+    "message",
+    "envelope",
+    "email",
+    "inbox",
+    "outbox",
+    "correspondence",
+    "contact",
+    "letter",
+    "inbox"
+  ],
+  "title": "Mail"
+}
+                export default meta;
+            

@@ -1,0 +1,24 @@
+
+                export const meta = {
+  "description": "A star symbol often used to represent favorite or important files. Can be used as a visual indicator for users to easily identify important documents.",
+  "category": [
+    "Interface",
+    "Symbol",
+    "Document"
+  ],
+  "tag": [
+    "star",
+    "favorite",
+    "important",
+    "file",
+    "document",
+    "ui",
+    "icon",
+    "marker",
+    "highlight",
+    "symbol"
+  ],
+  "title": "File Star"
+}
+                export default meta;
+            

@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A 24x24 pixels icon depicting an arrow. It is commonly used to indicate directions, navigation, or movement.",
+  "category": [
+    "Arrows"
+  ],
+  "tag": [
+    "arrow",
+    "navigation",
+    "direction",
+    "movement",
+    "pointer",
+    "24x24",
+    "icon",
+    "symbol",
+    "interface",
+    "graphic"
+  ],
+  "title": "Arrow Icon - 24x24"
+}
+                export default meta;
+            

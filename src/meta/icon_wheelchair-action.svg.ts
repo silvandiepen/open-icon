@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "This icon depicts a symbol of a wheelchair in motion, representing accessibility or disability rights. It can be used in user interface designs to indicate wheelchair-accessible features or services.",
+  "category": [
+    "Accessibility",
+    "Interface"
+  ],
+  "tag": [
+    "wheelchair",
+    "action",
+    "mobility",
+    "disability",
+    "accessibility",
+    "movement",
+    "inclusion",
+    "healthcare",
+    "assistive technology",
+    "diversity"
+  ],
+  "title": "Wheelchair Action"
+}
+                export default meta;
+            

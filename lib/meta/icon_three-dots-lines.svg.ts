@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The icon consists of three horizontally aligned dots, representing a menu or options list. It is often used as a symbol for displaying additional actions or choices.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "menu",
+    "options",
+    "list",
+    "dots",
+    "actions",
+    "more",
+    "expand",
+    "context menu",
+    "navigation",
+    "settings"
+  ],
+  "title": "Three Dots Lines"
+}
+                export default meta;
+            

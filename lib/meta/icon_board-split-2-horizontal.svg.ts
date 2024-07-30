@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon featuring a board split into two horizontal sections. It represents a horizontal division or separation.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "board",
+    "split",
+    "horizontal",
+    "partition",
+    "sections",
+    "division",
+    "interface",
+    "design",
+    "layout",
+    "user interface"
+  ],
+  "title": "Board Split Horizontal"
+}
+                export default meta;
+            

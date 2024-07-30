@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An icon depicting a file with an exclamation mark, commonly used to indicate important or urgent information related to a document or file.",
+  "category": [
+    "Interface",
+    "Document"
+  ],
+  "tag": [
+    "alert",
+    "warning",
+    "important",
+    "notification",
+    "file",
+    "exclamation mark",
+    "document",
+    "urgent",
+    "reminder",
+    "symbol"
+  ],
+  "title": "File Exclamation Mark"
+}
+                export default meta;
+            

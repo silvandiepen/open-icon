@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The audio waves icon visually represents sound and music. It typically consists of curved lines or bars that mimic the patterns created by sound waves.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "audio waves",
+    "sound waves",
+    "music",
+    "audio visualizer",
+    "waveform",
+    "song",
+    "audio",
+    "music player",
+    "sound",
+    "acoustic"
+  ],
+  "title": "Audio Waves"
+}
+                export default meta;
+            

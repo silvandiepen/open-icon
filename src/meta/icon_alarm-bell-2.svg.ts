@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon of an alarm bell with two bells. It is commonly used to represent an alarm or notification in media applications.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "alarm",
+    "bell",
+    "notification",
+    "alert",
+    "reminder",
+    "warning",
+    "sound",
+    "ringing",
+    "emergency",
+    "clock"
+  ],
+  "title": "Alarm Bell 2"
+}
+                export default meta;
+            

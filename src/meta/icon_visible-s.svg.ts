@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon representing visibility or the concept of being visible. This icon is typically used to toggle visibility on or off in user interfaces.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "eye",
+    "show",
+    "hide",
+    "toggle",
+    "view",
+    "reveal",
+    "conceal",
+    "see",
+    "screen",
+    "visibility"
+  ],
+  "title": "Visible Switch"
+}
+                export default meta;
+            

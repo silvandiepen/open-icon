@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An exclamation mark within a note, indicating an important message or reminder. This icon is commonly used in user interfaces to draw attention to specific information.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "note",
+    "exclamation",
+    "mark",
+    "important",
+    "message",
+    "reminder",
+    "notify",
+    "communication",
+    "attention",
+    "warning"
+  ],
+  "title": "Note Exclamation Mark 2"
+}
+                export default meta;
+            

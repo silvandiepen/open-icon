@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A folder icon with a star symbol, representing a favorite or important folder. This icon is commonly used to highlight important directories or files.",
+  "category": [
+    "Interface",
+    "Document"
+  ],
+  "tag": [
+    "folder",
+    "star",
+    "favorite",
+    "important",
+    "directory",
+    "file",
+    "storage",
+    "organization",
+    "icon"
+  ],
+  "title": "Folder Star"
+}
+                export default meta;
+            

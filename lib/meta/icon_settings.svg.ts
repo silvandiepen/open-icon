@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon representing settings, typically used to access or modify various options and preferences.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "options",
+    "preferences",
+    "controls",
+    "configuration",
+    "setup",
+    "gear",
+    "menu",
+    "adjust",
+    "customization",
+    "tools"
+  ],
+  "title": "Settings"
+}
+                export default meta;
+            

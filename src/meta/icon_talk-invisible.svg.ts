@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon representing invisible conversation or hidden discussion. It indicates communication or speech happening discreetly or behind the scenes.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "communication",
+    "speech",
+    "conversation",
+    "hidden",
+    "discreet",
+    "messaging",
+    "chat",
+    "private",
+    "talk",
+    "silence"
+  ],
+  "title": "Talk Invisible"
+}
+                export default meta;
+            

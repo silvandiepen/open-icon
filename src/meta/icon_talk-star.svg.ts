@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "A star icon designed with a speech bubble, indicating communication or conversation. Can be used to represent messages or notifications.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "communication",
+    "conversation",
+    "message",
+    "notification",
+    "chat",
+    "talk",
+    "star",
+    "speech bubble",
+    "dialogue",
+    "interaction"
+  ],
+  "title": "Talk Star"
+}
+                export default meta;
+            

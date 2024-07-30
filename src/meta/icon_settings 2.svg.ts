@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The settings 2 icon is commonly used in user interfaces to indicate a menu for configuration options. It typically consists of a gear or cogwheel symbol.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "settings",
+    "gear",
+    "cogwheel",
+    "options",
+    "menu",
+    "configuration",
+    "preferences",
+    "interface",
+    "UI",
+    "user interface"
+  ],
+  "title": "Settings 2"
+}
+                export default meta;
+            

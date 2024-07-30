@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "The 'talk-info' icon represents receiving information through a conversation or discussion. It is typically used to indicate that important details or facts are being communicated.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "communication",
+    "conversation",
+    "information",
+    "discussion",
+    "chat",
+    "notification",
+    "speech bubble",
+    "dialogue",
+    "alert"
+  ],
+  "title": "Talk Info"
+}
+                export default meta;
+            

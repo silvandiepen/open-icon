@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "This icon depicts a square speech balloon, commonly used to represent dialogue or comments in user interfaces.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "communication",
+    "conversation",
+    "dialogue",
+    "chat",
+    "bubble",
+    "comments",
+    "messaging",
+    "speech",
+    "talk",
+    "interact"
+  ],
+  "title": "Speech Balloon Square Copy"
+}
+                export default meta;
+            

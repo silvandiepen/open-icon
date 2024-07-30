@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An icon depicting a bold exclamation mark inside a square container, often used to indicate a warning or important information in user interfaces.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "attention",
+    "alert",
+    "notification",
+    "warning",
+    "exclamation",
+    "important",
+    "ui",
+    "user interface",
+    "message",
+    "information"
+  ],
+  "title": "Exclamation Mark M"
+}
+                export default meta;
+            

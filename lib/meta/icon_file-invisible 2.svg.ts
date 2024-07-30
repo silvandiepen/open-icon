@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The file-invisible icon represents a hidden or invisible file. It is commonly used to symbolize files that are not visible or accessible to the user. The icon typically features a transparent or faded appearance to convey its hidden nature.",
+  "category": [
+    "Interface",
+    "Document"
+  ],
+  "tag": [
+    "invisible",
+    "hidden",
+    "file",
+    "document",
+    "access",
+    "privacy",
+    "confidential",
+    "secret",
+    "discreet",
+    "unseen"
+  ],
+  "title": "File Invisible"
+}
+                export default meta;
+            

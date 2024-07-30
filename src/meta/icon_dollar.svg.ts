@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The dollar icon represents currency and is commonly used to symbolize money or financial transactions.",
+  "category": [
+    "Symbol"
+  ],
+  "tag": [
+    "currency",
+    "money",
+    "financial",
+    "dollar sign",
+    "business",
+    "economy",
+    "wealth",
+    "payment",
+    "cost",
+    "cash"
+  ],
+  "title": "Dollar"
+}
+                export default meta;
+            

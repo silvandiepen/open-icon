@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "The playback-start icon represents the beginning of a media playback, typically used in multimedia applications or video players.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "playback",
+    "start",
+    "media control",
+    "audio",
+    "video",
+    "beginning",
+    "multimedia",
+    "player",
+    "control"
+  ],
+  "title": "Playback Start"
+}
+                export default meta;
+            

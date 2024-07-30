@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The moneybag icon represents wealth, financial success, and prosperity. It is often used to symbolize money, savings, investments, and business.",
+  "category": [
+    "Things"
+  ],
+  "tag": [
+    "Wealth",
+    "Finance",
+    "Prosperity",
+    "Savings",
+    "Investments",
+    "Business",
+    "Riches",
+    "Currency",
+    "Earnings",
+    "Cash"
+  ],
+  "title": "Money Bag"
+}
+                export default meta;
+            

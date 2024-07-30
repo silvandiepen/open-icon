@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "This icon features an arm of a factory, symbolizing manufacturing or production. It can represent industries, automation, machinery, or assembly lines.",
+  "category": [
+    "Things",
+    "Industry"
+  ],
+  "tag": [
+    "Factory",
+    "Arm",
+    "Manufacturing",
+    "Production",
+    "Industries",
+    "Automation",
+    "Machinery",
+    "Assembly lines",
+    "Industrial revolution"
+  ],
+  "title": "Factory Arm"
+}
+                export default meta;
+            

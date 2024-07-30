@@ -1,0 +1,24 @@
+
+                export const meta = {
+  "description": "A simple icon featuring an arrow pointing upwards, indicating the action of moving or uploading a file. This icon is commonly used in user interfaces to signify a file upload operation.",
+  "category": [
+    "Arrows",
+    "Interface",
+    "Document"
+  ],
+  "tag": [
+    "upload",
+    "move",
+    "arrow",
+    "file",
+    "direction",
+    "interface",
+    "navigation",
+    "symbol",
+    "action",
+    "operation"
+  ],
+  "title": "File Arrow Up"
+}
+                export default meta;
+            

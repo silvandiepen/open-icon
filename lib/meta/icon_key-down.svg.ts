@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon representing a downward key or keyboard key press. This icon is often used in user interfaces to indicate a keyboard shortcut or key press action.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "key",
+    "down",
+    "keyboard",
+    "shortcut",
+    "press",
+    "action",
+    "input",
+    "computer",
+    "symbol",
+    "ui"
+  ],
+  "title": "Key Down"
+}
+                export default meta;
+            

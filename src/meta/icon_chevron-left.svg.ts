@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "A left-facing chevron icon commonly used to indicate a previous or back action.",
+  "category": [
+    "Arrows"
+  ],
+  "tag": [
+    "navigation",
+    "arrow",
+    "direction",
+    "back",
+    "previous",
+    "left",
+    "chevron",
+    "icon",
+    "symbol"
+  ],
+  "title": "Chevron Left"
+}
+                export default meta;
+            

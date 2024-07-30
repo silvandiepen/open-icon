@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The gamepad icon represents a controller used for playing video games. It typically has buttons and joysticks for controlling characters and actions on a screen.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "gaming",
+    "controller",
+    "entertainment",
+    "video games",
+    "console",
+    "technology",
+    "leisure",
+    "electronics",
+    "joystick",
+    "fun"
+  ],
+  "title": "Gamepad"
+}
+                export default meta;
+            

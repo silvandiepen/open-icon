@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A circled information icon indicating additional information or details",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "information",
+    "details",
+    "help",
+    "question",
+    "tooltip",
+    "info",
+    "circle",
+    "notification",
+    "alert",
+    "UI"
+  ],
+  "title": "Circled Info"
+}
+                export default meta;
+            

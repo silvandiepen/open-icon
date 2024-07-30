@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "This icon represents a question mark enclosed in a circle, commonly used to indicate an unknown or unclear situation. It is often used in user interfaces to prompt the user for help or further information.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "question mark",
+    "help",
+    "information",
+    "unclear",
+    "user interface",
+    "query",
+    "problem",
+    "solution",
+    "FAQ",
+    "support"
+  ],
+  "title": "Question Mark Circle"
+}
+                export default meta;
+            

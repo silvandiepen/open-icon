@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon representing a decorative frame often used for displaying artwork or pictures.",
+  "category": [
+    "Things"
+  ],
+  "tag": [
+    "Artwork",
+    "Frame",
+    "Decoration",
+    "Picture",
+    "Gallery",
+    "Display",
+    "Interior design",
+    "Home decor",
+    "Wall art",
+    "Design element"
+  ],
+  "title": "Artwork Frame"
+}
+                export default meta;
+            

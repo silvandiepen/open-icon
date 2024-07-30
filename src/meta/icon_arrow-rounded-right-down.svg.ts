@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon depicting a rounded arrow pointing right and down, symbolizing a diagonal direction. The arrow is rounded at the tip for a smooth appearance.",
+  "category": [
+    "Arrows"
+  ],
+  "tag": [
+    "rounded",
+    "arrow",
+    "direction",
+    "diagonal",
+    "navigation",
+    "pointer",
+    "symbol",
+    "interface",
+    "downward",
+    "right"
+  ],
+  "title": "Arrow Rounded Right Down"
+}
+                export default meta;
+            

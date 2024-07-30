@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The tablet-landscape icon represents a digital tablet or device in landscape orientation, commonly used for media consumption or playing games.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "tablet",
+    "landscape",
+    "device",
+    "digital",
+    "screen",
+    "technology",
+    "entertainment",
+    "multimedia",
+    "display",
+    "horizontal"
+  ],
+  "title": "Tablet Landscape"
+}
+                export default meta;
+            

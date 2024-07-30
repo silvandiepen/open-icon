@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "Thermometer icon typically represents temperature or weather related information. It is often used in user interfaces to indicate current temperature or weather conditions.",
+  "category": [
+    "Interface",
+    "Weather"
+  ],
+  "tag": [
+    "temperature",
+    "weather",
+    "measurement",
+    "temperature gauge",
+    "temperature icon",
+    "meteorology",
+    "hot",
+    "cold",
+    "climate",
+    "forecast"
+  ],
+  "title": "Thermometer"
+}
+                export default meta;
+            

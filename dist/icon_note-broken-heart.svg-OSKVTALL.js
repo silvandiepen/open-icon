@@ -1,0 +1,26 @@
+// lib/meta/icon_note-broken-heart.svg.ts
+var meta = {
+  "description": "The icon 'note-broken-heart' represents a broken heart shape inside a note, symbolizing heartbreak or sadness. This icon can be used in user interfaces to convey emotions or messages related to love stories, relationships, or emotional content.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "love",
+    "heartbreak",
+    "sadness",
+    "emotions",
+    "relationships",
+    "note",
+    "message",
+    "user interface",
+    "broken heart",
+    "symbol"
+  ],
+  "title": "Note Broken Heart"
+};
+var icon_note_broken_heart_svg_default = meta;
+export {
+  icon_note_broken_heart_svg_default as default,
+  meta
+};

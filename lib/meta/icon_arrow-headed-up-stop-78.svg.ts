@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An arrow pointing up with a unique stop sign design at the tip of the arrowhead, suitable for indicating stopping or pausing actions.",
+  "category": [
+    "Arrows",
+    "Interface"
+  ],
+  "tag": [
+    "arrow",
+    "up",
+    "stop",
+    "pause",
+    "navigation",
+    "direction",
+    "pointing",
+    "alert",
+    "indicator",
+    "action"
+  ],
+  "title": "Arrow Headed Up Stop 78"
+}
+                export default meta;
+            

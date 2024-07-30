@@ -1,6 +1,6 @@
 {
   "src": "src/icons/*",
-  "dest": "lib",
+  "dest": "lib/icons",
   "componentTemplate": [
     "build/template/[component].svg.ejs",
     "build/template/[component].ts.ejs"

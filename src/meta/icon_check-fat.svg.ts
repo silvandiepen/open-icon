@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A bold and thick check mark icon, indicating completion or approval. Commonly used in user interfaces.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "check",
+    "tick",
+    "complete",
+    "approve",
+    "confirmed",
+    "success",
+    "ui",
+    "symbol",
+    "verification",
+    "confirmation"
+  ],
+  "title": "Check Fat"
+}
+                export default meta;
+            

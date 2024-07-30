@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A small heart icon depicting a broken heart, often used to symbolize sadness or heartbreak in user interface designs.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "heart",
+    "broken",
+    "sadness",
+    "love",
+    "emotions",
+    "ui",
+    "symbol",
+    "small",
+    "icon",
+    "graphic"
+  ],
+  "title": "Heart Broken Small"
+}
+                export default meta;
+            

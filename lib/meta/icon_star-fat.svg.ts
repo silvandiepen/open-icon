@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A fat star icon commonly used to represent favorites or ratings in user interfaces.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "favorite",
+    "rating",
+    "ui design",
+    "web design",
+    "fat icon",
+    "star icon",
+    "user interface",
+    "favorite icon",
+    "rating icon"
+  ],
+  "title": "Star Fat"
+}
+                export default meta;
+            

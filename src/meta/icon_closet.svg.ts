@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An icon representing a closet used for storing clothes, shoes, or other personal items.",
+  "category": [
+    "Things",
+    "Furniture"
+  ],
+  "tag": [
+    "Storage",
+    "Wardrobe",
+    "Home",
+    "Organization",
+    "Interior design",
+    "Room",
+    "Household",
+    "Clothes",
+    "Shoes",
+    "Personal items"
+  ],
+  "title": "Closet"
+}
+                export default meta;
+            

@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An arrow icon pointing down-right, indicating a diagonal direction.",
+  "category": [
+    "Arrows"
+  ],
+  "tag": [
+    "direction",
+    "diagonal",
+    "navigation",
+    "pointer",
+    "move",
+    "down",
+    "right",
+    "movement",
+    "icon",
+    "arrow"
+  ],
+  "title": "Arrow Headed Down Right"
+}
+                export default meta;
+            

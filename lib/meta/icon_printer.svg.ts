@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon representing a printer, often used to indicate the action of printing a physical copy of a digital document or image.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "office",
+    "equipment",
+    "printing",
+    "copy",
+    "paper",
+    "technology",
+    "paperwork",
+    "output",
+    "device",
+    "print job"
+  ],
+  "title": "Printer"
+}
+                export default meta;
+            

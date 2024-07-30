@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The squared-search icon represents a search functionality in a squared design, suitable for use in user interface designs.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "search",
+    "find",
+    "query",
+    "lookup",
+    "squared",
+    "UI",
+    "user interface",
+    "application",
+    "website",
+    "functionality"
+  ],
+  "title": "Squared Search"
+}
+                export default meta;
+            

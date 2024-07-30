@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The speech balloons icon is commonly used in user interfaces to represent conversations, dialogues or messaging systems. It typically symbolizes communication and interactions between users.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "communication",
+    "conversations",
+    "dialogue",
+    "messages",
+    "chat",
+    "conversation bubbles",
+    "talk",
+    "speech",
+    "user interface",
+    "messaging"
+  ],
+  "title": "Speech Balloons"
+}
+                export default meta;
+            

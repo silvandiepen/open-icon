@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A digital representation of the number 1, designed in a modern and sleek style.",
+  "category": [
+    "Special Characters"
+  ],
+  "tag": [
+    "number",
+    "digital",
+    "modern",
+    "sleek",
+    "one",
+    "icon",
+    "symbol",
+    "digit",
+    "technology",
+    "design"
+  ],
+  "title": "Digit Digital 1"
+}
+                export default meta;
+            

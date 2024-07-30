@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The arrow-headed twoway diagonal pointing from right to left is a directional icon that represents bidirectional movement or interchange in a diagonal path from right to left.",
+  "category": [
+    "Arrows",
+    "Interface"
+  ],
+  "tag": [
+    "arrow",
+    "diagonal",
+    "bidirectional",
+    "motion",
+    "navigation",
+    "direction",
+    "twoway",
+    "transfer",
+    "pointing",
+    "exchange"
+  ],
+  "title": "Arrow Headed Twoway Diagonal RL"
+}
+                export default meta;
+            

@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "An icon of a speech bubble with a plus sign, indicating adding or creating a new conversation or message. It is commonly used in chat interfaces and messaging applications.",
+  "category": [
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "talk",
+    "bubble",
+    "conversation",
+    "chat",
+    "add",
+    "message",
+    "communication",
+    "interface",
+    "dialogue",
+    "new"
+  ],
+  "title": "Talk Add"
+}
+                export default meta;
+            

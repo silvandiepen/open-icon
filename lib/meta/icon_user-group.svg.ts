@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The user-group icon represents a group of users or a team. It is commonly used to indicate a group discussion, collaboration, or teamwork.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "users",
+    "team",
+    "collaboration",
+    "group",
+    "discussion",
+    "work",
+    "project",
+    "social",
+    "community",
+    "avatar"
+  ],
+  "title": "User Group"
+}
+                export default meta;
+            

@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The key-enter icon represents the action of pressing a key on the keyboard to confirm or submit something, often used in user interfaces to submit forms or execute commands.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "keyboard",
+    "submit",
+    "confirm",
+    "input",
+    "interaction",
+    "form",
+    "enter key",
+    "accessibility",
+    "ui",
+    "action"
+  ],
+  "title": "Key Enter"
+}
+                export default meta;
+            

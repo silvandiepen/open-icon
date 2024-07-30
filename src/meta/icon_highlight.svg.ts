@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The highlight icon is typically used to mark or emphasize important information in media files such as text or images.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "highlight",
+    "mark",
+    "emphasis",
+    "important",
+    "media",
+    "files",
+    "text",
+    "images",
+    "multimedia",
+    "content"
+  ],
+  "title": "Highlight"
+}
+                export default meta;
+            

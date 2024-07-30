@@ -1,0 +1,24 @@
+
+                export const meta = {
+  "description": "The arrow-spread-split icon features an arrow pointing in multiple directions, symbolizing splitting or divergence. It can represent branching out, expanding options, or various choices to be made.",
+  "category": [
+    "Arrows",
+    "Interface",
+    "Symbol"
+  ],
+  "tag": [
+    "arrow",
+    "spread",
+    "split",
+    "choice",
+    "divergence",
+    "options",
+    "branching out",
+    "directions",
+    "expansion",
+    "decision"
+  ],
+  "title": "Arrow Spread Split"
+}
+                export default meta;
+            

@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A digital style icon representing the number three, designed with a modern and sleek look.",
+  "category": [
+    "Special Characters"
+  ],
+  "tag": [
+    "Three",
+    "Number",
+    "Digital",
+    "Counting",
+    "Digit",
+    "Technology",
+    "Modern",
+    "Sleek",
+    "Typography",
+    "Numeric"
+  ],
+  "title": "Digit Digital 3"
+}
+                export default meta;
+            

@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The arrow-twoway-vertical icon represents a vertical direction change, indicating reversible movement up and down.",
+  "category": [
+    "Arrows"
+  ],
+  "tag": [
+    "arrow",
+    "two-way",
+    "vertical",
+    "direction",
+    "movement",
+    "up",
+    "down",
+    "symmetric",
+    "reversible",
+    "cycle"
+  ],
+  "title": "Arrow Two-Way Vertical"
+}
+                export default meta;
+            

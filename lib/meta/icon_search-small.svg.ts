@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The search-small icon is a small magnifying glass commonly used to indicate a search function in user interfaces.",
+  "category": [
+    "Interface"
+  ],
+  "tag": [
+    "search",
+    "find",
+    "magnifying glass",
+    "query",
+    "navigation",
+    "small",
+    "input",
+    "lookup",
+    "seek",
+    "discover"
+  ],
+  "title": "Search Small"
+}
+                export default meta;
+            

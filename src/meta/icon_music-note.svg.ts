@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "The music note icon represents audio, music, sound, melody, or songs. It is commonly used to symbolize anything related to music or audio content.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "music",
+    "note",
+    "sound",
+    "melody",
+    "audio",
+    "media",
+    "song",
+    "musical",
+    "tune",
+    "listen"
+  ],
+  "title": "Music Note"
+}
+                export default meta;
+            
