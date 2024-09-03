@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "A retro video game controller icon inspired by the NES controller. It features a classic design with a D-pad, A and B buttons, and Start and Select buttons.",
+  "category": [
+    "Media",
+    "Interface"
+  ],
+  "tag": [
+    "nes",
+    "controller",
+    "retro",
+    "video game",
+    "gaming",
+    "console",
+    "classic",
+    "buttons",
+    "electronics",
+    "technology"
+  ],
+  "title": "NES Controller"
+}
+                export default meta;
+            

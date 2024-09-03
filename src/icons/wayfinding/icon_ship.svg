@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+<svg id="ship" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <polyline points="18 54.86 13.5 40.5 36 27 58.5 40.5 54 54.86" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <polyline points="18 37.8 22.5 18 49.5 18 54 37.8" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <polygon points="45 18 27 18 31.5 9 40.5 9 45 18" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 4px;"/>

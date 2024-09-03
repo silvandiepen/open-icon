@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <circle cx="36" cy="36" r="22.5" style="fill: #ed1f24; opacity: .5; stroke-width: 0px;"/>
   <circle cx="36" cy="36" r="22.5" style="fill: none; stroke: #010101; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <circle cx="36" cy="36" r="13.5" style="fill: none; stroke: #010101; stroke-miterlimit: 10; stroke-width: 4px;"/>

@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "City bus icon for wayfinding purposes, commonly used to indicate bus stops or public transportation locations in urban areas.",
+      category: ["Transport","Wayfinding"],
+      tag: ["City bus","Public transportation","Urban","Bus stop","Travel","Transit system","Icon","Symbol","Navigation","Transportation"],
+      title: "City Bus"
+    };
+    export default meta;

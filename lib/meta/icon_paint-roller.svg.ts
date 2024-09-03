@@ -1,0 +1,21 @@
+
+                export const meta = {
+  "description": "A paint roller icon typically used to represent painting, decoration, renovation, or design concepts in various media projects.",
+  "category": [
+    "Media"
+  ],
+  "tag": [
+    "paint",
+    "roller",
+    "painting",
+    "decoration",
+    "renovation",
+    "design",
+    "tool",
+    "craft",
+    "project"
+  ],
+  "title": "Paint Roller"
+}
+                export default meta;
+            

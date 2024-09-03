@@ -1,0 +1,23 @@
+
+                export const meta = {
+  "description": "The wifi icon represents a wireless signal strength indicator, showing the level of connection to a wifi network.",
+  "category": [
+    "Media",
+    "Interface"
+  ],
+  "tag": [
+    "connection",
+    "internet",
+    "network",
+    "signal",
+    "technology",
+    "communication",
+    "wireless",
+    "strength",
+    "icon",
+    "wifi"
+  ],
+  "title": "Wifi"
+}
+                export default meta;
+            

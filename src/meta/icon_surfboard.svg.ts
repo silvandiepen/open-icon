@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A surfboard icon typically used to represent surfing, beach activities, or tropical vacations. It features a long and narrow board with a colorful design.",
+      category: ["Misc"],
+      tag: ["surfing","beach","ocean","vacation","sports","summer","water","waves","leisure","recreation"],
+      title: "Surfboard"
+    };
+    export default meta;

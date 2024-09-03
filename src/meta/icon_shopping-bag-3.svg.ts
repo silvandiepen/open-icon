@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The shopping bag icon is perfect for representing shopping, e-commerce, retail, and consumerism. The design features a simple bag with handles, making it easily recognizable.",
+      category: ["Shopping"],
+      tag: ["Retail","E-commerce","Consumerism","Online shopping","Store","Purchase","Shop","Add to cart","Buy","Commerce"],
+      title: "Shopping Bag 3"
+    };
+    export default meta;

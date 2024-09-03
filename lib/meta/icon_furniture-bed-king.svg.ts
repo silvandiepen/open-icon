@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "An icon of a king-sized bed, symbolizing comfort and luxury. Perfect for furniture-related designs.",
+  "category": [
+    "Misc"
+  ],
+  "tag": [
+    "furniture",
+    "bed",
+    "king",
+    "comfort",
+    "luxury",
+    "home",
+    "decor",
+    "sleep",
+    "rest",
+    "interior"
+  ],
+  "title": "King Sized Bed Icon"
+}
+                export default meta;
+            

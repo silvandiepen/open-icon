@@ -1,422 +1,64 @@
 import { Icons } from "./types";
 
-
+/**
+ * Retrieves the specified icon.
+ *
+ * @param {Icons} icon - The icon to retrieve.
+ * @returns {Promise<IconData>} - A promise that resolves to the icon data.
+ */
 export const getIcon = async (icon: Icons) => {
     switch(icon) {
     
-        case Icons.ICON24:
-            return (await import("./icon24")).IconIcon24;
+        case Icons.ANIMAL_STEP:
+            return (await import("./animal-step")).IconAnimalStep;
     
-        case Icons.ARROW_CORNER_DOWN:
-            return (await import("./arrow-corner-down")).IconArrowCornerDown;
+        case Icons.BUTTERFLY:
+            return (await import("./butterfly")).IconButterfly;
     
-        case Icons.ARROW_CORNER_LEFT:
-            return (await import("./arrow-corner-left")).IconArrowCornerLeft;
+        case Icons.CAT_HEAD:
+            return (await import("./cat-head")).IconCatHead;
     
-        case Icons.ARROW_CORNER_RIGHT:
-            return (await import("./arrow-corner-right")).IconArrowCornerRight;
+        case Icons.CAT_HEAD2:
+            return (await import("./cat-head2")).IconCatHead2;
     
-        case Icons.ARROW_CORNER_UP:
-            return (await import("./arrow-corner-up")).IconArrowCornerUp;
+        case Icons.CAT:
+            return (await import("./cat")).IconCat;
     
-        case Icons.ARROW_DIAGONAL_BL_TR_STOP:
-            return (await import("./arrow-diagonal-bl-tr-stop")).IconArrowDiagonalBlTrStop;
+        case Icons.CAT2:
+            return (await import("./cat2")).IconCat2;
     
-        case Icons.ARROW_DIAGONAL_BR_TL_STOP:
-            return (await import("./arrow-diagonal-br-tl-stop")).IconArrowDiagonalBrTlStop;
+        case Icons.CAT3:
+            return (await import("./cat3")).IconCat3;
     
-        case Icons.ARROW_DIAGONAL_IN_LT_BR:
-            return (await import("./arrow-diagonal-in-lt-br")).IconArrowDiagonalInLtBr;
+        case Icons.FISH:
+            return (await import("./fish")).IconFish;
     
-        case Icons.ARROW_DIAGONAL_IN_TR_BL:
-            return (await import("./arrow-diagonal-in-tr-bl")).IconArrowDiagonalInTrBl;
+        case Icons.FISH2:
+            return (await import("./fish2")).IconFish2;
     
-        case Icons.ARROW_DIAGONAL_TL_BR_SPLIT:
-            return (await import("./arrow-diagonal-tl-br-split")).IconArrowDiagonalTlBrSplit;
+        case Icons.JELLYFISH:
+            return (await import("./jellyfish")).IconJellyfish;
     
-        case Icons.ARROW_DIAGONAL_TL_BR_STOP:
-            return (await import("./arrow-diagonal-tl-br-stop")).IconArrowDiagonalTlBrStop;
+        case Icons.LOBSTER:
+            return (await import("./lobster")).IconLobster;
     
-        case Icons.ARROW_DIAGONAL_TL_BR:
-            return (await import("./arrow-diagonal-tl-br")).IconArrowDiagonalTlBr;
+        case Icons.PUFFERFISH:
+            return (await import("./pufferfish")).IconPufferfish;
     
-        case Icons.ARROW_DIAGONAL_TR_BL_SPLIT:
-            return (await import("./arrow-diagonal-tr-bl-split")).IconArrowDiagonalTrBlSplit;
+        case Icons.SEA_STAR:
+            return (await import("./sea-star")).IconSeaStar;
     
-        case Icons.ARROW_DIAGONAL_TR_BL_STOP:
-            return (await import("./arrow-diagonal-tr-bl-stop")).IconArrowDiagonalTrBlStop;
+        case Icons.SQUID:
+            return (await import("./squid")).IconSquid;
     
-        case Icons.ARROW_DIAGONAL_TR_BL:
-            return (await import("./arrow-diagonal-tr-bl")).IconArrowDiagonalTrBl;
+        case Icons.STINGRAY:
+            return (await import("./stingray")).IconStingray;
     
-        case Icons.ARROW_DOWN_COPY:
-            return (await import("./arrow-down-copy")).IconArrowDownCopy;
+        case Icons.TURTLE:
+            return (await import("./turtle")).IconTurtle;
     
-        case Icons.ARROW_DOWN_LEFT:
-            return (await import("./arrow-down-left")).IconArrowDownLeft;
-    
-        case Icons.ARROW_DOWN_RIGHT:
-            return (await import("./arrow-down-right")).IconArrowDownRight;
-    
-        case Icons.ARROW_DOWN:
-            return (await import("./arrow-down")).IconArrowDown;
-    
-        case Icons.ARROW_DOWNLOAD:
-            return (await import("./arrow-download")).IconArrowDownload;
-    
-        case Icons.ARROW_HEADED_CORNER_DOWN:
-            return (await import("./arrow-headed-corner-down")).IconArrowHeadedCornerDown;
-    
-        case Icons.ARROW_HEADED_CORNER_LEFT:
-            return (await import("./arrow-headed-corner-left")).IconArrowHeadedCornerLeft;
-    
-        case Icons.ARROW_HEADED_CORNER_RIGHT:
-            return (await import("./arrow-headed-corner-right")).IconArrowHeadedCornerRight;
-    
-        case Icons.ARROW_HEADED_CORNER_UP:
-            return (await import("./arrow-headed-corner-up")).IconArrowHeadedCornerUp;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_BL_TR_STOP:
-            return (await import("./arrow-headed-diagonal-bl-tr-stop")).IconArrowHeadedDiagonalBlTrStop;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_BR_TL_STOP:
-            return (await import("./arrow-headed-diagonal-br-tl-stop")).IconArrowHeadedDiagonalBrTlStop;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_IN_LT_BR:
-            return (await import("./arrow-headed-diagonal-in-lt-br")).IconArrowHeadedDiagonalInLtBr;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_IN_TR_BL:
-            return (await import("./arrow-headed-diagonal-in-tr-bl")).IconArrowHeadedDiagonalInTrBl;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_TL_BR_SPLIT:
-            return (await import("./arrow-headed-diagonal-tl-br-split")).IconArrowHeadedDiagonalTlBrSplit;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_TL_BR_STOP:
-            return (await import("./arrow-headed-diagonal-tl-br-stop")).IconArrowHeadedDiagonalTlBrStop;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_TL_BR:
-            return (await import("./arrow-headed-diagonal-tl-br")).IconArrowHeadedDiagonalTlBr;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_TR_BL_SPLIT:
-            return (await import("./arrow-headed-diagonal-tr-bl-split")).IconArrowHeadedDiagonalTrBlSplit;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_TR_BL_STOP:
-            return (await import("./arrow-headed-diagonal-tr-bl-stop")).IconArrowHeadedDiagonalTrBlStop;
-    
-        case Icons.ARROW_HEADED_DIAGONAL_TR_BL:
-            return (await import("./arrow-headed-diagonal-tr-bl")).IconArrowHeadedDiagonalTrBl;
-    
-        case Icons.ARROW_HEADED_DOWN_LEFT:
-            return (await import("./arrow-headed-down-left")).IconArrowHeadedDownLeft;
-    
-        case Icons.ARROW_HEADED_DOWN_RIGHT:
-            return (await import("./arrow-headed-down-right")).IconArrowHeadedDownRight;
-    
-        case Icons.ARROW_HEADED_DOWN_STOP:
-            return (await import("./arrow-headed-down-stop")).IconArrowHeadedDownStop;
-    
-        case Icons.ARROW_HEADED_DOWN:
-            return (await import("./arrow-headed-down")).IconArrowHeadedDown;
-    
-        case Icons.ARROW_HEADED_DOWNLOAD:
-            return (await import("./arrow-headed-download")).IconArrowHeadedDownload;
-    
-        case Icons.ARROW_HEADED_IN_CENTER:
-            return (await import("./arrow-headed-in-center")).IconArrowHeadedInCenter;
-    
-        case Icons.ARROW_HEADED_IN_DIAGONAL:
-            return (await import("./arrow-headed-in-diagonal")).IconArrowHeadedInDiagonal;
-    
-        case Icons.ARROW_HEADED_IN:
-            return (await import("./arrow-headed-in")).IconArrowHeadedIn;
-    
-        case Icons.ARROW_HEADED_LEFT_RIGHT_SPLIT:
-            return (await import("./arrow-headed-left-right-split")).IconArrowHeadedLeftRightSplit;
-    
-        case Icons.ARROW_HEADED_LEFT_RIGHT_STOP:
-            return (await import("./arrow-headed-left-right-stop")).IconArrowHeadedLeftRightStop;
-    
-        case Icons.ARROW_HEADED_LEFT_RIGHT:
-            return (await import("./arrow-headed-left-right")).IconArrowHeadedLeftRight;
-    
-        case Icons.ARROW_HEADED_LEFT_STOP:
-            return (await import("./arrow-headed-left-stop")).IconArrowHeadedLeftStop;
-    
-        case Icons.ARROW_HEADED_LEFT:
-            return (await import("./arrow-headed-left")).IconArrowHeadedLeft;
-    
-        case Icons.ARROW_HEADED_OUT_CENTER:
-            return (await import("./arrow-headed-out-center")).IconArrowHeadedOutCenter;
-    
-        case Icons.ARROW_HEADED_RELOAD_DOWN_UP:
-            return (await import("./arrow-headed-reload-down-up")).IconArrowHeadedReloadDownUp;
-    
-        case Icons.ARROW_HEADED_RELOAD_LEFT_RIGHT:
-            return (await import("./arrow-headed-reload-left-right")).IconArrowHeadedReloadLeftRight;
-    
-        case Icons.ARROW_HEADED_RELOAD_RIGHT_LEFT:
-            return (await import("./arrow-headed-reload-right-left")).IconArrowHeadedReloadRightLeft;
-    
-        case Icons.ARROW_HEADED_RELOAD_UP_DOWN:
-            return (await import("./arrow-headed-reload-up-down")).IconArrowHeadedReloadUpDown;
-    
-        case Icons.ARROW_HEADED_RETURN_DOWN:
-            return (await import("./arrow-headed-return-down")).IconArrowHeadedReturnDown;
-    
-        case Icons.ARROW_HEADED_RETURN_LEFT:
-            return (await import("./arrow-headed-return-left")).IconArrowHeadedReturnLeft;
-    
-        case Icons.ARROW_HEADED_RETURN_RIGHT:
-            return (await import("./arrow-headed-return-right")).IconArrowHeadedReturnRight;
-    
-        case Icons.ARROW_HEADED_RETURN_UP:
-            return (await import("./arrow-headed-return-up")).IconArrowHeadedReturnUp;
-    
-        case Icons.ARROW_HEADED_RIGHT:
-            return (await import("./arrow-headed-right")).IconArrowHeadedRight;
-    
-        case Icons.ARROW_HEADED_ROTATE_BOTTOM_LEFT:
-            return (await import("./arrow-headed-rotate-bottom-left")).IconArrowHeadedRotateBottomLeft;
-    
-        case Icons.ARROW_HEADED_ROTATE_BOTTOM_RIGHT:
-            return (await import("./arrow-headed-rotate-bottom-right")).IconArrowHeadedRotateBottomRight;
-    
-        case Icons.ARROW_HEADED_ROTATE_TOP_LEFT:
-            return (await import("./arrow-headed-rotate-top-left")).IconArrowHeadedRotateTopLeft;
-    
-        case Icons.ARROW_HEADED_ROTATE_TOP_RIGHT:
-            return (await import("./arrow-headed-rotate-top-right")).IconArrowHeadedRotateTopRight;
-    
-        case Icons.ARROW_HEADED_ROUNDED_LEFT_UP:
-            return (await import("./arrow-headed-rounded-left-up")).IconArrowHeadedRoundedLeftUp;
-    
-        case Icons.ARROW_HEADED_ROUNDED_RIGHT_DOWN:
-            return (await import("./arrow-headed-rounded-right-down")).IconArrowHeadedRoundedRightDown;
-    
-        case Icons.ARROW_HEADED_ROUNDED_RIGHT_UP:
-            return (await import("./arrow-headed-rounded-right-up")).IconArrowHeadedRoundedRightUp;
-    
-        case Icons.ARROW_HEADED_ROUNED_LEFT_DOWN:
-            return (await import("./arrow-headed-rouned-left-down")).IconArrowHeadedRounedLeftDown;
-    
-        case Icons.ARROW_HEADED_SHARE:
-            return (await import("./arrow-headed-share")).IconArrowHeadedShare;
-    
-        case Icons.ARROW_HEADED_SPREAD_SPLIT:
-            return (await import("./arrow-headed-spread-split")).IconArrowHeadedSpreadSplit;
-    
-        case Icons.ARROW_HEADED_SPREAD:
-            return (await import("./arrow-headed-spread")).IconArrowHeadedSpread;
-    
-        case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_LR:
-            return (await import("./arrow-headed-twoway-diagonal-lr")).IconArrowHeadedTwowayDiagonalLr;
-    
-        case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_RL:
-            return (await import("./arrow-headed-twoway-diagonal-rl")).IconArrowHeadedTwowayDiagonalRl;
-    
-        case Icons.ARROW_HEADED_TWOWAY_HORIZONTAL:
-            return (await import("./arrow-headed-twoway-horizontal")).IconArrowHeadedTwowayHorizontal;
-    
-        case Icons.ARROW_HEADED_TWOWAY_VERTICAL:
-            return (await import("./arrow-headed-twoway-vertical")).IconArrowHeadedTwowayVertical;
-    
-        case Icons.ARROW_HEADED_UP_DOWN_SPLIT:
-            return (await import("./arrow-headed-up-down-split")).IconArrowHeadedUpDownSplit;
-    
-        case Icons.ARROW_HEADED_UP_DOWN_STOP:
-            return (await import("./arrow-headed-up-down-stop")).IconArrowHeadedUpDownStop;
-    
-        case Icons.ARROW_HEADED_UP_DOWN:
-            return (await import("./arrow-headed-up-down")).IconArrowHeadedUpDown;
-    
-        case Icons.ARROW_HEADED_UP_LEFT:
-            return (await import("./arrow-headed-up-left")).IconArrowHeadedUpLeft;
-    
-        case Icons.ARROW_HEADED_UP_RIGHT:
-            return (await import("./arrow-headed-up-right")).IconArrowHeadedUpRight;
-    
-        case Icons.ARROW_HEADED_UP_STOP76:
-            return (await import("./arrow-headed-up-stop76")).IconArrowHeadedUpStop76;
-    
-        case Icons.ARROW_HEADED_UP_STOP78:
-            return (await import("./arrow-headed-up-stop78")).IconArrowHeadedUpStop78;
-    
-        case Icons.ARROW_HEADED_UP:
-            return (await import("./arrow-headed-up")).IconArrowHeadedUp;
-    
-        case Icons.ARROW_HEADED_UPLOAD:
-            return (await import("./arrow-headed-upload")).IconArrowHeadedUpload;
-    
-        case Icons.ARROW_IN_CENTER:
-            return (await import("./arrow-in-center")).IconArrowInCenter;
-    
-        case Icons.ARROW_INVERT:
-            return (await import("./arrow-invert")).IconArrowInvert;
-    
-        case Icons.ARROW_LEFT_RIGHT_SPLIT:
-            return (await import("./arrow-left-right-split")).IconArrowLeftRightSplit;
-    
-        case Icons.ARROW_LEFT_RIGHT_STOP:
-            return (await import("./arrow-left-right-stop")).IconArrowLeftRightStop;
-    
-        case Icons.ARROW_LEFT_RIGHT:
-            return (await import("./arrow-left-right")).IconArrowLeftRight;
-    
-        case Icons.ARROW_LEFT_STOP:
-            return (await import("./arrow-left-stop")).IconArrowLeftStop;
-    
-        case Icons.ARROW_LEFT:
-            return (await import("./arrow-left")).IconArrowLeft;
-    
-        case Icons.ARROW_OUT_CENTER:
-            return (await import("./arrow-out-center")).IconArrowOutCenter;
-    
-        case Icons.ARROW_RELOAD_DOWN_UP:
-            return (await import("./arrow-reload-down-up")).IconArrowReloadDownUp;
-    
-        case Icons.ARROW_RELOAD_LEFT_RIGHT:
-            return (await import("./arrow-reload-left-right")).IconArrowReloadLeftRight;
-    
-        case Icons.ARROW_RELOAD_RIGHT_LEFT:
-            return (await import("./arrow-reload-right-left")).IconArrowReloadRightLeft;
-    
-        case Icons.ARROW_RELOAD_UP_DOWN:
-            return (await import("./arrow-reload-up-down")).IconArrowReloadUpDown;
-    
-        case Icons.ARROW_RETURN_DOWN:
-            return (await import("./arrow-return-down")).IconArrowReturnDown;
-    
-        case Icons.ARROW_RETURN_LEFT:
-            return (await import("./arrow-return-left")).IconArrowReturnLeft;
-    
-        case Icons.ARROW_RETURN_RIGHT:
-            return (await import("./arrow-return-right")).IconArrowReturnRight;
-    
-        case Icons.ARROW_RETURN_UP:
-            return (await import("./arrow-return-up")).IconArrowReturnUp;
-    
-        case Icons.ARROW_RIGHT_STOP:
-            return (await import("./arrow-right-stop")).IconArrowRightStop;
-    
-        case Icons.ARROW_RIGHT:
-            return (await import("./arrow-right")).IconArrowRight;
-    
-        case Icons.ARROW_ROATE_BOTTOM_RIGHT:
-            return (await import("./arrow-roate-bottom-right")).IconArrowRoateBottomRight;
-    
-        case Icons.ARROW_ROTATE_BOTTOM_LEFT:
-            return (await import("./arrow-rotate-bottom-left")).IconArrowRotateBottomLeft;
-    
-        case Icons.ARROW_ROTATE_TOP_LEFT:
-            return (await import("./arrow-rotate-top-left")).IconArrowRotateTopLeft;
-    
-        case Icons.ARROW_ROTATE_TOP_RIGHT:
-            return (await import("./arrow-rotate-top-right")).IconArrowRotateTopRight;
-    
-        case Icons.ARROW_ROUNDED_LEFT_DOWN:
-            return (await import("./arrow-rounded-left-down")).IconArrowRoundedLeftDown;
-    
-        case Icons.ARROW_ROUNDED_LEFT_UP:
-            return (await import("./arrow-rounded-left-up")).IconArrowRoundedLeftUp;
-    
-        case Icons.ARROW_ROUNDED_RIGHT_DOWN:
-            return (await import("./arrow-rounded-right-down")).IconArrowRoundedRightDown;
-    
-        case Icons.ARROW_ROUNDED_RIGHT_UP:
-            return (await import("./arrow-rounded-right-up")).IconArrowRoundedRightUp;
-    
-        case Icons.ARROW_SHARE:
-            return (await import("./arrow-share")).IconArrowShare;
-    
-        case Icons.ARROW_SPREAD_SPLIT:
-            return (await import("./arrow-spread-split")).IconArrowSpreadSplit;
-    
-        case Icons.ARROW_SPREAD:
-            return (await import("./arrow-spread")).IconArrowSpread;
-    
-        case Icons.ARROW_TRANSFER_BL_TR:
-            return (await import("./arrow-transfer-bl-tr")).IconArrowTransferBlTr;
-    
-        case Icons.ARROW_TRANSFER_LEFT_RIGHT:
-            return (await import("./arrow-transfer-left-right")).IconArrowTransferLeftRight;
-    
-        case Icons.ARROW_TRANSFER_LT_BR:
-            return (await import("./arrow-transfer-lt-br")).IconArrowTransferLtBr;
-    
-        case Icons.ARROW_TRANSFER_UP_DOWN:
-            return (await import("./arrow-transfer-up-down")).IconArrowTransferUpDown;
-    
-        case Icons.ARROW_TWOWAY_DIAGONAL_LR:
-            return (await import("./arrow-twoway-diagonal-lr")).IconArrowTwowayDiagonalLr;
-    
-        case Icons.ARROW_TWOWAY_DIAGONAL_RL:
-            return (await import("./arrow-twoway-diagonal-rl")).IconArrowTwowayDiagonalRl;
-    
-        case Icons.ARROW_TWOWAY_HORIZONTAL:
-            return (await import("./arrow-twoway-horizontal")).IconArrowTwowayHorizontal;
-    
-        case Icons.ARROW_TWOWAY_VERTICAL:
-            return (await import("./arrow-twoway-vertical")).IconArrowTwowayVertical;
-    
-        case Icons.ARROW_UP_COPY:
-            return (await import("./arrow-up-copy")).IconArrowUpCopy;
-    
-        case Icons.ARROW_UP_DOWN_SPLIT:
-            return (await import("./arrow-up-down-split")).IconArrowUpDownSplit;
-    
-        case Icons.ARROW_UP_DOWN_STOP:
-            return (await import("./arrow-up-down-stop")).IconArrowUpDownStop;
-    
-        case Icons.ARROW_UP_DOWN:
-            return (await import("./arrow-up-down")).IconArrowUpDown;
-    
-        case Icons.ARROW_UP_LEFT:
-            return (await import("./arrow-up-left")).IconArrowUpLeft;
-    
-        case Icons.ARROW_UP_RIGHT:
-            return (await import("./arrow-up-right")).IconArrowUpRight;
-    
-        case Icons.ARROW_UP:
-            return (await import("./arrow-up")).IconArrowUp;
-    
-        case Icons.ARROW_UPLOAD:
-            return (await import("./arrow-upload")).IconArrowUpload;
-    
-        case Icons.CHEVRON_CONNECT2:
-            return (await import("./chevron-connect2")).IconChevronConnect2;
-    
-        case Icons.CHEVRON_CONNECT:
-            return (await import("./chevron-connect")).IconChevronConnect;
-    
-        case Icons.CHEVRON_DISCONNECT2:
-            return (await import("./chevron-disconnect2")).IconChevronDisconnect2;
-    
-        case Icons.CHEVRON_DISCONNECT:
-            return (await import("./chevron-disconnect")).IconChevronDisconnect;
-    
-        case Icons.CHEVRON_DOUBLE_DOWN:
-            return (await import("./chevron-double-down")).IconChevronDoubleDown;
-    
-        case Icons.CHEVRON_DOUBLE_LEFT:
-            return (await import("./chevron-double-left")).IconChevronDoubleLeft;
-    
-        case Icons.CHEVRON_DOUBLE_RIGHT:
-            return (await import("./chevron-double-right")).IconChevronDoubleRight;
-    
-        case Icons.CHEVRON_DOUBLE_UP:
-            return (await import("./chevron-double-up")).IconChevronDoubleUp;
-    
-        case Icons.CHEVRON_DOWN:
-            return (await import("./chevron-down")).IconChevronDown;
-    
-        case Icons.CHEVRON_LEFT:
-            return (await import("./chevron-left")).IconChevronLeft;
-    
-        case Icons.CHEVRON_RIGHT:
-            return (await import("./chevron-right")).IconChevronRight;
-    
-        case Icons.CHEVRON_UP:
-            return (await import("./chevron-up")).IconChevronUp;
+        case Icons.WHALE:
+            return (await import("./whale")).IconWhale;
     
         case Icons.ICON01:
             return (await import("./icon01")).IconIcon01;
@@ -435,6 +77,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.COFFEE_MACHINE:
             return (await import("./coffee-machine")).IconCoffeeMachine;
+    
+        case Icons.COFFEE_BEANS:
+            return (await import("./coffee-beans")).IconCoffeeBeans;
     
         case Icons.COGNAC_GLASS:
             return (await import("./cognac-glass")).IconCognacGlass;
@@ -475,6 +120,9 @@ export const getIcon = async (icon: Icons) => {
         case Icons.AUDIO_WAVES:
             return (await import("./audio-waves")).IconAudioWaves;
     
+        case Icons.BLUETOOTH:
+            return (await import("./bluetooth")).IconBluetooth;
+    
         case Icons.CAMERA:
             return (await import("./camera")).IconCamera;
     
@@ -502,11 +150,17 @@ export const getIcon = async (icon: Icons) => {
         case Icons.GAMEPAD:
             return (await import("./gamepad")).IconGamepad;
     
+        case Icons.HEADPHONES:
+            return (await import("./headphones")).IconHeadphones;
+    
         case Icons.HIGHLIGHT:
             return (await import("./highlight")).IconHighlight;
     
         case Icons.IMAGE:
             return (await import("./image")).IconImage;
+    
+        case Icons.JOYSTICK:
+            return (await import("./joystick")).IconJoystick;
     
         case Icons.LAPTOP:
             return (await import("./laptop")).IconLaptop;
@@ -529,8 +183,14 @@ export const getIcon = async (icon: Icons) => {
         case Icons.MUSIC_NOTE:
             return (await import("./music-note")).IconMusicNote;
     
+        case Icons.NES_CONTROLLER:
+            return (await import("./nes-controller")).IconNesController;
+    
         case Icons.PACMAN:
             return (await import("./pacman")).IconPacman;
+    
+        case Icons.PAINT_ROLLER:
+            return (await import("./paint-roller")).IconPaintRoller;
     
         case Icons.PAPERPLANE:
             return (await import("./paperplane")).IconPaperplane;
@@ -606,6 +266,369 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.WEBSITE:
             return (await import("./website")).IconWebsite;
+    
+        case Icons.WIFI2:
+            return (await import("./wifi2")).IconWifi2;
+    
+        case Icons.WIFI3:
+            return (await import("./wifi3")).IconWifi3;
+    
+        case Icons.WIFI_ROUNDED:
+            return (await import("./wifi-rounded")).IconWifiRounded;
+    
+        case Icons.WIFI:
+            return (await import("./wifi")).IconWifi;
+    
+        case Icons.AI_FACE:
+            return (await import("./ai-face")).IconAiFace;
+    
+        case Icons.AI_LETTERS_BLOCKED:
+            return (await import("./ai-letters-blocked")).IconAiLettersBlocked;
+    
+        case Icons.AI_LETTERS_CIRCLED:
+            return (await import("./ai-letters-circled")).IconAiLettersCircled;
+    
+        case Icons.AI_LETTERS:
+            return (await import("./ai-letters")).IconAiLetters;
+    
+        case Icons.AFRAME:
+            return (await import("./aframe")).IconAframe;
+    
+        case Icons.ARTWORK_FRAME:
+            return (await import("./artwork-frame")).IconArtworkFrame;
+    
+        case Icons.BARBECUE:
+            return (await import("./barbecue")).IconBarbecue;
+    
+        case Icons.BATHROOM_ESSENTIALS:
+            return (await import("./bathroom-essentials")).IconBathroomEssentials;
+    
+        case Icons.BINOCULARS:
+            return (await import("./binoculars")).IconBinoculars;
+    
+        case Icons.BLENDER:
+            return (await import("./blender")).IconBlender;
+    
+        case Icons.BOOKCASE:
+            return (await import("./bookcase")).IconBookcase;
+    
+        case Icons.BRAIN:
+            return (await import("./brain")).IconBrain;
+    
+        case Icons.BULB:
+            return (await import("./bulb")).IconBulb;
+    
+        case Icons.CACTUS:
+            return (await import("./cactus")).IconCactus;
+    
+        case Icons.CHIP:
+            return (await import("./chip")).IconChip;
+    
+        case Icons.CLEANING_BUCKET:
+            return (await import("./cleaning-bucket")).IconCleaningBucket;
+    
+        case Icons.CLEANING_SPRAY:
+            return (await import("./cleaning-spray")).IconCleaningSpray;
+    
+        case Icons.CLOSET:
+            return (await import("./closet")).IconCloset;
+    
+        case Icons.COINS:
+            return (await import("./coins")).IconCoins;
+    
+        case Icons.COMPASS2:
+            return (await import("./compass2")).IconCompass2;
+    
+        case Icons.COMPASS:
+            return (await import("./compass")).IconCompass;
+    
+        case Icons.CUBE3D:
+            return (await import("./cube3d")).IconCube3d;
+    
+        case Icons.EDUCATION:
+            return (await import("./education")).IconEducation;
+    
+        case Icons.FACTORY_ARM:
+            return (await import("./factory-arm")).IconFactoryArm;
+    
+        case Icons.FACTORY_BELT:
+            return (await import("./factory-belt")).IconFactoryBelt;
+    
+        case Icons.FACTORY:
+            return (await import("./factory")).IconFactory;
+    
+        case Icons.FINGERPRINT:
+            return (await import("./fingerprint")).IconFingerprint;
+    
+        case Icons.FIRE:
+            return (await import("./fire")).IconFire;
+    
+        case Icons.FRIDGE:
+            return (await import("./fridge")).IconFridge;
+    
+        case Icons.FURNITURE_BED2:
+            return (await import("./furniture-bed2")).IconFurnitureBed2;
+    
+        case Icons.FURNITURE_BED_KING2:
+            return (await import("./furniture-bed-king2")).IconFurnitureBedKing2;
+    
+        case Icons.FURNITURE_BED_KING:
+            return (await import("./furniture-bed-king")).IconFurnitureBedKing;
+    
+        case Icons.FURNITURE_BED_SINGLE2:
+            return (await import("./furniture-bed-single2")).IconFurnitureBedSingle2;
+    
+        case Icons.FURNITURE_BED_SINGLE:
+            return (await import("./furniture-bed-single")).IconFurnitureBedSingle;
+    
+        case Icons.FURNITURE_BED:
+            return (await import("./furniture-bed")).IconFurnitureBed;
+    
+        case Icons.FURNITURE_BEDSIDE_TABLE:
+            return (await import("./furniture-bedside-table")).IconFurnitureBedsideTable;
+    
+        case Icons.FURNITURE_CHAIR2:
+            return (await import("./furniture-chair2")).IconFurnitureChair2;
+    
+        case Icons.FURNITURE_CHAIR3:
+            return (await import("./furniture-chair3")).IconFurnitureChair3;
+    
+        case Icons.FURNITURE_CHAIR4:
+            return (await import("./furniture-chair4")).IconFurnitureChair4;
+    
+        case Icons.FURNITURE_CHAIR:
+            return (await import("./furniture-chair")).IconFurnitureChair;
+    
+        case Icons.FURNITURE_COUCH2:
+            return (await import("./furniture-couch2")).IconFurnitureCouch2;
+    
+        case Icons.FURNITURE_COUCH3:
+            return (await import("./furniture-couch3")).IconFurnitureCouch3;
+    
+        case Icons.FURNITURE_COUCH4:
+            return (await import("./furniture-couch4")).IconFurnitureCouch4;
+    
+        case Icons.FURNITURE_COUCH:
+            return (await import("./furniture-couch")).IconFurnitureCouch;
+    
+        case Icons.FURNITURE_DESK:
+            return (await import("./furniture-desk")).IconFurnitureDesk;
+    
+        case Icons.FURNITURE_DRESSOIR:
+            return (await import("./furniture-dressoir")).IconFurnitureDressoir;
+    
+        case Icons.GRAPH_UP_ROUND:
+            return (await import("./graph-up-round")).IconGraphUpRound;
+    
+        case Icons.GRAPH_UP:
+            return (await import("./graph-up")).IconGraphUp;
+    
+        case Icons.HAIRDRYER:
+            return (await import("./hairdryer")).IconHairdryer;
+    
+        case Icons.HILL_LANDSCAPE:
+            return (await import("./hill-landscape")).IconHillLandscape;
+    
+        case Icons.IDEA_FACTORY:
+            return (await import("./idea-factory")).IconIdeaFactory;
+    
+        case Icons.INDUSTRY3:
+            return (await import("./industry3")).IconIndustry3;
+    
+        case Icons.IRON:
+            return (await import("./iron")).IconIron;
+    
+        case Icons.KITCHEN_CUTLERY:
+            return (await import("./kitchen-cutlery")).IconKitchenCutlery;
+    
+        case Icons.KITCHEN_UTENSILS:
+            return (await import("./kitchen-utensils")).IconKitchenUtensils;
+    
+        case Icons.LAKE_VIEW:
+            return (await import("./lake-view")).IconLakeView;
+    
+        case Icons.LEAF2:
+            return (await import("./leaf2")).IconLeaf2;
+    
+        case Icons.LEAF3:
+            return (await import("./leaf3")).IconLeaf3;
+    
+        case Icons.LEAF:
+            return (await import("./leaf")).IconLeaf;
+    
+        case Icons.LEAFS:
+            return (await import("./leafs")).IconLeafs;
+    
+        case Icons.LIQUID_SOAP2:
+            return (await import("./liquid-soap2")).IconLiquidSoap2;
+    
+        case Icons.LIQUID_SOAP:
+            return (await import("./liquid-soap")).IconLiquidSoap;
+    
+        case Icons.LUXE_VILLA:
+            return (await import("./luxe-villa")).IconLuxeVilla;
+    
+        case Icons.MANSION:
+            return (await import("./mansion")).IconMansion;
+    
+        case Icons.MICROWAVE:
+            return (await import("./microwave")).IconMicrowave;
+    
+        case Icons.MONEY:
+            return (await import("./money")).IconMoney;
+    
+        case Icons.MONEYBAG:
+            return (await import("./moneybag")).IconMoneybag;
+    
+        case Icons.MOUNTAIN_SCAPE:
+            return (await import("./mountain-scape")).IconMountainScape;
+    
+        case Icons.OVEN:
+            return (await import("./oven")).IconOven;
+    
+        case Icons.PLANT:
+            return (await import("./plant")).IconPlant;
+    
+        case Icons.POLITICIAN2:
+            return (await import("./politician2")).IconPolitician2;
+    
+        case Icons.POLITICIAN:
+            return (await import("./politician")).IconPolitician;
+    
+        case Icons.ROCKET:
+            return (await import("./rocket")).IconRocket;
+    
+        case Icons.ROOM_SHADE:
+            return (await import("./room-shade")).IconRoomShade;
+    
+        case Icons.SHIELD2_LINE:
+            return (await import("./shield2-line")).IconShield2Line;
+    
+        case Icons.SHIELD2:
+            return (await import("./shield2")).IconShield2;
+    
+        case Icons.SHIELD3_LINE:
+            return (await import("./shield3-line")).IconShield3Line;
+    
+        case Icons.SHIELD3:
+            return (await import("./shield3")).IconShield3;
+    
+        case Icons.SHIELD4_LINE:
+            return (await import("./shield4-line")).IconShield4Line;
+    
+        case Icons.SHIELD4:
+            return (await import("./shield4")).IconShield4;
+    
+        case Icons.SHIELD_LINE:
+            return (await import("./shield-line")).IconShieldLine;
+    
+        case Icons.SHIELD:
+            return (await import("./shield")).IconShield;
+    
+        case Icons.STOVE:
+            return (await import("./stove")).IconStove;
+    
+        case Icons.SURFBOARD:
+            return (await import("./surfboard")).IconSurfboard;
+    
+        case Icons.SWIMMING_POOL:
+            return (await import("./swimming-pool")).IconSwimmingPool;
+    
+        case Icons.TEMPLE2:
+            return (await import("./temple2")).IconTemple2;
+    
+        case Icons.TEMPLE:
+            return (await import("./temple")).IconTemple;
+    
+        case Icons.TENT_CAMPING:
+            return (await import("./tent-camping")).IconTentCamping;
+    
+        case Icons.TOY_BLOCKS2:
+            return (await import("./toy-blocks2")).IconToyBlocks2;
+    
+        case Icons.TOY_BLOCKS3:
+            return (await import("./toy-blocks3")).IconToyBlocks3;
+    
+        case Icons.TOY_BLOCKS:
+            return (await import("./toy-blocks")).IconToyBlocks;
+    
+        case Icons.TOY_HEAD:
+            return (await import("./toy-head")).IconToyHead;
+    
+        case Icons.TREE2:
+            return (await import("./tree2")).IconTree2;
+    
+        case Icons.TREE3:
+            return (await import("./tree3")).IconTree3;
+    
+        case Icons.TREE:
+            return (await import("./tree")).IconTree;
+    
+        case Icons.TREEHOUSE:
+            return (await import("./treehouse")).IconTreehouse;
+    
+        case Icons.TREES2:
+            return (await import("./trees2")).IconTrees2;
+    
+        case Icons.TREES:
+            return (await import("./trees")).IconTrees;
+    
+        case Icons.UFO:
+            return (await import("./ufo")).IconUfo;
+    
+        case Icons.VOTE:
+            return (await import("./vote")).IconVote;
+    
+        case Icons.WALLET:
+            return (await import("./wallet")).IconWallet;
+    
+        case Icons.WASHING_MACHINE:
+            return (await import("./washing-machine")).IconWashingMachine;
+    
+        case Icons.WATERCOOKER:
+            return (await import("./watercooker")).IconWatercooker;
+    
+        case Icons.YURT:
+            return (await import("./yurt")).IconYurt;
+    
+        case Icons.COTTON:
+            return (await import("./cotton")).IconCotton;
+    
+        case Icons.HYPOALLERGENIC:
+            return (await import("./hypoallergenic")).IconHypoallergenic;
+    
+        case Icons.NO_LEAKS:
+            return (await import("./no-leaks")).IconNoLeaks;
+    
+        case Icons.SHOPPING_BAG2:
+            return (await import("./shopping-bag2")).IconShoppingBag2;
+    
+        case Icons.SHOPPING_BAG3:
+            return (await import("./shopping-bag3")).IconShoppingBag3;
+    
+        case Icons.SHOPPING_BAG_DISCOUNT:
+            return (await import("./shopping-bag-discount")).IconShoppingBagDiscount;
+    
+        case Icons.SHOPPING_BAG:
+            return (await import("./shopping-bag")).IconShoppingBag;
+    
+        case Icons.SHOPPING_BASKET_ROUNDED:
+            return (await import("./shopping-basket-rounded")).IconShoppingBasketRounded;
+    
+        case Icons.SHOPPING_BASKET:
+            return (await import("./shopping-basket")).IconShoppingBasket;
+    
+        case Icons.SHOPPING_CART_FAST:
+            return (await import("./shopping-cart-fast")).IconShoppingCartFast;
+    
+        case Icons.SHOPPING_CART:
+            return (await import("./shopping-cart")).IconShoppingCart;
+    
+        case Icons.SHOPPING_LABEL:
+            return (await import("./shopping-label")).IconShoppingLabel;
+    
+        case Icons.SHOPPING_LABELS:
+            return (await import("./shopping-labels")).IconShoppingLabels;
     
         case Icons.ICON43:
             return (await import("./icon43")).IconIcon43;
@@ -736,209 +759,17 @@ export const getIcon = async (icon: Icons) => {
         case Icons.YEN:
             return (await import("./yen")).IconYen;
     
-        case Icons.AI_FACE:
-            return (await import("./ai-face")).IconAiFace;
+        case Icons.BALL_BASKETBALL:
+            return (await import("./ball-basketball")).IconBallBasketball;
     
-        case Icons.AI_LETTERS_BLOCKED:
-            return (await import("./ai-letters-blocked")).IconAiLettersBlocked;
+        case Icons.BALL_FOOTBALL:
+            return (await import("./ball-football")).IconBallFootball;
     
-        case Icons.AI_LETTERS_CIRCLED:
-            return (await import("./ai-letters-circled")).IconAiLettersCircled;
+        case Icons.BALL_RUGBY:
+            return (await import("./ball-rugby")).IconBallRugby;
     
-        case Icons.AI_LETTERS:
-            return (await import("./ai-letters")).IconAiLetters;
-    
-        case Icons.ANIMAL_STEP:
-            return (await import("./animal-step")).IconAnimalStep;
-    
-        case Icons.ARTWORK_FRAME:
-            return (await import("./artwork-frame")).IconArtworkFrame;
-    
-        case Icons.BARBECUE:
-            return (await import("./barbecue")).IconBarbecue;
-    
-        case Icons.BATHROOM_ESSENTIALS:
-            return (await import("./bathroom-essentials")).IconBathroomEssentials;
-    
-        case Icons.BINOCULARS:
-            return (await import("./binoculars")).IconBinoculars;
-    
-        case Icons.BLENDER:
-            return (await import("./blender")).IconBlender;
-    
-        case Icons.BOOKCASE:
-            return (await import("./bookcase")).IconBookcase;
-    
-        case Icons.BULB:
-            return (await import("./bulb")).IconBulb;
-    
-        case Icons.CHIP:
-            return (await import("./chip")).IconChip;
-    
-        case Icons.CLEANING_BUCKET:
-            return (await import("./cleaning-bucket")).IconCleaningBucket;
-    
-        case Icons.CLEANING_SPRAY:
-            return (await import("./cleaning-spray")).IconCleaningSpray;
-    
-        case Icons.CLOSET:
-            return (await import("./closet")).IconCloset;
-    
-        case Icons.COFFEE_BEANS:
-            return (await import("./coffee-beans")).IconCoffeeBeans;
-    
-        case Icons.COINS:
-            return (await import("./coins")).IconCoins;
-    
-        case Icons.COMPASS2:
-            return (await import("./compass2")).IconCompass2;
-    
-        case Icons.COMPASS:
-            return (await import("./compass")).IconCompass;
-    
-        case Icons.CUBE3D:
-            return (await import("./cube3d")).IconCube3d;
-    
-        case Icons.EDUCATION:
-            return (await import("./education")).IconEducation;
-    
-        case Icons.FACTORY_ARM:
-            return (await import("./factory-arm")).IconFactoryArm;
-    
-        case Icons.FACTORY_BELT:
-            return (await import("./factory-belt")).IconFactoryBelt;
-    
-        case Icons.FACTORY:
-            return (await import("./factory")).IconFactory;
-    
-        case Icons.FINGERPRINT:
-            return (await import("./fingerprint")).IconFingerprint;
-    
-        case Icons.FRIDGE:
-            return (await import("./fridge")).IconFridge;
-    
-        case Icons.FURNITURE_BED:
-            return (await import("./furniture-bed")).IconFurnitureBed;
-    
-        case Icons.FURNITURE_BEDSIDE_TABLE:
-            return (await import("./furniture-bedside-table")).IconFurnitureBedsideTable;
-    
-        case Icons.FURNITURE_CHAIR:
-            return (await import("./furniture-chair")).IconFurnitureChair;
-    
-        case Icons.FURNITURE_COUCH:
-            return (await import("./furniture-couch")).IconFurnitureCouch;
-    
-        case Icons.FURNITURE_DESK:
-            return (await import("./furniture-desk")).IconFurnitureDesk;
-    
-        case Icons.FURNITURE_DRESSOIR:
-            return (await import("./furniture-dressoir")).IconFurnitureDressoir;
-    
-        case Icons.GRAPH_UP_ROUND:
-            return (await import("./graph-up-round")).IconGraphUpRound;
-    
-        case Icons.GRAPH_UP:
-            return (await import("./graph-up")).IconGraphUp;
-    
-        case Icons.HAIRDRYER:
-            return (await import("./hairdryer")).IconHairdryer;
-    
-        case Icons.IDEA_FACTORY:
-            return (await import("./idea-factory")).IconIdeaFactory;
-    
-        case Icons.INDUSTRY3:
-            return (await import("./industry3")).IconIndustry3;
-    
-        case Icons.IRON:
-            return (await import("./iron")).IconIron;
-    
-        case Icons.KITCHEN_CUTLERY:
-            return (await import("./kitchen-cutlery")).IconKitchenCutlery;
-    
-        case Icons.KITCHEN_UTENSILS:
-            return (await import("./kitchen-utensils")).IconKitchenUtensils;
-    
-        case Icons.LEAF2:
-            return (await import("./leaf2")).IconLeaf2;
-    
-        case Icons.LEAF3:
-            return (await import("./leaf3")).IconLeaf3;
-    
-        case Icons.LEAF:
-            return (await import("./leaf")).IconLeaf;
-    
-        case Icons.LEAFS:
-            return (await import("./leafs")).IconLeafs;
-    
-        case Icons.LIQUID_SOAP2:
-            return (await import("./liquid-soap2")).IconLiquidSoap2;
-    
-        case Icons.LIQUID_SOAP:
-            return (await import("./liquid-soap")).IconLiquidSoap;
-    
-        case Icons.MICROWAVE:
-            return (await import("./microwave")).IconMicrowave;
-    
-        case Icons.MONEY:
-            return (await import("./money")).IconMoney;
-    
-        case Icons.MONEYBAG:
-            return (await import("./moneybag")).IconMoneybag;
-    
-        case Icons.OVEN:
-            return (await import("./oven")).IconOven;
-    
-        case Icons.PLANT:
-            return (await import("./plant")).IconPlant;
-    
-        case Icons.POLITICIAN2:
-            return (await import("./politician2")).IconPolitician2;
-    
-        case Icons.POLITICIAN:
-            return (await import("./politician")).IconPolitician;
-    
-        case Icons.ROOM_SHADE:
-            return (await import("./room-shade")).IconRoomShade;
-    
-        case Icons.STOVE:
-            return (await import("./stove")).IconStove;
-    
-        case Icons.TEMPLE2:
-            return (await import("./temple2")).IconTemple2;
-    
-        case Icons.TEMPLE:
-            return (await import("./temple")).IconTemple;
-    
-        case Icons.TREE2:
-            return (await import("./tree2")).IconTree2;
-    
-        case Icons.TREE3:
-            return (await import("./tree3")).IconTree3;
-    
-        case Icons.TREE:
-            return (await import("./tree")).IconTree;
-    
-        case Icons.TREES2:
-            return (await import("./trees2")).IconTrees2;
-    
-        case Icons.TREES:
-            return (await import("./trees")).IconTrees;
-    
-        case Icons.TURTLE:
-            return (await import("./turtle")).IconTurtle;
-    
-        case Icons.VOTE:
-            return (await import("./vote")).IconVote;
-    
-        case Icons.WALLET:
-            return (await import("./wallet")).IconWallet;
-    
-        case Icons.WASHING_MACHINE:
-            return (await import("./washing-machine")).IconWashingMachine;
-    
-        case Icons.WATERCOOKER:
-            return (await import("./watercooker")).IconWatercooker;
+        case Icons.BALL_TENNIS:
+            return (await import("./ball-tennis")).IconBallTennis;
     
         case Icons.ACCESSIBILITY_PERSON_CIRCLED:
             return (await import("./accessibility-person-circled")).IconAccessibilityPersonCircled;
@@ -1243,26 +1074,11 @@ export const getIcon = async (icon: Icons) => {
         case Icons.CIRCLED:
             return (await import("./circled")).IconCircled;
     
+        case Icons.CIRCULAR_LOADER:
+            return (await import("./circular-loader")).IconCircularLoader;
+    
         case Icons.CLOCK:
             return (await import("./clock")).IconClock;
-    
-        case Icons.CLOUD_LIGHTNING:
-            return (await import("./cloud-lightning")).IconCloudLightning;
-    
-        case Icons.CLOUD_RAIN_COPY2:
-            return (await import("./cloud-rain-copy2")).IconCloudRainCopy2;
-    
-        case Icons.CLOUD_SMALL_RAIN:
-            return (await import("./cloud-small-rain")).IconCloudSmallRain;
-    
-        case Icons.CLOUD_SUN:
-            return (await import("./cloud-sun")).IconCloudSun;
-    
-        case Icons.CLOUD_THERMOMETER:
-            return (await import("./cloud-thermometer")).IconCloudThermometer;
-    
-        case Icons.CLOUD:
-            return (await import("./cloud")).IconCloud;
     
         case Icons.CODE_BRACKETS_CIRCLED:
             return (await import("./code-brackets-circled")).IconCodeBracketsCircled;
@@ -1636,9 +1452,6 @@ export const getIcon = async (icon: Icons) => {
         case Icons.KEY_UP:
             return (await import("./key-up")).IconKeyUp;
     
-        case Icons.LIGHTNING_FLASH:
-            return (await import("./lightning-flash")).IconLightningFlash;
-    
         case Icons.LIKE:
             return (await import("./like")).IconLike;
     
@@ -1651,17 +1464,8 @@ export const getIcon = async (icon: Icons) => {
         case Icons.LOADER_DOTS:
             return (await import("./loader-dots")).IconLoaderDots;
     
-        case Icons.LOCATION_MARKER:
-            return (await import("./location-marker")).IconLocationMarker;
-    
-        case Icons.LOCATION_PIN:
-            return (await import("./location-pin")).IconLocationPin;
-    
         case Icons.MALE_SIMPLIFIED:
             return (await import("./male-simplified")).IconMaleSimplified;
-    
-        case Icons.MOON:
-            return (await import("./moon")).IconMoon;
     
         case Icons.MOVING_BLOCK:
             return (await import("./moving-block")).IconMovingBlock;
@@ -1807,9 +1611,6 @@ export const getIcon = async (icon: Icons) => {
         case Icons.POINTER_PEN:
             return (await import("./pointer-pen")).IconPointerPen;
     
-        case Icons.POINTER_TARGET:
-            return (await import("./pointer-target")).IconPointerTarget;
-    
         case Icons.POINTER_TEXT:
             return (await import("./pointer-text")).IconPointerText;
     
@@ -1857,9 +1658,6 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.SETTINGS:
             return (await import("./settings")).IconSettings;
-    
-        case Icons.SIMPLE_SUN:
-            return (await import("./simple-sun")).IconSimpleSun;
     
         case Icons.SPEECH_BALLOON2:
             return (await import("./speech-balloon2")).IconSpeechBalloon2;
@@ -1960,12 +1758,6 @@ export const getIcon = async (icon: Icons) => {
         case Icons.SUBTRACT_S:
             return (await import("./subtract-s")).IconSubtractS;
     
-        case Icons.SUN2:
-            return (await import("./sun2")).IconSun2;
-    
-        case Icons.SUN:
-            return (await import("./sun")).IconSun;
-    
         case Icons.TABLES:
             return (await import("./tables")).IconTables;
     
@@ -2056,11 +1848,11 @@ export const getIcon = async (icon: Icons) => {
         case Icons.TEXT_LINE_THROUGH:
             return (await import("./text-line-through")).IconTextLineThrough;
     
-        case Icons.TEXT_ORDER_ASC123:
-            return (await import("./text-order-asc123")).IconTextOrderAsc123;
+        case Icons.TEXT_ORDER_ASC114:
+            return (await import("./text-order-asc114")).IconTextOrderAsc114;
     
-        case Icons.TEXT_ORDER_ASC127:
-            return (await import("./text-order-asc127")).IconTextOrderAsc127;
+        case Icons.TEXT_ORDER_ASC118:
+            return (await import("./text-order-asc118")).IconTextOrderAsc118;
     
         case Icons.TEXT_ORDER_DESC_COPY2:
             return (await import("./text-order-desc-copy2")).IconTextOrderDescCopy2;
@@ -2079,15 +1871,6 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.TEXT_UNDERLINE:
             return (await import("./text-underline")).IconTextUnderline;
-    
-        case Icons.THERMOMETER_COLD:
-            return (await import("./thermometer-cold")).IconThermometerCold;
-    
-        case Icons.THERMOMETER_HOT:
-            return (await import("./thermometer-hot")).IconThermometerHot;
-    
-        case Icons.THERMOMETER:
-            return (await import("./thermometer")).IconThermometer;
     
         case Icons.TIMER:
             return (await import("./timer")).IconTimer;
@@ -2173,8 +1956,26 @@ export const getIcon = async (icon: Icons) => {
         case Icons.BRIEFCASE_CROSS:
             return (await import("./briefcase-cross")).IconBriefcaseCross;
     
+        case Icons.CAR_PARKING_INDOOR:
+            return (await import("./car-parking-indoor")).IconCarParkingIndoor;
+    
+        case Icons.CAR_PARKING_OUTSIDE:
+            return (await import("./car-parking-outside")).IconCarParkingOutside;
+    
+        case Icons.CAR_PARKING:
+            return (await import("./car-parking")).IconCarParking;
+    
         case Icons.CAR:
             return (await import("./car")).IconCar;
+    
+        case Icons.CHANGING_AREA:
+            return (await import("./changing-area")).IconChangingArea;
+    
+        case Icons.CHECK_IN:
+            return (await import("./check-in")).IconCheckIn;
+    
+        case Icons.CITY_BUS:
+            return (await import("./city-bus")).IconCityBus;
     
         case Icons.CROSS_CIRCLED:
             return (await import("./cross-circled")).IconCrossCircled;
@@ -2206,17 +2007,20 @@ export const getIcon = async (icon: Icons) => {
         case Icons.ESCALATOR:
             return (await import("./escalator")).IconEscalator;
     
+        case Icons.FAMILY:
+            return (await import("./family")).IconFamily;
+    
         case Icons.FERRY:
             return (await import("./ferry")).IconFerry;
     
         case Icons.FIRE_EXTINGUISHER:
             return (await import("./fire-extinguisher")).IconFireExtinguisher;
     
+        case Icons.FIRE_FLAME:
+            return (await import("./fire-flame")).IconFireFlame;
+    
         case Icons.FIRE_HOSE:
             return (await import("./fire-hose")).IconFireHose;
-    
-        case Icons.FIRE:
-            return (await import("./fire")).IconFire;
     
         case Icons.GRAVESTONE2:
             return (await import("./gravestone2")).IconGravestone2;
@@ -2226,6 +2030,24 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.GRAVESTONE:
             return (await import("./gravestone")).IconGravestone;
+    
+        case Icons.HELLO_GOODBYE:
+            return (await import("./hello-goodbye")).IconHelloGoodbye;
+    
+        case Icons.LOCATION_MARKER:
+            return (await import("./location-marker")).IconLocationMarker;
+    
+        case Icons.LOCATION_PATH2:
+            return (await import("./location-path2")).IconLocationPath2;
+    
+        case Icons.LOCATION_PATH:
+            return (await import("./location-path")).IconLocationPath;
+    
+        case Icons.LOCATION_PIN:
+            return (await import("./location-pin")).IconLocationPin;
+    
+        case Icons.LOUNGE:
+            return (await import("./lounge")).IconLounge;
     
         case Icons.LUGGAGE_BELT:
             return (await import("./luggage-belt")).IconLuggageBelt;
@@ -2239,6 +2061,15 @@ export const getIcon = async (icon: Icons) => {
         case Icons.LUGGAGE:
             return (await import("./luggage")).IconLuggage;
     
+        case Icons.MAP:
+            return (await import("./map")).IconMap;
+    
+        case Icons.MAP2:
+            return (await import("./map2")).IconMap2;
+    
+        case Icons.MAP3:
+            return (await import("./map3")).IconMap3;
+    
         case Icons.METRO2:
             return (await import("./metro2")).IconMetro2;
     
@@ -2250,6 +2081,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.NO_SMOKING:
             return (await import("./no-smoking")).IconNoSmoking;
+    
+        case Icons.OFFICE_SPACE:
+            return (await import("./office-space")).IconOfficeSpace;
     
         case Icons.PALMTREE_ISLAND_WAVE:
             return (await import("./palmtree-island-wave")).IconPalmtreeIslandWave;
@@ -2275,8 +2109,14 @@ export const getIcon = async (icon: Icons) => {
         case Icons.PLASTERS:
             return (await import("./plasters")).IconPlasters;
     
+        case Icons.POINTER_TARGET:
+            return (await import("./pointer-target")).IconPointerTarget;
+    
         case Icons.RENTAL_CAR:
             return (await import("./rental-car")).IconRentalCar;
+    
+        case Icons.RESTROOM:
+            return (await import("./restroom")).IconRestroom;
     
         case Icons.SECURITY_CAMERA2:
             return (await import("./security-camera2")).IconSecurityCamera2;
@@ -2286,6 +2126,9 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.SECURITY_CAMERA:
             return (await import("./security-camera")).IconSecurityCamera;
+    
+        case Icons.SECURITY_CHECK:
+            return (await import("./security-check")).IconSecurityCheck;
     
         case Icons.SHIP:
             return (await import("./ship")).IconShip;
@@ -2308,6 +2151,9 @@ export const getIcon = async (icon: Icons) => {
         case Icons.STAIRS:
             return (await import("./stairs")).IconStairs;
     
+        case Icons.TAXI_STOP:
+            return (await import("./taxi-stop")).IconTaxiStop;
+    
         case Icons.TAXI:
             return (await import("./taxi")).IconTaxi;
     
@@ -2316,22 +2162,111 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.TRAIN:
             return (await import("./train")).IconTrain;
+    
+        case Icons.WALKING2:
+            return (await import("./walking2")).IconWalking2;
+    
+        case Icons.WALKING:
+            return (await import("./walking")).IconWalking;
+    
+        case Icons.CLOUD_LIGHTNING:
+            return (await import("./cloud-lightning")).IconCloudLightning;
+    
+        case Icons.CLOUD_RAIN2:
+            return (await import("./cloud-rain2")).IconCloudRain2;
+    
+        case Icons.CLOUD_SMALL_RAIN:
+            return (await import("./cloud-small-rain")).IconCloudSmallRain;
+    
+        case Icons.CLOUD_SUN:
+            return (await import("./cloud-sun")).IconCloudSun;
+    
+        case Icons.CLOUD_THERMOMETER:
+            return (await import("./cloud-thermometer")).IconCloudThermometer;
+    
+        case Icons.CLOUD:
+            return (await import("./cloud")).IconCloud;
+    
+        case Icons.LIGHT_DARK_MODE2:
+            return (await import("./light-dark-mode2")).IconLightDarkMode2;
+    
+        case Icons.LIGHT_DARK_MODE3:
+            return (await import("./light-dark-mode3")).IconLightDarkMode3;
+    
+        case Icons.LIGHTNING_FLASH:
+            return (await import("./lightning-flash")).IconLightningFlash;
+    
+        case Icons.MOON01:
+            return (await import("./moon01")).IconMoon01;
+    
+        case Icons.MOON19:
+            return (await import("./moon19")).IconMoon19;
+    
+        case Icons.MOON_DARK_MODE:
+            return (await import("./moon-dark-mode")).IconMoonDarkMode;
+    
+        case Icons.SIMPLE_SUN:
+            return (await import("./simple-sun")).IconSimpleSun;
+    
+        case Icons.SUN2:
+            return (await import("./sun2")).IconSun2;
+    
+        case Icons.SUN_LIGHT_MODE:
+            return (await import("./sun-light-mode")).IconSunLightMode;
+    
+        case Icons.SUN:
+            return (await import("./sun")).IconSun;
+    
+        case Icons.THERMOMETER_COLD:
+            return (await import("./thermometer-cold")).IconThermometerCold;
+    
+        case Icons.THERMOMETER_HOT:
+            return (await import("./thermometer-hot")).IconThermometerHot;
+    
+        case Icons.THERMOMETER:
+            return (await import("./thermometer")).IconThermometer;
             default:
             return null;
     }
 }
 
+/**
+ * Checks if any of the needles are found within any of the haystacks.
+ *
+ * @param {string | string[]} needle - The string or array of strings to search for.
+ * @param {string | string[]} haystack - The string or array of strings to search within.
+ * @returns {boolean} - True if any needle is found within any haystack, otherwise false.
+ */
 const findIt = (needle: string | string[], haystack: string | string[]): boolean => {
-
-    const needles = (Array.isArray(needle) ? needle : [needle]).map((str) => str.toLowerCase());
-    const haystacks = (Array.isArray(haystack) ? haystack : [haystack]).map((str) => str.toLowerCase());
+    const needles = (Array.isArray(needle) ? needle : [needle]).map(str => str.toLowerCase());
+    const haystacks = (Array.isArray(haystack) ? haystack : [haystack]).map(str => str.toLowerCase());
 
     return needles.some(n => haystacks.some(h => h.includes(n)));
-}
+};
 
+/**
+ * Checks if the given icon exists in the Icons enum.
+ *
+ * @param {string} icon - The icon name to check.
+ * @returns {boolean} - True if the icon exists, false otherwise.
+ */
+export const iconExists = (icon: string): boolean => {
+    const iconKeys = Object.keys(Icons).filter(key => isNaN(Number(key)));
+    const lowerCaseKeys = iconKeys.map(key => key.toLowerCase());
+    return lowerCaseKeys.includes(icon.toLowerCase());
+};
 
-
-export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' | 'description' | undefined = undefined): {
+/**
+ * Searches for icons based on a search term and an optional field to search in.
+ *
+ * @param {string} term - The search term to look for.
+ * @param {'name' | 'category' | 'tag' | 'description' | 'title' | undefined} [searchIn] - The specific field to search in. If not provided, all fields will be searched.
+ * @returns {Array<{id: string, name: string, title: string, category: string[], tag: string[], description: string}> | undefined} - An array of matching icons or undefined if no matches are found.
+ */
+export const searchIcon = (
+    term: string,
+    searchIn: 'name' | 'category' | 'tag' | 'description' | 'title' | undefined = undefined
+): {
     id: string;
     name: string;
     title: string;
@@ -2339,26 +2274,17 @@ export const searchIcon = (term: string, searchIn: 'name' | 'category' | 'tag' |
     tag: string[];
     description: string;
 }[] | undefined => {
-
-
     const meta = {};
 
-    const mergedIcons = Object.keys(Icons).map((key) => {
-        const value = Icons[key as keyof typeof Icons];
-        const metaData = meta[key as keyof typeof Icons];
-        return {
-            id: key,
-            name: value,
-            ...metaData
-        }
-    });
-    return mergedIcons.filter((icon) => {
-        if (searchIn) {
-            // If searchIn is provided, search in the specified field
-            return findIt(term, icon[searchIn as keyof typeof icon]);
-        } else {
-            // If searchIn is not provided, search in all fields
-            return ['name', 'category', 'tag', 'description', 'title'].some(field => findIt(term, icon[field as keyof typeof icon]));
-        }
-    });
-}
+    const mergedIcons = Object.keys(Icons).map(key => ({
+        id: key,
+        name: Icons[key as keyof typeof Icons],
+        ...meta[key as keyof typeof Icons]
+    }));
+
+    const searchFields = searchIn ? [searchIn] : ['name', 'category', 'tag', 'description', 'title'];
+
+    return mergedIcons.filter(icon =>
+        searchFields.some(field => findIt(term, icon[field as keyof typeof icon]))
+    );
+};

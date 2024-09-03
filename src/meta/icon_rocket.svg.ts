@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A rocket icon typically represents speed, progress, and innovation. It is commonly used to symbolize launching a project or reaching new heights.",
+      category: ["Transport","Symbol","Misc"],
+      tag: ["space","flight","technology","exploration","launch","spacecraft","rocketship","fast","outer space","travel"],
+      title: "Rocket"
+    };
+    export default meta;

@@ -1,0 +1,22 @@
+
+                export const meta = {
+  "description": "A cute and playful icon of a cat's head with big eyes and pointy ears. It can be used to represent cats, pets, feline animals, cuteness, and playfulness.",
+  "category": [
+    "Animals"
+  ],
+  "tag": [
+    "cat",
+    "head",
+    "pet",
+    "feline",
+    "cute",
+    "playful",
+    "mascot",
+    "whiskers",
+    "ears",
+    "big eyes"
+  ],
+  "title": "Cat Head 2"
+}
+                export default meta;
+            

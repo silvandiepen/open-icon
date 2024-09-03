@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The shopping-basket-rounded icon is a rounded shopping basket symbol, commonly used to represent a shopping cart or basket in e-commerce websites and applications.",
+      category: ["Shopping"],
+      tag: ["Basket","Cart","E-commerce","Online shopping","Retail","Add to cart","Purchase","Shop","Store","Items"],
+      title: "Shopping Basket Rounded"
+    };
+    export default meta;
