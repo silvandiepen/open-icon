@@ -6,7 +6,7 @@ import { Icons } from "./types";
  * @param {Icons} icon - The icon to retrieve.
  * @returns {Promise<IconData>} - A promise that resolves to the icon data.
  */
-export const getIcon = async (icon: Icons) => {
+export const getIcon = async (icon: Icons): Promise<string> => {
     switch(icon) {
     
         case Icons.ANIMAL_STEP:
@@ -59,6 +59,420 @@ export const getIcon = async (icon: Icons) => {
     
         case Icons.WHALE:
             return (await import("./whale")).IconWhale;
+    
+        case Icons.ICON24:
+            return (await import("./icon24")).IconIcon24;
+    
+        case Icons.ARROW_CORNER_DOWN:
+            return (await import("./arrow-corner-down")).IconArrowCornerDown;
+    
+        case Icons.ARROW_CORNER_LEFT:
+            return (await import("./arrow-corner-left")).IconArrowCornerLeft;
+    
+        case Icons.ARROW_CORNER_RIGHT:
+            return (await import("./arrow-corner-right")).IconArrowCornerRight;
+    
+        case Icons.ARROW_CORNER_UP:
+            return (await import("./arrow-corner-up")).IconArrowCornerUp;
+    
+        case Icons.ARROW_DIAGONAL_BL_TR_STOP:
+            return (await import("./arrow-diagonal-bl-tr-stop")).IconArrowDiagonalBlTrStop;
+    
+        case Icons.ARROW_DIAGONAL_BR_TL_STOP:
+            return (await import("./arrow-diagonal-br-tl-stop")).IconArrowDiagonalBrTlStop;
+    
+        case Icons.ARROW_DIAGONAL_IN_LT_BR:
+            return (await import("./arrow-diagonal-in-lt-br")).IconArrowDiagonalInLtBr;
+    
+        case Icons.ARROW_DIAGONAL_IN_TR_BL:
+            return (await import("./arrow-diagonal-in-tr-bl")).IconArrowDiagonalInTrBl;
+    
+        case Icons.ARROW_DIAGONAL_TL_BR_SPLIT:
+            return (await import("./arrow-diagonal-tl-br-split")).IconArrowDiagonalTlBrSplit;
+    
+        case Icons.ARROW_DIAGONAL_TL_BR_STOP:
+            return (await import("./arrow-diagonal-tl-br-stop")).IconArrowDiagonalTlBrStop;
+    
+        case Icons.ARROW_DIAGONAL_TL_BR:
+            return (await import("./arrow-diagonal-tl-br")).IconArrowDiagonalTlBr;
+    
+        case Icons.ARROW_DIAGONAL_TR_BL_SPLIT:
+            return (await import("./arrow-diagonal-tr-bl-split")).IconArrowDiagonalTrBlSplit;
+    
+        case Icons.ARROW_DIAGONAL_TR_BL_STOP:
+            return (await import("./arrow-diagonal-tr-bl-stop")).IconArrowDiagonalTrBlStop;
+    
+        case Icons.ARROW_DIAGONAL_TR_BL:
+            return (await import("./arrow-diagonal-tr-bl")).IconArrowDiagonalTrBl;
+    
+        case Icons.ARROW_DOWN_COPY:
+            return (await import("./arrow-down-copy")).IconArrowDownCopy;
+    
+        case Icons.ARROW_DOWN_LEFT:
+            return (await import("./arrow-down-left")).IconArrowDownLeft;
+    
+        case Icons.ARROW_DOWN_RIGHT:
+            return (await import("./arrow-down-right")).IconArrowDownRight;
+    
+        case Icons.ARROW_DOWN:
+            return (await import("./arrow-down")).IconArrowDown;
+    
+        case Icons.ARROW_DOWNLOAD:
+            return (await import("./arrow-download")).IconArrowDownload;
+    
+        case Icons.ARROW_HEADED_CORNER_DOWN:
+            return (await import("./arrow-headed-corner-down")).IconArrowHeadedCornerDown;
+    
+        case Icons.ARROW_HEADED_CORNER_LEFT:
+            return (await import("./arrow-headed-corner-left")).IconArrowHeadedCornerLeft;
+    
+        case Icons.ARROW_HEADED_CORNER_RIGHT:
+            return (await import("./arrow-headed-corner-right")).IconArrowHeadedCornerRight;
+    
+        case Icons.ARROW_HEADED_CORNER_UP:
+            return (await import("./arrow-headed-corner-up")).IconArrowHeadedCornerUp;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_BL_TR_STOP:
+            return (await import("./arrow-headed-diagonal-bl-tr-stop")).IconArrowHeadedDiagonalBlTrStop;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_BR_TL_STOP:
+            return (await import("./arrow-headed-diagonal-br-tl-stop")).IconArrowHeadedDiagonalBrTlStop;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_IN_LT_BR:
+            return (await import("./arrow-headed-diagonal-in-lt-br")).IconArrowHeadedDiagonalInLtBr;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_IN_TR_BL:
+            return (await import("./arrow-headed-diagonal-in-tr-bl")).IconArrowHeadedDiagonalInTrBl;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_TL_BR_SPLIT:
+            return (await import("./arrow-headed-diagonal-tl-br-split")).IconArrowHeadedDiagonalTlBrSplit;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_TL_BR_STOP:
+            return (await import("./arrow-headed-diagonal-tl-br-stop")).IconArrowHeadedDiagonalTlBrStop;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_TL_BR:
+            return (await import("./arrow-headed-diagonal-tl-br")).IconArrowHeadedDiagonalTlBr;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_TR_BL_SPLIT:
+            return (await import("./arrow-headed-diagonal-tr-bl-split")).IconArrowHeadedDiagonalTrBlSplit;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_TR_BL_STOP:
+            return (await import("./arrow-headed-diagonal-tr-bl-stop")).IconArrowHeadedDiagonalTrBlStop;
+    
+        case Icons.ARROW_HEADED_DIAGONAL_TR_BL:
+            return (await import("./arrow-headed-diagonal-tr-bl")).IconArrowHeadedDiagonalTrBl;
+    
+        case Icons.ARROW_HEADED_DOWN_LEFT:
+            return (await import("./arrow-headed-down-left")).IconArrowHeadedDownLeft;
+    
+        case Icons.ARROW_HEADED_DOWN_RIGHT:
+            return (await import("./arrow-headed-down-right")).IconArrowHeadedDownRight;
+    
+        case Icons.ARROW_HEADED_DOWN_STOP:
+            return (await import("./arrow-headed-down-stop")).IconArrowHeadedDownStop;
+    
+        case Icons.ARROW_HEADED_DOWN:
+            return (await import("./arrow-headed-down")).IconArrowHeadedDown;
+    
+        case Icons.ARROW_HEADED_DOWNLOAD:
+            return (await import("./arrow-headed-download")).IconArrowHeadedDownload;
+    
+        case Icons.ARROW_HEADED_IN_CENTER:
+            return (await import("./arrow-headed-in-center")).IconArrowHeadedInCenter;
+    
+        case Icons.ARROW_HEADED_IN_DIAGONAL:
+            return (await import("./arrow-headed-in-diagonal")).IconArrowHeadedInDiagonal;
+    
+        case Icons.ARROW_HEADED_IN:
+            return (await import("./arrow-headed-in")).IconArrowHeadedIn;
+    
+        case Icons.ARROW_HEADED_LEFT_RIGHT_SPLIT:
+            return (await import("./arrow-headed-left-right-split")).IconArrowHeadedLeftRightSplit;
+    
+        case Icons.ARROW_HEADED_LEFT_RIGHT_STOP:
+            return (await import("./arrow-headed-left-right-stop")).IconArrowHeadedLeftRightStop;
+    
+        case Icons.ARROW_HEADED_LEFT_RIGHT:
+            return (await import("./arrow-headed-left-right")).IconArrowHeadedLeftRight;
+    
+        case Icons.ARROW_HEADED_LEFT_STOP:
+            return (await import("./arrow-headed-left-stop")).IconArrowHeadedLeftStop;
+    
+        case Icons.ARROW_HEADED_LEFT:
+            return (await import("./arrow-headed-left")).IconArrowHeadedLeft;
+    
+        case Icons.ARROW_HEADED_OUT_CENTER:
+            return (await import("./arrow-headed-out-center")).IconArrowHeadedOutCenter;
+    
+        case Icons.ARROW_HEADED_RELOAD_DOWN_UP:
+            return (await import("./arrow-headed-reload-down-up")).IconArrowHeadedReloadDownUp;
+    
+        case Icons.ARROW_HEADED_RELOAD_LEFT_RIGHT:
+            return (await import("./arrow-headed-reload-left-right")).IconArrowHeadedReloadLeftRight;
+    
+        case Icons.ARROW_HEADED_RELOAD_RIGHT_LEFT:
+            return (await import("./arrow-headed-reload-right-left")).IconArrowHeadedReloadRightLeft;
+    
+        case Icons.ARROW_HEADED_RELOAD_UP_DOWN:
+            return (await import("./arrow-headed-reload-up-down")).IconArrowHeadedReloadUpDown;
+    
+        case Icons.ARROW_HEADED_RETURN_DOWN:
+            return (await import("./arrow-headed-return-down")).IconArrowHeadedReturnDown;
+    
+        case Icons.ARROW_HEADED_RETURN_LEFT:
+            return (await import("./arrow-headed-return-left")).IconArrowHeadedReturnLeft;
+    
+        case Icons.ARROW_HEADED_RETURN_RIGHT:
+            return (await import("./arrow-headed-return-right")).IconArrowHeadedReturnRight;
+    
+        case Icons.ARROW_HEADED_RETURN_UP:
+            return (await import("./arrow-headed-return-up")).IconArrowHeadedReturnUp;
+    
+        case Icons.ARROW_HEADED_RIGHT:
+            return (await import("./arrow-headed-right")).IconArrowHeadedRight;
+    
+        case Icons.ARROW_HEADED_ROTATE_BOTTOM_LEFT:
+            return (await import("./arrow-headed-rotate-bottom-left")).IconArrowHeadedRotateBottomLeft;
+    
+        case Icons.ARROW_HEADED_ROTATE_BOTTOM_RIGHT:
+            return (await import("./arrow-headed-rotate-bottom-right")).IconArrowHeadedRotateBottomRight;
+    
+        case Icons.ARROW_HEADED_ROTATE_TOP_LEFT:
+            return (await import("./arrow-headed-rotate-top-left")).IconArrowHeadedRotateTopLeft;
+    
+        case Icons.ARROW_HEADED_ROTATE_TOP_RIGHT:
+            return (await import("./arrow-headed-rotate-top-right")).IconArrowHeadedRotateTopRight;
+    
+        case Icons.ARROW_HEADED_ROUNDED_LEFT_UP:
+            return (await import("./arrow-headed-rounded-left-up")).IconArrowHeadedRoundedLeftUp;
+    
+        case Icons.ARROW_HEADED_ROUNDED_RIGHT_DOWN:
+            return (await import("./arrow-headed-rounded-right-down")).IconArrowHeadedRoundedRightDown;
+    
+        case Icons.ARROW_HEADED_ROUNDED_RIGHT_UP:
+            return (await import("./arrow-headed-rounded-right-up")).IconArrowHeadedRoundedRightUp;
+    
+        case Icons.ARROW_HEADED_ROUNED_LEFT_DOWN:
+            return (await import("./arrow-headed-rouned-left-down")).IconArrowHeadedRounedLeftDown;
+    
+        case Icons.ARROW_HEADED_SHARE:
+            return (await import("./arrow-headed-share")).IconArrowHeadedShare;
+    
+        case Icons.ARROW_HEADED_SPREAD_SPLIT:
+            return (await import("./arrow-headed-spread-split")).IconArrowHeadedSpreadSplit;
+    
+        case Icons.ARROW_HEADED_SPREAD:
+            return (await import("./arrow-headed-spread")).IconArrowHeadedSpread;
+    
+        case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_LR:
+            return (await import("./arrow-headed-twoway-diagonal-lr")).IconArrowHeadedTwowayDiagonalLr;
+    
+        case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_RL:
+            return (await import("./arrow-headed-twoway-diagonal-rl")).IconArrowHeadedTwowayDiagonalRl;
+    
+        case Icons.ARROW_HEADED_TWOWAY_HORIZONTAL:
+            return (await import("./arrow-headed-twoway-horizontal")).IconArrowHeadedTwowayHorizontal;
+    
+        case Icons.ARROW_HEADED_TWOWAY_VERTICAL:
+            return (await import("./arrow-headed-twoway-vertical")).IconArrowHeadedTwowayVertical;
+    
+        case Icons.ARROW_HEADED_UP_DOWN_SPLIT:
+            return (await import("./arrow-headed-up-down-split")).IconArrowHeadedUpDownSplit;
+    
+        case Icons.ARROW_HEADED_UP_DOWN_STOP:
+            return (await import("./arrow-headed-up-down-stop")).IconArrowHeadedUpDownStop;
+    
+        case Icons.ARROW_HEADED_UP_DOWN:
+            return (await import("./arrow-headed-up-down")).IconArrowHeadedUpDown;
+    
+        case Icons.ARROW_HEADED_UP_LEFT:
+            return (await import("./arrow-headed-up-left")).IconArrowHeadedUpLeft;
+    
+        case Icons.ARROW_HEADED_UP_RIGHT:
+            return (await import("./arrow-headed-up-right")).IconArrowHeadedUpRight;
+    
+        case Icons.ARROW_HEADED_UP_STOP76:
+            return (await import("./arrow-headed-up-stop76")).IconArrowHeadedUpStop76;
+    
+        case Icons.ARROW_HEADED_UP_STOP78:
+            return (await import("./arrow-headed-up-stop78")).IconArrowHeadedUpStop78;
+    
+        case Icons.ARROW_HEADED_UP:
+            return (await import("./arrow-headed-up")).IconArrowHeadedUp;
+    
+        case Icons.ARROW_HEADED_UPLOAD:
+            return (await import("./arrow-headed-upload")).IconArrowHeadedUpload;
+    
+        case Icons.ARROW_IN_CENTER:
+            return (await import("./arrow-in-center")).IconArrowInCenter;
+    
+        case Icons.ARROW_INVERT:
+            return (await import("./arrow-invert")).IconArrowInvert;
+    
+        case Icons.ARROW_LEFT_RIGHT_SPLIT:
+            return (await import("./arrow-left-right-split")).IconArrowLeftRightSplit;
+    
+        case Icons.ARROW_LEFT_RIGHT_STOP:
+            return (await import("./arrow-left-right-stop")).IconArrowLeftRightStop;
+    
+        case Icons.ARROW_LEFT_RIGHT:
+            return (await import("./arrow-left-right")).IconArrowLeftRight;
+    
+        case Icons.ARROW_LEFT_STOP:
+            return (await import("./arrow-left-stop")).IconArrowLeftStop;
+    
+        case Icons.ARROW_LEFT:
+            return (await import("./arrow-left")).IconArrowLeft;
+    
+        case Icons.ARROW_OUT_CENTER:
+            return (await import("./arrow-out-center")).IconArrowOutCenter;
+    
+        case Icons.ARROW_RELOAD_DOWN_UP:
+            return (await import("./arrow-reload-down-up")).IconArrowReloadDownUp;
+    
+        case Icons.ARROW_RELOAD_LEFT_RIGHT:
+            return (await import("./arrow-reload-left-right")).IconArrowReloadLeftRight;
+    
+        case Icons.ARROW_RELOAD_RIGHT_LEFT:
+            return (await import("./arrow-reload-right-left")).IconArrowReloadRightLeft;
+    
+        case Icons.ARROW_RELOAD_UP_DOWN:
+            return (await import("./arrow-reload-up-down")).IconArrowReloadUpDown;
+    
+        case Icons.ARROW_RETURN_DOWN:
+            return (await import("./arrow-return-down")).IconArrowReturnDown;
+    
+        case Icons.ARROW_RETURN_LEFT:
+            return (await import("./arrow-return-left")).IconArrowReturnLeft;
+    
+        case Icons.ARROW_RETURN_RIGHT:
+            return (await import("./arrow-return-right")).IconArrowReturnRight;
+    
+        case Icons.ARROW_RETURN_UP:
+            return (await import("./arrow-return-up")).IconArrowReturnUp;
+    
+        case Icons.ARROW_RIGHT_STOP:
+            return (await import("./arrow-right-stop")).IconArrowRightStop;
+    
+        case Icons.ARROW_RIGHT:
+            return (await import("./arrow-right")).IconArrowRight;
+    
+        case Icons.ARROW_ROATE_BOTTOM_RIGHT:
+            return (await import("./arrow-roate-bottom-right")).IconArrowRoateBottomRight;
+    
+        case Icons.ARROW_ROTATE_BOTTOM_LEFT:
+            return (await import("./arrow-rotate-bottom-left")).IconArrowRotateBottomLeft;
+    
+        case Icons.ARROW_ROTATE_TOP_LEFT:
+            return (await import("./arrow-rotate-top-left")).IconArrowRotateTopLeft;
+    
+        case Icons.ARROW_ROTATE_TOP_RIGHT:
+            return (await import("./arrow-rotate-top-right")).IconArrowRotateTopRight;
+    
+        case Icons.ARROW_ROUNDED_LEFT_DOWN:
+            return (await import("./arrow-rounded-left-down")).IconArrowRoundedLeftDown;
+    
+        case Icons.ARROW_ROUNDED_LEFT_UP:
+            return (await import("./arrow-rounded-left-up")).IconArrowRoundedLeftUp;
+    
+        case Icons.ARROW_ROUNDED_RIGHT_DOWN:
+            return (await import("./arrow-rounded-right-down")).IconArrowRoundedRightDown;
+    
+        case Icons.ARROW_ROUNDED_RIGHT_UP:
+            return (await import("./arrow-rounded-right-up")).IconArrowRoundedRightUp;
+    
+        case Icons.ARROW_SHARE:
+            return (await import("./arrow-share")).IconArrowShare;
+    
+        case Icons.ARROW_SPREAD_SPLIT:
+            return (await import("./arrow-spread-split")).IconArrowSpreadSplit;
+    
+        case Icons.ARROW_SPREAD:
+            return (await import("./arrow-spread")).IconArrowSpread;
+    
+        case Icons.ARROW_TRANSFER_BL_TR:
+            return (await import("./arrow-transfer-bl-tr")).IconArrowTransferBlTr;
+    
+        case Icons.ARROW_TRANSFER_LEFT_RIGHT:
+            return (await import("./arrow-transfer-left-right")).IconArrowTransferLeftRight;
+    
+        case Icons.ARROW_TRANSFER_LT_BR:
+            return (await import("./arrow-transfer-lt-br")).IconArrowTransferLtBr;
+    
+        case Icons.ARROW_TRANSFER_UP_DOWN:
+            return (await import("./arrow-transfer-up-down")).IconArrowTransferUpDown;
+    
+        case Icons.ARROW_TWOWAY_DIAGONAL_LR:
+            return (await import("./arrow-twoway-diagonal-lr")).IconArrowTwowayDiagonalLr;
+    
+        case Icons.ARROW_TWOWAY_DIAGONAL_RL:
+            return (await import("./arrow-twoway-diagonal-rl")).IconArrowTwowayDiagonalRl;
+    
+        case Icons.ARROW_TWOWAY_HORIZONTAL:
+            return (await import("./arrow-twoway-horizontal")).IconArrowTwowayHorizontal;
+    
+        case Icons.ARROW_TWOWAY_VERTICAL:
+            return (await import("./arrow-twoway-vertical")).IconArrowTwowayVertical;
+    
+        case Icons.ARROW_UP_COPY:
+            return (await import("./arrow-up-copy")).IconArrowUpCopy;
+    
+        case Icons.ARROW_UP_DOWN_SPLIT:
+            return (await import("./arrow-up-down-split")).IconArrowUpDownSplit;
+    
+        case Icons.ARROW_UP_DOWN_STOP:
+            return (await import("./arrow-up-down-stop")).IconArrowUpDownStop;
+    
+        case Icons.ARROW_UP_DOWN:
+            return (await import("./arrow-up-down")).IconArrowUpDown;
+    
+        case Icons.ARROW_UP_LEFT:
+            return (await import("./arrow-up-left")).IconArrowUpLeft;
+    
+        case Icons.ARROW_UP_RIGHT:
+            return (await import("./arrow-up-right")).IconArrowUpRight;
+    
+        case Icons.ARROW_UP:
+            return (await import("./arrow-up")).IconArrowUp;
+    
+        case Icons.ARROW_UPLOAD:
+            return (await import("./arrow-upload")).IconArrowUpload;
+    
+        case Icons.CHEVRON_CONNECT2:
+            return (await import("./chevron-connect2")).IconChevronConnect2;
+    
+        case Icons.CHEVRON_CONNECT:
+            return (await import("./chevron-connect")).IconChevronConnect;
+    
+        case Icons.CHEVRON_DISCONNECT2:
+            return (await import("./chevron-disconnect2")).IconChevronDisconnect2;
+    
+        case Icons.CHEVRON_DISCONNECT:
+            return (await import("./chevron-disconnect")).IconChevronDisconnect;
+    
+        case Icons.CHEVRON_DOUBLE_DOWN:
+            return (await import("./chevron-double-down")).IconChevronDoubleDown;
+    
+        case Icons.CHEVRON_DOUBLE_LEFT:
+            return (await import("./chevron-double-left")).IconChevronDoubleLeft;
+    
+        case Icons.CHEVRON_DOUBLE_RIGHT:
+            return (await import("./chevron-double-right")).IconChevronDoubleRight;
+    
+        case Icons.CHEVRON_DOUBLE_UP:
+            return (await import("./chevron-double-up")).IconChevronDoubleUp;
+    
+        case Icons.CHEVRON_DOWN:
+            return (await import("./chevron-down")).IconChevronDown;
+    
+        case Icons.CHEVRON_LEFT:
+            return (await import("./chevron-left")).IconChevronLeft;
+    
+        case Icons.CHEVRON_RIGHT:
+            return (await import("./chevron-right")).IconChevronRight;
+    
+        case Icons.CHEVRON_UP:
+            return (await import("./chevron-up")).IconChevronUp;
     
         case Icons.ICON01:
             return (await import("./icon01")).IconIcon01;
@@ -591,14 +1005,26 @@ export const getIcon = async (icon: Icons) => {
         case Icons.YURT:
             return (await import("./yurt")).IconYurt;
     
+        case Icons.BABY_STROLLER:
+            return (await import("./baby-stroller")).IconBabyStroller;
+    
+        case Icons.CLOTHING_TSHIRT:
+            return (await import("./clothing-tshirt")).IconClothingTshirt;
+    
         case Icons.COTTON:
             return (await import("./cotton")).IconCotton;
+    
+        case Icons.HOME_GARDEN:
+            return (await import("./home-garden")).IconHomeGarden;
     
         case Icons.HYPOALLERGENIC:
             return (await import("./hypoallergenic")).IconHypoallergenic;
     
         case Icons.NO_LEAKS:
             return (await import("./no-leaks")).IconNoLeaks;
+    
+        case Icons.SUITCASE_JOBS:
+            return (await import("./suitcase-jobs")).IconSuitcaseJobs;
     
         case Icons.SHOPPING_BAG2:
             return (await import("./shopping-bag2")).IconShoppingBag2;

@@ -63,6 +63,420 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.WHALE:
             return (await import("./icon_whale.svg")).default;
 
+        case Icons.ICON24:
+            return (await import("./icon-24.svg")).default;
+
+        case Icons.ARROW_CORNER_DOWN:
+            return (await import("./icon_arrow-corner-down.svg")).default;
+
+        case Icons.ARROW_CORNER_LEFT:
+            return (await import("./icon_arrow-corner-left.svg")).default;
+
+        case Icons.ARROW_CORNER_RIGHT:
+            return (await import("./icon_arrow-corner-right.svg")).default;
+
+        case Icons.ARROW_CORNER_UP:
+            return (await import("./icon_arrow-corner-up.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_BL_TR_STOP:
+            return (await import("./icon_arrow-diagonal-bl-tr-stop.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_BR_TL_STOP:
+            return (await import("./icon_arrow-diagonal-br-tl-stop.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_IN_LT_BR:
+            return (await import("./icon_arrow-diagonal-in-lt-br.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_IN_TR_BL:
+            return (await import("./icon_arrow-diagonal-in-tr-bl.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_TL_BR_SPLIT:
+            return (await import("./icon_arrow-diagonal-tl-br-split.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_TL_BR_STOP:
+            return (await import("./icon_arrow-diagonal-tl-br-stop.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_TL_BR:
+            return (await import("./icon_arrow-diagonal-tl-br.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_TR_BL_SPLIT:
+            return (await import("./icon_arrow-diagonal-tr-bl-split.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_TR_BL_STOP:
+            return (await import("./icon_arrow-diagonal-tr-bl-stop.svg")).default;
+
+        case Icons.ARROW_DIAGONAL_TR_BL:
+            return (await import("./icon_arrow-diagonal-tr-bl.svg")).default;
+
+        case Icons.ARROW_DOWN_COPY:
+            return (await import("./icon_arrow-down copy.svg")).default;
+
+        case Icons.ARROW_DOWN_LEFT:
+            return (await import("./icon_arrow-down-left.svg")).default;
+
+        case Icons.ARROW_DOWN_RIGHT:
+            return (await import("./icon_arrow-down-right.svg")).default;
+
+        case Icons.ARROW_DOWN:
+            return (await import("./icon_arrow-down.svg")).default;
+
+        case Icons.ARROW_DOWNLOAD:
+            return (await import("./icon_arrow-download.svg")).default;
+
+        case Icons.ARROW_HEADED_CORNER_DOWN:
+            return (await import("./icon_arrow-headed-corner-down.svg")).default;
+
+        case Icons.ARROW_HEADED_CORNER_LEFT:
+            return (await import("./icon_arrow-headed-corner-left-.svg")).default;
+
+        case Icons.ARROW_HEADED_CORNER_RIGHT:
+            return (await import("./icon_arrow-headed-corner-right.svg")).default;
+
+        case Icons.ARROW_HEADED_CORNER_UP:
+            return (await import("./icon_arrow-headed-corner-up.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_BL_TR_STOP:
+            return (await import("./icon_arrow-headed-diagonal-bl-tr-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_BR_TL_STOP:
+            return (await import("./icon_arrow-headed-diagonal-br-tl-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_IN_LT_BR:
+            return (await import("./icon_arrow-headed-diagonal-in-lt-br.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_IN_TR_BL:
+            return (await import("./icon_arrow-headed-diagonal-in-tr-bl.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_TL_BR_SPLIT:
+            return (await import("./icon_arrow-headed-diagonal-tl-br-split.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_TL_BR_STOP:
+            return (await import("./icon_arrow-headed-diagonal-tl-br-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_TL_BR:
+            return (await import("./icon_arrow-headed-diagonal-tl-br.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_TR_BL_SPLIT:
+            return (await import("./icon_arrow-headed-diagonal-tr-bl-split.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_TR_BL_STOP:
+            return (await import("./icon_arrow-headed-diagonal-tr-bl-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_DIAGONAL_TR_BL:
+            return (await import("./icon_arrow-headed-diagonal-tr-bl.svg")).default;
+
+        case Icons.ARROW_HEADED_DOWN_LEFT:
+            return (await import("./icon_arrow-headed-down-left.svg")).default;
+
+        case Icons.ARROW_HEADED_DOWN_RIGHT:
+            return (await import("./icon_arrow-headed-down-right.svg")).default;
+
+        case Icons.ARROW_HEADED_DOWN_STOP:
+            return (await import("./icon_arrow-headed-down-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_DOWN:
+            return (await import("./icon_arrow-headed-down.svg")).default;
+
+        case Icons.ARROW_HEADED_DOWNLOAD:
+            return (await import("./icon_arrow-headed-download.svg")).default;
+
+        case Icons.ARROW_HEADED_IN_CENTER:
+            return (await import("./icon_arrow-headed-in-center.svg")).default;
+
+        case Icons.ARROW_HEADED_IN_DIAGONAL:
+            return (await import("./icon_arrow-headed-in-diagonal.svg")).default;
+
+        case Icons.ARROW_HEADED_IN:
+            return (await import("./icon_arrow-headed-in.svg")).default;
+
+        case Icons.ARROW_HEADED_LEFT_RIGHT_SPLIT:
+            return (await import("./icon_arrow-headed-left-right-split.svg")).default;
+
+        case Icons.ARROW_HEADED_LEFT_RIGHT_STOP:
+            return (await import("./icon_arrow-headed-left-right-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_LEFT_RIGHT:
+            return (await import("./icon_arrow-headed-left-right.svg")).default;
+
+        case Icons.ARROW_HEADED_LEFT_STOP:
+            return (await import("./icon_arrow-headed-left-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_LEFT:
+            return (await import("./icon_arrow-headed-left.svg")).default;
+
+        case Icons.ARROW_HEADED_OUT_CENTER:
+            return (await import("./icon_arrow-headed-out-center.svg")).default;
+
+        case Icons.ARROW_HEADED_RELOAD_DOWN_UP:
+            return (await import("./icon_arrow-headed-reload-down-up.svg")).default;
+
+        case Icons.ARROW_HEADED_RELOAD_LEFT_RIGHT:
+            return (await import("./icon_arrow-headed-reload-left-right.svg")).default;
+
+        case Icons.ARROW_HEADED_RELOAD_RIGHT_LEFT:
+            return (await import("./icon_arrow-headed-reload-right-left.svg")).default;
+
+        case Icons.ARROW_HEADED_RELOAD_UP_DOWN:
+            return (await import("./icon_arrow-headed-reload-up-down.svg")).default;
+
+        case Icons.ARROW_HEADED_RETURN_DOWN:
+            return (await import("./icon_arrow-headed-return-down.svg")).default;
+
+        case Icons.ARROW_HEADED_RETURN_LEFT:
+            return (await import("./icon_arrow-headed-return-left.svg")).default;
+
+        case Icons.ARROW_HEADED_RETURN_RIGHT:
+            return (await import("./icon_arrow-headed-return-right.svg")).default;
+
+        case Icons.ARROW_HEADED_RETURN_UP:
+            return (await import("./icon_arrow-headed-return-up.svg")).default;
+
+        case Icons.ARROW_HEADED_RIGHT:
+            return (await import("./icon_arrow-headed-right.svg")).default;
+
+        case Icons.ARROW_HEADED_ROTATE_BOTTOM_LEFT:
+            return (await import("./icon_arrow-headed-rotate-bottom-left.svg")).default;
+
+        case Icons.ARROW_HEADED_ROTATE_BOTTOM_RIGHT:
+            return (await import("./icon_arrow-headed-rotate-bottom-right.svg")).default;
+
+        case Icons.ARROW_HEADED_ROTATE_TOP_LEFT:
+            return (await import("./icon_arrow-headed-rotate-top-left.svg")).default;
+
+        case Icons.ARROW_HEADED_ROTATE_TOP_RIGHT:
+            return (await import("./icon_arrow-headed-rotate-top-right.svg")).default;
+
+        case Icons.ARROW_HEADED_ROUNDED_LEFT_UP:
+            return (await import("./icon_arrow-headed-rounded-left-up.svg")).default;
+
+        case Icons.ARROW_HEADED_ROUNDED_RIGHT_DOWN:
+            return (await import("./icon_arrow-headed-rounded-right-down.svg")).default;
+
+        case Icons.ARROW_HEADED_ROUNDED_RIGHT_UP:
+            return (await import("./icon_arrow-headed-rounded-right-up.svg")).default;
+
+        case Icons.ARROW_HEADED_ROUNED_LEFT_DOWN:
+            return (await import("./icon_arrow-headed-rouned-left-down.svg")).default;
+
+        case Icons.ARROW_HEADED_SHARE:
+            return (await import("./icon_arrow-headed-share.svg")).default;
+
+        case Icons.ARROW_HEADED_SPREAD_SPLIT:
+            return (await import("./icon_arrow-headed-spread-split.svg")).default;
+
+        case Icons.ARROW_HEADED_SPREAD:
+            return (await import("./icon_arrow-headed-spread.svg")).default;
+
+        case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_LR:
+            return (await import("./icon_arrow-headed-twoway-diagonal-lr.svg")).default;
+
+        case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_RL:
+            return (await import("./icon_arrow-headed-twoway-diagonal-rl.svg")).default;
+
+        case Icons.ARROW_HEADED_TWOWAY_HORIZONTAL:
+            return (await import("./icon_arrow-headed-twoway-horizontal.svg")).default;
+
+        case Icons.ARROW_HEADED_TWOWAY_VERTICAL:
+            return (await import("./icon_arrow-headed-twoway-vertical.svg")).default;
+
+        case Icons.ARROW_HEADED_UP_DOWN_SPLIT:
+            return (await import("./icon_arrow-headed-up-down-split.svg")).default;
+
+        case Icons.ARROW_HEADED_UP_DOWN_STOP:
+            return (await import("./icon_arrow-headed-up-down-stop.svg")).default;
+
+        case Icons.ARROW_HEADED_UP_DOWN:
+            return (await import("./icon_arrow-headed-up-down.svg")).default;
+
+        case Icons.ARROW_HEADED_UP_LEFT:
+            return (await import("./icon_arrow-headed-up-left.svg")).default;
+
+        case Icons.ARROW_HEADED_UP_RIGHT:
+            return (await import("./icon_arrow-headed-up-right.svg")).default;
+
+        case Icons.ARROW_HEADED_UP_STOP76:
+            return (await import("./icon_arrow-headed-up-stop-76.svg")).default;
+
+        case Icons.ARROW_HEADED_UP_STOP78:
+            return (await import("./icon_arrow-headed-up-stop-78.svg")).default;
+
+        case Icons.ARROW_HEADED_UP:
+            return (await import("./icon_arrow-headed-up.svg")).default;
+
+        case Icons.ARROW_HEADED_UPLOAD:
+            return (await import("./icon_arrow-headed-upload.svg")).default;
+
+        case Icons.ARROW_IN_CENTER:
+            return (await import("./icon_arrow-in-center.svg")).default;
+
+        case Icons.ARROW_INVERT:
+            return (await import("./icon_arrow-invert.svg")).default;
+
+        case Icons.ARROW_LEFT_RIGHT_SPLIT:
+            return (await import("./icon_arrow-left-right-split.svg")).default;
+
+        case Icons.ARROW_LEFT_RIGHT_STOP:
+            return (await import("./icon_arrow-left-right-stop.svg")).default;
+
+        case Icons.ARROW_LEFT_RIGHT:
+            return (await import("./icon_arrow-left-right.svg")).default;
+
+        case Icons.ARROW_LEFT_STOP:
+            return (await import("./icon_arrow-left-stop.svg")).default;
+
+        case Icons.ARROW_LEFT:
+            return (await import("./icon_arrow-left.svg")).default;
+
+        case Icons.ARROW_OUT_CENTER:
+            return (await import("./icon_arrow-out-center.svg")).default;
+
+        case Icons.ARROW_RELOAD_DOWN_UP:
+            return (await import("./icon_arrow-reload-down-up.svg")).default;
+
+        case Icons.ARROW_RELOAD_LEFT_RIGHT:
+            return (await import("./icon_arrow-reload-left-right.svg")).default;
+
+        case Icons.ARROW_RELOAD_RIGHT_LEFT:
+            return (await import("./icon_arrow-reload-right-left.svg")).default;
+
+        case Icons.ARROW_RELOAD_UP_DOWN:
+            return (await import("./icon_arrow-reload-up-down.svg")).default;
+
+        case Icons.ARROW_RETURN_DOWN:
+            return (await import("./icon_arrow-return-down.svg")).default;
+
+        case Icons.ARROW_RETURN_LEFT:
+            return (await import("./icon_arrow-return-left.svg")).default;
+
+        case Icons.ARROW_RETURN_RIGHT:
+            return (await import("./icon_arrow-return-right.svg")).default;
+
+        case Icons.ARROW_RETURN_UP:
+            return (await import("./icon_arrow-return-up.svg")).default;
+
+        case Icons.ARROW_RIGHT_STOP:
+            return (await import("./icon_arrow-right-stop.svg")).default;
+
+        case Icons.ARROW_RIGHT:
+            return (await import("./icon_arrow-right.svg")).default;
+
+        case Icons.ARROW_ROATE_BOTTOM_RIGHT:
+            return (await import("./icon_arrow-roate-bottom-right.svg")).default;
+
+        case Icons.ARROW_ROTATE_BOTTOM_LEFT:
+            return (await import("./icon_arrow-rotate-bottom-left.svg")).default;
+
+        case Icons.ARROW_ROTATE_TOP_LEFT:
+            return (await import("./icon_arrow-rotate-top-left.svg")).default;
+
+        case Icons.ARROW_ROTATE_TOP_RIGHT:
+            return (await import("./icon_arrow-rotate-top-right.svg")).default;
+
+        case Icons.ARROW_ROUNDED_LEFT_DOWN:
+            return (await import("./icon_arrow-rounded-left-down.svg")).default;
+
+        case Icons.ARROW_ROUNDED_LEFT_UP:
+            return (await import("./icon_arrow-rounded-left-up.svg")).default;
+
+        case Icons.ARROW_ROUNDED_RIGHT_DOWN:
+            return (await import("./icon_arrow-rounded-right-down.svg")).default;
+
+        case Icons.ARROW_ROUNDED_RIGHT_UP:
+            return (await import("./icon_arrow-rounded-right-up.svg")).default;
+
+        case Icons.ARROW_SHARE:
+            return (await import("./icon_arrow-share.svg")).default;
+
+        case Icons.ARROW_SPREAD_SPLIT:
+            return (await import("./icon_arrow-spread-split.svg")).default;
+
+        case Icons.ARROW_SPREAD:
+            return (await import("./icon_arrow-spread.svg")).default;
+
+        case Icons.ARROW_TRANSFER_BL_TR:
+            return (await import("./icon_arrow-transfer-bl-tr.svg")).default;
+
+        case Icons.ARROW_TRANSFER_LEFT_RIGHT:
+            return (await import("./icon_arrow-transfer-left-right.svg")).default;
+
+        case Icons.ARROW_TRANSFER_LT_BR:
+            return (await import("./icon_arrow-transfer-lt-br.svg")).default;
+
+        case Icons.ARROW_TRANSFER_UP_DOWN:
+            return (await import("./icon_arrow-transfer-up-down.svg")).default;
+
+        case Icons.ARROW_TWOWAY_DIAGONAL_LR:
+            return (await import("./icon_arrow-twoway-diagonal-lr.svg")).default;
+
+        case Icons.ARROW_TWOWAY_DIAGONAL_RL:
+            return (await import("./icon_arrow-twoway-diagonal-rl.svg")).default;
+
+        case Icons.ARROW_TWOWAY_HORIZONTAL:
+            return (await import("./icon_arrow-twoway-horizontal.svg")).default;
+
+        case Icons.ARROW_TWOWAY_VERTICAL:
+            return (await import("./icon_arrow-twoway-vertical.svg")).default;
+
+        case Icons.ARROW_UP_COPY:
+            return (await import("./icon_arrow-up copy.svg")).default;
+
+        case Icons.ARROW_UP_DOWN_SPLIT:
+            return (await import("./icon_arrow-up-down-split.svg")).default;
+
+        case Icons.ARROW_UP_DOWN_STOP:
+            return (await import("./icon_arrow-up-down-stop.svg")).default;
+
+        case Icons.ARROW_UP_DOWN:
+            return (await import("./icon_arrow-up-down.svg")).default;
+
+        case Icons.ARROW_UP_LEFT:
+            return (await import("./icon_arrow-up-left.svg")).default;
+
+        case Icons.ARROW_UP_RIGHT:
+            return (await import("./icon_arrow-up-right.svg")).default;
+
+        case Icons.ARROW_UP:
+            return (await import("./icon_arrow-up.svg")).default;
+
+        case Icons.ARROW_UPLOAD:
+            return (await import("./icon_arrow-upload.svg")).default;
+
+        case Icons.CHEVRON_CONNECT2:
+            return (await import("./icon_chevron-connect 2.svg")).default;
+
+        case Icons.CHEVRON_CONNECT:
+            return (await import("./icon_chevron-connect.svg")).default;
+
+        case Icons.CHEVRON_DISCONNECT2:
+            return (await import("./icon_chevron-disconnect 2.svg")).default;
+
+        case Icons.CHEVRON_DISCONNECT:
+            return (await import("./icon_chevron-disconnect.svg")).default;
+
+        case Icons.CHEVRON_DOUBLE_DOWN:
+            return (await import("./icon_chevron-double-down.svg")).default;
+
+        case Icons.CHEVRON_DOUBLE_LEFT:
+            return (await import("./icon_chevron-double-left.svg")).default;
+
+        case Icons.CHEVRON_DOUBLE_RIGHT:
+            return (await import("./icon_chevron-double-right.svg")).default;
+
+        case Icons.CHEVRON_DOUBLE_UP:
+            return (await import("./icon_chevron-double-up.svg")).default;
+
+        case Icons.CHEVRON_DOWN:
+            return (await import("./icon_chevron-down.svg")).default;
+
+        case Icons.CHEVRON_LEFT:
+            return (await import("./icon_chevron-left.svg")).default;
+
+        case Icons.CHEVRON_RIGHT:
+            return (await import("./icon_chevron-right.svg")).default;
+
+        case Icons.CHEVRON_UP:
+            return (await import("./icon_chevron-up.svg")).default;
+
         case Icons.ICON01:
             return (await import("./icon-01.svg")).default;
 
@@ -594,14 +1008,26 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.YURT:
             return (await import("./icon_yurt.svg")).default;
 
+        case Icons.BABY_STROLLER:
+            return (await import("./icon_baby-stroller.svg")).default;
+
+        case Icons.CLOTHING_TSHIRT:
+            return (await import("./icon_clothing-tshirt.svg")).default;
+
         case Icons.COTTON:
             return (await import("./icon_cotton.svg")).default;
+
+        case Icons.HOME_GARDEN:
+            return (await import("./icon_home-garden.svg")).default;
 
         case Icons.HYPOALLERGENIC:
             return (await import("./icon_hypoallergenic.svg")).default;
 
         case Icons.NO_LEAKS:
             return (await import("./icon_no-leaks.svg")).default;
+
+        case Icons.SUITCASE_JOBS:
+            return (await import("./icon_suitcase-jobs.svg")).default;
 
         case Icons.SHOPPING_BAG2:
             return (await import("./icon_shopping-bag-2.svg")).default;

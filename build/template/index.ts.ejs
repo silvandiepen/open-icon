@@ -6,7 +6,7 @@ import { Icons } from "./types";
  * @param {Icons} icon - The icon to retrieve.
  * @returns {Promise<IconData>} - A promise that resolves to the icon data.
  */
-export const getIcon = async (icon: Icons) => {
+export const getIcon = async (icon: Icons): Promise<string> => {
     switch(icon) {
     <% files.forEach(function(file,index) { %>
         case Icons.<%= constCase(file.meta.fileName) %>:
