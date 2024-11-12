@@ -729,11 +729,26 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.BRAIN:
             return (await import("./brain")).IconBrain;
     
+        case Icons.BRANCH2:
+            return (await import("./branch2")).IconBranch2;
+    
+        case Icons.BRANCH3:
+            return (await import("./branch3")).IconBranch3;
+    
+        case Icons.BRANCH:
+            return (await import("./branch")).IconBranch;
+    
         case Icons.BULB:
             return (await import("./bulb")).IconBulb;
     
         case Icons.CACTUS:
             return (await import("./cactus")).IconCactus;
+    
+        case Icons.CAMPER:
+            return (await import("./camper")).IconCamper;
+    
+        case Icons.CARAVAN:
+            return (await import("./caravan")).IconCaravan;
     
         case Icons.CHIP:
             return (await import("./chip")).IconChip;
@@ -957,6 +972,9 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.TENT_CAMPING:
             return (await import("./tent-camping")).IconTentCamping;
     
+        case Icons.TENT:
+            return (await import("./tent")).IconTent;
+    
         case Icons.TOY_BLOCKS2:
             return (await import("./toy-blocks2")).IconToyBlocks2;
     
@@ -986,6 +1004,12 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.TREES:
             return (await import("./trees")).IconTrees;
+    
+        case Icons.TRUNK1:
+            return (await import("./trunk1")).IconTrunk1;
+    
+        case Icons.TRUNK2:
+            return (await import("./trunk2")).IconTrunk2;
     
         case Icons.UFO:
             return (await import("./ufo")).IconUfo;

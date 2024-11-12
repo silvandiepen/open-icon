@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The 'trunk-1' icon features a simplistic and stylized tree trunk design, suitable for use in various nature-themed projects or environmental initiatives.",
+      category: ["Nature"],
+      tag: ["tree","trunk","wood","forest","nature","environment","organic","simple","stylized","minimal"],
+      title: "Trunk 1"
+    };
+    export default meta;

@@ -732,11 +732,26 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.BRAIN:
             return (await import("./icon_brain.svg")).default;
 
+        case Icons.BRANCH2:
+            return (await import("./icon_branch-2.svg")).default;
+
+        case Icons.BRANCH3:
+            return (await import("./icon_branch-3.svg")).default;
+
+        case Icons.BRANCH:
+            return (await import("./icon_branch.svg")).default;
+
         case Icons.BULB:
             return (await import("./icon_bulb.svg")).default;
 
         case Icons.CACTUS:
             return (await import("./icon_cactus.svg")).default;
+
+        case Icons.CAMPER:
+            return (await import("./icon_camper.svg")).default;
+
+        case Icons.CARAVAN:
+            return (await import("./icon_caravan.svg")).default;
 
         case Icons.CHIP:
             return (await import("./icon_chip.svg")).default;
@@ -960,6 +975,9 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.TENT_CAMPING:
             return (await import("./icon_tent-camping.svg")).default;
 
+        case Icons.TENT:
+            return (await import("./icon_tent.svg")).default;
+
         case Icons.TOY_BLOCKS2:
             return (await import("./icon_toy-blocks-2.svg")).default;
 
@@ -989,6 +1007,12 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.TREES:
             return (await import("./icon_trees.svg")).default;
+
+        case Icons.TRUNK1:
+            return (await import("./icon_trunk-1.svg")).default;
+
+        case Icons.TRUNK2:
+            return (await import("./icon_trunk-2.svg")).default;
 
         case Icons.UFO:
             return (await import("./icon_ufo.svg")).default;

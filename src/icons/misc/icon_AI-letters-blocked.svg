@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="AI-letters-blocked" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-  <rect x="9" y="9" width="54" height="54" rx="2" ry="2" style="fill: #ed2024; opacity: .5; stroke-width: 0px;"/>
+  <rect x="9" y="9" width="54" height="54" rx="2" ry="2" style="fill: #ed2024; opacity: .5;"/>
   <rect x="9" y="9" width="54" height="54" rx="2" ry="2" style="fill: none; stroke: #231f20; stroke-linecap: square; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <g>
     <path d="M20.25,47.25v-18.5c0-2.21,1.79-4,4-4h5.5c2.21,0,4,1.79,4,4v18.5" style="fill: none; stroke: #231f20; stroke-linecap: square; stroke-miterlimit: 10; stroke-width: 4px;"/>

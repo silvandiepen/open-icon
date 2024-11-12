@@ -239,8 +239,13 @@ export declare const BaseIcons: {
     BLENDER: string;
     BOOKCASE: string;
     BRAIN: string;
+    BRANCH2: string;
+    BRANCH3: string;
+    BRANCH: string;
     BULB: string;
     CACTUS: string;
+    CAMPER: string;
+    CARAVAN: string;
     CHIP: string;
     CLEANING_BUCKET: string;
     CLEANING_SPRAY: string;
@@ -315,6 +320,7 @@ export declare const BaseIcons: {
     TEMPLE2: string;
     TEMPLE: string;
     TENT_CAMPING: string;
+    TENT: string;
     TOY_BLOCKS2: string;
     TOY_BLOCKS3: string;
     TOY_BLOCKS: string;
@@ -325,6 +331,8 @@ export declare const BaseIcons: {
     TREEHOUSE: string;
     TREES2: string;
     TREES: string;
+    TRUNK1: string;
+    TRUNK2: string;
     UFO: string;
     VOTE: string;
     WALLET: string;
@@ -1160,8 +1168,13 @@ export declare const Icons: {
     BLENDER: string;
     BOOKCASE: string;
     BRAIN: string;
+    BRANCH2: string;
+    BRANCH3: string;
+    BRANCH: string;
     BULB: string;
     CACTUS: string;
+    CAMPER: string;
+    CARAVAN: string;
     CHIP: string;
     CLEANING_BUCKET: string;
     CLEANING_SPRAY: string;
@@ -1236,6 +1249,7 @@ export declare const Icons: {
     TEMPLE2: string;
     TEMPLE: string;
     TENT_CAMPING: string;
+    TENT: string;
     TOY_BLOCKS2: string;
     TOY_BLOCKS3: string;
     TOY_BLOCKS: string;
@@ -1246,6 +1260,8 @@ export declare const Icons: {
     TREEHOUSE: string;
     TREES2: string;
     TREES: string;
+    TRUNK1: string;
+    TRUNK2: string;
     UFO: string;
     VOTE: string;
     WALLET: string;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="toy-head" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <g style="opacity: .5;">
-    <rect x="13.5" y="13.5" width="45" height="40.5" rx="8" ry="8" style="fill: #ed2024; stroke-width: 0px;"/>
-    <rect x="24.75" y="54" width="22.5" height="9" style="fill: #ed2024; stroke-width: 0px;"/>
-    <path d="M30.97,6.75h10.05c1.1,0,2,.9,2,2v4.75h-14.05v-4.75c0-1.1.9-2,2-2Z" style="fill: #ed2024; stroke-width: 0px;"/>
+    <rect x="13.5" y="13.5" width="45" height="40.5" rx="8" ry="8" style="fill: #ed2024;"/>
+    <rect x="24.75" y="54" width="22.5" height="9" style="fill: #ed2024;"/>
+    <path d="M30.97,6.75h10.05c1.1,0,2,.9,2,2v4.75h-14.05v-4.75c0-1.1.9-2,2-2Z" style="fill: #ed2024;"/>
   </g>
   <rect x="13.5" y="13.5" width="45" height="40.5" rx="8" ry="8" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <rect x="24.75" y="54" width="22.5" height="9" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 4px;"/>

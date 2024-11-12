@@ -240,8 +240,13 @@ var BaseIcons = {
   BLENDER: "blender",
   BOOKCASE: "bookcase",
   BRAIN: "brain",
+  BRANCH2: "branch2",
+  BRANCH3: "branch3",
+  BRANCH: "branch",
   BULB: "bulb",
   CACTUS: "cactus",
+  CAMPER: "camper",
+  CARAVAN: "caravan",
   CHIP: "chip",
   CLEANING_BUCKET: "cleaning-bucket",
   CLEANING_SPRAY: "cleaning-spray",
@@ -316,6 +321,7 @@ var BaseIcons = {
   TEMPLE2: "temple2",
   TEMPLE: "temple",
   TENT_CAMPING: "tent-camping",
+  TENT: "tent",
   TOY_BLOCKS2: "toy-blocks2",
   TOY_BLOCKS3: "toy-blocks3",
   TOY_BLOCKS: "toy-blocks",
@@ -326,6 +332,8 @@ var BaseIcons = {
   TREEHOUSE: "treehouse",
   TREES2: "trees2",
   TREES: "trees",
+  TRUNK1: "trunk1",
+  TRUNK2: "trunk2",
   UFO: "ufo",
   VOTE: "vote",
   WALLET: "wallet",
@@ -1366,213 +1374,229 @@ var getIcon = async (icon) => {
     case Icons.WIFI:
       return (await import("./wifi-QXS7BOYH.js")).IconWifi;
     case Icons.AI_FACE:
-      return (await import("./ai-face-QAVIT4P6.js")).IconAiFace;
+      return (await import("./ai-face-J2AO4AWN.js")).IconAiFace;
     case Icons.AI_LETTERS_BLOCKED:
-      return (await import("./ai-letters-blocked-2BJUYUBI.js")).IconAiLettersBlocked;
+      return (await import("./ai-letters-blocked-HDIEMI2Y.js")).IconAiLettersBlocked;
     case Icons.AI_LETTERS_CIRCLED:
-      return (await import("./ai-letters-circled-UQ42O7EE.js")).IconAiLettersCircled;
+      return (await import("./ai-letters-circled-BVBYSTGG.js")).IconAiLettersCircled;
     case Icons.AI_LETTERS:
       return (await import("./ai-letters-4QEXA5RQ.js")).IconAiLetters;
     case Icons.AFRAME:
-      return (await import("./aframe-I62UFWNW.js")).IconAframe;
+      return (await import("./aframe-WODYBD2C.js")).IconAframe;
     case Icons.ARTWORK_FRAME:
-      return (await import("./artwork-frame-HVH4N6AR.js")).IconArtworkFrame;
+      return (await import("./artwork-frame-AHPV6TNU.js")).IconArtworkFrame;
     case Icons.BARBECUE:
-      return (await import("./barbecue-KFH5NEVW.js")).IconBarbecue;
+      return (await import("./barbecue-PTAMQ5MB.js")).IconBarbecue;
     case Icons.BATHROOM_ESSENTIALS:
       return (await import("./bathroom-essentials-X3SZXNDF.js")).IconBathroomEssentials;
     case Icons.BINOCULARS:
       return (await import("./binoculars-PZOHEMMZ.js")).IconBinoculars;
     case Icons.BLENDER:
-      return (await import("./blender-DLOKOFNG.js")).IconBlender;
+      return (await import("./blender-CGY3D4VR.js")).IconBlender;
     case Icons.BOOKCASE:
-      return (await import("./bookcase-5DUCRIVQ.js")).IconBookcase;
+      return (await import("./bookcase-4OSXI2O5.js")).IconBookcase;
     case Icons.BRAIN:
-      return (await import("./brain-YFJ33HTA.js")).IconBrain;
+      return (await import("./brain-7QINZFMP.js")).IconBrain;
+    case Icons.BRANCH2:
+      return (await import("./branch2-65G6KVSU.js")).IconBranch2;
+    case Icons.BRANCH3:
+      return (await import("./branch3-W555L3B6.js")).IconBranch3;
+    case Icons.BRANCH:
+      return (await import("./branch-3IABDH73.js")).IconBranch;
     case Icons.BULB:
-      return (await import("./bulb-GQQSB3QB.js")).IconBulb;
+      return (await import("./bulb-5USZR4Z6.js")).IconBulb;
     case Icons.CACTUS:
-      return (await import("./cactus-G6DYQTVD.js")).IconCactus;
+      return (await import("./cactus-RJVXFN55.js")).IconCactus;
+    case Icons.CAMPER:
+      return (await import("./camper-6R3UITMC.js")).IconCamper;
+    case Icons.CARAVAN:
+      return (await import("./caravan-4EU74URY.js")).IconCaravan;
     case Icons.CHIP:
-      return (await import("./chip-VBR26XGE.js")).IconChip;
+      return (await import("./chip-FOE7FIVC.js")).IconChip;
     case Icons.CLEANING_BUCKET:
-      return (await import("./cleaning-bucket-3RQBWWW2.js")).IconCleaningBucket;
+      return (await import("./cleaning-bucket-DIMR7NHP.js")).IconCleaningBucket;
     case Icons.CLEANING_SPRAY:
-      return (await import("./cleaning-spray-MDHILXMT.js")).IconCleaningSpray;
+      return (await import("./cleaning-spray-QWE4VOBM.js")).IconCleaningSpray;
     case Icons.CLOSET:
-      return (await import("./closet-LJ3U7UFV.js")).IconCloset;
+      return (await import("./closet-YYC5DUS7.js")).IconCloset;
     case Icons.COINS:
-      return (await import("./coins-WM3AYA2K.js")).IconCoins;
+      return (await import("./coins-W3KOTOGH.js")).IconCoins;
     case Icons.COMPASS2:
-      return (await import("./compass2-PODMSL3R.js")).IconCompass2;
+      return (await import("./compass2-ZNE4LOAZ.js")).IconCompass2;
     case Icons.COMPASS:
-      return (await import("./compass-OYTPWM4R.js")).IconCompass;
+      return (await import("./compass-FTDXXSOP.js")).IconCompass;
     case Icons.CUBE3D:
       return (await import("./cube3d-6OK2C7QZ.js")).IconCube3d;
     case Icons.EDUCATION:
-      return (await import("./education-Z3SYK7LF.js")).IconEducation;
+      return (await import("./education-NXDBGPQV.js")).IconEducation;
     case Icons.FACTORY_ARM:
-      return (await import("./factory-arm-O3AL7ZPA.js")).IconFactoryArm;
+      return (await import("./factory-arm-PRYI5ONQ.js")).IconFactoryArm;
     case Icons.FACTORY_BELT:
-      return (await import("./factory-belt-TINBGWAV.js")).IconFactoryBelt;
+      return (await import("./factory-belt-QTGRQGBW.js")).IconFactoryBelt;
     case Icons.FACTORY:
-      return (await import("./factory-6AZLTK7H.js")).IconFactory;
+      return (await import("./factory-HYOA3GI4.js")).IconFactory;
     case Icons.FINGERPRINT:
-      return (await import("./fingerprint-6UX4S3YC.js")).IconFingerprint;
+      return (await import("./fingerprint-B6PHBIJF.js")).IconFingerprint;
     case Icons.FIRE:
-      return (await import("./fire-2GQQHTGS.js")).IconFire;
+      return (await import("./fire-I4L64KK5.js")).IconFire;
     case Icons.FRIDGE:
-      return (await import("./fridge-HSAPIH6J.js")).IconFridge;
+      return (await import("./fridge-FZMEYDYE.js")).IconFridge;
     case Icons.FURNITURE_BED2:
-      return (await import("./furniture-bed2-WVIPLB6D.js")).IconFurnitureBed2;
+      return (await import("./furniture-bed2-2UYLP676.js")).IconFurnitureBed2;
     case Icons.FURNITURE_BED_KING2:
-      return (await import("./furniture-bed-king2-GYK6HLMU.js")).IconFurnitureBedKing2;
+      return (await import("./furniture-bed-king2-PCSSHT2O.js")).IconFurnitureBedKing2;
     case Icons.FURNITURE_BED_KING:
-      return (await import("./furniture-bed-king-4NZ6QGY3.js")).IconFurnitureBedKing;
+      return (await import("./furniture-bed-king-XK3LL3E3.js")).IconFurnitureBedKing;
     case Icons.FURNITURE_BED_SINGLE2:
-      return (await import("./furniture-bed-single2-V7YQJD5X.js")).IconFurnitureBedSingle2;
+      return (await import("./furniture-bed-single2-UADZAUV6.js")).IconFurnitureBedSingle2;
     case Icons.FURNITURE_BED_SINGLE:
-      return (await import("./furniture-bed-single-M3UTGQSQ.js")).IconFurnitureBedSingle;
+      return (await import("./furniture-bed-single-JCUWK3G6.js")).IconFurnitureBedSingle;
     case Icons.FURNITURE_BED:
-      return (await import("./furniture-bed-SJHUUYIF.js")).IconFurnitureBed;
+      return (await import("./furniture-bed-5SPQFRVF.js")).IconFurnitureBed;
     case Icons.FURNITURE_BEDSIDE_TABLE:
-      return (await import("./furniture-bedside-table-H5ZX43BZ.js")).IconFurnitureBedsideTable;
+      return (await import("./furniture-bedside-table-BQXNJJV2.js")).IconFurnitureBedsideTable;
     case Icons.FURNITURE_CHAIR2:
-      return (await import("./furniture-chair2-ZTCMX6OY.js")).IconFurnitureChair2;
+      return (await import("./furniture-chair2-CHFZ237P.js")).IconFurnitureChair2;
     case Icons.FURNITURE_CHAIR3:
-      return (await import("./furniture-chair3-3B4AWST6.js")).IconFurnitureChair3;
+      return (await import("./furniture-chair3-V4FM3A56.js")).IconFurnitureChair3;
     case Icons.FURNITURE_CHAIR4:
-      return (await import("./furniture-chair4-CMUL3KDX.js")).IconFurnitureChair4;
+      return (await import("./furniture-chair4-S2SLI74T.js")).IconFurnitureChair4;
     case Icons.FURNITURE_CHAIR:
-      return (await import("./furniture-chair-XUOCDTCB.js")).IconFurnitureChair;
+      return (await import("./furniture-chair-P44UZSZX.js")).IconFurnitureChair;
     case Icons.FURNITURE_COUCH2:
-      return (await import("./furniture-couch2-J6D23WGZ.js")).IconFurnitureCouch2;
+      return (await import("./furniture-couch2-PIBAUZYC.js")).IconFurnitureCouch2;
     case Icons.FURNITURE_COUCH3:
-      return (await import("./furniture-couch3-LS42JJFS.js")).IconFurnitureCouch3;
+      return (await import("./furniture-couch3-OUJCJWQ7.js")).IconFurnitureCouch3;
     case Icons.FURNITURE_COUCH4:
-      return (await import("./furniture-couch4-VHX4QWJE.js")).IconFurnitureCouch4;
+      return (await import("./furniture-couch4-UHSIMCX7.js")).IconFurnitureCouch4;
     case Icons.FURNITURE_COUCH:
-      return (await import("./furniture-couch-S2VYO2D5.js")).IconFurnitureCouch;
+      return (await import("./furniture-couch-VX7H3ZBZ.js")).IconFurnitureCouch;
     case Icons.FURNITURE_DESK:
-      return (await import("./furniture-desk-76WA7XBD.js")).IconFurnitureDesk;
+      return (await import("./furniture-desk-3BYYXGW6.js")).IconFurnitureDesk;
     case Icons.FURNITURE_DRESSOIR:
-      return (await import("./furniture-dressoir-LM6XISLO.js")).IconFurnitureDressoir;
+      return (await import("./furniture-dressoir-JG4SXJ2W.js")).IconFurnitureDressoir;
     case Icons.GRAPH_UP_ROUND:
-      return (await import("./graph-up-round-GR3G6E53.js")).IconGraphUpRound;
+      return (await import("./graph-up-round-SDOLWIVV.js")).IconGraphUpRound;
     case Icons.GRAPH_UP:
-      return (await import("./graph-up-4TUP7JZB.js")).IconGraphUp;
+      return (await import("./graph-up-UXSP3OQF.js")).IconGraphUp;
     case Icons.HAIRDRYER:
-      return (await import("./hairdryer-XF5KP5LN.js")).IconHairdryer;
+      return (await import("./hairdryer-S3BVKN65.js")).IconHairdryer;
     case Icons.HILL_LANDSCAPE:
-      return (await import("./hill-landscape-SYTF36IW.js")).IconHillLandscape;
+      return (await import("./hill-landscape-KLD46Z66.js")).IconHillLandscape;
     case Icons.IDEA_FACTORY:
-      return (await import("./idea-factory-Y2GEGGWF.js")).IconIdeaFactory;
+      return (await import("./idea-factory-IHYCDGJB.js")).IconIdeaFactory;
     case Icons.INDUSTRY3:
-      return (await import("./industry3-6L6KLIXP.js")).IconIndustry3;
+      return (await import("./industry3-7IC57F6U.js")).IconIndustry3;
     case Icons.IRON:
-      return (await import("./iron-B3AR4P6H.js")).IconIron;
+      return (await import("./iron-U5A5WDAM.js")).IconIron;
     case Icons.KITCHEN_CUTLERY:
-      return (await import("./kitchen-cutlery-QCLWAYGS.js")).IconKitchenCutlery;
+      return (await import("./kitchen-cutlery-MJJ4R5CW.js")).IconKitchenCutlery;
     case Icons.KITCHEN_UTENSILS:
-      return (await import("./kitchen-utensils-QKBYBOFM.js")).IconKitchenUtensils;
+      return (await import("./kitchen-utensils-DEVO6GHU.js")).IconKitchenUtensils;
     case Icons.LAKE_VIEW:
-      return (await import("./lake-view-23ZSU72Y.js")).IconLakeView;
+      return (await import("./lake-view-V3UQO5RP.js")).IconLakeView;
     case Icons.LEAF2:
-      return (await import("./leaf2-7WLXL2SK.js")).IconLeaf2;
+      return (await import("./leaf2-QW4TQNQC.js")).IconLeaf2;
     case Icons.LEAF3:
-      return (await import("./leaf3-OOZLJC2D.js")).IconLeaf3;
+      return (await import("./leaf3-ED7B34NM.js")).IconLeaf3;
     case Icons.LEAF:
-      return (await import("./leaf-XEK6D4XH.js")).IconLeaf;
+      return (await import("./leaf-YBGGDXQS.js")).IconLeaf;
     case Icons.LEAFS:
-      return (await import("./leafs-EAQ2OYIU.js")).IconLeafs;
+      return (await import("./leafs-V7VR6EG6.js")).IconLeafs;
     case Icons.LIQUID_SOAP2:
-      return (await import("./liquid-soap2-GGCOZP5W.js")).IconLiquidSoap2;
+      return (await import("./liquid-soap2-FNRQAPSM.js")).IconLiquidSoap2;
     case Icons.LIQUID_SOAP:
-      return (await import("./liquid-soap-6EOLOZ2Q.js")).IconLiquidSoap;
+      return (await import("./liquid-soap-ZL64R24C.js")).IconLiquidSoap;
     case Icons.LUXE_VILLA:
-      return (await import("./luxe-villa-6MM2IWDM.js")).IconLuxeVilla;
+      return (await import("./luxe-villa-M74XBUNI.js")).IconLuxeVilla;
     case Icons.MANSION:
-      return (await import("./mansion-YRJM7AQU.js")).IconMansion;
+      return (await import("./mansion-N3EIPFAS.js")).IconMansion;
     case Icons.MICROWAVE:
-      return (await import("./microwave-7KUAQLFK.js")).IconMicrowave;
+      return (await import("./microwave-57AZ76CW.js")).IconMicrowave;
     case Icons.MONEY:
       return (await import("./money-JF6GWGIK.js")).IconMoney;
     case Icons.MONEYBAG:
       return (await import("./moneybag-WCYTV4HK.js")).IconMoneybag;
     case Icons.MOUNTAIN_SCAPE:
-      return (await import("./mountain-scape-PHIPULSV.js")).IconMountainScape;
+      return (await import("./mountain-scape-2EK4WDPI.js")).IconMountainScape;
     case Icons.OVEN:
-      return (await import("./oven-S257YNMY.js")).IconOven;
+      return (await import("./oven-HEBBCTC2.js")).IconOven;
     case Icons.PLANT:
       return (await import("./plant-LBHPNOMJ.js")).IconPlant;
     case Icons.POLITICIAN2:
-      return (await import("./politician2-GSEGXCRN.js")).IconPolitician2;
+      return (await import("./politician2-DK7WNLKP.js")).IconPolitician2;
     case Icons.POLITICIAN:
-      return (await import("./politician-44I2UAIN.js")).IconPolitician;
+      return (await import("./politician-CA4L6RZ7.js")).IconPolitician;
     case Icons.ROCKET:
-      return (await import("./rocket-WSLTMPYE.js")).IconRocket;
+      return (await import("./rocket-F2OSYGDS.js")).IconRocket;
     case Icons.ROOM_SHADE:
-      return (await import("./room-shade-2U4NMWUM.js")).IconRoomShade;
+      return (await import("./room-shade-ILCPGR4B.js")).IconRoomShade;
     case Icons.SHIELD2_LINE:
-      return (await import("./shield2-line-VHBAWAXZ.js")).IconShield2Line;
+      return (await import("./shield2-line-Y4QQV4MS.js")).IconShield2Line;
     case Icons.SHIELD2:
-      return (await import("./shield2-CFU2XTEY.js")).IconShield2;
+      return (await import("./shield2-ZUAGZBZI.js")).IconShield2;
     case Icons.SHIELD3_LINE:
-      return (await import("./shield3-line-4W27UMNU.js")).IconShield3Line;
+      return (await import("./shield3-line-ZC6W5EVI.js")).IconShield3Line;
     case Icons.SHIELD3:
-      return (await import("./shield3-TKU4R4B7.js")).IconShield3;
+      return (await import("./shield3-RZM3FASE.js")).IconShield3;
     case Icons.SHIELD4_LINE:
-      return (await import("./shield4-line-7HE73C3E.js")).IconShield4Line;
+      return (await import("./shield4-line-JLPXVSOZ.js")).IconShield4Line;
     case Icons.SHIELD4:
-      return (await import("./shield4-PKGJ3WIR.js")).IconShield4;
+      return (await import("./shield4-MADYM3HS.js")).IconShield4;
     case Icons.SHIELD_LINE:
-      return (await import("./shield-line-LR5BMTMO.js")).IconShieldLine;
+      return (await import("./shield-line-L4QMXGYA.js")).IconShieldLine;
     case Icons.SHIELD:
-      return (await import("./shield-RAX5CRAU.js")).IconShield;
+      return (await import("./shield-WHC7S4CZ.js")).IconShield;
     case Icons.STOVE:
-      return (await import("./stove-K27JOLR2.js")).IconStove;
+      return (await import("./stove-6B6QUZPA.js")).IconStove;
     case Icons.SURFBOARD:
-      return (await import("./surfboard-GAVPNCD3.js")).IconSurfboard;
+      return (await import("./surfboard-FEJZA6D2.js")).IconSurfboard;
     case Icons.SWIMMING_POOL:
-      return (await import("./swimming-pool-Q7TBSKY2.js")).IconSwimmingPool;
+      return (await import("./swimming-pool-7WKQVWBB.js")).IconSwimmingPool;
     case Icons.TEMPLE2:
-      return (await import("./temple2-TTDXZJXA.js")).IconTemple2;
+      return (await import("./temple2-FCBLWR5D.js")).IconTemple2;
     case Icons.TEMPLE:
-      return (await import("./temple-JWEMVNSW.js")).IconTemple;
+      return (await import("./temple-C6YLSB6O.js")).IconTemple;
     case Icons.TENT_CAMPING:
-      return (await import("./tent-camping-32DXLCJV.js")).IconTentCamping;
+      return (await import("./tent-camping-PHOPT3P5.js")).IconTentCamping;
+    case Icons.TENT:
+      return (await import("./tent-TCD5XNPN.js")).IconTent;
     case Icons.TOY_BLOCKS2:
-      return (await import("./toy-blocks2-3HMY5UHN.js")).IconToyBlocks2;
+      return (await import("./toy-blocks2-MBETRWPP.js")).IconToyBlocks2;
     case Icons.TOY_BLOCKS3:
-      return (await import("./toy-blocks3-B7YKXBHN.js")).IconToyBlocks3;
+      return (await import("./toy-blocks3-PO5GEMLG.js")).IconToyBlocks3;
     case Icons.TOY_BLOCKS:
-      return (await import("./toy-blocks-HD6JWYL7.js")).IconToyBlocks;
+      return (await import("./toy-blocks-XBPNKPAQ.js")).IconToyBlocks;
     case Icons.TOY_HEAD:
       return (await import("./toy-head-Y3G7TWB2.js")).IconToyHead;
     case Icons.TREE2:
-      return (await import("./tree2-5GCI5LGH.js")).IconTree2;
+      return (await import("./tree2-YYI7K2I3.js")).IconTree2;
     case Icons.TREE3:
-      return (await import("./tree3-4RQUJ3YU.js")).IconTree3;
+      return (await import("./tree3-QPWARGN2.js")).IconTree3;
     case Icons.TREE:
-      return (await import("./tree-D6NTXSN4.js")).IconTree;
+      return (await import("./tree-PUWLSJ4R.js")).IconTree;
     case Icons.TREEHOUSE:
-      return (await import("./treehouse-U7RECXAZ.js")).IconTreehouse;
+      return (await import("./treehouse-NE2I6CS3.js")).IconTreehouse;
     case Icons.TREES2:
-      return (await import("./trees2-3GQS24JO.js")).IconTrees2;
+      return (await import("./trees2-KFOQOGLG.js")).IconTrees2;
     case Icons.TREES:
-      return (await import("./trees-KEX6RTYR.js")).IconTrees;
+      return (await import("./trees-5I7CCI22.js")).IconTrees;
+    case Icons.TRUNK1:
+      return (await import("./trunk1-ARTRAETY.js")).IconTrunk1;
+    case Icons.TRUNK2:
+      return (await import("./trunk2-SZ2XJYT4.js")).IconTrunk2;
     case Icons.UFO:
-      return (await import("./ufo-OLC3C3UO.js")).IconUfo;
+      return (await import("./ufo-2J6PXI6S.js")).IconUfo;
     case Icons.VOTE:
       return (await import("./vote-LIMET7OW.js")).IconVote;
     case Icons.WALLET:
-      return (await import("./wallet-AMUKFV2Q.js")).IconWallet;
+      return (await import("./wallet-ZQELUZ6F.js")).IconWallet;
     case Icons.WASHING_MACHINE:
       return (await import("./washing-machine-DWN2STC3.js")).IconWashingMachine;
     case Icons.WATERCOOKER:
-      return (await import("./watercooker-QCBWHE2O.js")).IconWatercooker;
+      return (await import("./watercooker-HLOVG2ME.js")).IconWatercooker;
     case Icons.YURT:
-      return (await import("./yurt-ERHUWPH5.js")).IconYurt;
+      return (await import("./yurt-OD5RUGEF.js")).IconYurt;
     case Icons.BABY_STROLLER:
       return (await import("./baby-stroller-KRBLBHZX.js")).IconBabyStroller;
     case Icons.CLOTHING_TSHIRT:
@@ -2718,9 +2742,9 @@ var IconCategories = [
   "Nature",
   "Plants",
   "Misc",
+  "Transport",
   "Weather",
   "Industry",
-  "Transport",
   "Wayfinding",
   "Landscapes",
   "Travel",
@@ -3524,6 +3548,19 @@ var IconTags = [
   "medicine",
   "cognition",
   "memory",
+  "branch",
+  "leaves",
+  "environment",
+  "ecology",
+  "organic",
+  "tree",
+  "plant",
+  "extension",
+  "floral",
+  "botanical",
+  "leaf",
+  "flora",
+  "foliage",
   "light bulb",
   "ideas",
   "electricity",
@@ -3533,10 +3570,22 @@ var IconTags = [
   "invention",
   "desert",
   "succulent",
-  "plant",
   "thorny",
   "arid climate",
   "botany",
+  "camping",
+  "vehicle",
+  "recreation",
+  "vacation",
+  "holiday",
+  "road trip",
+  "outdoors",
+  "caravan",
+  "travel",
+  "group",
+  "journey",
+  "expedition",
+  "pack",
   "semiconductor",
   "microchip",
   "silicon chip",
@@ -3575,7 +3624,6 @@ var IconTags = [
   "finance",
   "economy",
   "orientation",
-  "travel",
   "mapping",
   "geography",
   "north",
@@ -3747,19 +3795,10 @@ var IconTags = [
   "reflection",
   "serene",
   "calm",
-  "outdoors",
   "relaxing",
   "panoramic",
-  "leaf",
   "green",
-  "environment",
-  "ecology",
-  "foliage",
-  "flora",
-  "organic",
-  "botanical",
   "fresh",
-  "leaves",
   "plants",
   "natural",
   "soap dispenser",
@@ -3774,7 +3813,6 @@ var IconTags = [
   "healthcare",
   "villa",
   "resort",
-  "vacation",
   "house",
   "estate",
   "architecture",
@@ -3811,7 +3849,6 @@ var IconTags = [
   "Heat",
   "Temperature",
   "eco-friendly",
-  "floral",
   "freshness",
   "sustainability",
   "politician",
@@ -3865,7 +3902,6 @@ var IconTags = [
   "beach",
   "sports",
   "waves",
-  "recreation",
   "pool",
   "swim",
   "religion",
@@ -3887,8 +3923,11 @@ var IconTags = [
   "Architecture",
   "Icon",
   "tent",
-  "camping",
   "wilderness",
+  "outdoor",
+  "shelter",
+  "campsite",
+  "explore",
   "toy",
   "blocks",
   "children",
@@ -3902,11 +3941,9 @@ var IconTags = [
   "stacking",
   "game",
   "toy head",
-  "tree",
   "forest",
   "branches",
   "park",
-  "outdoor",
   "Rustic",
   "Cozy",
   "Living space",
@@ -3919,11 +3956,18 @@ var IconTags = [
   "greenery",
   "scenery",
   "woodland",
+  "trunk",
+  "stylized",
+  "minimal",
+  "tree trunk",
+  "forestry",
+  "texture",
+  "rings",
+  "timber",
   "alien",
   "flying saucer",
   "science fiction",
   "extraterrestrial",
-  "vehicle",
   "flying object",
   "ballot",
   "survey",
@@ -4259,7 +4303,6 @@ var IconTags = [
   "block",
   "partials",
   "sections",
-  "group",
   "arrange",
   "grouping",
   "board",
@@ -4347,7 +4390,6 @@ var IconTags = [
   "Construction",
   "Roof",
   "dwelling",
-  "shelter",
   "commercial",
   "marketplace",
   "clickable",
@@ -4599,7 +4641,6 @@ var IconTags = [
   "uncertainty",
   "unsuppored",
   "browse",
-  "explore",
   "search tool",
   "searching",
   "favorite file",
@@ -4671,7 +4712,6 @@ var IconTags = [
   "git",
   "workflow",
   "commit",
-  "branch",
   "comparison",
   "difference",
   "changes",
@@ -4711,7 +4751,6 @@ var IconTags = [
   "Unseen",
   "Concealed feature",
   "Concealed content",
-  "minimal",
   "hide",
   "eyes",
   "conceal",
@@ -5000,7 +5039,6 @@ var IconTags = [
   "flights",
   "aircraft",
   "tourism",
-  "journey",
   "departure",
   "airline",
   "boarding",
@@ -5848,10 +5886,20 @@ var getMeta = async (icon) => {
       return (await import("./icon_bookcase.svg-UV6PNAR3.js")).default;
     case Icons.BRAIN:
       return (await import("./icon_brain.svg-SGWMRD6I.js")).default;
+    case Icons.BRANCH2:
+      return (await import("./icon_branch-2.svg-Z2JUIUIW.js")).default;
+    case Icons.BRANCH3:
+      return (await import("./icon_branch-3.svg-MTRT2AU2.js")).default;
+    case Icons.BRANCH:
+      return (await import("./icon_branch.svg-K7LNWTDT.js")).default;
     case Icons.BULB:
       return (await import("./icon_bulb.svg-JOLQZF4G.js")).default;
     case Icons.CACTUS:
       return (await import("./icon_cactus.svg-K4U74RFJ.js")).default;
+    case Icons.CAMPER:
+      return (await import("./icon_camper.svg-R4DVPNFI.js")).default;
+    case Icons.CARAVAN:
+      return (await import("./icon_caravan.svg-T7OTEJRR.js")).default;
     case Icons.CHIP:
       return (await import("./icon_chip.svg-3KEJ65WQ.js")).default;
     case Icons.CLEANING_BUCKET:
@@ -6000,6 +6048,8 @@ var getMeta = async (icon) => {
       return (await import("./icon_temple.svg-5RSKVEUB.js")).default;
     case Icons.TENT_CAMPING:
       return (await import("./icon_tent-camping.svg-45YEMYRI.js")).default;
+    case Icons.TENT:
+      return (await import("./icon_tent.svg-7DBR4BUV.js")).default;
     case Icons.TOY_BLOCKS2:
       return (await import("./icon_toy-blocks-2.svg-7W2PZ7SA.js")).default;
     case Icons.TOY_BLOCKS3:
@@ -6020,6 +6070,10 @@ var getMeta = async (icon) => {
       return (await import("./icon_trees 2.svg-RAW4GUJW.js")).default;
     case Icons.TREES:
       return (await import("./icon_trees.svg-YFYCTFYT.js")).default;
+    case Icons.TRUNK1:
+      return (await import("./icon_trunk-1.svg-UTEMWEPP.js")).default;
+    case Icons.TRUNK2:
+      return (await import("./icon_trunk-2.svg-EWLHVBTV.js")).default;
     case Icons.UFO:
       return (await import("./icon_ufo.svg-XMUZ2RTK.js")).default;
     case Icons.VOTE:
