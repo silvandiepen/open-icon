@@ -127,6 +127,30 @@ var BaseIcons = {
   ARROW_SHARE: "arrow-share",
   ARROW_SPREAD_SPLIT: "arrow-spread-split",
   ARROW_SPREAD: "arrow-spread",
+  ARROW_THICK_BOTTOM_LEFT: "arrow-thick-bottom-left",
+  ARROW_THICK_DOWN: "arrow-thick-down",
+  ARROW_THICK_LEFT_TOP: "arrow-thick-left-top",
+  ARROW_THICK_LEFT: "arrow-thick-left",
+  ARROW_THICK_RIGHT_BOTTOM: "arrow-thick-right-bottom",
+  ARROW_THICK_RIGHT: "arrow-thick-right",
+  ARROW_THICK_TALL_BOTTOM_LEFT: "arrow-thick-tall-bottom-left",
+  ARROW_THICK_TALL_DOWN: "arrow-thick-tall-down",
+  ARROW_THICK_TALL_LEFT_TOP: "arrow-thick-tall-left-top",
+  ARROW_THICK_TALL_LEFT: "arrow-thick-tall-left",
+  ARROW_THICK_TALL_RIGHT_BOTTOM: "arrow-thick-tall-right-bottom",
+  ARROW_THICK_TALL_RIGHT: "arrow-thick-tall-right",
+  ARROW_THICK_TALL_TOP_RIGHT: "arrow-thick-tall-top-right",
+  ARROW_THICK_TALL_UP: "arrow-thick-tall-up",
+  ARROW_THICK_TOP_RIGHT: "arrow-thick-top-right",
+  ARROW_THICK_UP: "arrow-thick-up",
+  ARROW_THICK_WIDE_BOTTOM_LEFT: "arrow-thick-wide-bottom-left",
+  ARROW_THICK_WIDE_DOWN: "arrow-thick-wide-down",
+  ARROW_THICK_WIDE_LEFT_TOP: "arrow-thick-wide-left-top",
+  ARROW_THICK_WIDE_LEFT: "arrow-thick-wide-left",
+  ARROW_THICK_WIDE_RIGHT_BOTTOM: "arrow-thick-wide-right-bottom",
+  ARROW_THICK_WIDE_RIGHT: "arrow-thick-wide-right",
+  ARROW_THICK_WIDE_TOP_RIGHT: "arrow-thick-wide-top-right",
+  ARROW_THICK_WIDE_UP: "arrow-thick-wide-up",
   ARROW_TRANSFER_BL_TR: "arrow-transfer-bl-tr",
   ARROW_TRANSFER_LEFT_RIGHT: "arrow-transfer-left-right",
   ARROW_TRANSFER_LT_BR: "arrow-transfer-lt-br",
@@ -992,127 +1016,127 @@ var getIcon = async (icon) => {
     case Icons.ARROW_DOWNLOAD:
       return (await import("./arrow-download-JWFP7Q6Q.js")).IconArrowDownload;
     case Icons.ARROW_HEADED_CORNER_DOWN:
-      return (await import("./arrow-headed-corner-down-AHLDLSNO.js")).IconArrowHeadedCornerDown;
+      return (await import("./arrow-headed-corner-down-W2JFJSWR.js")).IconArrowHeadedCornerDown;
     case Icons.ARROW_HEADED_CORNER_LEFT:
-      return (await import("./arrow-headed-corner-left-RIGAEPMW.js")).IconArrowHeadedCornerLeft;
+      return (await import("./arrow-headed-corner-left-JMJGFI57.js")).IconArrowHeadedCornerLeft;
     case Icons.ARROW_HEADED_CORNER_RIGHT:
-      return (await import("./arrow-headed-corner-right-2PYG7FN7.js")).IconArrowHeadedCornerRight;
+      return (await import("./arrow-headed-corner-right-BWEQEYRF.js")).IconArrowHeadedCornerRight;
     case Icons.ARROW_HEADED_CORNER_UP:
-      return (await import("./arrow-headed-corner-up-MR6RJFZI.js")).IconArrowHeadedCornerUp;
+      return (await import("./arrow-headed-corner-up-ZSFXI4VL.js")).IconArrowHeadedCornerUp;
     case Icons.ARROW_HEADED_DIAGONAL_BL_TR_STOP:
-      return (await import("./arrow-headed-diagonal-bl-tr-stop-2KMDZG3F.js")).IconArrowHeadedDiagonalBlTrStop;
+      return (await import("./arrow-headed-diagonal-bl-tr-stop-UMDHRTVF.js")).IconArrowHeadedDiagonalBlTrStop;
     case Icons.ARROW_HEADED_DIAGONAL_BR_TL_STOP:
-      return (await import("./arrow-headed-diagonal-br-tl-stop-XMA7QLV4.js")).IconArrowHeadedDiagonalBrTlStop;
+      return (await import("./arrow-headed-diagonal-br-tl-stop-7DVVYSZO.js")).IconArrowHeadedDiagonalBrTlStop;
     case Icons.ARROW_HEADED_DIAGONAL_IN_LT_BR:
-      return (await import("./arrow-headed-diagonal-in-lt-br-KMEGEY6U.js")).IconArrowHeadedDiagonalInLtBr;
+      return (await import("./arrow-headed-diagonal-in-lt-br-Q6QKUXPP.js")).IconArrowHeadedDiagonalInLtBr;
     case Icons.ARROW_HEADED_DIAGONAL_IN_TR_BL:
-      return (await import("./arrow-headed-diagonal-in-tr-bl-GWPB2O4F.js")).IconArrowHeadedDiagonalInTrBl;
+      return (await import("./arrow-headed-diagonal-in-tr-bl-LUEILX4K.js")).IconArrowHeadedDiagonalInTrBl;
     case Icons.ARROW_HEADED_DIAGONAL_TL_BR_SPLIT:
-      return (await import("./arrow-headed-diagonal-tl-br-split-KNPBH73D.js")).IconArrowHeadedDiagonalTlBrSplit;
+      return (await import("./arrow-headed-diagonal-tl-br-split-7LZJHPVF.js")).IconArrowHeadedDiagonalTlBrSplit;
     case Icons.ARROW_HEADED_DIAGONAL_TL_BR_STOP:
-      return (await import("./arrow-headed-diagonal-tl-br-stop-MADFKXDL.js")).IconArrowHeadedDiagonalTlBrStop;
+      return (await import("./arrow-headed-diagonal-tl-br-stop-PSX3D3UD.js")).IconArrowHeadedDiagonalTlBrStop;
     case Icons.ARROW_HEADED_DIAGONAL_TL_BR:
-      return (await import("./arrow-headed-diagonal-tl-br-NYWX5HBG.js")).IconArrowHeadedDiagonalTlBr;
+      return (await import("./arrow-headed-diagonal-tl-br-WV64GAM2.js")).IconArrowHeadedDiagonalTlBr;
     case Icons.ARROW_HEADED_DIAGONAL_TR_BL_SPLIT:
       return (await import("./arrow-headed-diagonal-tr-bl-split-SLU7GIA6.js")).IconArrowHeadedDiagonalTrBlSplit;
     case Icons.ARROW_HEADED_DIAGONAL_TR_BL_STOP:
-      return (await import("./arrow-headed-diagonal-tr-bl-stop-6VFCYXO4.js")).IconArrowHeadedDiagonalTrBlStop;
+      return (await import("./arrow-headed-diagonal-tr-bl-stop-UORPPW7M.js")).IconArrowHeadedDiagonalTrBlStop;
     case Icons.ARROW_HEADED_DIAGONAL_TR_BL:
-      return (await import("./arrow-headed-diagonal-tr-bl-K5GKDA2U.js")).IconArrowHeadedDiagonalTrBl;
+      return (await import("./arrow-headed-diagonal-tr-bl-GUUONHCW.js")).IconArrowHeadedDiagonalTrBl;
     case Icons.ARROW_HEADED_DOWN_LEFT:
-      return (await import("./arrow-headed-down-left-C7UPREXP.js")).IconArrowHeadedDownLeft;
+      return (await import("./arrow-headed-down-left-ZRXSSOGJ.js")).IconArrowHeadedDownLeft;
     case Icons.ARROW_HEADED_DOWN_RIGHT:
-      return (await import("./arrow-headed-down-right-2PYRPTQL.js")).IconArrowHeadedDownRight;
+      return (await import("./arrow-headed-down-right-PHCVV5D5.js")).IconArrowHeadedDownRight;
     case Icons.ARROW_HEADED_DOWN_STOP:
-      return (await import("./arrow-headed-down-stop-GMSKA3QR.js")).IconArrowHeadedDownStop;
+      return (await import("./arrow-headed-down-stop-4QBGCTDH.js")).IconArrowHeadedDownStop;
     case Icons.ARROW_HEADED_DOWN:
-      return (await import("./arrow-headed-down-ZXEM7XP4.js")).IconArrowHeadedDown;
+      return (await import("./arrow-headed-down-FZZGJKPU.js")).IconArrowHeadedDown;
     case Icons.ARROW_HEADED_DOWNLOAD:
-      return (await import("./arrow-headed-download-4HTKIWNL.js")).IconArrowHeadedDownload;
+      return (await import("./arrow-headed-download-F464MD6L.js")).IconArrowHeadedDownload;
     case Icons.ARROW_HEADED_IN_CENTER:
-      return (await import("./arrow-headed-in-center-LJSKACK3.js")).IconArrowHeadedInCenter;
+      return (await import("./arrow-headed-in-center-45Z4LW55.js")).IconArrowHeadedInCenter;
     case Icons.ARROW_HEADED_IN_DIAGONAL:
-      return (await import("./arrow-headed-in-diagonal-Q4PXWSEK.js")).IconArrowHeadedInDiagonal;
+      return (await import("./arrow-headed-in-diagonal-GCL7QMEI.js")).IconArrowHeadedInDiagonal;
     case Icons.ARROW_HEADED_IN:
-      return (await import("./arrow-headed-in-YX7KOITN.js")).IconArrowHeadedIn;
+      return (await import("./arrow-headed-in-UQ7B4N34.js")).IconArrowHeadedIn;
     case Icons.ARROW_HEADED_LEFT_RIGHT_SPLIT:
-      return (await import("./arrow-headed-left-right-split-MEXIIJNW.js")).IconArrowHeadedLeftRightSplit;
+      return (await import("./arrow-headed-left-right-split-23WWB4DJ.js")).IconArrowHeadedLeftRightSplit;
     case Icons.ARROW_HEADED_LEFT_RIGHT_STOP:
-      return (await import("./arrow-headed-left-right-stop-ZPITK2FR.js")).IconArrowHeadedLeftRightStop;
+      return (await import("./arrow-headed-left-right-stop-72KMKXKK.js")).IconArrowHeadedLeftRightStop;
     case Icons.ARROW_HEADED_LEFT_RIGHT:
-      return (await import("./arrow-headed-left-right-YBJMULR7.js")).IconArrowHeadedLeftRight;
+      return (await import("./arrow-headed-left-right-ADUI36DJ.js")).IconArrowHeadedLeftRight;
     case Icons.ARROW_HEADED_LEFT_STOP:
-      return (await import("./arrow-headed-left-stop-UNWOHYPB.js")).IconArrowHeadedLeftStop;
+      return (await import("./arrow-headed-left-stop-S7PKNAMH.js")).IconArrowHeadedLeftStop;
     case Icons.ARROW_HEADED_LEFT:
-      return (await import("./arrow-headed-left-ULOVCLTM.js")).IconArrowHeadedLeft;
+      return (await import("./arrow-headed-left-KGIRDMND.js")).IconArrowHeadedLeft;
     case Icons.ARROW_HEADED_OUT_CENTER:
-      return (await import("./arrow-headed-out-center-MKVB5PFF.js")).IconArrowHeadedOutCenter;
+      return (await import("./arrow-headed-out-center-74MV5HEW.js")).IconArrowHeadedOutCenter;
     case Icons.ARROW_HEADED_RELOAD_DOWN_UP:
-      return (await import("./arrow-headed-reload-down-up-6GMX7OAT.js")).IconArrowHeadedReloadDownUp;
+      return (await import("./arrow-headed-reload-down-up-EQO3CRYE.js")).IconArrowHeadedReloadDownUp;
     case Icons.ARROW_HEADED_RELOAD_LEFT_RIGHT:
-      return (await import("./arrow-headed-reload-left-right-QBFXGTCF.js")).IconArrowHeadedReloadLeftRight;
+      return (await import("./arrow-headed-reload-left-right-RUMJUEFN.js")).IconArrowHeadedReloadLeftRight;
     case Icons.ARROW_HEADED_RELOAD_RIGHT_LEFT:
-      return (await import("./arrow-headed-reload-right-left-43LDLWRJ.js")).IconArrowHeadedReloadRightLeft;
+      return (await import("./arrow-headed-reload-right-left-VPL4D2RS.js")).IconArrowHeadedReloadRightLeft;
     case Icons.ARROW_HEADED_RELOAD_UP_DOWN:
-      return (await import("./arrow-headed-reload-up-down-JINWCU4V.js")).IconArrowHeadedReloadUpDown;
+      return (await import("./arrow-headed-reload-up-down-QXSYGKDV.js")).IconArrowHeadedReloadUpDown;
     case Icons.ARROW_HEADED_RETURN_DOWN:
-      return (await import("./arrow-headed-return-down-5HZFSQZ5.js")).IconArrowHeadedReturnDown;
+      return (await import("./arrow-headed-return-down-M7HUELAY.js")).IconArrowHeadedReturnDown;
     case Icons.ARROW_HEADED_RETURN_LEFT:
-      return (await import("./arrow-headed-return-left-SO2OHNIQ.js")).IconArrowHeadedReturnLeft;
+      return (await import("./arrow-headed-return-left-73HD76Q4.js")).IconArrowHeadedReturnLeft;
     case Icons.ARROW_HEADED_RETURN_RIGHT:
-      return (await import("./arrow-headed-return-right-IBTS4UNM.js")).IconArrowHeadedReturnRight;
+      return (await import("./arrow-headed-return-right-EBXKNRV2.js")).IconArrowHeadedReturnRight;
     case Icons.ARROW_HEADED_RETURN_UP:
-      return (await import("./arrow-headed-return-up-PRG265RP.js")).IconArrowHeadedReturnUp;
+      return (await import("./arrow-headed-return-up-WKPRVWUT.js")).IconArrowHeadedReturnUp;
     case Icons.ARROW_HEADED_RIGHT:
-      return (await import("./arrow-headed-right-6D46LBL7.js")).IconArrowHeadedRight;
+      return (await import("./arrow-headed-right-TWBEVFN7.js")).IconArrowHeadedRight;
     case Icons.ARROW_HEADED_ROTATE_BOTTOM_LEFT:
-      return (await import("./arrow-headed-rotate-bottom-left-ZAUMO6PP.js")).IconArrowHeadedRotateBottomLeft;
+      return (await import("./arrow-headed-rotate-bottom-left-JVITZTGX.js")).IconArrowHeadedRotateBottomLeft;
     case Icons.ARROW_HEADED_ROTATE_BOTTOM_RIGHT:
-      return (await import("./arrow-headed-rotate-bottom-right-RRBVGF45.js")).IconArrowHeadedRotateBottomRight;
+      return (await import("./arrow-headed-rotate-bottom-right-73EDHMTG.js")).IconArrowHeadedRotateBottomRight;
     case Icons.ARROW_HEADED_ROTATE_TOP_LEFT:
-      return (await import("./arrow-headed-rotate-top-left-MMZ7NDEN.js")).IconArrowHeadedRotateTopLeft;
+      return (await import("./arrow-headed-rotate-top-left-54TUN33W.js")).IconArrowHeadedRotateTopLeft;
     case Icons.ARROW_HEADED_ROTATE_TOP_RIGHT:
-      return (await import("./arrow-headed-rotate-top-right-BW3M27HW.js")).IconArrowHeadedRotateTopRight;
+      return (await import("./arrow-headed-rotate-top-right-6R4ZMLRS.js")).IconArrowHeadedRotateTopRight;
     case Icons.ARROW_HEADED_ROUNDED_LEFT_UP:
-      return (await import("./arrow-headed-rounded-left-up-S34GCI5H.js")).IconArrowHeadedRoundedLeftUp;
+      return (await import("./arrow-headed-rounded-left-up-QPYEGPUW.js")).IconArrowHeadedRoundedLeftUp;
     case Icons.ARROW_HEADED_ROUNDED_RIGHT_DOWN:
-      return (await import("./arrow-headed-rounded-right-down-5TLEDONY.js")).IconArrowHeadedRoundedRightDown;
+      return (await import("./arrow-headed-rounded-right-down-MMC5LH5Q.js")).IconArrowHeadedRoundedRightDown;
     case Icons.ARROW_HEADED_ROUNDED_RIGHT_UP:
-      return (await import("./arrow-headed-rounded-right-up-CGR2NHWD.js")).IconArrowHeadedRoundedRightUp;
+      return (await import("./arrow-headed-rounded-right-up-USBXDH4J.js")).IconArrowHeadedRoundedRightUp;
     case Icons.ARROW_HEADED_ROUNED_LEFT_DOWN:
-      return (await import("./arrow-headed-rouned-left-down-NEIBU2TP.js")).IconArrowHeadedRounedLeftDown;
+      return (await import("./arrow-headed-rouned-left-down-QWE3X4C3.js")).IconArrowHeadedRounedLeftDown;
     case Icons.ARROW_HEADED_SHARE:
-      return (await import("./arrow-headed-share-HOFXBACJ.js")).IconArrowHeadedShare;
+      return (await import("./arrow-headed-share-ZLVLKSK2.js")).IconArrowHeadedShare;
     case Icons.ARROW_HEADED_SPREAD_SPLIT:
-      return (await import("./arrow-headed-spread-split-DKN5VT6S.js")).IconArrowHeadedSpreadSplit;
+      return (await import("./arrow-headed-spread-split-BBPEYKQH.js")).IconArrowHeadedSpreadSplit;
     case Icons.ARROW_HEADED_SPREAD:
-      return (await import("./arrow-headed-spread-24JY3NNY.js")).IconArrowHeadedSpread;
+      return (await import("./arrow-headed-spread-UBPSGR53.js")).IconArrowHeadedSpread;
     case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_LR:
       return (await import("./arrow-headed-twoway-diagonal-lr-DIDSLUAI.js")).IconArrowHeadedTwowayDiagonalLr;
     case Icons.ARROW_HEADED_TWOWAY_DIAGONAL_RL:
-      return (await import("./arrow-headed-twoway-diagonal-rl-VWHIXLEW.js")).IconArrowHeadedTwowayDiagonalRl;
+      return (await import("./arrow-headed-twoway-diagonal-rl-ORYUPZ3K.js")).IconArrowHeadedTwowayDiagonalRl;
     case Icons.ARROW_HEADED_TWOWAY_HORIZONTAL:
-      return (await import("./arrow-headed-twoway-horizontal-CBWSXCRT.js")).IconArrowHeadedTwowayHorizontal;
+      return (await import("./arrow-headed-twoway-horizontal-FU2BWTI7.js")).IconArrowHeadedTwowayHorizontal;
     case Icons.ARROW_HEADED_TWOWAY_VERTICAL:
-      return (await import("./arrow-headed-twoway-vertical-RPM2NMW5.js")).IconArrowHeadedTwowayVertical;
+      return (await import("./arrow-headed-twoway-vertical-7HO46QNO.js")).IconArrowHeadedTwowayVertical;
     case Icons.ARROW_HEADED_UP_DOWN_SPLIT:
-      return (await import("./arrow-headed-up-down-split-ROF3IUFF.js")).IconArrowHeadedUpDownSplit;
+      return (await import("./arrow-headed-up-down-split-3VQYSHUF.js")).IconArrowHeadedUpDownSplit;
     case Icons.ARROW_HEADED_UP_DOWN_STOP:
-      return (await import("./arrow-headed-up-down-stop-VKFJPWZF.js")).IconArrowHeadedUpDownStop;
+      return (await import("./arrow-headed-up-down-stop-4AGEN5BO.js")).IconArrowHeadedUpDownStop;
     case Icons.ARROW_HEADED_UP_DOWN:
-      return (await import("./arrow-headed-up-down-ZRRHJGRR.js")).IconArrowHeadedUpDown;
+      return (await import("./arrow-headed-up-down-VEFZOGJI.js")).IconArrowHeadedUpDown;
     case Icons.ARROW_HEADED_UP_LEFT:
-      return (await import("./arrow-headed-up-left-JJO4BTQJ.js")).IconArrowHeadedUpLeft;
+      return (await import("./arrow-headed-up-left-AHFHQSEX.js")).IconArrowHeadedUpLeft;
     case Icons.ARROW_HEADED_UP_RIGHT:
-      return (await import("./arrow-headed-up-right-IB27IYY6.js")).IconArrowHeadedUpRight;
+      return (await import("./arrow-headed-up-right-2SKPGPC3.js")).IconArrowHeadedUpRight;
     case Icons.ARROW_HEADED_UP_STOP76:
-      return (await import("./arrow-headed-up-stop76-6MFNCLLI.js")).IconArrowHeadedUpStop76;
+      return (await import("./arrow-headed-up-stop76-JZBNKEVX.js")).IconArrowHeadedUpStop76;
     case Icons.ARROW_HEADED_UP_STOP78:
-      return (await import("./arrow-headed-up-stop78-G2TOXFZZ.js")).IconArrowHeadedUpStop78;
+      return (await import("./arrow-headed-up-stop78-ST3VKEVG.js")).IconArrowHeadedUpStop78;
     case Icons.ARROW_HEADED_UP:
-      return (await import("./arrow-headed-up-6U426EYK.js")).IconArrowHeadedUp;
+      return (await import("./arrow-headed-up-CT7DNXOB.js")).IconArrowHeadedUp;
     case Icons.ARROW_HEADED_UPLOAD:
-      return (await import("./arrow-headed-upload-DX3SH5AQ.js")).IconArrowHeadedUpload;
+      return (await import("./arrow-headed-upload-3LT5S62R.js")).IconArrowHeadedUpload;
     case Icons.ARROW_IN_CENTER:
       return (await import("./arrow-in-center-KCUE7YLK.js")).IconArrowInCenter;
     case Icons.ARROW_INVERT:
@@ -1171,6 +1195,54 @@ var getIcon = async (icon) => {
       return (await import("./arrow-spread-split-LDNPBVSM.js")).IconArrowSpreadSplit;
     case Icons.ARROW_SPREAD:
       return (await import("./arrow-spread-3KSHHFEM.js")).IconArrowSpread;
+    case Icons.ARROW_THICK_BOTTOM_LEFT:
+      return (await import("./arrow-thick-bottom-left-EI4HIEH4.js")).IconArrowThickBottomLeft;
+    case Icons.ARROW_THICK_DOWN:
+      return (await import("./arrow-thick-down-OO44ADAI.js")).IconArrowThickDown;
+    case Icons.ARROW_THICK_LEFT_TOP:
+      return (await import("./arrow-thick-left-top-KX52RBRF.js")).IconArrowThickLeftTop;
+    case Icons.ARROW_THICK_LEFT:
+      return (await import("./arrow-thick-left-LRWCB6XL.js")).IconArrowThickLeft;
+    case Icons.ARROW_THICK_RIGHT_BOTTOM:
+      return (await import("./arrow-thick-right-bottom-LKLCFN2L.js")).IconArrowThickRightBottom;
+    case Icons.ARROW_THICK_RIGHT:
+      return (await import("./arrow-thick-right-NKUYUFCR.js")).IconArrowThickRight;
+    case Icons.ARROW_THICK_TALL_BOTTOM_LEFT:
+      return (await import("./arrow-thick-tall-bottom-left-6TZ534GL.js")).IconArrowThickTallBottomLeft;
+    case Icons.ARROW_THICK_TALL_DOWN:
+      return (await import("./arrow-thick-tall-down-SI7Z2R7H.js")).IconArrowThickTallDown;
+    case Icons.ARROW_THICK_TALL_LEFT_TOP:
+      return (await import("./arrow-thick-tall-left-top-SIB2ZTJP.js")).IconArrowThickTallLeftTop;
+    case Icons.ARROW_THICK_TALL_LEFT:
+      return (await import("./arrow-thick-tall-left-RYN4PRCC.js")).IconArrowThickTallLeft;
+    case Icons.ARROW_THICK_TALL_RIGHT_BOTTOM:
+      return (await import("./arrow-thick-tall-right-bottom-YUQQVS36.js")).IconArrowThickTallRightBottom;
+    case Icons.ARROW_THICK_TALL_RIGHT:
+      return (await import("./arrow-thick-tall-right-7UFLNOFI.js")).IconArrowThickTallRight;
+    case Icons.ARROW_THICK_TALL_TOP_RIGHT:
+      return (await import("./arrow-thick-tall-top-right-LJJ6RRCO.js")).IconArrowThickTallTopRight;
+    case Icons.ARROW_THICK_TALL_UP:
+      return (await import("./arrow-thick-tall-up-GUQ3ZO2M.js")).IconArrowThickTallUp;
+    case Icons.ARROW_THICK_TOP_RIGHT:
+      return (await import("./arrow-thick-top-right-AGIHBIHI.js")).IconArrowThickTopRight;
+    case Icons.ARROW_THICK_UP:
+      return (await import("./arrow-thick-up-OPM6S5QH.js")).IconArrowThickUp;
+    case Icons.ARROW_THICK_WIDE_BOTTOM_LEFT:
+      return (await import("./arrow-thick-wide-bottom-left-72H2NWK6.js")).IconArrowThickWideBottomLeft;
+    case Icons.ARROW_THICK_WIDE_DOWN:
+      return (await import("./arrow-thick-wide-down-ITRIMNGN.js")).IconArrowThickWideDown;
+    case Icons.ARROW_THICK_WIDE_LEFT_TOP:
+      return (await import("./arrow-thick-wide-left-top-IFNPYB2S.js")).IconArrowThickWideLeftTop;
+    case Icons.ARROW_THICK_WIDE_LEFT:
+      return (await import("./arrow-thick-wide-left-PA3BRTDQ.js")).IconArrowThickWideLeft;
+    case Icons.ARROW_THICK_WIDE_RIGHT_BOTTOM:
+      return (await import("./arrow-thick-wide-right-bottom-NYRGLVE7.js")).IconArrowThickWideRightBottom;
+    case Icons.ARROW_THICK_WIDE_RIGHT:
+      return (await import("./arrow-thick-wide-right-Z2VY6SJH.js")).IconArrowThickWideRight;
+    case Icons.ARROW_THICK_WIDE_TOP_RIGHT:
+      return (await import("./arrow-thick-wide-top-right-P667FZTX.js")).IconArrowThickWideTopRight;
+    case Icons.ARROW_THICK_WIDE_UP:
+      return (await import("./arrow-thick-wide-up-2Q3YSHAO.js")).IconArrowThickWideUp;
     case Icons.ARROW_TRANSFER_BL_TR:
       return (await import("./arrow-transfer-bl-tr-SXDA2B4K.js")).IconArrowTransferBlTr;
     case Icons.ARROW_TRANSFER_LEFT_RIGHT:
@@ -3089,6 +3161,30 @@ var IconTags = [
   "decision",
   "separate",
   "diverge",
+  "thick",
+  "web design",
+  "click",
+  "moving",
+  "thick arrow",
+  "bold arrow",
+  "bold",
+  "icon design",
+  "UX",
+  "continue",
+  "tall",
+  "page",
+  "document",
+  "tall arrow",
+  "move up",
+  "increase",
+  "Arrow",
+  "Top",
+  "Right",
+  "Pointer",
+  "Vertical",
+  "Thick",
+  "wide",
+  "chevron",
   "shift",
   "flow",
   "swap",
@@ -3105,15 +3201,11 @@ var IconTags = [
   "Sort",
   "Scroll",
   "UpDown",
-  "Vertical",
-  "Arrow",
   "User Interface",
-  "increase",
   "elevate",
   "ascend",
   "data",
   "file",
-  "chevron",
   "connect",
   "link",
   "arrowheads",
@@ -3125,13 +3217,11 @@ var IconTags = [
   "sleek",
   "chevron double down",
   "reveal",
-  "web design",
   "double arrow",
   "arrow symbol",
   "double",
   "process",
   "stacked",
-  "page",
   "show more",
   "dropdown",
   "menu",
@@ -3272,7 +3362,6 @@ var IconTags = [
   "snapshot",
   "paste",
   "notes",
-  "document",
   "record",
   "save",
   "text",
@@ -4014,7 +4103,6 @@ var IconTags = [
   "Fashion",
   "Style",
   "Apparel",
-  "Top",
   "Casual",
   "Wearable",
   "Garment",
@@ -4290,7 +4378,6 @@ var IconTags = [
   "insert",
   "create",
   "fat",
-  "thick",
   "add",
   "append",
   "new",
@@ -4408,7 +4495,6 @@ var IconTags = [
   "edit",
   "pencil",
   "modify",
-  "UX",
   "edit button",
   "editable",
   "exclamation mark",
@@ -4420,7 +4506,6 @@ var IconTags = [
   "help",
   "tooltip",
   "informational",
-  "click",
   "hidden",
   "inactive",
   "unclickable",
@@ -4847,7 +4932,6 @@ var IconTags = [
   "place",
   "clean",
   "line icon",
-  "Pointer",
   "Indicator",
   "Guide",
   "Element",
@@ -4861,7 +4945,6 @@ var IconTags = [
   "fat style",
   "puzzle",
   "interrogation",
-  "bold",
   "seek",
   "segment",
   "categorization",
@@ -5660,6 +5743,54 @@ var getMeta = async (icon) => {
       return (await import("./icon_arrow-spread-split.svg-NS7KYRAJ.js")).default;
     case Icons.ARROW_SPREAD:
       return (await import("./icon_arrow-spread.svg-2AAXC3DO.js")).default;
+    case Icons.ARROW_THICK_BOTTOM_LEFT:
+      return (await import("./icon_arrow-thick-bottom-left.svg-GD7YYVBD.js")).default;
+    case Icons.ARROW_THICK_DOWN:
+      return (await import("./icon_arrow-thick-down.svg-QZBEUJ6P.js")).default;
+    case Icons.ARROW_THICK_LEFT_TOP:
+      return (await import("./icon_arrow-thick-left-top.svg-Z2VW6IRW.js")).default;
+    case Icons.ARROW_THICK_LEFT:
+      return (await import("./icon_arrow-thick-left.svg-VL5VXJTH.js")).default;
+    case Icons.ARROW_THICK_RIGHT_BOTTOM:
+      return (await import("./icon_arrow-thick-right-bottom.svg-34ITVQJT.js")).default;
+    case Icons.ARROW_THICK_RIGHT:
+      return (await import("./icon_arrow-thick-right.svg-SX3WPYK2.js")).default;
+    case Icons.ARROW_THICK_TALL_BOTTOM_LEFT:
+      return (await import("./icon_arrow-thick-tall-bottom-left.svg-KKD3WNFE.js")).default;
+    case Icons.ARROW_THICK_TALL_DOWN:
+      return (await import("./icon_arrow-thick-tall-down.svg-ACYVFEDQ.js")).default;
+    case Icons.ARROW_THICK_TALL_LEFT_TOP:
+      return (await import("./icon_arrow-thick-tall-left -top.svg-7DIFRT7U.js")).default;
+    case Icons.ARROW_THICK_TALL_LEFT:
+      return (await import("./icon_arrow-thick-tall-left.svg-GV7WE6QV.js")).default;
+    case Icons.ARROW_THICK_TALL_RIGHT_BOTTOM:
+      return (await import("./icon_arrow-thick-tall-right-bottom.svg-3J7F4OOI.js")).default;
+    case Icons.ARROW_THICK_TALL_RIGHT:
+      return (await import("./icon_arrow-thick-tall-right.svg-DMAZ5Q2K.js")).default;
+    case Icons.ARROW_THICK_TALL_TOP_RIGHT:
+      return (await import("./icon_arrow-thick-tall-top-right.svg-IHYRCLSV.js")).default;
+    case Icons.ARROW_THICK_TALL_UP:
+      return (await import("./icon_arrow-thick-tall-up.svg-5INI73FD.js")).default;
+    case Icons.ARROW_THICK_TOP_RIGHT:
+      return (await import("./icon_arrow-thick-top-right.svg-SIX3XIZB.js")).default;
+    case Icons.ARROW_THICK_UP:
+      return (await import("./icon_arrow-thick-up.svg-OAW7N5RO.js")).default;
+    case Icons.ARROW_THICK_WIDE_BOTTOM_LEFT:
+      return (await import("./icon_arrow-thick-wide-bottom-left.svg-WGT3CDJM.js")).default;
+    case Icons.ARROW_THICK_WIDE_DOWN:
+      return (await import("./icon_arrow-thick-wide-down.svg-VO2OTT6F.js")).default;
+    case Icons.ARROW_THICK_WIDE_LEFT_TOP:
+      return (await import("./icon_arrow-thick-wide-left-top.svg-ECNAYVYT.js")).default;
+    case Icons.ARROW_THICK_WIDE_LEFT:
+      return (await import("./icon_arrow-thick-wide-left.svg-JA4NA5Q2.js")).default;
+    case Icons.ARROW_THICK_WIDE_RIGHT_BOTTOM:
+      return (await import("./icon_arrow-thick-wide-right-bottom.svg-MUX2B565.js")).default;
+    case Icons.ARROW_THICK_WIDE_RIGHT:
+      return (await import("./icon_arrow-thick-wide-right.svg-JADJJGHF.js")).default;
+    case Icons.ARROW_THICK_WIDE_TOP_RIGHT:
+      return (await import("./icon_arrow-thick-wide-top-right.svg-X7K36O76.js")).default;
+    case Icons.ARROW_THICK_WIDE_UP:
+      return (await import("./icon_arrow-thick-wide-up.svg-N7QD5OZX.js")).default;
     case Icons.ARROW_TRANSFER_BL_TR:
       return (await import("./icon_arrow-transfer-bl-tr.svg-R4JGKDQN.js")).default;
     case Icons.ARROW_TRANSFER_LEFT_RIGHT:

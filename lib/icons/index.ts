@@ -390,6 +390,78 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.ARROW_SPREAD:
             return (await import("./arrow-spread")).IconArrowSpread;
     
+        case Icons.ARROW_THICK_BOTTOM_LEFT:
+            return (await import("./arrow-thick-bottom-left")).IconArrowThickBottomLeft;
+    
+        case Icons.ARROW_THICK_DOWN:
+            return (await import("./arrow-thick-down")).IconArrowThickDown;
+    
+        case Icons.ARROW_THICK_LEFT_TOP:
+            return (await import("./arrow-thick-left-top")).IconArrowThickLeftTop;
+    
+        case Icons.ARROW_THICK_LEFT:
+            return (await import("./arrow-thick-left")).IconArrowThickLeft;
+    
+        case Icons.ARROW_THICK_RIGHT_BOTTOM:
+            return (await import("./arrow-thick-right-bottom")).IconArrowThickRightBottom;
+    
+        case Icons.ARROW_THICK_RIGHT:
+            return (await import("./arrow-thick-right")).IconArrowThickRight;
+    
+        case Icons.ARROW_THICK_TALL_BOTTOM_LEFT:
+            return (await import("./arrow-thick-tall-bottom-left")).IconArrowThickTallBottomLeft;
+    
+        case Icons.ARROW_THICK_TALL_DOWN:
+            return (await import("./arrow-thick-tall-down")).IconArrowThickTallDown;
+    
+        case Icons.ARROW_THICK_TALL_LEFT_TOP:
+            return (await import("./arrow-thick-tall-left-top")).IconArrowThickTallLeftTop;
+    
+        case Icons.ARROW_THICK_TALL_LEFT:
+            return (await import("./arrow-thick-tall-left")).IconArrowThickTallLeft;
+    
+        case Icons.ARROW_THICK_TALL_RIGHT_BOTTOM:
+            return (await import("./arrow-thick-tall-right-bottom")).IconArrowThickTallRightBottom;
+    
+        case Icons.ARROW_THICK_TALL_RIGHT:
+            return (await import("./arrow-thick-tall-right")).IconArrowThickTallRight;
+    
+        case Icons.ARROW_THICK_TALL_TOP_RIGHT:
+            return (await import("./arrow-thick-tall-top-right")).IconArrowThickTallTopRight;
+    
+        case Icons.ARROW_THICK_TALL_UP:
+            return (await import("./arrow-thick-tall-up")).IconArrowThickTallUp;
+    
+        case Icons.ARROW_THICK_TOP_RIGHT:
+            return (await import("./arrow-thick-top-right")).IconArrowThickTopRight;
+    
+        case Icons.ARROW_THICK_UP:
+            return (await import("./arrow-thick-up")).IconArrowThickUp;
+    
+        case Icons.ARROW_THICK_WIDE_BOTTOM_LEFT:
+            return (await import("./arrow-thick-wide-bottom-left")).IconArrowThickWideBottomLeft;
+    
+        case Icons.ARROW_THICK_WIDE_DOWN:
+            return (await import("./arrow-thick-wide-down")).IconArrowThickWideDown;
+    
+        case Icons.ARROW_THICK_WIDE_LEFT_TOP:
+            return (await import("./arrow-thick-wide-left-top")).IconArrowThickWideLeftTop;
+    
+        case Icons.ARROW_THICK_WIDE_LEFT:
+            return (await import("./arrow-thick-wide-left")).IconArrowThickWideLeft;
+    
+        case Icons.ARROW_THICK_WIDE_RIGHT_BOTTOM:
+            return (await import("./arrow-thick-wide-right-bottom")).IconArrowThickWideRightBottom;
+    
+        case Icons.ARROW_THICK_WIDE_RIGHT:
+            return (await import("./arrow-thick-wide-right")).IconArrowThickWideRight;
+    
+        case Icons.ARROW_THICK_WIDE_TOP_RIGHT:
+            return (await import("./arrow-thick-wide-top-right")).IconArrowThickWideTopRight;
+    
+        case Icons.ARROW_THICK_WIDE_UP:
+            return (await import("./arrow-thick-wide-up")).IconArrowThickWideUp;
+    
         case Icons.ARROW_TRANSFER_BL_TR:
             return (await import("./arrow-transfer-bl-tr")).IconArrowTransferBlTr;
     

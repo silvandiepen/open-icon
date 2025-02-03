@@ -393,6 +393,78 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.ARROW_SPREAD:
             return (await import("./icon_arrow-spread.svg")).default;
 
+        case Icons.ARROW_THICK_BOTTOM_LEFT:
+            return (await import("./icon_arrow-thick-bottom-left.svg")).default;
+
+        case Icons.ARROW_THICK_DOWN:
+            return (await import("./icon_arrow-thick-down.svg")).default;
+
+        case Icons.ARROW_THICK_LEFT_TOP:
+            return (await import("./icon_arrow-thick-left-top.svg")).default;
+
+        case Icons.ARROW_THICK_LEFT:
+            return (await import("./icon_arrow-thick-left.svg")).default;
+
+        case Icons.ARROW_THICK_RIGHT_BOTTOM:
+            return (await import("./icon_arrow-thick-right-bottom.svg")).default;
+
+        case Icons.ARROW_THICK_RIGHT:
+            return (await import("./icon_arrow-thick-right.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_BOTTOM_LEFT:
+            return (await import("./icon_arrow-thick-tall-bottom-left.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_DOWN:
+            return (await import("./icon_arrow-thick-tall-down.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_LEFT_TOP:
+            return (await import("./icon_arrow-thick-tall-left -top.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_LEFT:
+            return (await import("./icon_arrow-thick-tall-left.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_RIGHT_BOTTOM:
+            return (await import("./icon_arrow-thick-tall-right-bottom.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_RIGHT:
+            return (await import("./icon_arrow-thick-tall-right.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_TOP_RIGHT:
+            return (await import("./icon_arrow-thick-tall-top-right.svg")).default;
+
+        case Icons.ARROW_THICK_TALL_UP:
+            return (await import("./icon_arrow-thick-tall-up.svg")).default;
+
+        case Icons.ARROW_THICK_TOP_RIGHT:
+            return (await import("./icon_arrow-thick-top-right.svg")).default;
+
+        case Icons.ARROW_THICK_UP:
+            return (await import("./icon_arrow-thick-up.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_BOTTOM_LEFT:
+            return (await import("./icon_arrow-thick-wide-bottom-left.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_DOWN:
+            return (await import("./icon_arrow-thick-wide-down.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_LEFT_TOP:
+            return (await import("./icon_arrow-thick-wide-left-top.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_LEFT:
+            return (await import("./icon_arrow-thick-wide-left.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_RIGHT_BOTTOM:
+            return (await import("./icon_arrow-thick-wide-right-bottom.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_RIGHT:
+            return (await import("./icon_arrow-thick-wide-right.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_TOP_RIGHT:
+            return (await import("./icon_arrow-thick-wide-top-right.svg")).default;
+
+        case Icons.ARROW_THICK_WIDE_UP:
+            return (await import("./icon_arrow-thick-wide-up.svg")).default;
+
         case Icons.ARROW_TRANSFER_BL_TR:
             return (await import("./icon_arrow-transfer-bl-tr.svg")).default;
 

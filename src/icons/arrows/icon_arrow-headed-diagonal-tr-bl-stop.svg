@@ -5,8 +5,8 @@
     <line x1="52.14" y1="19.86" x2="45" y2="27" style="fill: none; stroke: #010101; stroke-linejoin: round; stroke-width: 4px;"/>
   </g>
   <line x1="27" y1="27" x2="45" y2="45" style="fill: none; stroke: #010101; stroke-linejoin: round; stroke-width: 4px;"/>
-  <polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: #ed2024; stroke-width: 0px;"/>
-  <polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: #ed2024; stroke-width: 0px;"/>
+  <polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: #ed2024;"/>
+  <polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: #ed2024;"/>
   <polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none; stroke: #010101; stroke-linejoin: round; stroke-width: 4px;"/>
   <polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none; stroke: #010101; stroke-linejoin: round; stroke-width: 4px;"/>
 </svg>

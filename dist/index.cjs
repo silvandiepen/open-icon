@@ -546,7 +546,7 @@ __export(arrow_headed_corner_down_exports, {
 var IconArrowHeadedCornerDown, arrow_headed_corner_down_default;
 var init_arrow_headed_corner_down = __esm({
   "lib/icons/arrow-headed-corner-down.ts"() {
-    IconArrowHeadedCornerDown = `<svg id="arrow-headed-corner-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,49.5v-16c0-11.05,8.95-20,20-20h16" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedCornerDown = `<svg id="arrow-headed-corner-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,49.5v-16c0-11.05,8.95-20,20-20h16" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_corner_down_default = IconArrowHeadedCornerDown;
   }
 });
@@ -560,7 +560,7 @@ __export(arrow_headed_corner_left_exports, {
 var IconArrowHeadedCornerLeft, arrow_headed_corner_left_default;
 var init_arrow_headed_corner_left = __esm({
   "lib/icons/arrow-headed-corner-left.ts"() {
-    IconArrowHeadedCornerLeft = `<svg id="arrow-headed-corner-left-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="22.5 13.5 13.5 22.5 22.5 31.5 22.5 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="22.5 13.5 13.5 22.5 22.5 31.5 22.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,22.5h16c11.05,0,20,8.95,20,20v16" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedCornerLeft = `<svg id="arrow-headed-corner-left-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="22.5 13.5 13.5 22.5 22.5 31.5 22.5 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="22.5 13.5 13.5 22.5 22.5 31.5 22.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,22.5h16c11.05,0,20,8.95,20,20v16" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_corner_left_default = IconArrowHeadedCornerLeft;
   }
 });
@@ -574,7 +574,7 @@ __export(arrow_headed_corner_right_exports, {
 var IconArrowHeadedCornerRight, arrow_headed_corner_right_default;
 var init_arrow_headed_corner_right = __esm({
   "lib/icons/arrow-headed-corner-right.ts"() {
-    IconArrowHeadedCornerRight = `<svg id="arrow-headed-corner-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,49.5h-16c-11.05,0-20-8.95-20-20V13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedCornerRight = `<svg id="arrow-headed-corner-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,49.5h-16c-11.05,0-20-8.95-20-20V13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_corner_right_default = IconArrowHeadedCornerRight;
   }
 });
@@ -588,7 +588,7 @@ __export(arrow_headed_corner_up_exports, {
 var IconArrowHeadedCornerUp, arrow_headed_corner_up_default;
 var init_arrow_headed_corner_up = __esm({
   "lib/icons/arrow-headed-corner-up.ts"() {
-    IconArrowHeadedCornerUp = `<svg id="arrow-headed-corner-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,22.5v16c0,11.05-8.95,20-20,20H13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedCornerUp = `<svg id="arrow-headed-corner-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,22.5v16c0,11.05-8.95,20-20,20H13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_corner_up_default = IconArrowHeadedCornerUp;
   }
 });
@@ -602,7 +602,7 @@ __export(arrow_headed_diagonal_bl_tr_stop_exports, {
 var IconArrowHeadedDiagonalBlTrStop, arrow_headed_diagonal_bl_tr_stop_default;
 var init_arrow_headed_diagonal_bl_tr_stop = __esm({
   "lib/icons/arrow-headed-diagonal-bl-tr-stop.ts"() {
-    IconArrowHeadedDiagonalBlTrStop = `<svg id="arrow-headed-diagonal-bl-tr-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="59.91" y1="12.09" x2="52.78" y2="19.22" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.22" y1="52.78" x2="12.09" y2="59.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="27" y1="27" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="25.59 46.41 12.86 46.41 25.59 59.14 25.59 46.41" style="fill: red; stroke-width: 0px;"/><polygon points="46.41 12.86 46.41 25.59 59.14 25.59 46.41 12.86" style="fill: red; stroke-width: 0px;"/><polygon points="25.59 46.41 12.86 46.41 25.59 59.14 25.59 46.41" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="46.41 12.86 46.41 25.59 59.14 25.59 46.41 12.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDiagonalBlTrStop = `<svg id="arrow-headed-diagonal-bl-tr-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="59.91" y1="12.09" x2="52.78" y2="19.22" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.22" y1="52.78" x2="12.09" y2="59.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="27" y1="27" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="25.59 46.41 12.86 46.41 25.59 59.14 25.59 46.41" style="fill: red;"/><polygon points="46.41 12.86 46.41 25.59 59.14 25.59 46.41 12.86" style="fill: red;"/><polygon points="25.59 46.41 12.86 46.41 25.59 59.14 25.59 46.41" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="46.41 12.86 46.41 25.59 59.14 25.59 46.41 12.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_diagonal_bl_tr_stop_default = IconArrowHeadedDiagonalBlTrStop;
   }
 });
@@ -616,7 +616,7 @@ __export(arrow_headed_diagonal_br_tl_stop_exports, {
 var IconArrowHeadedDiagonalBrTlStop, arrow_headed_diagonal_br_tl_stop_default;
 var init_arrow_headed_diagonal_br_tl_stop = __esm({
   "lib/icons/arrow-headed-diagonal-br-tl-stop.ts"() {
-    IconArrowHeadedDiagonalBrTlStop = `<svg id="arrow-headed-diagonal-br-tl-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="12.09" y1="12.09" x2="19.22" y2="19.22" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.78" y1="52.78" x2="59.91" y2="59.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="27" y1="45" x2="45" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="46.41 46.41 46.41 59.14 59.14 46.41 46.41 46.41" style="fill: red; stroke-width: 0px;"/><polygon points="12.86 25.59 25.59 25.59 25.59 12.86 12.86 25.59" style="fill: red; stroke-width: 0px;"/><polygon points="46.41 46.41 46.41 59.14 59.14 46.41 46.41 46.41" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="12.86 25.59 25.59 25.59 25.59 12.86 12.86 25.59" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDiagonalBrTlStop = `<svg id="arrow-headed-diagonal-br-tl-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="12.09" y1="12.09" x2="19.22" y2="19.22" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.78" y1="52.78" x2="59.91" y2="59.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="27" y1="45" x2="45" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="46.41 46.41 46.41 59.14 59.14 46.41 46.41 46.41" style="fill: red;"/><polygon points="12.86 25.59 25.59 25.59 25.59 12.86 12.86 25.59" style="fill: red;"/><polygon points="46.41 46.41 46.41 59.14 59.14 46.41 46.41 46.41" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="12.86 25.59 25.59 25.59 25.59 12.86 12.86 25.59" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_diagonal_br_tl_stop_default = IconArrowHeadedDiagonalBrTlStop;
   }
 });
@@ -630,7 +630,7 @@ __export(arrow_headed_diagonal_in_lt_br_exports, {
 var IconArrowHeadedDiagonalInLtBr, arrow_headed_diagonal_in_lt_br_default;
 var init_arrow_headed_diagonal_in_lt_br = __esm({
   "lib/icons/arrow-headed-diagonal-in-lt-br.ts"() {
-    IconArrowHeadedDiagonalInLtBr = `<svg id="arrow-headed-diagonal-in-lt-br" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="13.5" x2="23.72" y2="23.72" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="58.5" x2="48.28" y2="48.28" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.36 30.09 30.09 30.09 30.09 17.36 17.36 30.09" style="fill: red; stroke-width: 0px;"/><polygon points="41.91 41.91 41.91 54.64 54.64 41.91 41.91 41.91" style="fill: red; stroke-width: 0px;"/><polygon points="17.36 30.09 30.09 30.09 30.09 17.36 17.36 30.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="41.91 41.91 41.91 54.64 54.64 41.91 41.91 41.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDiagonalInLtBr = `<svg id="arrow-headed-diagonal-in-lt-br" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="13.5" x2="23.72" y2="23.72" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="58.5" x2="48.28" y2="48.28" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.36 30.09 30.09 30.09 30.09 17.36 17.36 30.09" style="fill: red;"/><polygon points="41.91 41.91 41.91 54.64 54.64 41.91 41.91 41.91" style="fill: red;"/><polygon points="17.36 30.09 30.09 30.09 30.09 17.36 17.36 30.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="41.91 41.91 41.91 54.64 54.64 41.91 41.91 41.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_diagonal_in_lt_br_default = IconArrowHeadedDiagonalInLtBr;
   }
 });
@@ -644,7 +644,7 @@ __export(arrow_headed_diagonal_in_tr_bl_exports, {
 var IconArrowHeadedDiagonalInTrBl, arrow_headed_diagonal_in_tr_bl_default;
 var init_arrow_headed_diagonal_in_tr_bl = __esm({
   "lib/icons/arrow-headed-diagonal-in-tr-bl.ts"() {
-    IconArrowHeadedDiagonalInTrBl = `<svg id="arrow-headed-diagonal-in-tr-bl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="58.5" x2="23.72" y2="48.28" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="48.28" y2="23.72" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.36 41.91 30.09 54.64 30.09 41.91 17.36 41.91" style="fill: red; stroke-width: 0px;"/><polygon points="41.91 30.09 54.64 30.09 41.91 17.36 41.91 30.09" style="fill: red; stroke-width: 0px;"/><polygon points="17.36 41.91 30.09 54.64 30.09 41.91 17.36 41.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="41.91 30.09 54.64 30.09 41.91 17.36 41.91 30.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDiagonalInTrBl = `<svg id="arrow-headed-diagonal-in-tr-bl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="58.5" x2="23.72" y2="48.28" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="48.28" y2="23.72" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.36 41.91 30.09 54.64 30.09 41.91 17.36 41.91" style="fill: red;"/><polygon points="41.91 30.09 54.64 30.09 41.91 17.36 41.91 30.09" style="fill: red;"/><polygon points="17.36 41.91 30.09 54.64 30.09 41.91 17.36 41.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="41.91 30.09 54.64 30.09 41.91 17.36 41.91 30.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_diagonal_in_tr_bl_default = IconArrowHeadedDiagonalInTrBl;
   }
 });
@@ -658,7 +658,7 @@ __export(arrow_headed_diagonal_tl_br_split_exports, {
 var IconArrowHeadedDiagonalTlBrSplit, arrow_headed_diagonal_tl_br_split_default;
 var init_arrow_headed_diagonal_tl_br_split = __esm({
   "lib/icons/arrow-headed-diagonal-tl-br-split.ts"() {
-    IconArrowHeadedDiagonalTlBrSplit = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g id="arrow-headed-diagonal-tl-br-split"><g><line x1="45" y1="45" x2="52.14" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="19.86" x2="27" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></g><g id="arrow-headed-left-right"><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+    IconArrowHeadedDiagonalTlBrSplit = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g id="arrow-headed-diagonal-tl-br-split"><g><line x1="45" y1="45" x2="52.14" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="19.86" x2="27" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></g><g id="arrow-headed-left-right"><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
     arrow_headed_diagonal_tl_br_split_default = IconArrowHeadedDiagonalTlBrSplit;
   }
 });
@@ -672,7 +672,7 @@ __export(arrow_headed_diagonal_tl_br_stop_exports, {
 var IconArrowHeadedDiagonalTlBrStop, arrow_headed_diagonal_tl_br_stop_default;
 var init_arrow_headed_diagonal_tl_br_stop = __esm({
   "lib/icons/arrow-headed-diagonal-tl-br-stop.ts"() {
-    IconArrowHeadedDiagonalTlBrStop = `<svg id="arrow-headed-diagonal-tl-br-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="45" y1="45" x2="52.14" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="19.86" x2="27" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="45" y1="27" x2="27" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDiagonalTlBrStop = `<svg id="arrow-headed-diagonal-tl-br-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="45" y1="45" x2="52.14" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="19.86" x2="27" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="45" y1="27" x2="27" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: red;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red;"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_diagonal_tl_br_stop_default = IconArrowHeadedDiagonalTlBrStop;
   }
 });
@@ -686,7 +686,7 @@ __export(arrow_headed_diagonal_tl_br_exports, {
 var IconArrowHeadedDiagonalTlBr, arrow_headed_diagonal_tl_br_default;
 var init_arrow_headed_diagonal_tl_br = __esm({
   "lib/icons/arrow-headed-diagonal-tl-br.ts"() {
-    IconArrowHeadedDiagonalTlBr = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g id="arrow-headed-diagonal-tl-br"><polyline points="26.23 13.5 13.5 13.5 13.5 26.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45.77 58.5 58.5 58.5 58.5 45.77" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="19.86" x2="52.14" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g id="arrow-headed-diagonal-tr-bl"><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+    IconArrowHeadedDiagonalTlBr = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g id="arrow-headed-diagonal-tl-br"><polyline points="26.23 13.5 13.5 13.5 13.5 26.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45.77 58.5 58.5 58.5 58.5 45.77" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="19.86" x2="52.14" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g id="arrow-headed-diagonal-tr-bl"><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
     arrow_headed_diagonal_tl_br_default = IconArrowHeadedDiagonalTlBr;
   }
 });
@@ -714,7 +714,7 @@ __export(arrow_headed_diagonal_tr_bl_stop_exports, {
 var IconArrowHeadedDiagonalTrBlStop, arrow_headed_diagonal_tr_bl_stop_default;
 var init_arrow_headed_diagonal_tr_bl_stop = __esm({
   "lib/icons/arrow-headed-diagonal-tr-bl-stop.ts"() {
-    IconArrowHeadedDiagonalTrBlStop = `<svg id="arrow-headed-diagonal-tr-bl-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="27" y1="45" x2="19.86" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.14" y1="19.86" x2="45" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="27" y1="27" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDiagonalTrBlStop = `<svg id="arrow-headed-diagonal-tr-bl-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g><line x1="27" y1="45" x2="19.86" y2="52.14" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.14" y1="19.86" x2="45" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><line x1="27" y1="27" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red;"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: red;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_diagonal_tr_bl_stop_default = IconArrowHeadedDiagonalTrBlStop;
   }
 });
@@ -728,7 +728,7 @@ __export(arrow_headed_diagonal_tr_bl_exports, {
 var IconArrowHeadedDiagonalTrBl, arrow_headed_diagonal_tr_bl_default;
 var init_arrow_headed_diagonal_tr_bl = __esm({
   "lib/icons/arrow-headed-diagonal-tr-bl.ts"() {
-    IconArrowHeadedDiagonalTrBl = `<svg id="arrow-headed-diagonal-tr-bl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.48" y1="51.75" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDiagonalTrBl = `<svg id="arrow-headed-diagonal-tr-bl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.48" y1="51.75" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: red;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red;"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_diagonal_tr_bl_default = IconArrowHeadedDiagonalTrBl;
   }
 });
@@ -742,7 +742,7 @@ __export(arrow_headed_down_left_exports, {
 var IconArrowHeadedDownLeft, arrow_headed_down_left_default;
 var init_arrow_headed_down_left = __esm({
   "lib/icons/arrow-headed-down-left.ts"() {
-    IconArrowHeadedDownLeft = `<svg id="arrow-headed-down-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="18 34.91 18 54 37.09 54 18 34.91" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="49.82" y1="22.18" x2="27.55" y2="44.45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="18 34.91 18 54 37.09 54 18 34.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDownLeft = `<svg id="arrow-headed-down-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="18 34.91 18 54 37.09 54 18 34.91" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><line x1="49.82" y1="22.18" x2="27.55" y2="44.45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="18 34.91 18 54 37.09 54 18 34.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_down_left_default = IconArrowHeadedDownLeft;
   }
 });
@@ -756,7 +756,7 @@ __export(arrow_headed_down_right_exports, {
 var IconArrowHeadedDownRight, arrow_headed_down_right_default;
 var init_arrow_headed_down_right = __esm({
   "lib/icons/arrow-headed-down-right.ts"() {
-    IconArrowHeadedDownRight = `<svg id="arrow-headed-down-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.18" y1="22.18" x2="44.45" y2="44.45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 34.91 54 54 34.91 54 54 34.91" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="54 34.91 54 54 34.91 54 54 34.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDownRight = `<svg id="arrow-headed-down-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="22.18" y1="22.18" x2="44.45" y2="44.45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 34.91 54 54 34.91 54 54 34.91" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="54 34.91 54 54 34.91 54 54 34.91" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_down_right_default = IconArrowHeadedDownRight;
   }
 });
@@ -770,7 +770,7 @@ __export(arrow_headed_down_stop_exports, {
 var IconArrowHeadedDownStop, arrow_headed_down_stop_default;
 var init_arrow_headed_down_stop = __esm({
   "lib/icons/arrow-headed-down-stop.ts"() {
-    IconArrowHeadedDownStop = `<svg id="arrow-headed-down-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="13.5" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="58.5" x2="22.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDownStop = `<svg id="arrow-headed-down-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="13.5" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="58.5" x2="22.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_down_stop_default = IconArrowHeadedDownStop;
   }
 });
@@ -784,7 +784,7 @@ __export(arrow_headed_down_exports, {
 var IconArrowHeadedDown, arrow_headed_down_default;
 var init_arrow_headed_down = __esm({
   "lib/icons/arrow-headed-down.ts"() {
-    IconArrowHeadedDown = `<svg id="arrow-headed-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="13.5" x2="36" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 45 36 58.5 22.5 45 49.5 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 45 36 58.5 22.5 45 49.5 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDown = `<svg id="arrow-headed-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="13.5" x2="36" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 45 36 58.5 22.5 45 49.5 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 45 36 58.5 22.5 45 49.5 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_down_default = IconArrowHeadedDown;
   }
 });
@@ -798,7 +798,7 @@ __export(arrow_headed_download_exports, {
 var IconArrowHeadedDownload, arrow_headed_download_default;
 var init_arrow_headed_download = __esm({
   "lib/icons/arrow-headed-download.ts"() {
-    IconArrowHeadedDownload = `<svg id="arrow-headed-download" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="13.5" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,49.5l-1.74,3.47c-1.69,3.39-5.16,5.53-8.94,5.53H19.68c-3.79,0-7.25-2.14-8.94-5.53l-1.74-3.47" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedDownload = `<svg id="arrow-headed-download" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 36 36 49.5 22.5 36 49.5 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="13.5" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,49.5l-1.74,3.47c-1.69,3.39-5.16,5.53-8.94,5.53H19.68c-3.79,0-7.25-2.14-8.94-5.53l-1.74-3.47" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_download_default = IconArrowHeadedDownload;
   }
 });
@@ -812,7 +812,7 @@ __export(arrow_headed_in_center_exports, {
 var IconArrowHeadedInCenter, arrow_headed_in_center_default;
 var init_arrow_headed_in_center = __esm({
   "lib/icons/arrow-headed-in-center.ts"() {
-    IconArrowHeadedInCenter = `<svg id="arrow-headed-in-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="58.5" y1="13.5" x2="51.75" y2="20.25" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.64" y1="51.36" x2="13.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="13.5" x2="20.64" y2="20.64" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.36" y1="51.36" x2="58.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="4.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: red; stroke-width: 0px;"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: red; stroke-width: 0px;"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: red; stroke-width: 0px;"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: red; stroke-width: 0px;"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedInCenter = `<svg id="arrow-headed-in-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><line x1="58.5" y1="13.5" x2="51.75" y2="20.25" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.64" y1="51.36" x2="13.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="13.5" x2="20.64" y2="20.64" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.36" y1="51.36" x2="58.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="4.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: red;"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: red;"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: red;"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: red;"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_in_center_default = IconArrowHeadedInCenter;
   }
 });
@@ -826,7 +826,7 @@ __export(arrow_headed_in_diagonal_exports, {
 var IconArrowHeadedInDiagonal, arrow_headed_in_diagonal_default;
 var init_arrow_headed_in_diagonal = __esm({
   "lib/icons/arrow-headed-in-diagonal.ts"() {
-    IconArrowHeadedInDiagonal = `<svg id="arrow-headed-in-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="27 57.73 27 45 14.27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45 14.27 45 27 57.73 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="51.36" y2="20.64" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.64" y1="51.36" x2="13.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="57.73 45 45 45 45 57.73" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="14.27 27 27 27 27 14.27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="13.5" x2="20.25" y2="20.25" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.36" y1="51.36" x2="58.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: red; stroke-width: 0px;"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: red; stroke-width: 0px;"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: red; stroke-width: 0px;"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: red; stroke-width: 0px;"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedInDiagonal = `<svg id="arrow-headed-in-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="27 57.73 27 45 14.27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45 14.27 45 27 57.73 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="13.5" x2="51.36" y2="20.64" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="20.64" y1="51.36" x2="13.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="57.73 45 45 45 45 57.73" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="14.27 27 27 27 27 14.27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="13.5" x2="20.25" y2="20.25" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.36" y1="51.36" x2="58.5" y2="58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: red;"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: red;"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: red;"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: red;"/><polygon points="14.27 45 27 57.73 27 45 14.27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="57.73 27 45 14.27 45 27 57.73 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45 45 45 57.73 57.73 45 45 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="14.27 27 27 27 27 14.27 14.27 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_in_diagonal_default = IconArrowHeadedInDiagonal;
   }
 });
@@ -840,7 +840,7 @@ __export(arrow_headed_in_exports, {
 var IconArrowHeadedIn, arrow_headed_in_default;
 var init_arrow_headed_in = __esm({
   "lib/icons/arrow-headed-in.ts"() {
-    IconArrowHeadedIn = `<svg id="arrow-headed-in" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="18 45 27 36 18 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="54 27 45 36 54 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="64.09" y1="36" x2="54.55" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="7.91" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45 54 36 45 27 54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 18 36 27 45 18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="7.91" x2="36" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="64.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="27 36 18 27 18 45 27 36" style="fill: red; stroke-width: 0px;"/><polygon points="54 45 54 27 45 36 54 45" style="fill: red; stroke-width: 0px;"/><polygon points="36 45 27 54 45 54 36 45" style="fill: red; stroke-width: 0px;"/><polygon points="36 27 45 18 27 18 36 27" style="fill: red; stroke-width: 0px;"/><polygon points="27 36 18 27 18 45 27 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 45 54 27 45 36 54 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 45 27 54 45 54 36 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 27 45 18 27 18 36 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedIn = `<svg id="arrow-headed-in" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="18 45 27 36 18 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="54 27 45 36 54 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="64.09" y1="36" x2="54.55" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="7.91" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45 54 36 45 27 54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 18 36 27 45 18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="7.91" x2="36" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="64.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="27 36 18 27 18 45 27 36" style="fill: red;"/><polygon points="54 45 54 27 45 36 54 45" style="fill: red;"/><polygon points="36 45 27 54 45 54 36 45" style="fill: red;"/><polygon points="36 27 45 18 27 18 36 27" style="fill: red;"/><polygon points="27 36 18 27 18 45 27 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 45 54 27 45 36 54 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 45 27 54 45 54 36 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 27 45 18 27 18 36 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_in_default = IconArrowHeadedIn;
   }
 });
@@ -854,7 +854,7 @@ __export(arrow_headed_left_right_split_exports, {
 var IconArrowHeadedLeftRightSplit, arrow_headed_left_right_split_default;
 var init_arrow_headed_left_right_split = __esm({
   "lib/icons/arrow-headed-left-right-split.ts"() {
-    IconArrowHeadedLeftRightSplit = `<svg id="arrow-headed-left-right-split" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="45" y1="36" x2="54" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18.12" y1="36" x2="27" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: red; stroke-width: 0px;"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: red; stroke-width: 0px;"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedLeftRightSplit = `<svg id="arrow-headed-left-right-split" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="45" y1="36" x2="54" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18.12" y1="36" x2="27" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: red;"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: red;"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_left_right_split_default = IconArrowHeadedLeftRightSplit;
   }
 });
@@ -868,7 +868,7 @@ __export(arrow_headed_left_right_stop_exports, {
 var IconArrowHeadedLeftRightStop, arrow_headed_left_right_stop_default;
 var init_arrow_headed_left_right_stop = __esm({
   "lib/icons/arrow-headed-left-right-stop.ts"() {
-    IconArrowHeadedLeftRightStop = `<svg id="arrow-headed-left-right-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="45" y1="36" x2="53.88" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="27" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9 36 18.12 44.88 17.88 26.88 9 36" style="fill: red; stroke-width: 0px;"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: red; stroke-width: 0px;"/><polygon points="9 36 18.12 44.88 17.88 26.88 9 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedLeftRightStop = `<svg id="arrow-headed-left-right-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="45" y1="36" x2="53.88" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="36" x2="27" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="22.5" x2="36" y2="49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9 36 18.12 44.88 17.88 26.88 9 36" style="fill: red;"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: red;"/><polygon points="9 36 18.12 44.88 17.88 26.88 9 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_left_right_stop_default = IconArrowHeadedLeftRightStop;
   }
 });
@@ -882,7 +882,7 @@ __export(arrow_headed_left_right_exports, {
 var IconArrowHeadedLeftRight, arrow_headed_left_right_default;
 var init_arrow_headed_left_right = __esm({
   "lib/icons/arrow-headed-left-right.ts"() {
-    IconArrowHeadedLeftRight = `<svg id="arrow-headed-left-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18.12" y1="36" x2="53.88" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: red; stroke-width: 0px;"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: red; stroke-width: 0px;"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedLeftRight = `<svg id="arrow-headed-left-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="18.12" y1="36" x2="53.88" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: red;"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: red;"/><polygon points="17.88 26.88 9 36 18.12 44.88 17.88 26.88" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="53.88 27.12 54.12 45.12 63 36 53.88 27.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_left_right_default = IconArrowHeadedLeftRight;
   }
 });
@@ -896,7 +896,7 @@ __export(arrow_headed_left_stop_exports, {
 var IconArrowHeadedLeftStop, arrow_headed_left_stop_default;
 var init_arrow_headed_left_stop = __esm({
   "lib/icons/arrow-headed-left-stop.ts"() {
-    IconArrowHeadedLeftStop = `<svg id="arrow-headed-left-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 49.5 22.5 36 36 22.5 36 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="36 49.5 22.5 36 36 22.5 36 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="22.5" x2="13.5" y2="49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedLeftStop = `<svg id="arrow-headed-left-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 49.5 22.5 36 36 22.5 36 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="36 49.5 22.5 36 36 22.5 36 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="22.5" x2="13.5" y2="49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_left_stop_default = IconArrowHeadedLeftStop;
   }
 });
@@ -910,7 +910,7 @@ __export(arrow_headed_left_exports, {
 var IconArrowHeadedLeft, arrow_headed_left_default;
 var init_arrow_headed_left = __esm({
   "lib/icons/arrow-headed-left.ts"() {
-    IconArrowHeadedLeft = `<svg id="arrow-headed-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 49.5 13.5 36 27 22.5 27 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="27 49.5 13.5 36 27 22.5 27 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="27" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedLeft = `<svg id="arrow-headed-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 49.5 13.5 36 27 22.5 27 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="27 49.5 13.5 36 27 22.5 27 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="36" x2="27" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_left_default = IconArrowHeadedLeft;
   }
 });
@@ -924,7 +924,7 @@ __export(arrow_headed_out_center_exports, {
 var IconArrowHeadedOutCenter, arrow_headed_out_center_default;
 var init_arrow_headed_out_center = __esm({
   "lib/icons/arrow-headed-out-center.ts"() {
-    IconArrowHeadedOutCenter = `<svg id="arrow-headed-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="45" y1="27" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="52.14" x2="27" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="27" x2="19.86" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.14" y1="52.14" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="4.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="58.5 13.5 45.77 13.5 58.5 26.23 58.5 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="58.5 13.5 45.77 13.5 58.5 26.23 58.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedOutCenter = `<svg id="arrow-headed-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="36" cy="36" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><line x1="45" y1="27" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="52.14" x2="27" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="27" x2="19.86" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.14" y1="52.14" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="36" cy="36" r="4.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: red;"/><polygon points="58.5 13.5 45.77 13.5 58.5 26.23 58.5 13.5" style="fill: red;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red;"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: red;"/><polygon points="26.23 58.5 13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="58.5 13.5 45.77 13.5 58.5 26.23 58.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.23 13.5 13.5 13.5 13.5 26.23 26.23 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_out_center_default = IconArrowHeadedOutCenter;
   }
 });
@@ -938,7 +938,7 @@ __export(arrow_headed_reload_down_up_exports, {
 var IconArrowHeadedReloadDownUp, arrow_headed_reload_down_up_default;
 var init_arrow_headed_reload_down_up = __esm({
   "lib/icons/arrow-headed-reload-down-up.ts"() {
-    IconArrowHeadedReloadDownUp = `<svg id="arrow-headed-reload-down-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="27 49.5 18 58.5 9 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="45 22.5 63 22.5 54 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="27 49.5 18 58.5 9 49.5 27 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,49.5v-16c0-11.05,8.95-20,20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="63 22.5 54 13.5 45 22.5 63 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,22.5v16c0,11.05-8.95,20-20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReloadDownUp = `<svg id="arrow-headed-reload-down-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="27 49.5 18 58.5 9 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polyline points="45 22.5 63 22.5 54 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="27 49.5 18 58.5 9 49.5 27 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,49.5v-16c0-11.05,8.95-20,20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="63 22.5 54 13.5 45 22.5 63 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,22.5v16c0,11.05-8.95,20-20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_reload_down_up_default = IconArrowHeadedReloadDownUp;
   }
 });
@@ -952,7 +952,7 @@ __export(arrow_headed_reload_left_right_exports, {
 var IconArrowHeadedReloadLeftRight, arrow_headed_reload_left_right_default;
 var init_arrow_headed_reload_left_right = __esm({
   "lib/icons/arrow-headed-reload-left-right.ts"() {
-    IconArrowHeadedReloadLeftRight = `<svg id="arrow-headed-reload-left-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 9 22.5 27 13.5 18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="49.5 63 58.5 54 49.5 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="22.5 27 13.5 18 22.5 9 22.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,18h16c11.05,0,20,8.95,20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 63 58.5 54 49.5 45 49.5 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,54h-16c-11.05,0-20-8.95-20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReloadLeftRight = `<svg id="arrow-headed-reload-left-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="22.5 9 22.5 27 13.5 18" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polyline points="49.5 63 58.5 54 49.5 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="22.5 27 13.5 18 22.5 9 22.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,18h16c11.05,0,20,8.95,20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 63 58.5 54 49.5 45 49.5 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,54h-16c-11.05,0-20-8.95-20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_reload_left_right_default = IconArrowHeadedReloadLeftRight;
   }
 });
@@ -966,7 +966,7 @@ __export(arrow_headed_reload_right_left_exports, {
 var IconArrowHeadedReloadRightLeft, arrow_headed_reload_right_left_default;
 var init_arrow_headed_reload_right_left = __esm({
   "lib/icons/arrow-headed-reload-right-left.ts"() {
-    IconArrowHeadedReloadRightLeft = `<svg id="arrow-headed-reload-right-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="49.5 27 58.5 18 49.5 9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="22.5 63 13.5 54 22.5 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 27 58.5 18 49.5 9 49.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,18h-16c-11.05,0-20,8.95-20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="22.5 63 13.5 54 22.5 45 22.5 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,54h16c11.05,0,20-8.95,20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReloadRightLeft = `<svg id="arrow-headed-reload-right-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="49.5 27 58.5 18 49.5 9" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polyline points="22.5 63 13.5 54 22.5 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 27 58.5 18 49.5 9 49.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,18h-16c-11.05,0-20,8.95-20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="22.5 63 13.5 54 22.5 45 22.5 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,54h16c11.05,0,20-8.95,20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_reload_right_left_default = IconArrowHeadedReloadRightLeft;
   }
 });
@@ -980,7 +980,7 @@ __export(arrow_headed_reload_up_down_exports, {
 var IconArrowHeadedReloadUpDown, arrow_headed_reload_up_down_default;
 var init_arrow_headed_reload_up_down = __esm({
   "lib/icons/arrow-headed-reload-up-down.ts"() {
-    IconArrowHeadedReloadUpDown = `<svg id="arrow-headed-reload-up-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="63 49.5 54 58.5 45 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polyline points="9 22.5 18 13.5 27 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="63 49.5 54 58.5 45 49.5 63 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,49.5v-16c0-11.05-8.95-20-20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9 22.5 18 13.5 27 22.5 9 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,22.5v16c0,11.05,8.95,20,20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReloadUpDown = `<svg id="arrow-headed-reload-up-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="63 49.5 54 58.5 45 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polyline points="9 22.5 18 13.5 27 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="63 49.5 54 58.5 45 49.5 63 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,49.5v-16c0-11.05-8.95-20-20-20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="9 22.5 18 13.5 27 22.5 9 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,22.5v16c0,11.05,8.95,20,20,20" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_reload_up_down_default = IconArrowHeadedReloadUpDown;
   }
 });
@@ -994,7 +994,7 @@ __export(arrow_headed_return_down_exports, {
 var IconArrowHeadedReturnDown, arrow_headed_return_down_default;
 var init_arrow_headed_return_down = __esm({
   "lib/icons/arrow-headed-return-down.ts"() {
-    IconArrowHeadedReturnDown = `<svg id="arrow-headed-return-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="54 36 45 45 36 36 54 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M45,36v-9c0-7.46-6.04-13.5-13.5-13.5h0c-7.46,0-13.5,6.04-13.5,13.5v27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 36 45 45 36 36 54 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReturnDown = `<svg id="arrow-headed-return-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="54 36 45 45 36 36 54 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><path d="M45,36v-9c0-7.46-6.04-13.5-13.5-13.5h0c-7.46,0-13.5,6.04-13.5,13.5v27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="54 36 45 45 36 36 54 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_return_down_default = IconArrowHeadedReturnDown;
   }
 });
@@ -1008,7 +1008,7 @@ __export(arrow_headed_return_left_exports, {
 var IconArrowHeadedReturnLeft, arrow_headed_return_left_default;
 var init_arrow_headed_return_left = __esm({
   "lib/icons/arrow-headed-return-left.ts"() {
-    IconArrowHeadedReturnLeft = `<svg id="arrow-headed-return-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 54 27 45 36 36 36 54" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,45h9c7.46,0,13.5-6.04,13.5-13.5h0c0-7.46-6.04-13.5-13.5-13.5h-27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 54 27 45 36 36 36 54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReturnLeft = `<svg id="arrow-headed-return-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 54 27 45 36 36 36 54" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><path d="M36,45h9c7.46,0,13.5-6.04,13.5-13.5h0c0-7.46-6.04-13.5-13.5-13.5h-27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 54 27 45 36 36 36 54" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_return_left_default = IconArrowHeadedReturnLeft;
   }
 });
@@ -1022,7 +1022,7 @@ __export(arrow_headed_return_right_exports, {
 var IconArrowHeadedReturnRight, arrow_headed_return_right_default;
 var init_arrow_headed_return_right = __esm({
   "lib/icons/arrow-headed-return-right.ts"() {
-    IconArrowHeadedReturnRight = `<svg id="arrow-headed-return-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 36 45 27 36 18 36 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M36,27h-9c-7.46,0-13.5,6.04-13.5,13.5h0c0,7.46,6.04,13.5,13.5,13.5h27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 36 45 27 36 18 36 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReturnRight = `<svg id="arrow-headed-return-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 36 45 27 36 18 36 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><path d="M36,27h-9c-7.46,0-13.5,6.04-13.5,13.5h0c0,7.46,6.04,13.5,13.5,13.5h27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 36 45 27 36 18 36 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_return_right_default = IconArrowHeadedReturnRight;
   }
 });
@@ -1036,7 +1036,7 @@ __export(arrow_headed_return_up_exports, {
 var IconArrowHeadedReturnUp, arrow_headed_return_up_default;
 var init_arrow_headed_return_up = __esm({
   "lib/icons/arrow-headed-return-up.ts"() {
-    IconArrowHeadedReturnUp = `<svg id="arrow-headed-return-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 36 27 27 18 36 36 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M27,36v9c0,7.46,6.04,13.5,13.5,13.5h0c7.46,0,13.5-6.04,13.5-13.5v-27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 36 27 27 18 36 36 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedReturnUp = `<svg id="arrow-headed-return-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 36 27 27 18 36 36 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><path d="M27,36v9c0,7.46,6.04,13.5,13.5,13.5h0c7.46,0,13.5-6.04,13.5-13.5v-27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 36 27 27 18 36 36 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_return_up_default = IconArrowHeadedReturnUp;
   }
 });
@@ -1050,7 +1050,7 @@ __export(arrow_headed_right_exports, {
 var IconArrowHeadedRight, arrow_headed_right_default;
 var init_arrow_headed_right = __esm({
   "lib/icons/arrow-headed-right.ts"() {
-    IconArrowHeadedRight = `<svg id="arrow-headed-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="45 49.5 58.5 36 45 22.5 45 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="45 49.5 58.5 36 45 22.5 45 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="45" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRight = `<svg id="arrow-headed-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="45 49.5 58.5 36 45 22.5 45 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="45 49.5 58.5 36 45 22.5 45 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="45" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_right_default = IconArrowHeadedRight;
   }
 });
@@ -1064,7 +1064,7 @@ __export(arrow_headed_rotate_bottom_left_exports, {
 var IconArrowHeadedRotateBottomLeft, arrow_headed_rotate_bottom_left_default;
 var init_arrow_headed_rotate_bottom_left = __esm({
   "lib/icons/arrow-headed-rotate-bottom-left.ts"() {
-    IconArrowHeadedRotateBottomLeft = `<svg id="arrow-headed-rotate-bottom-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 45 27 54 36 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,36c0-9.94,8.06-18,18-18s18,8.06,18,18-8.06,18-18,18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 63 36 45 27 54 36 63" style="fill: red; stroke-width: 0px;"/><polygon points="36 63 36 45 27 54 36 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRotateBottomLeft = `<svg id="arrow-headed-rotate-bottom-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 45 27 54 36 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,36c0-9.94,8.06-18,18-18s18,8.06,18,18-8.06,18-18,18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 63 36 45 27 54 36 63" style="fill: red;"/><polygon points="36 63 36 45 27 54 36 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rotate_bottom_left_default = IconArrowHeadedRotateBottomLeft;
   }
 });
@@ -1078,7 +1078,7 @@ __export(arrow_headed_rotate_bottom_right_exports, {
 var IconArrowHeadedRotateBottomRight, arrow_headed_rotate_bottom_right_default;
 var init_arrow_headed_rotate_bottom_right = __esm({
   "lib/icons/arrow-headed-rotate-bottom-right.ts"() {
-    IconArrowHeadedRotateBottomRight = `<svg id="arrow-headed-rotate-bottom-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 45 45 54 36 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,36c0-9.94-8.06-18-18-18s-18,8.06-18,18c0,9.94,8.06,18,18,18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 45 36 63 45 54 36 45" style="fill: red; stroke-width: 0px;"/><polygon points="36 45 36 63 45 54 36 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRotateBottomRight = `<svg id="arrow-headed-rotate-bottom-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 45 45 54 36 63" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,36c0-9.94-8.06-18-18-18s-18,8.06-18,18c0,9.94,8.06,18,18,18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 45 36 63 45 54 36 45" style="fill: red;"/><polygon points="36 45 36 63 45 54 36 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rotate_bottom_right_default = IconArrowHeadedRotateBottomRight;
   }
 });
@@ -1092,7 +1092,7 @@ __export(arrow_headed_rotate_top_left_exports, {
 var IconArrowHeadedRotateTopLeft, arrow_headed_rotate_top_left_default;
 var init_arrow_headed_rotate_top_left = __esm({
   "lib/icons/arrow-headed-rotate-top-left.ts"() {
-    IconArrowHeadedRotateTopLeft = `<svg id="arrow-headed-rotate-top-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 27 27 18 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,36c0,9.94,8.06,18,18,18s18-8.06,18-18c0-9.94-8.06-18-18-18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9 27 18 36 27 36 9" style="fill: red; stroke-width: 0px;"/><polygon points="36 9 27 18 36 27 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRotateTopLeft = `<svg id="arrow-headed-rotate-top-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 27 27 18 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,36c0,9.94,8.06,18,18,18s18-8.06,18-18c0-9.94-8.06-18-18-18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9 27 18 36 27 36 9" style="fill: red;"/><polygon points="36 9 27 18 36 27 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rotate_top_left_default = IconArrowHeadedRotateTopLeft;
   }
 });
@@ -1106,7 +1106,7 @@ __export(arrow_headed_rotate_top_right_exports, {
 var IconArrowHeadedRotateTopRight, arrow_headed_rotate_top_right_default;
 var init_arrow_headed_rotate_top_right = __esm({
   "lib/icons/arrow-headed-rotate-top-right.ts"() {
-    IconArrowHeadedRotateTopRight = `<svg id="arrow-headed-rotate-top-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 27 45 18 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,36c0,9.94-8.06,18-18,18s-18-8.06-18-18,8.06-18,18-18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9 36 27 45 18 36 9" style="fill: red; stroke-width: 0px;"/><polygon points="36 9 36 27 45 18 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRotateTopRight = `<svg id="arrow-headed-rotate-top-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="36 27 45 18 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M54,36c0,9.94-8.06,18-18,18s-18-8.06-18-18,8.06-18,18-18h0" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9 36 27 45 18 36 9" style="fill: red;"/><polygon points="36 9 36 27 45 18 36 9" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rotate_top_right_default = IconArrowHeadedRotateTopRight;
   }
 });
@@ -1120,7 +1120,7 @@ __export(arrow_headed_rounded_left_up_exports, {
 var IconArrowHeadedRoundedLeftUp, arrow_headed_rounded_left_up_default;
 var init_arrow_headed_rounded_left_up = __esm({
   "lib/icons/arrow-headed-rounded-left-up.ts"() {
-    IconArrowHeadedRoundedLeftUp = `<svg id="arrow-headed-rounded-left-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="22.5 58.5 13.5 49.5 22.5 40.5 22.5 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,22.5v7c0,11.05-8.95,20-20,20h-7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="22.5 58.5 13.5 49.5 22.5 40.5 22.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRoundedLeftUp = `<svg id="arrow-headed-rounded-left-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="22.5 58.5 13.5 49.5 22.5 40.5 22.5 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="58.5 22.5 49.5 13.5 40.5 22.5 58.5 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,22.5v7c0,11.05-8.95,20-20,20h-7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="22.5 58.5 13.5 49.5 22.5 40.5 22.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rounded_left_up_default = IconArrowHeadedRoundedLeftUp;
   }
 });
@@ -1134,7 +1134,7 @@ __export(arrow_headed_rounded_right_down_exports, {
 var IconArrowHeadedRoundedRightDown, arrow_headed_rounded_right_down_default;
 var init_arrow_headed_rounded_right_down = __esm({
   "lib/icons/arrow-headed-rounded-right-down.ts"() {
-    IconArrowHeadedRoundedRightDown = `<svg id="arrow-headed-rounded-right-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 31.5 58.5 22.5 49.5 13.5 49.5 31.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,49.5v-7c0-11.05,8.95-20,20-20h7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 31.5 58.5 22.5 49.5 13.5 49.5 31.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRoundedRightDown = `<svg id="arrow-headed-rounded-right-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 31.5 58.5 22.5 49.5 13.5 49.5 31.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="31.5 49.5 22.5 58.5 13.5 49.5 31.5 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,49.5v-7c0-11.05,8.95-20,20-20h7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 31.5 58.5 22.5 49.5 13.5 49.5 31.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rounded_right_down_default = IconArrowHeadedRoundedRightDown;
   }
 });
@@ -1148,7 +1148,7 @@ __export(arrow_headed_rounded_right_up_exports, {
 var IconArrowHeadedRoundedRightUp, arrow_headed_rounded_right_up_default;
 var init_arrow_headed_rounded_right_up = __esm({
   "lib/icons/arrow-headed-rounded-right-up.ts"() {
-    IconArrowHeadedRoundedRightUp = `<svg id="arrow-headed-rounded-right-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="31.5 22.5 22.5 13.5 13.5 22.5 31.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,49.5h-7c-11.05,0-20-8.95-20-20v-7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="31.5 22.5 22.5 13.5 13.5 22.5 31.5 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRoundedRightUp = `<svg id="arrow-headed-rounded-right-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="31.5 22.5 22.5 13.5 13.5 22.5 31.5 22.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 58.5 58.5 49.5 49.5 40.5 49.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M49.5,49.5h-7c-11.05,0-20-8.95-20-20v-7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="31.5 22.5 22.5 13.5 13.5 22.5 31.5 22.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rounded_right_up_default = IconArrowHeadedRoundedRightUp;
   }
 });
@@ -1162,7 +1162,7 @@ __export(arrow_headed_rouned_left_down_exports, {
 var IconArrowHeadedRounedLeftDown, arrow_headed_rouned_left_down_default;
 var init_arrow_headed_rouned_left_down = __esm({
   "lib/icons/arrow-headed-rouned-left-down.ts"() {
-    IconArrowHeadedRounedLeftDown = `<svg id="arrow-headed-rouned-left-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="22.5 31.5 13.5 22.5 22.5 13.5 22.5 31.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="58.5 49.5 49.5 58.5 40.5 49.5 58.5 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="22.5 31.5 13.5 22.5 22.5 13.5 22.5 31.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,22.5h7c11.05,0,20,8.95,20,20v7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="58.5 49.5 49.5 58.5 40.5 49.5 58.5 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedRounedLeftDown = `<svg id="arrow-headed-rouned-left-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="22.5 31.5 13.5 22.5 22.5 13.5 22.5 31.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="58.5 49.5 49.5 58.5 40.5 49.5 58.5 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="22.5 31.5 13.5 22.5 22.5 13.5 22.5 31.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M22.5,22.5h7c11.05,0,20,8.95,20,20v7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="58.5 49.5 49.5 58.5 40.5 49.5 58.5 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_rouned_left_down_default = IconArrowHeadedRounedLeftDown;
   }
 });
@@ -1176,7 +1176,7 @@ __export(arrow_headed_share_exports, {
 var IconArrowHeadedShare, arrow_headed_share_default;
 var init_arrow_headed_share = __esm({
   "lib/icons/arrow-headed-share.ts"() {
-    IconArrowHeadedShare = `<svg id="arrow-headed-share" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 31.5 18 22.5 27 13.5 27 31.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M63,49.5l-1.74,3.47c-1.69,3.39-5.16,5.53-8.94,5.53H19.68c-3.79,0-7.25-2.14-8.94-5.53l-1.74-3.47" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="27 31.5 18 22.5 27 13.5 27 31.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,22.5h2.5c11.05,0,20,8.95,20,20v7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedShare = `<svg id="arrow-headed-share" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 31.5 18 22.5 27 13.5 27 31.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><path d="M63,49.5l-1.74,3.47c-1.69,3.39-5.16,5.53-8.94,5.53H19.68c-3.79,0-7.25-2.14-8.94-5.53l-1.74-3.47" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="27 31.5 18 22.5 27 13.5 27 31.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M27,22.5h2.5c11.05,0,20,8.95,20,20v7" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_share_default = IconArrowHeadedShare;
   }
 });
@@ -1190,7 +1190,7 @@ __export(arrow_headed_spread_split_exports, {
 var IconArrowHeadedSpreadSplit, arrow_headed_spread_split_default;
 var init_arrow_headed_spread_split = __esm({
   "lib/icons/arrow-headed-spread-split.ts"() {
-    IconArrowHeadedSpreadSplit = `<svg id="arrow-headed-spread-split" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="27" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="52.14" x2="27" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45.77 58.5 58.5 58.5 58.5 45.77" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="26.23 13.5 13.5 13.5 13.5 26.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="27" x2="19.86" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.75" y1="51.75" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedSpreadSplit = `<svg id="arrow-headed-spread-split" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="45" y1="27" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="52.14" x2="27" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45.77 58.5 58.5 58.5 58.5 45.77" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="26.23 13.5 13.5 13.5 13.5 26.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="27" y1="27" x2="19.86" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="51.75" y1="51.75" x2="45" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: red;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red;"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_spread_split_default = IconArrowHeadedSpreadSplit;
   }
 });
@@ -1204,7 +1204,7 @@ __export(arrow_headed_spread_exports, {
 var IconArrowHeadedSpread, arrow_headed_spread_default;
 var init_arrow_headed_spread = __esm({
   "lib/icons/arrow-headed-spread.ts"() {
-    IconArrowHeadedSpread = `<svg id="arrow-headed-spread" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="52.14" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45.77 58.5 58.5 58.5 58.5 45.77" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="26.23 13.5 13.5 13.5 13.5 26.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.14" y1="52.14" x2="19.86" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red; stroke-width: 0px;"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedSpread = `<svg id="arrow-headed-spread" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="19.86" y1="52.14" x2="52.14" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45.77 58.5 58.5 58.5 58.5 45.77" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="26.23 13.5 13.5 13.5 13.5 26.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="52.14" y1="52.14" x2="19.86" y2="19.86" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: red;"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: red;"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: red;"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: red;"/><polygon points="13.5 58.5 26.23 58.5 13.5 45.77 13.5 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 13.5 58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="45.77 58.5 58.5 58.5 58.5 45.77 45.77 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="13.5 13.5 13.5 26.23 26.23 13.5 13.5 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_spread_default = IconArrowHeadedSpread;
   }
 });
@@ -1232,7 +1232,7 @@ __export(arrow_headed_twoway_diagonal_rl_exports, {
 var IconArrowHeadedTwowayDiagonalRl, arrow_headed_twoway_diagonal_rl_default;
 var init_arrow_headed_twoway_diagonal_rl = __esm({
   "lib/icons/arrow-headed-twoway-diagonal-rl.ts"() {
-    IconArrowHeadedTwowayDiagonalRl = `<svg id="arrow-headed-twoway-diagonal-rl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="11.75 43.57 27.95 44.05 12.04 28.14 11.75 43.57" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="60.25 28.43 44.05 27.95 59.96 43.86 60.25 28.43" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="43.57" y1="11.75" x2="19.61" y2="35.71" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="28.43" y1="60.25" x2="52.39" y2="36.29" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="11.75 43.57 27.95 44.05 12.04 28.14 11.75 43.57" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="60.25 28.43 44.05 27.95 59.96 43.86 60.25 28.43" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedTwowayDiagonalRl = `<svg id="arrow-headed-twoway-diagonal-rl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="11.75 43.57 27.95 44.05 12.04 28.14 11.75 43.57" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="60.25 28.43 44.05 27.95 59.96 43.86 60.25 28.43" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><line x1="43.57" y1="11.75" x2="19.61" y2="35.71" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="28.43" y1="60.25" x2="52.39" y2="36.29" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="11.75 43.57 27.95 44.05 12.04 28.14 11.75 43.57" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="60.25 28.43 44.05 27.95 59.96 43.86 60.25 28.43" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_twoway_diagonal_rl_default = IconArrowHeadedTwowayDiagonalRl;
   }
 });
@@ -1246,7 +1246,7 @@ __export(arrow_headed_twoway_horizontal_exports, {
 var IconArrowHeadedTwowayHorizontal, arrow_headed_twoway_horizontal_default;
 var init_arrow_headed_twoway_horizontal = __esm({
   "lib/icons/arrow-headed-twoway-horizontal.ts"() {
-    IconArrowHeadedTwowayHorizontal = `<svg id="arrow-headed-twoway-horizontal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,14.78c-3.23,2.05-9,9.42-9,9.42l11.12,11.8V13.5s-.87.48-2.12,1.28Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="47.38 36 47.38 58.5 58.5 47.8 47.38 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><path d="M22.5,14.78c-3.23,2.05-9,9.42-9,9.42l11.12,11.8V13.5s-.87.48-2.12,1.28Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="24.2" x2="24.62" y2="24.2" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="47.38 36 47.38 58.5 58.5 47.8 47.38 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="47.8" x2="47.25" y2="47.8" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedTwowayHorizontal = `<svg id="arrow-headed-twoway-horizontal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M22.5,14.78c-3.23,2.05-9,9.42-9,9.42l11.12,11.8V13.5s-.87.48-2.12,1.28Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="47.38 36 47.38 58.5 58.5 47.8 47.38 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><path d="M22.5,14.78c-3.23,2.05-9,9.42-9,9.42l11.12,11.8V13.5s-.87.48-2.12,1.28Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="54" y1="24.2" x2="24.62" y2="24.2" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="47.38 36 47.38 58.5 58.5 47.8 47.38 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="18" y1="47.8" x2="47.25" y2="47.8" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_twoway_horizontal_default = IconArrowHeadedTwowayHorizontal;
   }
 });
@@ -1260,7 +1260,7 @@ __export(arrow_headed_twoway_vertical_exports, {
 var IconArrowHeadedTwowayVertical, arrow_headed_twoway_vertical_default;
 var init_arrow_headed_twoway_vertical = __esm({
   "lib/icons/arrow-headed-twoway-vertical.ts"() {
-    IconArrowHeadedTwowayVertical = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g id="arrow-headed-twoway-vertical"><polygon points="24.2 58.5 36 47.38 13.5 47.38 24.2 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="47.8 13.5 36 24.62 58.5 24.62 47.8 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><line x1="24.2" y1="13.5" x2="24.2" y2="47.38" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.8" y1="58.5" x2="47.8" y2="24.62" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g id="arrow-headed-twoway-diagonal-rl"><polygon points="24.2 58.5 36 47.38 13.5 47.38 24.2 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="47.8 13.5 36 24.62 58.5 24.62 47.8 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+    IconArrowHeadedTwowayVertical = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g id="arrow-headed-twoway-vertical"><polygon points="24.2 58.5 36 47.38 13.5 47.38 24.2 58.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="47.8 13.5 36 24.62 58.5 24.62 47.8 13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><line x1="24.2" y1="13.5" x2="24.2" y2="47.38" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="47.8" y1="58.5" x2="47.8" y2="24.62" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g id="arrow-headed-twoway-diagonal-rl"><polygon points="24.2 58.5 36 47.38 13.5 47.38 24.2 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="47.8 13.5 36 24.62 58.5 24.62 47.8 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
     arrow_headed_twoway_vertical_default = IconArrowHeadedTwowayVertical;
   }
 });
@@ -1274,7 +1274,7 @@ __export(arrow_headed_up_down_split_exports, {
 var IconArrowHeadedUpDownSplit, arrow_headed_up_down_split_default;
 var init_arrow_headed_up_down_split = __esm({
   "lib/icons/arrow-headed-up-down-split.ts"() {
-    IconArrowHeadedUpDownSplit = `<svg id="arrow-headed-up-down-split" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="27" x2="36" y2="18.24" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: red; stroke-width: 0px;"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: red; stroke-width: 0px;"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUpDownSplit = `<svg id="arrow-headed-up-down-split" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="27" x2="36" y2="18.24" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: red;"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: red;"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_down_split_default = IconArrowHeadedUpDownSplit;
   }
 });
@@ -1288,7 +1288,7 @@ __export(arrow_headed_up_down_stop_exports, {
 var IconArrowHeadedUpDownStop, arrow_headed_up_down_stop_default;
 var init_arrow_headed_up_down_stop = __esm({
   "lib/icons/arrow-headed-up-down-stop.ts"() {
-    IconArrowHeadedUpDownStop = `<svg id="arrow-headed-up-down-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="27" x2="36" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 63.12 44.88 54 26.88 54.24 36 63.12" style="fill: red; stroke-width: 0px;"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: red; stroke-width: 0px;"/><polygon points="36 63.12 44.88 54 26.88 54.24 36 63.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUpDownStop = `<svg id="arrow-headed-up-down-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="27" x2="36" y2="18" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="54" x2="36" y2="45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.5" y1="36" x2="49.5" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 63.12 44.88 54 26.88 54.24 36 63.12" style="fill: red;"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: red;"/><polygon points="36 63.12 44.88 54 26.88 54.24 36 63.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_down_stop_default = IconArrowHeadedUpDownStop;
   }
 });
@@ -1302,7 +1302,7 @@ __export(arrow_headed_up_down_exports, {
 var IconArrowHeadedUpDown, arrow_headed_up_down_default;
 var init_arrow_headed_up_down = __esm({
   "lib/icons/arrow-headed-up-down.ts"() {
-    IconArrowHeadedUpDown = `<svg id="arrow-headed-up-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="54.12" x2="36" y2="18.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: red; stroke-width: 0px;"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: red; stroke-width: 0px;"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUpDown = `<svg id="arrow-headed-up-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="36" y1="54.12" x2="36" y2="18.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: red;"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: red;"/><polygon points="26.88 54.24 36 63.12 44.88 54 26.88 54.24" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="36 9.12 27.12 18.24 45.12 18 36 9.12" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_down_default = IconArrowHeadedUpDown;
   }
 });
@@ -1316,7 +1316,7 @@ __export(arrow_headed_up_left_exports, {
 var IconArrowHeadedUpLeft, arrow_headed_up_left_default;
 var init_arrow_headed_up_left = __esm({
   "lib/icons/arrow-headed-up-left.ts"() {
-    IconArrowHeadedUpLeft = `<svg id="arrow-headed-up-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="18 37.09 18 18 37.09 18 18 37.09" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="18 37.09 18 18 37.09 18 18 37.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.82" y1="49.82" x2="27.55" y2="27.55" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUpLeft = `<svg id="arrow-headed-up-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="18 37.09 18 18 37.09 18 18 37.09" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="18 37.09 18 18 37.09 18 18 37.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.82" y1="49.82" x2="27.55" y2="27.55" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_left_default = IconArrowHeadedUpLeft;
   }
 });
@@ -1330,7 +1330,7 @@ __export(arrow_headed_up_right_exports, {
 var IconArrowHeadedUpRight, arrow_headed_up_right_default;
 var init_arrow_headed_up_right = __esm({
   "lib/icons/arrow-headed-up-right.ts"() {
-    IconArrowHeadedUpRight = `<svg id="arrow-headed-up-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="54 37.09 54 18 34.91 18 54 37.09" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="54 37.09 54 18 34.91 18 54 37.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.18" y1="49.82" x2="44.45" y2="27.55" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUpRight = `<svg id="arrow-headed-up-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="54 37.09 54 18 34.91 18 54 37.09" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="54 37.09 54 18 34.91 18 54 37.09" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="22.18" y1="49.82" x2="44.45" y2="27.55" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_right_default = IconArrowHeadedUpRight;
   }
 });
@@ -1344,7 +1344,7 @@ __export(arrow_headed_up_stop76_exports, {
 var IconArrowHeadedUpStop76, arrow_headed_up_stop76_default;
 var init_arrow_headed_up_stop76 = __esm({
   "lib/icons/arrow-headed-up-stop76.ts"() {
-    IconArrowHeadedUpStop76 = `<svg id="arrow-headed-up-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 49.5 49.5 36 36 22.5 36 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="36 49.5 49.5 36 36 22.5 36 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="22.5" x2="58.5" y2="49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUpStop76 = `<svg id="arrow-headed-up-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 49.5 49.5 36 36 22.5 36 49.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="36 49.5 49.5 36 36 22.5 36 49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="13.5" y1="36" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="22.5" x2="58.5" y2="49.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_stop76_default = IconArrowHeadedUpStop76;
   }
 });
@@ -1358,7 +1358,7 @@ __export(arrow_headed_up_stop78_exports, {
 var IconArrowHeadedUpStop78, arrow_headed_up_stop78_default;
 var init_arrow_headed_up_stop78 = __esm({
   "lib/icons/arrow-headed-up-stop78.ts"() {
-    IconArrowHeadedUpStop78 = `<svg id="arrow-headed-up-stop-2" data-name="arrow-headed-up-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 36 36 22.5 22.5 36 49.5 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 36 36 22.5 22.5 36 49.5 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="13.5" x2="22.5" y2="13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUpStop78 = `<svg id="arrow-headed-up-stop-2" data-name="arrow-headed-up-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 36 36 22.5 22.5 36 49.5 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 36 36 22.5 22.5 36 49.5 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="49.5" y1="13.5" x2="22.5" y2="13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_stop78_default = IconArrowHeadedUpStop78;
   }
 });
@@ -1372,7 +1372,7 @@ __export(arrow_headed_up_exports, {
 var IconArrowHeadedUp, arrow_headed_up_default;
 var init_arrow_headed_up = __esm({
   "lib/icons/arrow-headed-up.ts"() {
-    IconArrowHeadedUp = `<svg id="arrow-headed-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    IconArrowHeadedUp = `<svg id="arrow-headed-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="58.5" x2="36" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_headed_up_default = IconArrowHeadedUp;
   }
 });
@@ -1386,7 +1386,7 @@ __export(arrow_headed_upload_exports, {
 var IconArrowHeadedUpload, arrow_headed_upload_default;
 var init_arrow_headed_upload = __esm({
   "lib/icons/arrow-headed-upload.ts"() {
-    IconArrowHeadedUpload = `<svg id="arrow-headed-upload" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="49.5" x2="36" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,49.5l-1.74,3.47c-1.69,3.39-5.16,5.53-8.94,5.53H19.68c-3.79,0-7.25-2.14-8.94-5.53l-1.74-3.47" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke-width: 0px;"/></svg>`;
+    IconArrowHeadedUpload = `<svg id="arrow-headed-upload" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="49.5" x2="36" y2="27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M63,49.5l-1.74,3.47c-1.69,3.39-5.16,5.53-8.94,5.53H19.68c-3.79,0-7.25-2.14-8.94-5.53l-1.74-3.47" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polygon points="49.5 27 36 13.5 22.5 27 49.5 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/></svg>`;
     arrow_headed_upload_default = IconArrowHeadedUpload;
   }
 });
@@ -1794,6 +1794,342 @@ var init_arrow_spread = __esm({
   "lib/icons/arrow-spread.ts"() {
     IconArrowSpread = `<svg id="arrow-spread" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><line x1="13.5" y1="58.5" x2="58.5" y2="13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="58.5" y1="58.5" x2="13.5" y2="13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="13.5 45.77 13.5 58.5 26.23 58.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="58.5 26.23 58.5 13.5 45.77 13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="45.77 58.5 58.5 58.5 58.5 45.77" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="26.23 13.5 13.5 13.5 13.5 26.23" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
     arrow_spread_default = IconArrowSpread;
+  }
+});
+
+// lib/icons/arrow-thick-bottom-left.ts
+var arrow_thick_bottom_left_exports = {};
+__export(arrow_thick_bottom_left_exports, {
+  IconArrowThickBottomLeft: () => IconArrowThickBottomLeft,
+  default: () => arrow_thick_bottom_left_default
+});
+var IconArrowThickBottomLeft, arrow_thick_bottom_left_default;
+var init_arrow_thick_bottom_left = __esm({
+  "lib/icons/arrow-thick-bottom-left.ts"() {
+    IconArrowThickBottomLeft = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="43.95 43.02 56.68 30.3 43.95 17.57 31.23 30.3 21.68 20.75 21.68 52.57 53.5 52.57 43.95 43.02" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="43.95 43.02 56.68 30.3 43.95 17.57 31.23 30.3 21.68 20.75 21.68 52.57 53.5 52.57 43.95 43.02" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_bottom_left_default = IconArrowThickBottomLeft;
+  }
+});
+
+// lib/icons/arrow-thick-down.ts
+var arrow_thick_down_exports = {};
+__export(arrow_thick_down_exports, {
+  IconArrowThickDown: () => IconArrowThickDown,
+  default: () => arrow_thick_down_default
+});
+var IconArrowThickDown, arrow_thick_down_default;
+var init_arrow_thick_down = __esm({
+  "lib/icons/arrow-thick-down.ts"() {
+    IconArrowThickDown = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="45 36 45 18 27 18 27 36 13.5 36 36 58.5 58.5 36 45 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="45 36 45 18 27 18 27 36 13.5 36 36 58.5 58.5 36 45 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_down_default = IconArrowThickDown;
+  }
+});
+
+// lib/icons/arrow-thick-left-top.ts
+var arrow_thick_left_top_exports = {};
+__export(arrow_thick_left_top_exports, {
+  IconArrowThickLeftTop: () => IconArrowThickLeftTop,
+  default: () => arrow_thick_left_top_default
+});
+var IconArrowThickLeftTop, arrow_thick_left_top_default;
+var init_arrow_thick_left_top = __esm({
+  "lib/icons/arrow-thick-left-top.ts"() {
+    IconArrowThickLeftTop = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="31.23 46.2 43.95 58.93 56.68 46.2 43.95 33.48 53.5 23.93 21.68 23.93 21.68 55.75 31.23 46.2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="31.23 46.2 43.95 58.93 56.68 46.2 43.95 33.48 53.5 23.93 21.68 23.93 21.68 55.75 31.23 46.2" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_left_top_default = IconArrowThickLeftTop;
+  }
+});
+
+// lib/icons/arrow-thick-left.ts
+var arrow_thick_left_exports = {};
+__export(arrow_thick_left_exports, {
+  IconArrowThickLeft: () => IconArrowThickLeft,
+  default: () => arrow_thick_left_default
+});
+var IconArrowThickLeft, arrow_thick_left_default;
+var init_arrow_thick_left = __esm({
+  "lib/icons/arrow-thick-left.ts"() {
+    IconArrowThickLeft = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="38.25 47.25 56.25 47.25 56.25 29.25 38.25 29.25 38.25 15.75 15.75 38.25 38.25 60.75 38.25 47.25" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="38.25 47.25 56.25 47.25 56.25 29.25 38.25 29.25 38.25 15.75 15.75 38.25 38.25 60.75 38.25 47.25" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_left_default = IconArrowThickLeft;
+  }
+});
+
+// lib/icons/arrow-thick-right-bottom.ts
+var arrow_thick_right_bottom_exports = {};
+__export(arrow_thick_right_bottom_exports, {
+  IconArrowThickRightBottom: () => IconArrowThickRightBottom,
+  default: () => arrow_thick_right_bottom_default
+});
+var IconArrowThickRightBottom, arrow_thick_right_bottom_default;
+var init_arrow_thick_right_bottom = __esm({
+  "lib/icons/arrow-thick-right-bottom.ts"() {
+    IconArrowThickRightBottom = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="40.77 30.3 28.05 17.57 15.32 30.3 28.05 43.02 18.5 52.57 50.32 52.57 50.32 20.75 40.77 30.3" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="40.77 30.3 28.05 17.57 15.32 30.3 28.05 43.02 18.5 52.57 50.32 52.57 50.32 20.75 40.77 30.3" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_right_bottom_default = IconArrowThickRightBottom;
+  }
+});
+
+// lib/icons/arrow-thick-right.ts
+var arrow_thick_right_exports = {};
+__export(arrow_thick_right_exports, {
+  IconArrowThickRight: () => IconArrowThickRight,
+  default: () => arrow_thick_right_default
+});
+var IconArrowThickRight, arrow_thick_right_default;
+var init_arrow_thick_right = __esm({
+  "lib/icons/arrow-thick-right.ts"() {
+    IconArrowThickRight = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="33.75 29.25 15.75 29.25 15.75 47.25 33.75 47.25 33.75 60.75 56.25 38.25 33.75 15.75 33.75 29.25" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="33.75 29.25 15.75 29.25 15.75 47.25 33.75 47.25 33.75 60.75 56.25 38.25 33.75 15.75 33.75 29.25" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_right_default = IconArrowThickRight;
+  }
+});
+
+// lib/icons/arrow-thick-tall-bottom-left.ts
+var arrow_thick_tall_bottom_left_exports = {};
+__export(arrow_thick_tall_bottom_left_exports, {
+  IconArrowThickTallBottomLeft: () => IconArrowThickTallBottomLeft,
+  default: () => arrow_thick_tall_bottom_left_default
+});
+var IconArrowThickTallBottomLeft, arrow_thick_tall_bottom_left_default;
+var init_arrow_thick_tall_bottom_left = __esm({
+  "lib/icons/arrow-thick-tall-bottom-left.ts"() {
+    IconArrowThickTallBottomLeft = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="48.73 36 61.46 23.27 48.73 10.54 36 23.27 26.45 13.73 16.91 55.09 58.27 45.55 48.73 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="48.73 36 61.46 23.27 48.73 10.54 36 23.27 26.45 13.73 16.91 55.09 58.27 45.55 48.73 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_bottom_left_default = IconArrowThickTallBottomLeft;
+  }
+});
+
+// lib/icons/arrow-thick-tall-down.ts
+var arrow_thick_tall_down_exports = {};
+__export(arrow_thick_tall_down_exports, {
+  IconArrowThickTallDown: () => IconArrowThickTallDown,
+  default: () => arrow_thick_tall_down_default
+});
+var IconArrowThickTallDown, arrow_thick_tall_down_default;
+var init_arrow_thick_tall_down = __esm({
+  "lib/icons/arrow-thick-tall-down.ts"() {
+    IconArrowThickTallDown = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="45 27 45 9 27 9 27 27 13.5 27 36 63 58.5 27 45 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="45 27 45 9 27 9 27 27 13.5 27 36 63 58.5 27 45 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_down_default = IconArrowThickTallDown;
+  }
+});
+
+// lib/icons/arrow-thick-tall-left-top.ts
+var arrow_thick_tall_left_top_exports = {};
+__export(arrow_thick_tall_left_top_exports, {
+  IconArrowThickTallLeftTop: () => IconArrowThickTallLeftTop,
+  default: () => arrow_thick_tall_left_top_default
+});
+var IconArrowThickTallLeftTop, arrow_thick_tall_left_top_default;
+var init_arrow_thick_tall_left_top = __esm({
+  "lib/icons/arrow-thick-tall-left-top.ts"() {
+    IconArrowThickTallLeftTop = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 48.73 48.73 61.46 61.46 48.73 48.73 36 58.27 26.45 16.91 16.91 26.45 58.27 36 48.73" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="36 48.73 48.73 61.46 61.46 48.73 48.73 36 58.27 26.45 16.91 16.91 26.45 58.27 36 48.73" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_left_top_default = IconArrowThickTallLeftTop;
+  }
+});
+
+// lib/icons/arrow-thick-tall-left.ts
+var arrow_thick_tall_left_exports = {};
+__export(arrow_thick_tall_left_exports, {
+  IconArrowThickTallLeft: () => IconArrowThickTallLeft,
+  default: () => arrow_thick_tall_left_default
+});
+var IconArrowThickTallLeft, arrow_thick_tall_left_default;
+var init_arrow_thick_tall_left = __esm({
+  "lib/icons/arrow-thick-tall-left.ts"() {
+    IconArrowThickTallLeft = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="45 45 63 45 63 27 45 27 45 13.5 9 36 45 58.5 45 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="45 45 63 45 63 27 45 27 45 13.5 9 36 45 58.5 45 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_left_default = IconArrowThickTallLeft;
+  }
+});
+
+// lib/icons/arrow-thick-tall-right-bottom.ts
+var arrow_thick_tall_right_bottom_exports = {};
+__export(arrow_thick_tall_right_bottom_exports, {
+  IconArrowThickTallRightBottom: () => IconArrowThickTallRightBottom,
+  default: () => arrow_thick_tall_right_bottom_default
+});
+var IconArrowThickTallRightBottom, arrow_thick_tall_right_bottom_default;
+var init_arrow_thick_tall_right_bottom = __esm({
+  "lib/icons/arrow-thick-tall-right-bottom.ts"() {
+    IconArrowThickTallRightBottom = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="36 23.27 23.27 10.54 10.54 23.27 23.27 36 13.73 45.55 55.09 55.09 45.55 13.73 36 23.27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="36 23.27 23.27 10.54 10.54 23.27 23.27 36 13.73 45.55 55.09 55.09 45.55 13.73 36 23.27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_right_bottom_default = IconArrowThickTallRightBottom;
+  }
+});
+
+// lib/icons/arrow-thick-tall-right.ts
+var arrow_thick_tall_right_exports = {};
+__export(arrow_thick_tall_right_exports, {
+  IconArrowThickTallRight: () => IconArrowThickTallRight,
+  default: () => arrow_thick_tall_right_default
+});
+var IconArrowThickTallRight, arrow_thick_tall_right_default;
+var init_arrow_thick_tall_right = __esm({
+  "lib/icons/arrow-thick-tall-right.ts"() {
+    IconArrowThickTallRight = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 27 9 27 9 45 27 45 27 58.5 63 36 27 13.5 27 27" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="27 27 9 27 9 45 27 45 27 58.5 63 36 27 13.5 27 27" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_right_default = IconArrowThickTallRight;
+  }
+});
+
+// lib/icons/arrow-thick-tall-top-right.ts
+var arrow_thick_tall_top_right_exports = {};
+__export(arrow_thick_tall_top_right_exports, {
+  IconArrowThickTallTopRight: () => IconArrowThickTallTopRight,
+  default: () => arrow_thick_tall_top_right_default
+});
+var IconArrowThickTallTopRight, arrow_thick_tall_top_right_default;
+var init_arrow_thick_tall_top_right = __esm({
+  "lib/icons/arrow-thick-tall-top-right.ts"() {
+    IconArrowThickTallTopRight = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="23.27 36 10.54 48.73 23.27 61.46 36 48.73 45.55 58.27 55.09 16.91 13.73 26.45 23.27 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="23.27 36 10.54 48.73 23.27 61.46 36 48.73 45.55 58.27 55.09 16.91 13.73 26.45 23.27 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_top_right_default = IconArrowThickTallTopRight;
+  }
+});
+
+// lib/icons/arrow-thick-tall-up.ts
+var arrow_thick_tall_up_exports = {};
+__export(arrow_thick_tall_up_exports, {
+  IconArrowThickTallUp: () => IconArrowThickTallUp,
+  default: () => arrow_thick_tall_up_default
+});
+var IconArrowThickTallUp, arrow_thick_tall_up_default;
+var init_arrow_thick_tall_up = __esm({
+  "lib/icons/arrow-thick-tall-up.ts"() {
+    IconArrowThickTallUp = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 45 27 63 45 63 45 45 58.5 45 36 9 13.5 45 27 45" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="27 45 27 63 45 63 45 45 58.5 45 36 9 13.5 45 27 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_tall_up_default = IconArrowThickTallUp;
+  }
+});
+
+// lib/icons/arrow-thick-top-right.ts
+var arrow_thick_top_right_exports = {};
+__export(arrow_thick_top_right_exports, {
+  IconArrowThickTopRight: () => IconArrowThickTopRight,
+  default: () => arrow_thick_top_right_default
+});
+var IconArrowThickTopRight, arrow_thick_top_right_default;
+var init_arrow_thick_top_right = __esm({
+  "lib/icons/arrow-thick-top-right.ts"() {
+    IconArrowThickTopRight = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="28.05 33.48 15.32 46.2 28.05 58.93 40.77 46.2 50.32 55.75 50.32 23.93 18.5 23.93 28.05 33.48" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="28.05 33.48 15.32 46.2 28.05 58.93 40.77 46.2 50.32 55.75 50.32 23.93 18.5 23.93 28.05 33.48" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_top_right_default = IconArrowThickTopRight;
+  }
+});
+
+// lib/icons/arrow-thick-up.ts
+var arrow_thick_up_exports = {};
+__export(arrow_thick_up_exports, {
+  IconArrowThickUp: () => IconArrowThickUp,
+  default: () => arrow_thick_up_default
+});
+var IconArrowThickUp, arrow_thick_up_default;
+var init_arrow_thick_up = __esm({
+  "lib/icons/arrow-thick-up.ts"() {
+    IconArrowThickUp = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="27 40.5 27 58.5 45 58.5 45 40.5 58.5 40.5 36 18 13.5 40.5 27 40.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="27 40.5 27 58.5 45 58.5 45 40.5 58.5 40.5 36 18 13.5 40.5 27 40.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_up_default = IconArrowThickUp;
+  }
+});
+
+// lib/icons/arrow-thick-wide-bottom-left.ts
+var arrow_thick_wide_bottom_left_exports = {};
+__export(arrow_thick_wide_bottom_left_exports, {
+  IconArrowThickWideBottomLeft: () => IconArrowThickWideBottomLeft,
+  default: () => arrow_thick_wide_bottom_left_default
+});
+var IconArrowThickWideBottomLeft, arrow_thick_wide_bottom_left_default;
+var init_arrow_thick_wide_bottom_left = __esm({
+  "lib/icons/arrow-thick-wide-bottom-left.ts"() {
+    IconArrowThickWideBottomLeft = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="47.14 46.2 59.86 33.48 40.77 14.39 28.05 27.11 18.5 17.57 21.68 52.57 56.68 55.75 47.14 46.2" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="47.14 46.2 59.86 33.48 40.77 14.39 28.05 27.11 18.5 17.57 21.68 52.57 56.68 55.75 47.14 46.2" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_bottom_left_default = IconArrowThickWideBottomLeft;
+  }
+});
+
+// lib/icons/arrow-thick-wide-down.ts
+var arrow_thick_wide_down_exports = {};
+__export(arrow_thick_wide_down_exports, {
+  IconArrowThickWideDown: () => IconArrowThickWideDown,
+  default: () => arrow_thick_wide_down_default
+});
+var IconArrowThickWideDown, arrow_thick_wide_down_default;
+var init_arrow_thick_wide_down = __esm({
+  "lib/icons/arrow-thick-wide-down.ts"() {
+    IconArrowThickWideDown = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="49.5 36 49.5 18 22.5 18 22.5 36 9 36 36 58.5 63 36 49.5 36" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="49.5 36 49.5 18 22.5 18 22.5 36 9 36 36 58.5 63 36 49.5 36" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_down_default = IconArrowThickWideDown;
+  }
+});
+
+// lib/icons/arrow-thick-wide-left-top.ts
+var arrow_thick_wide_left_top_exports = {};
+__export(arrow_thick_wide_left_top_exports, {
+  IconArrowThickWideLeftTop: () => IconArrowThickWideLeftTop,
+  default: () => arrow_thick_wide_left_top_default
+});
+var IconArrowThickWideLeftTop, arrow_thick_wide_left_top_default;
+var init_arrow_thick_wide_left_top = __esm({
+  "lib/icons/arrow-thick-wide-left-top.ts"() {
+    IconArrowThickWideLeftTop = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="28.05 49.39 40.77 62.11 59.86 43.02 47.14 30.3 56.68 20.75 21.68 23.93 18.5 58.93 28.05 49.39" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="28.05 49.39 40.77 62.11 59.86 43.02 47.14 30.3 56.68 20.75 21.68 23.93 18.5 58.93 28.05 49.39" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_left_top_default = IconArrowThickWideLeftTop;
+  }
+});
+
+// lib/icons/arrow-thick-wide-left.ts
+var arrow_thick_wide_left_exports = {};
+__export(arrow_thick_wide_left_exports, {
+  IconArrowThickWideLeft: () => IconArrowThickWideLeft,
+  default: () => arrow_thick_wide_left_default
+});
+var IconArrowThickWideLeft, arrow_thick_wide_left_default;
+var init_arrow_thick_wide_left = __esm({
+  "lib/icons/arrow-thick-wide-left.ts"() {
+    IconArrowThickWideLeft = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="38.25 51.75 56.25 51.75 56.25 24.75 38.25 24.75 38.25 11.25 15.75 38.25 38.25 65.25 38.25 51.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="38.25 51.75 56.25 51.75 56.25 24.75 38.25 24.75 38.25 11.25 15.75 38.25 38.25 65.25 38.25 51.75" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_left_default = IconArrowThickWideLeft;
+  }
+});
+
+// lib/icons/arrow-thick-wide-right-bottom.ts
+var arrow_thick_wide_right_bottom_exports = {};
+__export(arrow_thick_wide_right_bottom_exports, {
+  IconArrowThickWideRightBottom: () => IconArrowThickWideRightBottom,
+  default: () => arrow_thick_wide_right_bottom_default
+});
+var IconArrowThickWideRightBottom, arrow_thick_wide_right_bottom_default;
+var init_arrow_thick_wide_right_bottom = __esm({
+  "lib/icons/arrow-thick-wide-right-bottom.ts"() {
+    IconArrowThickWideRightBottom = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="43.95 27.11 31.23 14.39 12.14 33.48 24.86 46.2 15.32 55.75 50.32 52.57 53.5 17.57 43.95 27.11" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="43.95 27.11 31.23 14.39 12.14 33.48 24.86 46.2 15.32 55.75 50.32 52.57 53.5 17.57 43.95 27.11" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_right_bottom_default = IconArrowThickWideRightBottom;
+  }
+});
+
+// lib/icons/arrow-thick-wide-right.ts
+var arrow_thick_wide_right_exports = {};
+__export(arrow_thick_wide_right_exports, {
+  IconArrowThickWideRight: () => IconArrowThickWideRight,
+  default: () => arrow_thick_wide_right_default
+});
+var IconArrowThickWideRight, arrow_thick_wide_right_default;
+var init_arrow_thick_wide_right = __esm({
+  "lib/icons/arrow-thick-wide-right.ts"() {
+    IconArrowThickWideRight = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="33.75 24.75 15.75 24.75 15.75 51.75 33.75 51.75 33.75 65.25 56.25 38.25 33.75 11.25 33.75 24.75" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="33.75 24.75 15.75 24.75 15.75 51.75 33.75 51.75 33.75 65.25 56.25 38.25 33.75 11.25 33.75 24.75" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_right_default = IconArrowThickWideRight;
+  }
+});
+
+// lib/icons/arrow-thick-wide-top-right.ts
+var arrow_thick_wide_top_right_exports = {};
+__export(arrow_thick_wide_top_right_exports, {
+  IconArrowThickWideTopRight: () => IconArrowThickWideTopRight,
+  default: () => arrow_thick_wide_top_right_default
+});
+var IconArrowThickWideTopRight, arrow_thick_wide_top_right_default;
+var init_arrow_thick_wide_top_right = __esm({
+  "lib/icons/arrow-thick-wide-top-right.ts"() {
+    IconArrowThickWideTopRight = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="24.86 30.3 12.14 43.02 31.23 62.11 43.95 49.39 53.5 58.93 50.32 23.93 15.32 20.75 24.86 30.3" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="24.86 30.3 12.14 43.02 31.23 62.11 43.95 49.39 53.5 58.93 50.32 23.93 15.32 20.75 24.86 30.3" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_top_right_default = IconArrowThickWideTopRight;
+  }
+});
+
+// lib/icons/arrow-thick-wide-up.ts
+var arrow_thick_wide_up_exports = {};
+__export(arrow_thick_wide_up_exports, {
+  IconArrowThickWideUp: () => IconArrowThickWideUp,
+  default: () => arrow_thick_wide_up_default
+});
+var IconArrowThickWideUp, arrow_thick_wide_up_default;
+var init_arrow_thick_wide_up = __esm({
+  "lib/icons/arrow-thick-wide-up.ts"() {
+    IconArrowThickWideUp = `<svg id="arrow-out-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="22.5 40.5 22.5 58.5 49.5 58.5 49.5 40.5 63 40.5 36 18 9 40.5 22.5 40.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="22.5 40.5 22.5 58.5 49.5 58.5 49.5 40.5 63 40.5 36 18 9 40.5 22.5 40.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+    arrow_thick_wide_up_default = IconArrowThickWideUp;
   }
 });
 
@@ -16564,16 +16900,472 @@ var init_icon_arrow_spread_svg = __esm({
   }
 });
 
+// lib/meta/icon_arrow-thick-bottom-left.svg.ts
+var icon_arrow_thick_bottom_left_svg_exports = {};
+__export(icon_arrow_thick_bottom_left_svg_exports, {
+  default: () => icon_arrow_thick_bottom_left_svg_default,
+  meta: () => meta128
+});
+var meta128, icon_arrow_thick_bottom_left_svg_default;
+var init_icon_arrow_thick_bottom_left_svg = __esm({
+  "lib/meta/icon_arrow-thick-bottom-left.svg.ts"() {
+    meta128 = {
+      description: "The arrow-thick-bottom-left icon depicts a thick arrow pointing towards the bottom left direction. It is commonly used to indicate movement or direction towards the bottom left.",
+      category: ["Arrows"],
+      tag: ["arrow", "thick", "bottom", "left", "direction", "movement", "pointer", "navigation", "interface", "symbol"],
+      title: "Arrow Thick Bottom Left"
+    };
+    icon_arrow_thick_bottom_left_svg_default = meta128;
+  }
+});
+
+// lib/meta/icon_arrow-thick-down.svg.ts
+var icon_arrow_thick_down_svg_exports = {};
+__export(icon_arrow_thick_down_svg_exports, {
+  default: () => icon_arrow_thick_down_svg_default,
+  meta: () => meta129
+});
+var meta129, icon_arrow_thick_down_svg_default;
+var init_icon_arrow_thick_down_svg = __esm({
+  "lib/meta/icon_arrow-thick-down.svg.ts"() {
+    meta129 = {
+      description: "The arrow-thick-down icon is a bold, thick arrow pointing downwards. It is commonly used to indicate a downward direction or to prompt users to scroll down on a webpage.",
+      category: ["Arrows"],
+      tag: ["arrow", "thick", "down", "direction", "scroll", "navigation", "web design", "user interface", "pointer", "click"],
+      title: "Arrow Thick Down"
+    };
+    icon_arrow_thick_down_svg_default = meta129;
+  }
+});
+
+// lib/meta/icon_arrow-thick-left-top.svg.ts
+var icon_arrow_thick_left_top_svg_exports = {};
+__export(icon_arrow_thick_left_top_svg_exports, {
+  default: () => icon_arrow_thick_left_top_svg_default,
+  meta: () => meta130
+});
+var meta130, icon_arrow_thick_left_top_svg_default;
+var init_icon_arrow_thick_left_top_svg = __esm({
+  "lib/meta/icon_arrow-thick-left-top.svg.ts"() {
+    meta130 = {
+      description: "The arrow-thick-left-top icon points towards the top left direction with a bold and thick design. It signifies moving or navigating to the top left corner.",
+      category: ["Arrows", "Interface"],
+      tag: ["arrow", "direction", "top left", "navigation", "moving", "thick arrow", "bold arrow"],
+      title: "Arrow Thick Left Top"
+    };
+    icon_arrow_thick_left_top_svg_default = meta130;
+  }
+});
+
+// lib/meta/icon_arrow-thick-left.svg.ts
+var icon_arrow_thick_left_svg_exports = {};
+__export(icon_arrow_thick_left_svg_exports, {
+  default: () => icon_arrow_thick_left_svg_default,
+  meta: () => meta131
+});
+var meta131, icon_arrow_thick_left_svg_default;
+var init_icon_arrow_thick_left_svg = __esm({
+  "lib/meta/icon_arrow-thick-left.svg.ts"() {
+    meta131 = {
+      description: "The arrow-thick-left icon is a bold arrow pointing to the left, indicating a navigation or directional action. It is designed to stand out and catch the user's attention easily.",
+      category: ["Arrows", "Interface"],
+      tag: ["navigation", "directional", "pointer", "left arrow", "bold", "symbol", "icon design", "UI", "UX", "arrow icon"],
+      title: "Arrow Thick Left"
+    };
+    icon_arrow_thick_left_svg_default = meta131;
+  }
+});
+
+// lib/meta/icon_arrow-thick-right-bottom.svg.ts
+var icon_arrow_thick_right_bottom_svg_exports = {};
+__export(icon_arrow_thick_right_bottom_svg_exports, {
+  default: () => icon_arrow_thick_right_bottom_svg_default,
+  meta: () => meta132
+});
+var meta132, icon_arrow_thick_right_bottom_svg_default;
+var init_icon_arrow_thick_right_bottom_svg = __esm({
+  "lib/meta/icon_arrow-thick-right-bottom.svg.ts"() {
+    meta132 = {
+      description: "The arrow-thick-right-bottom icon indicates a thick arrow pointing towards the bottom-right direction. It is commonly used to represent navigation, progression, or movement to the lower right position.",
+      category: ["Arrows"],
+      tag: ["arrow", "direction", "navigation", "progression", "move", "bottom", "right", "point", "graphic", "symbol"],
+      title: "Arrow Thick Right Bottom"
+    };
+    icon_arrow_thick_right_bottom_svg_default = meta132;
+  }
+});
+
+// lib/meta/icon_arrow-thick-right.svg.ts
+var icon_arrow_thick_right_svg_exports = {};
+__export(icon_arrow_thick_right_svg_exports, {
+  default: () => icon_arrow_thick_right_svg_default,
+  meta: () => meta133
+});
+var meta133, icon_arrow_thick_right_svg_default;
+var init_icon_arrow_thick_right_svg = __esm({
+  "lib/meta/icon_arrow-thick-right.svg.ts"() {
+    meta133 = {
+      description: "The arrow-thick-right icon is a bold and large arrow pointing to the right, symbolizing movement, navigation, and progression. This icon is commonly used in user interfaces to indicate 'next,' 'forward,' 'continue,' or 'go to the next step' actions.",
+      category: ["Arrows", "Interface"],
+      tag: ["arrow", "thick", "right", "movement", "navigation", "progression", "forward", "next", "continue", "interface"],
+      title: "Arrow Thick Right"
+    };
+    icon_arrow_thick_right_svg_default = meta133;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-bottom-left.svg.ts
+var icon_arrow_thick_tall_bottom_left_svg_exports = {};
+__export(icon_arrow_thick_tall_bottom_left_svg_exports, {
+  default: () => icon_arrow_thick_tall_bottom_left_svg_default,
+  meta: () => meta134
+});
+var meta134, icon_arrow_thick_tall_bottom_left_svg_default;
+var init_icon_arrow_thick_tall_bottom_left_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-bottom-left.svg.ts"() {
+    meta134 = {
+      description: "An icon representing a thick arrow pointing towards the bottom left direction, commonly used for navigation and indicating movement or direction.",
+      category: ["Arrows"],
+      tag: ["arrow", "direction", "navigation", "thick", "bottom left", "movement", "pointer", "symbol", "sign", "interface"],
+      title: "Arrow Thick Tall Bottom Left"
+    };
+    icon_arrow_thick_tall_bottom_left_svg_default = meta134;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-down.svg.ts
+var icon_arrow_thick_tall_down_svg_exports = {};
+__export(icon_arrow_thick_tall_down_svg_exports, {
+  default: () => icon_arrow_thick_tall_down_svg_default,
+  meta: () => meta135
+});
+var meta135, icon_arrow_thick_tall_down_svg_default;
+var init_icon_arrow_thick_tall_down_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-down.svg.ts"() {
+    meta135 = {
+      description: "An arrow icon with a thick vertical line pointing downwards, indicating a downward direction or scrolling action.",
+      category: ["Arrows"],
+      tag: ["arrow", "thick", "tall", "down", "direction", "scroll", "navigation", "graphic", "symbol", "interface"],
+      title: "Arrow Thick Tall Down"
+    };
+    icon_arrow_thick_tall_down_svg_default = meta135;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-left -top.svg.ts
+var icon_arrow_thick_tall_left_top_svg_exports = {};
+__export(icon_arrow_thick_tall_left_top_svg_exports, {
+  default: () => icon_arrow_thick_tall_left_top_svg_default,
+  meta: () => meta136
+});
+var meta136, icon_arrow_thick_tall_left_top_svg_default;
+var init_icon_arrow_thick_tall_left_top_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-left -top.svg.ts"() {
+    meta136 = {
+      description: "The arrow-thick-tall-left -top icon represents a large, bold left-facing arrow pointing upwards. This icon is commonly used to indicate scrolling up or navigating to the top of a page or document.",
+      category: ["Arrows", "Interface"],
+      tag: ["arrow", "thick", "tall", "left", "up", "scroll", "navigate", "page", "document", "top"],
+      title: "Thick Tall Left Arrow - Top"
+    };
+    icon_arrow_thick_tall_left_top_svg_default = meta136;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-left.svg.ts
+var icon_arrow_thick_tall_left_svg_exports = {};
+__export(icon_arrow_thick_tall_left_svg_exports, {
+  default: () => icon_arrow_thick_tall_left_svg_default,
+  meta: () => meta137
+});
+var meta137, icon_arrow_thick_tall_left_svg_default;
+var init_icon_arrow_thick_tall_left_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-left.svg.ts"() {
+    meta137 = {
+      description: "The arrow-thick-tall-left icon is a bold and tall arrow pointing towards the left direction. This icon is commonly used to indicate navigation or to guide the user to go back to the previous step.",
+      category: ["Arrows"],
+      tag: ["arrow", "left", "direction", "navigation", "back", "tall", "thick", "bold", "pointer"],
+      title: "Arrow Thick Tall Left"
+    };
+    icon_arrow_thick_tall_left_svg_default = meta137;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-right-bottom.svg.ts
+var icon_arrow_thick_tall_right_bottom_svg_exports = {};
+__export(icon_arrow_thick_tall_right_bottom_svg_exports, {
+  default: () => icon_arrow_thick_tall_right_bottom_svg_default,
+  meta: () => meta138
+});
+var meta138, icon_arrow_thick_tall_right_bottom_svg_default;
+var init_icon_arrow_thick_tall_right_bottom_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-right-bottom.svg.ts"() {
+    meta138 = {
+      description: "An icon of a thick arrow pointing towards the bottom right direction. This icon is tall and bold, making it stand out on the screen.",
+      category: ["Arrows", "Interface"],
+      tag: ["tall", "thick", "direction", "navigation", "pointer", "movement", "graphic", "symbol", "indicator"],
+      title: "Arrow Thick Tall Right Bottom"
+    };
+    icon_arrow_thick_tall_right_bottom_svg_default = meta138;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-right.svg.ts
+var icon_arrow_thick_tall_right_svg_exports = {};
+__export(icon_arrow_thick_tall_right_svg_exports, {
+  default: () => icon_arrow_thick_tall_right_svg_default,
+  meta: () => meta139
+});
+var meta139, icon_arrow_thick_tall_right_svg_default;
+var init_icon_arrow_thick_tall_right_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-right.svg.ts"() {
+    meta139 = {
+      description: "The arrow-thick-tall-right icon is a bold and tall arrow pointing to the right. It is commonly used to indicate moving forward, navigating to the next step, or scrolling to the right.",
+      category: ["Arrows"],
+      tag: ["arrow", "tall", "thick", "right", "forward", "navigation", "next", "scroll", "direction", "symbol"],
+      title: "Arrow Thick Tall Right"
+    };
+    icon_arrow_thick_tall_right_svg_default = meta139;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-top-right.svg.ts
+var icon_arrow_thick_tall_top_right_svg_exports = {};
+__export(icon_arrow_thick_tall_top_right_svg_exports, {
+  default: () => icon_arrow_thick_tall_top_right_svg_default,
+  meta: () => meta140
+});
+var meta140, icon_arrow_thick_tall_top_right_svg_default;
+var init_icon_arrow_thick_tall_top_right_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-top-right.svg.ts"() {
+    meta140 = {
+      description: "The arrow-thick-tall-top-right icon is a bold and tall arrow pointing towards the top-right direction. It is designed to stand out and draw attention to the top-right corner of a design or interface.",
+      category: ["Arrows", "Interface"],
+      tag: ["arrow", "thick", "tall", "top", "right", "direction", "bold", "pointing", "interface", "design"],
+      title: "Arrow Thick Tall Top Right"
+    };
+    icon_arrow_thick_tall_top_right_svg_default = meta140;
+  }
+});
+
+// lib/meta/icon_arrow-thick-tall-up.svg.ts
+var icon_arrow_thick_tall_up_svg_exports = {};
+__export(icon_arrow_thick_tall_up_svg_exports, {
+  default: () => icon_arrow_thick_tall_up_svg_default,
+  meta: () => meta141
+});
+var meta141, icon_arrow_thick_tall_up_svg_default;
+var init_icon_arrow_thick_tall_up_svg = __esm({
+  "lib/meta/icon_arrow-thick-tall-up.svg.ts"() {
+    meta141 = {
+      description: "The arrow-thick-tall-up icon features a bold and tall upward arrow symbol, indicating an action or direction moving upwards.",
+      category: ["Arrows", "Shapes"],
+      tag: ["arrow", "up arrow", "thick arrow", "tall arrow", "navigation", "direction", "move up", "increase", "scroll"],
+      title: "Arrow Thick Tall Up"
+    };
+    icon_arrow_thick_tall_up_svg_default = meta141;
+  }
+});
+
+// lib/meta/icon_arrow-thick-top-right.svg.ts
+var icon_arrow_thick_top_right_svg_exports = {};
+__export(icon_arrow_thick_top_right_svg_exports, {
+  default: () => icon_arrow_thick_top_right_svg_default,
+  meta: () => meta142
+});
+var meta142, icon_arrow_thick_top_right_svg_default;
+var init_icon_arrow_thick_top_right_svg = __esm({
+  "lib/meta/icon_arrow-thick-top-right.svg.ts"() {
+    meta142 = {
+      description: "The arrow-thick-top-right icon indicates a directional pointer pointing towards the top right direction. It can be used to show upward and rightward movement or navigation.",
+      category: ["Arrows"],
+      tag: ["Arrow", "Direction", "Top", "Right", "Movement", "Navigation", "Pointer", "Horizontal", "Vertical", "Thick"],
+      title: "Arrow Thick Top Right"
+    };
+    icon_arrow_thick_top_right_svg_default = meta142;
+  }
+});
+
+// lib/meta/icon_arrow-thick-up.svg.ts
+var icon_arrow_thick_up_svg_exports = {};
+__export(icon_arrow_thick_up_svg_exports, {
+  default: () => icon_arrow_thick_up_svg_default,
+  meta: () => meta143
+});
+var meta143, icon_arrow_thick_up_svg_default;
+var init_icon_arrow_thick_up_svg = __esm({
+  "lib/meta/icon_arrow-thick-up.svg.ts"() {
+    meta143 = {
+      description: "The arrow-thick-up icon is a bold and prominent arrow pointing upwards. It symbolizes moving up, progress, and growth. This icon is commonly used to indicate scrolling to the top of a page or returning to the beginning of a list.",
+      category: ["Arrows", "Interface"],
+      tag: ["arrow", "thick", "up", "direction", "scroll", "progress", "growth", "navigation", "move", "point"],
+      title: "Arrow Thick Up"
+    };
+    icon_arrow_thick_up_svg_default = meta143;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-bottom-left.svg.ts
+var icon_arrow_thick_wide_bottom_left_svg_exports = {};
+__export(icon_arrow_thick_wide_bottom_left_svg_exports, {
+  default: () => icon_arrow_thick_wide_bottom_left_svg_default,
+  meta: () => meta144
+});
+var meta144, icon_arrow_thick_wide_bottom_left_svg_default;
+var init_icon_arrow_thick_wide_bottom_left_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-bottom-left.svg.ts"() {
+    meta144 = {
+      description: "The arrow-thick-wide-bottom-left icon is a bold and wide arrow pointing downwards and to the left. This icon is great for indicating directions, movements, or navigation in a prominent and clear way.",
+      category: ["Arrows"],
+      tag: ["direction", "movement", "navigation", "bold", "wide", "arrow", "left", "down", "pointer", "symbol"],
+      title: "Arrow Thick Wide Bottom Left"
+    };
+    icon_arrow_thick_wide_bottom_left_svg_default = meta144;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-down.svg.ts
+var icon_arrow_thick_wide_down_svg_exports = {};
+__export(icon_arrow_thick_wide_down_svg_exports, {
+  default: () => icon_arrow_thick_wide_down_svg_default,
+  meta: () => meta145
+});
+var meta145, icon_arrow_thick_wide_down_svg_default;
+var init_icon_arrow_thick_wide_down_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-down.svg.ts"() {
+    meta145 = {
+      description: "The 'Arrow Thick Wide Down' icon depicts a bold and wide arrow pointing downward. It is commonly used to indicate a downward direction or to signify downloading.",
+      category: ["Arrows"],
+      tag: ["down", "direction", "indicator", "download", "navigation", "button", "pointer", "bold", "wide", "arrow"],
+      title: "Arrow Thick Wide Down"
+    };
+    icon_arrow_thick_wide_down_svg_default = meta145;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-left-top.svg.ts
+var icon_arrow_thick_wide_left_top_svg_exports = {};
+__export(icon_arrow_thick_wide_left_top_svg_exports, {
+  default: () => icon_arrow_thick_wide_left_top_svg_default,
+  meta: () => meta146
+});
+var meta146, icon_arrow_thick_wide_left_top_svg_default;
+var init_icon_arrow_thick_wide_left_top_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-left-top.svg.ts"() {
+    meta146 = {
+      description: "The arrow-thick-wide-left-top icon is an arrow pointing to the top-left direction. This bold and wide arrow indicates motion or direction towards the upper left corner.",
+      category: ["Arrows"],
+      tag: ["arrow", "thick", "wide", "left", "top", "direction", "motion", "symbol", "navigation", "pointer"],
+      title: "Arrow Thick Wide Left Top"
+    };
+    icon_arrow_thick_wide_left_top_svg_default = meta146;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-left.svg.ts
+var icon_arrow_thick_wide_left_svg_exports = {};
+__export(icon_arrow_thick_wide_left_svg_exports, {
+  default: () => icon_arrow_thick_wide_left_svg_default,
+  meta: () => meta147
+});
+var meta147, icon_arrow_thick_wide_left_svg_default;
+var init_icon_arrow_thick_wide_left_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-left.svg.ts"() {
+    meta147 = {
+      description: "An icon of a wide left arrow, indicating movement or navigation to the left.",
+      category: ["Arrows"],
+      tag: ["navigation", "direction", "movement", "left", "arrow", "wide", "symbol", "interface", "pointer", "chevron"],
+      title: "Arrow Thick Wide Left"
+    };
+    icon_arrow_thick_wide_left_svg_default = meta147;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-right-bottom.svg.ts
+var icon_arrow_thick_wide_right_bottom_svg_exports = {};
+__export(icon_arrow_thick_wide_right_bottom_svg_exports, {
+  default: () => icon_arrow_thick_wide_right_bottom_svg_default,
+  meta: () => meta148
+});
+var meta148, icon_arrow_thick_wide_right_bottom_svg_default;
+var init_icon_arrow_thick_wide_right_bottom_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-right-bottom.svg.ts"() {
+    meta148 = {
+      description: "An icon depicting a thick wide arrow pointing towards the bottom right direction. This arrow can be used to indicate scrolling, progression, or navigation.",
+      category: ["Arrows", "Interface"],
+      tag: ["arrow", "thick", "wide", "right", "bottom", "direction", "scrolling", "navigation", "progression", "pointer"],
+      title: "Arrow Thick Wide Right Bottom"
+    };
+    icon_arrow_thick_wide_right_bottom_svg_default = meta148;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-right.svg.ts
+var icon_arrow_thick_wide_right_svg_exports = {};
+__export(icon_arrow_thick_wide_right_svg_exports, {
+  default: () => icon_arrow_thick_wide_right_svg_default,
+  meta: () => meta149
+});
+var meta149, icon_arrow_thick_wide_right_svg_default;
+var init_icon_arrow_thick_wide_right_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-right.svg.ts"() {
+    meta149 = {
+      description: "The arrow-thick-wide-right icon is a bold and wide arrow pointing to the right, symbolizing movement in that direction. The thick design makes it easy to see and follow.",
+      category: ["Arrows"],
+      tag: ["arrow", "thick", "wide", "right", "direction", "movement", "navigation", "bold", "symbol", "simple"],
+      title: "Arrow Thick Wide Right"
+    };
+    icon_arrow_thick_wide_right_svg_default = meta149;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-top-right.svg.ts
+var icon_arrow_thick_wide_top_right_svg_exports = {};
+__export(icon_arrow_thick_wide_top_right_svg_exports, {
+  default: () => icon_arrow_thick_wide_top_right_svg_default,
+  meta: () => meta150
+});
+var meta150, icon_arrow_thick_wide_top_right_svg_default;
+var init_icon_arrow_thick_wide_top_right_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-top-right.svg.ts"() {
+    meta150 = {
+      description: "This icon depicts a wide arrow pointing towards the top right direction. It is bold and easily recognizable, suitable for indicating movement or direction in various designs.",
+      category: ["Arrows"],
+      tag: ["arrow", "thick", "wide", "top", "right", "direction", "movement", "navigation", "indicator", "graphic"],
+      title: "Arrow Thick Wide Top Right"
+    };
+    icon_arrow_thick_wide_top_right_svg_default = meta150;
+  }
+});
+
+// lib/meta/icon_arrow-thick-wide-up.svg.ts
+var icon_arrow_thick_wide_up_svg_exports = {};
+__export(icon_arrow_thick_wide_up_svg_exports, {
+  default: () => icon_arrow_thick_wide_up_svg_default,
+  meta: () => meta151
+});
+var meta151, icon_arrow_thick_wide_up_svg_default;
+var init_icon_arrow_thick_wide_up_svg = __esm({
+  "lib/meta/icon_arrow-thick-wide-up.svg.ts"() {
+    meta151 = {
+      description: "The arrow-thick-wide-up icon is a bold and wide arrow pointing upwards. It signifies upward movement, growth, or increase. This icon is commonly used in various digital interfaces to indicate 'go to top' or 'scroll up' functionalities.",
+      category: ["Arrows", "Interface"],
+      tag: ["arrow", "thick", "wide", "up", "direction", "movement", "growth", "scroll", "interface", "navigation"],
+      title: "Arrow Thick Wide Up"
+    };
+    icon_arrow_thick_wide_up_svg_default = meta151;
+  }
+});
+
 // lib/meta/icon_arrow-transfer-bl-tr.svg.ts
 var icon_arrow_transfer_bl_tr_svg_exports = {};
 __export(icon_arrow_transfer_bl_tr_svg_exports, {
   default: () => icon_arrow_transfer_bl_tr_svg_default,
-  meta: () => meta128
+  meta: () => meta152
 });
-var meta128, icon_arrow_transfer_bl_tr_svg_default;
+var meta152, icon_arrow_transfer_bl_tr_svg_default;
 var init_icon_arrow_transfer_bl_tr_svg = __esm({
   "lib/meta/icon_arrow-transfer-bl-tr.svg.ts"() {
-    meta128 = {
+    meta152 = {
       "description": "The arrow-transfer-bl-tr icon represents a transfer of something from bottom left to top right direction. It can be used to indicate a movement or transition.",
       "category": [
         "Arrows"
@@ -16592,7 +17384,7 @@ var init_icon_arrow_transfer_bl_tr_svg = __esm({
       ],
       "title": "Arrow Transfer Bottom Left to Top Right"
     };
-    icon_arrow_transfer_bl_tr_svg_default = meta128;
+    icon_arrow_transfer_bl_tr_svg_default = meta152;
   }
 });
 
@@ -16600,12 +17392,12 @@ var init_icon_arrow_transfer_bl_tr_svg = __esm({
 var icon_arrow_transfer_left_right_svg_exports = {};
 __export(icon_arrow_transfer_left_right_svg_exports, {
   default: () => icon_arrow_transfer_left_right_svg_default,
-  meta: () => meta129
+  meta: () => meta153
 });
-var meta129, icon_arrow_transfer_left_right_svg_default;
+var meta153, icon_arrow_transfer_left_right_svg_default;
 var init_icon_arrow_transfer_left_right_svg = __esm({
   "lib/meta/icon_arrow-transfer-left-right.svg.ts"() {
-    meta129 = {
+    meta153 = {
       "description": "An icon depicting an arrow pointing to the left, crossing over another arrow pointing to the right. This symbolizes the transfer or exchange of something from left to right or vice versa.",
       "category": [
         "Arrows",
@@ -16624,7 +17416,7 @@ var init_icon_arrow_transfer_left_right_svg = __esm({
       ],
       "title": "Arrow Transfer Left Right"
     };
-    icon_arrow_transfer_left_right_svg_default = meta129;
+    icon_arrow_transfer_left_right_svg_default = meta153;
   }
 });
 
@@ -16632,12 +17424,12 @@ var init_icon_arrow_transfer_left_right_svg = __esm({
 var icon_arrow_transfer_lt_br_svg_exports = {};
 __export(icon_arrow_transfer_lt_br_svg_exports, {
   default: () => icon_arrow_transfer_lt_br_svg_default,
-  meta: () => meta130
+  meta: () => meta154
 });
-var meta130, icon_arrow_transfer_lt_br_svg_default;
+var meta154, icon_arrow_transfer_lt_br_svg_default;
 var init_icon_arrow_transfer_lt_br_svg = __esm({
   "lib/meta/icon_arrow-transfer-lt-br.svg.ts"() {
-    meta130 = {
+    meta154 = {
       "description": "An icon depicting an arrow transferring from the top left to the bottom right direction. It symbolizes a transfer or movement from one place to another.",
       "category": [
         "Arrows"
@@ -16655,7 +17447,7 @@ var init_icon_arrow_transfer_lt_br_svg = __esm({
       ],
       "title": "Arrow Transfer Left to Bottom Right"
     };
-    icon_arrow_transfer_lt_br_svg_default = meta130;
+    icon_arrow_transfer_lt_br_svg_default = meta154;
   }
 });
 
@@ -16663,12 +17455,12 @@ var init_icon_arrow_transfer_lt_br_svg = __esm({
 var icon_arrow_transfer_up_down_svg_exports = {};
 __export(icon_arrow_transfer_up_down_svg_exports, {
   default: () => icon_arrow_transfer_up_down_svg_default,
-  meta: () => meta131
+  meta: () => meta155
 });
-var meta131, icon_arrow_transfer_up_down_svg_default;
+var meta155, icon_arrow_transfer_up_down_svg_default;
 var init_icon_arrow_transfer_up_down_svg = __esm({
   "lib/meta/icon_arrow-transfer-up-down.svg.ts"() {
-    meta131 = {
+    meta155 = {
       "description": "The arrow-transfer-up-down icon features an arrow pointing up and down, symbolizing transfer or movement in both directions. It can be used to represent various actions such as syncing data, transferring files, or indicating bi-directional movement.",
       "category": [
         "Arrows",
@@ -16688,7 +17480,7 @@ var init_icon_arrow_transfer_up_down_svg = __esm({
       ],
       "title": "Arrow Transfer Up Down"
     };
-    icon_arrow_transfer_up_down_svg_default = meta131;
+    icon_arrow_transfer_up_down_svg_default = meta155;
   }
 });
 
@@ -16696,12 +17488,12 @@ var init_icon_arrow_transfer_up_down_svg = __esm({
 var icon_arrow_twoway_diagonal_lr_svg_exports = {};
 __export(icon_arrow_twoway_diagonal_lr_svg_exports, {
   default: () => icon_arrow_twoway_diagonal_lr_svg_default,
-  meta: () => meta132
+  meta: () => meta156
 });
-var meta132, icon_arrow_twoway_diagonal_lr_svg_default;
+var meta156, icon_arrow_twoway_diagonal_lr_svg_default;
 var init_icon_arrow_twoway_diagonal_lr_svg = __esm({
   "lib/meta/icon_arrow-twoway-diagonal-lr.svg.ts"() {
-    meta132 = {
+    meta156 = {
       "description": "An icon depicting a two-way arrow moving diagonally from left to right. This icon is typically used to represent bidirectional movement or communication.",
       "category": [
         "Arrows",
@@ -16720,7 +17512,7 @@ var init_icon_arrow_twoway_diagonal_lr_svg = __esm({
       ],
       "title": "Arrow Two-Way Diagonal Left to Right"
     };
-    icon_arrow_twoway_diagonal_lr_svg_default = meta132;
+    icon_arrow_twoway_diagonal_lr_svg_default = meta156;
   }
 });
 
@@ -16728,12 +17520,12 @@ var init_icon_arrow_twoway_diagonal_lr_svg = __esm({
 var icon_arrow_twoway_diagonal_rl_svg_exports = {};
 __export(icon_arrow_twoway_diagonal_rl_svg_exports, {
   default: () => icon_arrow_twoway_diagonal_rl_svg_default,
-  meta: () => meta133
+  meta: () => meta157
 });
-var meta133, icon_arrow_twoway_diagonal_rl_svg_default;
+var meta157, icon_arrow_twoway_diagonal_rl_svg_default;
 var init_icon_arrow_twoway_diagonal_rl_svg = __esm({
   "lib/meta/icon_arrow-twoway-diagonal-rl.svg.ts"() {
-    meta133 = {
+    meta157 = {
       "description": "The arrow twoway diagonal rl icon represents a two-way arrow pointing diagonally from right to left. It symbolizes bidirectional movement or transfer of data between two points.",
       "category": [
         "Arrows"
@@ -16751,7 +17543,7 @@ var init_icon_arrow_twoway_diagonal_rl_svg = __esm({
       ],
       "title": "Arrow Two-Way Diagonal Right to Left"
     };
-    icon_arrow_twoway_diagonal_rl_svg_default = meta133;
+    icon_arrow_twoway_diagonal_rl_svg_default = meta157;
   }
 });
 
@@ -16759,12 +17551,12 @@ var init_icon_arrow_twoway_diagonal_rl_svg = __esm({
 var icon_arrow_twoway_horizontal_svg_exports = {};
 __export(icon_arrow_twoway_horizontal_svg_exports, {
   default: () => icon_arrow_twoway_horizontal_svg_default,
-  meta: () => meta134
+  meta: () => meta158
 });
-var meta134, icon_arrow_twoway_horizontal_svg_default;
+var meta158, icon_arrow_twoway_horizontal_svg_default;
 var init_icon_arrow_twoway_horizontal_svg = __esm({
   "lib/meta/icon_arrow-twoway-horizontal.svg.ts"() {
-    meta134 = {
+    meta158 = {
       "description": "An icon representing a two-way horizontal arrow, indicating bidirectional movement or exchange in both directions.",
       "category": [
         "Arrows",
@@ -16784,7 +17576,7 @@ var init_icon_arrow_twoway_horizontal_svg = __esm({
       ],
       "title": "Two-Way Horizontal Arrow"
     };
-    icon_arrow_twoway_horizontal_svg_default = meta134;
+    icon_arrow_twoway_horizontal_svg_default = meta158;
   }
 });
 
@@ -16792,12 +17584,12 @@ var init_icon_arrow_twoway_horizontal_svg = __esm({
 var icon_arrow_twoway_vertical_svg_exports = {};
 __export(icon_arrow_twoway_vertical_svg_exports, {
   default: () => icon_arrow_twoway_vertical_svg_default,
-  meta: () => meta135
+  meta: () => meta159
 });
-var meta135, icon_arrow_twoway_vertical_svg_default;
+var meta159, icon_arrow_twoway_vertical_svg_default;
 var init_icon_arrow_twoway_vertical_svg = __esm({
   "lib/meta/icon_arrow-twoway-vertical.svg.ts"() {
-    meta135 = {
+    meta159 = {
       "description": "The arrow-twoway-vertical icon represents a vertical direction change, indicating reversible movement up and down.",
       "category": [
         "Arrows"
@@ -16816,7 +17608,7 @@ var init_icon_arrow_twoway_vertical_svg = __esm({
       ],
       "title": "Arrow Two-Way Vertical"
     };
-    icon_arrow_twoway_vertical_svg_default = meta135;
+    icon_arrow_twoway_vertical_svg_default = meta159;
   }
 });
 
@@ -16824,12 +17616,12 @@ var init_icon_arrow_twoway_vertical_svg = __esm({
 var icon_arrow_up_copy_svg_exports = {};
 __export(icon_arrow_up_copy_svg_exports, {
   default: () => icon_arrow_up_copy_svg_default,
-  meta: () => meta136
+  meta: () => meta160
 });
-var meta136, icon_arrow_up_copy_svg_default;
+var meta160, icon_arrow_up_copy_svg_default;
 var init_icon_arrow_up_copy_svg = __esm({
   "lib/meta/icon_arrow-up copy.svg.ts"() {
-    meta136 = {
+    meta160 = {
       "description": "The 'arrow-up copy' icon is a simple arrow pointing upwards. It can be used to indicate an upward direction or to encourage users to scroll up on a webpage.",
       "category": [
         "Arrows"
@@ -16848,7 +17640,7 @@ var init_icon_arrow_up_copy_svg = __esm({
       ],
       "title": "Arrow Up Copy"
     };
-    icon_arrow_up_copy_svg_default = meta136;
+    icon_arrow_up_copy_svg_default = meta160;
   }
 });
 
@@ -16856,12 +17648,12 @@ var init_icon_arrow_up_copy_svg = __esm({
 var icon_arrow_up_down_split_svg_exports = {};
 __export(icon_arrow_up_down_split_svg_exports, {
   default: () => icon_arrow_up_down_split_svg_default,
-  meta: () => meta137
+  meta: () => meta161
 });
-var meta137, icon_arrow_up_down_split_svg_default;
+var meta161, icon_arrow_up_down_split_svg_default;
 var init_icon_arrow_up_down_split_svg = __esm({
   "lib/meta/icon_arrow-up-down-split.svg.ts"() {
-    meta137 = {
+    meta161 = {
       "description": "The arrow-up-down-split icon depicts a single arrow splitting into two arrows moving in opposite directions. This icon is commonly used to represent the actions of expanding or collapsing a section, as well as indicating upward and downward movements simultaneously.",
       "category": [
         "Arrows",
@@ -16881,7 +17673,7 @@ var init_icon_arrow_up_down_split_svg = __esm({
       ],
       "title": "Arrow Up Down Split"
     };
-    icon_arrow_up_down_split_svg_default = meta137;
+    icon_arrow_up_down_split_svg_default = meta161;
   }
 });
 
@@ -16889,12 +17681,12 @@ var init_icon_arrow_up_down_split_svg = __esm({
 var icon_arrow_up_down_stop_svg_exports = {};
 __export(icon_arrow_up_down_stop_svg_exports, {
   default: () => icon_arrow_up_down_stop_svg_default,
-  meta: () => meta138
+  meta: () => meta162
 });
-var meta138, icon_arrow_up_down_stop_svg_default;
+var meta162, icon_arrow_up_down_stop_svg_default;
 var init_icon_arrow_up_down_stop_svg = __esm({
   "lib/meta/icon_arrow-up-down-stop.svg.ts"() {
-    meta138 = {
+    meta162 = {
       "description": "The arrow-up-down-stop icon indicates the ability to move the selection both upwards and downwards while having the option to stop the process. It is commonly used for navigation or sorting purposes in user interfaces.",
       "category": [
         "Arrows",
@@ -16913,7 +17705,7 @@ var init_icon_arrow_up_down_stop_svg = __esm({
       ],
       "title": "Arrow Up Down Stop"
     };
-    icon_arrow_up_down_stop_svg_default = meta138;
+    icon_arrow_up_down_stop_svg_default = meta162;
   }
 });
 
@@ -16921,12 +17713,12 @@ var init_icon_arrow_up_down_stop_svg = __esm({
 var icon_arrow_up_down_svg_exports = {};
 __export(icon_arrow_up_down_svg_exports, {
   default: () => icon_arrow_up_down_svg_default,
-  meta: () => meta139
+  meta: () => meta163
 });
-var meta139, icon_arrow_up_down_svg_default;
+var meta163, icon_arrow_up_down_svg_default;
 var init_icon_arrow_up_down_svg = __esm({
   "lib/meta/icon_arrow-up-down.svg.ts"() {
-    meta139 = {
+    meta163 = {
       "description": "The arrow-up-down icon features a simple, vertical arrow pointing upwards and downwards. It represents the action of moving up or down, indicating navigation or sorting options.",
       "category": [
         "Arrows",
@@ -16946,7 +17738,7 @@ var init_icon_arrow_up_down_svg = __esm({
       ],
       "title": "Arrow Up Down"
     };
-    icon_arrow_up_down_svg_default = meta139;
+    icon_arrow_up_down_svg_default = meta163;
   }
 });
 
@@ -16954,12 +17746,12 @@ var init_icon_arrow_up_down_svg = __esm({
 var icon_arrow_up_left_svg_exports = {};
 __export(icon_arrow_up_left_svg_exports, {
   default: () => icon_arrow_up_left_svg_default,
-  meta: () => meta140
+  meta: () => meta164
 });
-var meta140, icon_arrow_up_left_svg_default;
+var meta164, icon_arrow_up_left_svg_default;
 var init_icon_arrow_up_left_svg = __esm({
   "lib/meta/icon_arrow-up-left.svg.ts"() {
-    meta140 = {
+    meta164 = {
       "description": "The icon displays an arrow pointing diagonally upwards and left. It symbolizes a direction or movement towards the top left corner.",
       "category": [
         "Arrows",
@@ -16978,7 +17770,7 @@ var init_icon_arrow_up_left_svg = __esm({
       ],
       "title": "Arrow Up Left"
     };
-    icon_arrow_up_left_svg_default = meta140;
+    icon_arrow_up_left_svg_default = meta164;
   }
 });
 
@@ -16986,12 +17778,12 @@ var init_icon_arrow_up_left_svg = __esm({
 var icon_arrow_up_right_svg_exports = {};
 __export(icon_arrow_up_right_svg_exports, {
   default: () => icon_arrow_up_right_svg_default,
-  meta: () => meta141
+  meta: () => meta165
 });
-var meta141, icon_arrow_up_right_svg_default;
+var meta165, icon_arrow_up_right_svg_default;
 var init_icon_arrow_up_right_svg = __esm({
   "lib/meta/icon_arrow-up-right.svg.ts"() {
-    meta141 = {
+    meta165 = {
       "description": "The arrow-up-right icon depicts an arrow pointing diagonally upwards and to the right. This icon is commonly used to indicate the direction to move upwards and to the right.",
       "category": [
         "Arrows"
@@ -17010,7 +17802,7 @@ var init_icon_arrow_up_right_svg = __esm({
       ],
       "title": "Arrow Up Right"
     };
-    icon_arrow_up_right_svg_default = meta141;
+    icon_arrow_up_right_svg_default = meta165;
   }
 });
 
@@ -17018,12 +17810,12 @@ var init_icon_arrow_up_right_svg = __esm({
 var icon_arrow_up_svg_exports = {};
 __export(icon_arrow_up_svg_exports, {
   default: () => icon_arrow_up_svg_default,
-  meta: () => meta142
+  meta: () => meta166
 });
-var meta142, icon_arrow_up_svg_default;
+var meta166, icon_arrow_up_svg_default;
 var init_icon_arrow_up_svg = __esm({
   "lib/meta/icon_arrow-up.svg.ts"() {
-    meta142 = {
+    meta166 = {
       "description": "An icon depicting an upward pointing arrow, symbolizing moving up, increasing, or scrolling to the top.",
       "category": [
         "Arrows"
@@ -17042,7 +17834,7 @@ var init_icon_arrow_up_svg = __esm({
       ],
       "title": "Arrow Up"
     };
-    icon_arrow_up_svg_default = meta142;
+    icon_arrow_up_svg_default = meta166;
   }
 });
 
@@ -17050,12 +17842,12 @@ var init_icon_arrow_up_svg = __esm({
 var icon_arrow_upload_svg_exports = {};
 __export(icon_arrow_upload_svg_exports, {
   default: () => icon_arrow_upload_svg_default,
-  meta: () => meta143
+  meta: () => meta167
 });
-var meta143, icon_arrow_upload_svg_default;
+var meta167, icon_arrow_upload_svg_default;
 var init_icon_arrow_upload_svg = __esm({
   "lib/meta/icon_arrow-upload.svg.ts"() {
-    meta143 = {
+    meta167 = {
       "description": "An icon depicting an arrow pointing upwards, indicating the action of uploading. This icon is commonly used in interfaces to symbolize file upload or data transfer.",
       "category": [
         "Arrows",
@@ -17075,7 +17867,7 @@ var init_icon_arrow_upload_svg = __esm({
       ],
       "title": "Arrow Upload"
     };
-    icon_arrow_upload_svg_default = meta143;
+    icon_arrow_upload_svg_default = meta167;
   }
 });
 
@@ -17083,12 +17875,12 @@ var init_icon_arrow_upload_svg = __esm({
 var icon_chevron_connect_2_svg_exports = {};
 __export(icon_chevron_connect_2_svg_exports, {
   default: () => icon_chevron_connect_2_svg_default,
-  meta: () => meta144
+  meta: () => meta168
 });
-var meta144, icon_chevron_connect_2_svg_default;
+var meta168, icon_chevron_connect_2_svg_default;
 var init_icon_chevron_connect_2_svg = __esm({
   "lib/meta/icon_chevron-connect 2.svg.ts"() {
-    meta144 = {
+    meta168 = {
       "description": "The chevron-connect 2 icon represents a connection or link between two points. It features two chevron arrows pointing towards each other, indicating a connection or continuation. This icon is commonly used in interface design to symbolize a flow or transition between different sections.",
       "category": [
         "Arrows",
@@ -17109,7 +17901,7 @@ var init_icon_chevron_connect_2_svg = __esm({
       ],
       "title": "Chevron Connect 2"
     };
-    icon_chevron_connect_2_svg_default = meta144;
+    icon_chevron_connect_2_svg_default = meta168;
   }
 });
 
@@ -17117,12 +17909,12 @@ var init_icon_chevron_connect_2_svg = __esm({
 var icon_chevron_connect_svg_exports = {};
 __export(icon_chevron_connect_svg_exports, {
   default: () => icon_chevron_connect_svg_default,
-  meta: () => meta145
+  meta: () => meta169
 });
-var meta145, icon_chevron_connect_svg_default;
+var meta169, icon_chevron_connect_svg_default;
 var init_icon_chevron_connect_svg = __esm({
   "lib/meta/icon_chevron-connect.svg.ts"() {
-    meta145 = {
+    meta169 = {
       "description": "The chevron-connect icon is a symbol representing a connection or linking between two elements. It consists of two chevron shapes pointing towards each other, indicating a pathway or direct association.",
       "category": [
         "Arrows",
@@ -17143,7 +17935,7 @@ var init_icon_chevron_connect_svg = __esm({
       ],
       "title": "Chevron Connect"
     };
-    icon_chevron_connect_svg_default = meta145;
+    icon_chevron_connect_svg_default = meta169;
   }
 });
 
@@ -17151,12 +17943,12 @@ var init_icon_chevron_connect_svg = __esm({
 var icon_chevron_disconnect_2_svg_exports = {};
 __export(icon_chevron_disconnect_2_svg_exports, {
   default: () => icon_chevron_disconnect_2_svg_default,
-  meta: () => meta146
+  meta: () => meta170
 });
-var meta146, icon_chevron_disconnect_2_svg_default;
+var meta170, icon_chevron_disconnect_2_svg_default;
 var init_icon_chevron_disconnect_2_svg = __esm({
   "lib/meta/icon_chevron-disconnect 2.svg.ts"() {
-    meta146 = {
+    meta170 = {
       "description": "A symbol depicting a chevron arrow pointing downwards, indicating a disconnection or removal. The icon is designed with a modern and sleek style.",
       "category": [
         "Arrows",
@@ -17176,7 +17968,7 @@ var init_icon_chevron_disconnect_2_svg = __esm({
       ],
       "title": "Chevron Disconnect 2"
     };
-    icon_chevron_disconnect_2_svg_default = meta146;
+    icon_chevron_disconnect_2_svg_default = meta170;
   }
 });
 
@@ -17184,12 +17976,12 @@ var init_icon_chevron_disconnect_2_svg = __esm({
 var icon_chevron_disconnect_svg_exports = {};
 __export(icon_chevron_disconnect_svg_exports, {
   default: () => icon_chevron_disconnect_svg_default,
-  meta: () => meta147
+  meta: () => meta171
 });
-var meta147, icon_chevron_disconnect_svg_default;
+var meta171, icon_chevron_disconnect_svg_default;
 var init_icon_chevron_disconnect_svg = __esm({
   "lib/meta/icon_chevron-disconnect.svg.ts"() {
-    meta147 = {
+    meta171 = {
       "description": "A disconnect arrow icon, indicating separation or disconnecting action.",
       "category": [
         "Arrows"
@@ -17208,7 +18000,7 @@ var init_icon_chevron_disconnect_svg = __esm({
       ],
       "title": "Chevron Disconnect"
     };
-    icon_chevron_disconnect_svg_default = meta147;
+    icon_chevron_disconnect_svg_default = meta171;
   }
 });
 
@@ -17216,12 +18008,12 @@ var init_icon_chevron_disconnect_svg = __esm({
 var icon_chevron_double_down_svg_exports = {};
 __export(icon_chevron_double_down_svg_exports, {
   default: () => icon_chevron_double_down_svg_default,
-  meta: () => meta148
+  meta: () => meta172
 });
-var meta148, icon_chevron_double_down_svg_default;
+var meta172, icon_chevron_double_down_svg_default;
 var init_icon_chevron_double_down_svg = __esm({
   "lib/meta/icon_chevron-double-down.svg.ts"() {
-    meta148 = {
+    meta172 = {
       "description": "The chevron double down icon is typically used to indicate to users to double tap or further expand a section on a website or application. It usually signifies additional content below or within a page.",
       "category": [
         "Arrows"
@@ -17240,7 +18032,7 @@ var init_icon_chevron_double_down_svg = __esm({
       ],
       "title": "Chevron Double Down"
     };
-    icon_chevron_double_down_svg_default = meta148;
+    icon_chevron_double_down_svg_default = meta172;
   }
 });
 
@@ -17248,12 +18040,12 @@ var init_icon_chevron_double_down_svg = __esm({
 var icon_chevron_double_left_svg_exports = {};
 __export(icon_chevron_double_left_svg_exports, {
   default: () => icon_chevron_double_left_svg_default,
-  meta: () => meta149
+  meta: () => meta173
 });
-var meta149, icon_chevron_double_left_svg_default;
+var meta173, icon_chevron_double_left_svg_default;
 var init_icon_chevron_double_left_svg = __esm({
   "lib/meta/icon_chevron-double-left.svg.ts"() {
-    meta149 = {
+    meta173 = {
       "description": "The chevron-double-left icon is a double arrow pointing to the left, commonly used to indicate moving back to the previous page or section.",
       "category": [
         "Arrows"
@@ -17271,7 +18063,7 @@ var init_icon_chevron_double_left_svg = __esm({
       ],
       "title": "Chevron Double Left"
     };
-    icon_chevron_double_left_svg_default = meta149;
+    icon_chevron_double_left_svg_default = meta173;
   }
 });
 
@@ -17279,12 +18071,12 @@ var init_icon_chevron_double_left_svg = __esm({
 var icon_chevron_double_right_svg_exports = {};
 __export(icon_chevron_double_right_svg_exports, {
   default: () => icon_chevron_double_right_svg_default,
-  meta: () => meta150
+  meta: () => meta174
 });
-var meta150, icon_chevron_double_right_svg_default;
+var meta174, icon_chevron_double_right_svg_default;
 var init_icon_chevron_double_right_svg = __esm({
   "lib/meta/icon_chevron-double-right.svg.ts"() {
-    meta150 = {
+    meta174 = {
       "description": "The chevron-double-right icon is a pair of arrows pointing to the right, representing forward movement or indicating the next step in a process.",
       "category": [
         "Arrows",
@@ -17304,7 +18096,7 @@ var init_icon_chevron_double_right_svg = __esm({
       ],
       "title": "Chevron Double Right"
     };
-    icon_chevron_double_right_svg_default = meta150;
+    icon_chevron_double_right_svg_default = meta174;
   }
 });
 
@@ -17312,12 +18104,12 @@ var init_icon_chevron_double_right_svg = __esm({
 var icon_chevron_double_up_svg_exports = {};
 __export(icon_chevron_double_up_svg_exports, {
   default: () => icon_chevron_double_up_svg_default,
-  meta: () => meta151
+  meta: () => meta175
 });
-var meta151, icon_chevron_double_up_svg_default;
+var meta175, icon_chevron_double_up_svg_default;
 var init_icon_chevron_double_up_svg = __esm({
   "lib/meta/icon_chevron-double-up.svg.ts"() {
-    meta151 = {
+    meta175 = {
       "description": "The chevron-double-up icon features two upward-pointing arrows stacked on top of each other. It is commonly used to indicate scrolling or moving to the top of a page or list.",
       "category": [
         "Arrows"
@@ -17336,7 +18128,7 @@ var init_icon_chevron_double_up_svg = __esm({
       ],
       "title": "Chevron Double Up"
     };
-    icon_chevron_double_up_svg_default = meta151;
+    icon_chevron_double_up_svg_default = meta175;
   }
 });
 
@@ -17344,12 +18136,12 @@ var init_icon_chevron_double_up_svg = __esm({
 var icon_chevron_down_svg_exports = {};
 __export(icon_chevron_down_svg_exports, {
   default: () => icon_chevron_down_svg_default,
-  meta: () => meta152
+  meta: () => meta176
 });
-var meta152, icon_chevron_down_svg_default;
+var meta176, icon_chevron_down_svg_default;
 var init_icon_chevron_down_svg = __esm({
   "lib/meta/icon_chevron-down.svg.ts"() {
-    meta152 = {
+    meta176 = {
       "description": "The chevron-down icon is a simple arrow pointing downwards. It is commonly used to indicate 'expand' or 'show more' actions in various interfaces.",
       "category": [
         "Arrows",
@@ -17369,7 +18161,7 @@ var init_icon_chevron_down_svg = __esm({
       ],
       "title": "Chevron Down"
     };
-    icon_chevron_down_svg_default = meta152;
+    icon_chevron_down_svg_default = meta176;
   }
 });
 
@@ -17377,12 +18169,12 @@ var init_icon_chevron_down_svg = __esm({
 var icon_chevron_left_svg_exports = {};
 __export(icon_chevron_left_svg_exports, {
   default: () => icon_chevron_left_svg_default,
-  meta: () => meta153
+  meta: () => meta177
 });
-var meta153, icon_chevron_left_svg_default;
+var meta177, icon_chevron_left_svg_default;
 var init_icon_chevron_left_svg = __esm({
   "lib/meta/icon_chevron-left.svg.ts"() {
-    meta153 = {
+    meta177 = {
       "description": "A left-facing chevron icon commonly used to indicate a previous or back action.",
       "category": [
         "Arrows"
@@ -17400,7 +18192,7 @@ var init_icon_chevron_left_svg = __esm({
       ],
       "title": "Chevron Left"
     };
-    icon_chevron_left_svg_default = meta153;
+    icon_chevron_left_svg_default = meta177;
   }
 });
 
@@ -17408,12 +18200,12 @@ var init_icon_chevron_left_svg = __esm({
 var icon_chevron_right_svg_exports = {};
 __export(icon_chevron_right_svg_exports, {
   default: () => icon_chevron_right_svg_default,
-  meta: () => meta154
+  meta: () => meta178
 });
-var meta154, icon_chevron_right_svg_default;
+var meta178, icon_chevron_right_svg_default;
 var init_icon_chevron_right_svg = __esm({
   "lib/meta/icon_chevron-right.svg.ts"() {
-    meta154 = {
+    meta178 = {
       "description": "The chevron-right icon is a symbol depicting a right-pointing arrow, typically used to indicate moving forward or navigating to the next item.",
       "category": [
         "Arrows"
@@ -17432,7 +18224,7 @@ var init_icon_chevron_right_svg = __esm({
       ],
       "title": "Chevron Right"
     };
-    icon_chevron_right_svg_default = meta154;
+    icon_chevron_right_svg_default = meta178;
   }
 });
 
@@ -17440,12 +18232,12 @@ var init_icon_chevron_right_svg = __esm({
 var icon_chevron_up_svg_exports = {};
 __export(icon_chevron_up_svg_exports, {
   default: () => icon_chevron_up_svg_default,
-  meta: () => meta155
+  meta: () => meta179
 });
-var meta155, icon_chevron_up_svg_default;
+var meta179, icon_chevron_up_svg_default;
 var init_icon_chevron_up_svg = __esm({
   "lib/meta/icon_chevron-up.svg.ts"() {
-    meta155 = {
+    meta179 = {
       "description": "An icon depicting an upwards-facing chevron arrow, commonly used to indicate scrolling to the top of a page or list.",
       "category": [
         "Arrows"
@@ -17464,7 +18256,7 @@ var init_icon_chevron_up_svg = __esm({
       ],
       "title": "Chevron Up"
     };
-    icon_chevron_up_svg_default = meta155;
+    icon_chevron_up_svg_default = meta179;
   }
 });
 
@@ -17472,12 +18264,12 @@ var init_icon_chevron_up_svg = __esm({
 var icon_01_svg_exports = {};
 __export(icon_01_svg_exports, {
   default: () => icon_01_svg_default,
-  meta: () => meta156
+  meta: () => meta180
 });
-var meta156, icon_01_svg_default;
+var meta180, icon_01_svg_default;
 var init_icon_01_svg = __esm({
   "lib/meta/icon-01.svg.ts"() {
-    meta156 = {
+    meta180 = {
       "description": "An icon representing a food or drink item, perfect for menus or restaurant-related projects.",
       "category": [
         "Food & Drinks"
@@ -17496,7 +18288,7 @@ var init_icon_01_svg = __esm({
       ],
       "title": "Icon 01"
     };
-    icon_01_svg_default = meta156;
+    icon_01_svg_default = meta180;
   }
 });
 
@@ -17504,12 +18296,12 @@ var init_icon_01_svg = __esm({
 var icon_bottle_svg_exports = {};
 __export(icon_bottle_svg_exports, {
   default: () => icon_bottle_svg_default,
-  meta: () => meta157
+  meta: () => meta181
 });
-var meta157, icon_bottle_svg_default;
+var meta181, icon_bottle_svg_default;
 var init_icon_bottle_svg = __esm({
   "lib/meta/icon_bottle.svg.ts"() {
-    meta157 = {
+    meta181 = {
       "description": "An icon representing a bottle, typically used for holding liquids such as water, juices, or beverages.",
       "category": [
         "Food-Drinks"
@@ -17528,7 +18320,7 @@ var init_icon_bottle_svg = __esm({
       ],
       "title": "Bottle"
     };
-    icon_bottle_svg_default = meta157;
+    icon_bottle_svg_default = meta181;
   }
 });
 
@@ -17536,12 +18328,12 @@ var init_icon_bottle_svg = __esm({
 var icon_bottles_svg_exports = {};
 __export(icon_bottles_svg_exports, {
   default: () => icon_bottles_svg_default,
-  meta: () => meta158
+  meta: () => meta182
 });
-var meta158, icon_bottles_svg_default;
+var meta182, icon_bottles_svg_default;
 var init_icon_bottles_svg = __esm({
   "lib/meta/icon_bottles.svg.ts"() {
-    meta158 = {
+    meta182 = {
       "description": "An icon representing bottles typically used for storing liquid beverages such as water, juice, or alcohol. The bottles are often made of glass or plastic and come in various shapes and sizes.",
       "category": [
         "Food-Drinks"
@@ -17560,7 +18352,7 @@ var init_icon_bottles_svg = __esm({
       ],
       "title": "Bottles"
     };
-    icon_bottles_svg_default = meta158;
+    icon_bottles_svg_default = meta182;
   }
 });
 
@@ -17568,12 +18360,12 @@ var init_icon_bottles_svg = __esm({
 var icon_bread_slice_svg_exports = {};
 __export(icon_bread_slice_svg_exports, {
   default: () => icon_bread_slice_svg_default,
-  meta: () => meta159
+  meta: () => meta183
 });
-var meta159, icon_bread_slice_svg_default;
+var meta183, icon_bread_slice_svg_default;
 var init_icon_bread_slice_svg = __esm({
   "lib/meta/icon_bread slice.svg.ts"() {
-    meta159 = {
+    meta183 = {
       "description": "A simple icon depicting a slice of bread, often used to represent bakery products or sandwiches.",
       "category": [
         "Food-Drinks"
@@ -17592,7 +18384,7 @@ var init_icon_bread_slice_svg = __esm({
       ],
       "title": "Bread Slice"
     };
-    icon_bread_slice_svg_default = meta159;
+    icon_bread_slice_svg_default = meta183;
   }
 });
 
@@ -17600,12 +18392,12 @@ var init_icon_bread_slice_svg = __esm({
 var icon_coffee_cup_svg_exports = {};
 __export(icon_coffee_cup_svg_exports, {
   default: () => icon_coffee_cup_svg_default,
-  meta: () => meta160
+  meta: () => meta184
 });
-var meta160, icon_coffee_cup_svg_default;
+var meta184, icon_coffee_cup_svg_default;
 var init_icon_coffee_cup_svg = __esm({
   "lib/meta/icon_coffee cup.svg.ts"() {
-    meta160 = {
+    meta184 = {
       "description": "A simple icon of a coffee cup, perfect for representing coffee, beverages, cafes, mornings, and relaxation.",
       "category": [
         "Food-Drinks",
@@ -17625,7 +18417,7 @@ var init_icon_coffee_cup_svg = __esm({
       ],
       "title": "Coffee Cup"
     };
-    icon_coffee_cup_svg_default = meta160;
+    icon_coffee_cup_svg_default = meta184;
   }
 });
 
@@ -17633,12 +18425,12 @@ var init_icon_coffee_cup_svg = __esm({
 var icon_coffee_machine_svg_exports = {};
 __export(icon_coffee_machine_svg_exports, {
   default: () => icon_coffee_machine_svg_default,
-  meta: () => meta161
+  meta: () => meta185
 });
-var meta161, icon_coffee_machine_svg_default;
+var meta185, icon_coffee_machine_svg_default;
 var init_icon_coffee_machine_svg = __esm({
   "lib/meta/icon_coffee machine.svg.ts"() {
-    meta161 = {
+    meta185 = {
       "description": "An icon representing a coffee machine, a device used to brew and dispense coffee. Typically found in homes, offices, and coffee shops.",
       "category": [
         "Food-Drinks",
@@ -17658,7 +18450,7 @@ var init_icon_coffee_machine_svg = __esm({
       ],
       "title": "Coffee Machine"
     };
-    icon_coffee_machine_svg_default = meta161;
+    icon_coffee_machine_svg_default = meta185;
   }
 });
 
@@ -17666,12 +18458,12 @@ var init_icon_coffee_machine_svg = __esm({
 var icon_coffee_beans_svg_exports = {};
 __export(icon_coffee_beans_svg_exports, {
   default: () => icon_coffee_beans_svg_default,
-  meta: () => meta162
+  meta: () => meta186
 });
-var meta162, icon_coffee_beans_svg_default;
+var meta186, icon_coffee_beans_svg_default;
 var init_icon_coffee_beans_svg = __esm({
   "lib/meta/icon_coffee-beans.svg.ts"() {
-    meta162 = {
+    meta186 = {
       "description": "Coffee beans icon representing a popular ingredient used to brew coffee, known for its rich flavor and aroma.",
       "category": [
         "Things"
@@ -17690,7 +18482,7 @@ var init_icon_coffee_beans_svg = __esm({
       ],
       "title": "Coffee Beans"
     };
-    icon_coffee_beans_svg_default = meta162;
+    icon_coffee_beans_svg_default = meta186;
   }
 });
 
@@ -17698,12 +18490,12 @@ var init_icon_coffee_beans_svg = __esm({
 var icon_cognac_glass_svg_exports = {};
 __export(icon_cognac_glass_svg_exports, {
   default: () => icon_cognac_glass_svg_default,
-  meta: () => meta163
+  meta: () => meta187
 });
-var meta163, icon_cognac_glass_svg_default;
+var meta187, icon_cognac_glass_svg_default;
 var init_icon_cognac_glass_svg = __esm({
   "lib/meta/icon_cognac glass.svg.ts"() {
-    meta163 = {
+    meta187 = {
       "description": "A stylized icon representing a cognac glass, typically used to serve cognac or other spirits.",
       "category": [
         "Food-Drinks",
@@ -17723,7 +18515,7 @@ var init_icon_cognac_glass_svg = __esm({
       ],
       "title": "Cognac Glass"
     };
-    icon_cognac_glass_svg_default = meta163;
+    icon_cognac_glass_svg_default = meta187;
   }
 });
 
@@ -17731,12 +18523,12 @@ var init_icon_cognac_glass_svg = __esm({
 var icon_espress_machine_2_svg_exports = {};
 __export(icon_espress_machine_2_svg_exports, {
   default: () => icon_espress_machine_2_svg_default,
-  meta: () => meta164
+  meta: () => meta188
 });
-var meta164, icon_espress_machine_2_svg_default;
+var meta188, icon_espress_machine_2_svg_default;
 var init_icon_espress_machine_2_svg = __esm({
   "lib/meta/icon_espress machine 2.svg.ts"() {
-    meta164 = {
+    meta188 = {
       "description": "Icon depicting a modern espresso machine, perfect for representing coffee culture, coffee shops, caffeine, beverages, and morning routines.",
       "category": [
         "Food-Drinks",
@@ -17756,7 +18548,7 @@ var init_icon_espress_machine_2_svg = __esm({
       ],
       "title": "Espresso Machine 2"
     };
-    icon_espress_machine_2_svg_default = meta164;
+    icon_espress_machine_2_svg_default = meta188;
   }
 });
 
@@ -17764,12 +18556,12 @@ var init_icon_espress_machine_2_svg = __esm({
 var icon_espresso_machine_e61_svg_exports = {};
 __export(icon_espresso_machine_e61_svg_exports, {
   default: () => icon_espresso_machine_e61_svg_default,
-  meta: () => meta165
+  meta: () => meta189
 });
-var meta165, icon_espresso_machine_e61_svg_default;
+var meta189, icon_espresso_machine_e61_svg_default;
 var init_icon_espresso_machine_e61_svg = __esm({
   "lib/meta/icon_espresso machine e61.svg.ts"() {
-    meta165 = {
+    meta189 = {
       "description": "An icon of an espresso machine model E61, a classic and popular choice among coffee enthusiasts for its reliability and quality of espresso extraction.",
       "category": [
         "Food-Drinks",
@@ -17788,7 +18580,7 @@ var init_icon_espresso_machine_e61_svg = __esm({
       ],
       "title": "Espresso Machine E61"
     };
-    icon_espresso_machine_e61_svg_default = meta165;
+    icon_espresso_machine_e61_svg_default = meta189;
   }
 });
 
@@ -17796,12 +18588,12 @@ var init_icon_espresso_machine_e61_svg = __esm({
 var icon_espresso_machine_svg_exports = {};
 __export(icon_espresso_machine_svg_exports, {
   default: () => icon_espresso_machine_svg_default,
-  meta: () => meta166
+  meta: () => meta190
 });
-var meta166, icon_espresso_machine_svg_default;
+var meta190, icon_espresso_machine_svg_default;
 var init_icon_espresso_machine_svg = __esm({
   "lib/meta/icon_espresso machine.svg.ts"() {
-    meta166 = {
+    meta190 = {
       "description": "An espresso machine is a device that brews coffee by forcing hot water through finely-ground coffee beans. It is commonly used to make espresso, a strong and concentrated coffee drink.",
       "category": [
         "Food-Drinks",
@@ -17821,7 +18613,7 @@ var init_icon_espresso_machine_svg = __esm({
       ],
       "title": "Espresso Machine"
     };
-    icon_espresso_machine_svg_default = meta166;
+    icon_espresso_machine_svg_default = meta190;
   }
 });
 
@@ -17829,12 +18621,12 @@ var init_icon_espresso_machine_svg = __esm({
 var icon_espresso_pistol_svg_exports = {};
 __export(icon_espresso_pistol_svg_exports, {
   default: () => icon_espresso_pistol_svg_default,
-  meta: () => meta167
+  meta: () => meta191
 });
-var meta167, icon_espresso_pistol_svg_default;
+var meta191, icon_espresso_pistol_svg_default;
 var init_icon_espresso_pistol_svg = __esm({
   "lib/meta/icon_espresso pistol.svg.ts"() {
-    meta167 = {
+    meta191 = {
       "description": "The espresso pistol icon features a unique design of a coffee machine combined with a pistol, symbolizing the powerful and intense flavor of espresso. It is a creative representation of the popular coffee beverage.",
       "category": [
         "Food-Drinks"
@@ -17853,7 +18645,7 @@ var init_icon_espresso_pistol_svg = __esm({
       ],
       "title": "Espresso Pistol"
     };
-    icon_espresso_pistol_svg_default = meta167;
+    icon_espresso_pistol_svg_default = meta191;
   }
 });
 
@@ -17861,12 +18653,12 @@ var init_icon_espresso_pistol_svg = __esm({
 var icon_hamburger_svg_exports = {};
 __export(icon_hamburger_svg_exports, {
   default: () => icon_hamburger_svg_default,
-  meta: () => meta168
+  meta: () => meta192
 });
-var meta168, icon_hamburger_svg_default;
+var meta192, icon_hamburger_svg_default;
 var init_icon_hamburger_svg = __esm({
   "lib/meta/icon_hamburger.svg.ts"() {
-    meta168 = {
+    meta192 = {
       "description": "The hamburger icon represents a popular type of food, typically associated with fast-food restaurants and casual dining. It consists of a patty, lettuce, tomato, and other fillings placed between two bun halves. The hamburger icon is commonly used to symbolize a menu or navigation option in digital interfaces.",
       "category": [
         "Food-Drinks",
@@ -17886,7 +18678,7 @@ var init_icon_hamburger_svg = __esm({
       ],
       "title": "Hamburger"
     };
-    icon_hamburger_svg_default = meta168;
+    icon_hamburger_svg_default = meta192;
   }
 });
 
@@ -17894,12 +18686,12 @@ var init_icon_hamburger_svg = __esm({
 var icon_perculator_svg_exports = {};
 __export(icon_perculator_svg_exports, {
   default: () => icon_perculator_svg_default,
-  meta: () => meta169
+  meta: () => meta193
 });
-var meta169, icon_perculator_svg_default;
+var meta193, icon_perculator_svg_default;
 var init_icon_perculator_svg = __esm({
   "lib/meta/icon_perculator.svg.ts"() {
-    meta169 = {
+    meta193 = {
       "description": "A percolator icon typically represents a coffee brewing device that brews coffee by continually cycling near-boiling water through the ground coffee beans until a desired coffee strength is reached. This icon can be used to symbolize coffee-making, coffee culture, and hot beverages.",
       "category": [
         "Food-Drinks",
@@ -17919,7 +18711,7 @@ var init_icon_perculator_svg = __esm({
       ],
       "title": "Perculator"
     };
-    icon_perculator_svg_default = meta169;
+    icon_perculator_svg_default = meta193;
   }
 });
 
@@ -17927,12 +18719,12 @@ var init_icon_perculator_svg = __esm({
 var icon_wine_glass_svg_exports = {};
 __export(icon_wine_glass_svg_exports, {
   default: () => icon_wine_glass_svg_default,
-  meta: () => meta170
+  meta: () => meta194
 });
-var meta170, icon_wine_glass_svg_default;
+var meta194, icon_wine_glass_svg_default;
 var init_icon_wine_glass_svg = __esm({
   "lib/meta/icon_wine glass.svg.ts"() {
-    meta170 = {
+    meta194 = {
       "description": "An icon representing a wine glass, typically used to symbolize alcoholic beverages or wine-related content.",
       "category": [
         "Food-Drinks",
@@ -17952,7 +18744,7 @@ var init_icon_wine_glass_svg = __esm({
       ],
       "title": "Wine Glass"
     };
-    icon_wine_glass_svg_default = meta170;
+    icon_wine_glass_svg_default = meta194;
   }
 });
 
@@ -17960,12 +18752,12 @@ var init_icon_wine_glass_svg = __esm({
 var icon_alarm_bell_2_svg_exports = {};
 __export(icon_alarm_bell_2_svg_exports, {
   default: () => icon_alarm_bell_2_svg_default,
-  meta: () => meta171
+  meta: () => meta195
 });
-var meta171, icon_alarm_bell_2_svg_default;
+var meta195, icon_alarm_bell_2_svg_default;
 var init_icon_alarm_bell_2_svg = __esm({
   "lib/meta/icon_alarm-bell-2.svg.ts"() {
-    meta171 = {
+    meta195 = {
       "description": "An icon of an alarm bell with two bells. It is commonly used to represent an alarm or notification in media applications.",
       "category": [
         "Media"
@@ -17984,7 +18776,7 @@ var init_icon_alarm_bell_2_svg = __esm({
       ],
       "title": "Alarm Bell 2"
     };
-    icon_alarm_bell_2_svg_default = meta171;
+    icon_alarm_bell_2_svg_default = meta195;
   }
 });
 
@@ -17992,12 +18784,12 @@ var init_icon_alarm_bell_2_svg = __esm({
 var icon_alarm_bell_3_svg_exports = {};
 __export(icon_alarm_bell_3_svg_exports, {
   default: () => icon_alarm_bell_3_svg_default,
-  meta: () => meta172
+  meta: () => meta196
 });
-var meta172, icon_alarm_bell_3_svg_default;
+var meta196, icon_alarm_bell_3_svg_default;
 var init_icon_alarm_bell_3_svg = __esm({
   "lib/meta/icon_alarm-bell-3.svg.ts"() {
-    meta172 = {
+    meta196 = {
       "description": "The alarm bell icon is a symbol representing an alert or notification. It features a bell with three sound waves emanating from it, indicating a loud and urgent alarm.",
       "category": [
         "Media"
@@ -18016,7 +18808,7 @@ var init_icon_alarm_bell_3_svg = __esm({
       ],
       "title": "Alarm Bell 3"
     };
-    icon_alarm_bell_3_svg_default = meta172;
+    icon_alarm_bell_3_svg_default = meta196;
   }
 });
 
@@ -18024,12 +18816,12 @@ var init_icon_alarm_bell_3_svg = __esm({
 var icon_alarm_bell_svg_exports = {};
 __export(icon_alarm_bell_svg_exports, {
   default: () => icon_alarm_bell_svg_default,
-  meta: () => meta173
+  meta: () => meta197
 });
-var meta173, icon_alarm_bell_svg_default;
+var meta197, icon_alarm_bell_svg_default;
 var init_icon_alarm_bell_svg = __esm({
   "lib/meta/icon_alarm-bell.svg.ts"() {
-    meta173 = {
+    meta197 = {
       "description": "The alarm bell icon represents an alarm or notification alert. It is typically used to indicate an urgent message or reminder in media applications.",
       "category": [
         "Media"
@@ -18048,7 +18840,7 @@ var init_icon_alarm_bell_svg = __esm({
       ],
       "title": "Alarm Bell"
     };
-    icon_alarm_bell_svg_default = meta173;
+    icon_alarm_bell_svg_default = meta197;
   }
 });
 
@@ -18056,12 +18848,12 @@ var init_icon_alarm_bell_svg = __esm({
 var icon_art_supplies_svg_exports = {};
 __export(icon_art_supplies_svg_exports, {
   default: () => icon_art_supplies_svg_default,
-  meta: () => meta174
+  meta: () => meta198
 });
-var meta174, icon_art_supplies_svg_default;
+var meta198, icon_art_supplies_svg_default;
 var init_icon_art_supplies_svg = __esm({
   "lib/meta/icon_art-supplies.svg.ts"() {
-    meta174 = {
+    meta198 = {
       "description": "The art supplies icon represents a collection of tools and materials used for creating visual art, such as paints, brushes, pencils, and paper. Whether you're a professional artist or a hobbyist, having a well-stocked art supplies can inspire creativity and help bring your artistic visions to life.",
       "category": [
         "Media"
@@ -18080,7 +18872,7 @@ var init_icon_art_supplies_svg = __esm({
       ],
       "title": "Art Supplies"
     };
-    icon_art_supplies_svg_default = meta174;
+    icon_art_supplies_svg_default = meta198;
   }
 });
 
@@ -18088,12 +18880,12 @@ var init_icon_art_supplies_svg = __esm({
 var icon_audio_waves_svg_exports = {};
 __export(icon_audio_waves_svg_exports, {
   default: () => icon_audio_waves_svg_default,
-  meta: () => meta175
+  meta: () => meta199
 });
-var meta175, icon_audio_waves_svg_default;
+var meta199, icon_audio_waves_svg_default;
 var init_icon_audio_waves_svg = __esm({
   "lib/meta/icon_audio-waves.svg.ts"() {
-    meta175 = {
+    meta199 = {
       "description": "The audio waves icon visually represents sound and music. It typically consists of curved lines or bars that mimic the patterns created by sound waves.",
       "category": [
         "Media"
@@ -18112,7 +18904,7 @@ var init_icon_audio_waves_svg = __esm({
       ],
       "title": "Audio Waves"
     };
-    icon_audio_waves_svg_default = meta175;
+    icon_audio_waves_svg_default = meta199;
   }
 });
 
@@ -18120,12 +18912,12 @@ var init_icon_audio_waves_svg = __esm({
 var icon_bluetooth_svg_exports = {};
 __export(icon_bluetooth_svg_exports, {
   default: () => icon_bluetooth_svg_default,
-  meta: () => meta176
+  meta: () => meta200
 });
-var meta176, icon_bluetooth_svg_default;
+var meta200, icon_bluetooth_svg_default;
 var init_icon_bluetooth_svg = __esm({
   "lib/meta/icon_bluetooth.svg.ts"() {
-    meta176 = {
+    meta200 = {
       "description": "The Bluetooth icon represents wireless technology used for exchanging data over short distances. This icon is commonly found in media devices such as smartphones, tablets, and headphones.",
       "category": [
         "Media",
@@ -18145,7 +18937,7 @@ var init_icon_bluetooth_svg = __esm({
       ],
       "title": "Bluetooth"
     };
-    icon_bluetooth_svg_default = meta176;
+    icon_bluetooth_svg_default = meta200;
   }
 });
 
@@ -18153,12 +18945,12 @@ var init_icon_bluetooth_svg = __esm({
 var icon_camera_svg_exports = {};
 __export(icon_camera_svg_exports, {
   default: () => icon_camera_svg_default,
-  meta: () => meta177
+  meta: () => meta201
 });
-var meta177, icon_camera_svg_default;
+var meta201, icon_camera_svg_default;
 var init_icon_camera_svg = __esm({
   "lib/meta/icon_camera.svg.ts"() {
-    meta177 = {
+    meta201 = {
       "description": "The camera icon represents a device used to capture photographs and record videos. It is commonly used in various media-related applications and interfaces.",
       "category": [
         "Media"
@@ -18177,7 +18969,7 @@ var init_icon_camera_svg = __esm({
       ],
       "title": "Camera"
     };
-    icon_camera_svg_default = meta177;
+    icon_camera_svg_default = meta201;
   }
 });
 
@@ -18185,12 +18977,12 @@ var init_icon_camera_svg = __esm({
 var icon_clipboard_svg_exports = {};
 __export(icon_clipboard_svg_exports, {
   default: () => icon_clipboard_svg_default,
-  meta: () => meta178
+  meta: () => meta202
 });
-var meta178, icon_clipboard_svg_default;
+var meta202, icon_clipboard_svg_default;
 var init_icon_clipboard_svg = __esm({
   "lib/meta/icon_clipboard.svg.ts"() {
-    meta178 = {
+    meta202 = {
       "description": "A clipboard icon typically represents the concept of copying and pasting text, data or images. It is commonly used in applications and websites to indicate the ability to save or transfer information.",
       "category": [
         "Interface",
@@ -18209,7 +19001,7 @@ var init_icon_clipboard_svg = __esm({
       ],
       "title": "Clipboard"
     };
-    icon_clipboard_svg_default = meta178;
+    icon_clipboard_svg_default = meta202;
   }
 });
 
@@ -18217,12 +19009,12 @@ var init_icon_clipboard_svg = __esm({
 var icon_color_pallette_svg_exports = {};
 __export(icon_color_pallette_svg_exports, {
   default: () => icon_color_pallette_svg_default,
-  meta: () => meta179
+  meta: () => meta203
 });
-var meta179, icon_color_pallette_svg_default;
+var meta203, icon_color_pallette_svg_default;
 var init_icon_color_pallette_svg = __esm({
   "lib/meta/icon_color-pallette.svg.ts"() {
-    meta179 = {
+    meta203 = {
       "description": "The color palette icon is typically used to represent a tool or feature that allows users to select colors from a range of options for customization or design purposes.",
       "category": [
         "Media",
@@ -18242,7 +19034,7 @@ var init_icon_color_pallette_svg = __esm({
       ],
       "title": "Color Palette"
     };
-    icon_color_pallette_svg_default = meta179;
+    icon_color_pallette_svg_default = meta203;
   }
 });
 
@@ -18250,12 +19042,12 @@ var init_icon_color_pallette_svg = __esm({
 var icon_color_rgb_svg_exports = {};
 __export(icon_color_rgb_svg_exports, {
   default: () => icon_color_rgb_svg_default,
-  meta: () => meta180
+  meta: () => meta204
 });
-var meta180, icon_color_rgb_svg_default;
+var meta204, icon_color_rgb_svg_default;
 var init_icon_color_rgb_svg = __esm({
   "lib/meta/icon_color-rgb.svg.ts"() {
-    meta180 = {
+    meta204 = {
       "description": "The color RGB icon represents the red, green, and blue color channels used in digital media to create a wide spectrum of colors.",
       "category": [
         "Media"
@@ -18274,7 +19066,7 @@ var init_icon_color_rgb_svg = __esm({
       ],
       "title": "Color RGB"
     };
-    icon_color_rgb_svg_default = meta180;
+    icon_color_rgb_svg_default = meta204;
   }
 });
 
@@ -18282,12 +19074,12 @@ var init_icon_color_rgb_svg = __esm({
 var icon_color_swatches_svg_exports = {};
 __export(icon_color_swatches_svg_exports, {
   default: () => icon_color_swatches_svg_default,
-  meta: () => meta181
+  meta: () => meta205
 });
-var meta181, icon_color_swatches_svg_default;
+var meta205, icon_color_swatches_svg_default;
 var init_icon_color_swatches_svg = __esm({
   "lib/meta/icon_color-swatches.svg.ts"() {
-    meta181 = {
+    meta205 = {
       "description": "Color swatches icon for selecting and displaying various color options.",
       "category": [
         "Media"
@@ -18306,7 +19098,7 @@ var init_icon_color_swatches_svg = __esm({
       ],
       "title": "Color Swatches"
     };
-    icon_color_swatches_svg_default = meta181;
+    icon_color_swatches_svg_default = meta205;
   }
 });
 
@@ -18314,12 +19106,12 @@ var init_icon_color_swatches_svg = __esm({
 var icon_desktop_svg_exports = {};
 __export(icon_desktop_svg_exports, {
   default: () => icon_desktop_svg_default,
-  meta: () => meta182
+  meta: () => meta206
 });
-var meta182, icon_desktop_svg_default;
+var meta206, icon_desktop_svg_default;
 var init_icon_desktop_svg = __esm({
   "lib/meta/icon_desktop.svg.ts"() {
-    meta182 = {
+    meta206 = {
       "description": "The desktop icon represents a computer desktop, typically showcasing icons, shortcuts, and files arranged on the screen. This icon is commonly used to symbolize digital organization or computer-related tasks.",
       "category": [
         "Interface",
@@ -18339,7 +19131,7 @@ var init_icon_desktop_svg = __esm({
       ],
       "title": "Desktop"
     };
-    icon_desktop_svg_default = meta182;
+    icon_desktop_svg_default = meta206;
   }
 });
 
@@ -18347,12 +19139,12 @@ var init_icon_desktop_svg = __esm({
 var icon_filmroll_svg_exports = {};
 __export(icon_filmroll_svg_exports, {
   default: () => icon_filmroll_svg_default,
-  meta: () => meta183
+  meta: () => meta207
 });
-var meta183, icon_filmroll_svg_default;
+var meta207, icon_filmroll_svg_default;
 var init_icon_filmroll_svg = __esm({
   "lib/meta/icon_filmroll.svg.ts"() {
-    meta183 = {
+    meta207 = {
       "description": "The filmroll icon represents traditional photographic film used in analog cameras. It symbolizes nostalgia and vintage photography.",
       "category": [
         "Media"
@@ -18371,7 +19163,7 @@ var init_icon_filmroll_svg = __esm({
       ],
       "title": "Filmroll"
     };
-    icon_filmroll_svg_default = meta183;
+    icon_filmroll_svg_default = meta207;
   }
 });
 
@@ -18379,12 +19171,12 @@ var init_icon_filmroll_svg = __esm({
 var icon_gamepad_classic_svg_exports = {};
 __export(icon_gamepad_classic_svg_exports, {
   default: () => icon_gamepad_classic_svg_default,
-  meta: () => meta184
+  meta: () => meta208
 });
-var meta184, icon_gamepad_classic_svg_default;
+var meta208, icon_gamepad_classic_svg_default;
 var init_icon_gamepad_classic_svg = __esm({
   "lib/meta/icon_gamepad-classic.svg.ts"() {
-    meta184 = {
+    meta208 = {
       "description": "A classic gamepad icon commonly used to represent video games and gaming consoles.",
       "category": [
         "Media",
@@ -18404,7 +19196,7 @@ var init_icon_gamepad_classic_svg = __esm({
       ],
       "title": "Gamepad Classic"
     };
-    icon_gamepad_classic_svg_default = meta184;
+    icon_gamepad_classic_svg_default = meta208;
   }
 });
 
@@ -18412,12 +19204,12 @@ var init_icon_gamepad_classic_svg = __esm({
 var icon_gamepad_svg_exports = {};
 __export(icon_gamepad_svg_exports, {
   default: () => icon_gamepad_svg_default,
-  meta: () => meta185
+  meta: () => meta209
 });
-var meta185, icon_gamepad_svg_default;
+var meta209, icon_gamepad_svg_default;
 var init_icon_gamepad_svg = __esm({
   "lib/meta/icon_gamepad.svg.ts"() {
-    meta185 = {
+    meta209 = {
       "description": "The gamepad icon represents a controller used for playing video games. It typically has buttons and joysticks for controlling characters and actions on a screen.",
       "category": [
         "Media"
@@ -18436,7 +19228,7 @@ var init_icon_gamepad_svg = __esm({
       ],
       "title": "Gamepad"
     };
-    icon_gamepad_svg_default = meta185;
+    icon_gamepad_svg_default = meta209;
   }
 });
 
@@ -18444,12 +19236,12 @@ var init_icon_gamepad_svg = __esm({
 var icon_headphones_svg_exports = {};
 __export(icon_headphones_svg_exports, {
   default: () => icon_headphones_svg_default,
-  meta: () => meta186
+  meta: () => meta210
 });
-var meta186, icon_headphones_svg_default;
+var meta210, icon_headphones_svg_default;
 var init_icon_headphones_svg = __esm({
   "lib/meta/icon_headphones.svg.ts"() {
-    meta186 = {
+    meta210 = {
       "description": "The headphones icon represents audio devices used to listen to music or other audio content. It is commonly associated with media consumption and entertainment.",
       "category": [
         "Media",
@@ -18469,7 +19261,7 @@ var init_icon_headphones_svg = __esm({
       ],
       "title": "Headphones"
     };
-    icon_headphones_svg_default = meta186;
+    icon_headphones_svg_default = meta210;
   }
 });
 
@@ -18477,12 +19269,12 @@ var init_icon_headphones_svg = __esm({
 var icon_highlight_svg_exports = {};
 __export(icon_highlight_svg_exports, {
   default: () => icon_highlight_svg_default,
-  meta: () => meta187
+  meta: () => meta211
 });
-var meta187, icon_highlight_svg_default;
+var meta211, icon_highlight_svg_default;
 var init_icon_highlight_svg = __esm({
   "lib/meta/icon_highlight.svg.ts"() {
-    meta187 = {
+    meta211 = {
       "description": "The highlight icon is typically used to mark or emphasize important information in media files such as text or images.",
       "category": [
         "Media"
@@ -18501,7 +19293,7 @@ var init_icon_highlight_svg = __esm({
       ],
       "title": "Highlight"
     };
-    icon_highlight_svg_default = meta187;
+    icon_highlight_svg_default = meta211;
   }
 });
 
@@ -18509,12 +19301,12 @@ var init_icon_highlight_svg = __esm({
 var icon_image_svg_exports = {};
 __export(icon_image_svg_exports, {
   default: () => icon_image_svg_default,
-  meta: () => meta188
+  meta: () => meta212
 });
-var meta188, icon_image_svg_default;
+var meta212, icon_image_svg_default;
 var init_icon_image_svg = __esm({
   "lib/meta/icon_image.svg.ts"() {
-    meta188 = {
+    meta212 = {
       "description": "An icon representing an image, typically used to symbolize visual content such as photos or graphics.",
       "category": [
         "Media"
@@ -18533,7 +19325,7 @@ var init_icon_image_svg = __esm({
       ],
       "title": "Image"
     };
-    icon_image_svg_default = meta188;
+    icon_image_svg_default = meta212;
   }
 });
 
@@ -18541,12 +19333,12 @@ var init_icon_image_svg = __esm({
 var icon_joystick_svg_exports = {};
 __export(icon_joystick_svg_exports, {
   default: () => icon_joystick_svg_default,
-  meta: () => meta189
+  meta: () => meta213
 });
-var meta189, icon_joystick_svg_default;
+var meta213, icon_joystick_svg_default;
 var init_icon_joystick_svg = __esm({
   "lib/meta/icon_joystick.svg.ts"() {
-    meta189 = {
+    meta213 = {
       "description": "A joystick icon typically represents gaming and interactive entertainment. It often symbolizes control and navigation in games or multimedia applications.",
       "category": [
         "Media"
@@ -18565,7 +19357,7 @@ var init_icon_joystick_svg = __esm({
       ],
       "title": "Joystick"
     };
-    icon_joystick_svg_default = meta189;
+    icon_joystick_svg_default = meta213;
   }
 });
 
@@ -18573,12 +19365,12 @@ var init_icon_joystick_svg = __esm({
 var icon_laptop_svg_exports = {};
 __export(icon_laptop_svg_exports, {
   default: () => icon_laptop_svg_default,
-  meta: () => meta190
+  meta: () => meta214
 });
-var meta190, icon_laptop_svg_default;
+var meta214, icon_laptop_svg_default;
 var init_icon_laptop_svg = __esm({
   "lib/meta/icon_laptop.svg.ts"() {
-    meta190 = {
+    meta214 = {
       "description": "The laptop icon depicts a portable computer with a screen and keyboard, commonly used for work, entertainment, and communication purposes.",
       "category": [
         "Media",
@@ -18598,7 +19390,7 @@ var init_icon_laptop_svg = __esm({
       ],
       "title": "Laptop"
     };
-    icon_laptop_svg_default = meta190;
+    icon_laptop_svg_default = meta214;
   }
 });
 
@@ -18606,12 +19398,12 @@ var init_icon_laptop_svg = __esm({
 var icon_mail_open_svg_exports = {};
 __export(icon_mail_open_svg_exports, {
   default: () => icon_mail_open_svg_default,
-  meta: () => meta191
+  meta: () => meta215
 });
-var meta191, icon_mail_open_svg_default;
+var meta215, icon_mail_open_svg_default;
 var init_icon_mail_open_svg = __esm({
   "lib/meta/icon_mail-open.svg.ts"() {
-    meta191 = {
+    meta215 = {
       "description": "The mail-open icon represents an open envelope typically used to indicate received emails or messages. It is commonly used in email applications and communication interfaces.",
       "category": [
         "Media"
@@ -18630,7 +19422,7 @@ var init_icon_mail_open_svg = __esm({
       ],
       "title": "Mail Open"
     };
-    icon_mail_open_svg_default = meta191;
+    icon_mail_open_svg_default = meta215;
   }
 });
 
@@ -18638,12 +19430,12 @@ var init_icon_mail_open_svg = __esm({
 var icon_mail_svg_exports = {};
 __export(icon_mail_svg_exports, {
   default: () => icon_mail_svg_default,
-  meta: () => meta192
+  meta: () => meta216
 });
-var meta192, icon_mail_svg_default;
+var meta216, icon_mail_svg_default;
 var init_icon_mail_svg = __esm({
   "lib/meta/icon_mail.svg.ts"() {
-    meta192 = {
+    meta216 = {
       "description": "The mail icon represents electronic mail, often used as a symbol for emails and communication. It typically depicts an envelope with a paper inside, indicating sending and receiving messages.",
       "category": [
         "Media"
@@ -18662,7 +19454,7 @@ var init_icon_mail_svg = __esm({
       ],
       "title": "Mail"
     };
-    icon_mail_svg_default = meta192;
+    icon_mail_svg_default = meta216;
   }
 });
 
@@ -18670,12 +19462,12 @@ var init_icon_mail_svg = __esm({
 var icon_media_svg_exports = {};
 __export(icon_media_svg_exports, {
   default: () => icon_media_svg_default,
-  meta: () => meta193
+  meta: () => meta217
 });
-var meta193, icon_media_svg_default;
+var meta217, icon_media_svg_default;
 var init_icon_media_svg = __esm({
   "lib/meta/icon_media.svg.ts"() {
-    meta193 = {
+    meta217 = {
       "description": "The media icon represents anything related to media, such as music, video, or images. It is commonly used to indicate multimedia content or players.",
       "category": [
         "Media"
@@ -18694,7 +19486,7 @@ var init_icon_media_svg = __esm({
       ],
       "title": "Media"
     };
-    icon_media_svg_default = meta193;
+    icon_media_svg_default = meta217;
   }
 });
 
@@ -18702,12 +19494,12 @@ var init_icon_media_svg = __esm({
 var icon_microphone_svg_exports = {};
 __export(icon_microphone_svg_exports, {
   default: () => icon_microphone_svg_default,
-  meta: () => meta194
+  meta: () => meta218
 });
-var meta194, icon_microphone_svg_default;
+var meta218, icon_microphone_svg_default;
 var init_icon_microphone_svg = __esm({
   "lib/meta/icon_microphone.svg.ts"() {
-    meta194 = {
+    meta218 = {
       "description": "A microphone icon typically represents recording, voice commands, sound input or audio messages in various media applications or devices.",
       "category": [
         "Media"
@@ -18725,7 +19517,7 @@ var init_icon_microphone_svg = __esm({
       ],
       "title": "Microphone"
     };
-    icon_microphone_svg_default = meta194;
+    icon_microphone_svg_default = meta218;
   }
 });
 
@@ -18733,12 +19525,12 @@ var init_icon_microphone_svg = __esm({
 var icon_music_note_single_svg_exports = {};
 __export(icon_music_note_single_svg_exports, {
   default: () => icon_music_note_single_svg_default,
-  meta: () => meta195
+  meta: () => meta219
 });
-var meta195, icon_music_note_single_svg_default;
+var meta219, icon_music_note_single_svg_default;
 var init_icon_music_note_single_svg = __esm({
   "lib/meta/icon_music-note-single.svg.ts"() {
-    meta195 = {
+    meta219 = {
       "description": "The music note single icon represents a single musical note. It is commonly used to symbolize music, sound, melody, or audio in various media-related contexts.",
       "category": [
         "Media"
@@ -18757,7 +19549,7 @@ var init_icon_music_note_single_svg = __esm({
       ],
       "title": "Music Note Single"
     };
-    icon_music_note_single_svg_default = meta195;
+    icon_music_note_single_svg_default = meta219;
   }
 });
 
@@ -18765,12 +19557,12 @@ var init_icon_music_note_single_svg = __esm({
 var icon_music_note_svg_exports = {};
 __export(icon_music_note_svg_exports, {
   default: () => icon_music_note_svg_default,
-  meta: () => meta196
+  meta: () => meta220
 });
-var meta196, icon_music_note_svg_default;
+var meta220, icon_music_note_svg_default;
 var init_icon_music_note_svg = __esm({
   "lib/meta/icon_music-note.svg.ts"() {
-    meta196 = {
+    meta220 = {
       "description": "The music note icon represents audio, music, sound, melody, or songs. It is commonly used to symbolize anything related to music or audio content.",
       "category": [
         "Media"
@@ -18789,7 +19581,7 @@ var init_icon_music_note_svg = __esm({
       ],
       "title": "Music Note"
     };
-    icon_music_note_svg_default = meta196;
+    icon_music_note_svg_default = meta220;
   }
 });
 
@@ -18797,12 +19589,12 @@ var init_icon_music_note_svg = __esm({
 var icon_nes_controller_svg_exports = {};
 __export(icon_nes_controller_svg_exports, {
   default: () => icon_nes_controller_svg_default,
-  meta: () => meta197
+  meta: () => meta221
 });
-var meta197, icon_nes_controller_svg_default;
+var meta221, icon_nes_controller_svg_default;
 var init_icon_nes_controller_svg = __esm({
   "lib/meta/icon_nes-controller.svg.ts"() {
-    meta197 = {
+    meta221 = {
       "description": "A retro video game controller icon inspired by the NES controller. It features a classic design with a D-pad, A and B buttons, and Start and Select buttons.",
       "category": [
         "Media",
@@ -18822,7 +19614,7 @@ var init_icon_nes_controller_svg = __esm({
       ],
       "title": "NES Controller"
     };
-    icon_nes_controller_svg_default = meta197;
+    icon_nes_controller_svg_default = meta221;
   }
 });
 
@@ -18830,12 +19622,12 @@ var init_icon_nes_controller_svg = __esm({
 var icon_pacman_svg_exports = {};
 __export(icon_pacman_svg_exports, {
   default: () => icon_pacman_svg_default,
-  meta: () => meta198
+  meta: () => meta222
 });
-var meta198, icon_pacman_svg_default;
+var meta222, icon_pacman_svg_default;
 var init_icon_pacman_svg = __esm({
   "lib/meta/icon_pacman.svg.ts"() {
-    meta198 = {
+    meta222 = {
       "description": "Pacman is a classic video game icon featuring a yellow circle with a missing slice representing the character Pac-Man.",
       "category": [
         "Media"
@@ -18854,7 +19646,7 @@ var init_icon_pacman_svg = __esm({
       ],
       "title": "Pacman"
     };
-    icon_pacman_svg_default = meta198;
+    icon_pacman_svg_default = meta222;
   }
 });
 
@@ -18862,12 +19654,12 @@ var init_icon_pacman_svg = __esm({
 var icon_paint_roller_svg_exports = {};
 __export(icon_paint_roller_svg_exports, {
   default: () => icon_paint_roller_svg_default,
-  meta: () => meta199
+  meta: () => meta223
 });
-var meta199, icon_paint_roller_svg_default;
+var meta223, icon_paint_roller_svg_default;
 var init_icon_paint_roller_svg = __esm({
   "lib/meta/icon_paint-roller.svg.ts"() {
-    meta199 = {
+    meta223 = {
       "description": "A paint roller icon typically used to represent painting, decoration, renovation, or design concepts in various media projects.",
       "category": [
         "Media"
@@ -18885,7 +19677,7 @@ var init_icon_paint_roller_svg = __esm({
       ],
       "title": "Paint Roller"
     };
-    icon_paint_roller_svg_default = meta199;
+    icon_paint_roller_svg_default = meta223;
   }
 });
 
@@ -18893,12 +19685,12 @@ var init_icon_paint_roller_svg = __esm({
 var icon_paperplane_svg_exports = {};
 __export(icon_paperplane_svg_exports, {
   default: () => icon_paperplane_svg_default,
-  meta: () => meta200
+  meta: () => meta224
 });
-var meta200, icon_paperplane_svg_default;
+var meta224, icon_paperplane_svg_default;
 var init_icon_paperplane_svg = __esm({
   "lib/meta/icon_paperplane.svg.ts"() {
-    meta200 = {
+    meta224 = {
       "description": "An icon of a paper plane symbolizing sending messages or information, often associated with digital communication and social media platforms.",
       "category": [
         "Media"
@@ -18917,7 +19709,7 @@ var init_icon_paperplane_svg = __esm({
       ],
       "title": "Paper Plane"
     };
-    icon_paperplane_svg_default = meta200;
+    icon_paperplane_svg_default = meta224;
   }
 });
 
@@ -18925,12 +19717,12 @@ var init_icon_paperplane_svg = __esm({
 var icon_playback_backward_svg_exports = {};
 __export(icon_playback_backward_svg_exports, {
   default: () => icon_playback_backward_svg_default,
-  meta: () => meta201
+  meta: () => meta225
 });
-var meta201, icon_playback_backward_svg_default;
+var meta225, icon_playback_backward_svg_default;
 var init_icon_playback_backward_svg = __esm({
   "lib/meta/icon_playback-backward.svg.ts"() {
-    meta201 = {
+    meta225 = {
       "description": "The playback-backward icon is designed to represent the action of skipping or rewinding media playback to the previous track or section. This icon is commonly used in media player interfaces to allow users to go back in the timeline of a video or song.",
       "category": [
         "Media"
@@ -18949,7 +19741,7 @@ var init_icon_playback_backward_svg = __esm({
       ],
       "title": "Playback Backward"
     };
-    icon_playback_backward_svg_default = meta201;
+    icon_playback_backward_svg_default = meta225;
   }
 });
 
@@ -18957,12 +19749,12 @@ var init_icon_playback_backward_svg = __esm({
 var icon_playback_end_svg_exports = {};
 __export(icon_playback_end_svg_exports, {
   default: () => icon_playback_end_svg_default,
-  meta: () => meta202
+  meta: () => meta226
 });
-var meta202, icon_playback_end_svg_default;
+var meta226, icon_playback_end_svg_default;
 var init_icon_playback_end_svg = __esm({
   "lib/meta/icon_playback-end.svg.ts"() {
-    meta202 = {
+    meta226 = {
       "description": "A playback-end icon typically represents the end point of a media playback. It can be used in media player applications or interfaces to indicate that the playback has reached the end.",
       "category": [
         "Media"
@@ -18981,7 +19773,7 @@ var init_icon_playback_end_svg = __esm({
       ],
       "title": "Playback End"
     };
-    icon_playback_end_svg_default = meta202;
+    icon_playback_end_svg_default = meta226;
   }
 });
 
@@ -18989,12 +19781,12 @@ var init_icon_playback_end_svg = __esm({
 var icon_playback_forward_svg_exports = {};
 __export(icon_playback_forward_svg_exports, {
   default: () => icon_playback_forward_svg_default,
-  meta: () => meta203
+  meta: () => meta227
 });
-var meta203, icon_playback_forward_svg_default;
+var meta227, icon_playback_forward_svg_default;
 var init_icon_playback_forward_svg = __esm({
   "lib/meta/icon_playback-forward.svg.ts"() {
-    meta203 = {
+    meta227 = {
       "description": "The playback-forward icon is used in media players to skip forward to the next track or scene in a video or audio playlist. It symbolizes fast forward and advancing in a playback sequence.",
       "category": [
         "Media"
@@ -19013,7 +19805,7 @@ var init_icon_playback_forward_svg = __esm({
       ],
       "title": "Playback Forward"
     };
-    icon_playback_forward_svg_default = meta203;
+    icon_playback_forward_svg_default = meta227;
   }
 });
 
@@ -19021,12 +19813,12 @@ var init_icon_playback_forward_svg = __esm({
 var icon_playback_next_svg_exports = {};
 __export(icon_playback_next_svg_exports, {
   default: () => icon_playback_next_svg_default,
-  meta: () => meta204
+  meta: () => meta228
 });
-var meta204, icon_playback_next_svg_default;
+var meta228, icon_playback_next_svg_default;
 var init_icon_playback_next_svg = __esm({
   "lib/meta/icon_playback-next.svg.ts"() {
-    meta204 = {
+    meta228 = {
       "description": "The playback-next icon is used to indicate moving to the next media content, such as the next song or video in a playlist.",
       "category": [
         "Media"
@@ -19044,7 +19836,7 @@ var init_icon_playback_next_svg = __esm({
       ],
       "title": "Playback Next"
     };
-    icon_playback_next_svg_default = meta204;
+    icon_playback_next_svg_default = meta228;
   }
 });
 
@@ -19052,12 +19844,12 @@ var init_icon_playback_next_svg = __esm({
 var icon_playback_pause_svg_exports = {};
 __export(icon_playback_pause_svg_exports, {
   default: () => icon_playback_pause_svg_default,
-  meta: () => meta205
+  meta: () => meta229
 });
-var meta205, icon_playback_pause_svg_default;
+var meta229, icon_playback_pause_svg_default;
 var init_icon_playback_pause_svg = __esm({
   "lib/meta/icon_playback-pause.svg.ts"() {
-    meta205 = {
+    meta229 = {
       "description": "The playback-pause icon is used to represent the pause function in media players or devices. It typically indicates that the current media is paused and can be resumed.",
       "category": [
         "Media"
@@ -19076,7 +19868,7 @@ var init_icon_playback_pause_svg = __esm({
       ],
       "title": "Playback Pause"
     };
-    icon_playback_pause_svg_default = meta205;
+    icon_playback_pause_svg_default = meta229;
   }
 });
 
@@ -19084,12 +19876,12 @@ var init_icon_playback_pause_svg = __esm({
 var icon_playback_play_svg_exports = {};
 __export(icon_playback_play_svg_exports, {
   default: () => icon_playback_play_svg_default,
-  meta: () => meta206
+  meta: () => meta230
 });
-var meta206, icon_playback_play_svg_default;
+var meta230, icon_playback_play_svg_default;
 var init_icon_playback_play_svg = __esm({
   "lib/meta/icon_playback-play.svg.ts"() {
-    meta206 = {
+    meta230 = {
       "description": "The 'playback-play' icon represents a play button commonly used in media players to start playing a video or audio file.",
       "category": [
         "Media"
@@ -19108,7 +19900,7 @@ var init_icon_playback_play_svg = __esm({
       ],
       "title": "Playback Play"
     };
-    icon_playback_play_svg_default = meta206;
+    icon_playback_play_svg_default = meta230;
   }
 });
 
@@ -19116,12 +19908,12 @@ var init_icon_playback_play_svg = __esm({
 var icon_playback_previous_svg_exports = {};
 __export(icon_playback_previous_svg_exports, {
   default: () => icon_playback_previous_svg_default,
-  meta: () => meta207
+  meta: () => meta231
 });
-var meta207, icon_playback_previous_svg_default;
+var meta231, icon_playback_previous_svg_default;
 var init_icon_playback_previous_svg = __esm({
   "lib/meta/icon_playback-previous.svg.ts"() {
-    meta207 = {
+    meta231 = {
       "description": "The 'playback-previous' icon is used to go back to the previous media file during playback. It is commonly found in media player applications.",
       "category": [
         "Media"
@@ -19140,7 +19932,7 @@ var init_icon_playback_previous_svg = __esm({
       ],
       "title": "Playback Previous"
     };
-    icon_playback_previous_svg_default = meta207;
+    icon_playback_previous_svg_default = meta231;
   }
 });
 
@@ -19148,12 +19940,12 @@ var init_icon_playback_previous_svg = __esm({
 var icon_playback_start_svg_exports = {};
 __export(icon_playback_start_svg_exports, {
   default: () => icon_playback_start_svg_default,
-  meta: () => meta208
+  meta: () => meta232
 });
-var meta208, icon_playback_start_svg_default;
+var meta232, icon_playback_start_svg_default;
 var init_icon_playback_start_svg = __esm({
   "lib/meta/icon_playback-start.svg.ts"() {
-    meta208 = {
+    meta232 = {
       "description": "The playback-start icon represents the beginning of a media playback, typically used in multimedia applications or video players.",
       "category": [
         "Media"
@@ -19171,7 +19963,7 @@ var init_icon_playback_start_svg = __esm({
       ],
       "title": "Playback Start"
     };
-    icon_playback_start_svg_default = meta208;
+    icon_playback_start_svg_default = meta232;
   }
 });
 
@@ -19179,12 +19971,12 @@ var init_icon_playback_start_svg = __esm({
 var icon_playback_stop_svg_exports = {};
 __export(icon_playback_stop_svg_exports, {
   default: () => icon_playback_stop_svg_default,
-  meta: () => meta209
+  meta: () => meta233
 });
-var meta209, icon_playback_stop_svg_default;
+var meta233, icon_playback_stop_svg_default;
 var init_icon_playback_stop_svg = __esm({
   "lib/meta/icon_playback-stop.svg.ts"() {
-    meta209 = {
+    meta233 = {
       "description": "The playback-stop icon is used to represent the action of stopping playback in media players and similar applications.",
       "category": [
         "Media"
@@ -19203,7 +19995,7 @@ var init_icon_playback_stop_svg = __esm({
       ],
       "title": "Playback Stop"
     };
-    icon_playback_stop_svg_default = meta209;
+    icon_playback_stop_svg_default = meta233;
   }
 });
 
@@ -19211,12 +20003,12 @@ var init_icon_playback_stop_svg = __esm({
 var icon_printer_svg_exports = {};
 __export(icon_printer_svg_exports, {
   default: () => icon_printer_svg_default,
-  meta: () => meta210
+  meta: () => meta234
 });
-var meta210, icon_printer_svg_default;
+var meta234, icon_printer_svg_default;
 var init_icon_printer_svg = __esm({
   "lib/meta/icon_printer.svg.ts"() {
-    meta210 = {
+    meta234 = {
       "description": "An icon representing a printer, often used to indicate the action of printing a physical copy of a digital document or image.",
       "category": [
         "Media"
@@ -19235,7 +20027,7 @@ var init_icon_printer_svg = __esm({
       ],
       "title": "Printer"
     };
-    icon_printer_svg_default = meta210;
+    icon_printer_svg_default = meta234;
   }
 });
 
@@ -19243,12 +20035,12 @@ var init_icon_printer_svg = __esm({
 var icon_record_svg_exports = {};
 __export(icon_record_svg_exports, {
   default: () => icon_record_svg_default,
-  meta: () => meta211
+  meta: () => meta235
 });
-var meta211, icon_record_svg_default;
+var meta235, icon_record_svg_default;
 var init_icon_record_svg = __esm({
   "lib/meta/icon_record.svg.ts"() {
-    meta211 = {
+    meta235 = {
       "description": "An icon representing a record, often used to symbolize starting or stopping audio or video recording.",
       "category": [
         "Media"
@@ -19266,7 +20058,7 @@ var init_icon_record_svg = __esm({
       ],
       "title": "Record"
     };
-    icon_record_svg_default = meta211;
+    icon_record_svg_default = meta235;
   }
 });
 
@@ -19274,12 +20066,12 @@ var init_icon_record_svg = __esm({
 var icon_reels_svg_exports = {};
 __export(icon_reels_svg_exports, {
   default: () => icon_reels_svg_default,
-  meta: () => meta212
+  meta: () => meta236
 });
-var meta212, icon_reels_svg_default;
+var meta236, icon_reels_svg_default;
 var init_icon_reels_svg = __esm({
   "lib/meta/icon_reels.svg.ts"() {
-    meta212 = {
+    meta236 = {
       "description": "The reels icon represents a traditional way of watching media content usually in the form of films or videos. It symbolizes the classic method of entertainment through physical reels of film.",
       "category": [
         "Media"
@@ -19298,7 +20090,7 @@ var init_icon_reels_svg = __esm({
       ],
       "title": "Reels"
     };
-    icon_reels_svg_default = meta212;
+    icon_reels_svg_default = meta236;
   }
 });
 
@@ -19306,12 +20098,12 @@ var init_icon_reels_svg = __esm({
 var icon_tablet_landscape_svg_exports = {};
 __export(icon_tablet_landscape_svg_exports, {
   default: () => icon_tablet_landscape_svg_default,
-  meta: () => meta213
+  meta: () => meta237
 });
-var meta213, icon_tablet_landscape_svg_default;
+var meta237, icon_tablet_landscape_svg_default;
 var init_icon_tablet_landscape_svg = __esm({
   "lib/meta/icon_tablet-landscape.svg.ts"() {
-    meta213 = {
+    meta237 = {
       "description": "The tablet-landscape icon represents a digital tablet or device in landscape orientation, commonly used for media consumption or playing games.",
       "category": [
         "Media"
@@ -19330,7 +20122,7 @@ var init_icon_tablet_landscape_svg = __esm({
       ],
       "title": "Tablet Landscape"
     };
-    icon_tablet_landscape_svg_default = meta213;
+    icon_tablet_landscape_svg_default = meta237;
   }
 });
 
@@ -19338,12 +20130,12 @@ var init_icon_tablet_landscape_svg = __esm({
 var icon_tablet_svg_exports = {};
 __export(icon_tablet_svg_exports, {
   default: () => icon_tablet_svg_default,
-  meta: () => meta214
+  meta: () => meta238
 });
-var meta214, icon_tablet_svg_default;
+var meta238, icon_tablet_svg_default;
 var init_icon_tablet_svg = __esm({
   "lib/meta/icon_tablet.svg.ts"() {
-    meta214 = {
+    meta238 = {
       "description": "The tablet icon represents a portable device with a touchscreen interface, typically larger than a smartphone but smaller than a laptop, used for various media and communication purposes.",
       "category": [
         "Media",
@@ -19363,7 +20155,7 @@ var init_icon_tablet_svg = __esm({
       ],
       "title": "Tablet"
     };
-    icon_tablet_svg_default = meta214;
+    icon_tablet_svg_default = meta238;
   }
 });
 
@@ -19371,12 +20163,12 @@ var init_icon_tablet_svg = __esm({
 var icon_television_svg_exports = {};
 __export(icon_television_svg_exports, {
   default: () => icon_television_svg_default,
-  meta: () => meta215
+  meta: () => meta239
 });
-var meta215, icon_television_svg_default;
+var meta239, icon_television_svg_default;
 var init_icon_television_svg = __esm({
   "lib/meta/icon_television.svg.ts"() {
-    meta215 = {
+    meta239 = {
       "description": "An icon representing a television, typically used to indicate the presence of a TV or for media-related purposes.",
       "category": [
         "Media"
@@ -19395,7 +20187,7 @@ var init_icon_television_svg = __esm({
       ],
       "title": "Television"
     };
-    icon_television_svg_default = meta215;
+    icon_television_svg_default = meta239;
   }
 });
 
@@ -19403,12 +20195,12 @@ var init_icon_television_svg = __esm({
 var icon_terminal_svg_exports = {};
 __export(icon_terminal_svg_exports, {
   default: () => icon_terminal_svg_default,
-  meta: () => meta216
+  meta: () => meta240
 });
-var meta216, icon_terminal_svg_default;
+var meta240, icon_terminal_svg_default;
 var init_icon_terminal_svg = __esm({
   "lib/meta/icon_terminal.svg.ts"() {
-    meta216 = {
+    meta240 = {
       "description": "The terminal icon represents a command-line interface used for entering text commands to communicate with the computer system. This icon is commonly used by developers and system administrators for executing various tasks.",
       "category": [
         "Interface",
@@ -19428,7 +20220,7 @@ var init_icon_terminal_svg = __esm({
       ],
       "title": "Terminal"
     };
-    icon_terminal_svg_default = meta216;
+    icon_terminal_svg_default = meta240;
   }
 });
 
@@ -19436,12 +20228,12 @@ var init_icon_terminal_svg = __esm({
 var icon_video_camera_svg_exports = {};
 __export(icon_video_camera_svg_exports, {
   default: () => icon_video_camera_svg_default,
-  meta: () => meta217
+  meta: () => meta241
 });
-var meta217, icon_video_camera_svg_default;
+var meta241, icon_video_camera_svg_default;
 var init_icon_video_camera_svg = __esm({
   "lib/meta/icon_video-camera.svg.ts"() {
-    meta217 = {
+    meta241 = {
       "description": "The video-camera icon represents a digital device used to capture and record videos. It is commonly used in multimedia applications, video players, and recording features.",
       "category": [
         "Media"
@@ -19460,7 +20252,7 @@ var init_icon_video_camera_svg = __esm({
       ],
       "title": "Video Camera"
     };
-    icon_video_camera_svg_default = meta217;
+    icon_video_camera_svg_default = meta241;
   }
 });
 
@@ -19468,12 +20260,12 @@ var init_icon_video_camera_svg = __esm({
 var icon_videos_svg_exports = {};
 __export(icon_videos_svg_exports, {
   default: () => icon_videos_svg_default,
-  meta: () => meta218
+  meta: () => meta242
 });
-var meta218, icon_videos_svg_default;
+var meta242, icon_videos_svg_default;
 var init_icon_videos_svg = __esm({
   "lib/meta/icon_videos.svg.ts"() {
-    meta218 = {
+    meta242 = {
       "description": "The videos icon represents a collection of multimedia recordings, typically displayed in a sequential fashion.",
       "category": [
         "Media"
@@ -19492,7 +20284,7 @@ var init_icon_videos_svg = __esm({
       ],
       "title": "Videos"
     };
-    icon_videos_svg_default = meta218;
+    icon_videos_svg_default = meta242;
   }
 });
 
@@ -19500,12 +20292,12 @@ var init_icon_videos_svg = __esm({
 var icon_volume_i_svg_exports = {};
 __export(icon_volume_i_svg_exports, {
   default: () => icon_volume_i_svg_default,
-  meta: () => meta219
+  meta: () => meta243
 });
-var meta219, icon_volume_i_svg_default;
+var meta243, icon_volume_i_svg_default;
 var init_icon_volume_i_svg = __esm({
   "lib/meta/icon_volume-i.svg.ts"() {
-    meta219 = {
+    meta243 = {
       "description": "The 'volume-I' icon represents an audio volume control symbol, typically indicating the mute or silent mode. It is commonly used in media player interfaces.",
       "category": [
         "Media"
@@ -19524,7 +20316,7 @@ var init_icon_volume_i_svg = __esm({
       ],
       "title": "Volume I"
     };
-    icon_volume_i_svg_default = meta219;
+    icon_volume_i_svg_default = meta243;
   }
 });
 
@@ -19532,12 +20324,12 @@ var init_icon_volume_i_svg = __esm({
 var icon_volume_ii_svg_exports = {};
 __export(icon_volume_ii_svg_exports, {
   default: () => icon_volume_ii_svg_default,
-  meta: () => meta220
+  meta: () => meta244
 });
-var meta220, icon_volume_ii_svg_default;
+var meta244, icon_volume_ii_svg_default;
 var init_icon_volume_ii_svg = __esm({
   "lib/meta/icon_volume-ii.svg.ts"() {
-    meta220 = {
+    meta244 = {
       "description": "Volume II icon is a graphic representation of sound volume control. It typically features a speaker or sound waves to indicate the current volume level in media player applications or devices.",
       "category": [
         "Media"
@@ -19556,7 +20348,7 @@ var init_icon_volume_ii_svg = __esm({
       ],
       "title": "Volume II"
     };
-    icon_volume_ii_svg_default = meta220;
+    icon_volume_ii_svg_default = meta244;
   }
 });
 
@@ -19564,12 +20356,12 @@ var init_icon_volume_ii_svg = __esm({
 var icon_volume_iii_svg_exports = {};
 __export(icon_volume_iii_svg_exports, {
   default: () => icon_volume_iii_svg_default,
-  meta: () => meta221
+  meta: () => meta245
 });
-var meta221, icon_volume_iii_svg_default;
+var meta245, icon_volume_iii_svg_default;
 var init_icon_volume_iii_svg = __esm({
   "lib/meta/icon_volume-iii.svg.ts"() {
-    meta221 = {
+    meta245 = {
       "description": "Volume III icon is a symbol representing the third level of sound volume control. It typically consists of three lines or bars indicating a higher volume level.",
       "category": [
         "Media"
@@ -19588,7 +20380,7 @@ var init_icon_volume_iii_svg = __esm({
       ],
       "title": "Volume III"
     };
-    icon_volume_iii_svg_default = meta221;
+    icon_volume_iii_svg_default = meta245;
   }
 });
 
@@ -19596,12 +20388,12 @@ var init_icon_volume_iii_svg = __esm({
 var icon_volume_mute_svg_exports = {};
 __export(icon_volume_mute_svg_exports, {
   default: () => icon_volume_mute_svg_default,
-  meta: () => meta222
+  meta: () => meta246
 });
-var meta222, icon_volume_mute_svg_default;
+var meta246, icon_volume_mute_svg_default;
 var init_icon_volume_mute_svg = __esm({
   "lib/meta/icon_volume-mute.svg.ts"() {
-    meta222 = {
+    meta246 = {
       "description": "The volume-mute icon represents the action of muting the sound or audio. It is commonly used in media player controls to toggle the sound off.",
       "category": [
         "Media"
@@ -19620,7 +20412,7 @@ var init_icon_volume_mute_svg = __esm({
       ],
       "title": "Volume Mute"
     };
-    icon_volume_mute_svg_default = meta222;
+    icon_volume_mute_svg_default = meta246;
   }
 });
 
@@ -19628,12 +20420,12 @@ var init_icon_volume_mute_svg = __esm({
 var icon_volume_off_svg_exports = {};
 __export(icon_volume_off_svg_exports, {
   default: () => icon_volume_off_svg_default,
-  meta: () => meta223
+  meta: () => meta247
 });
-var meta223, icon_volume_off_svg_default;
+var meta247, icon_volume_off_svg_default;
 var init_icon_volume_off_svg = __esm({
   "lib/meta/icon_volume-off.svg.ts"() {
-    meta223 = {
+    meta247 = {
       "description": "The volume-off icon typically represents a state where the sound or audio is muted or turned off. It is commonly used in media players, audio settings, and devices to indicate that there is no sound output.",
       "category": [
         "Media"
@@ -19652,7 +20444,7 @@ var init_icon_volume_off_svg = __esm({
       ],
       "title": "Volume Off"
     };
-    icon_volume_off_svg_default = meta223;
+    icon_volume_off_svg_default = meta247;
   }
 });
 
@@ -19660,12 +20452,12 @@ var init_icon_volume_off_svg = __esm({
 var icon_website_svg_exports = {};
 __export(icon_website_svg_exports, {
   default: () => icon_website_svg_default,
-  meta: () => meta224
+  meta: () => meta248
 });
-var meta224, icon_website_svg_default;
+var meta248, icon_website_svg_default;
 var init_icon_website_svg = __esm({
   "lib/meta/icon_website.svg.ts"() {
-    meta224 = {
+    meta248 = {
       "description": "The website icon represents a digital platform that contains a collection of related web pages including multimedia content such as images, videos, and text. It is commonly used to access information, products, and services on the internet.",
       "category": [
         "Media",
@@ -19685,7 +20477,7 @@ var init_icon_website_svg = __esm({
       ],
       "title": "Website"
     };
-    icon_website_svg_default = meta224;
+    icon_website_svg_default = meta248;
   }
 });
 
@@ -19693,12 +20485,12 @@ var init_icon_website_svg = __esm({
 var icon_wifi_2_svg_exports = {};
 __export(icon_wifi_2_svg_exports, {
   default: () => icon_wifi_2_svg_default,
-  meta: () => meta225
+  meta: () => meta249
 });
-var meta225, icon_wifi_2_svg_default;
+var meta249, icon_wifi_2_svg_default;
 var init_icon_wifi_2_svg = __esm({
   "lib/meta/icon_wifi 2.svg.ts"() {
-    meta225 = {
+    meta249 = {
       "description": "The 'wifi 2' icon represents a symbol of a wireless connection with two bars. It is commonly used to indicate the strength of a Wi-Fi signal.",
       "category": [
         "Media"
@@ -19716,7 +20508,7 @@ var init_icon_wifi_2_svg = __esm({
       ],
       "title": "Wifi 2"
     };
-    icon_wifi_2_svg_default = meta225;
+    icon_wifi_2_svg_default = meta249;
   }
 });
 
@@ -19724,12 +20516,12 @@ var init_icon_wifi_2_svg = __esm({
 var icon_wifi_3_svg_exports = {};
 __export(icon_wifi_3_svg_exports, {
   default: () => icon_wifi_3_svg_default,
-  meta: () => meta226
+  meta: () => meta250
 });
-var meta226, icon_wifi_3_svg_default;
+var meta250, icon_wifi_3_svg_default;
 var init_icon_wifi_3_svg = __esm({
   "lib/meta/icon_wifi 3.svg.ts"() {
-    meta226 = {
+    meta250 = {
       "description": "An icon depicting three ascending bars symbolizing a strong wifi signal strength.",
       "category": [
         "Media"
@@ -19748,7 +20540,7 @@ var init_icon_wifi_3_svg = __esm({
       ],
       "title": "Wifi 3"
     };
-    icon_wifi_3_svg_default = meta226;
+    icon_wifi_3_svg_default = meta250;
   }
 });
 
@@ -19756,12 +20548,12 @@ var init_icon_wifi_3_svg = __esm({
 var icon_wifi_rounded_svg_exports = {};
 __export(icon_wifi_rounded_svg_exports, {
   default: () => icon_wifi_rounded_svg_default,
-  meta: () => meta227
+  meta: () => meta251
 });
-var meta227, icon_wifi_rounded_svg_default;
+var meta251, icon_wifi_rounded_svg_default;
 var init_icon_wifi_rounded_svg = __esm({
   "lib/meta/icon_wifi-rounded.svg.ts"() {
-    meta227 = {
+    meta251 = {
       "description": "The wifi-rounded icon represents a rounded design of the wifi symbol, commonly used to indicate a wireless internet connection. It provides a modern and sleek look to signal the availability of internet connectivity.",
       "category": [
         "Media"
@@ -19780,7 +20572,7 @@ var init_icon_wifi_rounded_svg = __esm({
       ],
       "title": "Wifi Rounded"
     };
-    icon_wifi_rounded_svg_default = meta227;
+    icon_wifi_rounded_svg_default = meta251;
   }
 });
 
@@ -19788,12 +20580,12 @@ var init_icon_wifi_rounded_svg = __esm({
 var icon_wifi_svg_exports = {};
 __export(icon_wifi_svg_exports, {
   default: () => icon_wifi_svg_default,
-  meta: () => meta228
+  meta: () => meta252
 });
-var meta228, icon_wifi_svg_default;
+var meta252, icon_wifi_svg_default;
 var init_icon_wifi_svg = __esm({
   "lib/meta/icon_wifi.svg.ts"() {
-    meta228 = {
+    meta252 = {
       "description": "The wifi icon represents a wireless signal strength indicator, showing the level of connection to a wifi network.",
       "category": [
         "Media",
@@ -19813,7 +20605,7 @@ var init_icon_wifi_svg = __esm({
       ],
       "title": "Wifi"
     };
-    icon_wifi_svg_default = meta228;
+    icon_wifi_svg_default = meta252;
   }
 });
 
@@ -19821,12 +20613,12 @@ var init_icon_wifi_svg = __esm({
 var icon_ai_face_svg_exports = {};
 __export(icon_ai_face_svg_exports, {
   default: () => icon_ai_face_svg_default,
-  meta: () => meta229
+  meta: () => meta253
 });
-var meta229, icon_ai_face_svg_default;
+var meta253, icon_ai_face_svg_default;
 var init_icon_ai_face_svg = __esm({
   "lib/meta/icon_ai-face.svg.ts"() {
-    meta229 = {
+    meta253 = {
       "description": "An icon representing a face with artificial intelligence features, showcasing technology and futuristic concepts.",
       "category": [
         "Interface",
@@ -19846,7 +20638,7 @@ var init_icon_ai_face_svg = __esm({
       ],
       "title": "AI Face"
     };
-    icon_ai_face_svg_default = meta229;
+    icon_ai_face_svg_default = meta253;
   }
 });
 
@@ -19854,12 +20646,12 @@ var init_icon_ai_face_svg = __esm({
 var icon_ai_letters_blocked_svg_exports = {};
 __export(icon_ai_letters_blocked_svg_exports, {
   default: () => icon_ai_letters_blocked_svg_default,
-  meta: () => meta230
+  meta: () => meta254
 });
-var meta230, icon_ai_letters_blocked_svg_default;
+var meta254, icon_ai_letters_blocked_svg_default;
 var init_icon_ai_letters_blocked_svg = __esm({
   "lib/meta/icon_ai-letters-blocked.svg.ts"() {
-    meta230 = {
+    meta254 = {
       "description": "The icon shows the letters 'AI' partially blocked by a solid rectangular shape. It can symbolize obstacles related to artificial intelligence, restrictions, limitations, or issues with accessing AI technology.",
       "category": [
         "Interface"
@@ -19878,7 +20670,7 @@ var init_icon_ai_letters_blocked_svg = __esm({
       ],
       "title": "AI Letters Blocked"
     };
-    icon_ai_letters_blocked_svg_default = meta230;
+    icon_ai_letters_blocked_svg_default = meta254;
   }
 });
 
@@ -19886,12 +20678,12 @@ var init_icon_ai_letters_blocked_svg = __esm({
 var icon_ai_letters_circled_svg_exports = {};
 __export(icon_ai_letters_circled_svg_exports, {
   default: () => icon_ai_letters_circled_svg_default,
-  meta: () => meta231
+  meta: () => meta255
 });
-var meta231, icon_ai_letters_circled_svg_default;
+var meta255, icon_ai_letters_circled_svg_default;
 var init_icon_ai_letters_circled_svg = __esm({
   "lib/meta/icon_ai-letters-circled.svg.ts"() {
-    meta231 = {
+    meta255 = {
       "description": "The icon features the letters 'AI' enclosed in circles. It represents artificial intelligence concepts and technologies.",
       "category": [
         "Symbol",
@@ -19911,7 +20703,7 @@ var init_icon_ai_letters_circled_svg = __esm({
       ],
       "title": "AI Letters Circled"
     };
-    icon_ai_letters_circled_svg_default = meta231;
+    icon_ai_letters_circled_svg_default = meta255;
   }
 });
 
@@ -19919,12 +20711,12 @@ var init_icon_ai_letters_circled_svg = __esm({
 var icon_ai_letters_svg_exports = {};
 __export(icon_ai_letters_svg_exports, {
   default: () => icon_ai_letters_svg_default,
-  meta: () => meta232
+  meta: () => meta256
 });
-var meta232, icon_ai_letters_svg_default;
+var meta256, icon_ai_letters_svg_default;
 var init_icon_ai_letters_svg = __esm({
   "lib/meta/icon_ai-letters.svg.ts"() {
-    meta232 = {
+    meta256 = {
       "description": "The AI-letters icon features the letters A and I merged together to form a unique design. It symbolizes artificial intelligence and can be used to represent related technology or concepts.",
       "category": [
         "Symbol",
@@ -19944,7 +20736,7 @@ var init_icon_ai_letters_svg = __esm({
       ],
       "title": "AI Letters"
     };
-    icon_ai_letters_svg_default = meta232;
+    icon_ai_letters_svg_default = meta256;
   }
 });
 
@@ -19952,12 +20744,12 @@ var init_icon_ai_letters_svg = __esm({
 var icon_aframe_svg_exports = {};
 __export(icon_aframe_svg_exports, {
   default: () => icon_aframe_svg_default,
-  meta: () => meta233
+  meta: () => meta257
 });
-var meta233, icon_aframe_svg_default;
+var meta257, icon_aframe_svg_default;
 var init_icon_aframe_svg = __esm({
   "lib/meta/icon_aframe.svg.ts"() {
-    meta233 = {
+    meta257 = {
       "description": "Aframe is a versatile and powerful web framework for building virtual reality experiences on the web. It is based on HTML and allows developers to create VR content easily with simple entities and components.",
       "category": [
         "Interface",
@@ -19977,7 +20769,7 @@ var init_icon_aframe_svg = __esm({
       ],
       "title": "Aframe"
     };
-    icon_aframe_svg_default = meta233;
+    icon_aframe_svg_default = meta257;
   }
 });
 
@@ -19985,12 +20777,12 @@ var init_icon_aframe_svg = __esm({
 var icon_artwork_frame_svg_exports = {};
 __export(icon_artwork_frame_svg_exports, {
   default: () => icon_artwork_frame_svg_default,
-  meta: () => meta234
+  meta: () => meta258
 });
-var meta234, icon_artwork_frame_svg_default;
+var meta258, icon_artwork_frame_svg_default;
 var init_icon_artwork_frame_svg = __esm({
   "lib/meta/icon_artwork-frame.svg.ts"() {
-    meta234 = {
+    meta258 = {
       "description": "An icon representing a decorative frame often used for displaying artwork or pictures.",
       "category": [
         "Things"
@@ -20009,7 +20801,7 @@ var init_icon_artwork_frame_svg = __esm({
       ],
       "title": "Artwork Frame"
     };
-    icon_artwork_frame_svg_default = meta234;
+    icon_artwork_frame_svg_default = meta258;
   }
 });
 
@@ -20017,12 +20809,12 @@ var init_icon_artwork_frame_svg = __esm({
 var icon_barbecue_svg_exports = {};
 __export(icon_barbecue_svg_exports, {
   default: () => icon_barbecue_svg_default,
-  meta: () => meta235
+  meta: () => meta259
 });
-var meta235, icon_barbecue_svg_default;
+var meta259, icon_barbecue_svg_default;
 var init_icon_barbecue_svg = __esm({
   "lib/meta/icon_barbecue.svg.ts"() {
-    meta235 = {
+    meta259 = {
       "description": "An icon representing a barbecue grill used for outdoor cooking and grilling food such as burgers, sausages, and vegetables.",
       "category": [
         "Things",
@@ -20042,7 +20834,7 @@ var init_icon_barbecue_svg = __esm({
       ],
       "title": "Barbecue"
     };
-    icon_barbecue_svg_default = meta235;
+    icon_barbecue_svg_default = meta259;
   }
 });
 
@@ -20050,12 +20842,12 @@ var init_icon_barbecue_svg = __esm({
 var icon_bathroom_essentials_svg_exports = {};
 __export(icon_bathroom_essentials_svg_exports, {
   default: () => icon_bathroom_essentials_svg_default,
-  meta: () => meta236
+  meta: () => meta260
 });
-var meta236, icon_bathroom_essentials_svg_default;
+var meta260, icon_bathroom_essentials_svg_default;
 var init_icon_bathroom_essentials_svg = __esm({
   "lib/meta/icon_bathroom-essentials.svg.ts"() {
-    meta236 = {
+    meta260 = {
       "description": "The icon 'bathroom essentials' depicts various essential items commonly found in bathrooms. It includes items like soap, shampoo, toothbrush, and towels.",
       "category": [
         "Things",
@@ -20075,7 +20867,7 @@ var init_icon_bathroom_essentials_svg = __esm({
       ],
       "title": "Bathroom Essentials"
     };
-    icon_bathroom_essentials_svg_default = meta236;
+    icon_bathroom_essentials_svg_default = meta260;
   }
 });
 
@@ -20083,12 +20875,12 @@ var init_icon_bathroom_essentials_svg = __esm({
 var icon_binoculars_svg_exports = {};
 __export(icon_binoculars_svg_exports, {
   default: () => icon_binoculars_svg_default,
-  meta: () => meta237
+  meta: () => meta261
 });
-var meta237, icon_binoculars_svg_default;
+var meta261, icon_binoculars_svg_default;
 var init_icon_binoculars_svg = __esm({
   "lib/meta/icon_binoculars.svg.ts"() {
-    meta237 = {
+    meta261 = {
       "description": "Binoculars icon typically represents the tool used for magnifying distant objects. It is often associated with exploration, adventure, and observation.",
       "category": [
         "Things",
@@ -20108,7 +20900,7 @@ var init_icon_binoculars_svg = __esm({
       ],
       "title": "Binoculars"
     };
-    icon_binoculars_svg_default = meta237;
+    icon_binoculars_svg_default = meta261;
   }
 });
 
@@ -20116,12 +20908,12 @@ var init_icon_binoculars_svg = __esm({
 var icon_blender_svg_exports = {};
 __export(icon_blender_svg_exports, {
   default: () => icon_blender_svg_default,
-  meta: () => meta238
+  meta: () => meta262
 });
-var meta238, icon_blender_svg_default;
+var meta262, icon_blender_svg_default;
 var init_icon_blender_svg = __esm({
   "lib/meta/icon_blender.svg.ts"() {
-    meta238 = {
+    meta262 = {
       "description": "A blender is a kitchen appliance used to mix, pur\xE9e, or emulsify food and other substances. It usually consists of a blender jar with a rotating metal blade at the bottom, powered by an electric motor in the base.",
       "category": [
         "Things",
@@ -20141,7 +20933,7 @@ var init_icon_blender_svg = __esm({
       ],
       "title": "Blender"
     };
-    icon_blender_svg_default = meta238;
+    icon_blender_svg_default = meta262;
   }
 });
 
@@ -20149,12 +20941,12 @@ var init_icon_blender_svg = __esm({
 var icon_bookcase_svg_exports = {};
 __export(icon_bookcase_svg_exports, {
   default: () => icon_bookcase_svg_default,
-  meta: () => meta239
+  meta: () => meta263
 });
-var meta239, icon_bookcase_svg_default;
+var meta263, icon_bookcase_svg_default;
 var init_icon_bookcase_svg = __esm({
   "lib/meta/icon_bookcase.svg.ts"() {
-    meta239 = {
+    meta263 = {
       "description": "A bookcase is a piece of furniture with horizontal shelves, used to store books and other items. It is often found in libraries, homes, and offices.",
       "category": [
         "Things",
@@ -20174,7 +20966,7 @@ var init_icon_bookcase_svg = __esm({
       ],
       "title": "Bookcase"
     };
-    icon_bookcase_svg_default = meta239;
+    icon_bookcase_svg_default = meta263;
   }
 });
 
@@ -20182,12 +20974,12 @@ var init_icon_bookcase_svg = __esm({
 var icon_brain_svg_exports = {};
 __export(icon_brain_svg_exports, {
   default: () => icon_brain_svg_default,
-  meta: () => meta240
+  meta: () => meta264
 });
-var meta240, icon_brain_svg_default;
+var meta264, icon_brain_svg_default;
 var init_icon_brain_svg = __esm({
   "lib/meta/icon_brain.svg.ts"() {
-    meta240 = {
+    meta264 = {
       "description": "The brain icon is a symbol commonly used to represent intelligence, creativity, and knowledge. It can be used in various contexts such as education, science, psychology, and medicine.",
       "category": [
         "Symbol",
@@ -20207,7 +20999,7 @@ var init_icon_brain_svg = __esm({
       ],
       "title": "Brain"
     };
-    icon_brain_svg_default = meta240;
+    icon_brain_svg_default = meta264;
   }
 });
 
@@ -20215,18 +21007,18 @@ var init_icon_brain_svg = __esm({
 var icon_branch_2_svg_exports = {};
 __export(icon_branch_2_svg_exports, {
   default: () => icon_branch_2_svg_default,
-  meta: () => meta241
+  meta: () => meta265
 });
-var meta241, icon_branch_2_svg_default;
+var meta265, icon_branch_2_svg_default;
 var init_icon_branch_2_svg = __esm({
   "lib/meta/icon_branch-2.svg.ts"() {
-    meta241 = {
+    meta265 = {
       description: "Branch-2 icon is a simple design of a branch with two leaves, representing nature, growth, and connection. It can be used in various designs related to environment, ecology, or organic products.",
       category: ["Nature"],
       tag: ["branch", "leaves", "nature", "growth", "connection", "environment", "ecology", "organic", "tree", "plant"],
       title: "Branch 2"
     };
-    icon_branch_2_svg_default = meta241;
+    icon_branch_2_svg_default = meta265;
   }
 });
 
@@ -20234,18 +21026,18 @@ var init_icon_branch_2_svg = __esm({
 var icon_branch_3_svg_exports = {};
 __export(icon_branch_3_svg_exports, {
   default: () => icon_branch_3_svg_default,
-  meta: () => meta242
+  meta: () => meta266
 });
-var meta242, icon_branch_3_svg_default;
+var meta266, icon_branch_3_svg_default;
 var init_icon_branch_3_svg = __esm({
   "lib/meta/icon_branch-3.svg.ts"() {
-    meta242 = {
+    meta266 = {
       description: "Branch-3 icon represents a stylized tree branch with three extensions. It can be used to symbolize growth, nature, and connection.",
       category: ["Nature"],
       tag: ["tree", "branch", "extension", "growth", "nature", "connection", "symbol", "plant", "floral", "botanical"],
       title: "Branch 3"
     };
-    icon_branch_3_svg_default = meta242;
+    icon_branch_3_svg_default = meta266;
   }
 });
 
@@ -20253,18 +21045,18 @@ var init_icon_branch_3_svg = __esm({
 var icon_branch_svg_exports = {};
 __export(icon_branch_svg_exports, {
   default: () => icon_branch_svg_default,
-  meta: () => meta243
+  meta: () => meta267
 });
-var meta243, icon_branch_svg_default;
+var meta267, icon_branch_svg_default;
 var init_icon_branch_svg = __esm({
   "lib/meta/icon_branch.svg.ts"() {
-    meta243 = {
+    meta267 = {
       description: "This icon represents a branch, typically a part of a tree or bush. It can be used to symbolize growth, nature, or ecology.",
       category: ["Nature"],
       tag: ["tree", "plant", "nature", "branch", "ecology", "growth", "organic", "leaf", "flora", "foliage"],
       title: "Branch"
     };
-    icon_branch_svg_default = meta243;
+    icon_branch_svg_default = meta267;
   }
 });
 
@@ -20272,12 +21064,12 @@ var init_icon_branch_svg = __esm({
 var icon_bulb_svg_exports = {};
 __export(icon_bulb_svg_exports, {
   default: () => icon_bulb_svg_default,
-  meta: () => meta244
+  meta: () => meta268
 });
-var meta244, icon_bulb_svg_default;
+var meta268, icon_bulb_svg_default;
 var init_icon_bulb_svg = __esm({
   "lib/meta/icon_bulb.svg.ts"() {
-    meta244 = {
+    meta268 = {
       "description": "An icon of a light bulb, representing ideas, creativity, and innovation.",
       "category": [
         "Things",
@@ -20297,7 +21089,7 @@ var init_icon_bulb_svg = __esm({
       ],
       "title": "Bulb"
     };
-    icon_bulb_svg_default = meta244;
+    icon_bulb_svg_default = meta268;
   }
 });
 
@@ -20305,12 +21097,12 @@ var init_icon_bulb_svg = __esm({
 var icon_cactus_svg_exports = {};
 __export(icon_cactus_svg_exports, {
   default: () => icon_cactus_svg_default,
-  meta: () => meta245
+  meta: () => meta269
 });
-var meta245, icon_cactus_svg_default;
+var meta269, icon_cactus_svg_default;
 var init_icon_cactus_svg = __esm({
   "lib/meta/icon_cactus.svg.ts"() {
-    meta245 = {
+    meta269 = {
       "description": "An icon of a cactus plant commonly found in desert environments. The cactus icon can symbolize resilience, strength, and adaptability.",
       "category": [
         "Nature",
@@ -20330,7 +21122,7 @@ var init_icon_cactus_svg = __esm({
       ],
       "title": "Cactus"
     };
-    icon_cactus_svg_default = meta245;
+    icon_cactus_svg_default = meta269;
   }
 });
 
@@ -20338,18 +21130,18 @@ var init_icon_cactus_svg = __esm({
 var icon_camper_svg_exports = {};
 __export(icon_camper_svg_exports, {
   default: () => icon_camper_svg_default,
-  meta: () => meta246
+  meta: () => meta270
 });
-var meta246, icon_camper_svg_default;
+var meta270, icon_camper_svg_default;
 var init_icon_camper_svg = __esm({
   "lib/meta/icon_camper.svg.ts"() {
-    meta246 = {
+    meta270 = {
       description: "An icon of a camper van, perfect for representing travel, camping, adventure, and outdoor activities.",
       category: ["Transport", "Misc"],
       tag: ["camping", "vehicle", "recreation", "nature", "exploration", "vacation", "holiday", "road trip", "nature", "outdoors"],
       title: "Camper"
     };
-    icon_camper_svg_default = meta246;
+    icon_camper_svg_default = meta270;
   }
 });
 
@@ -20357,18 +21149,18 @@ var init_icon_camper_svg = __esm({
 var icon_caravan_svg_exports = {};
 __export(icon_caravan_svg_exports, {
   default: () => icon_caravan_svg_default,
-  meta: () => meta247
+  meta: () => meta271
 });
-var meta247, icon_caravan_svg_default;
+var meta271, icon_caravan_svg_default;
 var init_icon_caravan_svg = __esm({
   "lib/meta/icon_caravan.svg.ts"() {
-    meta247 = {
+    meta271 = {
       description: "A caravan is a group of travelers journeying together, typically with a group of people traveling through the desert or remote areas. The icon represents a mode of transportation and adventure.",
       category: ["Transport"],
       tag: ["caravan", "travel", "group", "journey", "desert", "adventure", "expedition", "exploration", "pack", "camping"],
       title: "Caravan"
     };
-    icon_caravan_svg_default = meta247;
+    icon_caravan_svg_default = meta271;
   }
 });
 
@@ -20376,12 +21168,12 @@ var init_icon_caravan_svg = __esm({
 var icon_chip_svg_exports = {};
 __export(icon_chip_svg_exports, {
   default: () => icon_chip_svg_default,
-  meta: () => meta248
+  meta: () => meta272
 });
-var meta248, icon_chip_svg_default;
+var meta272, icon_chip_svg_default;
 var init_icon_chip_svg = __esm({
   "lib/meta/icon_chip.svg.ts"() {
-    meta248 = {
+    meta272 = {
       "description": "A small, flat, thin piece of material, typically a semiconductor or other substance, that is used as a component in electronic devices.",
       "category": [
         "Things"
@@ -20400,7 +21192,7 @@ var init_icon_chip_svg = __esm({
       ],
       "title": "Chip"
     };
-    icon_chip_svg_default = meta248;
+    icon_chip_svg_default = meta272;
   }
 });
 
@@ -20408,12 +21200,12 @@ var init_icon_chip_svg = __esm({
 var icon_cleaning_bucket_svg_exports = {};
 __export(icon_cleaning_bucket_svg_exports, {
   default: () => icon_cleaning_bucket_svg_default,
-  meta: () => meta249
+  meta: () => meta273
 });
-var meta249, icon_cleaning_bucket_svg_default;
+var meta273, icon_cleaning_bucket_svg_default;
 var init_icon_cleaning_bucket_svg = __esm({
   "lib/meta/icon_cleaning-bucket.svg.ts"() {
-    meta249 = {
+    meta273 = {
       "description": "A depiction of a bucket used for cleaning purposes, typically filled with soap and water. The icon represents household chores and cleanliness.",
       "category": [
         "Things"
@@ -20432,7 +21224,7 @@ var init_icon_cleaning_bucket_svg = __esm({
       ],
       "title": "Cleaning Bucket"
     };
-    icon_cleaning_bucket_svg_default = meta249;
+    icon_cleaning_bucket_svg_default = meta273;
   }
 });
 
@@ -20440,12 +21232,12 @@ var init_icon_cleaning_bucket_svg = __esm({
 var icon_cleaning_spray_svg_exports = {};
 __export(icon_cleaning_spray_svg_exports, {
   default: () => icon_cleaning_spray_svg_default,
-  meta: () => meta250
+  meta: () => meta274
 });
-var meta250, icon_cleaning_spray_svg_default;
+var meta274, icon_cleaning_spray_svg_default;
 var init_icon_cleaning_spray_svg = __esm({
   "lib/meta/icon_cleaning-spray.svg.ts"() {
-    meta250 = {
+    meta274 = {
       "description": "Icon of a cleaning spray bottle, commonly used for household cleaning purposes.",
       "category": [
         "Things",
@@ -20465,7 +21257,7 @@ var init_icon_cleaning_spray_svg = __esm({
       ],
       "title": "Cleaning Spray"
     };
-    icon_cleaning_spray_svg_default = meta250;
+    icon_cleaning_spray_svg_default = meta274;
   }
 });
 
@@ -20473,12 +21265,12 @@ var init_icon_cleaning_spray_svg = __esm({
 var icon_closet_svg_exports = {};
 __export(icon_closet_svg_exports, {
   default: () => icon_closet_svg_default,
-  meta: () => meta251
+  meta: () => meta275
 });
-var meta251, icon_closet_svg_default;
+var meta275, icon_closet_svg_default;
 var init_icon_closet_svg = __esm({
   "lib/meta/icon_closet.svg.ts"() {
-    meta251 = {
+    meta275 = {
       "description": "An icon representing a closet used for storing clothes, shoes, or other personal items.",
       "category": [
         "Things",
@@ -20498,7 +21290,7 @@ var init_icon_closet_svg = __esm({
       ],
       "title": "Closet"
     };
-    icon_closet_svg_default = meta251;
+    icon_closet_svg_default = meta275;
   }
 });
 
@@ -20506,12 +21298,12 @@ var init_icon_closet_svg = __esm({
 var icon_coins_svg_exports = {};
 __export(icon_coins_svg_exports, {
   default: () => icon_coins_svg_default,
-  meta: () => meta252
+  meta: () => meta276
 });
-var meta252, icon_coins_svg_default;
+var meta276, icon_coins_svg_default;
 var init_icon_coins_svg = __esm({
   "lib/meta/icon_coins.svg.ts"() {
-    meta252 = {
+    meta276 = {
       "description": "The icon of coins typically represents money or wealth. It can be used in various financial and business-related contexts to symbolize currency, savings, earnings, or transactions.",
       "category": [
         "Things"
@@ -20530,7 +21322,7 @@ var init_icon_coins_svg = __esm({
       ],
       "title": "Coins"
     };
-    icon_coins_svg_default = meta252;
+    icon_coins_svg_default = meta276;
   }
 });
 
@@ -20538,12 +21330,12 @@ var init_icon_coins_svg = __esm({
 var icon_compass_2_svg_exports = {};
 __export(icon_compass_2_svg_exports, {
   default: () => icon_compass_2_svg_default,
-  meta: () => meta253
+  meta: () => meta277
 });
-var meta253, icon_compass_2_svg_default;
+var meta277, icon_compass_2_svg_default;
 var init_icon_compass_2_svg = __esm({
   "lib/meta/icon_compass 2.svg.ts"() {
-    meta253 = {
+    meta277 = {
       "description": "Compass icon with a design featuring directional arrows pointing North, South, East, and West, symbolizing navigation and exploration.",
       "category": [
         "Arrows",
@@ -20562,7 +21354,7 @@ var init_icon_compass_2_svg = __esm({
       ],
       "title": "Compass 2"
     };
-    icon_compass_2_svg_default = meta253;
+    icon_compass_2_svg_default = meta277;
   }
 });
 
@@ -20570,12 +21362,12 @@ var init_icon_compass_2_svg = __esm({
 var icon_compass_svg_exports = {};
 __export(icon_compass_svg_exports, {
   default: () => icon_compass_svg_default,
-  meta: () => meta254
+  meta: () => meta278
 });
-var meta254, icon_compass_svg_default;
+var meta278, icon_compass_svg_default;
 var init_icon_compass_svg = __esm({
   "lib/meta/icon_compass.svg.ts"() {
-    meta254 = {
+    meta278 = {
       "description": "A compass icon typically used to represent directions and navigation. It features a circular design with cardinal points (north, south, east, west) marked on it.",
       "category": [
         "Arrows",
@@ -20596,7 +21388,7 @@ var init_icon_compass_svg = __esm({
       ],
       "title": "Compass"
     };
-    icon_compass_svg_default = meta254;
+    icon_compass_svg_default = meta278;
   }
 });
 
@@ -20604,12 +21396,12 @@ var init_icon_compass_svg = __esm({
 var icon_cube_3d_svg_exports = {};
 __export(icon_cube_3d_svg_exports, {
   default: () => icon_cube_3d_svg_default,
-  meta: () => meta255
+  meta: () => meta279
 });
-var meta255, icon_cube_3d_svg_default;
+var meta279, icon_cube_3d_svg_default;
 var init_icon_cube_3d_svg = __esm({
   "lib/meta/icon_cube-3d.svg.ts"() {
-    meta255 = {
+    meta279 = {
       "description": "The cube-3d icon represents a three-dimensional cube shape. It is often used in design and graphics to symbolize volume, depth, or the concept of a 3D space.",
       "category": [
         "Shapes"
@@ -20628,7 +21420,7 @@ var init_icon_cube_3d_svg = __esm({
       ],
       "title": "Cube 3D"
     };
-    icon_cube_3d_svg_default = meta255;
+    icon_cube_3d_svg_default = meta279;
   }
 });
 
@@ -20636,12 +21428,12 @@ var init_icon_cube_3d_svg = __esm({
 var icon_education_svg_exports = {};
 __export(icon_education_svg_exports, {
   default: () => icon_education_svg_default,
-  meta: () => meta256
+  meta: () => meta280
 });
-var meta256, icon_education_svg_default;
+var meta280, icon_education_svg_default;
 var init_icon_education_svg = __esm({
   "lib/meta/icon_education.svg.ts"() {
-    meta256 = {
+    meta280 = {
       "description": "An icon representing education, typically associated with learning, school, and knowledge. It could include elements such as books, graduation caps, or pencils.",
       "category": [
         "Things"
@@ -20660,7 +21452,7 @@ var init_icon_education_svg = __esm({
       ],
       "title": "Education"
     };
-    icon_education_svg_default = meta256;
+    icon_education_svg_default = meta280;
   }
 });
 
@@ -20668,12 +21460,12 @@ var init_icon_education_svg = __esm({
 var icon_factory_arm_svg_exports = {};
 __export(icon_factory_arm_svg_exports, {
   default: () => icon_factory_arm_svg_default,
-  meta: () => meta257
+  meta: () => meta281
 });
-var meta257, icon_factory_arm_svg_default;
+var meta281, icon_factory_arm_svg_default;
 var init_icon_factory_arm_svg = __esm({
   "lib/meta/icon_factory-arm.svg.ts"() {
-    meta257 = {
+    meta281 = {
       "description": "This icon features an arm of a factory, symbolizing manufacturing or production. It can represent industries, automation, machinery, or assembly lines.",
       "category": [
         "Things",
@@ -20692,7 +21484,7 @@ var init_icon_factory_arm_svg = __esm({
       ],
       "title": "Factory Arm"
     };
-    icon_factory_arm_svg_default = meta257;
+    icon_factory_arm_svg_default = meta281;
   }
 });
 
@@ -20700,12 +21492,12 @@ var init_icon_factory_arm_svg = __esm({
 var icon_factory_belt_svg_exports = {};
 __export(icon_factory_belt_svg_exports, {
   default: () => icon_factory_belt_svg_default,
-  meta: () => meta258
+  meta: () => meta282
 });
-var meta258, icon_factory_belt_svg_default;
+var meta282, icon_factory_belt_svg_default;
 var init_icon_factory_belt_svg = __esm({
   "lib/meta/icon_factory-belt.svg.ts"() {
-    meta258 = {
+    meta282 = {
       "description": "A factory belt is a mechanical system that is used to transport items within a factory or industrial setting. It consists of a continuous belt that moves objects from one location to another.",
       "category": [
         "Transport"
@@ -20724,7 +21516,7 @@ var init_icon_factory_belt_svg = __esm({
       ],
       "title": "Factory Belt"
     };
-    icon_factory_belt_svg_default = meta258;
+    icon_factory_belt_svg_default = meta282;
   }
 });
 
@@ -20732,12 +21524,12 @@ var init_icon_factory_belt_svg = __esm({
 var icon_factory_svg_exports = {};
 __export(icon_factory_svg_exports, {
   default: () => icon_factory_svg_default,
-  meta: () => meta259
+  meta: () => meta283
 });
-var meta259, icon_factory_svg_default;
+var meta283, icon_factory_svg_default;
 var init_icon_factory_svg = __esm({
   "lib/meta/icon_factory.svg.ts"() {
-    meta259 = {
+    meta283 = {
       "description": "An icon representing a factory or industrial building, typically used to symbolize manufacturing, production, or industry in general.",
       "category": [
         "Things",
@@ -20756,7 +21548,7 @@ var init_icon_factory_svg = __esm({
       ],
       "title": "Factory"
     };
-    icon_factory_svg_default = meta259;
+    icon_factory_svg_default = meta283;
   }
 });
 
@@ -20764,12 +21556,12 @@ var init_icon_factory_svg = __esm({
 var icon_fingerprint_svg_exports = {};
 __export(icon_fingerprint_svg_exports, {
   default: () => icon_fingerprint_svg_default,
-  meta: () => meta260
+  meta: () => meta284
 });
-var meta260, icon_fingerprint_svg_default;
+var meta284, icon_fingerprint_svg_default;
 var init_icon_fingerprint_svg = __esm({
   "lib/meta/icon_fingerprint.svg.ts"() {
-    meta260 = {
+    meta284 = {
       "description": "A fingerprint icon typically represents personal identification, security, or authentication",
       "category": [
         "Interface",
@@ -20789,7 +21581,7 @@ var init_icon_fingerprint_svg = __esm({
       ],
       "title": "Fingerprint"
     };
-    icon_fingerprint_svg_default = meta260;
+    icon_fingerprint_svg_default = meta284;
   }
 });
 
@@ -20797,12 +21589,12 @@ var init_icon_fingerprint_svg = __esm({
 var icon_fire_svg_exports = {};
 __export(icon_fire_svg_exports, {
   default: () => icon_fire_svg_default,
-  meta: () => meta261
+  meta: () => meta285
 });
-var meta261, icon_fire_svg_default;
+var meta285, icon_fire_svg_default;
 var init_icon_fire_svg = __esm({
   "lib/meta/icon_fire.svg.ts"() {
-    meta261 = {
+    meta285 = {
       "description": "An icon depicting fire, commonly used in wayfinding signage to indicate the location of emergency exits or fire alarms.",
       "category": [
         "Wayfinding"
@@ -20821,7 +21613,7 @@ var init_icon_fire_svg = __esm({
       ],
       "title": "Fire"
     };
-    icon_fire_svg_default = meta261;
+    icon_fire_svg_default = meta285;
   }
 });
 
@@ -20829,12 +21621,12 @@ var init_icon_fire_svg = __esm({
 var icon_fridge_svg_exports = {};
 __export(icon_fridge_svg_exports, {
   default: () => icon_fridge_svg_default,
-  meta: () => meta262
+  meta: () => meta286
 });
-var meta262, icon_fridge_svg_default;
+var meta286, icon_fridge_svg_default;
 var init_icon_fridge_svg = __esm({
   "lib/meta/icon_fridge.svg.ts"() {
-    meta262 = {
+    meta286 = {
       "description": "An icon representing a refrigerator, typically used in kitchens to store food and beverages at a cool temperature.",
       "category": [
         "Things",
@@ -20853,7 +21645,7 @@ var init_icon_fridge_svg = __esm({
       ],
       "title": "Fridge"
     };
-    icon_fridge_svg_default = meta262;
+    icon_fridge_svg_default = meta286;
   }
 });
 
@@ -20861,12 +21653,12 @@ var init_icon_fridge_svg = __esm({
 var icon_furniture_bed_2_svg_exports = {};
 __export(icon_furniture_bed_2_svg_exports, {
   default: () => icon_furniture_bed_2_svg_default,
-  meta: () => meta263
+  meta: () => meta287
 });
-var meta263, icon_furniture_bed_2_svg_default;
+var meta287, icon_furniture_bed_2_svg_default;
 var init_icon_furniture_bed_2_svg = __esm({
   "lib/meta/icon_furniture-bed-2.svg.ts"() {
-    meta263 = {
+    meta287 = {
       "description": "An icon of a cozy double bed with pillows and bedsheets, perfect for bedroom furniture design elements.",
       "category": [
         "Misc",
@@ -20886,7 +21678,7 @@ var init_icon_furniture_bed_2_svg = __esm({
       ],
       "title": "Furniture Bed 2"
     };
-    icon_furniture_bed_2_svg_default = meta263;
+    icon_furniture_bed_2_svg_default = meta287;
   }
 });
 
@@ -20894,12 +21686,12 @@ var init_icon_furniture_bed_2_svg = __esm({
 var icon_furniture_bed_king_2_svg_exports = {};
 __export(icon_furniture_bed_king_2_svg_exports, {
   default: () => icon_furniture_bed_king_2_svg_default,
-  meta: () => meta264
+  meta: () => meta288
 });
-var meta264, icon_furniture_bed_king_2_svg_default;
+var meta288, icon_furniture_bed_king_2_svg_default;
 var init_icon_furniture_bed_king_2_svg = __esm({
   "lib/meta/icon_furniture-bed-king-2.svg.ts"() {
-    meta264 = {
+    meta288 = {
       "description": "Icon of a king-size bed, suitable for furniture and interior design related projects.",
       "category": [
         "Misc"
@@ -20918,7 +21710,7 @@ var init_icon_furniture_bed_king_2_svg = __esm({
       ],
       "title": "King Size Bed Icon"
     };
-    icon_furniture_bed_king_2_svg_default = meta264;
+    icon_furniture_bed_king_2_svg_default = meta288;
   }
 });
 
@@ -20926,12 +21718,12 @@ var init_icon_furniture_bed_king_2_svg = __esm({
 var icon_furniture_bed_king_svg_exports = {};
 __export(icon_furniture_bed_king_svg_exports, {
   default: () => icon_furniture_bed_king_svg_default,
-  meta: () => meta265
+  meta: () => meta289
 });
-var meta265, icon_furniture_bed_king_svg_default;
+var meta289, icon_furniture_bed_king_svg_default;
 var init_icon_furniture_bed_king_svg = __esm({
   "lib/meta/icon_furniture-bed-king.svg.ts"() {
-    meta265 = {
+    meta289 = {
       "description": "An icon of a king-sized bed, symbolizing comfort and luxury. Perfect for furniture-related designs.",
       "category": [
         "Misc"
@@ -20950,7 +21742,7 @@ var init_icon_furniture_bed_king_svg = __esm({
       ],
       "title": "King Sized Bed Icon"
     };
-    icon_furniture_bed_king_svg_default = meta265;
+    icon_furniture_bed_king_svg_default = meta289;
   }
 });
 
@@ -20958,12 +21750,12 @@ var init_icon_furniture_bed_king_svg = __esm({
 var icon_furniture_bed_single_2_svg_exports = {};
 __export(icon_furniture_bed_single_2_svg_exports, {
   default: () => icon_furniture_bed_single_2_svg_default,
-  meta: () => meta266
+  meta: () => meta290
 });
-var meta266, icon_furniture_bed_single_2_svg_default;
+var meta290, icon_furniture_bed_single_2_svg_default;
 var init_icon_furniture_bed_single_2_svg = __esm({
   "lib/meta/icon_furniture-bed-single-2.svg.ts"() {
-    meta266 = {
+    meta290 = {
       "description": "A single bed for one person, perfect for bedrooms or hotel rooms. The design is simple and modern, suitable for various interior styles.",
       "category": [
         "Misc"
@@ -20982,7 +21774,7 @@ var init_icon_furniture_bed_single_2_svg = __esm({
       ],
       "title": "Single Bed"
     };
-    icon_furniture_bed_single_2_svg_default = meta266;
+    icon_furniture_bed_single_2_svg_default = meta290;
   }
 });
 
@@ -20990,12 +21782,12 @@ var init_icon_furniture_bed_single_2_svg = __esm({
 var icon_furniture_bed_single_svg_exports = {};
 __export(icon_furniture_bed_single_svg_exports, {
   default: () => icon_furniture_bed_single_svg_default,
-  meta: () => meta267
+  meta: () => meta291
 });
-var meta267, icon_furniture_bed_single_svg_default;
+var meta291, icon_furniture_bed_single_svg_default;
 var init_icon_furniture_bed_single_svg = __esm({
   "lib/meta/icon_furniture-bed-single.svg.ts"() {
-    meta267 = {
+    meta291 = {
       "description": "A single bed for one person, perfect for bedrooms or hotel rooms. The design is simple and modern, suitable for various interior styles.",
       "category": [
         "Misc"
@@ -21014,7 +21806,7 @@ var init_icon_furniture_bed_single_svg = __esm({
       ],
       "title": "Single Bed"
     };
-    icon_furniture_bed_single_svg_default = meta267;
+    icon_furniture_bed_single_svg_default = meta291;
   }
 });
 
@@ -21022,12 +21814,12 @@ var init_icon_furniture_bed_single_svg = __esm({
 var icon_furniture_bed_svg_exports = {};
 __export(icon_furniture_bed_svg_exports, {
   default: () => icon_furniture_bed_svg_default,
-  meta: () => meta268
+  meta: () => meta292
 });
-var meta268, icon_furniture_bed_svg_default;
+var meta292, icon_furniture_bed_svg_default;
 var init_icon_furniture_bed_svg = __esm({
   "lib/meta/icon_furniture-bed.svg.ts"() {
-    meta268 = {
+    meta292 = {
       "description": "An icon of a bed, typically used as a piece of furniture for sleeping and resting. It represents comfort, relaxation, and bedroom decor.",
       "category": [
         "Things",
@@ -21046,7 +21838,7 @@ var init_icon_furniture_bed_svg = __esm({
       ],
       "title": "Furniture Bed"
     };
-    icon_furniture_bed_svg_default = meta268;
+    icon_furniture_bed_svg_default = meta292;
   }
 });
 
@@ -21054,12 +21846,12 @@ var init_icon_furniture_bed_svg = __esm({
 var icon_furniture_bedside_table_svg_exports = {};
 __export(icon_furniture_bedside_table_svg_exports, {
   default: () => icon_furniture_bedside_table_svg_default,
-  meta: () => meta269
+  meta: () => meta293
 });
-var meta269, icon_furniture_bedside_table_svg_default;
+var meta293, icon_furniture_bedside_table_svg_default;
 var init_icon_furniture_bedside_table_svg = __esm({
   "lib/meta/icon_furniture-bedside-table.svg.ts"() {
-    meta269 = {
+    meta293 = {
       "description": "An icon representing a bedside table, typically used for placing items next to a bed such as lamps, alarm clocks, or books.",
       "category": [
         "Furniture"
@@ -21078,7 +21870,7 @@ var init_icon_furniture_bedside_table_svg = __esm({
       ],
       "title": "Furniture Bedside Table"
     };
-    icon_furniture_bedside_table_svg_default = meta269;
+    icon_furniture_bedside_table_svg_default = meta293;
   }
 });
 
@@ -21086,18 +21878,18 @@ var init_icon_furniture_bedside_table_svg = __esm({
 var icon_furniture_chair_2_svg_exports = {};
 __export(icon_furniture_chair_2_svg_exports, {
   default: () => icon_furniture_chair_2_svg_default,
-  meta: () => meta270
+  meta: () => meta294
 });
-var meta270, icon_furniture_chair_2_svg_default;
+var meta294, icon_furniture_chair_2_svg_default;
 var init_icon_furniture_chair_2_svg = __esm({
   "lib/meta/icon_furniture-chair 2.svg.ts"() {
-    meta270 = {
+    meta294 = {
       description: "A simple icon of a modern chair design, commonly used in furniture store websites or interior design blogs.",
       category: ["Misc"],
       tag: ["furniture", "chair", "modern", "interior design", "home decor", "seating", "furnishings", "comfort", "household", "living room"],
       title: "Furniture Chair 2"
     };
-    icon_furniture_chair_2_svg_default = meta270;
+    icon_furniture_chair_2_svg_default = meta294;
   }
 });
 
@@ -21105,18 +21897,18 @@ var init_icon_furniture_chair_2_svg = __esm({
 var icon_furniture_chair_3_svg_exports = {};
 __export(icon_furniture_chair_3_svg_exports, {
   default: () => icon_furniture_chair_3_svg_default,
-  meta: () => meta271
+  meta: () => meta295
 });
-var meta271, icon_furniture_chair_3_svg_default;
+var meta295, icon_furniture_chair_3_svg_default;
 var init_icon_furniture_chair_3_svg = __esm({
   "lib/meta/icon_furniture-chair 3.svg.ts"() {
-    meta271 = {
+    meta295 = {
       description: "Icon of a modern chair design, suitable for use in furniture-related designs and projects.",
       category: ["Misc"],
       tag: ["furniture", "chair", "modern", "design", "interior", "seat", "home decor", "furnishing", "comfortable", "style"],
       title: "Furniture Chair 3"
     };
-    icon_furniture_chair_3_svg_default = meta271;
+    icon_furniture_chair_3_svg_default = meta295;
   }
 });
 
@@ -21124,18 +21916,18 @@ var init_icon_furniture_chair_3_svg = __esm({
 var icon_furniture_chair_4_svg_exports = {};
 __export(icon_furniture_chair_4_svg_exports, {
   default: () => icon_furniture_chair_4_svg_default,
-  meta: () => meta272
+  meta: () => meta296
 });
-var meta272, icon_furniture_chair_4_svg_default;
+var meta296, icon_furniture_chair_4_svg_default;
 var init_icon_furniture_chair_4_svg = __esm({
   "lib/meta/icon_furniture-chair 4.svg.ts"() {
-    meta272 = {
+    meta296 = {
       description: "Icon of a modern armchair, perfect for interior design or furniture related projects.",
       category: ["Misc"],
       tag: ["furniture", "chair", "interior design", "home decor", "seating", "modern", "comfort", "style", "living room", "contemporary"],
       title: "Furniture Chair 4"
     };
-    icon_furniture_chair_4_svg_default = meta272;
+    icon_furniture_chair_4_svg_default = meta296;
   }
 });
 
@@ -21143,12 +21935,12 @@ var init_icon_furniture_chair_4_svg = __esm({
 var icon_furniture_chair_svg_exports = {};
 __export(icon_furniture_chair_svg_exports, {
   default: () => icon_furniture_chair_svg_default,
-  meta: () => meta273
+  meta: () => meta297
 });
-var meta273, icon_furniture_chair_svg_default;
+var meta297, icon_furniture_chair_svg_default;
 var init_icon_furniture_chair_svg = __esm({
   "lib/meta/icon_furniture-chair.svg.ts"() {
-    meta273 = {
+    meta297 = {
       "description": "This icon represents a chair, commonly used as a piece of furniture for sitting. It is typically made of wood, metal, or other materials and can have various designs such as armchairs, rocking chairs, or dining chairs.",
       "category": [
         "Things",
@@ -21168,7 +21960,7 @@ var init_icon_furniture_chair_svg = __esm({
       ],
       "title": "Furniture Chair"
     };
-    icon_furniture_chair_svg_default = meta273;
+    icon_furniture_chair_svg_default = meta297;
   }
 });
 
@@ -21176,18 +21968,18 @@ var init_icon_furniture_chair_svg = __esm({
 var icon_furniture_couch_2_svg_exports = {};
 __export(icon_furniture_couch_2_svg_exports, {
   default: () => icon_furniture_couch_2_svg_default,
-  meta: () => meta274
+  meta: () => meta298
 });
-var meta274, icon_furniture_couch_2_svg_default;
+var meta298, icon_furniture_couch_2_svg_default;
 var init_icon_furniture_couch_2_svg = __esm({
   "lib/meta/icon_furniture-couch 2.svg.ts"() {
-    meta274 = {
+    meta298 = {
       description: "This icon depicts a modern couch with a sleek design, suitable for various interior design projects and furniture-related themes.",
       category: ["Misc"],
       tag: ["furniture", "couch", "living room", "modern", "interior design", "home decor", "seat", "relaxation", "lounge", "comfort"],
       title: "Furniture Couch 2"
     };
-    icon_furniture_couch_2_svg_default = meta274;
+    icon_furniture_couch_2_svg_default = meta298;
   }
 });
 
@@ -21195,18 +21987,18 @@ var init_icon_furniture_couch_2_svg = __esm({
 var icon_furniture_couch_3_svg_exports = {};
 __export(icon_furniture_couch_3_svg_exports, {
   default: () => icon_furniture_couch_3_svg_default,
-  meta: () => meta275
+  meta: () => meta299
 });
-var meta275, icon_furniture_couch_3_svg_default;
+var meta299, icon_furniture_couch_3_svg_default;
 var init_icon_furniture_couch_3_svg = __esm({
   "lib/meta/icon_furniture-couch 3.svg.ts"() {
-    meta275 = {
+    meta299 = {
       description: "Icon of a modern couch with unique design, perfect for interior design or furniture related projects.",
       category: ["Misc"],
       tag: ["furniture", "couch", "interior design", "home decor", "living room", "comfort", "stylish", "modern", "seating", "home furnishings"],
       title: "Furniture Couch 3"
     };
-    icon_furniture_couch_3_svg_default = meta275;
+    icon_furniture_couch_3_svg_default = meta299;
   }
 });
 
@@ -21214,18 +22006,18 @@ var init_icon_furniture_couch_3_svg = __esm({
 var icon_furniture_couch_4_svg_exports = {};
 __export(icon_furniture_couch_4_svg_exports, {
   default: () => icon_furniture_couch_4_svg_default,
-  meta: () => meta276
+  meta: () => meta300
 });
-var meta276, icon_furniture_couch_4_svg_default;
+var meta300, icon_furniture_couch_4_svg_default;
 var init_icon_furniture_couch_4_svg = __esm({
   "lib/meta/icon_furniture-couch 4.svg.ts"() {
-    meta276 = {
+    meta300 = {
       description: "Icon of a modern 4-seater couch, suitable for furniture or interior design related projects.",
       category: ["Misc"],
       tag: ["furniture", "couch", "4-seater", "sofa", "interior design", "home decor", "living room", "comfortable", "modern", "seating"],
       title: "Furniture Couch 4"
     };
-    icon_furniture_couch_4_svg_default = meta276;
+    icon_furniture_couch_4_svg_default = meta300;
   }
 });
 
@@ -21233,12 +22025,12 @@ var init_icon_furniture_couch_4_svg = __esm({
 var icon_furniture_couch_svg_exports = {};
 __export(icon_furniture_couch_svg_exports, {
   default: () => icon_furniture_couch_svg_default,
-  meta: () => meta277
+  meta: () => meta301
 });
-var meta277, icon_furniture_couch_svg_default;
+var meta301, icon_furniture_couch_svg_default;
 var init_icon_furniture_couch_svg = __esm({
   "lib/meta/icon_furniture-couch.svg.ts"() {
-    meta277 = {
+    meta301 = {
       "description": "A cozy and comfortable couch, perfect for relaxing and lounging on. This icon depicts a piece of furniture often found in living rooms.",
       "category": [
         "Things",
@@ -21258,7 +22050,7 @@ var init_icon_furniture_couch_svg = __esm({
       ],
       "title": "Furniture Couch"
     };
-    icon_furniture_couch_svg_default = meta277;
+    icon_furniture_couch_svg_default = meta301;
   }
 });
 
@@ -21266,12 +22058,12 @@ var init_icon_furniture_couch_svg = __esm({
 var icon_furniture_desk_svg_exports = {};
 __export(icon_furniture_desk_svg_exports, {
   default: () => icon_furniture_desk_svg_default,
-  meta: () => meta278
+  meta: () => meta302
 });
-var meta278, icon_furniture_desk_svg_default;
+var meta302, icon_furniture_desk_svg_default;
 var init_icon_furniture_desk_svg = __esm({
   "lib/meta/icon_furniture-desk.svg.ts"() {
-    meta278 = {
+    meta302 = {
       "description": "An icon of a desk typically used for studying or working. It includes a flat surface for placing objects and drawers for storage.",
       "category": [
         "Things",
@@ -21290,7 +22082,7 @@ var init_icon_furniture_desk_svg = __esm({
       ],
       "title": "Furniture Desk"
     };
-    icon_furniture_desk_svg_default = meta278;
+    icon_furniture_desk_svg_default = meta302;
   }
 });
 
@@ -21298,12 +22090,12 @@ var init_icon_furniture_desk_svg = __esm({
 var icon_furniture_dressoir_svg_exports = {};
 __export(icon_furniture_dressoir_svg_exports, {
   default: () => icon_furniture_dressoir_svg_default,
-  meta: () => meta279
+  meta: () => meta303
 });
-var meta279, icon_furniture_dressoir_svg_default;
+var meta303, icon_furniture_dressoir_svg_default;
 var init_icon_furniture_dressoir_svg = __esm({
   "lib/meta/icon_furniture-dressoir.svg.ts"() {
-    meta279 = {
+    meta303 = {
       "description": "An icon of a furniture dressoir, typically used as a decorative piece for storing items in a room.",
       "category": [
         "Things",
@@ -21322,7 +22114,7 @@ var init_icon_furniture_dressoir_svg = __esm({
       ],
       "title": "Furniture Dressoir"
     };
-    icon_furniture_dressoir_svg_default = meta279;
+    icon_furniture_dressoir_svg_default = meta303;
   }
 });
 
@@ -21330,12 +22122,12 @@ var init_icon_furniture_dressoir_svg = __esm({
 var icon_graph_up_round_svg_exports = {};
 __export(icon_graph_up_round_svg_exports, {
   default: () => icon_graph_up_round_svg_default,
-  meta: () => meta280
+  meta: () => meta304
 });
-var meta280, icon_graph_up_round_svg_default;
+var meta304, icon_graph_up_round_svg_default;
 var init_icon_graph_up_round_svg = __esm({
   "lib/meta/icon_graph-up-round.svg.ts"() {
-    meta280 = {
+    meta304 = {
       "description": "An icon depicting an upward graph with a round shape, symbolizing growth and progress.",
       "category": [
         "Interface"
@@ -21354,7 +22146,7 @@ var init_icon_graph_up_round_svg = __esm({
       ],
       "title": "Graph Up Round"
     };
-    icon_graph_up_round_svg_default = meta280;
+    icon_graph_up_round_svg_default = meta304;
   }
 });
 
@@ -21362,12 +22154,12 @@ var init_icon_graph_up_round_svg = __esm({
 var icon_graph_up_svg_exports = {};
 __export(icon_graph_up_svg_exports, {
   default: () => icon_graph_up_svg_default,
-  meta: () => meta281
+  meta: () => meta305
 });
-var meta281, icon_graph_up_svg_default;
+var meta305, icon_graph_up_svg_default;
 var init_icon_graph_up_svg = __esm({
   "lib/meta/icon_graph-up.svg.ts"() {
-    meta281 = {
+    meta305 = {
       "description": "The graph-up icon represents an upward trend or increase in data points. It is commonly used in presentations, reports, and data analysis to indicate growth or progress.",
       "category": [
         "Shapes",
@@ -21386,7 +22178,7 @@ var init_icon_graph_up_svg = __esm({
       ],
       "title": "Graph Up"
     };
-    icon_graph_up_svg_default = meta281;
+    icon_graph_up_svg_default = meta305;
   }
 });
 
@@ -21394,12 +22186,12 @@ var init_icon_graph_up_svg = __esm({
 var icon_hairdryer_svg_exports = {};
 __export(icon_hairdryer_svg_exports, {
   default: () => icon_hairdryer_svg_default,
-  meta: () => meta282
+  meta: () => meta306
 });
-var meta282, icon_hairdryer_svg_default;
+var meta306, icon_hairdryer_svg_default;
 var init_icon_hairdryer_svg = __esm({
   "lib/meta/icon_hairdryer.svg.ts"() {
-    meta282 = {
+    meta306 = {
       "description": "A hairdryer is a handheld device used to blow hot or cool air over wet or damp hair to accelerate the evaporation of water particles and dry the hair.",
       "category": [
         "Things"
@@ -21418,7 +22210,7 @@ var init_icon_hairdryer_svg = __esm({
       ],
       "title": "Hairdryer"
     };
-    icon_hairdryer_svg_default = meta282;
+    icon_hairdryer_svg_default = meta306;
   }
 });
 
@@ -21426,18 +22218,18 @@ var init_icon_hairdryer_svg = __esm({
 var icon_hill_landscape_svg_exports = {};
 __export(icon_hill_landscape_svg_exports, {
   default: () => icon_hill_landscape_svg_default,
-  meta: () => meta283
+  meta: () => meta307
 });
-var meta283, icon_hill_landscape_svg_default;
+var meta307, icon_hill_landscape_svg_default;
 var init_icon_hill_landscape_svg = __esm({
   "lib/meta/icon_hill-landscape.svg.ts"() {
-    meta283 = {
+    meta307 = {
       description: "An icon of a serene landscape with rolling hills and a clear blue sky, depicting a peaceful and scenic environment.",
       category: ["Misc"],
       tag: ["Hill", "Landscape", "Nature", "Scenery", "Outdoors", "Tranquility", "Mountains", "Beautiful", "View", "Background"],
       title: "Hill Landscape"
     };
-    icon_hill_landscape_svg_default = meta283;
+    icon_hill_landscape_svg_default = meta307;
   }
 });
 
@@ -21445,12 +22237,12 @@ var init_icon_hill_landscape_svg = __esm({
 var icon_idea_factory_svg_exports = {};
 __export(icon_idea_factory_svg_exports, {
   default: () => icon_idea_factory_svg_default,
-  meta: () => meta284
+  meta: () => meta308
 });
-var meta284, icon_idea_factory_svg_default;
+var meta308, icon_idea_factory_svg_default;
 var init_icon_idea_factory_svg = __esm({
   "lib/meta/icon_idea-factory.svg.ts"() {
-    meta284 = {
+    meta308 = {
       "description": "The 'Idea Factory' icon represents a place where creative thoughts and innovative ideas are generated. It symbolizes a hub of inspiration and brainstorming.",
       "category": [
         "Interface"
@@ -21469,7 +22261,7 @@ var init_icon_idea_factory_svg = __esm({
       ],
       "title": "Idea Factory"
     };
-    icon_idea_factory_svg_default = meta284;
+    icon_idea_factory_svg_default = meta308;
   }
 });
 
@@ -21477,12 +22269,12 @@ var init_icon_idea_factory_svg = __esm({
 var icon_industry_3_svg_exports = {};
 __export(icon_industry_3_svg_exports, {
   default: () => icon_industry_3_svg_default,
-  meta: () => meta285
+  meta: () => meta309
 });
-var meta285, icon_industry_3_svg_default;
+var meta309, icon_industry_3_svg_default;
 var init_icon_industry_3_svg = __esm({
   "lib/meta/icon_industry-3.svg.ts"() {
-    meta285 = {
+    meta309 = {
       "description": "The icon 'industry-3' represents a factory with multiple chimneys emitting smoke, symbolizing industrialization and manufacturing processes.",
       "category": [
         "Things",
@@ -21502,7 +22294,7 @@ var init_icon_industry_3_svg = __esm({
       ],
       "title": "Industry 3"
     };
-    icon_industry_3_svg_default = meta285;
+    icon_industry_3_svg_default = meta309;
   }
 });
 
@@ -21510,12 +22302,12 @@ var init_icon_industry_3_svg = __esm({
 var icon_iron_svg_exports = {};
 __export(icon_iron_svg_exports, {
   default: () => icon_iron_svg_default,
-  meta: () => meta286
+  meta: () => meta310
 });
-var meta286, icon_iron_svg_default;
+var meta310, icon_iron_svg_default;
 var init_icon_iron_svg = __esm({
   "lib/meta/icon_iron.svg.ts"() {
-    meta286 = {
+    meta310 = {
       "description": "The iron icon represents the metal material that is heavy, silvery-white and ductile. It is commonly used in manufacturing and construction.",
       "category": [
         "Things"
@@ -21534,7 +22326,7 @@ var init_icon_iron_svg = __esm({
       ],
       "title": "Iron"
     };
-    icon_iron_svg_default = meta286;
+    icon_iron_svg_default = meta310;
   }
 });
 
@@ -21542,12 +22334,12 @@ var init_icon_iron_svg = __esm({
 var icon_kitchen_cutlery_svg_exports = {};
 __export(icon_kitchen_cutlery_svg_exports, {
   default: () => icon_kitchen_cutlery_svg_default,
-  meta: () => meta287
+  meta: () => meta311
 });
-var meta287, icon_kitchen_cutlery_svg_default;
+var meta311, icon_kitchen_cutlery_svg_default;
 var init_icon_kitchen_cutlery_svg = __esm({
   "lib/meta/icon_kitchen-cutlery.svg.ts"() {
-    meta287 = {
+    meta311 = {
       "description": "A simple icon representing kitchen cutlery, such as a knife, fork, and spoon. This icon is commonly used to symbolize kitchen utensils, cooking, dining, and food related items.",
       "category": [
         "Things"
@@ -21566,7 +22358,7 @@ var init_icon_kitchen_cutlery_svg = __esm({
       ],
       "title": "Kitchen Cutlery"
     };
-    icon_kitchen_cutlery_svg_default = meta287;
+    icon_kitchen_cutlery_svg_default = meta311;
   }
 });
 
@@ -21574,12 +22366,12 @@ var init_icon_kitchen_cutlery_svg = __esm({
 var icon_kitchen_utensils_svg_exports = {};
 __export(icon_kitchen_utensils_svg_exports, {
   default: () => icon_kitchen_utensils_svg_default,
-  meta: () => meta288
+  meta: () => meta312
 });
-var meta288, icon_kitchen_utensils_svg_default;
+var meta312, icon_kitchen_utensils_svg_default;
 var init_icon_kitchen_utensils_svg = __esm({
   "lib/meta/icon_kitchen-utensils.svg.ts"() {
-    meta288 = {
+    meta312 = {
       "description": "An icon representing various kitchen utensils such as knives, forks, spoons, and spatulas. Commonly used in cooking and dining related designs.",
       "category": [
         "Things",
@@ -21599,7 +22391,7 @@ var init_icon_kitchen_utensils_svg = __esm({
       ],
       "title": "Kitchen Utensils"
     };
-    icon_kitchen_utensils_svg_default = meta288;
+    icon_kitchen_utensils_svg_default = meta312;
   }
 });
 
@@ -21607,18 +22399,18 @@ var init_icon_kitchen_utensils_svg = __esm({
 var icon_lake_view_svg_exports = {};
 __export(icon_lake_view_svg_exports, {
   default: () => icon_lake_view_svg_default,
-  meta: () => meta289
+  meta: () => meta313
 });
-var meta289, icon_lake_view_svg_default;
+var meta313, icon_lake_view_svg_default;
 var init_icon_lake_view_svg = __esm({
   "lib/meta/icon_lake-view.svg.ts"() {
-    meta289 = {
+    meta313 = {
       description: "A scenic view of a lake surrounded by mountains and trees, capturing the beauty of nature.",
       category: ["Nature", "Landscapes", "Travel"],
       tag: ["scenic", "water", "mountains", "trees", "reflection", "serene", "calm", "outdoors", "relaxing", "panoramic"],
       title: "Lake View"
     };
-    icon_lake_view_svg_default = meta289;
+    icon_lake_view_svg_default = meta313;
   }
 });
 
@@ -21626,12 +22418,12 @@ var init_icon_lake_view_svg = __esm({
 var icon_leaf_2_svg_exports = {};
 __export(icon_leaf_2_svg_exports, {
   default: () => icon_leaf_2_svg_default,
-  meta: () => meta290
+  meta: () => meta314
 });
-var meta290, icon_leaf_2_svg_default;
+var meta314, icon_leaf_2_svg_default;
 var init_icon_leaf_2_svg = __esm({
   "lib/meta/icon_leaf 2.svg.ts"() {
-    meta290 = {
+    meta314 = {
       "description": "A simple icon of a leaf with a curved stem, representing nature and foliage.",
       "category": [
         "Nature"
@@ -21650,7 +22442,7 @@ var init_icon_leaf_2_svg = __esm({
       ],
       "title": "Leaf 2"
     };
-    icon_leaf_2_svg_default = meta290;
+    icon_leaf_2_svg_default = meta314;
   }
 });
 
@@ -21658,12 +22450,12 @@ var init_icon_leaf_2_svg = __esm({
 var icon_leaf_3_svg_exports = {};
 __export(icon_leaf_3_svg_exports, {
   default: () => icon_leaf_3_svg_default,
-  meta: () => meta291
+  meta: () => meta315
 });
-var meta291, icon_leaf_3_svg_default;
+var meta315, icon_leaf_3_svg_default;
 var init_icon_leaf_3_svg = __esm({
   "lib/meta/icon_leaf 3.svg.ts"() {
-    meta291 = {
+    meta315 = {
       "description": "A simplistic icon depicting a single green leaf with pointed edges, commonly representing nature, growth, and environmentally friendly concepts.",
       "category": [
         "Nature"
@@ -21682,7 +22474,7 @@ var init_icon_leaf_3_svg = __esm({
       ],
       "title": "Leaf 3"
     };
-    icon_leaf_3_svg_default = meta291;
+    icon_leaf_3_svg_default = meta315;
   }
 });
 
@@ -21690,12 +22482,12 @@ var init_icon_leaf_3_svg = __esm({
 var icon_leaf_svg_exports = {};
 __export(icon_leaf_svg_exports, {
   default: () => icon_leaf_svg_default,
-  meta: () => meta292
+  meta: () => meta316
 });
-var meta292, icon_leaf_svg_default;
+var meta316, icon_leaf_svg_default;
 var init_icon_leaf_svg = __esm({
   "lib/meta/icon_leaf.svg.ts"() {
-    meta292 = {
+    meta316 = {
       "description": "The leaf icon represents a small and usually flat green part of a plant that grows from a stem or branch, providing energy through the process of photosynthesis.",
       "category": [
         "Things",
@@ -21715,7 +22507,7 @@ var init_icon_leaf_svg = __esm({
       ],
       "title": "Leaf"
     };
-    icon_leaf_svg_default = meta292;
+    icon_leaf_svg_default = meta316;
   }
 });
 
@@ -21723,12 +22515,12 @@ var init_icon_leaf_svg = __esm({
 var icon_leafs_svg_exports = {};
 __export(icon_leafs_svg_exports, {
   default: () => icon_leafs_svg_default,
-  meta: () => meta293
+  meta: () => meta317
 });
-var meta293, icon_leafs_svg_default;
+var meta317, icon_leafs_svg_default;
 var init_icon_leafs_svg = __esm({
   "lib/meta/icon_leafs.svg.ts"() {
-    meta293 = {
+    meta317 = {
       "description": "The icon 'leafs' represents green leaves, typically associated with nature, gardening, and ecology.",
       "category": [
         "Nature",
@@ -21748,7 +22540,7 @@ var init_icon_leafs_svg = __esm({
       ],
       "title": "Leafs"
     };
-    icon_leafs_svg_default = meta293;
+    icon_leafs_svg_default = meta317;
   }
 });
 
@@ -21756,12 +22548,12 @@ var init_icon_leafs_svg = __esm({
 var icon_liquid_soap_2_svg_exports = {};
 __export(icon_liquid_soap_2_svg_exports, {
   default: () => icon_liquid_soap_2_svg_default,
-  meta: () => meta294
+  meta: () => meta318
 });
-var meta294, icon_liquid_soap_2_svg_default;
+var meta318, icon_liquid_soap_2_svg_default;
 var init_icon_liquid_soap_2_svg = __esm({
   "lib/meta/icon_liquid-soap 2.svg.ts"() {
-    meta294 = {
+    meta318 = {
       "description": "liquid-soap 2 icon is an illustration of a bottle or dispenser filled with liquid soap. It is commonly used to represent hygiene, cleanliness, and bathroom accessories.",
       "category": [
         "Things",
@@ -21782,7 +22574,7 @@ var init_icon_liquid_soap_2_svg = __esm({
       ],
       "title": "Liquid Soap 2"
     };
-    icon_liquid_soap_2_svg_default = meta294;
+    icon_liquid_soap_2_svg_default = meta318;
   }
 });
 
@@ -21790,12 +22582,12 @@ var init_icon_liquid_soap_2_svg = __esm({
 var icon_liquid_soap_svg_exports = {};
 __export(icon_liquid_soap_svg_exports, {
   default: () => icon_liquid_soap_svg_default,
-  meta: () => meta295
+  meta: () => meta319
 });
-var meta295, icon_liquid_soap_svg_default;
+var meta319, icon_liquid_soap_svg_default;
 var init_icon_liquid_soap_svg = __esm({
   "lib/meta/icon_liquid-soap.svg.ts"() {
-    meta295 = {
+    meta319 = {
       "description": "Liquid soap icon typically represents a bottle or container of liquid soap used for cleaning hands and maintaining hygiene. It is commonly found in bathrooms, kitchens, and public spaces for easy access to handwashing.",
       "category": [
         "Things",
@@ -21815,7 +22607,7 @@ var init_icon_liquid_soap_svg = __esm({
       ],
       "title": "Liquid Soap"
     };
-    icon_liquid_soap_svg_default = meta295;
+    icon_liquid_soap_svg_default = meta319;
   }
 });
 
@@ -21823,18 +22615,18 @@ var init_icon_liquid_soap_svg = __esm({
 var icon_luxe_villa_svg_exports = {};
 __export(icon_luxe_villa_svg_exports, {
   default: () => icon_luxe_villa_svg_default,
-  meta: () => meta296
+  meta: () => meta320
 });
-var meta296, icon_luxe_villa_svg_default;
+var meta320, icon_luxe_villa_svg_default;
 var init_icon_luxe_villa_svg = __esm({
   "lib/meta/icon_luxe-villa.svg.ts"() {
-    meta296 = {
+    meta320 = {
       description: "Luxe villa icon is a symbol representing a luxurious and extravagant vacation home or resort. It typically signifies wealth, comfort, and relaxation.",
       category: ["Miscellaneous", "Property"],
       tag: ["luxury", "villa", "resort", "vacation", "wealth", "comfort", "relaxation", "accommodation", "travel", "hotel"],
       title: "Luxe Villa"
     };
-    icon_luxe_villa_svg_default = meta296;
+    icon_luxe_villa_svg_default = meta320;
   }
 });
 
@@ -21842,18 +22634,18 @@ var init_icon_luxe_villa_svg = __esm({
 var icon_mansion_svg_exports = {};
 __export(icon_mansion_svg_exports, {
   default: () => icon_mansion_svg_default,
-  meta: () => meta297
+  meta: () => meta321
 });
-var meta297, icon_mansion_svg_default;
+var meta321, icon_mansion_svg_default;
 var init_icon_mansion_svg = __esm({
   "lib/meta/icon_mansion.svg.ts"() {
-    meta297 = {
+    meta321 = {
       description: "An icon representing a luxurious mansion, typically a large and impressive residence often associated with wealth and grandeur.",
       category: ["Misc"],
       tag: ["house", "home", "building", "estate", "wealth", "luxury", "architecture", "property", "residence", "real estate"],
       title: "Mansion"
     };
-    icon_mansion_svg_default = meta297;
+    icon_mansion_svg_default = meta321;
   }
 });
 
@@ -21861,12 +22653,12 @@ var init_icon_mansion_svg = __esm({
 var icon_microwave_svg_exports = {};
 __export(icon_microwave_svg_exports, {
   default: () => icon_microwave_svg_default,
-  meta: () => meta298
+  meta: () => meta322
 });
-var meta298, icon_microwave_svg_default;
+var meta322, icon_microwave_svg_default;
 var init_icon_microwave_svg = __esm({
   "lib/meta/icon_microwave.svg.ts"() {
-    meta298 = {
+    meta322 = {
       "description": "A microwave is a kitchen appliance that uses electromagnetic radiation to heat and cook food quickly. It is a common household appliance for reheating leftovers, defrosting frozen foods, and cooking convenient meals.",
       "category": [
         "Things",
@@ -21886,7 +22678,7 @@ var init_icon_microwave_svg = __esm({
       ],
       "title": "Microwave"
     };
-    icon_microwave_svg_default = meta298;
+    icon_microwave_svg_default = meta322;
   }
 });
 
@@ -21894,12 +22686,12 @@ var init_icon_microwave_svg = __esm({
 var icon_money_svg_exports = {};
 __export(icon_money_svg_exports, {
   default: () => icon_money_svg_default,
-  meta: () => meta299
+  meta: () => meta323
 });
-var meta299, icon_money_svg_default;
+var meta323, icon_money_svg_default;
 var init_icon_money_svg = __esm({
   "lib/meta/icon_money.svg.ts"() {
-    meta299 = {
+    meta323 = {
       "description": "The money icon typically represents wealth, currency, finance, and transactions. It can be used to indicate the concept of payment, savings, banking, economy, and prosperity.",
       "category": [
         "Symbols",
@@ -21919,7 +22711,7 @@ var init_icon_money_svg = __esm({
       ],
       "title": "Money"
     };
-    icon_money_svg_default = meta299;
+    icon_money_svg_default = meta323;
   }
 });
 
@@ -21927,12 +22719,12 @@ var init_icon_money_svg = __esm({
 var icon_moneybag_svg_exports = {};
 __export(icon_moneybag_svg_exports, {
   default: () => icon_moneybag_svg_default,
-  meta: () => meta300
+  meta: () => meta324
 });
-var meta300, icon_moneybag_svg_default;
+var meta324, icon_moneybag_svg_default;
 var init_icon_moneybag_svg = __esm({
   "lib/meta/icon_moneybag.svg.ts"() {
-    meta300 = {
+    meta324 = {
       "description": "The moneybag icon represents wealth, financial success, and prosperity. It is often used to symbolize money, savings, investments, and business.",
       "category": [
         "Things"
@@ -21951,7 +22743,7 @@ var init_icon_moneybag_svg = __esm({
       ],
       "title": "Money Bag"
     };
-    icon_moneybag_svg_default = meta300;
+    icon_moneybag_svg_default = meta324;
   }
 });
 
@@ -21959,18 +22751,18 @@ var init_icon_moneybag_svg = __esm({
 var icon_mountain_scape_svg_exports = {};
 __export(icon_mountain_scape_svg_exports, {
   default: () => icon_mountain_scape_svg_default,
-  meta: () => meta301
+  meta: () => meta325
 });
-var meta301, icon_mountain_scape_svg_default;
+var meta325, icon_mountain_scape_svg_default;
 var init_icon_mountain_scape_svg = __esm({
   "lib/meta/icon_mountain-scape.svg.ts"() {
-    meta301 = {
+    meta325 = {
       description: "A scenic view of mountains and landscapes, showcasing natural beauty and tranquility. The icon is perfect for representing nature, travel, adventure, and exploration themes.",
       category: ["Misc", "Nature", "Travel"],
       tag: ["mountain", "landscape", "scenic", "view", "nature", "travel", "adventure", "exploration", "beauty", "tranquility"],
       title: "Mountain Scape"
     };
-    icon_mountain_scape_svg_default = meta301;
+    icon_mountain_scape_svg_default = meta325;
   }
 });
 
@@ -21978,12 +22770,12 @@ var init_icon_mountain_scape_svg = __esm({
 var icon_oven_svg_exports = {};
 __export(icon_oven_svg_exports, {
   default: () => icon_oven_svg_default,
-  meta: () => meta302
+  meta: () => meta326
 });
-var meta302, icon_oven_svg_default;
+var meta326, icon_oven_svg_default;
 var init_icon_oven_svg = __esm({
   "lib/meta/icon_oven.svg.ts"() {
-    meta302 = {
+    meta326 = {
       "description": "An icon representing an oven, typically used for baking or cooking food. It usually consists of a box-shaped chamber with a hinged door and temperature controls.",
       "category": [
         "Things",
@@ -22002,7 +22794,7 @@ var init_icon_oven_svg = __esm({
       ],
       "title": "Oven"
     };
-    icon_oven_svg_default = meta302;
+    icon_oven_svg_default = meta326;
   }
 });
 
@@ -22010,12 +22802,12 @@ var init_icon_oven_svg = __esm({
 var icon_plant_svg_exports = {};
 __export(icon_plant_svg_exports, {
   default: () => icon_plant_svg_default,
-  meta: () => meta303
+  meta: () => meta327
 });
-var meta303, icon_plant_svg_default;
+var meta327, icon_plant_svg_default;
 var init_icon_plant_svg = __esm({
   "lib/meta/icon_plant.svg.ts"() {
-    meta303 = {
+    meta327 = {
       "description": "The plant icon signifies nature, growth, and freshness. It is often used to represent environmental themes, gardening, and sustainability.",
       "category": [
         "Things",
@@ -22035,7 +22827,7 @@ var init_icon_plant_svg = __esm({
       ],
       "title": "Plant"
     };
-    icon_plant_svg_default = meta303;
+    icon_plant_svg_default = meta327;
   }
 });
 
@@ -22043,12 +22835,12 @@ var init_icon_plant_svg = __esm({
 var icon_politician_2_svg_exports = {};
 __export(icon_politician_2_svg_exports, {
   default: () => icon_politician_2_svg_default,
-  meta: () => meta304
+  meta: () => meta328
 });
-var meta304, icon_politician_2_svg_default;
+var meta328, icon_politician_2_svg_default;
 var init_icon_politician_2_svg = __esm({
   "lib/meta/icon_politician 2.svg.ts"() {
-    meta304 = {
+    meta328 = {
       "description": "This icon represents a politician giving a speech or making a public appearance. It can be used to symbolize politics, government, leadership, elections, or public speaking.",
       "category": [
         "Symbols"
@@ -22067,7 +22859,7 @@ var init_icon_politician_2_svg = __esm({
       ],
       "title": "Politician 2"
     };
-    icon_politician_2_svg_default = meta304;
+    icon_politician_2_svg_default = meta328;
   }
 });
 
@@ -22075,12 +22867,12 @@ var init_icon_politician_2_svg = __esm({
 var icon_politician_svg_exports = {};
 __export(icon_politician_svg_exports, {
   default: () => icon_politician_svg_default,
-  meta: () => meta305
+  meta: () => meta329
 });
-var meta305, icon_politician_svg_default;
+var meta329, icon_politician_svg_default;
 var init_icon_politician_svg = __esm({
   "lib/meta/icon_politician.svg.ts"() {
-    meta305 = {
+    meta329 = {
       "description": "An icon representing a person involved in politics, such as a government official or a candidate running for office. It typically symbolizes leadership, authority, and decision-making within a political context.",
       "category": [
         "Symbol"
@@ -22098,7 +22890,7 @@ var init_icon_politician_svg = __esm({
       ],
       "title": "Politician"
     };
-    icon_politician_svg_default = meta305;
+    icon_politician_svg_default = meta329;
   }
 });
 
@@ -22106,18 +22898,18 @@ var init_icon_politician_svg = __esm({
 var icon_rocket_svg_exports = {};
 __export(icon_rocket_svg_exports, {
   default: () => icon_rocket_svg_default,
-  meta: () => meta306
+  meta: () => meta330
 });
-var meta306, icon_rocket_svg_default;
+var meta330, icon_rocket_svg_default;
 var init_icon_rocket_svg = __esm({
   "lib/meta/icon_rocket.svg.ts"() {
-    meta306 = {
+    meta330 = {
       description: "A rocket icon typically represents speed, progress, and innovation. It is commonly used to symbolize launching a project or reaching new heights.",
       category: ["Transport", "Symbol", "Misc"],
       tag: ["space", "flight", "technology", "exploration", "launch", "spacecraft", "rocketship", "fast", "outer space", "travel"],
       title: "Rocket"
     };
-    icon_rocket_svg_default = meta306;
+    icon_rocket_svg_default = meta330;
   }
 });
 
@@ -22125,12 +22917,12 @@ var init_icon_rocket_svg = __esm({
 var icon_room_shade_svg_exports = {};
 __export(icon_room_shade_svg_exports, {
   default: () => icon_room_shade_svg_default,
-  meta: () => meta307
+  meta: () => meta331
 });
-var meta307, icon_room_shade_svg_default;
+var meta331, icon_room_shade_svg_default;
 var init_icon_room_shade_svg = __esm({
   "lib/meta/icon_room-shade.svg.ts"() {
-    meta307 = {
+    meta331 = {
       "description": "The room shade icon typically represents a window covering used to block out sunlight and maintain privacy in a room. It is commonly seen in interior design and architecture contexts.",
       "category": [
         "Things",
@@ -22149,7 +22941,7 @@ var init_icon_room_shade_svg = __esm({
       ],
       "title": "Room Shade"
     };
-    icon_room_shade_svg_default = meta307;
+    icon_room_shade_svg_default = meta331;
   }
 });
 
@@ -22157,18 +22949,18 @@ var init_icon_room_shade_svg = __esm({
 var icon_shield_2_line_svg_exports = {};
 __export(icon_shield_2_line_svg_exports, {
   default: () => icon_shield_2_line_svg_default,
-  meta: () => meta308
+  meta: () => meta332
 });
-var meta308, icon_shield_2_line_svg_default;
+var meta332, icon_shield_2_line_svg_default;
 var init_icon_shield_2_line_svg = __esm({
   "lib/meta/icon_shield-2-line.svg.ts"() {
-    meta308 = {
+    meta332 = {
       description: "The shield-2-line icon is a simple representation of two shields placed one after the other in a horizontal line. It symbolizes protection, defense, and security.",
       category: ["Misc"],
       tag: ["shield", "protection", "defense", "security", "safety", "armor", "guard", "safeguard", "sentry", "shielding"],
       title: "Shield 2 Line"
     };
-    icon_shield_2_line_svg_default = meta308;
+    icon_shield_2_line_svg_default = meta332;
   }
 });
 
@@ -22176,18 +22968,18 @@ var init_icon_shield_2_line_svg = __esm({
 var icon_shield_2_svg_exports = {};
 __export(icon_shield_2_svg_exports, {
   default: () => icon_shield_2_svg_default,
-  meta: () => meta309
+  meta: () => meta333
 });
-var meta309, icon_shield_2_svg_default;
+var meta333, icon_shield_2_svg_default;
 var init_icon_shield_2_svg = __esm({
   "lib/meta/icon_shield-2.svg.ts"() {
-    meta309 = {
+    meta333 = {
       description: "The shield-2 icon is a symbol of protection and defense. It commonly represents security, safety, and strength.",
       category: ["Symbol"],
       tag: ["shield", "protection", "defense", "safety", "security", "strength", "armor", "guard", "secure"],
       title: "Shield 2"
     };
-    icon_shield_2_svg_default = meta309;
+    icon_shield_2_svg_default = meta333;
   }
 });
 
@@ -22195,18 +22987,18 @@ var init_icon_shield_2_svg = __esm({
 var icon_shield_3_line_svg_exports = {};
 __export(icon_shield_3_line_svg_exports, {
   default: () => icon_shield_3_line_svg_default,
-  meta: () => meta310
+  meta: () => meta334
 });
-var meta310, icon_shield_3_line_svg_default;
+var meta334, icon_shield_3_line_svg_default;
 var init_icon_shield_3_line_svg = __esm({
   "lib/meta/icon_shield-3-line.svg.ts"() {
-    meta310 = {
+    meta334 = {
       description: "The shield-3-line icon features three shield shapes in a line, symbolizing protection and security. It can be used to represent defense, safety, or a secure environment.",
       category: ["Symbol"],
       tag: ["shield", "protection", "security", "defense", "safe", "secure", "guard", "safety", "secure environment", "safeguard"],
       title: "Shield 3 Line"
     };
-    icon_shield_3_line_svg_default = meta310;
+    icon_shield_3_line_svg_default = meta334;
   }
 });
 
@@ -22214,18 +23006,18 @@ var init_icon_shield_3_line_svg = __esm({
 var icon_shield_3_svg_exports = {};
 __export(icon_shield_3_svg_exports, {
   default: () => icon_shield_3_svg_default,
-  meta: () => meta311
+  meta: () => meta335
 });
-var meta311, icon_shield_3_svg_default;
+var meta335, icon_shield_3_svg_default;
 var init_icon_shield_3_svg = __esm({
   "lib/meta/icon_shield-3.svg.ts"() {
-    meta311 = {
+    meta335 = {
       description: "The shield-3 icon is a symbol of protection and defense. Featuring a sturdy shield with three layers, this icon represents security and safety.",
       category: ["Symbol"],
       tag: ["shield", "defense", "protection", "safety", "security", "armor", "guard", "safeguard", "fortress", "shield wall"],
       title: "Shield 3"
     };
-    icon_shield_3_svg_default = meta311;
+    icon_shield_3_svg_default = meta335;
   }
 });
 
@@ -22233,18 +23025,18 @@ var init_icon_shield_3_svg = __esm({
 var icon_shield_4_line_svg_exports = {};
 __export(icon_shield_4_line_svg_exports, {
   default: () => icon_shield_4_line_svg_default,
-  meta: () => meta312
+  meta: () => meta336
 });
-var meta312, icon_shield_4_line_svg_default;
+var meta336, icon_shield_4_line_svg_default;
 var init_icon_shield_4_line_svg = __esm({
   "lib/meta/icon_shield-4-line.svg.ts"() {
-    meta312 = {
+    meta336 = {
       description: "A shield icon with four lines, symbolizing protection and security. It can be used to represent safety measures or security features.",
       category: ["Misc"],
       tag: ["shield", "protection", "security", "safety", "defense", "guard", "secure", "armour", "safeguard", "fortress"],
       title: "Shield 4 Line"
     };
-    icon_shield_4_line_svg_default = meta312;
+    icon_shield_4_line_svg_default = meta336;
   }
 });
 
@@ -22252,18 +23044,18 @@ var init_icon_shield_4_line_svg = __esm({
 var icon_shield_4_svg_exports = {};
 __export(icon_shield_4_svg_exports, {
   default: () => icon_shield_4_svg_default,
-  meta: () => meta313
+  meta: () => meta337
 });
-var meta313, icon_shield_4_svg_default;
+var meta337, icon_shield_4_svg_default;
 var init_icon_shield_4_svg = __esm({
   "lib/meta/icon_shield-4.svg.ts"() {
-    meta313 = {
+    meta337 = {
       description: "The shield-4 icon is a flat design representing a shield with four sections. It can symbolize protection, security, or defense in various contexts.",
       category: ["Shapes", "Symbol"],
       tag: ["shield", "guard", "secure", "defense", "protection", "safety", "security", "shield logo", "armor", "secure icon"],
       title: "Shield 4"
     };
-    icon_shield_4_svg_default = meta313;
+    icon_shield_4_svg_default = meta337;
   }
 });
 
@@ -22271,18 +23063,18 @@ var init_icon_shield_4_svg = __esm({
 var icon_shield_line_svg_exports = {};
 __export(icon_shield_line_svg_exports, {
   default: () => icon_shield_line_svg_default,
-  meta: () => meta314
+  meta: () => meta338
 });
-var meta314, icon_shield_line_svg_default;
+var meta338, icon_shield_line_svg_default;
 var init_icon_shield_line_svg = __esm({
   "lib/meta/icon_shield-line.svg.ts"() {
-    meta314 = {
+    meta338 = {
       description: "A simple icon of a shield with a line in the middle, representing protection or security.",
       category: ["Misc"],
       tag: ["shield", "line", "protection", "security", "defense", "safety", "guard", "secure", "safeguard", "symbol"],
       title: "Shield Line"
     };
-    icon_shield_line_svg_default = meta314;
+    icon_shield_line_svg_default = meta338;
   }
 });
 
@@ -22290,18 +23082,18 @@ var init_icon_shield_line_svg = __esm({
 var icon_shield_svg_exports = {};
 __export(icon_shield_svg_exports, {
   default: () => icon_shield_svg_default,
-  meta: () => meta315
+  meta: () => meta339
 });
-var meta315, icon_shield_svg_default;
+var meta339, icon_shield_svg_default;
 var init_icon_shield_svg = __esm({
   "lib/meta/icon_shield.svg.ts"() {
-    meta315 = {
+    meta339 = {
       description: "The shield icon is commonly used to represent protection or security in various applications. It can symbolize defense, safety, and resilience.",
       category: ["Misc"],
       tag: ["protection", "security", "defense", "safety", "resilience", "guard", "shield", "armor", "safe", "secure"],
       title: "Shield"
     };
-    icon_shield_svg_default = meta315;
+    icon_shield_svg_default = meta339;
   }
 });
 
@@ -22309,12 +23101,12 @@ var init_icon_shield_svg = __esm({
 var icon_stove_svg_exports = {};
 __export(icon_stove_svg_exports, {
   default: () => icon_stove_svg_default,
-  meta: () => meta316
+  meta: () => meta340
 });
-var meta316, icon_stove_svg_default;
+var meta340, icon_stove_svg_default;
 var init_icon_stove_svg = __esm({
   "lib/meta/icon_stove.svg.ts"() {
-    meta316 = {
+    meta340 = {
       "description": "A stove is a kitchen appliance used for cooking food. It typically consists of burners for heating pots and pans, and an oven for baking and roasting.",
       "category": [
         "Things",
@@ -22334,7 +23126,7 @@ var init_icon_stove_svg = __esm({
       ],
       "title": "Stove"
     };
-    icon_stove_svg_default = meta316;
+    icon_stove_svg_default = meta340;
   }
 });
 
@@ -22342,18 +23134,18 @@ var init_icon_stove_svg = __esm({
 var icon_surfboard_svg_exports = {};
 __export(icon_surfboard_svg_exports, {
   default: () => icon_surfboard_svg_default,
-  meta: () => meta317
+  meta: () => meta341
 });
-var meta317, icon_surfboard_svg_default;
+var meta341, icon_surfboard_svg_default;
 var init_icon_surfboard_svg = __esm({
   "lib/meta/icon_surfboard.svg.ts"() {
-    meta317 = {
+    meta341 = {
       description: "A surfboard icon typically used to represent surfing, beach activities, or tropical vacations. It features a long and narrow board with a colorful design.",
       category: ["Misc"],
       tag: ["surfing", "beach", "ocean", "vacation", "sports", "summer", "water", "waves", "leisure", "recreation"],
       title: "Surfboard"
     };
-    icon_surfboard_svg_default = meta317;
+    icon_surfboard_svg_default = meta341;
   }
 });
 
@@ -22361,18 +23153,18 @@ var init_icon_surfboard_svg = __esm({
 var icon_swimming_pool_svg_exports = {};
 __export(icon_swimming_pool_svg_exports, {
   default: () => icon_swimming_pool_svg_default,
-  meta: () => meta318
+  meta: () => meta342
 });
-var meta318, icon_swimming_pool_svg_default;
+var meta342, icon_swimming_pool_svg_default;
 var init_icon_swimming_pool_svg = __esm({
   "lib/meta/icon_swimming-pool.svg.ts"() {
-    meta318 = {
+    meta342 = {
       description: "A simple icon depicting a swimming pool, typically used to symbolize areas designated for swimming and relaxation.",
       category: ["Misc"],
       tag: ["water", "pool", "relaxation", "swim", "recreation", "leisure", "vacation", "summer", "outdoors", "icon"],
       title: "Swimming Pool"
     };
-    icon_swimming_pool_svg_default = meta318;
+    icon_swimming_pool_svg_default = meta342;
   }
 });
 
@@ -22380,12 +23172,12 @@ var init_icon_swimming_pool_svg = __esm({
 var icon_temple_2_svg_exports = {};
 __export(icon_temple_2_svg_exports, {
   default: () => icon_temple_2_svg_default,
-  meta: () => meta319
+  meta: () => meta343
 });
-var meta319, icon_temple_2_svg_default;
+var meta343, icon_temple_2_svg_default;
 var init_icon_temple_2_svg = __esm({
   "lib/meta/icon_temple 2.svg.ts"() {
-    meta319 = {
+    meta343 = {
       "description": "A simple icon depicting a temple with intricate architecture, featuring columns and a pointed roof. The design evokes a sense of spirituality and ancient history.",
       "category": [
         "Things",
@@ -22405,7 +23197,7 @@ var init_icon_temple_2_svg = __esm({
       ],
       "title": "Temple 2"
     };
-    icon_temple_2_svg_default = meta319;
+    icon_temple_2_svg_default = meta343;
   }
 });
 
@@ -22413,12 +23205,12 @@ var init_icon_temple_2_svg = __esm({
 var icon_temple_svg_exports = {};
 __export(icon_temple_svg_exports, {
   default: () => icon_temple_svg_default,
-  meta: () => meta320
+  meta: () => meta344
 });
-var meta320, icon_temple_svg_default;
+var meta344, icon_temple_svg_default;
 var init_icon_temple_svg = __esm({
   "lib/meta/icon_temple.svg.ts"() {
-    meta320 = {
+    meta344 = {
       "description": "An icon of a temple, a building dedicated to religious or spiritual activities. It typically represents a place of worship and reflection.",
       "category": [
         "Things",
@@ -22438,7 +23230,7 @@ var init_icon_temple_svg = __esm({
       ],
       "title": "Temple"
     };
-    icon_temple_svg_default = meta320;
+    icon_temple_svg_default = meta344;
   }
 });
 
@@ -22446,18 +23238,18 @@ var init_icon_temple_svg = __esm({
 var icon_tent_camping_svg_exports = {};
 __export(icon_tent_camping_svg_exports, {
   default: () => icon_tent_camping_svg_default,
-  meta: () => meta321
+  meta: () => meta345
 });
-var meta321, icon_tent_camping_svg_default;
+var meta345, icon_tent_camping_svg_default;
 var init_icon_tent_camping_svg = __esm({
   "lib/meta/icon_tent-camping.svg.ts"() {
-    meta321 = {
+    meta345 = {
       description: "A simple illustration of a tent for camping, featuring a triangular fabric structure supported by poles. This icon is perfect for representing camping, outdoor activities, adventure, nature, and vacation concepts.",
       category: ["Miscellaneous", "Nature", "Travel"],
       tag: ["tent", "camping", "outdoors", "adventure", "nature", "vacation", "travel", "wilderness", "recreation"],
       title: "Tent Camping"
     };
-    icon_tent_camping_svg_default = meta321;
+    icon_tent_camping_svg_default = meta345;
   }
 });
 
@@ -22465,18 +23257,18 @@ var init_icon_tent_camping_svg = __esm({
 var icon_tent_svg_exports = {};
 __export(icon_tent_svg_exports, {
   default: () => icon_tent_svg_default,
-  meta: () => meta322
+  meta: () => meta346
 });
-var meta322, icon_tent_svg_default;
+var meta346, icon_tent_svg_default;
 var init_icon_tent_svg = __esm({
   "lib/meta/icon_tent.svg.ts"() {
-    meta322 = {
+    meta346 = {
       description: "A simple icon representing a tent often used to symbolize camping or outdoor activities.",
       category: ["Misc"],
       tag: ["camping", "outdoor", "travel", "adventure", "shelter", "nature", "wilderness", "campsite", "explore", "vacation"],
       title: "Tent"
     };
-    icon_tent_svg_default = meta322;
+    icon_tent_svg_default = meta346;
   }
 });
 
@@ -22484,18 +23276,18 @@ var init_icon_tent_svg = __esm({
 var icon_toy_blocks_2_svg_exports = {};
 __export(icon_toy_blocks_2_svg_exports, {
   default: () => icon_toy_blocks_2_svg_default,
-  meta: () => meta323
+  meta: () => meta347
 });
-var meta323, icon_toy_blocks_2_svg_default;
+var meta347, icon_toy_blocks_2_svg_default;
 var init_icon_toy_blocks_2_svg = __esm({
   "lib/meta/icon_toy-blocks-2.svg.ts"() {
-    meta323 = {
+    meta347 = {
       description: "An icon representing two toy blocks stacked on top of each other. Perfect for children's toys or educational concepts.",
       category: ["Misc"],
       tag: ["toy", "blocks", "stacked", "children", "toys", "educational", "play", "kids", "building", "creative"],
       title: "Toy Blocks 2"
     };
-    icon_toy_blocks_2_svg_default = meta323;
+    icon_toy_blocks_2_svg_default = meta347;
   }
 });
 
@@ -22503,18 +23295,18 @@ var init_icon_toy_blocks_2_svg = __esm({
 var icon_toy_blocks_3_svg_exports = {};
 __export(icon_toy_blocks_3_svg_exports, {
   default: () => icon_toy_blocks_3_svg_default,
-  meta: () => meta324
+  meta: () => meta348
 });
-var meta324, icon_toy_blocks_3_svg_default;
+var meta348, icon_toy_blocks_3_svg_default;
 var init_icon_toy_blocks_3_svg = __esm({
   "lib/meta/icon_toy-blocks-3.svg.ts"() {
-    meta324 = {
+    meta348 = {
       description: "This icon features a set of 3 toy blocks stacked on top of each other. It represents the concept of play, learning, and childhood fun.",
       category: ["Misc"],
       tag: ["toy", "blocks", "building", "stacked", "playtime", "children", "education", "creativity", "childhood", "fun"],
       title: "Toy Blocks 3"
     };
-    icon_toy_blocks_3_svg_default = meta324;
+    icon_toy_blocks_3_svg_default = meta348;
   }
 });
 
@@ -22522,18 +23314,18 @@ var init_icon_toy_blocks_3_svg = __esm({
 var icon_toy_blocks_svg_exports = {};
 __export(icon_toy_blocks_svg_exports, {
   default: () => icon_toy_blocks_svg_default,
-  meta: () => meta325
+  meta: () => meta349
 });
-var meta325, icon_toy_blocks_svg_default;
+var meta349, icon_toy_blocks_svg_default;
 var init_icon_toy_blocks_svg = __esm({
   "lib/meta/icon_toy-blocks.svg.ts"() {
-    meta325 = {
+    meta349 = {
       description: "A set of colorful toy blocks that can be stacked and arranged in various ways, great for children's games and learning activities.",
       category: ["Misc"],
       tag: ["toys", "blocks", "children", "games", "learning", "play", "building", "education", "colors", "stacking"],
       title: "Toy Blocks"
     };
-    icon_toy_blocks_svg_default = meta325;
+    icon_toy_blocks_svg_default = meta349;
   }
 });
 
@@ -22541,18 +23333,18 @@ var init_icon_toy_blocks_svg = __esm({
 var icon_toy_head_svg_exports = {};
 __export(icon_toy_head_svg_exports, {
   default: () => icon_toy_head_svg_default,
-  meta: () => meta326
+  meta: () => meta350
 });
-var meta326, icon_toy_head_svg_default;
+var meta350, icon_toy_head_svg_default;
 var init_icon_toy_head_svg = __esm({
   "lib/meta/icon_toy-head.svg.ts"() {
-    meta326 = {
+    meta350 = {
       description: "A playful and cute icon of a toy head, ideal for use in children's apps, games, or any design related to toys.",
       category: ["Miscellaneous"],
       tag: ["toy", "head", "playful", "cute", "children", "app", "game", "fun", "toy head", "play"],
       title: "Toy Head"
     };
-    icon_toy_head_svg_default = meta326;
+    icon_toy_head_svg_default = meta350;
   }
 });
 
@@ -22560,12 +23352,12 @@ var init_icon_toy_head_svg = __esm({
 var icon_tree_2_svg_exports = {};
 __export(icon_tree_2_svg_exports, {
   default: () => icon_tree_2_svg_default,
-  meta: () => meta327
+  meta: () => meta351
 });
-var meta327, icon_tree_2_svg_default;
+var meta351, icon_tree_2_svg_default;
 var init_icon_tree_2_svg = __esm({
   "lib/meta/icon_tree 2.svg.ts"() {
-    meta327 = {
+    meta351 = {
       "description": "Tree 2 icon depicting a stylized tree with branches and leaves. It can be used to represent nature, environment, forests, or eco-friendly concepts.",
       "category": [
         "Nature"
@@ -22584,7 +23376,7 @@ var init_icon_tree_2_svg = __esm({
       ],
       "title": "Tree 2"
     };
-    icon_tree_2_svg_default = meta327;
+    icon_tree_2_svg_default = meta351;
   }
 });
 
@@ -22592,12 +23384,12 @@ var init_icon_tree_2_svg = __esm({
 var icon_tree_3_svg_exports = {};
 __export(icon_tree_3_svg_exports, {
   default: () => icon_tree_3_svg_default,
-  meta: () => meta328
+  meta: () => meta352
 });
-var meta328, icon_tree_3_svg_default;
+var meta352, icon_tree_3_svg_default;
 var init_icon_tree_3_svg = __esm({
   "lib/meta/icon_tree 3.svg.ts"() {
-    meta328 = {
+    meta352 = {
       "description": "Tree 3 icon represents a stylized tree with three branches. It can be used to symbolize nature, environment, growth, or eco-friendliness.",
       "category": [
         "Nature"
@@ -22616,7 +23408,7 @@ var init_icon_tree_3_svg = __esm({
       ],
       "title": "Tree 3"
     };
-    icon_tree_3_svg_default = meta328;
+    icon_tree_3_svg_default = meta352;
   }
 });
 
@@ -22624,12 +23416,12 @@ var init_icon_tree_3_svg = __esm({
 var icon_tree_svg_exports = {};
 __export(icon_tree_svg_exports, {
   default: () => icon_tree_svg_default,
-  meta: () => meta329
+  meta: () => meta353
 });
-var meta329, icon_tree_svg_default;
+var meta353, icon_tree_svg_default;
 var init_icon_tree_svg = __esm({
   "lib/meta/icon_tree.svg.ts"() {
-    meta329 = {
+    meta353 = {
       "description": "The icon 'tree' symbolizes nature, growth, and strength. It is commonly used to represent environmental themes, forests, ecology, and sustainability.",
       "category": [
         "Nature"
@@ -22648,7 +23440,7 @@ var init_icon_tree_svg = __esm({
       ],
       "title": "Tree"
     };
-    icon_tree_svg_default = meta329;
+    icon_tree_svg_default = meta353;
   }
 });
 
@@ -22656,18 +23448,18 @@ var init_icon_tree_svg = __esm({
 var icon_treehouse_svg_exports = {};
 __export(icon_treehouse_svg_exports, {
   default: () => icon_treehouse_svg_default,
-  meta: () => meta330
+  meta: () => meta354
 });
-var meta330, icon_treehouse_svg_default;
+var meta354, icon_treehouse_svg_default;
 var init_icon_treehouse_svg = __esm({
   "lib/meta/icon_treehouse.svg.ts"() {
-    meta330 = {
+    meta354 = {
       description: "An icon of a treehouse, typically found in nature or rustic themed designs. It symbolizes a cozy and unique living space built on or around a tree.",
       category: ["Misc"],
       tag: ["Nature", "Rustic", "Cozy", "Living space", "Unique", "Tree", "House", "Shelter", "Cabin", "Outdoor"],
       title: "Treehouse"
     };
-    icon_treehouse_svg_default = meta330;
+    icon_treehouse_svg_default = meta354;
   }
 });
 
@@ -22675,12 +23467,12 @@ var init_icon_treehouse_svg = __esm({
 var icon_trees_2_svg_exports = {};
 __export(icon_trees_2_svg_exports, {
   default: () => icon_trees_2_svg_default,
-  meta: () => meta331
+  meta: () => meta355
 });
-var meta331, icon_trees_2_svg_default;
+var meta355, icon_trees_2_svg_default;
 var init_icon_trees_2_svg = __esm({
   "lib/meta/icon_trees 2.svg.ts"() {
-    meta331 = {
+    meta355 = {
       "description": "The icon 'trees 2' depicts a group of trees. It can be used to represent nature, forestry, environment, or parks.",
       "category": [
         "Nature"
@@ -22699,7 +23491,7 @@ var init_icon_trees_2_svg = __esm({
       ],
       "title": "Trees 2"
     };
-    icon_trees_2_svg_default = meta331;
+    icon_trees_2_svg_default = meta355;
   }
 });
 
@@ -22707,12 +23499,12 @@ var init_icon_trees_2_svg = __esm({
 var icon_trees_svg_exports = {};
 __export(icon_trees_svg_exports, {
   default: () => icon_trees_svg_default,
-  meta: () => meta332
+  meta: () => meta356
 });
-var meta332, icon_trees_svg_default;
+var meta356, icon_trees_svg_default;
 var init_icon_trees_svg = __esm({
   "lib/meta/icon_trees.svg.ts"() {
-    meta332 = {
+    meta356 = {
       "description": "The icon represents a group of trees, typically depicted with a trunk and green foliage. It symbolizes nature, growth, and the environment.",
       "category": [
         "Things",
@@ -22732,7 +23524,7 @@ var init_icon_trees_svg = __esm({
       ],
       "title": "Trees"
     };
-    icon_trees_svg_default = meta332;
+    icon_trees_svg_default = meta356;
   }
 });
 
@@ -22740,18 +23532,18 @@ var init_icon_trees_svg = __esm({
 var icon_trunk_1_svg_exports = {};
 __export(icon_trunk_1_svg_exports, {
   default: () => icon_trunk_1_svg_default,
-  meta: () => meta333
+  meta: () => meta357
 });
-var meta333, icon_trunk_1_svg_default;
+var meta357, icon_trunk_1_svg_default;
 var init_icon_trunk_1_svg = __esm({
   "lib/meta/icon_trunk-1.svg.ts"() {
-    meta333 = {
+    meta357 = {
       description: "The 'trunk-1' icon features a simplistic and stylized tree trunk design, suitable for use in various nature-themed projects or environmental initiatives.",
       category: ["Nature"],
       tag: ["tree", "trunk", "wood", "forest", "nature", "environment", "organic", "simple", "stylized", "minimal"],
       title: "Trunk 1"
     };
-    icon_trunk_1_svg_default = meta333;
+    icon_trunk_1_svg_default = meta357;
   }
 });
 
@@ -22759,18 +23551,18 @@ var init_icon_trunk_1_svg = __esm({
 var icon_trunk_2_svg_exports = {};
 __export(icon_trunk_2_svg_exports, {
   default: () => icon_trunk_2_svg_default,
-  meta: () => meta334
+  meta: () => meta358
 });
-var meta334, icon_trunk_2_svg_default;
+var meta358, icon_trunk_2_svg_default;
 var init_icon_trunk_2_svg = __esm({
   "lib/meta/icon_trunk-2.svg.ts"() {
-    meta334 = {
+    meta358 = {
       description: "This icon depicts a tree trunk with visible rings and texture. It can be used to represent nature, forestry, environment, or wood-related concepts.",
       category: ["Misc"],
       tag: ["tree trunk", "nature", "forestry", "environment", "wood", "texture", "rings", "natural", "outdoors", "timber"],
       title: "Trunk 2"
     };
-    icon_trunk_2_svg_default = meta334;
+    icon_trunk_2_svg_default = meta358;
   }
 });
 
@@ -22778,18 +23570,18 @@ var init_icon_trunk_2_svg = __esm({
 var icon_ufo_svg_exports = {};
 __export(icon_ufo_svg_exports, {
   default: () => icon_ufo_svg_default,
-  meta: () => meta335
+  meta: () => meta359
 });
-var meta335, icon_ufo_svg_default;
+var meta359, icon_ufo_svg_default;
 var init_icon_ufo_svg = __esm({
   "lib/meta/icon_ufo.svg.ts"() {
-    meta335 = {
+    meta359 = {
       description: "A cute icon of a UFO spaceship, commonly associated with aliens and outer space.",
       category: ["Misc"],
       tag: ["space", "alien", "flying saucer", "science fiction", "extraterrestrial", "outer space", "technology", "futuristic", "vehicle", "flying object"],
       title: "UFO"
     };
-    icon_ufo_svg_default = meta335;
+    icon_ufo_svg_default = meta359;
   }
 });
 
@@ -22797,12 +23589,12 @@ var init_icon_ufo_svg = __esm({
 var icon_vote_svg_exports = {};
 __export(icon_vote_svg_exports, {
   default: () => icon_vote_svg_default,
-  meta: () => meta336
+  meta: () => meta360
 });
-var meta336, icon_vote_svg_default;
+var meta360, icon_vote_svg_default;
 var init_icon_vote_svg = __esm({
   "lib/meta/icon_vote.svg.ts"() {
-    meta336 = {
+    meta360 = {
       "description": "The vote icon typically represents an action of choosing, selecting, or making a decision. It is commonly used to indicate a voting option or to encourage viewers to participate in a poll or survey.",
       "category": [
         "Interface",
@@ -22821,7 +23613,7 @@ var init_icon_vote_svg = __esm({
       ],
       "title": "Vote"
     };
-    icon_vote_svg_default = meta336;
+    icon_vote_svg_default = meta360;
   }
 });
 
@@ -22829,12 +23621,12 @@ var init_icon_vote_svg = __esm({
 var icon_wallet_svg_exports = {};
 __export(icon_wallet_svg_exports, {
   default: () => icon_wallet_svg_default,
-  meta: () => meta337
+  meta: () => meta361
 });
-var meta337, icon_wallet_svg_default;
+var meta361, icon_wallet_svg_default;
 var init_icon_wallet_svg = __esm({
   "lib/meta/icon_wallet.svg.ts"() {
-    meta337 = {
+    meta361 = {
       "description": "A wallet icon typically represents a small, pocket-sized case used to hold cash, cards, and other essentials such as identification documents. It is commonly associated with finances, shopping, and personal belongings.",
       "category": [
         "Interface",
@@ -22854,7 +23646,7 @@ var init_icon_wallet_svg = __esm({
       ],
       "title": "Wallet"
     };
-    icon_wallet_svg_default = meta337;
+    icon_wallet_svg_default = meta361;
   }
 });
 
@@ -22862,12 +23654,12 @@ var init_icon_wallet_svg = __esm({
 var icon_washing_machine_svg_exports = {};
 __export(icon_washing_machine_svg_exports, {
   default: () => icon_washing_machine_svg_default,
-  meta: () => meta338
+  meta: () => meta362
 });
-var meta338, icon_washing_machine_svg_default;
+var meta362, icon_washing_machine_svg_default;
 var init_icon_washing_machine_svg = __esm({
   "lib/meta/icon_washing machine.svg.ts"() {
-    meta338 = {
+    meta362 = {
       "description": "A washing machine is a household appliance used to wash laundry such as clothing and sheets. It contains a drum in which the garments are placed for cleaning with the help of water, detergent, and sometimes fabric softener. Modern washing machines may also have additional features like different wash cycles and temperature settings.",
       "category": [
         "Things",
@@ -22888,7 +23680,7 @@ var init_icon_washing_machine_svg = __esm({
       ],
       "title": "Washing Machine"
     };
-    icon_washing_machine_svg_default = meta338;
+    icon_washing_machine_svg_default = meta362;
   }
 });
 
@@ -22896,12 +23688,12 @@ var init_icon_washing_machine_svg = __esm({
 var icon_watercooker_svg_exports = {};
 __export(icon_watercooker_svg_exports, {
   default: () => icon_watercooker_svg_default,
-  meta: () => meta339
+  meta: () => meta363
 });
-var meta339, icon_watercooker_svg_default;
+var meta363, icon_watercooker_svg_default;
 var init_icon_watercooker_svg = __esm({
   "lib/meta/icon_watercooker.svg.ts"() {
-    meta339 = {
+    meta363 = {
       "description": "A watercooker, also known as an electric kettle, is a kitchen appliance used for heating and boiling water quickly. It is typically used to make tea, coffee, or instant noodles.",
       "category": [
         "Things",
@@ -22918,7 +23710,7 @@ var init_icon_watercooker_svg = __esm({
       ],
       "title": "Water Cooker"
     };
-    icon_watercooker_svg_default = meta339;
+    icon_watercooker_svg_default = meta363;
   }
 });
 
@@ -22926,18 +23718,18 @@ var init_icon_watercooker_svg = __esm({
 var icon_yurt_svg_exports = {};
 __export(icon_yurt_svg_exports, {
   default: () => icon_yurt_svg_default,
-  meta: () => meta340
+  meta: () => meta364
 });
-var meta340, icon_yurt_svg_default;
+var meta364, icon_yurt_svg_default;
 var init_icon_yurt_svg = __esm({
   "lib/meta/icon_yurt.svg.ts"() {
-    meta340 = {
+    meta364 = {
       description: "A yurt is a portable, round tent traditionally used by nomadic peoples in Central Asia. It is typically covered with skins or felt and used as a dwelling.",
       category: ["Misc"],
       tag: ["Yurt", "Nomadic", "Central Asia", "Portable", "Tent", "Traditional", "Dwelling", "Round", "Skins", "Felt"],
       title: "Yurt"
     };
-    icon_yurt_svg_default = meta340;
+    icon_yurt_svg_default = meta364;
   }
 });
 
@@ -22945,18 +23737,18 @@ var init_icon_yurt_svg = __esm({
 var icon_baby_stroller_svg_exports = {};
 __export(icon_baby_stroller_svg_exports, {
   default: () => icon_baby_stroller_svg_default,
-  meta: () => meta341
+  meta: () => meta365
 });
-var meta341, icon_baby_stroller_svg_default;
+var meta365, icon_baby_stroller_svg_default;
 var init_icon_baby_stroller_svg = __esm({
   "lib/meta/icon_baby-stroller.svg.ts"() {
-    meta341 = {
+    meta365 = {
       description: "An icon of a baby stroller, typically used to represent baby products, parenting, family, and childcare.",
       category: ["Transport"],
       tag: ["baby stroller", "parenting", "family", "childcare", "infant", "baby products", "pram", "baby carriage", "stroller", "baby gear"],
       title: "Baby Stroller"
     };
-    icon_baby_stroller_svg_default = meta341;
+    icon_baby_stroller_svg_default = meta365;
   }
 });
 
@@ -22964,18 +23756,18 @@ var init_icon_baby_stroller_svg = __esm({
 var icon_clothing_tshirt_svg_exports = {};
 __export(icon_clothing_tshirt_svg_exports, {
   default: () => icon_clothing_tshirt_svg_default,
-  meta: () => meta342
+  meta: () => meta366
 });
-var meta342, icon_clothing_tshirt_svg_default;
+var meta366, icon_clothing_tshirt_svg_default;
 var init_icon_clothing_tshirt_svg = __esm({
   "lib/meta/icon_clothing-tshirt.svg.ts"() {
-    meta342 = {
+    meta366 = {
       description: "An icon showing a basic t-shirt, commonly worn as clothing. Perfect for clothing stores, fashion websites, and design projects.",
       category: ["Product", "Apparel"],
       tag: ["T-shirt", "Clothing", "Fashion", "Style", "Apparel", "Top", "Casual", "Wearable", "Garment"],
       title: "Clothing T-shirt"
     };
-    icon_clothing_tshirt_svg_default = meta342;
+    icon_clothing_tshirt_svg_default = meta366;
   }
 });
 
@@ -22983,18 +23775,18 @@ var init_icon_clothing_tshirt_svg = __esm({
 var icon_cotton_svg_exports = {};
 __export(icon_cotton_svg_exports, {
   default: () => icon_cotton_svg_default,
-  meta: () => meta343
+  meta: () => meta367
 });
-var meta343, icon_cotton_svg_default;
+var meta367, icon_cotton_svg_default;
 var init_icon_cotton_svg = __esm({
   "lib/meta/icon_cotton.svg.ts"() {
-    meta343 = {
+    meta367 = {
       description: "The cotton icon represents the soft and fluffy natural fibers that are commonly used to produce textiles. Cotton is known for its breathability and comfort, making it a popular choice for clothing and home textiles.",
       category: ["Product"],
       tag: ["fabric", "textile", "material", "fiber", "organic", "natural", "clothing", "home decor", "fashion", "soft"],
       title: "Cotton"
     };
-    icon_cotton_svg_default = meta343;
+    icon_cotton_svg_default = meta367;
   }
 });
 
@@ -23002,18 +23794,18 @@ var init_icon_cotton_svg = __esm({
 var icon_home_garden_svg_exports = {};
 __export(icon_home_garden_svg_exports, {
   default: () => icon_home_garden_svg_default,
-  meta: () => meta344
+  meta: () => meta368
 });
-var meta344, icon_home_garden_svg_default;
+var meta368, icon_home_garden_svg_default;
 var init_icon_home_garden_svg = __esm({
   "lib/meta/icon_home-garden.svg.ts"() {
-    meta344 = {
+    meta368 = {
       description: "The home-garden icon represents products related to home and garden, such as gardening tools, decorations, plants, and outdoor furniture.",
       category: ["Product", "Nature"],
       tag: ["home decor", "gardening", "outdoor living", "plants", "tools", "furniture", "home improvement", "landscaping", "flowers", "patio"],
       title: "Home Garden"
     };
-    icon_home_garden_svg_default = meta344;
+    icon_home_garden_svg_default = meta368;
   }
 });
 
@@ -23021,18 +23813,18 @@ var init_icon_home_garden_svg = __esm({
 var icon_hypoallergenic_svg_exports = {};
 __export(icon_hypoallergenic_svg_exports, {
   default: () => icon_hypoallergenic_svg_default,
-  meta: () => meta345
+  meta: () => meta369
 });
-var meta345, icon_hypoallergenic_svg_default;
+var meta369, icon_hypoallergenic_svg_default;
 var init_icon_hypoallergenic_svg = __esm({
   "lib/meta/icon_hypoallergenic.svg.ts"() {
-    meta345 = {
+    meta369 = {
       description: "The hypoallergenic icon indicates that the product is designed to minimize allergic reactions, making it suitable for those with sensitive skin or allergies.",
       category: ["Product"],
       tag: ["allergies", "sensitive skin", "irritation-free", "hypoallergenic", "skin care", "cosmetics", "healthcare", "wellness", "gentle", "safe"],
       title: "Hypoallergenic"
     };
-    icon_hypoallergenic_svg_default = meta345;
+    icon_hypoallergenic_svg_default = meta369;
   }
 });
 
@@ -23040,18 +23832,18 @@ var init_icon_hypoallergenic_svg = __esm({
 var icon_no_leaks_svg_exports = {};
 __export(icon_no_leaks_svg_exports, {
   default: () => icon_no_leaks_svg_default,
-  meta: () => meta346
+  meta: () => meta370
 });
-var meta346, icon_no_leaks_svg_default;
+var meta370, icon_no_leaks_svg_default;
 var init_icon_no_leaks_svg = __esm({
   "lib/meta/icon_no-leaks.svg.ts"() {
-    meta346 = {
+    meta370 = {
       description: "The 'No Leaks' icon depicts a symbol indicating the absence of leaks or leaks prevention. It can be used to represent leak-proof products, leak-resistant materials, or leak-free guarantee.",
       category: ["Product"],
       tag: ["no leaks", "leak-proof", "leak-resistant", "prevention", "guarantee", "protection", "security", "maintenance", "quality", "repair"],
       title: "No Leaks"
     };
-    icon_no_leaks_svg_default = meta346;
+    icon_no_leaks_svg_default = meta370;
   }
 });
 
@@ -23059,18 +23851,18 @@ var init_icon_no_leaks_svg = __esm({
 var icon_suitcase_jobs_svg_exports = {};
 __export(icon_suitcase_jobs_svg_exports, {
   default: () => icon_suitcase_jobs_svg_default,
-  meta: () => meta347
+  meta: () => meta371
 });
-var meta347, icon_suitcase_jobs_svg_default;
+var meta371, icon_suitcase_jobs_svg_default;
 var init_icon_suitcase_jobs_svg = __esm({
   "lib/meta/icon_suitcase-jobs.svg.ts"() {
-    meta347 = {
+    meta371 = {
       description: "A stylish icon of a suitcase with a variety of job-related elements, perfect for representing work, business, or travel themes.",
       category: ["Product", "Transport"],
       tag: ["job", "career", "briefcase", "work", "business", "luggage", "travel", "professional", "employment", "office"],
       title: "Suitcase Jobs"
     };
-    icon_suitcase_jobs_svg_default = meta347;
+    icon_suitcase_jobs_svg_default = meta371;
   }
 });
 
@@ -23078,18 +23870,18 @@ var init_icon_suitcase_jobs_svg = __esm({
 var icon_shopping_bag_2_svg_exports = {};
 __export(icon_shopping_bag_2_svg_exports, {
   default: () => icon_shopping_bag_2_svg_default,
-  meta: () => meta348
+  meta: () => meta372
 });
-var meta348, icon_shopping_bag_2_svg_default;
+var meta372, icon_shopping_bag_2_svg_default;
 var init_icon_shopping_bag_2_svg = __esm({
   "lib/meta/icon_shopping-bag-2.svg.ts"() {
-    meta348 = {
+    meta372 = {
       description: "A shopping bag icon depicting a modern design with two handles. This icon is perfect for representing shopping carts, online shopping, e-commerce, and retail-related concepts.",
       category: ["Shopping"],
       tag: ["Bag", "Cart", "Handle", "Online shopping", "E-commerce", "Retail", "Purchase", "Consumerism", "Market", "Shop"],
       title: "Shopping Bag 2"
     };
-    icon_shopping_bag_2_svg_default = meta348;
+    icon_shopping_bag_2_svg_default = meta372;
   }
 });
 
@@ -23097,18 +23889,18 @@ var init_icon_shopping_bag_2_svg = __esm({
 var icon_shopping_bag_3_svg_exports = {};
 __export(icon_shopping_bag_3_svg_exports, {
   default: () => icon_shopping_bag_3_svg_default,
-  meta: () => meta349
+  meta: () => meta373
 });
-var meta349, icon_shopping_bag_3_svg_default;
+var meta373, icon_shopping_bag_3_svg_default;
 var init_icon_shopping_bag_3_svg = __esm({
   "lib/meta/icon_shopping-bag-3.svg.ts"() {
-    meta349 = {
+    meta373 = {
       description: "The shopping bag icon is perfect for representing shopping, e-commerce, retail, and consumerism. The design features a simple bag with handles, making it easily recognizable.",
       category: ["Shopping"],
       tag: ["Retail", "E-commerce", "Consumerism", "Online shopping", "Store", "Purchase", "Shop", "Add to cart", "Buy", "Commerce"],
       title: "Shopping Bag 3"
     };
-    icon_shopping_bag_3_svg_default = meta349;
+    icon_shopping_bag_3_svg_default = meta373;
   }
 });
 
@@ -23116,18 +23908,18 @@ var init_icon_shopping_bag_3_svg = __esm({
 var icon_shopping_bag_discount_svg_exports = {};
 __export(icon_shopping_bag_discount_svg_exports, {
   default: () => icon_shopping_bag_discount_svg_default,
-  meta: () => meta350
+  meta: () => meta374
 });
-var meta350, icon_shopping_bag_discount_svg_default;
+var meta374, icon_shopping_bag_discount_svg_default;
 var init_icon_shopping_bag_discount_svg = __esm({
   "lib/meta/icon_shopping-bag-discount.svg.ts"() {
-    meta350 = {
+    meta374 = {
       description: "An icon representing a shopping bag with a discount offer, making it ideal for indicating discounted items or promotions in shopping-related contexts.",
       category: ["Shopping"],
       tag: ["Discount", "Sale", "Offer", "Shopping Bag", "E-commerce", "Promotion", "Retail", "Shopping Cart", "Value"],
       title: "Shopping Bag Discount"
     };
-    icon_shopping_bag_discount_svg_default = meta350;
+    icon_shopping_bag_discount_svg_default = meta374;
   }
 });
 
@@ -23135,18 +23927,18 @@ var init_icon_shopping_bag_discount_svg = __esm({
 var icon_shopping_bag_svg_exports = {};
 __export(icon_shopping_bag_svg_exports, {
   default: () => icon_shopping_bag_svg_default,
-  meta: () => meta351
+  meta: () => meta375
 });
-var meta351, icon_shopping_bag_svg_default;
+var meta375, icon_shopping_bag_svg_default;
 var init_icon_shopping_bag_svg = __esm({
   "lib/meta/icon_shopping-bag.svg.ts"() {
-    meta351 = {
+    meta375 = {
       description: "The shopping bag icon represents shopping and retail. It is commonly used to symbolize a place where items can be purchased, such as a store or online marketplace.",
       category: ["Shopping"],
       tag: ["Store", "Retail", "Marketplace", "Online shopping", "Purchase", "Bag", "Consumerism", "E-commerce", "Fashion", "Shopaholic"],
       title: "Shopping Bag"
     };
-    icon_shopping_bag_svg_default = meta351;
+    icon_shopping_bag_svg_default = meta375;
   }
 });
 
@@ -23154,18 +23946,18 @@ var init_icon_shopping_bag_svg = __esm({
 var icon_shopping_basket_rounded_svg_exports = {};
 __export(icon_shopping_basket_rounded_svg_exports, {
   default: () => icon_shopping_basket_rounded_svg_default,
-  meta: () => meta352
+  meta: () => meta376
 });
-var meta352, icon_shopping_basket_rounded_svg_default;
+var meta376, icon_shopping_basket_rounded_svg_default;
 var init_icon_shopping_basket_rounded_svg = __esm({
   "lib/meta/icon_shopping-basket-rounded.svg.ts"() {
-    meta352 = {
+    meta376 = {
       description: "The shopping-basket-rounded icon is a rounded shopping basket symbol, commonly used to represent a shopping cart or basket in e-commerce websites and applications.",
       category: ["Shopping"],
       tag: ["Basket", "Cart", "E-commerce", "Online shopping", "Retail", "Add to cart", "Purchase", "Shop", "Store", "Items"],
       title: "Shopping Basket Rounded"
     };
-    icon_shopping_basket_rounded_svg_default = meta352;
+    icon_shopping_basket_rounded_svg_default = meta376;
   }
 });
 
@@ -23173,18 +23965,18 @@ var init_icon_shopping_basket_rounded_svg = __esm({
 var icon_shopping_basket_svg_exports = {};
 __export(icon_shopping_basket_svg_exports, {
   default: () => icon_shopping_basket_svg_default,
-  meta: () => meta353
+  meta: () => meta377
 });
-var meta353, icon_shopping_basket_svg_default;
+var meta377, icon_shopping_basket_svg_default;
 var init_icon_shopping_basket_svg = __esm({
   "lib/meta/icon_shopping-basket.svg.ts"() {
-    meta353 = {
+    meta377 = {
       description: "The shopping basket icon represents a virtual basket where items can be added for purchase. It is commonly used in e-commerce websites and applications to indicate a shopping cart or the act of adding products to a cart.",
       category: ["Interface", "Symbol"],
       tag: ["shopping basket", "cart", "online shopping", "ecommerce", "add to cart", "purchase", "digital shopping", "shopping icon", "retail", "virtual basket"],
       title: "Shopping Basket"
     };
-    icon_shopping_basket_svg_default = meta353;
+    icon_shopping_basket_svg_default = meta377;
   }
 });
 
@@ -23192,18 +23984,18 @@ var init_icon_shopping_basket_svg = __esm({
 var icon_shopping_cart_fast_svg_exports = {};
 __export(icon_shopping_cart_fast_svg_exports, {
   default: () => icon_shopping_cart_fast_svg_default,
-  meta: () => meta354
+  meta: () => meta378
 });
-var meta354, icon_shopping_cart_fast_svg_default;
+var meta378, icon_shopping_cart_fast_svg_default;
 var init_icon_shopping_cart_fast_svg = __esm({
   "lib/meta/icon_shopping-cart-fast.svg.ts"() {
-    meta354 = {
+    meta378 = {
       description: "A fast shopping cart icon designed for quick and efficient shopping experiences. With sleek lines and a dynamic look, this icon symbolizes speed and convenience in the shopping process.",
       category: ["Interface", "Symbol", "Transport"],
       tag: ["e-commerce", "online shopping", "add to cart", "retail", "speedy checkout", "purchase", "fast delivery", "shopping app", "digital commerce", "ecommerce website"],
       title: "Shopping Cart Fast"
     };
-    icon_shopping_cart_fast_svg_default = meta354;
+    icon_shopping_cart_fast_svg_default = meta378;
   }
 });
 
@@ -23211,18 +24003,18 @@ var init_icon_shopping_cart_fast_svg = __esm({
 var icon_shopping_cart_svg_exports = {};
 __export(icon_shopping_cart_svg_exports, {
   default: () => icon_shopping_cart_svg_default,
-  meta: () => meta355
+  meta: () => meta379
 });
-var meta355, icon_shopping_cart_svg_default;
+var meta379, icon_shopping_cart_svg_default;
 var init_icon_shopping_cart_svg = __esm({
   "lib/meta/icon_shopping-cart.svg.ts"() {
-    meta355 = {
+    meta379 = {
       description: "The shopping cart icon typically represents an online store or e-commerce shopping experience. It is commonly used to indicate where users can view and manage items they intend to purchase.",
       category: ["Interface", "Symbol"],
       tag: ["shopping", "cart", "online", "store", "e-commerce", "add to cart", "purchase", "shop", "buy", "items"],
       title: "Shopping Cart"
     };
-    icon_shopping_cart_svg_default = meta355;
+    icon_shopping_cart_svg_default = meta379;
   }
 });
 
@@ -23230,18 +24022,18 @@ var init_icon_shopping_cart_svg = __esm({
 var icon_shopping_label_svg_exports = {};
 __export(icon_shopping_label_svg_exports, {
   default: () => icon_shopping_label_svg_default,
-  meta: () => meta356
+  meta: () => meta380
 });
-var meta356, icon_shopping_label_svg_default;
+var meta380, icon_shopping_label_svg_default;
 var init_icon_shopping_label_svg = __esm({
   "lib/meta/icon_shopping-label.svg.ts"() {
-    meta356 = {
+    meta380 = {
       description: "The shopping label icon is a simple design of a label commonly used in retail to display pricing or information. It can be used in various shopping-related designs and websites.",
       category: ["Interface", "Symbol"],
       tag: ["retail", "price", "information", "shopping", "sale", "label", "ecommerce", "store", "product", "tag"],
       title: "Shopping Label"
     };
-    icon_shopping_label_svg_default = meta356;
+    icon_shopping_label_svg_default = meta380;
   }
 });
 
@@ -23249,18 +24041,18 @@ var init_icon_shopping_label_svg = __esm({
 var icon_shopping_labels_svg_exports = {};
 __export(icon_shopping_labels_svg_exports, {
   default: () => icon_shopping_labels_svg_default,
-  meta: () => meta357
+  meta: () => meta381
 });
-var meta357, icon_shopping_labels_svg_default;
+var meta381, icon_shopping_labels_svg_default;
 var init_icon_shopping_labels_svg = __esm({
   "lib/meta/icon_shopping-labels.svg.ts"() {
-    meta357 = {
+    meta381 = {
       description: "The shopping labels icon is a set of labels commonly used in retail and online shopping to indicate prices, promotions, and product information. These labels are versatile and can be customized to suit different marketing strategies.",
       category: ["Interface", "Symbol"],
       tag: ["shopping", "labels", "retail", "prices", "promotions", "product", "information", "marketing", "strategy", "online shopping"],
       title: "Shopping Labels"
     };
-    icon_shopping_labels_svg_default = meta357;
+    icon_shopping_labels_svg_default = meta381;
   }
 });
 
@@ -23268,12 +24060,12 @@ var init_icon_shopping_labels_svg = __esm({
 var icon_43_svg_exports = {};
 __export(icon_43_svg_exports, {
   default: () => icon_43_svg_default,
-  meta: () => meta358
+  meta: () => meta382
 });
-var meta358, icon_43_svg_default;
+var meta382, icon_43_svg_default;
 var init_icon_43_svg = __esm({
   "lib/meta/icon-43.svg.ts"() {
-    meta358 = {
+    meta382 = {
       "description": "Icon-43 is a special character depicting a unique symbol or design. It can be used to add a distinctive touch to various designs and projects.",
       "category": [
         "Special Characters"
@@ -23292,7 +24084,7 @@ var init_icon_43_svg = __esm({
       ],
       "title": "Icon 43"
     };
-    icon_43_svg_default = meta358;
+    icon_43_svg_default = meta382;
   }
 });
 
@@ -23300,12 +24092,12 @@ var init_icon_43_svg = __esm({
 var icon_baht_symbol_svg_exports = {};
 __export(icon_baht_symbol_svg_exports, {
   default: () => icon_baht_symbol_svg_default,
-  meta: () => meta359
+  meta: () => meta383
 });
-var meta359, icon_baht_symbol_svg_default;
+var meta383, icon_baht_symbol_svg_default;
 var init_icon_baht_symbol_svg = __esm({
   "lib/meta/icon_baht-symbol.svg.ts"() {
-    meta359 = {
+    meta383 = {
       "description": "The symbol for the Thai baht, the currency of Thailand. It features a stylized letter '\u0E3F' representing the currency.",
       "category": [
         "Symbol"
@@ -23323,7 +24115,7 @@ var init_icon_baht_symbol_svg = __esm({
       ],
       "title": "Baht Symbol"
     };
-    icon_baht_symbol_svg_default = meta359;
+    icon_baht_symbol_svg_default = meta383;
   }
 });
 
@@ -23331,12 +24123,12 @@ var init_icon_baht_symbol_svg = __esm({
 var icon_dice_1_svg_exports = {};
 __export(icon_dice_1_svg_exports, {
   default: () => icon_dice_1_svg_default,
-  meta: () => meta360
+  meta: () => meta384
 });
-var meta360, icon_dice_1_svg_default;
+var meta384, icon_dice_1_svg_default;
 var init_icon_dice_1_svg = __esm({
   "lib/meta/icon_dice-1.svg.ts"() {
-    meta360 = {
+    meta384 = {
       "description": "An icon of a single dice showing the number 1, commonly used in games or for random selection processes.",
       "category": [
         "Special Characters"
@@ -23355,7 +24147,7 @@ var init_icon_dice_1_svg = __esm({
       ],
       "title": "Dice 1"
     };
-    icon_dice_1_svg_default = meta360;
+    icon_dice_1_svg_default = meta384;
   }
 });
 
@@ -23363,12 +24155,12 @@ var init_icon_dice_1_svg = __esm({
 var icon_dice_2_svg_exports = {};
 __export(icon_dice_2_svg_exports, {
   default: () => icon_dice_2_svg_default,
-  meta: () => meta361
+  meta: () => meta385
 });
-var meta361, icon_dice_2_svg_default;
+var meta385, icon_dice_2_svg_default;
 var init_icon_dice_2_svg = __esm({
   "lib/meta/icon_dice-2.svg.ts"() {
-    meta361 = {
+    meta385 = {
       "description": "The icon dice-2 represents a six-sided dice with the number 2 facing up. It can be used to indicate a random or probability-related concept.",
       "category": [
         "Special Characters"
@@ -23386,7 +24178,7 @@ var init_icon_dice_2_svg = __esm({
       ],
       "title": "Dice 2"
     };
-    icon_dice_2_svg_default = meta361;
+    icon_dice_2_svg_default = meta385;
   }
 });
 
@@ -23394,12 +24186,12 @@ var init_icon_dice_2_svg = __esm({
 var icon_dice_3_svg_exports = {};
 __export(icon_dice_3_svg_exports, {
   default: () => icon_dice_3_svg_default,
-  meta: () => meta362
+  meta: () => meta386
 });
-var meta362, icon_dice_3_svg_default;
+var meta386, icon_dice_3_svg_default;
 var init_icon_dice_3_svg = __esm({
   "lib/meta/icon_dice-3.svg.ts"() {
-    meta362 = {
+    meta386 = {
       "description": "The 'dice-3' icon represents a standard six-sided dice showing the number 3. It is commonly used to symbolize randomness, luck, chance, and games.",
       "category": [
         "Special Characters"
@@ -23418,7 +24210,7 @@ var init_icon_dice_3_svg = __esm({
       ],
       "title": "Dice Three"
     };
-    icon_dice_3_svg_default = meta362;
+    icon_dice_3_svg_default = meta386;
   }
 });
 
@@ -23426,12 +24218,12 @@ var init_icon_dice_3_svg = __esm({
 var icon_dice_4_svg_exports = {};
 __export(icon_dice_4_svg_exports, {
   default: () => icon_dice_4_svg_default,
-  meta: () => meta363
+  meta: () => meta387
 });
-var meta363, icon_dice_4_svg_default;
+var meta387, icon_dice_4_svg_default;
 var init_icon_dice_4_svg = __esm({
   "lib/meta/icon_dice-4.svg.ts"() {
-    meta363 = {
+    meta387 = {
       "description": "The icon depicts a six-sided dice with the number '4' displayed on top. It is commonly used to represent the number '4' in dice games or as a general symbol for luck or chance.",
       "category": [
         "Special Characters"
@@ -23450,7 +24242,7 @@ var init_icon_dice_4_svg = __esm({
       ],
       "title": "Dice Four"
     };
-    icon_dice_4_svg_default = meta363;
+    icon_dice_4_svg_default = meta387;
   }
 });
 
@@ -23458,12 +24250,12 @@ var init_icon_dice_4_svg = __esm({
 var icon_dice_5_svg_exports = {};
 __export(icon_dice_5_svg_exports, {
   default: () => icon_dice_5_svg_default,
-  meta: () => meta364
+  meta: () => meta388
 });
-var meta364, icon_dice_5_svg_default;
+var meta388, icon_dice_5_svg_default;
 var init_icon_dice_5_svg = __esm({
   "lib/meta/icon_dice-5.svg.ts"() {
-    meta364 = {
+    meta388 = {
       "description": "The icon dice-5 represents a standard six-sided dice with the number 5 facing up. This icon is often used in gaming applications, educational tools, and recreational websites.",
       "category": [
         "Special Characters"
@@ -23482,7 +24274,7 @@ var init_icon_dice_5_svg = __esm({
       ],
       "title": "Dice 5"
     };
-    icon_dice_5_svg_default = meta364;
+    icon_dice_5_svg_default = meta388;
   }
 });
 
@@ -23490,12 +24282,12 @@ var init_icon_dice_5_svg = __esm({
 var icon_dice_6_svg_exports = {};
 __export(icon_dice_6_svg_exports, {
   default: () => icon_dice_6_svg_default,
-  meta: () => meta365
+  meta: () => meta389
 });
-var meta365, icon_dice_6_svg_default;
+var meta389, icon_dice_6_svg_default;
 var init_icon_dice_6_svg = __esm({
   "lib/meta/icon_dice-6.svg.ts"() {
-    meta365 = {
+    meta389 = {
       "description": "An icon representing a six-sided dice commonly used in games to determine a random number between 1 and 6.",
       "category": [
         "Special Characters"
@@ -23514,7 +24306,7 @@ var init_icon_dice_6_svg = __esm({
       ],
       "title": "Dice 6"
     };
-    icon_dice_6_svg_default = meta365;
+    icon_dice_6_svg_default = meta389;
   }
 });
 
@@ -23522,12 +24314,12 @@ var init_icon_dice_6_svg = __esm({
 var icon_dice_7_svg_exports = {};
 __export(icon_dice_7_svg_exports, {
   default: () => icon_dice_7_svg_default,
-  meta: () => meta366
+  meta: () => meta390
 });
-var meta366, icon_dice_7_svg_default;
+var meta390, icon_dice_7_svg_default;
 var init_icon_dice_7_svg = __esm({
   "lib/meta/icon_dice-7.svg.ts"() {
-    meta366 = {
+    meta390 = {
       "description": "An icon representing a dice with seven dots on it, typically used to symbolize luck or randomness in games or activities.",
       "category": [
         "Special Characters"
@@ -23546,7 +24338,7 @@ var init_icon_dice_7_svg = __esm({
       ],
       "title": "Dice 7"
     };
-    icon_dice_7_svg_default = meta366;
+    icon_dice_7_svg_default = meta390;
   }
 });
 
@@ -23554,12 +24346,12 @@ var init_icon_dice_7_svg = __esm({
 var icon_dice_8_svg_exports = {};
 __export(icon_dice_8_svg_exports, {
   default: () => icon_dice_8_svg_default,
-  meta: () => meta367
+  meta: () => meta391
 });
-var meta367, icon_dice_8_svg_default;
+var meta391, icon_dice_8_svg_default;
 var init_icon_dice_8_svg = __esm({
   "lib/meta/icon_dice-8.svg.ts"() {
-    meta367 = {
+    meta391 = {
       "description": "The icon represents a dice with 8 sides, featuring numbers ranging from 1 to 8 on its faces. It is commonly used in tabletop games and gaming interfaces.",
       "category": [
         "Special Characters"
@@ -23578,7 +24370,7 @@ var init_icon_dice_8_svg = __esm({
       ],
       "title": "Dice 8"
     };
-    icon_dice_8_svg_default = meta367;
+    icon_dice_8_svg_default = meta391;
   }
 });
 
@@ -23586,12 +24378,12 @@ var init_icon_dice_8_svg = __esm({
 var icon_dice_9_svg_exports = {};
 __export(icon_dice_9_svg_exports, {
   default: () => icon_dice_9_svg_default,
-  meta: () => meta368
+  meta: () => meta392
 });
-var meta368, icon_dice_9_svg_default;
+var meta392, icon_dice_9_svg_default;
 var init_icon_dice_9_svg = __esm({
   "lib/meta/icon_dice-9.svg.ts"() {
-    meta368 = {
+    meta392 = {
       "description": "An icon of a dice with the number 9 facing up, representing the number nine in a gaming context.",
       "category": [
         "Special Characters"
@@ -23610,7 +24402,7 @@ var init_icon_dice_9_svg = __esm({
       ],
       "title": "Dice 9"
     };
-    icon_dice_9_svg_default = meta368;
+    icon_dice_9_svg_default = meta392;
   }
 });
 
@@ -23618,12 +24410,12 @@ var init_icon_dice_9_svg = __esm({
 var icon_digit_digital_1_svg_exports = {};
 __export(icon_digit_digital_1_svg_exports, {
   default: () => icon_digit_digital_1_svg_default,
-  meta: () => meta369
+  meta: () => meta393
 });
-var meta369, icon_digit_digital_1_svg_default;
+var meta393, icon_digit_digital_1_svg_default;
 var init_icon_digit_digital_1_svg = __esm({
   "lib/meta/icon_digit-digital-1.svg.ts"() {
-    meta369 = {
+    meta393 = {
       "description": "A digital representation of the number 1, designed in a modern and sleek style.",
       "category": [
         "Special Characters"
@@ -23642,7 +24434,7 @@ var init_icon_digit_digital_1_svg = __esm({
       ],
       "title": "Digit Digital 1"
     };
-    icon_digit_digital_1_svg_default = meta369;
+    icon_digit_digital_1_svg_default = meta393;
   }
 });
 
@@ -23650,12 +24442,12 @@ var init_icon_digit_digital_1_svg = __esm({
 var icon_digit_digital_2_svg_exports = {};
 __export(icon_digit_digital_2_svg_exports, {
   default: () => icon_digit_digital_2_svg_default,
-  meta: () => meta370
+  meta: () => meta394
 });
-var meta370, icon_digit_digital_2_svg_default;
+var meta394, icon_digit_digital_2_svg_default;
 var init_icon_digit_digital_2_svg = __esm({
   "lib/meta/icon_digit-digital-2.svg.ts"() {
-    meta370 = {
+    meta394 = {
       "description": "The digit 2 represented in a digital style, suitable for use in digital themes, technology-related designs, or any project that requires a modern and sleek appearance.",
       "category": [
         "Special Characters"
@@ -23674,7 +24466,7 @@ var init_icon_digit_digital_2_svg = __esm({
       ],
       "title": "Digit Digital 2"
     };
-    icon_digit_digital_2_svg_default = meta370;
+    icon_digit_digital_2_svg_default = meta394;
   }
 });
 
@@ -23682,12 +24474,12 @@ var init_icon_digit_digital_2_svg = __esm({
 var icon_digit_digital_3_svg_exports = {};
 __export(icon_digit_digital_3_svg_exports, {
   default: () => icon_digit_digital_3_svg_default,
-  meta: () => meta371
+  meta: () => meta395
 });
-var meta371, icon_digit_digital_3_svg_default;
+var meta395, icon_digit_digital_3_svg_default;
 var init_icon_digit_digital_3_svg = __esm({
   "lib/meta/icon_digit-digital-3.svg.ts"() {
-    meta371 = {
+    meta395 = {
       "description": "A digital style icon representing the number three, designed with a modern and sleek look.",
       "category": [
         "Special Characters"
@@ -23706,7 +24498,7 @@ var init_icon_digit_digital_3_svg = __esm({
       ],
       "title": "Digit Digital 3"
     };
-    icon_digit_digital_3_svg_default = meta371;
+    icon_digit_digital_3_svg_default = meta395;
   }
 });
 
@@ -23714,12 +24506,12 @@ var init_icon_digit_digital_3_svg = __esm({
 var icon_digit_digital_4_svg_exports = {};
 __export(icon_digit_digital_4_svg_exports, {
   default: () => icon_digit_digital_4_svg_default,
-  meta: () => meta372
+  meta: () => meta396
 });
-var meta372, icon_digit_digital_4_svg_default;
+var meta396, icon_digit_digital_4_svg_default;
 var init_icon_digit_digital_4_svg = __esm({
   "lib/meta/icon_digit-digital-4.svg.ts"() {
-    meta372 = {
+    meta396 = {
       "description": "The icon 'digit-digital-4' is a representation of the number 4 in a digital style, often used to indicate numerical values or quantities in a digital context.",
       "category": [
         "Text"
@@ -23738,7 +24530,7 @@ var init_icon_digit_digital_4_svg = __esm({
       ],
       "title": "Digit Digital 4"
     };
-    icon_digit_digital_4_svg_default = meta372;
+    icon_digit_digital_4_svg_default = meta396;
   }
 });
 
@@ -23746,12 +24538,12 @@ var init_icon_digit_digital_4_svg = __esm({
 var icon_digit_digital_5_svg_exports = {};
 __export(icon_digit_digital_5_svg_exports, {
   default: () => icon_digit_digital_5_svg_default,
-  meta: () => meta373
+  meta: () => meta397
 });
-var meta373, icon_digit_digital_5_svg_default;
+var meta397, icon_digit_digital_5_svg_default;
 var init_icon_digit_digital_5_svg = __esm({
   "lib/meta/icon_digit-digital-5.svg.ts"() {
-    meta373 = {
+    meta397 = {
       "description": "The icon 'digit-digital-5' features the number 5 displayed in a digital style. This icon is great for representing numerical information or highlighting the number 5 in a digital context.",
       "category": [
         "Text"
@@ -23770,7 +24562,7 @@ var init_icon_digit_digital_5_svg = __esm({
       ],
       "title": "Digit Digital 5"
     };
-    icon_digit_digital_5_svg_default = meta373;
+    icon_digit_digital_5_svg_default = meta397;
   }
 });
 
@@ -23778,12 +24570,12 @@ var init_icon_digit_digital_5_svg = __esm({
 var icon_digit_digital_6_svg_exports = {};
 __export(icon_digit_digital_6_svg_exports, {
   default: () => icon_digit_digital_6_svg_default,
-  meta: () => meta374
+  meta: () => meta398
 });
-var meta374, icon_digit_digital_6_svg_default;
+var meta398, icon_digit_digital_6_svg_default;
 var init_icon_digit_digital_6_svg = __esm({
   "lib/meta/icon_digit-digital-6.svg.ts"() {
-    meta374 = {
+    meta398 = {
       "description": "The icon 'digit-digital-6' is a special character representing the numerical digit 6 in a digital style. It has a modern and futuristic look, commonly used in technology-related designs.",
       "category": [
         "Symbol"
@@ -23801,7 +24593,7 @@ var init_icon_digit_digital_6_svg = __esm({
       ],
       "title": "Digit Digital 6"
     };
-    icon_digit_digital_6_svg_default = meta374;
+    icon_digit_digital_6_svg_default = meta398;
   }
 });
 
@@ -23809,12 +24601,12 @@ var init_icon_digit_digital_6_svg = __esm({
 var icon_digit_digital_7_svg_exports = {};
 __export(icon_digit_digital_7_svg_exports, {
   default: () => icon_digit_digital_7_svg_default,
-  meta: () => meta375
+  meta: () => meta399
 });
-var meta375, icon_digit_digital_7_svg_default;
+var meta399, icon_digit_digital_7_svg_default;
 var init_icon_digit_digital_7_svg = __esm({
   "lib/meta/icon_digit-digital-7.svg.ts"() {
-    meta375 = {
+    meta399 = {
       "description": "The digit digital 7 icon is a special character that represents the number 7 in a digital style. It is commonly used in digital interfaces, calculators, and electronic displays.",
       "category": [
         "Special Characters"
@@ -23832,7 +24624,7 @@ var init_icon_digit_digital_7_svg = __esm({
       ],
       "title": "Digit Digital 7"
     };
-    icon_digit_digital_7_svg_default = meta375;
+    icon_digit_digital_7_svg_default = meta399;
   }
 });
 
@@ -23840,12 +24632,12 @@ var init_icon_digit_digital_7_svg = __esm({
 var icon_digit_digital_8_svg_exports = {};
 __export(icon_digit_digital_8_svg_exports, {
   default: () => icon_digit_digital_8_svg_default,
-  meta: () => meta376
+  meta: () => meta400
 });
-var meta376, icon_digit_digital_8_svg_default;
+var meta400, icon_digit_digital_8_svg_default;
 var init_icon_digit_digital_8_svg = __esm({
   "lib/meta/icon_digit-digital-8.svg.ts"() {
-    meta376 = {
+    meta400 = {
       "description": "An icon of the digit 8 in a digital style, perfect for representing numerical information or scores in a modern and sleek way.",
       "category": [
         "Symbol"
@@ -23863,7 +24655,7 @@ var init_icon_digit_digital_8_svg = __esm({
       ],
       "title": "Digit Digital 8"
     };
-    icon_digit_digital_8_svg_default = meta376;
+    icon_digit_digital_8_svg_default = meta400;
   }
 });
 
@@ -23871,12 +24663,12 @@ var init_icon_digit_digital_8_svg = __esm({
 var icon_digit_digital_9_svg_exports = {};
 __export(icon_digit_digital_9_svg_exports, {
   default: () => icon_digit_digital_9_svg_default,
-  meta: () => meta377
+  meta: () => meta401
 });
-var meta377, icon_digit_digital_9_svg_default;
+var meta401, icon_digit_digital_9_svg_default;
 var init_icon_digit_digital_9_svg = __esm({
   "lib/meta/icon_digit-digital-9.svg.ts"() {
-    meta377 = {
+    meta401 = {
       "description": "A digital representation of the number 9, designed with straight lines to resemble a digital display style.",
       "category": [
         "Text"
@@ -23894,7 +24686,7 @@ var init_icon_digit_digital_9_svg = __esm({
       ],
       "title": "Digit Digital 9"
     };
-    icon_digit_digital_9_svg_default = meta377;
+    icon_digit_digital_9_svg_default = meta401;
   }
 });
 
@@ -23902,12 +24694,12 @@ var init_icon_digit_digital_9_svg = __esm({
 var icon_digit_digtal_0_svg_exports = {};
 __export(icon_digit_digtal_0_svg_exports, {
   default: () => icon_digit_digtal_0_svg_default,
-  meta: () => meta378
+  meta: () => meta402
 });
-var meta378, icon_digit_digtal_0_svg_default;
+var meta402, icon_digit_digtal_0_svg_default;
 var init_icon_digit_digtal_0_svg = __esm({
   "lib/meta/icon_digit-digtal-0.svg.ts"() {
-    meta378 = {
+    meta402 = {
       "description": "An icon of the digit '0' in a digital style, commonly used for representing numbers in a technological or modern context.",
       "category": [
         "Special Characters"
@@ -23926,7 +24718,7 @@ var init_icon_digit_digtal_0_svg = __esm({
       ],
       "title": "Digit Digital 0"
     };
-    icon_digit_digtal_0_svg_default = meta378;
+    icon_digit_digtal_0_svg_default = meta402;
   }
 });
 
@@ -23934,12 +24726,12 @@ var init_icon_digit_digtal_0_svg = __esm({
 var icon_dollar_svg_exports = {};
 __export(icon_dollar_svg_exports, {
   default: () => icon_dollar_svg_default,
-  meta: () => meta379
+  meta: () => meta403
 });
-var meta379, icon_dollar_svg_default;
+var meta403, icon_dollar_svg_default;
 var init_icon_dollar_svg = __esm({
   "lib/meta/icon_dollar.svg.ts"() {
-    meta379 = {
+    meta403 = {
       "description": "The dollar icon represents currency and is commonly used to symbolize money or financial transactions.",
       "category": [
         "Symbol"
@@ -23958,7 +24750,7 @@ var init_icon_dollar_svg = __esm({
       ],
       "title": "Dollar"
     };
-    icon_dollar_svg_default = meta379;
+    icon_dollar_svg_default = meta403;
   }
 });
 
@@ -23966,12 +24758,12 @@ var init_icon_dollar_svg = __esm({
 var icon_euro_svg_exports = {};
 __export(icon_euro_svg_exports, {
   default: () => icon_euro_svg_default,
-  meta: () => meta380
+  meta: () => meta404
 });
-var meta380, icon_euro_svg_default;
+var meta404, icon_euro_svg_default;
 var init_icon_euro_svg = __esm({
   "lib/meta/icon_euro.svg.ts"() {
-    meta380 = {
+    meta404 = {
       "description": "The euro icon represents the official currency of the Eurozone. It is commonly used to denote amounts of money in euros.",
       "category": [
         "Symbol"
@@ -23990,7 +24782,7 @@ var init_icon_euro_svg = __esm({
       ],
       "title": "Euro"
     };
-    icon_euro_svg_default = meta380;
+    icon_euro_svg_default = meta404;
   }
 });
 
@@ -23998,12 +24790,12 @@ var init_icon_euro_svg = __esm({
 var icon_percentage_svg_exports = {};
 __export(icon_percentage_svg_exports, {
   default: () => icon_percentage_svg_default,
-  meta: () => meta381
+  meta: () => meta405
 });
-var meta381, icon_percentage_svg_default;
+var meta405, icon_percentage_svg_default;
 var init_icon_percentage_svg = __esm({
   "lib/meta/icon_percentage.svg.ts"() {
-    meta381 = {
+    meta405 = {
       "description": "An icon representing a percentage symbol, commonly used to indicate a proportion or rate.",
       "category": [
         "Symbol"
@@ -24021,7 +24813,7 @@ var init_icon_percentage_svg = __esm({
       ],
       "title": "Percentage"
     };
-    icon_percentage_svg_default = meta381;
+    icon_percentage_svg_default = meta405;
   }
 });
 
@@ -24029,12 +24821,12 @@ var init_icon_percentage_svg = __esm({
 var icon_pound_symbol_svg_exports = {};
 __export(icon_pound_symbol_svg_exports, {
   default: () => icon_pound_symbol_svg_default,
-  meta: () => meta382
+  meta: () => meta406
 });
-var meta382, icon_pound_symbol_svg_default;
+var meta406, icon_pound_symbol_svg_default;
 var init_icon_pound_symbol_svg = __esm({
   "lib/meta/icon_pound-symbol.svg.ts"() {
-    meta382 = {
+    meta406 = {
       "description": "The pound symbol, also known as the hash or number sign, is a special character commonly used in social media, coding, and writing to indicate a numerical value or to represent a tag.",
       "category": [
         "Special Characters"
@@ -24053,7 +24845,7 @@ var init_icon_pound_symbol_svg = __esm({
       ],
       "title": "Pound Symbol"
     };
-    icon_pound_symbol_svg_default = meta382;
+    icon_pound_symbol_svg_default = meta406;
   }
 });
 
@@ -24061,12 +24853,12 @@ var init_icon_pound_symbol_svg = __esm({
 var icon_promille_svg_exports = {};
 __export(icon_promille_svg_exports, {
   default: () => icon_promille_svg_default,
-  meta: () => meta383
+  meta: () => meta407
 });
-var meta383, icon_promille_svg_default;
+var meta407, icon_promille_svg_default;
 var init_icon_promille_svg = __esm({
   "lib/meta/icon_promille.svg.ts"() {
-    meta383 = {
+    meta407 = {
       "description": "The icon 'promille' represents the symbol for permillage, which is used to denote a concentration of one part per thousand. It is commonly used in contexts such as blood alcohol content.",
       "category": [
         "Symbol"
@@ -24085,7 +24877,7 @@ var init_icon_promille_svg = __esm({
       ],
       "title": "Promille"
     };
-    icon_promille_svg_default = meta383;
+    icon_promille_svg_default = meta407;
   }
 });
 
@@ -24093,12 +24885,12 @@ var init_icon_promille_svg = __esm({
 var icon_rubles_symbol_svg_exports = {};
 __export(icon_rubles_symbol_svg_exports, {
   default: () => icon_rubles_symbol_svg_default,
-  meta: () => meta384
+  meta: () => meta408
 });
-var meta384, icon_rubles_symbol_svg_default;
+var meta408, icon_rubles_symbol_svg_default;
 var init_icon_rubles_symbol_svg = __esm({
   "lib/meta/icon_rubles-symbol.svg.ts"() {
-    meta384 = {
+    meta408 = {
       "description": "The rubles symbol icon represents the currency symbol of Russian rubles. It is commonly used to indicate money, prices, and financial transactions related to Russia.",
       "category": [
         "Symbol"
@@ -24115,7 +24907,7 @@ var init_icon_rubles_symbol_svg = __esm({
       ],
       "title": "Rubles Symbol"
     };
-    icon_rubles_symbol_svg_default = meta384;
+    icon_rubles_symbol_svg_default = meta408;
   }
 });
 
@@ -24123,12 +24915,12 @@ var init_icon_rubles_symbol_svg = __esm({
 var icon_rupee_symbol_copy_svg_exports = {};
 __export(icon_rupee_symbol_copy_svg_exports, {
   default: () => icon_rupee_symbol_copy_svg_default,
-  meta: () => meta385
+  meta: () => meta409
 });
-var meta385, icon_rupee_symbol_copy_svg_default;
+var meta409, icon_rupee_symbol_copy_svg_default;
 var init_icon_rupee_symbol_copy_svg = __esm({
   "lib/meta/icon_rupee-symbol copy.svg.ts"() {
-    meta385 = {
+    meta409 = {
       "description": "The rupee symbol is a special character used to represent the Indian currency, often denoted as INR. It is widely recognized in financial contexts and is commonly used in India.",
       "category": [
         "Special Characters"
@@ -24147,7 +24939,7 @@ var init_icon_rupee_symbol_copy_svg = __esm({
       ],
       "title": "Rupee Symbol Copy"
     };
-    icon_rupee_symbol_copy_svg_default = meta385;
+    icon_rupee_symbol_copy_svg_default = meta409;
   }
 });
 
@@ -24155,12 +24947,12 @@ var init_icon_rupee_symbol_copy_svg = __esm({
 var icon_rupee_symbol_svg_exports = {};
 __export(icon_rupee_symbol_svg_exports, {
   default: () => icon_rupee_symbol_svg_default,
-  meta: () => meta386
+  meta: () => meta410
 });
-var meta386, icon_rupee_symbol_svg_default;
+var meta410, icon_rupee_symbol_svg_default;
 var init_icon_rupee_symbol_svg = __esm({
   "lib/meta/icon_rupee-symbol.svg.ts"() {
-    meta386 = {
+    meta410 = {
       "description": "The rupee symbol icon represents the currency symbol for the Indian Rupee. It is commonly used to denote the currency in financial contexts related to India.",
       "category": [
         "Special Characters",
@@ -24180,7 +24972,7 @@ var init_icon_rupee_symbol_svg = __esm({
       ],
       "title": "Rupee Symbol"
     };
-    icon_rupee_symbol_svg_default = meta386;
+    icon_rupee_symbol_svg_default = meta410;
   }
 });
 
@@ -24188,12 +24980,12 @@ var init_icon_rupee_symbol_svg = __esm({
 var icon_symbol_female_svg_exports = {};
 __export(icon_symbol_female_svg_exports, {
   default: () => icon_symbol_female_svg_default,
-  meta: () => meta387
+  meta: () => meta411
 });
-var meta387, icon_symbol_female_svg_default;
+var meta411, icon_symbol_female_svg_default;
 var init_icon_symbol_female_svg = __esm({
   "lib/meta/icon_symbol-female.svg.ts"() {
-    meta387 = {
+    meta411 = {
       "description": "A symbol representing the female gender, commonly used to indicate female restrooms or as a gender symbol.",
       "category": [
         "Symbol"
@@ -24212,7 +25004,7 @@ var init_icon_symbol_female_svg = __esm({
       ],
       "title": "Symbol Female"
     };
-    icon_symbol_female_svg_default = meta387;
+    icon_symbol_female_svg_default = meta411;
   }
 });
 
@@ -24220,12 +25012,12 @@ var init_icon_symbol_female_svg = __esm({
 var icon_symbol_male_svg_exports = {};
 __export(icon_symbol_male_svg_exports, {
   default: () => icon_symbol_male_svg_default,
-  meta: () => meta388
+  meta: () => meta412
 });
-var meta388, icon_symbol_male_svg_default;
+var meta412, icon_symbol_male_svg_default;
 var init_icon_symbol_male_svg = __esm({
   "lib/meta/icon_symbol-male.svg.ts"() {
-    meta388 = {
+    meta412 = {
       "description": "The symbol-male icon represents the male gender or masculinity. It is commonly used to indicate male-specific information or characteristics.",
       "category": [
         "Symbol"
@@ -24244,7 +25036,7 @@ var init_icon_symbol_male_svg = __esm({
       ],
       "title": "Symbol Male"
     };
-    icon_symbol_male_svg_default = meta388;
+    icon_symbol_male_svg_default = meta412;
   }
 });
 
@@ -24252,12 +25044,12 @@ var init_icon_symbol_male_svg = __esm({
 var icon_symbol_unisex_svg_exports = {};
 __export(icon_symbol_unisex_svg_exports, {
   default: () => icon_symbol_unisex_svg_default,
-  meta: () => meta389
+  meta: () => meta413
 });
-var meta389, icon_symbol_unisex_svg_default;
+var meta413, icon_symbol_unisex_svg_default;
 var init_icon_symbol_unisex_svg = __esm({
   "lib/meta/icon_symbol-unisex.svg.ts"() {
-    meta389 = {
+    meta413 = {
       "description": "A gender-neutral symbol representing both male and female genders. Can be used to indicate unisex facilities or products that are suitable for all genders.",
       "category": [
         "Symbol"
@@ -24275,7 +25067,7 @@ var init_icon_symbol_unisex_svg = __esm({
       ],
       "title": "Symbol Unisex"
     };
-    icon_symbol_unisex_svg_default = meta389;
+    icon_symbol_unisex_svg_default = meta413;
   }
 });
 
@@ -24283,12 +25075,12 @@ var init_icon_symbol_unisex_svg = __esm({
 var icon_three_dots_diagonal_major_svg_exports = {};
 __export(icon_three_dots_diagonal_major_svg_exports, {
   default: () => icon_three_dots_diagonal_major_svg_default,
-  meta: () => meta390
+  meta: () => meta414
 });
-var meta390, icon_three_dots_diagonal_major_svg_default;
+var meta414, icon_three_dots_diagonal_major_svg_default;
 var init_icon_three_dots_diagonal_major_svg = __esm({
   "lib/meta/icon_three-dots-diagonal-major.svg.ts"() {
-    meta390 = {
+    meta414 = {
       "description": "The three dots diagonal major icon consists of three dots positioned diagonally from bottom-left to top-right. This icon is commonly used in user interfaces to indicate additional options or actions that can be accessed.",
       "category": [
         "Interface"
@@ -24307,7 +25099,7 @@ var init_icon_three_dots_diagonal_major_svg = __esm({
       ],
       "title": "Three Dots Diagonal Major"
     };
-    icon_three_dots_diagonal_major_svg_default = meta390;
+    icon_three_dots_diagonal_major_svg_default = meta414;
   }
 });
 
@@ -24315,12 +25107,12 @@ var init_icon_three_dots_diagonal_major_svg = __esm({
 var icon_three_dots_diagonal_minor_svg_exports = {};
 __export(icon_three_dots_diagonal_minor_svg_exports, {
   default: () => icon_three_dots_diagonal_minor_svg_default,
-  meta: () => meta391
+  meta: () => meta415
 });
-var meta391, icon_three_dots_diagonal_minor_svg_default;
+var meta415, icon_three_dots_diagonal_minor_svg_default;
 var init_icon_three_dots_diagonal_minor_svg = __esm({
   "lib/meta/icon_three-dots-diagonal-minor.svg.ts"() {
-    meta391 = {
+    meta415 = {
       "description": "An icon of three diagonal dots placed in a minor position. This icon is commonly used in user interfaces to indicate the presence of additional options or actions.",
       "category": [
         "Interface"
@@ -24339,7 +25131,7 @@ var init_icon_three_dots_diagonal_minor_svg = __esm({
       ],
       "title": "Three Dots Diagonal Minor"
     };
-    icon_three_dots_diagonal_minor_svg_default = meta391;
+    icon_three_dots_diagonal_minor_svg_default = meta415;
   }
 });
 
@@ -24347,12 +25139,12 @@ var init_icon_three_dots_diagonal_minor_svg = __esm({
 var icon_three_dots_horizontal_svg_exports = {};
 __export(icon_three_dots_horizontal_svg_exports, {
   default: () => icon_three_dots_horizontal_svg_default,
-  meta: () => meta392
+  meta: () => meta416
 });
-var meta392, icon_three_dots_horizontal_svg_default;
+var meta416, icon_three_dots_horizontal_svg_default;
 var init_icon_three_dots_horizontal_svg = __esm({
   "lib/meta/icon_three-dots-horizontal.svg.ts"() {
-    meta392 = {
+    meta416 = {
       "description": "The icon depicts three dots arranged horizontally in a line. It is commonly used to represent a menu or more options available in a user interface.",
       "category": [
         "Interface"
@@ -24366,7 +25158,7 @@ var init_icon_three_dots_horizontal_svg = __esm({
       ],
       "title": "Three Dots Horizontal"
     };
-    icon_three_dots_horizontal_svg_default = meta392;
+    icon_three_dots_horizontal_svg_default = meta416;
   }
 });
 
@@ -24374,12 +25166,12 @@ var init_icon_three_dots_horizontal_svg = __esm({
 var icon_three_dots_lines_svg_exports = {};
 __export(icon_three_dots_lines_svg_exports, {
   default: () => icon_three_dots_lines_svg_default,
-  meta: () => meta393
+  meta: () => meta417
 });
-var meta393, icon_three_dots_lines_svg_default;
+var meta417, icon_three_dots_lines_svg_default;
 var init_icon_three_dots_lines_svg = __esm({
   "lib/meta/icon_three-dots-lines.svg.ts"() {
-    meta393 = {
+    meta417 = {
       "description": "The icon consists of three horizontally aligned dots, representing a menu or options list. It is often used as a symbol for displaying additional actions or choices.",
       "category": [
         "Interface",
@@ -24399,7 +25191,7 @@ var init_icon_three_dots_lines_svg = __esm({
       ],
       "title": "Three Dots Lines"
     };
-    icon_three_dots_lines_svg_default = meta393;
+    icon_three_dots_lines_svg_default = meta417;
   }
 });
 
@@ -24407,12 +25199,12 @@ var init_icon_three_dots_lines_svg = __esm({
 var icon_three_dots_vertical_svg_exports = {};
 __export(icon_three_dots_vertical_svg_exports, {
   default: () => icon_three_dots_vertical_svg_default,
-  meta: () => meta394
+  meta: () => meta418
 });
-var meta394, icon_three_dots_vertical_svg_default;
+var meta418, icon_three_dots_vertical_svg_default;
 var init_icon_three_dots_vertical_svg = __esm({
   "lib/meta/icon_three-dots-vertical.svg.ts"() {
-    meta394 = {
+    meta418 = {
       "description": "The three dots icon, also known as the vertical ellipsis or kebab menu, typically represents a menu or more options when clicked on. It is commonly used in user interfaces to indicate additional actions or items that are not immediately visible.",
       "category": [
         "Interface"
@@ -24431,7 +25223,7 @@ var init_icon_three_dots_vertical_svg = __esm({
       ],
       "title": "Vertical Three Dots Icon"
     };
-    icon_three_dots_vertical_svg_default = meta394;
+    icon_three_dots_vertical_svg_default = meta418;
   }
 });
 
@@ -24439,12 +25231,12 @@ var init_icon_three_dots_vertical_svg = __esm({
 var icon_two_dots_diagonal_major_svg_exports = {};
 __export(icon_two_dots_diagonal_major_svg_exports, {
   default: () => icon_two_dots_diagonal_major_svg_default,
-  meta: () => meta395
+  meta: () => meta419
 });
-var meta395, icon_two_dots_diagonal_major_svg_default;
+var meta419, icon_two_dots_diagonal_major_svg_default;
 var init_icon_two_dots_diagonal_major_svg = __esm({
   "lib/meta/icon_two-dots-diagonal-major.svg.ts"() {
-    meta395 = {
+    meta419 = {
       "description": "Two dots arranged diagonally from the top left to the bottom right. This icon can be used to indicate a major link or connection between two points.",
       "category": [
         "Shapes",
@@ -24464,7 +25256,7 @@ var init_icon_two_dots_diagonal_major_svg = __esm({
       ],
       "title": "Two Dots Diagonal Major"
     };
-    icon_two_dots_diagonal_major_svg_default = meta395;
+    icon_two_dots_diagonal_major_svg_default = meta419;
   }
 });
 
@@ -24472,12 +25264,12 @@ var init_icon_two_dots_diagonal_major_svg = __esm({
 var icon_two_dots_diagonal_minor_svg_exports = {};
 __export(icon_two_dots_diagonal_minor_svg_exports, {
   default: () => icon_two_dots_diagonal_minor_svg_default,
-  meta: () => meta396
+  meta: () => meta420
 });
-var meta396, icon_two_dots_diagonal_minor_svg_default;
+var meta420, icon_two_dots_diagonal_minor_svg_default;
 var init_icon_two_dots_diagonal_minor_svg = __esm({
   "lib/meta/icon_two-dots-diagonal-minor.svg.ts"() {
-    meta396 = {
+    meta420 = {
       "description": "The icon two-dots-diagonal-minor features two small dots positioned diagonally to each other in a minor orientation. This icon can be used to indicate a connection or intersection point between two elements.",
       "category": [
         "Interface",
@@ -24496,7 +25288,7 @@ var init_icon_two_dots_diagonal_minor_svg = __esm({
       ],
       "title": "Two Dots Diagonal Minor"
     };
-    icon_two_dots_diagonal_minor_svg_default = meta396;
+    icon_two_dots_diagonal_minor_svg_default = meta420;
   }
 });
 
@@ -24504,12 +25296,12 @@ var init_icon_two_dots_diagonal_minor_svg = __esm({
 var icon_two_dots_horizontal_svg_exports = {};
 __export(icon_two_dots_horizontal_svg_exports, {
   default: () => icon_two_dots_horizontal_svg_default,
-  meta: () => meta397
+  meta: () => meta421
 });
-var meta397, icon_two_dots_horizontal_svg_default;
+var meta421, icon_two_dots_horizontal_svg_default;
 var init_icon_two_dots_horizontal_svg = __esm({
   "lib/meta/icon_two-dots-horizontal.svg.ts"() {
-    meta397 = {
+    meta421 = {
       "description": "The icon 'two-dots-horizontal' represents two dots aligned horizontally. This icon is commonly used to indicate a pause, break, or separation in content.",
       "category": [
         "Symbol",
@@ -24529,7 +25321,7 @@ var init_icon_two_dots_horizontal_svg = __esm({
       ],
       "title": "Two Dots Horizontal"
     };
-    icon_two_dots_horizontal_svg_default = meta397;
+    icon_two_dots_horizontal_svg_default = meta421;
   }
 });
 
@@ -24537,12 +25329,12 @@ var init_icon_two_dots_horizontal_svg = __esm({
 var icon_two_dots_lines_svg_exports = {};
 __export(icon_two_dots_lines_svg_exports, {
   default: () => icon_two_dots_lines_svg_default,
-  meta: () => meta398
+  meta: () => meta422
 });
-var meta398, icon_two_dots_lines_svg_default;
+var meta422, icon_two_dots_lines_svg_default;
 var init_icon_two_dots_lines_svg = __esm({
   "lib/meta/icon_two-dots-lines.svg.ts"() {
-    meta398 = {
+    meta422 = {
       "description": "The icon 'two-dots-lines' consists of two dots connected by lines, creating a unique design element. This icon can be used for various purposes in design projects to add a modern and stylish touch.",
       "category": [
         "Symbol"
@@ -24559,7 +25351,7 @@ var init_icon_two_dots_lines_svg = __esm({
       ],
       "title": "Two Dots Lines"
     };
-    icon_two_dots_lines_svg_default = meta398;
+    icon_two_dots_lines_svg_default = meta422;
   }
 });
 
@@ -24567,12 +25359,12 @@ var init_icon_two_dots_lines_svg = __esm({
 var icon_two_dots_vertical_svg_exports = {};
 __export(icon_two_dots_vertical_svg_exports, {
   default: () => icon_two_dots_vertical_svg_default,
-  meta: () => meta399
+  meta: () => meta423
 });
-var meta399, icon_two_dots_vertical_svg_default;
+var meta423, icon_two_dots_vertical_svg_default;
 var init_icon_two_dots_vertical_svg = __esm({
   "lib/meta/icon_two-dots-vertical.svg.ts"() {
-    meta399 = {
+    meta423 = {
       "description": "The icon depicts two vertical dots stacked on top of each other. This icon is commonly used to indicate a pause, break, or separation in content.",
       "category": [
         "Interface"
@@ -24588,7 +25380,7 @@ var init_icon_two_dots_vertical_svg = __esm({
       ],
       "title": "Two Dots Vertical"
     };
-    icon_two_dots_vertical_svg_default = meta399;
+    icon_two_dots_vertical_svg_default = meta423;
   }
 });
 
@@ -24596,12 +25388,12 @@ var init_icon_two_dots_vertical_svg = __esm({
 var icon_yen_svg_exports = {};
 __export(icon_yen_svg_exports, {
   default: () => icon_yen_svg_default,
-  meta: () => meta400
+  meta: () => meta424
 });
-var meta400, icon_yen_svg_default;
+var meta424, icon_yen_svg_default;
 var init_icon_yen_svg = __esm({
   "lib/meta/icon_yen.svg.ts"() {
-    meta400 = {
+    meta424 = {
       "description": "The yen symbol is a currency sign used to represent the Japanese yen. It consists of a capital letter Y with two horizontal lines through it. This symbol is commonly used in financial contexts and when discussing the Japanese economy.",
       "category": [
         "Symbol"
@@ -24620,7 +25412,7 @@ var init_icon_yen_svg = __esm({
       ],
       "title": "Yen"
     };
-    icon_yen_svg_default = meta400;
+    icon_yen_svg_default = meta424;
   }
 });
 
@@ -24628,18 +25420,18 @@ var init_icon_yen_svg = __esm({
 var icon_ball_basketball_svg_exports = {};
 __export(icon_ball_basketball_svg_exports, {
   default: () => icon_ball_basketball_svg_default,
-  meta: () => meta401
+  meta: () => meta425
 });
-var meta401, icon_ball_basketball_svg_default;
+var meta425, icon_ball_basketball_svg_default;
 var init_icon_ball_basketball_svg = __esm({
   "lib/meta/icon_ball-basketball.svg.ts"() {
-    meta401 = {
+    meta425 = {
       description: "An icon of a basketball going into a basket, representing the sport of basketball. This icon is perfect for sports-related designs and projects.",
       category: ["Sports"],
       tag: ["basketball", "ball", "sport", "game", "hoop", "dribble", "team", "competition", "athlete", "score"],
       title: "Ball Basketball"
     };
-    icon_ball_basketball_svg_default = meta401;
+    icon_ball_basketball_svg_default = meta425;
   }
 });
 
@@ -24647,18 +25439,18 @@ var init_icon_ball_basketball_svg = __esm({
 var icon_ball_football_svg_exports = {};
 __export(icon_ball_football_svg_exports, {
   default: () => icon_ball_football_svg_default,
-  meta: () => meta402
+  meta: () => meta426
 });
-var meta402, icon_ball_football_svg_default;
+var meta426, icon_ball_football_svg_default;
 var init_icon_ball_football_svg = __esm({
   "lib/meta/icon_ball-football.svg.ts"() {
-    meta402 = {
+    meta426 = {
       description: "A symbol of a football used in the game of football (soccer). It represents the sports category and is commonly used to depict football-related content.",
       category: ["Sports"],
       tag: ["ball", "football", "soccer", "sports", "game", "sporting equipment", "competition", "team sport", "athletics", "goal"],
       title: "Football Ball"
     };
-    icon_ball_football_svg_default = meta402;
+    icon_ball_football_svg_default = meta426;
   }
 });
 
@@ -24666,18 +25458,18 @@ var init_icon_ball_football_svg = __esm({
 var icon_ball_rugby_svg_exports = {};
 __export(icon_ball_rugby_svg_exports, {
   default: () => icon_ball_rugby_svg_default,
-  meta: () => meta403
+  meta: () => meta427
 });
-var meta403, icon_ball_rugby_svg_default;
+var meta427, icon_ball_rugby_svg_default;
 var init_icon_ball_rugby_svg = __esm({
   "lib/meta/icon_ball-rugby.svg.ts"() {
-    meta403 = {
+    meta427 = {
       description: "This icon depicts a rugby ball, which is used in the sport of rugby. The rugby ball is typically oval in shape and made of leather or synthetic materials.",
       category: ["Sports"],
       tag: ["rugby", "ball", "rugby ball", "sports equipment", "oval", "leather", "synthetic", "team sport", "field sport", "contact sport"],
       title: "Ball Rugby"
     };
-    icon_ball_rugby_svg_default = meta403;
+    icon_ball_rugby_svg_default = meta427;
   }
 });
 
@@ -24685,18 +25477,18 @@ var init_icon_ball_rugby_svg = __esm({
 var icon_ball_tennis_svg_exports = {};
 __export(icon_ball_tennis_svg_exports, {
   default: () => icon_ball_tennis_svg_default,
-  meta: () => meta404
+  meta: () => meta428
 });
-var meta404, icon_ball_tennis_svg_default;
+var meta428, icon_ball_tennis_svg_default;
 var init_icon_ball_tennis_svg = __esm({
   "lib/meta/icon_ball-tennis.svg.ts"() {
-    meta404 = {
+    meta428 = {
       description: "An icon of a tennis ball, used in the context of tennis sports. It typically symbolizes sportsmanship, competition, and athleticism.",
       category: ["Sports"],
       tag: ["ball", "tennis", "sports", "competition", "athleticism", "equipment", "game", "sportsmanship", "racket"],
       title: "Tennis Ball Icon"
     };
-    icon_ball_tennis_svg_default = meta404;
+    icon_ball_tennis_svg_default = meta428;
   }
 });
 
@@ -24704,12 +25496,12 @@ var init_icon_ball_tennis_svg = __esm({
 var icon_accessibility_person_circled_svg_exports = {};
 __export(icon_accessibility_person_circled_svg_exports, {
   default: () => icon_accessibility_person_circled_svg_default,
-  meta: () => meta405
+  meta: () => meta429
 });
-var meta405, icon_accessibility_person_circled_svg_default;
+var meta429, icon_accessibility_person_circled_svg_default;
 var init_icon_accessibility_person_circled_svg = __esm({
   "lib/meta/icon_accessibility-person-circled.svg.ts"() {
-    meta405 = {
+    meta429 = {
       "description": "This icon features a person symbol with a circle around it, representing accessibility for individuals. It is commonly used to indicate features or services that are easily accessible for all users.",
       "category": [
         "Interface",
@@ -24729,7 +25521,7 @@ var init_icon_accessibility_person_circled_svg = __esm({
       ],
       "title": "Accessibility Person Circled"
     };
-    icon_accessibility_person_circled_svg_default = meta405;
+    icon_accessibility_person_circled_svg_default = meta429;
   }
 });
 
@@ -24737,12 +25529,12 @@ var init_icon_accessibility_person_circled_svg = __esm({
 var icon_accessibility_person_svg_exports = {};
 __export(icon_accessibility_person_svg_exports, {
   default: () => icon_accessibility_person_svg_default,
-  meta: () => meta406
+  meta: () => meta430
 });
-var meta406, icon_accessibility_person_svg_default;
+var meta430, icon_accessibility_person_svg_default;
 var init_icon_accessibility_person_svg = __esm({
   "lib/meta/icon_accessibility-person.svg.ts"() {
-    meta406 = {
+    meta430 = {
       "description": "A simplistic icon representing a person, emphasizing inclusivity and accessibility. This icon is commonly used to indicate features or resources that are tailored for individuals with disabilities.",
       "category": [
         "Interface",
@@ -24762,7 +25554,7 @@ var init_icon_accessibility_person_svg = __esm({
       ],
       "title": "Accessibility Person"
     };
-    icon_accessibility_person_svg_default = meta406;
+    icon_accessibility_person_svg_default = meta430;
   }
 });
 
@@ -24770,12 +25562,12 @@ var init_icon_accessibility_person_svg = __esm({
 var icon_add_fat_svg_exports = {};
 __export(icon_add_fat_svg_exports, {
   default: () => icon_add_fat_svg_default,
-  meta: () => meta407
+  meta: () => meta431
 });
-var meta407, icon_add_fat_svg_default;
+var meta431, icon_add_fat_svg_default;
 var init_icon_add_fat_svg = __esm({
   "lib/meta/icon_add-fat.svg.ts"() {
-    meta407 = {
+    meta431 = {
       "description": "The add-fat icon is a bold and simple representation of an addition or inclusion action. It is designed to be easily recognizable and suitable for user interface designs.",
       "category": [
         "Interface"
@@ -24794,7 +25586,7 @@ var init_icon_add_fat_svg = __esm({
       ],
       "title": "Add Fat"
     };
-    icon_add_fat_svg_default = meta407;
+    icon_add_fat_svg_default = meta431;
   }
 });
 
@@ -24802,12 +25594,12 @@ var init_icon_add_fat_svg = __esm({
 var icon_add_l_svg_exports = {};
 __export(icon_add_l_svg_exports, {
   default: () => icon_add_l_svg_default,
-  meta: () => meta408
+  meta: () => meta432
 });
-var meta408, icon_add_l_svg_default;
+var meta432, icon_add_l_svg_default;
 var init_icon_add_l_svg = __esm({
   "lib/meta/icon_add-l.svg.ts"() {
-    meta408 = {
+    meta432 = {
       "description": "The add-l icon is used to represent an 'add' action in user interfaces. It typically signifies the option to include or create something new. This icon is commonly utilized in applications and websites for tasks related to appending data or items.",
       "category": [
         "Interface"
@@ -24826,7 +25618,7 @@ var init_icon_add_l_svg = __esm({
       ],
       "title": "Add - L"
     };
-    icon_add_l_svg_default = meta408;
+    icon_add_l_svg_default = meta432;
   }
 });
 
@@ -24834,12 +25626,12 @@ var init_icon_add_l_svg = __esm({
 var icon_add_lines_svg_exports = {};
 __export(icon_add_lines_svg_exports, {
   default: () => icon_add_lines_svg_default,
-  meta: () => meta409
+  meta: () => meta433
 });
-var meta409, icon_add_lines_svg_default;
+var meta433, icon_add_lines_svg_default;
 var init_icon_add_lines_svg = __esm({
   "lib/meta/icon_add-lines.svg.ts"() {
-    meta409 = {
+    meta433 = {
       "description": "The add-lines icon in the UI category represents a simple design with multiple horizontal and vertical lines intersecting each other. This icon is commonly used to indicate the concept of adding or creating new content or elements.",
       "category": [
         "Interface"
@@ -24857,7 +25649,7 @@ var init_icon_add_lines_svg = __esm({
       ],
       "title": "Add Lines"
     };
-    icon_add_lines_svg_default = meta409;
+    icon_add_lines_svg_default = meta433;
   }
 });
 
@@ -24865,12 +25657,12 @@ var init_icon_add_lines_svg = __esm({
 var icon_add_m_svg_exports = {};
 __export(icon_add_m_svg_exports, {
   default: () => icon_add_m_svg_default,
-  meta: () => meta410
+  meta: () => meta434
 });
-var meta410, icon_add_m_svg_default;
+var meta434, icon_add_m_svg_default;
 var init_icon_add_m_svg = __esm({
   "lib/meta/icon_add-m.svg.ts"() {
-    meta410 = {
+    meta434 = {
       "description": "The 'add-m' icon is a graphical representation of a plus sign inside a circle, indicating the action of adding or creating something. This icon is commonly used in user interfaces to signify an option for adding new elements.",
       "category": [
         "Interface"
@@ -24889,7 +25681,7 @@ var init_icon_add_m_svg = __esm({
       ],
       "title": "Add M"
     };
-    icon_add_m_svg_default = meta410;
+    icon_add_m_svg_default = meta434;
   }
 });
 
@@ -24897,12 +25689,12 @@ var init_icon_add_m_svg = __esm({
 var icon_add_s_svg_exports = {};
 __export(icon_add_s_svg_exports, {
   default: () => icon_add_s_svg_default,
-  meta: () => meta411
+  meta: () => meta435
 });
-var meta411, icon_add_s_svg_default;
+var meta435, icon_add_s_svg_default;
 var init_icon_add_s_svg = __esm({
   "lib/meta/icon_add-s.svg.ts"() {
-    meta411 = {
+    meta435 = {
       "description": "The 'add-s' icon is a user interface (UI) design depicting a plus sign within a square, indicating an action to add or create something. It is commonly used in applications and websites.",
       "category": [
         "Interface"
@@ -24920,7 +25712,7 @@ var init_icon_add_s_svg = __esm({
       ],
       "title": "Add Square"
     };
-    icon_add_s_svg_default = meta411;
+    icon_add_s_svg_default = meta435;
   }
 });
 
@@ -24928,12 +25720,12 @@ var init_icon_add_s_svg = __esm({
 var icon_at_sign_svg_exports = {};
 __export(icon_at_sign_svg_exports, {
   default: () => icon_at_sign_svg_default,
-  meta: () => meta412
+  meta: () => meta436
 });
-var meta412, icon_at_sign_svg_default;
+var meta436, icon_at_sign_svg_default;
 var init_icon_at_sign_svg = __esm({
   "lib/meta/icon_at-sign.svg.ts"() {
-    meta412 = {
+    meta436 = {
       "description": "An icon representing an at sign symbol often used to denote email addresses or social media handles.",
       "category": [
         "Interface",
@@ -24953,7 +25745,7 @@ var init_icon_at_sign_svg = __esm({
       ],
       "title": "At Sign"
     };
-    icon_at_sign_svg_default = meta412;
+    icon_at_sign_svg_default = meta436;
   }
 });
 
@@ -24961,12 +25753,12 @@ var init_icon_at_sign_svg = __esm({
 var icon_block_partials_svg_exports = {};
 __export(icon_block_partials_svg_exports, {
   default: () => icon_block_partials_svg_default,
-  meta: () => meta413
+  meta: () => meta437
 });
-var meta413, icon_block_partials_svg_default;
+var meta437, icon_block_partials_svg_default;
 var init_icon_block_partials_svg = __esm({
   "lib/meta/icon_block-partials.svg.ts"() {
-    meta413 = {
+    meta437 = {
       "description": "An icon representing block partials, typically used in user interfaces to show partial sections or elements of a design that can be grouped together.",
       "category": [
         "Interface"
@@ -24985,7 +25777,7 @@ var init_icon_block_partials_svg = __esm({
       ],
       "title": "Block Partials"
     };
-    icon_block_partials_svg_default = meta413;
+    icon_block_partials_svg_default = meta437;
   }
 });
 
@@ -24993,12 +25785,12 @@ var init_icon_block_partials_svg = __esm({
 var icon_board_add_2_svg_exports = {};
 __export(icon_board_add_2_svg_exports, {
   default: () => icon_board_add_2_svg_default,
-  meta: () => meta414
+  meta: () => meta438
 });
-var meta414, icon_board_add_2_svg_default;
+var meta438, icon_board_add_2_svg_default;
 var init_icon_board_add_2_svg = __esm({
   "lib/meta/icon_board-add-2.svg.ts"() {
-    meta414 = {
+    meta438 = {
       "description": "An icon representing adding a new board or section. It features a plus sign on a board or card.",
       "category": [
         "Interface"
@@ -25016,7 +25808,7 @@ var init_icon_board_add_2_svg = __esm({
       ],
       "title": "Board Add 2"
     };
-    icon_board_add_2_svg_default = meta414;
+    icon_board_add_2_svg_default = meta438;
   }
 });
 
@@ -25024,12 +25816,12 @@ var init_icon_board_add_2_svg = __esm({
 var icon_board_multi_2_horizontal_svg_exports = {};
 __export(icon_board_multi_2_horizontal_svg_exports, {
   default: () => icon_board_multi_2_horizontal_svg_default,
-  meta: () => meta415
+  meta: () => meta439
 });
-var meta415, icon_board_multi_2_horizontal_svg_default;
+var meta439, icon_board_multi_2_horizontal_svg_default;
 var init_icon_board_multi_2_horizontal_svg = __esm({
   "lib/meta/icon_board-multi-2-horizontal.svg.ts"() {
-    meta415 = {
+    meta439 = {
       "description": "A horizontal arrangement of two multi-column boards, typically used in user interfaces for displaying information or organizing content.",
       "category": [
         "Interface"
@@ -25047,7 +25839,7 @@ var init_icon_board_multi_2_horizontal_svg = __esm({
       ],
       "title": "Board Multi 2 Horizontal"
     };
-    icon_board_multi_2_horizontal_svg_default = meta415;
+    icon_board_multi_2_horizontal_svg_default = meta439;
   }
 });
 
@@ -25055,12 +25847,12 @@ var init_icon_board_multi_2_horizontal_svg = __esm({
 var icon_board_multi_2_vertical_svg_exports = {};
 __export(icon_board_multi_2_vertical_svg_exports, {
   default: () => icon_board_multi_2_vertical_svg_default,
-  meta: () => meta416
+  meta: () => meta440
 });
-var meta416, icon_board_multi_2_vertical_svg_default;
+var meta440, icon_board_multi_2_vertical_svg_default;
 var init_icon_board_multi_2_vertical_svg = __esm({
   "lib/meta/icon_board-multi-2-vertical.svg.ts"() {
-    meta416 = {
+    meta440 = {
       "description": "The icon 'Board Multi 2 Vertical' represents a user interface element used to display multiple boards or sections vertically. It is commonly used in applications or websites to organize and present information in a structured manner.",
       "category": [
         "Interface"
@@ -25078,7 +25870,7 @@ var init_icon_board_multi_2_vertical_svg = __esm({
       ],
       "title": "Board Multi 2 Vertical"
     };
-    icon_board_multi_2_vertical_svg_default = meta416;
+    icon_board_multi_2_vertical_svg_default = meta440;
   }
 });
 
@@ -25086,12 +25878,12 @@ var init_icon_board_multi_2_vertical_svg = __esm({
 var icon_board_multi_dashboard_svg_exports = {};
 __export(icon_board_multi_dashboard_svg_exports, {
   default: () => icon_board_multi_dashboard_svg_default,
-  meta: () => meta417
+  meta: () => meta441
 });
-var meta417, icon_board_multi_dashboard_svg_default;
+var meta441, icon_board_multi_dashboard_svg_default;
 var init_icon_board_multi_dashboard_svg = __esm({
   "lib/meta/icon_board-multi-dashboard.svg.ts"() {
-    meta417 = {
+    meta441 = {
       "description": "A versatile icon representing a dashboard with multiple boards or sections, suitable for UI design projects.",
       "category": [
         "Interface"
@@ -25109,7 +25901,7 @@ var init_icon_board_multi_dashboard_svg = __esm({
       ],
       "title": "Board Multi Dashboard"
     };
-    icon_board_multi_dashboard_svg_default = meta417;
+    icon_board_multi_dashboard_svg_default = meta441;
   }
 });
 
@@ -25117,12 +25909,12 @@ var init_icon_board_multi_dashboard_svg = __esm({
 var icon_board_multi_t_down_svg_exports = {};
 __export(icon_board_multi_t_down_svg_exports, {
   default: () => icon_board_multi_t_down_svg_default,
-  meta: () => meta418
+  meta: () => meta442
 });
-var meta418, icon_board_multi_t_down_svg_default;
+var meta442, icon_board_multi_t_down_svg_default;
 var init_icon_board_multi_t_down_svg = __esm({
   "lib/meta/icon_board-multi-t-down.svg.ts"() {
-    meta418 = {
+    meta442 = {
       "description": "An icon depicting a multi-directional board with multiple arrows pointing downwards, indicating a dropdown or expandable menu feature.",
       "category": [
         "Interface"
@@ -25140,7 +25932,7 @@ var init_icon_board_multi_t_down_svg = __esm({
       ],
       "title": "Board Multi T Down"
     };
-    icon_board_multi_t_down_svg_default = meta418;
+    icon_board_multi_t_down_svg_default = meta442;
   }
 });
 
@@ -25148,12 +25940,12 @@ var init_icon_board_multi_t_down_svg = __esm({
 var icon_board_multi_t_left_svg_exports = {};
 __export(icon_board_multi_t_left_svg_exports, {
   default: () => icon_board_multi_t_left_svg_default,
-  meta: () => meta419
+  meta: () => meta443
 });
-var meta419, icon_board_multi_t_left_svg_default;
+var meta443, icon_board_multi_t_left_svg_default;
 var init_icon_board_multi_t_left_svg = __esm({
   "lib/meta/icon_board-multi-t-left.svg.ts"() {
-    meta419 = {
+    meta443 = {
       "description": "The board-multi-t-left icon features a series of connected rectangles, forming a horizontal bar. The rectangular shape is split into multiple smaller sections, with the majority located on the left side. This icon is commonly used to represent a multi-column layout or section within a user interface.",
       "category": [
         "Interface"
@@ -25171,7 +25963,7 @@ var init_icon_board_multi_t_left_svg = __esm({
       ],
       "title": "Board Multi T Left"
     };
-    icon_board_multi_t_left_svg_default = meta419;
+    icon_board_multi_t_left_svg_default = meta443;
   }
 });
 
@@ -25179,12 +25971,12 @@ var init_icon_board_multi_t_left_svg = __esm({
 var icon_board_multi_t_right_svg_exports = {};
 __export(icon_board_multi_t_right_svg_exports, {
   default: () => icon_board_multi_t_right_svg_default,
-  meta: () => meta420
+  meta: () => meta444
 });
-var meta420, icon_board_multi_t_right_svg_default;
+var meta444, icon_board_multi_t_right_svg_default;
 var init_icon_board_multi_t_right_svg = __esm({
   "lib/meta/icon_board-multi-t-right.svg.ts"() {
-    meta420 = {
+    meta444 = {
       "description": "The board-multi-t-right icon is a user interface icon depicting a board with multiple tiles arranged in a rightward direction. It can be used to represent a dashboard with multiple sections or panels that are aligned horizontally to the right.",
       "category": [
         "Interface"
@@ -25203,7 +25995,7 @@ var init_icon_board_multi_t_right_svg = __esm({
       ],
       "title": "Board Multi Tiles Right"
     };
-    icon_board_multi_t_right_svg_default = meta420;
+    icon_board_multi_t_right_svg_default = meta444;
   }
 });
 
@@ -25211,12 +26003,12 @@ var init_icon_board_multi_t_right_svg = __esm({
 var icon_board_multi_t_up_svg_exports = {};
 __export(icon_board_multi_t_up_svg_exports, {
   default: () => icon_board_multi_t_up_svg_default,
-  meta: () => meta421
+  meta: () => meta445
 });
-var meta421, icon_board_multi_t_up_svg_default;
+var meta445, icon_board_multi_t_up_svg_default;
 var init_icon_board_multi_t_up_svg = __esm({
   "lib/meta/icon_board-multi-t-up.svg.ts"() {
-    meta421 = {
+    meta445 = {
       "description": "The board-multi-t-up icon represents multiple boards arranged in a T shape. It is commonly used in user interface design to indicate a multi-tab layout.",
       "category": [
         "Interface"
@@ -25234,7 +26026,7 @@ var init_icon_board_multi_t_up_svg = __esm({
       ],
       "title": "Board Multi T Up"
     };
-    icon_board_multi_t_up_svg_default = meta421;
+    icon_board_multi_t_up_svg_default = meta445;
   }
 });
 
@@ -25242,12 +26034,12 @@ var init_icon_board_multi_t_up_svg = __esm({
 var icon_board_multi_svg_exports = {};
 __export(icon_board_multi_svg_exports, {
   default: () => icon_board_multi_svg_default,
-  meta: () => meta422
+  meta: () => meta446
 });
-var meta422, icon_board_multi_svg_default;
+var meta446, icon_board_multi_svg_default;
 var init_icon_board_multi_svg = __esm({
   "lib/meta/icon_board-multi.svg.ts"() {
-    meta422 = {
+    meta446 = {
       "description": "The board-multi icon is a representation of multiple boards or panels positioned together. It can be used to symbolize organization, collaboration, or a collection of information.",
       "category": [
         "Interface"
@@ -25265,7 +26057,7 @@ var init_icon_board_multi_svg = __esm({
       ],
       "title": "Board Multi"
     };
-    icon_board_multi_svg_default = meta422;
+    icon_board_multi_svg_default = meta446;
   }
 });
 
@@ -25273,12 +26065,12 @@ var init_icon_board_multi_svg = __esm({
 var icon_board_multiply_2_svg_exports = {};
 __export(icon_board_multiply_2_svg_exports, {
   default: () => icon_board_multiply_2_svg_default,
-  meta: () => meta423
+  meta: () => meta447
 });
-var meta423, icon_board_multiply_2_svg_default;
+var meta447, icon_board_multiply_2_svg_default;
 var init_icon_board_multiply_2_svg = __esm({
   "lib/meta/icon_board-multiply-2.svg.ts"() {
-    meta423 = {
+    meta447 = {
       "description": "An icon of a board with a multiplication symbol, indicating a mathematical operation. This icon can be used in UI designs for calculators, educational apps, or any platform where multiplication functionality is present.",
       "category": [
         "Interface"
@@ -25297,7 +26089,7 @@ var init_icon_board_multiply_2_svg = __esm({
       ],
       "title": "Board Multiply 2"
     };
-    icon_board_multiply_2_svg_default = meta423;
+    icon_board_multiply_2_svg_default = meta447;
   }
 });
 
@@ -25305,12 +26097,12 @@ var init_icon_board_multiply_2_svg = __esm({
 var icon_board_split_1_3_horizontal_svg_exports = {};
 __export(icon_board_split_1_3_horizontal_svg_exports, {
   default: () => icon_board_split_1_3_horizontal_svg_default,
-  meta: () => meta424
+  meta: () => meta448
 });
-var meta424, icon_board_split_1_3_horizontal_svg_default;
+var meta448, icon_board_split_1_3_horizontal_svg_default;
 var init_icon_board_split_1_3_horizontal_svg = __esm({
   "lib/meta/icon_board-split-1-3-horizontal.svg.ts"() {
-    meta424 = {
+    meta448 = {
       "description": "A horizontal split board divided into 3 equal sections. It is commonly used in user interface design to organize content.",
       "category": [
         "Interface"
@@ -25329,7 +26121,7 @@ var init_icon_board_split_1_3_horizontal_svg = __esm({
       ],
       "title": "Horizontal Split Board 1/3"
     };
-    icon_board_split_1_3_horizontal_svg_default = meta424;
+    icon_board_split_1_3_horizontal_svg_default = meta448;
   }
 });
 
@@ -25337,12 +26129,12 @@ var init_icon_board_split_1_3_horizontal_svg = __esm({
 var icon_board_split_1_3_vertical_svg_exports = {};
 __export(icon_board_split_1_3_vertical_svg_exports, {
   default: () => icon_board_split_1_3_vertical_svg_default,
-  meta: () => meta425
+  meta: () => meta449
 });
-var meta425, icon_board_split_1_3_vertical_svg_default;
+var meta449, icon_board_split_1_3_vertical_svg_default;
 var init_icon_board_split_1_3_vertical_svg = __esm({
   "lib/meta/icon_board-split-1-3-vertical.svg.ts"() {
-    meta425 = {
+    meta449 = {
       "description": "An icon representing a vertical split layout with one larger section on the left and three smaller sections on the right.",
       "category": [
         "Interface"
@@ -25361,7 +26153,7 @@ var init_icon_board_split_1_3_vertical_svg = __esm({
       ],
       "title": "Vertical Split Layout 1:3"
     };
-    icon_board_split_1_3_vertical_svg_default = meta425;
+    icon_board_split_1_3_vertical_svg_default = meta449;
   }
 });
 
@@ -25369,12 +26161,12 @@ var init_icon_board_split_1_3_vertical_svg = __esm({
 var icon_board_split_2_horizontal_svg_exports = {};
 __export(icon_board_split_2_horizontal_svg_exports, {
   default: () => icon_board_split_2_horizontal_svg_default,
-  meta: () => meta426
+  meta: () => meta450
 });
-var meta426, icon_board_split_2_horizontal_svg_default;
+var meta450, icon_board_split_2_horizontal_svg_default;
 var init_icon_board_split_2_horizontal_svg = __esm({
   "lib/meta/icon_board-split-2-horizontal.svg.ts"() {
-    meta426 = {
+    meta450 = {
       "description": "An icon featuring a board split into two horizontal sections. It represents a horizontal division or separation.",
       "category": [
         "Interface"
@@ -25393,7 +26185,7 @@ var init_icon_board_split_2_horizontal_svg = __esm({
       ],
       "title": "Board Split Horizontal"
     };
-    icon_board_split_2_horizontal_svg_default = meta426;
+    icon_board_split_2_horizontal_svg_default = meta450;
   }
 });
 
@@ -25401,12 +26193,12 @@ var init_icon_board_split_2_horizontal_svg = __esm({
 var icon_board_split_2_vertical_svg_exports = {};
 __export(icon_board_split_2_vertical_svg_exports, {
   default: () => icon_board_split_2_vertical_svg_default,
-  meta: () => meta427
+  meta: () => meta451
 });
-var meta427, icon_board_split_2_vertical_svg_default;
+var meta451, icon_board_split_2_vertical_svg_default;
 var init_icon_board_split_2_vertical_svg = __esm({
   "lib/meta/icon_board-split-2-vertical.svg.ts"() {
-    meta427 = {
+    meta451 = {
       "description": "An icon representing a user interface element showing a vertical split into two sections. Can be used to indicate a layout design with two side-by-side panels or sections.",
       "category": [
         "Interface"
@@ -25424,7 +26216,7 @@ var init_icon_board_split_2_vertical_svg = __esm({
       ],
       "title": "Board Split 2 Vertical"
     };
-    icon_board_split_2_vertical_svg_default = meta427;
+    icon_board_split_2_vertical_svg_default = meta451;
   }
 });
 
@@ -25432,12 +26224,12 @@ var init_icon_board_split_2_vertical_svg = __esm({
 var icon_board_split_3_1_horizontal_svg_exports = {};
 __export(icon_board_split_3_1_horizontal_svg_exports, {
   default: () => icon_board_split_3_1_horizontal_svg_default,
-  meta: () => meta428
+  meta: () => meta452
 });
-var meta428, icon_board_split_3_1_horizontal_svg_default;
+var meta452, icon_board_split_3_1_horizontal_svg_default;
 var init_icon_board_split_3_1_horizontal_svg = __esm({
   "lib/meta/icon_board-split-3-1-horizontal.svg.ts"() {
-    meta428 = {
+    meta452 = {
       "description": "An icon featuring a board split into 3 parts horizontally, with one larger section and two smaller sections. This icon is commonly used in user interface design.",
       "category": [
         "Interface"
@@ -25455,7 +26247,7 @@ var init_icon_board_split_3_1_horizontal_svg = __esm({
       ],
       "title": "Horizontal Board Split 3:1"
     };
-    icon_board_split_3_1_horizontal_svg_default = meta428;
+    icon_board_split_3_1_horizontal_svg_default = meta452;
   }
 });
 
@@ -25463,12 +26255,12 @@ var init_icon_board_split_3_1_horizontal_svg = __esm({
 var icon_board_split_3_1_vertical_svg_exports = {};
 __export(icon_board_split_3_1_vertical_svg_exports, {
   default: () => icon_board_split_3_1_vertical_svg_default,
-  meta: () => meta429
+  meta: () => meta453
 });
-var meta429, icon_board_split_3_1_vertical_svg_default;
+var meta453, icon_board_split_3_1_vertical_svg_default;
 var init_icon_board_split_3_1_vertical_svg = __esm({
   "lib/meta/icon_board-split-3-1-vertical.svg.ts"() {
-    meta429 = {
+    meta453 = {
       "description": "An icon representing a user interface component with a layout split into three sections, where one section is larger than the other two. The layout is arranged vertically.",
       "category": [
         "Interface"
@@ -25487,7 +26279,7 @@ var init_icon_board_split_3_1_vertical_svg = __esm({
       ],
       "title": "Vertical Split Three Sections UI Layout"
     };
-    icon_board_split_3_1_vertical_svg_default = meta429;
+    icon_board_split_3_1_vertical_svg_default = meta453;
   }
 });
 
@@ -25495,12 +26287,12 @@ var init_icon_board_split_3_1_vertical_svg = __esm({
 var icon_board_split_3_horizontal_svg_exports = {};
 __export(icon_board_split_3_horizontal_svg_exports, {
   default: () => icon_board_split_3_horizontal_svg_default,
-  meta: () => meta430
+  meta: () => meta454
 });
-var meta430, icon_board_split_3_horizontal_svg_default;
+var meta454, icon_board_split_3_horizontal_svg_default;
 var init_icon_board_split_3_horizontal_svg = __esm({
   "lib/meta/icon_board-split-3-horizontal.svg.ts"() {
-    meta430 = {
+    meta454 = {
       "description": "A horizontal board split into three equal sections. This icon is commonly used in user interface designs to represent a segmented layout or display.",
       "category": [
         "Interface"
@@ -25518,7 +26310,7 @@ var init_icon_board_split_3_horizontal_svg = __esm({
       ],
       "title": "Board Split 3 Horizontal"
     };
-    icon_board_split_3_horizontal_svg_default = meta430;
+    icon_board_split_3_horizontal_svg_default = meta454;
   }
 });
 
@@ -25526,12 +26318,12 @@ var init_icon_board_split_3_horizontal_svg = __esm({
 var icon_board_split_3_vertical_svg_exports = {};
 __export(icon_board_split_3_vertical_svg_exports, {
   default: () => icon_board_split_3_vertical_svg_default,
-  meta: () => meta431
+  meta: () => meta455
 });
-var meta431, icon_board_split_3_vertical_svg_default;
+var meta455, icon_board_split_3_vertical_svg_default;
 var init_icon_board_split_3_vertical_svg = __esm({
   "lib/meta/icon_board-split-3-vertical.svg.ts"() {
-    meta431 = {
+    meta455 = {
       "description": "An icon depicting a board split into 3 vertical sections. Each section has its own content area, making it suitable for displaying information or organizing data.",
       "category": [
         "Interface",
@@ -25551,7 +26343,7 @@ var init_icon_board_split_3_vertical_svg = __esm({
       ],
       "title": "Board Split 3 Vertical"
     };
-    icon_board_split_3_vertical_svg_default = meta431;
+    icon_board_split_3_vertical_svg_default = meta455;
   }
 });
 
@@ -25559,12 +26351,12 @@ var init_icon_board_split_3_vertical_svg = __esm({
 var icon_board_split_4_horizontal_svg_exports = {};
 __export(icon_board_split_4_horizontal_svg_exports, {
   default: () => icon_board_split_4_horizontal_svg_default,
-  meta: () => meta432
+  meta: () => meta456
 });
-var meta432, icon_board_split_4_horizontal_svg_default;
+var meta456, icon_board_split_4_horizontal_svg_default;
 var init_icon_board_split_4_horizontal_svg = __esm({
   "lib/meta/icon_board-split-4-horizontal.svg.ts"() {
-    meta432 = {
+    meta456 = {
       "description": "A horizontal split board divided into 4 equal sections, perfect for organizing and displaying content in a structured layout",
       "category": [
         "Interface",
@@ -25584,7 +26376,7 @@ var init_icon_board_split_4_horizontal_svg = __esm({
       ],
       "title": "Board Split 4 Horizontal"
     };
-    icon_board_split_4_horizontal_svg_default = meta432;
+    icon_board_split_4_horizontal_svg_default = meta456;
   }
 });
 
@@ -25592,12 +26384,12 @@ var init_icon_board_split_4_horizontal_svg = __esm({
 var icon_board_split_4_vertical_svg_exports = {};
 __export(icon_board_split_4_vertical_svg_exports, {
   default: () => icon_board_split_4_vertical_svg_default,
-  meta: () => meta433
+  meta: () => meta457
 });
-var meta433, icon_board_split_4_vertical_svg_default;
+var meta457, icon_board_split_4_vertical_svg_default;
 var init_icon_board_split_4_vertical_svg = __esm({
   "lib/meta/icon_board-split-4-vertical.svg.ts"() {
-    meta433 = {
+    meta457 = {
       "description": "A UI icon representing a board split into four vertical sections. Each section can be used to display different content or components.",
       "category": [
         "Interface"
@@ -25615,7 +26407,7 @@ var init_icon_board_split_4_vertical_svg = __esm({
       ],
       "title": "Board Split Four Vertical"
     };
-    icon_board_split_4_vertical_svg_default = meta433;
+    icon_board_split_4_vertical_svg_default = meta457;
   }
 });
 
@@ -25623,12 +26415,12 @@ var init_icon_board_split_4_vertical_svg = __esm({
 var icon_board_split_t_down_svg_exports = {};
 __export(icon_board_split_t_down_svg_exports, {
   default: () => icon_board_split_t_down_svg_default,
-  meta: () => meta434
+  meta: () => meta458
 });
-var meta434, icon_board_split_t_down_svg_default;
+var meta458, icon_board_split_t_down_svg_default;
 var init_icon_board_split_t_down_svg = __esm({
   "lib/meta/icon_board-split-t-down.svg.ts"() {
-    meta434 = {
+    meta458 = {
       "description": "An icon of a board split diagonally into two parts, with the top part larger than the bottom part. It represents a board splitting effect moving downwards, often used in user interfaces.",
       "category": [
         "Interface"
@@ -25647,7 +26439,7 @@ var init_icon_board_split_t_down_svg = __esm({
       ],
       "title": "Board Split Downwards"
     };
-    icon_board_split_t_down_svg_default = meta434;
+    icon_board_split_t_down_svg_default = meta458;
   }
 });
 
@@ -25655,12 +26447,12 @@ var init_icon_board_split_t_down_svg = __esm({
 var icon_board_split_t_left_svg_exports = {};
 __export(icon_board_split_t_left_svg_exports, {
   default: () => icon_board_split_t_left_svg_default,
-  meta: () => meta435
+  meta: () => meta459
 });
-var meta435, icon_board_split_t_left_svg_default;
+var meta459, icon_board_split_t_left_svg_default;
 var init_icon_board_split_t_left_svg = __esm({
   "lib/meta/icon_board-split-t-left.svg.ts"() {
-    meta435 = {
+    meta459 = {
       "description": "An icon depicting a left split board, commonly used in user interface design to symbolize a split view or layout.",
       "category": [
         "Interface"
@@ -25679,7 +26471,7 @@ var init_icon_board_split_t_left_svg = __esm({
       ],
       "title": "Board Split T Left"
     };
-    icon_board_split_t_left_svg_default = meta435;
+    icon_board_split_t_left_svg_default = meta459;
   }
 });
 
@@ -25687,12 +26479,12 @@ var init_icon_board_split_t_left_svg = __esm({
 var icon_board_split_t_right_svg_exports = {};
 __export(icon_board_split_t_right_svg_exports, {
   default: () => icon_board_split_t_right_svg_default,
-  meta: () => meta436
+  meta: () => meta460
 });
-var meta436, icon_board_split_t_right_svg_default;
+var meta460, icon_board_split_t_right_svg_default;
 var init_icon_board_split_t_right_svg = __esm({
   "lib/meta/icon_board-split-t-right.svg.ts"() {
-    meta436 = {
+    meta460 = {
       "description": "An icon of a board split diagonally to the right, indicating a division or separation on the right side. This icon is commonly used in user interface designs.",
       "category": [
         "Interface"
@@ -25711,7 +26503,7 @@ var init_icon_board_split_t_right_svg = __esm({
       ],
       "title": "Board Split to the Right"
     };
-    icon_board_split_t_right_svg_default = meta436;
+    icon_board_split_t_right_svg_default = meta460;
   }
 });
 
@@ -25719,12 +26511,12 @@ var init_icon_board_split_t_right_svg = __esm({
 var icon_board_split_t_up_svg_exports = {};
 __export(icon_board_split_t_up_svg_exports, {
   default: () => icon_board_split_t_up_svg_default,
-  meta: () => meta437
+  meta: () => meta461
 });
-var meta437, icon_board_split_t_up_svg_default;
+var meta461, icon_board_split_t_up_svg_default;
 var init_icon_board_split_t_up_svg = __esm({
   "lib/meta/icon_board-split-t-up.svg.ts"() {
-    meta437 = {
+    meta461 = {
       "description": "An icon representing splitting of a board into multiple sections or segments, with each section moving apart from each other. This icon can be utilized in user interface designs to depict dividing content or information into separate parts.",
       "category": [
         "Interface"
@@ -25742,7 +26534,7 @@ var init_icon_board_split_t_up_svg = __esm({
       ],
       "title": "Board Split T Up"
     };
-    icon_board_split_t_up_svg_default = meta437;
+    icon_board_split_t_up_svg_default = meta461;
   }
 });
 
@@ -25750,12 +26542,12 @@ var init_icon_board_split_t_up_svg = __esm({
 var icon_board_subtract_2_svg_exports = {};
 __export(icon_board_subtract_2_svg_exports, {
   default: () => icon_board_subtract_2_svg_default,
-  meta: () => meta438
+  meta: () => meta462
 });
-var meta438, icon_board_subtract_2_svg_default;
+var meta462, icon_board_subtract_2_svg_default;
 var init_icon_board_subtract_2_svg = __esm({
   "lib/meta/icon_board-subtract-2.svg.ts"() {
-    meta438 = {
+    meta462 = {
       "description": "The board-subtract-2 icon represents a subtraction action on a digital board or interface. It can be used to indicate removing or deducting content, numbers, or items from a display. The icon features a design that signifies reduction or deletion.",
       "category": [
         "Interface"
@@ -25774,7 +26566,7 @@ var init_icon_board_subtract_2_svg = __esm({
       ],
       "title": "Board Subtract 2"
     };
-    icon_board_subtract_2_svg_default = meta438;
+    icon_board_subtract_2_svg_default = meta462;
   }
 });
 
@@ -25782,12 +26574,12 @@ var init_icon_board_subtract_2_svg = __esm({
 var icon_board_svg_exports = {};
 __export(icon_board_svg_exports, {
   default: () => icon_board_svg_default,
-  meta: () => meta439
+  meta: () => meta463
 });
-var meta439, icon_board_svg_default;
+var meta463, icon_board_svg_default;
 var init_icon_board_svg = __esm({
   "lib/meta/icon_board.svg.ts"() {
-    meta439 = {
+    meta463 = {
       "description": "An icon representing a board, often used in user interface design to simulate a digital or physical board for organizing information or content.",
       "category": [
         "Interface"
@@ -25805,7 +26597,7 @@ var init_icon_board_svg = __esm({
       ],
       "title": "Board"
     };
-    icon_board_svg_default = meta439;
+    icon_board_svg_default = meta463;
   }
 });
 
@@ -25813,12 +26605,12 @@ var init_icon_board_svg = __esm({
 var icon_box_in_svg_exports = {};
 __export(icon_box_in_svg_exports, {
   default: () => icon_box_in_svg_default,
-  meta: () => meta440
+  meta: () => meta464
 });
-var meta440, icon_box_in_svg_default;
+var meta464, icon_box_in_svg_default;
 var init_icon_box_in_svg = __esm({
   "lib/meta/icon_box-in.svg.ts"() {
-    meta440 = {
+    meta464 = {
       "description": "The box-in icon represents an enclosed area or a container. It can be used to symbolize packing, storage, containment, or organizing items within a confined space.",
       "category": [
         "Interface"
@@ -25837,7 +26629,7 @@ var init_icon_box_in_svg = __esm({
       ],
       "title": "Box In"
     };
-    icon_box_in_svg_default = meta440;
+    icon_box_in_svg_default = meta464;
   }
 });
 
@@ -25845,12 +26637,12 @@ var init_icon_box_in_svg = __esm({
 var icon_box_out_svg_exports = {};
 __export(icon_box_out_svg_exports, {
   default: () => icon_box_out_svg_default,
-  meta: () => meta441
+  meta: () => meta465
 });
-var meta441, icon_box_out_svg_default;
+var meta465, icon_box_out_svg_default;
 var init_icon_box_out_svg = __esm({
   "lib/meta/icon_box-out.svg.ts"() {
-    meta441 = {
+    meta465 = {
       "description": "The box-out icon features a box with an outward arrow, typically used to represent expanding or zooming out. It is commonly used in user interface designs to indicate a larger view or context.",
       "category": [
         "Interface"
@@ -25869,7 +26661,7 @@ var init_icon_box_out_svg = __esm({
       ],
       "title": "Box Out"
     };
-    icon_box_out_svg_default = meta441;
+    icon_box_out_svg_default = meta465;
   }
 });
 
@@ -25877,12 +26669,12 @@ var init_icon_box_out_svg = __esm({
 var icon_box_svg_exports = {};
 __export(icon_box_svg_exports, {
   default: () => icon_box_svg_default,
-  meta: () => meta442
+  meta: () => meta466
 });
-var meta442, icon_box_svg_default;
+var meta466, icon_box_svg_default;
 var init_icon_box_svg = __esm({
   "lib/meta/icon_box.svg.ts"() {
-    meta442 = {
+    meta466 = {
       "description": "The box icon represents a square or rectangular container, often used to store or organize items. It is commonly used in UI designs to symbolize a placeholder for content or as a metaphor for packaging or containment.",
       "category": [
         "Interface",
@@ -25902,7 +26694,7 @@ var init_icon_box_svg = __esm({
       ],
       "title": "Box"
     };
-    icon_box_svg_default = meta442;
+    icon_box_svg_default = meta466;
   }
 });
 
@@ -25910,12 +26702,12 @@ var init_icon_box_svg = __esm({
 var icon_boy_svg_exports = {};
 __export(icon_boy_svg_exports, {
   default: () => icon_boy_svg_default,
-  meta: () => meta443
+  meta: () => meta467
 });
-var meta443, icon_boy_svg_default;
+var meta467, icon_boy_svg_default;
 var init_icon_boy_svg = __esm({
   "lib/meta/icon_boy.svg.ts"() {
-    meta443 = {
+    meta467 = {
       "description": "A simple icon representing a young male child, typically used to indicate a boy or youth in user interfaces.",
       "category": [
         "Interface"
@@ -25933,7 +26725,7 @@ var init_icon_boy_svg = __esm({
       ],
       "title": "Boy"
     };
-    icon_boy_svg_default = meta443;
+    icon_boy_svg_default = meta467;
   }
 });
 
@@ -25941,12 +26733,12 @@ var init_icon_boy_svg = __esm({
 var icon_broken_heart_f_svg_exports = {};
 __export(icon_broken_heart_f_svg_exports, {
   default: () => icon_broken_heart_f_svg_default,
-  meta: () => meta444
+  meta: () => meta468
 });
-var meta444, icon_broken_heart_f_svg_default;
+var meta468, icon_broken_heart_f_svg_default;
 var init_icon_broken_heart_f_svg = __esm({
   "lib/meta/icon_broken-heart-f.svg.ts"() {
-    meta444 = {
+    meta468 = {
       "description": "The icon 'broken-heart-f' represents a broken heart symbol, often used to symbolize sadness or heartbreak in user interfaces.",
       "category": [
         "Interface"
@@ -25964,7 +26756,7 @@ var init_icon_broken_heart_f_svg = __esm({
       ],
       "title": "Broken Heart F"
     };
-    icon_broken_heart_f_svg_default = meta444;
+    icon_broken_heart_f_svg_default = meta468;
   }
 });
 
@@ -25972,12 +26764,12 @@ var init_icon_broken_heart_f_svg = __esm({
 var icon_broken_heart_l_svg_exports = {};
 __export(icon_broken_heart_l_svg_exports, {
   default: () => icon_broken_heart_l_svg_default,
-  meta: () => meta445
+  meta: () => meta469
 });
-var meta445, icon_broken_heart_l_svg_default;
+var meta469, icon_broken_heart_l_svg_default;
 var init_icon_broken_heart_l_svg = __esm({
   "lib/meta/icon_broken-heart-l.svg.ts"() {
-    meta445 = {
+    meta469 = {
       "description": "An icon depicting a broken heart, symbolizing sadness or romantic disappointment. The 'l' variant may indicate a more dramatic or severe representation of a broken heart.",
       "category": [
         "Interface"
@@ -25996,7 +26788,7 @@ var init_icon_broken_heart_l_svg = __esm({
       ],
       "title": "Broken Heart L"
     };
-    icon_broken_heart_l_svg_default = meta445;
+    icon_broken_heart_l_svg_default = meta469;
   }
 });
 
@@ -26004,12 +26796,12 @@ var init_icon_broken_heart_l_svg = __esm({
 var icon_broken_heart_m_svg_exports = {};
 __export(icon_broken_heart_m_svg_exports, {
   default: () => icon_broken_heart_m_svg_default,
-  meta: () => meta446
+  meta: () => meta470
 });
-var meta446, icon_broken_heart_m_svg_default;
+var meta470, icon_broken_heart_m_svg_default;
 var init_icon_broken_heart_m_svg = __esm({
   "lib/meta/icon_broken-heart-m.svg.ts"() {
-    meta446 = {
+    meta470 = {
       "description": "The broken-heart-m icon is a symbol depicting a heart shape that is broken in the middle. It is commonly used to represent heartbreak and sadness in various UI designs.",
       "category": [
         "Interface",
@@ -26029,7 +26821,7 @@ var init_icon_broken_heart_m_svg = __esm({
       ],
       "title": "Broken Heart"
     };
-    icon_broken_heart_m_svg_default = meta446;
+    icon_broken_heart_m_svg_default = meta470;
   }
 });
 
@@ -26037,12 +26829,12 @@ var init_icon_broken_heart_m_svg = __esm({
 var icon_building_church_svg_exports = {};
 __export(icon_building_church_svg_exports, {
   default: () => icon_building_church_svg_default,
-  meta: () => meta447
+  meta: () => meta471
 });
-var meta447, icon_building_church_svg_default;
+var meta471, icon_building_church_svg_default;
 var init_icon_building_church_svg = __esm({
   "lib/meta/icon_building-church.svg.ts"() {
-    meta447 = {
+    meta471 = {
       "description": "The building-church icon is a symbol representing a church structure, typically featuring a spire or steeple. It is commonly used in UI design to indicate religious or spiritual content.",
       "category": [
         "Interface"
@@ -26061,7 +26853,7 @@ var init_icon_building_church_svg = __esm({
       ],
       "title": "Building Church"
     };
-    icon_building_church_svg_default = meta447;
+    icon_building_church_svg_default = meta471;
   }
 });
 
@@ -26069,12 +26861,12 @@ var init_icon_building_church_svg = __esm({
 var icon_building_house_2_svg_exports = {};
 __export(icon_building_house_2_svg_exports, {
   default: () => icon_building_house_2_svg_default,
-  meta: () => meta448
+  meta: () => meta472
 });
-var meta448, icon_building_house_2_svg_default;
+var meta472, icon_building_house_2_svg_default;
 var init_icon_building_house_2_svg = __esm({
   "lib/meta/icon_building-house-2.svg.ts"() {
-    meta448 = {
+    meta472 = {
       "description": "Building house icon depicting a residential home with a pitched roof and chimney. It is commonly used to represent real estate, housing, or home-related concepts in user interfaces.",
       "category": [
         "Interface"
@@ -26093,7 +26885,7 @@ var init_icon_building_house_2_svg = __esm({
       ],
       "title": "Building House 2"
     };
-    icon_building_house_2_svg_default = meta448;
+    icon_building_house_2_svg_default = meta472;
   }
 });
 
@@ -26101,12 +26893,12 @@ var init_icon_building_house_2_svg = __esm({
 var icon_building_house_svg_exports = {};
 __export(icon_building_house_svg_exports, {
   default: () => icon_building_house_svg_default,
-  meta: () => meta449
+  meta: () => meta473
 });
-var meta449, icon_building_house_svg_default;
+var meta473, icon_building_house_svg_default;
 var init_icon_building_house_svg = __esm({
   "lib/meta/icon_building-house.svg.ts"() {
-    meta449 = {
+    meta473 = {
       "description": "An icon depicting a simple house structure, commonly used to represent buildings or homes in user interface designs.",
       "category": [
         "Interface"
@@ -26125,7 +26917,7 @@ var init_icon_building_house_svg = __esm({
       ],
       "title": "Building House"
     };
-    icon_building_house_svg_default = meta449;
+    icon_building_house_svg_default = meta473;
   }
 });
 
@@ -26133,12 +26925,12 @@ var init_icon_building_house_svg = __esm({
 var icon_building_shop_svg_exports = {};
 __export(icon_building_shop_svg_exports, {
   default: () => icon_building_shop_svg_default,
-  meta: () => meta450
+  meta: () => meta474
 });
-var meta450, icon_building_shop_svg_default;
+var meta474, icon_building_shop_svg_default;
 var init_icon_building_shop_svg = __esm({
   "lib/meta/icon_building-shop.svg.ts"() {
-    meta450 = {
+    meta474 = {
       "description": "The building-shop icon represents a structure that is used for commercial purposes, specifically for shopping. It can be used to symbolize a retail store, marketplace, or shopping center.",
       "category": [
         "Interface"
@@ -26155,7 +26947,7 @@ var init_icon_building_shop_svg = __esm({
       ],
       "title": "Building Shop"
     };
-    icon_building_shop_svg_default = meta450;
+    icon_building_shop_svg_default = meta474;
   }
 });
 
@@ -26163,12 +26955,12 @@ var init_icon_building_shop_svg = __esm({
 var icon_button_add_svg_exports = {};
 __export(icon_button_add_svg_exports, {
   default: () => icon_button_add_svg_default,
-  meta: () => meta451
+  meta: () => meta475
 });
-var meta451, icon_button_add_svg_default;
+var meta475, icon_button_add_svg_default;
 var init_icon_button_add_svg = __esm({
   "lib/meta/icon_button-add.svg.ts"() {
-    meta451 = {
+    meta475 = {
       "description": "The button-add icon is typically used to indicate an action related to adding or creating something. It can be commonly found in user interfaces as a clickable element to initiate a new task.",
       "category": [
         "Interface"
@@ -26187,7 +26979,7 @@ var init_icon_button_add_svg = __esm({
       ],
       "title": "Button Add"
     };
-    icon_button_add_svg_default = meta451;
+    icon_button_add_svg_default = meta475;
   }
 });
 
@@ -26195,12 +26987,12 @@ var init_icon_button_add_svg = __esm({
 var icon_button_broken_heart_2_svg_exports = {};
 __export(icon_button_broken_heart_2_svg_exports, {
   default: () => icon_button_broken_heart_2_svg_default,
-  meta: () => meta452
+  meta: () => meta476
 });
-var meta452, icon_button_broken_heart_2_svg_default;
+var meta476, icon_button_broken_heart_2_svg_default;
 var init_icon_button_broken_heart_2_svg = __esm({
   "lib/meta/icon_button-broken-heart 2.svg.ts"() {
-    meta452 = {
+    meta476 = {
       "description": "A heart shape icon that is broken into two uneven parts, representing a broken heart. This icon can be used in user interface design to indicate a feature related to emotions, love, relationships, or sadness.",
       "category": [
         "Interface",
@@ -26219,7 +27011,7 @@ var init_icon_button_broken_heart_2_svg = __esm({
       ],
       "title": "Button Broken Heart"
     };
-    icon_button_broken_heart_2_svg_default = meta452;
+    icon_button_broken_heart_2_svg_default = meta476;
   }
 });
 
@@ -26227,12 +27019,12 @@ var init_icon_button_broken_heart_2_svg = __esm({
 var icon_button_broken_heart_svg_exports = {};
 __export(icon_button_broken_heart_svg_exports, {
   default: () => icon_button_broken_heart_svg_default,
-  meta: () => meta453
+  meta: () => meta477
 });
-var meta453, icon_button_broken_heart_svg_default;
+var meta477, icon_button_broken_heart_svg_default;
 var init_icon_button_broken_heart_svg = __esm({
   "lib/meta/icon_button-broken-heart.svg.ts"() {
-    meta453 = {
+    meta477 = {
       "description": "This icon features a heart symbol that is broken in half, conveying the concept of a broken heart. It is commonly used in user interfaces to represent a state of emotional distress or heartbreak.",
       "category": [
         "Interface",
@@ -26252,7 +27044,7 @@ var init_icon_button_broken_heart_svg = __esm({
       ],
       "title": "Button Broken Heart"
     };
-    icon_button_broken_heart_svg_default = meta453;
+    icon_button_broken_heart_svg_default = meta477;
   }
 });
 
@@ -26260,12 +27052,12 @@ var init_icon_button_broken_heart_svg = __esm({
 var icon_button_check_2_svg_exports = {};
 __export(icon_button_check_2_svg_exports, {
   default: () => icon_button_check_2_svg_default,
-  meta: () => meta454
+  meta: () => meta478
 });
-var meta454, icon_button_check_2_svg_default;
+var meta478, icon_button_check_2_svg_default;
 var init_icon_button_check_2_svg = __esm({
   "lib/meta/icon_button-check-2.svg.ts"() {
-    meta454 = {
+    meta478 = {
       "description": "The icon 'button-check-2' is a UI element depicting a checkmark inside a button. It can be used to indicate confirmation or completion in user interfaces.",
       "category": [
         "Interface"
@@ -26283,7 +27075,7 @@ var init_icon_button_check_2_svg = __esm({
       ],
       "title": "Button Check 2"
     };
-    icon_button_check_2_svg_default = meta454;
+    icon_button_check_2_svg_default = meta478;
   }
 });
 
@@ -26291,12 +27083,12 @@ var init_icon_button_check_2_svg = __esm({
 var icon_button_check_svg_exports = {};
 __export(icon_button_check_svg_exports, {
   default: () => icon_button_check_svg_default,
-  meta: () => meta455
+  meta: () => meta479
 });
-var meta455, icon_button_check_svg_default;
+var meta479, icon_button_check_svg_default;
 var init_icon_button_check_svg = __esm({
   "lib/meta/icon_button-check.svg.ts"() {
-    meta455 = {
+    meta479 = {
       "description": "A button with a check mark icon, usually used to confirm or submit something in a user interface design.",
       "category": [
         "Interface"
@@ -26314,7 +27106,7 @@ var init_icon_button_check_svg = __esm({
       ],
       "title": "Button Check"
     };
-    icon_button_check_svg_default = meta455;
+    icon_button_check_svg_default = meta479;
   }
 });
 
@@ -26322,12 +27114,12 @@ var init_icon_button_check_svg = __esm({
 var icon_button_edit_2_svg_exports = {};
 __export(icon_button_edit_2_svg_exports, {
   default: () => icon_button_edit_2_svg_default,
-  meta: () => meta456
+  meta: () => meta480
 });
-var meta456, icon_button_edit_2_svg_default;
+var meta480, icon_button_edit_2_svg_default;
 var init_icon_button_edit_2_svg = __esm({
   "lib/meta/icon_button-edit-2.svg.ts"() {
-    meta456 = {
+    meta480 = {
       "description": "The button-edit-2 icon is a graphical representation of an edit button, commonly used in user interface design to indicate the option to edit or modify content. It features a pencil icon inside a button shape.",
       "category": [
         "Interface"
@@ -26346,7 +27138,7 @@ var init_icon_button_edit_2_svg = __esm({
       ],
       "title": "Button Edit 2"
     };
-    icon_button_edit_2_svg_default = meta456;
+    icon_button_edit_2_svg_default = meta480;
   }
 });
 
@@ -26354,12 +27146,12 @@ var init_icon_button_edit_2_svg = __esm({
 var icon_button_edit_svg_exports = {};
 __export(icon_button_edit_svg_exports, {
   default: () => icon_button_edit_svg_default,
-  meta: () => meta457
+  meta: () => meta481
 });
-var meta457, icon_button_edit_svg_default;
+var meta481, icon_button_edit_svg_default;
 var init_icon_button_edit_svg = __esm({
   "lib/meta/icon_button-edit.svg.ts"() {
-    meta457 = {
+    meta481 = {
       "description": "This icon represents an edit button, typically used for allowing users to edit content or data. It features a pencil or pen symbol, indicating the action of editing.",
       "category": [
         "Interface"
@@ -26378,7 +27170,7 @@ var init_icon_button_edit_svg = __esm({
       ],
       "title": "Button Edit"
     };
-    icon_button_edit_svg_default = meta457;
+    icon_button_edit_svg_default = meta481;
   }
 });
 
@@ -26386,12 +27178,12 @@ var init_icon_button_edit_svg = __esm({
 var icon_button_exclamation_mark_2_svg_exports = {};
 __export(icon_button_exclamation_mark_2_svg_exports, {
   default: () => icon_button_exclamation_mark_2_svg_default,
-  meta: () => meta458
+  meta: () => meta482
 });
-var meta458, icon_button_exclamation_mark_2_svg_default;
+var meta482, icon_button_exclamation_mark_2_svg_default;
 var init_icon_button_exclamation_mark_2_svg = __esm({
   "lib/meta/icon_button-exclamation-mark-2.svg.ts"() {
-    meta458 = {
+    meta482 = {
       "description": "A button icon with an exclamation mark symbol on it, indicating a warning or important information. This icon can be used in user interfaces to draw attention to certain elements.",
       "category": [
         "Interface"
@@ -26409,7 +27201,7 @@ var init_icon_button_exclamation_mark_2_svg = __esm({
       ],
       "title": "Button Exclamation Mark 2"
     };
-    icon_button_exclamation_mark_2_svg_default = meta458;
+    icon_button_exclamation_mark_2_svg_default = meta482;
   }
 });
 
@@ -26417,12 +27209,12 @@ var init_icon_button_exclamation_mark_2_svg = __esm({
 var icon_button_exclamation_mark_svg_exports = {};
 __export(icon_button_exclamation_mark_svg_exports, {
   default: () => icon_button_exclamation_mark_svg_default,
-  meta: () => meta459
+  meta: () => meta483
 });
-var meta459, icon_button_exclamation_mark_svg_default;
+var meta483, icon_button_exclamation_mark_svg_default;
 var init_icon_button_exclamation_mark_svg = __esm({
   "lib/meta/icon_button-exclamation-mark.svg.ts"() {
-    meta459 = {
+    meta483 = {
       "description": "The button exclamation mark icon is a graphic representation of a button with an exclamation mark on it. It is commonly used to draw attention to important information or alerts in user interfaces.",
       "category": [
         "Interface"
@@ -26440,7 +27232,7 @@ var init_icon_button_exclamation_mark_svg = __esm({
       ],
       "title": "Button Exclamation Mark"
     };
-    icon_button_exclamation_mark_svg_default = meta459;
+    icon_button_exclamation_mark_svg_default = meta483;
   }
 });
 
@@ -26448,12 +27240,12 @@ var init_icon_button_exclamation_mark_svg = __esm({
 var icon_button_heart_2_svg_exports = {};
 __export(icon_button_heart_2_svg_exports, {
   default: () => icon_button_heart_2_svg_default,
-  meta: () => meta460
+  meta: () => meta484
 });
-var meta460, icon_button_heart_2_svg_default;
+var meta484, icon_button_heart_2_svg_default;
 var init_icon_button_heart_2_svg = __esm({
   "lib/meta/icon_button-heart 2.svg.ts"() {
-    meta460 = {
+    meta484 = {
       "description": "A heart-shaped button design commonly used for like or favorite actions in user interfaces.",
       "category": [
         "Interface"
@@ -26471,7 +27263,7 @@ var init_icon_button_heart_2_svg = __esm({
       ],
       "title": "Button Heart"
     };
-    icon_button_heart_2_svg_default = meta460;
+    icon_button_heart_2_svg_default = meta484;
   }
 });
 
@@ -26479,12 +27271,12 @@ var init_icon_button_heart_2_svg = __esm({
 var icon_button_heart_svg_exports = {};
 __export(icon_button_heart_svg_exports, {
   default: () => icon_button_heart_svg_default,
-  meta: () => meta461
+  meta: () => meta485
 });
-var meta461, icon_button_heart_svg_default;
+var meta485, icon_button_heart_svg_default;
 var init_icon_button_heart_svg = __esm({
   "lib/meta/icon_button-heart.svg.ts"() {
-    meta461 = {
+    meta485 = {
       "description": "A heart-shaped button icon that can be used to signify liking or favoriting content on a user interface.",
       "category": [
         "Interface",
@@ -26504,7 +27296,7 @@ var init_icon_button_heart_svg = __esm({
       ],
       "title": "Button Heart"
     };
-    icon_button_heart_svg_default = meta461;
+    icon_button_heart_svg_default = meta485;
   }
 });
 
@@ -26512,12 +27304,12 @@ var init_icon_button_heart_svg = __esm({
 var icon_button_info_2_svg_exports = {};
 __export(icon_button_info_2_svg_exports, {
   default: () => icon_button_info_2_svg_default,
-  meta: () => meta462
+  meta: () => meta486
 });
-var meta462, icon_button_info_2_svg_default;
+var meta486, icon_button_info_2_svg_default;
 var init_icon_button_info_2_svg = __esm({
   "lib/meta/icon_button-info-2.svg.ts"() {
-    meta462 = {
+    meta486 = {
       "description": "A button icon with an information symbol on it, indicating additional details or instructions. It is often used to provide users with more information about a specific topic or feature.",
       "category": [
         "Interface"
@@ -26536,7 +27328,7 @@ var init_icon_button_info_2_svg = __esm({
       ],
       "title": "Button Info 2"
     };
-    icon_button_info_2_svg_default = meta462;
+    icon_button_info_2_svg_default = meta486;
   }
 });
 
@@ -26544,12 +27336,12 @@ var init_icon_button_info_2_svg = __esm({
 var icon_button_info_svg_exports = {};
 __export(icon_button_info_svg_exports, {
   default: () => icon_button_info_svg_default,
-  meta: () => meta463
+  meta: () => meta487
 });
-var meta463, icon_button_info_svg_default;
+var meta487, icon_button_info_svg_default;
 var init_icon_button_info_svg = __esm({
   "lib/meta/icon_button-info.svg.ts"() {
-    meta463 = {
+    meta487 = {
       "description": "The button-info icon is used to indicate an information button or feature in a user interface.",
       "category": [
         "Interface"
@@ -26568,7 +27360,7 @@ var init_icon_button_info_svg = __esm({
       ],
       "title": "Button Information"
     };
-    icon_button_info_svg_default = meta463;
+    icon_button_info_svg_default = meta487;
   }
 });
 
@@ -26576,12 +27368,12 @@ var init_icon_button_info_svg = __esm({
 var icon_button_invisible_2_svg_exports = {};
 __export(icon_button_invisible_2_svg_exports, {
   default: () => icon_button_invisible_2_svg_default,
-  meta: () => meta464
+  meta: () => meta488
 });
-var meta464, icon_button_invisible_2_svg_default;
+var meta488, icon_button_invisible_2_svg_default;
 var init_icon_button_invisible_2_svg = __esm({
   "lib/meta/icon_button-invisible 2.svg.ts"() {
-    meta464 = {
+    meta488 = {
       "description": "The icon 'Button Invisible 2' represents an invisible or hidden button in a user interface. It can be used to symbolize a non-clickable or disabled button.",
       "category": [
         "Interface"
@@ -26599,7 +27391,7 @@ var init_icon_button_invisible_2_svg = __esm({
       ],
       "title": "Button Invisible 2"
     };
-    icon_button_invisible_2_svg_default = meta464;
+    icon_button_invisible_2_svg_default = meta488;
   }
 });
 
@@ -26607,12 +27399,12 @@ var init_icon_button_invisible_2_svg = __esm({
 var icon_button_invisible_svg_exports = {};
 __export(icon_button_invisible_svg_exports, {
   default: () => icon_button_invisible_svg_default,
-  meta: () => meta465
+  meta: () => meta489
 });
-var meta465, icon_button_invisible_svg_default;
+var meta489, icon_button_invisible_svg_default;
 var init_icon_button_invisible_svg = __esm({
   "lib/meta/icon_button-invisible.svg.ts"() {
-    meta465 = {
+    meta489 = {
       "description": "A hidden button icon that is not visible to users, typically used for toggling visibility or interaction.",
       "category": [
         "Interface"
@@ -26631,7 +27423,7 @@ var init_icon_button_invisible_svg = __esm({
       ],
       "title": "Button Invisible"
     };
-    icon_button_invisible_svg_default = meta465;
+    icon_button_invisible_svg_default = meta489;
   }
 });
 
@@ -26639,12 +27431,12 @@ var init_icon_button_invisible_svg = __esm({
 var icon_button_multiply_svg_exports = {};
 __export(icon_button_multiply_svg_exports, {
   default: () => icon_button_multiply_svg_default,
-  meta: () => meta466
+  meta: () => meta490
 });
-var meta466, icon_button_multiply_svg_default;
+var meta490, icon_button_multiply_svg_default;
 var init_icon_button_multiply_svg = __esm({
   "lib/meta/icon_button-multiply.svg.ts"() {
-    meta466 = {
+    meta490 = {
       "description": "The button-multiply icon is a symbol representing an multiplication operation. It commonly used in calculators or math-related applications.",
       "category": [
         "Interface",
@@ -26664,7 +27456,7 @@ var init_icon_button_multiply_svg = __esm({
       ],
       "title": "Button Multiply"
     };
-    icon_button_multiply_svg_default = meta466;
+    icon_button_multiply_svg_default = meta490;
   }
 });
 
@@ -26672,12 +27464,12 @@ var init_icon_button_multiply_svg = __esm({
 var icon_button_question_mark_2_svg_exports = {};
 __export(icon_button_question_mark_2_svg_exports, {
   default: () => icon_button_question_mark_2_svg_default,
-  meta: () => meta467
+  meta: () => meta491
 });
-var meta467, icon_button_question_mark_2_svg_default;
+var meta491, icon_button_question_mark_2_svg_default;
 var init_icon_button_question_mark_2_svg = __esm({
   "lib/meta/icon_button-question-mark-2.svg.ts"() {
-    meta467 = {
+    meta491 = {
       "description": "A button icon featuring a question mark symbol. This icon is commonly used for indicating a help or information button in user interfaces.",
       "category": [
         "Interface"
@@ -26695,7 +27487,7 @@ var init_icon_button_question_mark_2_svg = __esm({
       ],
       "title": "Button Question Mark 2"
     };
-    icon_button_question_mark_2_svg_default = meta467;
+    icon_button_question_mark_2_svg_default = meta491;
   }
 });
 
@@ -26703,12 +27495,12 @@ var init_icon_button_question_mark_2_svg = __esm({
 var icon_button_question_mark_svg_exports = {};
 __export(icon_button_question_mark_svg_exports, {
   default: () => icon_button_question_mark_svg_default,
-  meta: () => meta468
+  meta: () => meta492
 });
-var meta468, icon_button_question_mark_svg_default;
+var meta492, icon_button_question_mark_svg_default;
 var init_icon_button_question_mark_svg = __esm({
   "lib/meta/icon_button-question-mark.svg.ts"() {
-    meta468 = {
+    meta492 = {
       "description": "An icon of a question mark inside a button, typically used to indicate help or additional information",
       "category": [
         "Interface"
@@ -26727,7 +27519,7 @@ var init_icon_button_question_mark_svg = __esm({
       ],
       "title": "Button Question Mark"
     };
-    icon_button_question_mark_svg_default = meta468;
+    icon_button_question_mark_svg_default = meta492;
   }
 });
 
@@ -26735,12 +27527,12 @@ var init_icon_button_question_mark_svg = __esm({
 var icon_button_search_2_svg_exports = {};
 __export(icon_button_search_2_svg_exports, {
   default: () => icon_button_search_2_svg_default,
-  meta: () => meta469
+  meta: () => meta493
 });
-var meta469, icon_button_search_2_svg_default;
+var meta493, icon_button_search_2_svg_default;
 var init_icon_button_search_2_svg = __esm({
   "lib/meta/icon_button-search 2.svg.ts"() {
-    meta469 = {
+    meta493 = {
       "description": "The button-search 2 icon is designed for UI purposes. It features a magnifying glass symbolizing a search functionality.",
       "category": [
         "Interface"
@@ -26758,7 +27550,7 @@ var init_icon_button_search_2_svg = __esm({
       ],
       "title": "Button Search 2"
     };
-    icon_button_search_2_svg_default = meta469;
+    icon_button_search_2_svg_default = meta493;
   }
 });
 
@@ -26766,12 +27558,12 @@ var init_icon_button_search_2_svg = __esm({
 var icon_button_search_svg_exports = {};
 __export(icon_button_search_svg_exports, {
   default: () => icon_button_search_svg_default,
-  meta: () => meta470
+  meta: () => meta494
 });
-var meta470, icon_button_search_svg_default;
+var meta494, icon_button_search_svg_default;
 var init_icon_button_search_svg = __esm({
   "lib/meta/icon_button-search.svg.ts"() {
-    meta470 = {
+    meta494 = {
       "description": "A stylized icon representing a search button, typically used in user interfaces for initiating search functionality.",
       "category": [
         "Interface"
@@ -26790,7 +27582,7 @@ var init_icon_button_search_svg = __esm({
       ],
       "title": "Button Search"
     };
-    icon_button_search_svg_default = meta470;
+    icon_button_search_svg_default = meta494;
   }
 });
 
@@ -26798,12 +27590,12 @@ var init_icon_button_search_svg = __esm({
 var icon_button_star_2_svg_exports = {};
 __export(icon_button_star_2_svg_exports, {
   default: () => icon_button_star_2_svg_default,
-  meta: () => meta471
+  meta: () => meta495
 });
-var meta471, icon_button_star_2_svg_default;
+var meta495, icon_button_star_2_svg_default;
 var init_icon_button_star_2_svg = __esm({
   "lib/meta/icon_button-star 2.svg.ts"() {
-    meta471 = {
+    meta495 = {
       "description": "The button-star 2 icon is a stylish and modern design of a star symbol commonly used for favoriting or rating content. It features a clear outline and sleek appearance, making it ideal for enhancing user interface designs.",
       "category": [
         "Interface",
@@ -26822,7 +27614,7 @@ var init_icon_button_star_2_svg = __esm({
       ],
       "title": "Button Star 2"
     };
-    icon_button_star_2_svg_default = meta471;
+    icon_button_star_2_svg_default = meta495;
   }
 });
 
@@ -26830,12 +27622,12 @@ var init_icon_button_star_2_svg = __esm({
 var icon_button_star_svg_exports = {};
 __export(icon_button_star_svg_exports, {
   default: () => icon_button_star_svg_default,
-  meta: () => meta472
+  meta: () => meta496
 });
-var meta472, icon_button_star_svg_default;
+var meta496, icon_button_star_svg_default;
 var init_icon_button_star_svg = __esm({
   "lib/meta/icon_button-star.svg.ts"() {
-    meta472 = {
+    meta496 = {
       "description": "The button-star icon is a symbol representing a star enclosed in a button shape. It is commonly used to indicate favoriting or rating items.",
       "category": [
         "Interface",
@@ -26854,7 +27646,7 @@ var init_icon_button_star_svg = __esm({
       ],
       "title": "Button Star"
     };
-    icon_button_star_svg_default = meta472;
+    icon_button_star_svg_default = meta496;
   }
 });
 
@@ -26862,12 +27654,12 @@ var init_icon_button_star_svg = __esm({
 var icon_button_subtract_svg_exports = {};
 __export(icon_button_subtract_svg_exports, {
   default: () => icon_button_subtract_svg_default,
-  meta: () => meta473
+  meta: () => meta497
 });
-var meta473, icon_button_subtract_svg_default;
+var meta497, icon_button_subtract_svg_default;
 var init_icon_button_subtract_svg = __esm({
   "lib/meta/icon_button-subtract.svg.ts"() {
-    meta473 = {
+    meta497 = {
       "description": "This icon depicts a subtraction symbol commonly used in mathematical equations. It typically represents the action of removing or deducting one quantity from another.",
       "category": [
         "Interface",
@@ -26887,7 +27679,7 @@ var init_icon_button_subtract_svg = __esm({
       ],
       "title": "Button Subtract"
     };
-    icon_button_subtract_svg_default = meta473;
+    icon_button_subtract_svg_default = meta497;
   }
 });
 
@@ -26895,12 +27687,12 @@ var init_icon_button_subtract_svg = __esm({
 var icon_button_visible_2_svg_exports = {};
 __export(icon_button_visible_2_svg_exports, {
   default: () => icon_button_visible_2_svg_default,
-  meta: () => meta474
+  meta: () => meta498
 });
-var meta474, icon_button_visible_2_svg_default;
+var meta498, icon_button_visible_2_svg_default;
 var init_icon_button_visible_2_svg = __esm({
   "lib/meta/icon_button-visible 2.svg.ts"() {
-    meta474 = {
+    meta498 = {
       "description": "The button-visible 2 icon is an icon indicating a visible button or clickable element in a user interface design. It is typically used to highlight interactive elements on a website or application.",
       "category": [
         "Interface"
@@ -26919,7 +27711,7 @@ var init_icon_button_visible_2_svg = __esm({
       ],
       "title": "Button Visible 2"
     };
-    icon_button_visible_2_svg_default = meta474;
+    icon_button_visible_2_svg_default = meta498;
   }
 });
 
@@ -26927,12 +27719,12 @@ var init_icon_button_visible_2_svg = __esm({
 var icon_button_visible_svg_exports = {};
 __export(icon_button_visible_svg_exports, {
   default: () => icon_button_visible_svg_default,
-  meta: () => meta475
+  meta: () => meta499
 });
-var meta475, icon_button_visible_svg_default;
+var meta499, icon_button_visible_svg_default;
 var init_icon_button_visible_svg = __esm({
   "lib/meta/icon_button-visible.svg.ts"() {
-    meta475 = {
+    meta499 = {
       "description": "The 'button-visible' icon represents a visible button that is commonly used in user interfaces. It is typically used to indicate a clickable element that is currently visible on the screen.",
       "category": [
         "Interface"
@@ -26951,7 +27743,7 @@ var init_icon_button_visible_svg = __esm({
       ],
       "title": "Button Visible"
     };
-    icon_button_visible_svg_default = meta475;
+    icon_button_visible_svg_default = meta499;
   }
 });
 
@@ -26959,12 +27751,12 @@ var init_icon_button_visible_svg = __esm({
 var icon_button_svg_exports = {};
 __export(icon_button_svg_exports, {
   default: () => icon_button_svg_default,
-  meta: () => meta476
+  meta: () => meta500
 });
-var meta476, icon_button_svg_default;
+var meta500, icon_button_svg_default;
 var init_icon_button_svg = __esm({
   "lib/meta/icon_button.svg.ts"() {
-    meta476 = {
+    meta500 = {
       "description": "A button icon commonly used in user interfaces to trigger an action or navigate to a different location.",
       "category": [
         "Interface"
@@ -26983,7 +27775,7 @@ var init_icon_button_svg = __esm({
       ],
       "title": "Button"
     };
-    icon_button_svg_default = meta476;
+    icon_button_svg_default = meta500;
   }
 });
 
@@ -26991,12 +27783,12 @@ var init_icon_button_svg = __esm({
 var icon_calendar_2_svg_exports = {};
 __export(icon_calendar_2_svg_exports, {
   default: () => icon_calendar_2_svg_default,
-  meta: () => meta477
+  meta: () => meta501
 });
-var meta477, icon_calendar_2_svg_default;
+var meta501, icon_calendar_2_svg_default;
 var init_icon_calendar_2_svg = __esm({
   "lib/meta/icon_calendar-2.svg.ts"() {
-    meta477 = {
+    meta501 = {
       "description": "A calendar icon showing two solid squares representing a date. This icon is commonly used to represent events, schedules, and appointments in user interfaces.",
       "category": [
         "Interface"
@@ -27015,7 +27807,7 @@ var init_icon_calendar_2_svg = __esm({
       ],
       "title": "Calendar 2"
     };
-    icon_calendar_2_svg_default = meta477;
+    icon_calendar_2_svg_default = meta501;
   }
 });
 
@@ -27023,12 +27815,12 @@ var init_icon_calendar_2_svg = __esm({
 var icon_calendar_svg_exports = {};
 __export(icon_calendar_svg_exports, {
   default: () => icon_calendar_svg_default,
-  meta: () => meta478
+  meta: () => meta502
 });
-var meta478, icon_calendar_svg_default;
+var meta502, icon_calendar_svg_default;
 var init_icon_calendar_svg = __esm({
   "lib/meta/icon_calendar.svg.ts"() {
-    meta478 = {
+    meta502 = {
       "description": "Calendar icon suitable for UI design, representing schedules and events.",
       "category": [
         "Interface"
@@ -27047,7 +27839,7 @@ var init_icon_calendar_svg = __esm({
       ],
       "title": "Calendar"
     };
-    icon_calendar_svg_default = meta478;
+    icon_calendar_svg_default = meta502;
   }
 });
 
@@ -27055,12 +27847,12 @@ var init_icon_calendar_svg = __esm({
 var icon_chart_bars_squared_svg_exports = {};
 __export(icon_chart_bars_squared_svg_exports, {
   default: () => icon_chart_bars_squared_svg_default,
-  meta: () => meta479
+  meta: () => meta503
 });
-var meta479, icon_chart_bars_squared_svg_default;
+var meta503, icon_chart_bars_squared_svg_default;
 var init_icon_chart_bars_squared_svg = __esm({
   "lib/meta/icon_chart-bars-squared.svg.ts"() {
-    meta479 = {
+    meta503 = {
       "description": "A squared chart bars icon representing data visualization and statistical analysis",
       "category": [
         "Interface"
@@ -27078,7 +27870,7 @@ var init_icon_chart_bars_squared_svg = __esm({
       ],
       "title": "Chart Bars Squared"
     };
-    icon_chart_bars_squared_svg_default = meta479;
+    icon_chart_bars_squared_svg_default = meta503;
   }
 });
 
@@ -27086,12 +27878,12 @@ var init_icon_chart_bars_squared_svg = __esm({
 var icon_chart_bubbles_svg_exports = {};
 __export(icon_chart_bubbles_svg_exports, {
   default: () => icon_chart_bubbles_svg_default,
-  meta: () => meta480
+  meta: () => meta504
 });
-var meta480, icon_chart_bubbles_svg_default;
+var meta504, icon_chart_bubbles_svg_default;
 var init_icon_chart_bubbles_svg = __esm({
   "lib/meta/icon_chart-bubbles.svg.ts"() {
-    meta480 = {
+    meta504 = {
       "description": "Icon of bubbles arranged in a chart format, representing data visualization or statistics in a graphical way.",
       "category": [
         "Interface"
@@ -27109,7 +27901,7 @@ var init_icon_chart_bubbles_svg = __esm({
       ],
       "title": "Chart Bubbles"
     };
-    icon_chart_bubbles_svg_default = meta480;
+    icon_chart_bubbles_svg_default = meta504;
   }
 });
 
@@ -27117,12 +27909,12 @@ var init_icon_chart_bubbles_svg = __esm({
 var icon_chart_candles_svg_exports = {};
 __export(icon_chart_candles_svg_exports, {
   default: () => icon_chart_candles_svg_default,
-  meta: () => meta481
+  meta: () => meta505
 });
-var meta481, icon_chart_candles_svg_default;
+var meta505, icon_chart_candles_svg_default;
 var init_icon_chart_candles_svg = __esm({
   "lib/meta/icon_chart-candles.svg.ts"() {
-    meta481 = {
+    meta505 = {
       "description": "The chart-candles icon represents a visual representation of financial data through candlestick charts. The icon is commonly used in interfaces related to finance, stock market analysis, and investment tracking.",
       "category": [
         "Interface"
@@ -27140,7 +27932,7 @@ var init_icon_chart_candles_svg = __esm({
       ],
       "title": "Chart Candles"
     };
-    icon_chart_candles_svg_default = meta481;
+    icon_chart_candles_svg_default = meta505;
   }
 });
 
@@ -27148,12 +27940,12 @@ var init_icon_chart_candles_svg = __esm({
 var icon_chart_half_circle_svg_exports = {};
 __export(icon_chart_half_circle_svg_exports, {
   default: () => icon_chart_half_circle_svg_default,
-  meta: () => meta482
+  meta: () => meta506
 });
-var meta482, icon_chart_half_circle_svg_default;
+var meta506, icon_chart_half_circle_svg_default;
 var init_icon_chart_half_circle_svg = __esm({
   "lib/meta/icon_chart-half-circle.svg.ts"() {
-    meta482 = {
+    meta506 = {
       "description": "The chart-half-circle icon is a graphical representation of a half circle, typically used to display data in a semi-circle format. This icon is commonly found in various UI designs for visualizing statistics, analytics, and reports.",
       "category": [
         "Interface",
@@ -27173,7 +27965,7 @@ var init_icon_chart_half_circle_svg = __esm({
       ],
       "title": "Chart Half Circle"
     };
-    icon_chart_half_circle_svg_default = meta482;
+    icon_chart_half_circle_svg_default = meta506;
   }
 });
 
@@ -27181,12 +27973,12 @@ var init_icon_chart_half_circle_svg = __esm({
 var icon_chart_line_squared_svg_exports = {};
 __export(icon_chart_line_squared_svg_exports, {
   default: () => icon_chart_line_squared_svg_default,
-  meta: () => meta483
+  meta: () => meta507
 });
-var meta483, icon_chart_line_squared_svg_default;
+var meta507, icon_chart_line_squared_svg_default;
 var init_icon_chart_line_squared_svg = __esm({
   "lib/meta/icon_chart-line-squared.svg.ts"() {
-    meta483 = {
+    meta507 = {
       "description": "A squared chart line icon depicting a graph or data visualization. It is typically used to represent analytics, statistics, and trends in a square format.",
       "category": [
         "Interface",
@@ -27205,7 +27997,7 @@ var init_icon_chart_line_squared_svg = __esm({
       ],
       "title": "Chart Line Squared"
     };
-    icon_chart_line_squared_svg_default = meta483;
+    icon_chart_line_squared_svg_default = meta507;
   }
 });
 
@@ -27213,12 +28005,12 @@ var init_icon_chart_line_squared_svg = __esm({
 var icon_chart_line_svg_exports = {};
 __export(icon_chart_line_svg_exports, {
   default: () => icon_chart_line_svg_default,
-  meta: () => meta484
+  meta: () => meta508
 });
-var meta484, icon_chart_line_svg_default;
+var meta508, icon_chart_line_svg_default;
 var init_icon_chart_line_svg = __esm({
   "lib/meta/icon_chart-line.svg.ts"() {
-    meta484 = {
+    meta508 = {
       "description": "The chart-line icon represents a line chart or graph, commonly used to visualize data trends over time. It typically consists of a line that connects data points to show the relationship between them.",
       "category": [
         "Interface"
@@ -27237,7 +28029,7 @@ var init_icon_chart_line_svg = __esm({
       ],
       "title": "Line Chart"
     };
-    icon_chart_line_svg_default = meta484;
+    icon_chart_line_svg_default = meta508;
   }
 });
 
@@ -27245,12 +28037,12 @@ var init_icon_chart_line_svg = __esm({
 var icon_chart_pie_svg_exports = {};
 __export(icon_chart_pie_svg_exports, {
   default: () => icon_chart_pie_svg_default,
-  meta: () => meta485
+  meta: () => meta509
 });
-var meta485, icon_chart_pie_svg_default;
+var meta509, icon_chart_pie_svg_default;
 var init_icon_chart_pie_svg = __esm({
   "lib/meta/icon_chart-pie.svg.ts"() {
-    meta485 = {
+    meta509 = {
       "description": "A pie chart icon representing data visualization and statistical information in a graphical format.",
       "category": [
         "Interface"
@@ -27269,7 +28061,7 @@ var init_icon_chart_pie_svg = __esm({
       ],
       "title": "Chart Pie"
     };
-    icon_chart_pie_svg_default = meta485;
+    icon_chart_pie_svg_default = meta509;
   }
 });
 
@@ -27277,12 +28069,12 @@ var init_icon_chart_pie_svg = __esm({
 var icon_check_fat_svg_exports = {};
 __export(icon_check_fat_svg_exports, {
   default: () => icon_check_fat_svg_default,
-  meta: () => meta486
+  meta: () => meta510
 });
-var meta486, icon_check_fat_svg_default;
+var meta510, icon_check_fat_svg_default;
 var init_icon_check_fat_svg = __esm({
   "lib/meta/icon_check-fat.svg.ts"() {
-    meta486 = {
+    meta510 = {
       "description": "A bold and thick check mark icon, indicating completion or approval. Commonly used in user interfaces.",
       "category": [
         "Interface"
@@ -27301,7 +28093,7 @@ var init_icon_check_fat_svg = __esm({
       ],
       "title": "Check Fat"
     };
-    icon_check_fat_svg_default = meta486;
+    icon_check_fat_svg_default = meta510;
   }
 });
 
@@ -27309,12 +28101,12 @@ var init_icon_check_fat_svg = __esm({
 var icon_check_l_svg_exports = {};
 __export(icon_check_l_svg_exports, {
   default: () => icon_check_l_svg_default,
-  meta: () => meta487
+  meta: () => meta511
 });
-var meta487, icon_check_l_svg_default;
+var meta511, icon_check_l_svg_default;
 var init_icon_check_l_svg = __esm({
   "lib/meta/icon_check-l.svg.ts"() {
-    meta487 = {
+    meta511 = {
       "description": "The check-l icon is a symbol representing approval or confirmation. It typically shows a checkmark enclosed in a circle. This icon is commonly used in user interfaces to indicate success or completion.",
       "category": [
         "Interface",
@@ -27333,7 +28125,7 @@ var init_icon_check_l_svg = __esm({
       ],
       "title": "Checkmark Large"
     };
-    icon_check_l_svg_default = meta487;
+    icon_check_l_svg_default = meta511;
   }
 });
 
@@ -27341,12 +28133,12 @@ var init_icon_check_l_svg = __esm({
 var icon_check_list_svg_exports = {};
 __export(icon_check_list_svg_exports, {
   default: () => icon_check_list_svg_default,
-  meta: () => meta488
+  meta: () => meta512
 });
-var meta488, icon_check_list_svg_default;
+var meta512, icon_check_list_svg_default;
 var init_icon_check_list_svg = __esm({
   "lib/meta/icon_check-list.svg.ts"() {
-    meta488 = {
+    meta512 = {
       "description": "A check-list icon is typically used to represent a list of tasks or items that need to be completed. It often signifies organization, planning, and progress tracking in various applications and interfaces.",
       "category": [
         "Interface",
@@ -27366,7 +28158,7 @@ var init_icon_check_list_svg = __esm({
       ],
       "title": "Check List"
     };
-    icon_check_list_svg_default = meta488;
+    icon_check_list_svg_default = meta512;
   }
 });
 
@@ -27374,12 +28166,12 @@ var init_icon_check_list_svg = __esm({
 var icon_check_m_svg_exports = {};
 __export(icon_check_m_svg_exports, {
   default: () => icon_check_m_svg_default,
-  meta: () => meta489
+  meta: () => meta513
 });
-var meta489, icon_check_m_svg_default;
+var meta513, icon_check_m_svg_default;
 var init_icon_check_m_svg = __esm({
   "lib/meta/icon_check-m.svg.ts"() {
-    meta489 = {
+    meta513 = {
       "description": "The 'check-m' icon is a symbol representing a check mark, indicating completion or approval. It is often used in user interfaces to confirm selections or actions.",
       "category": [
         "Interface"
@@ -27397,7 +28189,7 @@ var init_icon_check_m_svg = __esm({
       ],
       "title": "Check Mark"
     };
-    icon_check_m_svg_default = meta489;
+    icon_check_m_svg_default = meta513;
   }
 });
 
@@ -27405,12 +28197,12 @@ var init_icon_check_m_svg = __esm({
 var icon_check_s_svg_exports = {};
 __export(icon_check_s_svg_exports, {
   default: () => icon_check_s_svg_default,
-  meta: () => meta490
+  meta: () => meta514
 });
-var meta490, icon_check_s_svg_default;
+var meta514, icon_check_s_svg_default;
 var init_icon_check_s_svg = __esm({
   "lib/meta/icon_check-s.svg.ts"() {
-    meta490 = {
+    meta514 = {
       "description": "The check-s icon is a symbol representing a mark indicating a correct or approved status. It is commonly used in user interfaces to confirm selections or actions.",
       "category": [
         "Interface",
@@ -27430,7 +28222,7 @@ var init_icon_check_s_svg = __esm({
       ],
       "title": "Check Symbol"
     };
-    icon_check_s_svg_default = meta490;
+    icon_check_s_svg_default = meta514;
   }
 });
 
@@ -27438,12 +28230,12 @@ var init_icon_check_s_svg = __esm({
 var icon_circle_invisible_svg_exports = {};
 __export(icon_circle_invisible_svg_exports, {
   default: () => icon_circle_invisible_svg_default,
-  meta: () => meta491
+  meta: () => meta515
 });
-var meta491, icon_circle_invisible_svg_default;
+var meta515, icon_circle_invisible_svg_default;
 var init_icon_circle_invisible_svg = __esm({
   "lib/meta/icon_circle-invisible.svg.ts"() {
-    meta491 = {
+    meta515 = {
       "description": "The circle-invisible icon represents an invisible circle, typically used to indicate hidden or unknown elements in a user interface.",
       "category": [
         "Interface",
@@ -27462,7 +28254,7 @@ var init_icon_circle_invisible_svg = __esm({
       ],
       "title": "Circle Invisible"
     };
-    icon_circle_invisible_svg_default = meta491;
+    icon_circle_invisible_svg_default = meta515;
   }
 });
 
@@ -27470,12 +28262,12 @@ var init_icon_circle_invisible_svg = __esm({
 var icon_circle_subtract_svg_exports = {};
 __export(icon_circle_subtract_svg_exports, {
   default: () => icon_circle_subtract_svg_default,
-  meta: () => meta492
+  meta: () => meta516
 });
-var meta492, icon_circle_subtract_svg_default;
+var meta516, icon_circle_subtract_svg_default;
 var init_icon_circle_subtract_svg = __esm({
   "lib/meta/icon_circle-subtract.svg.ts"() {
-    meta492 = {
+    meta516 = {
       "description": "The circle-subtract icon represents the action of subtracting or removing something within a circular shape. It is commonly used in user interfaces to indicate a deletion or removal function.",
       "category": [
         "Interface"
@@ -27493,7 +28285,7 @@ var init_icon_circle_subtract_svg = __esm({
       ],
       "title": "Circle Subtract"
     };
-    icon_circle_subtract_svg_default = meta492;
+    icon_circle_subtract_svg_default = meta516;
   }
 });
 
@@ -27501,12 +28293,12 @@ var init_icon_circle_subtract_svg = __esm({
 var icon_circled_add_svg_exports = {};
 __export(icon_circled_add_svg_exports, {
   default: () => icon_circled_add_svg_default,
-  meta: () => meta493
+  meta: () => meta517
 });
-var meta493, icon_circled_add_svg_default;
+var meta517, icon_circled_add_svg_default;
 var init_icon_circled_add_svg = __esm({
   "lib/meta/icon_circled-add.svg.ts"() {
-    meta493 = {
+    meta517 = {
       "description": "A circled icon depicting an addition sign, representing the action of adding or including something. This icon is commonly used in user interfaces to indicate the option to create or add something new.",
       "category": [
         "Interface"
@@ -27524,7 +28316,7 @@ var init_icon_circled_add_svg = __esm({
       ],
       "title": "Circled Add"
     };
-    icon_circled_add_svg_default = meta493;
+    icon_circled_add_svg_default = meta517;
   }
 });
 
@@ -27532,12 +28324,12 @@ var init_icon_circled_add_svg = __esm({
 var icon_circled_broken_heart_svg_exports = {};
 __export(icon_circled_broken_heart_svg_exports, {
   default: () => icon_circled_broken_heart_svg_default,
-  meta: () => meta494
+  meta: () => meta518
 });
-var meta494, icon_circled_broken_heart_svg_default;
+var meta518, icon_circled_broken_heart_svg_default;
 var init_icon_circled_broken_heart_svg = __esm({
   "lib/meta/icon_circled-broken-heart.svg.ts"() {
-    meta494 = {
+    meta518 = {
       "description": "A symbol of a heart enclosed in a broken circle, representing a broken heart. Often used to express heartbreak or sadness in a visual form.",
       "category": [
         "Symbol",
@@ -27557,7 +28349,7 @@ var init_icon_circled_broken_heart_svg = __esm({
       ],
       "title": "Circled Broken Heart"
     };
-    icon_circled_broken_heart_svg_default = meta494;
+    icon_circled_broken_heart_svg_default = meta518;
   }
 });
 
@@ -27565,12 +28357,12 @@ var init_icon_circled_broken_heart_svg = __esm({
 var icon_circled_check_svg_exports = {};
 __export(icon_circled_check_svg_exports, {
   default: () => icon_circled_check_svg_default,
-  meta: () => meta495
+  meta: () => meta519
 });
-var meta495, icon_circled_check_svg_default;
+var meta519, icon_circled_check_svg_default;
 var init_icon_circled_check_svg = __esm({
   "lib/meta/icon_circled-check.svg.ts"() {
-    meta495 = {
+    meta519 = {
       "description": "The circled-check icon is a symbol representing the action of confirming or validating something. It is commonly used in user interfaces to indicate a successful or completed task.",
       "category": [
         "Interface",
@@ -27590,7 +28382,7 @@ var init_icon_circled_check_svg = __esm({
       ],
       "title": "Circled Check"
     };
-    icon_circled_check_svg_default = meta495;
+    icon_circled_check_svg_default = meta519;
   }
 });
 
@@ -27598,12 +28390,12 @@ var init_icon_circled_check_svg = __esm({
 var icon_circled_edit_svg_exports = {};
 __export(icon_circled_edit_svg_exports, {
   default: () => icon_circled_edit_svg_default,
-  meta: () => meta496
+  meta: () => meta520
 });
-var meta496, icon_circled_edit_svg_default;
+var meta520, icon_circled_edit_svg_default;
 var init_icon_circled_edit_svg = __esm({
   "lib/meta/icon_circled-edit.svg.ts"() {
-    meta496 = {
+    meta520 = {
       "description": "A circular icon representing edit or modify action. The icon typically features a pencil or pen inside the circle.",
       "category": [
         "Interface"
@@ -27622,7 +28414,7 @@ var init_icon_circled_edit_svg = __esm({
       ],
       "title": "Circled Edit"
     };
-    icon_circled_edit_svg_default = meta496;
+    icon_circled_edit_svg_default = meta520;
   }
 });
 
@@ -27630,12 +28422,12 @@ var init_icon_circled_edit_svg = __esm({
 var icon_circled_exclamation_mark_svg_exports = {};
 __export(icon_circled_exclamation_mark_svg_exports, {
   default: () => icon_circled_exclamation_mark_svg_default,
-  meta: () => meta497
+  meta: () => meta521
 });
-var meta497, icon_circled_exclamation_mark_svg_default;
+var meta521, icon_circled_exclamation_mark_svg_default;
 var init_icon_circled_exclamation_mark_svg = __esm({
   "lib/meta/icon_circled-exclamation-mark.svg.ts"() {
-    meta497 = {
+    meta521 = {
       "description": "A circled exclamation mark icon, typically used to indicate warnings, alerts, or important messages in a user interface design.",
       "category": [
         "Interface",
@@ -27655,7 +28447,7 @@ var init_icon_circled_exclamation_mark_svg = __esm({
       ],
       "title": "Circled Exclamation Mark"
     };
-    icon_circled_exclamation_mark_svg_default = meta497;
+    icon_circled_exclamation_mark_svg_default = meta521;
   }
 });
 
@@ -27663,12 +28455,12 @@ var init_icon_circled_exclamation_mark_svg = __esm({
 var icon_circled_heart_svg_exports = {};
 __export(icon_circled_heart_svg_exports, {
   default: () => icon_circled_heart_svg_default,
-  meta: () => meta498
+  meta: () => meta522
 });
-var meta498, icon_circled_heart_svg_default;
+var meta522, icon_circled_heart_svg_default;
 var init_icon_circled_heart_svg = __esm({
   "lib/meta/icon_circled-heart.svg.ts"() {
-    meta498 = {
+    meta522 = {
       "description": "A heart shape enclosed in a circle, representing love and affection. It is commonly used in user interfaces for like or favorite buttons.",
       "category": [
         "Interface",
@@ -27688,7 +28480,7 @@ var init_icon_circled_heart_svg = __esm({
       ],
       "title": "Circled Heart"
     };
-    icon_circled_heart_svg_default = meta498;
+    icon_circled_heart_svg_default = meta522;
   }
 });
 
@@ -27696,12 +28488,12 @@ var init_icon_circled_heart_svg = __esm({
 var icon_circled_info_svg_exports = {};
 __export(icon_circled_info_svg_exports, {
   default: () => icon_circled_info_svg_default,
-  meta: () => meta499
+  meta: () => meta523
 });
-var meta499, icon_circled_info_svg_default;
+var meta523, icon_circled_info_svg_default;
 var init_icon_circled_info_svg = __esm({
   "lib/meta/icon_circled-info.svg.ts"() {
-    meta499 = {
+    meta523 = {
       "description": "A circled information icon indicating additional information or details",
       "category": [
         "Interface"
@@ -27720,7 +28512,7 @@ var init_icon_circled_info_svg = __esm({
       ],
       "title": "Circled Info"
     };
-    icon_circled_info_svg_default = meta499;
+    icon_circled_info_svg_default = meta523;
   }
 });
 
@@ -27728,12 +28520,12 @@ var init_icon_circled_info_svg = __esm({
 var icon_circled_multiply_svg_exports = {};
 __export(icon_circled_multiply_svg_exports, {
   default: () => icon_circled_multiply_svg_default,
-  meta: () => meta500
+  meta: () => meta524
 });
-var meta500, icon_circled_multiply_svg_default;
+var meta524, icon_circled_multiply_svg_default;
 var init_icon_circled_multiply_svg = __esm({
   "lib/meta/icon_circled-multiply.svg.ts"() {
-    meta500 = {
+    meta524 = {
       "description": "The circled multiply icon represents the mathematical operation of multiplication enclosed within a circle. It is commonly used in user interfaces to indicate a multiplication action or function.",
       "category": [
         "Interface",
@@ -27753,7 +28545,7 @@ var init_icon_circled_multiply_svg = __esm({
       ],
       "title": "Circled Multiply"
     };
-    icon_circled_multiply_svg_default = meta500;
+    icon_circled_multiply_svg_default = meta524;
   }
 });
 
@@ -27761,12 +28553,12 @@ var init_icon_circled_multiply_svg = __esm({
 var icon_circled_question_mark_svg_exports = {};
 __export(icon_circled_question_mark_svg_exports, {
   default: () => icon_circled_question_mark_svg_default,
-  meta: () => meta501
+  meta: () => meta525
 });
-var meta501, icon_circled_question_mark_svg_default;
+var meta525, icon_circled_question_mark_svg_default;
 var init_icon_circled_question_mark_svg = __esm({
   "lib/meta/icon_circled-question-mark.svg.ts"() {
-    meta501 = {
+    meta525 = {
       "description": "A circular icon with a question mark symbol inside, commonly used to indicate help, support, or FAQs in user interfaces.",
       "category": [
         "Interface",
@@ -27785,7 +28577,7 @@ var init_icon_circled_question_mark_svg = __esm({
       ],
       "title": "Circled Question Mark"
     };
-    icon_circled_question_mark_svg_default = meta501;
+    icon_circled_question_mark_svg_default = meta525;
   }
 });
 
@@ -27793,12 +28585,12 @@ var init_icon_circled_question_mark_svg = __esm({
 var icon_circled_search_svg_exports = {};
 __export(icon_circled_search_svg_exports, {
   default: () => icon_circled_search_svg_default,
-  meta: () => meta502
+  meta: () => meta526
 });
-var meta502, icon_circled_search_svg_default;
+var meta526, icon_circled_search_svg_default;
 var init_icon_circled_search_svg = __esm({
   "lib/meta/icon_circled-search.svg.ts"() {
-    meta502 = {
+    meta526 = {
       "description": "A search icon enclosed within a circle, commonly used in user interfaces to indicate a search function.",
       "category": [
         "Interface"
@@ -27817,7 +28609,7 @@ var init_icon_circled_search_svg = __esm({
       ],
       "title": "Circled Search"
     };
-    icon_circled_search_svg_default = meta502;
+    icon_circled_search_svg_default = meta526;
   }
 });
 
@@ -27825,12 +28617,12 @@ var init_icon_circled_search_svg = __esm({
 var icon_circled_star_svg_exports = {};
 __export(icon_circled_star_svg_exports, {
   default: () => icon_circled_star_svg_default,
-  meta: () => meta503
+  meta: () => meta527
 });
-var meta503, icon_circled_star_svg_default;
+var meta527, icon_circled_star_svg_default;
 var init_icon_circled_star_svg = __esm({
   "lib/meta/icon_circled-star.svg.ts"() {
-    meta503 = {
+    meta527 = {
       "description": "A star enclosed by a circle, representing emphasis or importance.",
       "category": [
         "Interface",
@@ -27850,7 +28642,7 @@ var init_icon_circled_star_svg = __esm({
       ],
       "title": "Circled Star"
     };
-    icon_circled_star_svg_default = meta503;
+    icon_circled_star_svg_default = meta527;
   }
 });
 
@@ -27858,12 +28650,12 @@ var init_icon_circled_star_svg = __esm({
 var icon_circled_visible_svg_exports = {};
 __export(icon_circled_visible_svg_exports, {
   default: () => icon_circled_visible_svg_default,
-  meta: () => meta504
+  meta: () => meta528
 });
-var meta504, icon_circled_visible_svg_default;
+var meta528, icon_circled_visible_svg_default;
 var init_icon_circled_visible_svg = __esm({
   "lib/meta/icon_circled-visible.svg.ts"() {
-    meta504 = {
+    meta528 = {
       "description": "An icon depicting an eye within a circle, symbolizing visibility or display options in user interfaces.",
       "category": [
         "Interface"
@@ -27882,7 +28674,7 @@ var init_icon_circled_visible_svg = __esm({
       ],
       "title": "Circled Visible"
     };
-    icon_circled_visible_svg_default = meta504;
+    icon_circled_visible_svg_default = meta528;
   }
 });
 
@@ -27890,12 +28682,12 @@ var init_icon_circled_visible_svg = __esm({
 var icon_circled_svg_exports = {};
 __export(icon_circled_svg_exports, {
   default: () => icon_circled_svg_default,
-  meta: () => meta505
+  meta: () => meta529
 });
-var meta505, icon_circled_svg_default;
+var meta529, icon_circled_svg_default;
 var init_icon_circled_svg = __esm({
   "lib/meta/icon_circled.svg.ts"() {
-    meta505 = {
+    meta529 = {
       "description": "The circled icon represents an enclosed shape or symbol within a circle. It is commonly used in user interfaces to draw attention to or emphasize a particular element.",
       "category": [
         "Interface",
@@ -27915,7 +28707,7 @@ var init_icon_circled_svg = __esm({
       ],
       "title": "Circled"
     };
-    icon_circled_svg_default = meta505;
+    icon_circled_svg_default = meta529;
   }
 });
 
@@ -27923,18 +28715,18 @@ var init_icon_circled_svg = __esm({
 var icon_circular_loader_svg_exports = {};
 __export(icon_circular_loader_svg_exports, {
   default: () => icon_circular_loader_svg_default,
-  meta: () => meta506
+  meta: () => meta530
 });
-var meta506, icon_circular_loader_svg_default;
+var meta530, icon_circular_loader_svg_default;
 var init_icon_circular_loader_svg = __esm({
   "lib/meta/icon_circular-loader.svg.ts"() {
-    meta506 = {
+    meta530 = {
       description: "Circular loader is a common UI element used in web and app interfaces to indicate loading or processing.",
       category: ["Interface"],
       tag: ["loading", "progress", "spinner", "animation", "web", "app", "user interface", "waiting", "circle", "loading indicator"],
       title: "Circular Loader"
     };
-    icon_circular_loader_svg_default = meta506;
+    icon_circular_loader_svg_default = meta530;
   }
 });
 
@@ -27942,12 +28734,12 @@ var init_icon_circular_loader_svg = __esm({
 var icon_clock_svg_exports = {};
 __export(icon_clock_svg_exports, {
   default: () => icon_clock_svg_default,
-  meta: () => meta507
+  meta: () => meta531
 });
-var meta507, icon_clock_svg_default;
+var meta531, icon_clock_svg_default;
 var init_icon_clock_svg = __esm({
   "lib/meta/icon_clock.svg.ts"() {
-    meta507 = {
+    meta531 = {
       "description": "A simple icon representing a clock, typically used to indicate time or schedule in user interfaces.",
       "category": [
         "Interface"
@@ -27965,7 +28757,7 @@ var init_icon_clock_svg = __esm({
       ],
       "title": "Clock"
     };
-    icon_clock_svg_default = meta507;
+    icon_clock_svg_default = meta531;
   }
 });
 
@@ -27973,12 +28765,12 @@ var init_icon_clock_svg = __esm({
 var icon_code_brackets_circled_svg_exports = {};
 __export(icon_code_brackets_circled_svg_exports, {
   default: () => icon_code_brackets_circled_svg_default,
-  meta: () => meta508
+  meta: () => meta532
 });
-var meta508, icon_code_brackets_circled_svg_default;
+var meta532, icon_code_brackets_circled_svg_default;
 var init_icon_code_brackets_circled_svg = __esm({
   "lib/meta/icon_code-brackets-circled.svg.ts"() {
-    meta508 = {
+    meta532 = {
       "description": "An icon of two curly brackets enclosed in a circle, representing code brackets circled symbol. This icon is commonly used in user interfaces for indicating code snippets or programming related content.",
       "category": [
         "Interface"
@@ -27997,7 +28789,7 @@ var init_icon_code_brackets_circled_svg = __esm({
       ],
       "title": "Code Brackets Circled"
     };
-    icon_code_brackets_circled_svg_default = meta508;
+    icon_code_brackets_circled_svg_default = meta532;
   }
 });
 
@@ -28005,12 +28797,12 @@ var init_icon_code_brackets_circled_svg = __esm({
 var icon_code_brackets_svg_exports = {};
 __export(icon_code_brackets_svg_exports, {
   default: () => icon_code_brackets_svg_default,
-  meta: () => meta509
+  meta: () => meta533
 });
-var meta509, icon_code_brackets_svg_default;
+var meta533, icon_code_brackets_svg_default;
 var init_icon_code_brackets_svg = __esm({
   "lib/meta/icon_code-brackets.svg.ts"() {
-    meta509 = {
+    meta533 = {
       "description": "The code-brackets icon represents the brackets used in coding to enclose blocks of code. It is commonly used to signify the beginning and end of a segment of code.",
       "category": [
         "Interface",
@@ -28030,7 +28822,7 @@ var init_icon_code_brackets_svg = __esm({
       ],
       "title": "Code Brackets"
     };
-    icon_code_brackets_svg_default = meta509;
+    icon_code_brackets_svg_default = meta533;
   }
 });
 
@@ -28038,12 +28830,12 @@ var init_icon_code_brackets_svg = __esm({
 var icon_code_chevrons_circled_svg_exports = {};
 __export(icon_code_chevrons_circled_svg_exports, {
   default: () => icon_code_chevrons_circled_svg_default,
-  meta: () => meta510
+  meta: () => meta534
 });
-var meta510, icon_code_chevrons_circled_svg_default;
+var meta534, icon_code_chevrons_circled_svg_default;
 var init_icon_code_chevrons_circled_svg = __esm({
   "lib/meta/icon_code-chevrons-circled.svg.ts"() {
-    meta510 = {
+    meta534 = {
       "description": "The code chevrons circled icon is a symbol that indicates a set of chevron arrows placed in a circular shape. This icon is commonly used in UI design to represent code snippets or navigation controls.",
       "category": [
         "Interface",
@@ -28062,7 +28854,7 @@ var init_icon_code_chevrons_circled_svg = __esm({
       ],
       "title": "Code Chevrons Circled"
     };
-    icon_code_chevrons_circled_svg_default = meta510;
+    icon_code_chevrons_circled_svg_default = meta534;
   }
 });
 
@@ -28070,12 +28862,12 @@ var init_icon_code_chevrons_circled_svg = __esm({
 var icon_code_chevrons_open_circled_svg_exports = {};
 __export(icon_code_chevrons_open_circled_svg_exports, {
   default: () => icon_code_chevrons_open_circled_svg_default,
-  meta: () => meta511
+  meta: () => meta535
 });
-var meta511, icon_code_chevrons_open_circled_svg_default;
+var meta535, icon_code_chevrons_open_circled_svg_default;
 var init_icon_code_chevrons_open_circled_svg = __esm({
   "lib/meta/icon_code-chevrons-open-circled.svg.ts"() {
-    meta511 = {
+    meta535 = {
       "description": "An icon representing open chevrons enclosed in circles, typically used to indicate expandable code or content in a user interface.",
       "category": [
         "Interface",
@@ -28095,7 +28887,7 @@ var init_icon_code_chevrons_open_circled_svg = __esm({
       ],
       "title": "Code Chevrons Open Circled"
     };
-    icon_code_chevrons_open_circled_svg_default = meta511;
+    icon_code_chevrons_open_circled_svg_default = meta535;
   }
 });
 
@@ -28103,12 +28895,12 @@ var init_icon_code_chevrons_open_circled_svg = __esm({
 var icon_code_chevrons_open_svg_exports = {};
 __export(icon_code_chevrons_open_svg_exports, {
   default: () => icon_code_chevrons_open_svg_default,
-  meta: () => meta512
+  meta: () => meta536
 });
-var meta512, icon_code_chevrons_open_svg_default;
+var meta536, icon_code_chevrons_open_svg_default;
 var init_icon_code_chevrons_open_svg = __esm({
   "lib/meta/icon_code-chevrons-open.svg.ts"() {
-    meta512 = {
+    meta536 = {
       "description": "An icon depicting open chevrons often associated with code editors or programming environments, representing the ability to expand or collapse code sections.",
       "category": [
         "Interface"
@@ -28127,7 +28919,7 @@ var init_icon_code_chevrons_open_svg = __esm({
       ],
       "title": "Code Chevrons Open"
     };
-    icon_code_chevrons_open_svg_default = meta512;
+    icon_code_chevrons_open_svg_default = meta536;
   }
 });
 
@@ -28135,12 +28927,12 @@ var init_icon_code_chevrons_open_svg = __esm({
 var icon_code_chevrons_svg_exports = {};
 __export(icon_code_chevrons_svg_exports, {
   default: () => icon_code_chevrons_svg_default,
-  meta: () => meta513
+  meta: () => meta537
 });
-var meta513, icon_code_chevrons_svg_default;
+var meta537, icon_code_chevrons_svg_default;
 var init_icon_code_chevrons_svg = __esm({
   "lib/meta/icon_code-chevrons.svg.ts"() {
-    meta513 = {
+    meta537 = {
       "description": "The code chevrons icon typically represents a set of instructions or commands, often used in programming or coding environments. It consists of two chevron arrows pointing towards each other, indicating a sequence of code blocks. This icon is commonly used in user interfaces related to coding, development, or software applications.",
       "category": [
         "Interface"
@@ -28159,7 +28951,7 @@ var init_icon_code_chevrons_svg = __esm({
       ],
       "title": "Code Chevrons"
     };
-    icon_code_chevrons_svg_default = meta513;
+    icon_code_chevrons_svg_default = meta537;
   }
 });
 
@@ -28167,12 +28959,12 @@ var init_icon_code_chevrons_svg = __esm({
 var icon_company_svg_exports = {};
 __export(icon_company_svg_exports, {
   default: () => icon_company_svg_default,
-  meta: () => meta514
+  meta: () => meta538
 });
-var meta514, icon_company_svg_default;
+var meta538, icon_company_svg_default;
 var init_icon_company_svg = __esm({
   "lib/meta/icon_company.svg.ts"() {
-    meta514 = {
+    meta538 = {
       "description": "The company icon represents a business or corporation. It can be used to symbolize a company, organization, or enterprise in user interfaces or presentations.",
       "category": [
         "Interface"
@@ -28190,7 +28982,7 @@ var init_icon_company_svg = __esm({
       ],
       "title": "Company"
     };
-    icon_company_svg_default = meta514;
+    icon_company_svg_default = meta538;
   }
 });
 
@@ -28198,12 +28990,12 @@ var init_icon_company_svg = __esm({
 var icon_dislike_svg_exports = {};
 __export(icon_dislike_svg_exports, {
   default: () => icon_dislike_svg_default,
-  meta: () => meta515
+  meta: () => meta539
 });
-var meta515, icon_dislike_svg_default;
+var meta539, icon_dislike_svg_default;
 var init_icon_dislike_svg = __esm({
   "lib/meta/icon_dislike.svg.ts"() {
-    meta515 = {
+    meta539 = {
       "description": "The dislike icon represents a negative sentiment towards content or an object. It is commonly used in user interfaces to express disapproval or to indicate that something is not liked.",
       "category": [
         "Interface",
@@ -28223,7 +29015,7 @@ var init_icon_dislike_svg = __esm({
       ],
       "title": "Dislike"
     };
-    icon_dislike_svg_default = meta515;
+    icon_dislike_svg_default = meta539;
   }
 });
 
@@ -28231,12 +29023,12 @@ var init_icon_dislike_svg = __esm({
 var icon_edit_fat_svg_exports = {};
 __export(icon_edit_fat_svg_exports, {
   default: () => icon_edit_fat_svg_default,
-  meta: () => meta516
+  meta: () => meta540
 });
-var meta516, icon_edit_fat_svg_default;
+var meta540, icon_edit_fat_svg_default;
 var init_icon_edit_fat_svg = __esm({
   "lib/meta/icon_edit-fat.svg.ts"() {
-    meta516 = {
+    meta540 = {
       "description": "The edit-fat icon is a bold and thick design of a pencil on a sheet of paper, symbolizing editing or making changes to content. It is commonly used in user interfaces for editing functionalities.",
       "category": [
         "Interface"
@@ -28255,7 +29047,7 @@ var init_icon_edit_fat_svg = __esm({
       ],
       "title": "Edit Fat"
     };
-    icon_edit_fat_svg_default = meta516;
+    icon_edit_fat_svg_default = meta540;
   }
 });
 
@@ -28263,12 +29055,12 @@ var init_icon_edit_fat_svg = __esm({
 var icon_edit_l_svg_exports = {};
 __export(icon_edit_l_svg_exports, {
   default: () => icon_edit_l_svg_default,
-  meta: () => meta517
+  meta: () => meta541
 });
-var meta517, icon_edit_l_svg_default;
+var meta541, icon_edit_l_svg_default;
 var init_icon_edit_l_svg = __esm({
   "lib/meta/icon_edit-l.svg.ts"() {
-    meta517 = {
+    meta541 = {
       "description": "The edit-l icon is used to represent an editing tool or feature. It typically signifies the ability to make changes or modifications to content or elements.",
       "category": [
         "Interface"
@@ -28286,7 +29078,7 @@ var init_icon_edit_l_svg = __esm({
       ],
       "title": "Edit Tool"
     };
-    icon_edit_l_svg_default = meta517;
+    icon_edit_l_svg_default = meta541;
   }
 });
 
@@ -28294,12 +29086,12 @@ var init_icon_edit_l_svg = __esm({
 var icon_edit_line_swirl_svg_exports = {};
 __export(icon_edit_line_swirl_svg_exports, {
   default: () => icon_edit_line_swirl_svg_default,
-  meta: () => meta518
+  meta: () => meta542
 });
-var meta518, icon_edit_line_swirl_svg_default;
+var meta542, icon_edit_line_swirl_svg_default;
 var init_icon_edit_line_swirl_svg = __esm({
   "lib/meta/icon_edit-line-swirl.svg.ts"() {
-    meta518 = {
+    meta542 = {
       "description": "The edit-line-swirl icon is a stylish and modern design featuring a swirling line that symbolizes creativity and editing. This icon is perfect for representing editing functions in user interfaces.",
       "category": [
         "Interface"
@@ -28317,7 +29109,7 @@ var init_icon_edit_line_swirl_svg = __esm({
       ],
       "title": "Edit Line Swirl"
     };
-    icon_edit_line_swirl_svg_default = meta518;
+    icon_edit_line_swirl_svg_default = meta542;
   }
 });
 
@@ -28325,12 +29117,12 @@ var init_icon_edit_line_swirl_svg = __esm({
 var icon_edit_line_svg_exports = {};
 __export(icon_edit_line_svg_exports, {
   default: () => icon_edit_line_svg_default,
-  meta: () => meta519
+  meta: () => meta543
 });
-var meta519, icon_edit_line_svg_default;
+var meta543, icon_edit_line_svg_default;
 var init_icon_edit_line_svg = __esm({
   "lib/meta/icon_edit-line.svg.ts"() {
-    meta519 = {
+    meta543 = {
       "description": "The edit-line icon is a simple and modern representation of an editing tool, commonly used to indicate an option for making changes or updates to content. It features a pencil or pen-like element that signifies the editing process.",
       "category": [
         "Interface"
@@ -28349,7 +29141,7 @@ var init_icon_edit_line_svg = __esm({
       ],
       "title": "Edit Line"
     };
-    icon_edit_line_svg_default = meta519;
+    icon_edit_line_svg_default = meta543;
   }
 });
 
@@ -28357,12 +29149,12 @@ var init_icon_edit_line_svg = __esm({
 var icon_edit_m_svg_exports = {};
 __export(icon_edit_m_svg_exports, {
   default: () => icon_edit_m_svg_default,
-  meta: () => meta520
+  meta: () => meta544
 });
-var meta520, icon_edit_m_svg_default;
+var meta544, icon_edit_m_svg_default;
 var init_icon_edit_m_svg = __esm({
   "lib/meta/icon_edit-m.svg.ts"() {
-    meta520 = {
+    meta544 = {
       "description": "The edit-m icon is used to represent an edit function or feature in user interfaces. It typically indicates the option to modify or update existing content.",
       "category": [
         "Interface"
@@ -28381,7 +29173,7 @@ var init_icon_edit_m_svg = __esm({
       ],
       "title": "Edit (Medium)"
     };
-    icon_edit_m_svg_default = meta520;
+    icon_edit_m_svg_default = meta544;
   }
 });
 
@@ -28389,12 +29181,12 @@ var init_icon_edit_m_svg = __esm({
 var icon_edit_s_svg_exports = {};
 __export(icon_edit_s_svg_exports, {
   default: () => icon_edit_s_svg_default,
-  meta: () => meta521
+  meta: () => meta545
 });
-var meta521, icon_edit_s_svg_default;
+var meta545, icon_edit_s_svg_default;
 var init_icon_edit_s_svg = __esm({
   "lib/meta/icon_edit-s.svg.ts"() {
-    meta521 = {
+    meta545 = {
       "description": "The 'edit-s' icon from the user interface category is a small pencil symbol, typically used to represent the action of editing or modifying content. This icon is commonly used in various applications and software interfaces for indicating the ability to make changes to text or images.",
       "category": [
         "Interface"
@@ -28413,7 +29205,7 @@ var init_icon_edit_s_svg = __esm({
       ],
       "title": "Edit Icon"
     };
-    icon_edit_s_svg_default = meta521;
+    icon_edit_s_svg_default = meta545;
   }
 });
 
@@ -28421,12 +29213,12 @@ var init_icon_edit_s_svg = __esm({
 var icon_exclamation_mark_fat_svg_exports = {};
 __export(icon_exclamation_mark_fat_svg_exports, {
   default: () => icon_exclamation_mark_fat_svg_default,
-  meta: () => meta522
+  meta: () => meta546
 });
-var meta522, icon_exclamation_mark_fat_svg_default;
+var meta546, icon_exclamation_mark_fat_svg_default;
 var init_icon_exclamation_mark_fat_svg = __esm({
   "lib/meta/icon_exclamation-mark-fat.svg.ts"() {
-    meta522 = {
+    meta546 = {
       "description": "An icon of a fat exclamation mark, commonly used to indicate warnings or important information in user interfaces.",
       "category": [
         "Interface"
@@ -28445,7 +29237,7 @@ var init_icon_exclamation_mark_fat_svg = __esm({
       ],
       "title": "Exclamation Mark Fat"
     };
-    icon_exclamation_mark_fat_svg_default = meta522;
+    icon_exclamation_mark_fat_svg_default = meta546;
   }
 });
 
@@ -28453,12 +29245,12 @@ var init_icon_exclamation_mark_fat_svg = __esm({
 var icon_exclamation_mark_l_svg_exports = {};
 __export(icon_exclamation_mark_l_svg_exports, {
   default: () => icon_exclamation_mark_l_svg_default,
-  meta: () => meta523
+  meta: () => meta547
 });
-var meta523, icon_exclamation_mark_l_svg_default;
+var meta547, icon_exclamation_mark_l_svg_default;
 var init_icon_exclamation_mark_l_svg = __esm({
   "lib/meta/icon_exclamation-mark-l.svg.ts"() {
-    meta523 = {
+    meta547 = {
       "description": "An exclamation mark icon suitable for use in user interfaces to indicate warnings or important information.",
       "category": [
         "Interface",
@@ -28478,7 +29270,7 @@ var init_icon_exclamation_mark_l_svg = __esm({
       ],
       "title": "Exclamation Mark L"
     };
-    icon_exclamation_mark_l_svg_default = meta523;
+    icon_exclamation_mark_l_svg_default = meta547;
   }
 });
 
@@ -28486,12 +29278,12 @@ var init_icon_exclamation_mark_l_svg = __esm({
 var icon_exclamation_mark_m_svg_exports = {};
 __export(icon_exclamation_mark_m_svg_exports, {
   default: () => icon_exclamation_mark_m_svg_default,
-  meta: () => meta524
+  meta: () => meta548
 });
-var meta524, icon_exclamation_mark_m_svg_default;
+var meta548, icon_exclamation_mark_m_svg_default;
 var init_icon_exclamation_mark_m_svg = __esm({
   "lib/meta/icon_exclamation-mark-m.svg.ts"() {
-    meta524 = {
+    meta548 = {
       "description": "An icon depicting a bold exclamation mark inside a square container, often used to indicate a warning or important information in user interfaces.",
       "category": [
         "Interface",
@@ -28511,7 +29303,7 @@ var init_icon_exclamation_mark_m_svg = __esm({
       ],
       "title": "Exclamation Mark M"
     };
-    icon_exclamation_mark_m_svg_default = meta524;
+    icon_exclamation_mark_m_svg_default = meta548;
   }
 });
 
@@ -28519,12 +29311,12 @@ var init_icon_exclamation_mark_m_svg = __esm({
 var icon_exclamation_mark_s_svg_exports = {};
 __export(icon_exclamation_mark_s_svg_exports, {
   default: () => icon_exclamation_mark_s_svg_default,
-  meta: () => meta525
+  meta: () => meta549
 });
-var meta525, icon_exclamation_mark_s_svg_default;
+var meta549, icon_exclamation_mark_s_svg_default;
 var init_icon_exclamation_mark_s_svg = __esm({
   "lib/meta/icon_exclamation-mark-s.svg.ts"() {
-    meta525 = {
+    meta549 = {
       "description": "An exclamation mark icon typically used to draw attention to important messages or warnings in user interfaces.",
       "category": [
         "Interface",
@@ -28543,7 +29335,7 @@ var init_icon_exclamation_mark_s_svg = __esm({
       ],
       "title": "Exclamation Mark"
     };
-    icon_exclamation_mark_s_svg_default = meta525;
+    icon_exclamation_mark_s_svg_default = meta549;
   }
 });
 
@@ -28551,12 +29343,12 @@ var init_icon_exclamation_mark_s_svg = __esm({
 var icon_female_simplified_svg_exports = {};
 __export(icon_female_simplified_svg_exports, {
   default: () => icon_female_simplified_svg_default,
-  meta: () => meta526
+  meta: () => meta550
 });
-var meta526, icon_female_simplified_svg_default;
+var meta550, icon_female_simplified_svg_default;
 var init_icon_female_simplified_svg = __esm({
   "lib/meta/icon_female-simplified.svg.ts"() {
-    meta526 = {
+    meta550 = {
       "description": "A simplified icon representing a female user or character. The design is minimalistic and easy to recognize.",
       "category": [
         "Interface"
@@ -28575,7 +29367,7 @@ var init_icon_female_simplified_svg = __esm({
       ],
       "title": "Female Simplified"
     };
-    icon_female_simplified_svg_default = meta526;
+    icon_female_simplified_svg_default = meta550;
   }
 });
 
@@ -28583,12 +29375,12 @@ var init_icon_female_simplified_svg = __esm({
 var icon_file_add_2_67_svg_exports = {};
 __export(icon_file_add_2_67_svg_exports, {
   default: () => icon_file_add_2_67_svg_default,
-  meta: () => meta527
+  meta: () => meta551
 });
-var meta527, icon_file_add_2_67_svg_default;
+var meta551, icon_file_add_2_67_svg_default;
 var init_icon_file_add_2_67_svg = __esm({
   "lib/meta/icon_file-add 2-67.svg.ts"() {
-    meta527 = {
+    meta551 = {
       "description": "The file-add 2-67 icon is an icon representing adding a new file to a user interface. It typically signifies the action of creating a new file or document.",
       "category": [
         "Interface",
@@ -28608,7 +29400,7 @@ var init_icon_file_add_2_67_svg = __esm({
       ],
       "title": "File Add 2-67"
     };
-    icon_file_add_2_67_svg_default = meta527;
+    icon_file_add_2_67_svg_default = meta551;
   }
 });
 
@@ -28616,12 +29408,12 @@ var init_icon_file_add_2_67_svg = __esm({
 var icon_file_add_2_69_svg_exports = {};
 __export(icon_file_add_2_69_svg_exports, {
   default: () => icon_file_add_2_69_svg_default,
-  meta: () => meta528
+  meta: () => meta552
 });
-var meta528, icon_file_add_2_69_svg_default;
+var meta552, icon_file_add_2_69_svg_default;
 var init_icon_file_add_2_69_svg = __esm({
   "lib/meta/icon_file-add 2-69.svg.ts"() {
-    meta528 = {
+    meta552 = {
       "description": "A file with a plus sign indicating the action of adding a new file. This icon is designed in a simple and modern style.",
       "category": [
         "Interface",
@@ -28641,7 +29433,7 @@ var init_icon_file_add_2_69_svg = __esm({
       ],
       "title": "File Add"
     };
-    icon_file_add_2_69_svg_default = meta528;
+    icon_file_add_2_69_svg_default = meta552;
   }
 });
 
@@ -28649,12 +29441,12 @@ var init_icon_file_add_2_69_svg = __esm({
 var icon_file_add_svg_exports = {};
 __export(icon_file_add_svg_exports, {
   default: () => icon_file_add_svg_default,
-  meta: () => meta529
+  meta: () => meta553
 });
-var meta529, icon_file_add_svg_default;
+var meta553, icon_file_add_svg_default;
 var init_icon_file_add_svg = __esm({
   "lib/meta/icon_file-add.svg.ts"() {
-    meta529 = {
+    meta553 = {
       "description": "The file-add icon is used to symbolize the action of adding a new file or document. It typically features a blank document with a 'plus' sign to signify addition.",
       "category": [
         "Interface",
@@ -28674,7 +29466,7 @@ var init_icon_file_add_svg = __esm({
       ],
       "title": "File Add"
     };
-    icon_file_add_svg_default = meta529;
+    icon_file_add_svg_default = meta553;
   }
 });
 
@@ -28682,12 +29474,12 @@ var init_icon_file_add_svg = __esm({
 var icon_file_archive_svg_exports = {};
 __export(icon_file_archive_svg_exports, {
   default: () => icon_file_archive_svg_default,
-  meta: () => meta530
+  meta: () => meta554
 });
-var meta530, icon_file_archive_svg_default;
+var meta554, icon_file_archive_svg_default;
 var init_icon_file_archive_svg = __esm({
   "lib/meta/icon_file-archive.svg.ts"() {
-    meta530 = {
+    meta554 = {
       "description": "The file-archive icon represents a compressed or archived file. It is commonly used to symbolize a collection of files that have been compressed into a single archive file.",
       "category": [
         "Interface",
@@ -28707,7 +29499,7 @@ var init_icon_file_archive_svg = __esm({
       ],
       "title": "File Archive"
     };
-    icon_file_archive_svg_default = meta530;
+    icon_file_archive_svg_default = meta554;
   }
 });
 
@@ -28715,12 +29507,12 @@ var init_icon_file_archive_svg = __esm({
 var icon_file_arrow_up_svg_exports = {};
 __export(icon_file_arrow_up_svg_exports, {
   default: () => icon_file_arrow_up_svg_default,
-  meta: () => meta531
+  meta: () => meta555
 });
-var meta531, icon_file_arrow_up_svg_default;
+var meta555, icon_file_arrow_up_svg_default;
 var init_icon_file_arrow_up_svg = __esm({
   "lib/meta/icon_file-arrow-up.svg.ts"() {
-    meta531 = {
+    meta555 = {
       "description": "A simple icon featuring an arrow pointing upwards, indicating the action of moving or uploading a file. This icon is commonly used in user interfaces to signify a file upload operation.",
       "category": [
         "Arrows",
@@ -28741,7 +29533,7 @@ var init_icon_file_arrow_up_svg = __esm({
       ],
       "title": "File Arrow Up"
     };
-    icon_file_arrow_up_svg_default = meta531;
+    icon_file_arrow_up_svg_default = meta555;
   }
 });
 
@@ -28749,12 +29541,12 @@ var init_icon_file_arrow_up_svg = __esm({
 var icon_file_binary_svg_exports = {};
 __export(icon_file_binary_svg_exports, {
   default: () => icon_file_binary_svg_default,
-  meta: () => meta532
+  meta: () => meta556
 });
-var meta532, icon_file_binary_svg_default;
+var meta556, icon_file_binary_svg_default;
 var init_icon_file_binary_svg = __esm({
   "lib/meta/icon_file-binary.svg.ts"() {
-    meta532 = {
+    meta556 = {
       "description": "A binary file icon typically represents a file that contains compiled code or data in a format that is not human-readable. This icon is commonly used in user interfaces to distinguish binary files from other file types.",
       "category": [
         "Interface",
@@ -28774,7 +29566,7 @@ var init_icon_file_binary_svg = __esm({
       ],
       "title": "File Binary"
     };
-    icon_file_binary_svg_default = meta532;
+    icon_file_binary_svg_default = meta556;
   }
 });
 
@@ -28782,12 +29574,12 @@ var init_icon_file_binary_svg = __esm({
 var icon_file_broken_heart_2_svg_exports = {};
 __export(icon_file_broken_heart_2_svg_exports, {
   default: () => icon_file_broken_heart_2_svg_default,
-  meta: () => meta533
+  meta: () => meta557
 });
-var meta533, icon_file_broken_heart_2_svg_default;
+var meta557, icon_file_broken_heart_2_svg_default;
 var init_icon_file_broken_heart_2_svg = __esm({
   "lib/meta/icon_file-broken-heart 2.svg.ts"() {
-    meta533 = {
+    meta557 = {
       "description": "An icon of a broken heart symbol overlaid on top of a file document, representing a file that cannot be opened due to a corrupted or broken heart. This icon can be used in user interfaces to indicate a broken or inaccessible file.",
       "category": [
         "Interface",
@@ -28807,7 +29599,7 @@ var init_icon_file_broken_heart_2_svg = __esm({
       ],
       "title": "File Broken Heart"
     };
-    icon_file_broken_heart_2_svg_default = meta533;
+    icon_file_broken_heart_2_svg_default = meta557;
   }
 });
 
@@ -28815,12 +29607,12 @@ var init_icon_file_broken_heart_2_svg = __esm({
 var icon_file_broken_heart_svg_exports = {};
 __export(icon_file_broken_heart_svg_exports, {
   default: () => icon_file_broken_heart_svg_default,
-  meta: () => meta534
+  meta: () => meta558
 });
-var meta534, icon_file_broken_heart_svg_default;
+var meta558, icon_file_broken_heart_svg_default;
 var init_icon_file_broken_heart_svg = __esm({
   "lib/meta/icon_file-broken-heart.svg.ts"() {
-    meta534 = {
+    meta558 = {
       "description": "A broken heart shape symbolizing a broken file, typically used to represent a file error or corrupted data in user interface designs.",
       "category": [
         "Interface",
@@ -28840,7 +29632,7 @@ var init_icon_file_broken_heart_svg = __esm({
       ],
       "title": "File Broken Heart"
     };
-    icon_file_broken_heart_svg_default = meta534;
+    icon_file_broken_heart_svg_default = meta558;
   }
 });
 
@@ -28848,12 +29640,12 @@ var init_icon_file_broken_heart_svg = __esm({
 var icon_file_check_2_svg_exports = {};
 __export(icon_file_check_2_svg_exports, {
   default: () => icon_file_check_2_svg_default,
-  meta: () => meta535
+  meta: () => meta559
 });
-var meta535, icon_file_check_2_svg_default;
+var meta559, icon_file_check_2_svg_default;
 var init_icon_file_check_2_svg = __esm({
   "lib/meta/icon_file-check 2.svg.ts"() {
-    meta535 = {
+    meta559 = {
       "description": "The file-check 2 icon represents a document with a checkmark, indicating that the file has been verified or approved. This icon is commonly used in user interfaces to show that a task has been completed successfully.",
       "category": [
         "Document",
@@ -28873,7 +29665,7 @@ var init_icon_file_check_2_svg = __esm({
       ],
       "title": "File Check 2"
     };
-    icon_file_check_2_svg_default = meta535;
+    icon_file_check_2_svg_default = meta559;
   }
 });
 
@@ -28881,12 +29673,12 @@ var init_icon_file_check_2_svg = __esm({
 var icon_file_check_svg_exports = {};
 __export(icon_file_check_svg_exports, {
   default: () => icon_file_check_svg_default,
-  meta: () => meta536
+  meta: () => meta560
 });
-var meta536, icon_file_check_svg_default;
+var meta560, icon_file_check_svg_default;
 var init_icon_file_check_svg = __esm({
   "lib/meta/icon_file-check.svg.ts"() {
-    meta536 = {
+    meta560 = {
       "description": "The file-check icon represents a document or file that has been verified or approved with a checkmark. It is commonly used in user interfaces to indicate a successful action or completion.",
       "category": [
         "Interface",
@@ -28905,7 +29697,7 @@ var init_icon_file_check_svg = __esm({
       ],
       "title": "File Check"
     };
-    icon_file_check_svg_default = meta536;
+    icon_file_check_svg_default = meta560;
   }
 });
 
@@ -28913,12 +29705,12 @@ var init_icon_file_check_svg = __esm({
 var icon_file_cloud_svg_exports = {};
 __export(icon_file_cloud_svg_exports, {
   default: () => icon_file_cloud_svg_default,
-  meta: () => meta537
+  meta: () => meta561
 });
-var meta537, icon_file_cloud_svg_default;
+var meta561, icon_file_cloud_svg_default;
 var init_icon_file_cloud_svg = __esm({
   "lib/meta/icon_file-cloud.svg.ts"() {
-    meta537 = {
+    meta561 = {
       "description": "The file-cloud icon represents a file storage service that allows users to store and access their files from the cloud. It symbolizes cloud-based file management and sharing.",
       "category": [
         "Interface",
@@ -28938,7 +29730,7 @@ var init_icon_file_cloud_svg = __esm({
       ],
       "title": "File Cloud"
     };
-    icon_file_cloud_svg_default = meta537;
+    icon_file_cloud_svg_default = meta561;
   }
 });
 
@@ -28946,12 +29738,12 @@ var init_icon_file_cloud_svg = __esm({
 var icon_file_code_svg_exports = {};
 __export(icon_file_code_svg_exports, {
   default: () => icon_file_code_svg_default,
-  meta: () => meta538
+  meta: () => meta562
 });
-var meta538, icon_file_code_svg_default;
+var meta562, icon_file_code_svg_default;
 var init_icon_file_code_svg = __esm({
   "lib/meta/icon_file-code.svg.ts"() {
-    meta538 = {
+    meta562 = {
       "description": "The file-code icon represents a document containing code or programming scripts. It is commonly used to indicate files related to software development, coding, or programming languages.",
       "category": [
         "Document",
@@ -28971,7 +29763,7 @@ var init_icon_file_code_svg = __esm({
       ],
       "title": "File Code"
     };
-    icon_file_code_svg_default = meta538;
+    icon_file_code_svg_default = meta562;
   }
 });
 
@@ -28979,12 +29771,12 @@ var init_icon_file_code_svg = __esm({
 var icon_file_columns_svg_exports = {};
 __export(icon_file_columns_svg_exports, {
   default: () => icon_file_columns_svg_default,
-  meta: () => meta539
+  meta: () => meta563
 });
-var meta539, icon_file_columns_svg_default;
+var meta563, icon_file_columns_svg_default;
 var init_icon_file_columns_svg = __esm({
   "lib/meta/icon_file-columns.svg.ts"() {
-    meta539 = {
+    meta563 = {
       "description": "The file-columns icon represents a set of columns or a table structure. It is often used to indicate a spreadsheet or tabular data in a document or interface.",
       "category": [
         "Interface",
@@ -29004,7 +29796,7 @@ var init_icon_file_columns_svg = __esm({
       ],
       "title": "File Columns"
     };
-    icon_file_columns_svg_default = meta539;
+    icon_file_columns_svg_default = meta563;
   }
 });
 
@@ -29012,12 +29804,12 @@ var init_icon_file_columns_svg = __esm({
 var icon_file_edit_2_svg_exports = {};
 __export(icon_file_edit_2_svg_exports, {
   default: () => icon_file_edit_2_svg_default,
-  meta: () => meta540
+  meta: () => meta564
 });
-var meta540, icon_file_edit_2_svg_default;
+var meta564, icon_file_edit_2_svg_default;
 var init_icon_file_edit_2_svg = __esm({
   "lib/meta/icon_file-edit 2.svg.ts"() {
-    meta540 = {
+    meta564 = {
       "description": "An icon representing a file being edited, with two overlapping sheets indicating multiple edits. This icon is commonly used in user interfaces to denote the action of editing a file.",
       "category": [
         "Interface",
@@ -29037,7 +29829,7 @@ var init_icon_file_edit_2_svg = __esm({
       ],
       "title": "File Edit 2"
     };
-    icon_file_edit_2_svg_default = meta540;
+    icon_file_edit_2_svg_default = meta564;
   }
 });
 
@@ -29045,12 +29837,12 @@ var init_icon_file_edit_2_svg = __esm({
 var icon_file_edit_svg_exports = {};
 __export(icon_file_edit_svg_exports, {
   default: () => icon_file_edit_svg_default,
-  meta: () => meta541
+  meta: () => meta565
 });
-var meta541, icon_file_edit_svg_default;
+var meta565, icon_file_edit_svg_default;
 var init_icon_file_edit_svg = __esm({
   "lib/meta/icon_file-edit.svg.ts"() {
-    meta541 = {
+    meta565 = {
       "description": "The file-edit icon represents an editable file or document. It typically signifies the ability to modify or update the content within the file.",
       "category": [
         "Interface",
@@ -29070,7 +29862,7 @@ var init_icon_file_edit_svg = __esm({
       ],
       "title": "File Edit"
     };
-    icon_file_edit_svg_default = meta541;
+    icon_file_edit_svg_default = meta565;
   }
 });
 
@@ -29078,12 +29870,12 @@ var init_icon_file_edit_svg = __esm({
 var icon_file_exclamation_mark_2_svg_exports = {};
 __export(icon_file_exclamation_mark_2_svg_exports, {
   default: () => icon_file_exclamation_mark_2_svg_default,
-  meta: () => meta542
+  meta: () => meta566
 });
-var meta542, icon_file_exclamation_mark_2_svg_default;
+var meta566, icon_file_exclamation_mark_2_svg_default;
 var init_icon_file_exclamation_mark_2_svg = __esm({
   "lib/meta/icon_file-exclamation-mark-2.svg.ts"() {
-    meta542 = {
+    meta566 = {
       "description": "A file icon with an exclamation mark, indicating a warning or alert associated with the file. Suitable for use in UI designs to attract attention to important messages or errors.",
       "category": [
         "Interface",
@@ -29103,7 +29895,7 @@ var init_icon_file_exclamation_mark_2_svg = __esm({
       ],
       "title": "File Exclamation Mark 2"
     };
-    icon_file_exclamation_mark_2_svg_default = meta542;
+    icon_file_exclamation_mark_2_svg_default = meta566;
   }
 });
 
@@ -29111,12 +29903,12 @@ var init_icon_file_exclamation_mark_2_svg = __esm({
 var icon_file_exclamation_mark_svg_exports = {};
 __export(icon_file_exclamation_mark_svg_exports, {
   default: () => icon_file_exclamation_mark_svg_default,
-  meta: () => meta543
+  meta: () => meta567
 });
-var meta543, icon_file_exclamation_mark_svg_default;
+var meta567, icon_file_exclamation_mark_svg_default;
 var init_icon_file_exclamation_mark_svg = __esm({
   "lib/meta/icon_file-exclamation-mark.svg.ts"() {
-    meta543 = {
+    meta567 = {
       "description": "An icon depicting a file with an exclamation mark, commonly used to indicate important or urgent information related to a document or file.",
       "category": [
         "Interface",
@@ -29136,7 +29928,7 @@ var init_icon_file_exclamation_mark_svg = __esm({
       ],
       "title": "File Exclamation Mark"
     };
-    icon_file_exclamation_mark_svg_default = meta543;
+    icon_file_exclamation_mark_svg_default = meta567;
   }
 });
 
@@ -29144,12 +29936,12 @@ var init_icon_file_exclamation_mark_svg = __esm({
 var icon_file_graphs_svg_exports = {};
 __export(icon_file_graphs_svg_exports, {
   default: () => icon_file_graphs_svg_default,
-  meta: () => meta544
+  meta: () => meta568
 });
-var meta544, icon_file_graphs_svg_default;
+var meta568, icon_file_graphs_svg_default;
 var init_icon_file_graphs_svg = __esm({
   "lib/meta/icon_file-graphs.svg.ts"() {
-    meta544 = {
+    meta568 = {
       "description": "An icon representing a file related to data graphs or charts, often used in user interfaces to symbolize data visualization or analysis.",
       "category": [
         "Interface",
@@ -29169,7 +29961,7 @@ var init_icon_file_graphs_svg = __esm({
       ],
       "title": "File Graphs"
     };
-    icon_file_graphs_svg_default = meta544;
+    icon_file_graphs_svg_default = meta568;
   }
 });
 
@@ -29177,12 +29969,12 @@ var init_icon_file_graphs_svg = __esm({
 var icon_file_heart_2_svg_exports = {};
 __export(icon_file_heart_2_svg_exports, {
   default: () => icon_file_heart_2_svg_default,
-  meta: () => meta545
+  meta: () => meta569
 });
-var meta545, icon_file_heart_2_svg_default;
+var meta569, icon_file_heart_2_svg_default;
 var init_icon_file_heart_2_svg = __esm({
   "lib/meta/icon_file-heart 2.svg.ts"() {
-    meta545 = {
+    meta569 = {
       "description": "A heart symbol inside a file icon, representing a file related to love or favorite content.",
       "category": [
         "Interface",
@@ -29203,7 +29995,7 @@ var init_icon_file_heart_2_svg = __esm({
       ],
       "title": "File Heart 2"
     };
-    icon_file_heart_2_svg_default = meta545;
+    icon_file_heart_2_svg_default = meta569;
   }
 });
 
@@ -29211,12 +30003,12 @@ var init_icon_file_heart_2_svg = __esm({
 var icon_file_heart_svg_exports = {};
 __export(icon_file_heart_svg_exports, {
   default: () => icon_file_heart_svg_default,
-  meta: () => meta546
+  meta: () => meta570
 });
-var meta546, icon_file_heart_svg_default;
+var meta570, icon_file_heart_svg_default;
 var init_icon_file_heart_svg = __esm({
   "lib/meta/icon_file-heart.svg.ts"() {
-    meta546 = {
+    meta570 = {
       "description": "A heart symbol representing love or favorite content often used in user interfaces to denote saving or liking a file.",
       "category": [
         "Interface",
@@ -29236,7 +30028,7 @@ var init_icon_file_heart_svg = __esm({
       ],
       "title": "File Heart"
     };
-    icon_file_heart_svg_default = meta546;
+    icon_file_heart_svg_default = meta570;
   }
 });
 
@@ -29244,12 +30036,12 @@ var init_icon_file_heart_svg = __esm({
 var icon_file_info_2_svg_exports = {};
 __export(icon_file_info_2_svg_exports, {
   default: () => icon_file_info_2_svg_default,
-  meta: () => meta547
+  meta: () => meta571
 });
-var meta547, icon_file_info_2_svg_default;
+var meta571, icon_file_info_2_svg_default;
 var init_icon_file_info_2_svg = __esm({
   "lib/meta/icon_file-info-2.svg.ts"() {
-    meta547 = {
+    meta571 = {
       "description": "A detailed icon representing information or details about a file. It includes a document with a magnifying glass signifying inspection or analysis.",
       "category": [
         "Document",
@@ -29269,7 +30061,7 @@ var init_icon_file_info_2_svg = __esm({
       ],
       "title": "File Information 2"
     };
-    icon_file_info_2_svg_default = meta547;
+    icon_file_info_2_svg_default = meta571;
   }
 });
 
@@ -29277,12 +30069,12 @@ var init_icon_file_info_2_svg = __esm({
 var icon_file_info_svg_exports = {};
 __export(icon_file_info_svg_exports, {
   default: () => icon_file_info_svg_default,
-  meta: () => meta548
+  meta: () => meta572
 });
-var meta548, icon_file_info_svg_default;
+var meta572, icon_file_info_svg_default;
 var init_icon_file_info_svg = __esm({
   "lib/meta/icon_file-info.svg.ts"() {
-    meta548 = {
+    meta572 = {
       "description": "The file-info icon is used to represent information or details about a file, such as file size, type, or other metadata.",
       "category": [
         "Interface",
@@ -29300,7 +30092,7 @@ var init_icon_file_info_svg = __esm({
       ],
       "title": "File Information"
     };
-    icon_file_info_svg_default = meta548;
+    icon_file_info_svg_default = meta572;
   }
 });
 
@@ -29308,12 +30100,12 @@ var init_icon_file_info_svg = __esm({
 var icon_file_invisible_2_svg_exports = {};
 __export(icon_file_invisible_2_svg_exports, {
   default: () => icon_file_invisible_2_svg_default,
-  meta: () => meta549
+  meta: () => meta573
 });
-var meta549, icon_file_invisible_2_svg_default;
+var meta573, icon_file_invisible_2_svg_default;
 var init_icon_file_invisible_2_svg = __esm({
   "lib/meta/icon_file-invisible 2.svg.ts"() {
-    meta549 = {
+    meta573 = {
       "description": "The file-invisible icon represents a hidden or invisible file. It is commonly used to symbolize files that are not visible or accessible to the user. The icon typically features a transparent or faded appearance to convey its hidden nature.",
       "category": [
         "Interface",
@@ -29333,7 +30125,7 @@ var init_icon_file_invisible_2_svg = __esm({
       ],
       "title": "File Invisible"
     };
-    icon_file_invisible_2_svg_default = meta549;
+    icon_file_invisible_2_svg_default = meta573;
   }
 });
 
@@ -29341,12 +30133,12 @@ var init_icon_file_invisible_2_svg = __esm({
 var icon_file_invisible_svg_exports = {};
 __export(icon_file_invisible_svg_exports, {
   default: () => icon_file_invisible_svg_default,
-  meta: () => meta550
+  meta: () => meta574
 });
-var meta550, icon_file_invisible_svg_default;
+var meta574, icon_file_invisible_svg_default;
 var init_icon_file_invisible_svg = __esm({
   "lib/meta/icon_file-invisible.svg.ts"() {
-    meta550 = {
+    meta574 = {
       "description": "The file-invisible icon represents a file that is hidden or invisible. It is commonly used to indicate a file that is not currently visible or accessible.",
       "category": [
         "Interface",
@@ -29366,7 +30158,7 @@ var init_icon_file_invisible_svg = __esm({
       ],
       "title": "File Invisible"
     };
-    icon_file_invisible_svg_default = meta550;
+    icon_file_invisible_svg_default = meta574;
   }
 });
 
@@ -29374,12 +30166,12 @@ var init_icon_file_invisible_svg = __esm({
 var icon_file_multiply_svg_exports = {};
 __export(icon_file_multiply_svg_exports, {
   default: () => icon_file_multiply_svg_default,
-  meta: () => meta551
+  meta: () => meta575
 });
-var meta551, icon_file_multiply_svg_default;
+var meta575, icon_file_multiply_svg_default;
 var init_icon_file_multiply_svg = __esm({
   "lib/meta/icon_file-multiply.svg.ts"() {
-    meta551 = {
+    meta575 = {
       "description": "A file icon with a multiplication symbol, indicating the ability to perform a multiply action on the file contents. This icon is commonly used in user interfaces for functions such as file multiplication or duplication.",
       "category": [
         "Interface",
@@ -29398,7 +30190,7 @@ var init_icon_file_multiply_svg = __esm({
       ],
       "title": "File Multiply"
     };
-    icon_file_multiply_svg_default = meta551;
+    icon_file_multiply_svg_default = meta575;
   }
 });
 
@@ -29406,12 +30198,12 @@ var init_icon_file_multiply_svg = __esm({
 var icon_file_question_mark_2_svg_exports = {};
 __export(icon_file_question_mark_2_svg_exports, {
   default: () => icon_file_question_mark_2_svg_default,
-  meta: () => meta552
+  meta: () => meta576
 });
-var meta552, icon_file_question_mark_2_svg_default;
+var meta576, icon_file_question_mark_2_svg_default;
 var init_icon_file_question_mark_2_svg = __esm({
   "lib/meta/icon_file-question-mark-2.svg.ts"() {
-    meta552 = {
+    meta576 = {
       "description": "A file icon with a question mark symbol in the center, indicating uncertainty or a need for assistance.",
       "category": [
         "Interface",
@@ -29431,7 +30223,7 @@ var init_icon_file_question_mark_2_svg = __esm({
       ],
       "title": "File Question Mark 2"
     };
-    icon_file_question_mark_2_svg_default = meta552;
+    icon_file_question_mark_2_svg_default = meta576;
   }
 });
 
@@ -29439,12 +30231,12 @@ var init_icon_file_question_mark_2_svg = __esm({
 var icon_file_question_mark_svg_exports = {};
 __export(icon_file_question_mark_svg_exports, {
   default: () => icon_file_question_mark_svg_default,
-  meta: () => meta553
+  meta: () => meta577
 });
-var meta553, icon_file_question_mark_svg_default;
+var meta577, icon_file_question_mark_svg_default;
 var init_icon_file_question_mark_svg = __esm({
   "lib/meta/icon_file-question-mark.svg.ts"() {
-    meta553 = {
+    meta577 = {
       "description": "An icon representing a file with a question mark symbol, typically used to indicate an unknown or unsupported file format.",
       "category": [
         "Interface",
@@ -29463,7 +30255,7 @@ var init_icon_file_question_mark_svg = __esm({
       ],
       "title": "File Question Mark"
     };
-    icon_file_question_mark_svg_default = meta553;
+    icon_file_question_mark_svg_default = meta577;
   }
 });
 
@@ -29471,12 +30263,12 @@ var init_icon_file_question_mark_svg = __esm({
 var icon_file_search_2_svg_exports = {};
 __export(icon_file_search_2_svg_exports, {
   default: () => icon_file_search_2_svg_default,
-  meta: () => meta554
+  meta: () => meta578
 });
-var meta554, icon_file_search_2_svg_default;
+var meta578, icon_file_search_2_svg_default;
 var init_icon_file_search_2_svg = __esm({
   "lib/meta/icon_file-search 2.svg.ts"() {
-    meta554 = {
+    meta578 = {
       "description": "This icon depicts a magnifying glass hovering over a file, symbolizing a search function within a file. It can be used to represent search, explore, or browse actions within a document or file system.",
       "category": [
         "Interface",
@@ -29496,7 +30288,7 @@ var init_icon_file_search_2_svg = __esm({
       ],
       "title": "File Search 2"
     };
-    icon_file_search_2_svg_default = meta554;
+    icon_file_search_2_svg_default = meta578;
   }
 });
 
@@ -29504,12 +30296,12 @@ var init_icon_file_search_2_svg = __esm({
 var icon_file_search_svg_exports = {};
 __export(icon_file_search_svg_exports, {
   default: () => icon_file_search_svg_default,
-  meta: () => meta555
+  meta: () => meta579
 });
-var meta555, icon_file_search_svg_default;
+var meta579, icon_file_search_svg_default;
 var init_icon_file_search_svg = __esm({
   "lib/meta/icon_file-search.svg.ts"() {
-    meta555 = {
+    meta579 = {
       "description": "The file-search icon represents a magnifying glass searching for a specific file or document. It is commonly used in user interfaces to indicate a search function for finding files on a system.",
       "category": [
         "Interface",
@@ -29529,7 +30321,7 @@ var init_icon_file_search_svg = __esm({
       ],
       "title": "File Search"
     };
-    icon_file_search_svg_default = meta555;
+    icon_file_search_svg_default = meta579;
   }
 });
 
@@ -29537,12 +30329,12 @@ var init_icon_file_search_svg = __esm({
 var icon_file_star_2_svg_exports = {};
 __export(icon_file_star_2_svg_exports, {
   default: () => icon_file_star_2_svg_default,
-  meta: () => meta556
+  meta: () => meta580
 });
-var meta556, icon_file_star_2_svg_default;
+var meta580, icon_file_star_2_svg_default;
 var init_icon_file_star_2_svg = __esm({
   "lib/meta/icon_file-star 2.svg.ts"() {
-    meta556 = {
+    meta580 = {
       "description": "A stylish icon representing a starred file, indicating importance or favoritism.",
       "category": [
         "Interface",
@@ -29562,7 +30354,7 @@ var init_icon_file_star_2_svg = __esm({
       ],
       "title": "File Star 2"
     };
-    icon_file_star_2_svg_default = meta556;
+    icon_file_star_2_svg_default = meta580;
   }
 });
 
@@ -29570,12 +30362,12 @@ var init_icon_file_star_2_svg = __esm({
 var icon_file_star_svg_exports = {};
 __export(icon_file_star_svg_exports, {
   default: () => icon_file_star_svg_default,
-  meta: () => meta557
+  meta: () => meta581
 });
-var meta557, icon_file_star_svg_default;
+var meta581, icon_file_star_svg_default;
 var init_icon_file_star_svg = __esm({
   "lib/meta/icon_file-star.svg.ts"() {
-    meta557 = {
+    meta581 = {
       "description": "A star symbol often used to represent favorite or important files. Can be used as a visual indicator for users to easily identify important documents.",
       "category": [
         "Interface",
@@ -29596,7 +30388,7 @@ var init_icon_file_star_svg = __esm({
       ],
       "title": "File Star"
     };
-    icon_file_star_svg_default = meta557;
+    icon_file_star_svg_default = meta581;
   }
 });
 
@@ -29604,12 +30396,12 @@ var init_icon_file_star_svg = __esm({
 var icon_file_subtract_2_svg_exports = {};
 __export(icon_file_subtract_2_svg_exports, {
   default: () => icon_file_subtract_2_svg_default,
-  meta: () => meta558
+  meta: () => meta582
 });
-var meta558, icon_file_subtract_2_svg_default;
+var meta582, icon_file_subtract_2_svg_default;
 var init_icon_file_subtract_2_svg = __esm({
   "lib/meta/icon_file-subtract 2.svg.ts"() {
-    meta558 = {
+    meta582 = {
       "description": "The icon shows a document with a subtraction symbol, representing the action of removing or subtracting a file. It is commonly used in user interfaces for deletion or removal functionalities.",
       "category": [
         "Interface",
@@ -29629,7 +30421,7 @@ var init_icon_file_subtract_2_svg = __esm({
       ],
       "title": "File Subtract"
     };
-    icon_file_subtract_2_svg_default = meta558;
+    icon_file_subtract_2_svg_default = meta582;
   }
 });
 
@@ -29637,12 +30429,12 @@ var init_icon_file_subtract_2_svg = __esm({
 var icon_file_subtract_svg_exports = {};
 __export(icon_file_subtract_svg_exports, {
   default: () => icon_file_subtract_svg_default,
-  meta: () => meta559
+  meta: () => meta583
 });
-var meta559, icon_file_subtract_svg_default;
+var meta583, icon_file_subtract_svg_default;
 var init_icon_file_subtract_svg = __esm({
   "lib/meta/icon_file-subtract.svg.ts"() {
-    meta559 = {
+    meta583 = {
       "description": "The file subtract icon represents the action of removing or deleting a file. It can be used in user interface designs to indicate the subtraction or removal of a file from a system.",
       "category": [
         "Interface",
@@ -29662,7 +30454,7 @@ var init_icon_file_subtract_svg = __esm({
       ],
       "title": "File Subtract"
     };
-    icon_file_subtract_svg_default = meta559;
+    icon_file_subtract_svg_default = meta583;
   }
 });
 
@@ -29670,12 +30462,12 @@ var init_icon_file_subtract_svg = __esm({
 var icon_file_text_svg_exports = {};
 __export(icon_file_text_svg_exports, {
   default: () => icon_file_text_svg_default,
-  meta: () => meta560
+  meta: () => meta584
 });
-var meta560, icon_file_text_svg_default;
+var meta584, icon_file_text_svg_default;
 var init_icon_file_text_svg = __esm({
   "lib/meta/icon_file-text.svg.ts"() {
-    meta560 = {
+    meta584 = {
       "description": "The file-text icon represents a text document in a user interface. It is commonly used to indicate a file containing text content.",
       "category": [
         "Interface",
@@ -29696,7 +30488,7 @@ var init_icon_file_text_svg = __esm({
       ],
       "title": "File Text"
     };
-    icon_file_text_svg_default = meta560;
+    icon_file_text_svg_default = meta584;
   }
 });
 
@@ -29704,12 +30496,12 @@ var init_icon_file_text_svg = __esm({
 var icon_file_tray_stack_svg_exports = {};
 __export(icon_file_tray_stack_svg_exports, {
   default: () => icon_file_tray_stack_svg_default,
-  meta: () => meta561
+  meta: () => meta585
 });
-var meta561, icon_file_tray_stack_svg_default;
+var meta585, icon_file_tray_stack_svg_default;
 var init_icon_file_tray_stack_svg = __esm({
   "lib/meta/icon_file-tray-stack.svg.ts"() {
-    meta561 = {
+    meta585 = {
       "description": "The file tray stack icon represents a stack of files or documents organized neatly in a tray. It is commonly used in user interfaces to indicate a collection of files or documents.",
       "category": [
         "Interface",
@@ -29729,7 +30521,7 @@ var init_icon_file_tray_stack_svg = __esm({
       ],
       "title": "File Tray Stack"
     };
-    icon_file_tray_stack_svg_default = meta561;
+    icon_file_tray_stack_svg_default = meta585;
   }
 });
 
@@ -29737,12 +30529,12 @@ var init_icon_file_tray_stack_svg = __esm({
 var icon_file_tray_svg_exports = {};
 __export(icon_file_tray_svg_exports, {
   default: () => icon_file_tray_svg_default,
-  meta: () => meta562
+  meta: () => meta586
 });
-var meta562, icon_file_tray_svg_default;
+var meta586, icon_file_tray_svg_default;
 var init_icon_file_tray_svg = __esm({
   "lib/meta/icon_file-tray.svg.ts"() {
-    meta562 = {
+    meta586 = {
       "description": "The file-tray icon represents a stack of files or documents placed in a tray. It is commonly used to symbolize file management, organization, and storage.",
       "category": [
         "Interface",
@@ -29762,7 +30554,7 @@ var init_icon_file_tray_svg = __esm({
       ],
       "title": "File Tray"
     };
-    icon_file_tray_svg_default = meta562;
+    icon_file_tray_svg_default = meta586;
   }
 });
 
@@ -29770,12 +30562,12 @@ var init_icon_file_tray_svg = __esm({
 var icon_file_visible_2_svg_exports = {};
 __export(icon_file_visible_2_svg_exports, {
   default: () => icon_file_visible_2_svg_default,
-  meta: () => meta563
+  meta: () => meta587
 });
-var meta563, icon_file_visible_2_svg_default;
+var meta587, icon_file_visible_2_svg_default;
 var init_icon_file_visible_2_svg = __esm({
   "lib/meta/icon_file-visible 2.svg.ts"() {
-    meta563 = {
+    meta587 = {
       "description": "The icon 'file-visible 2' represents a file that is visible or accessible. It is typically used in user interfaces to indicate a file that is not hidden or encrypted. The icon can be used in file management systems or applications.",
       "category": [
         "Interface",
@@ -29795,7 +30587,7 @@ var init_icon_file_visible_2_svg = __esm({
       ],
       "title": "File Visible 2"
     };
-    icon_file_visible_2_svg_default = meta563;
+    icon_file_visible_2_svg_default = meta587;
   }
 });
 
@@ -29803,12 +30595,12 @@ var init_icon_file_visible_2_svg = __esm({
 var icon_file_visible_svg_exports = {};
 __export(icon_file_visible_svg_exports, {
   default: () => icon_file_visible_svg_default,
-  meta: () => meta564
+  meta: () => meta588
 });
-var meta564, icon_file_visible_svg_default;
+var meta588, icon_file_visible_svg_default;
 var init_icon_file_visible_svg = __esm({
   "lib/meta/icon_file-visible.svg.ts"() {
-    meta564 = {
+    meta588 = {
       "description": "The file-visible icon represents a file that is visible and accessible. It is commonly used to indicate that a file is not hidden and can be viewed or accessed. The icon is designed with a clear visibility symbol to convey its meaning.",
       "category": [
         "Interface",
@@ -29828,7 +30620,7 @@ var init_icon_file_visible_svg = __esm({
       ],
       "title": "File Visible"
     };
-    icon_file_visible_svg_default = meta564;
+    icon_file_visible_svg_default = meta588;
   }
 });
 
@@ -29836,12 +30628,12 @@ var init_icon_file_visible_svg = __esm({
 var icon_file_svg_exports = {};
 __export(icon_file_svg_exports, {
   default: () => icon_file_svg_default,
-  meta: () => meta565
+  meta: () => meta589
 });
-var meta565, icon_file_svg_default;
+var meta589, icon_file_svg_default;
 var init_icon_file_svg = __esm({
   "lib/meta/icon_file.svg.ts"() {
-    meta565 = {
+    meta589 = {
       "description": "A simple icon representing a file, typically used to indicate the presence of a digital document.",
       "category": [
         "Interface",
@@ -29861,7 +30653,7 @@ var init_icon_file_svg = __esm({
       ],
       "title": "File"
     };
-    icon_file_svg_default = meta565;
+    icon_file_svg_default = meta589;
   }
 });
 
@@ -29869,12 +30661,12 @@ var init_icon_file_svg = __esm({
 var icon_folder_add_2_svg_exports = {};
 __export(icon_folder_add_2_svg_exports, {
   default: () => icon_folder_add_2_svg_default,
-  meta: () => meta566
+  meta: () => meta590
 });
-var meta566, icon_folder_add_2_svg_default;
+var meta590, icon_folder_add_2_svg_default;
 var init_icon_folder_add_2_svg = __esm({
   "lib/meta/icon_folder-add 2.svg.ts"() {
-    meta566 = {
+    meta590 = {
       "description": "The icon 'folder-add 2' represents adding a new folder. It features a folder symbol with a plus sign, indicating the action of creating a new folder.",
       "category": [
         "Interface",
@@ -29893,7 +30685,7 @@ var init_icon_folder_add_2_svg = __esm({
       ],
       "title": "Folder Add 2"
     };
-    icon_folder_add_2_svg_default = meta566;
+    icon_folder_add_2_svg_default = meta590;
   }
 });
 
@@ -29901,12 +30693,12 @@ var init_icon_folder_add_2_svg = __esm({
 var icon_folder_add_svg_exports = {};
 __export(icon_folder_add_svg_exports, {
   default: () => icon_folder_add_svg_default,
-  meta: () => meta567
+  meta: () => meta591
 });
-var meta567, icon_folder_add_svg_default;
+var meta591, icon_folder_add_svg_default;
 var init_icon_folder_add_svg = __esm({
   "lib/meta/icon_folder-add.svg.ts"() {
-    meta567 = {
+    meta591 = {
       "description": "The folder-add icon represents adding a new folder to a file system or directory. It typically symbolizes the action of creating a new folder to organize files or documents.",
       "category": [
         "Interface",
@@ -29926,7 +30718,7 @@ var init_icon_folder_add_svg = __esm({
       ],
       "title": "Folder Add"
     };
-    icon_folder_add_svg_default = meta567;
+    icon_folder_add_svg_default = meta591;
   }
 });
 
@@ -29934,12 +30726,12 @@ var init_icon_folder_add_svg = __esm({
 var icon_folder_broken_heart_2_svg_exports = {};
 __export(icon_folder_broken_heart_2_svg_exports, {
   default: () => icon_folder_broken_heart_2_svg_default,
-  meta: () => meta568
+  meta: () => meta592
 });
-var meta568, icon_folder_broken_heart_2_svg_default;
+var meta592, icon_folder_broken_heart_2_svg_default;
 var init_icon_folder_broken_heart_2_svg = __esm({
   "lib/meta/icon_folder-broken-heart 2.svg.ts"() {
-    meta568 = {
+    meta592 = {
       "description": "The icon 'folder-broken-heart 2' represents a broken heart symbol inside a folder, symbolizing heartache or loss. It can be used in user interfaces to convey a sense of sentimental or emotional content within a folder context.",
       "category": [
         "Interface",
@@ -29959,7 +30751,7 @@ var init_icon_folder_broken_heart_2_svg = __esm({
       ],
       "title": "Folder Broken Heart 2"
     };
-    icon_folder_broken_heart_2_svg_default = meta568;
+    icon_folder_broken_heart_2_svg_default = meta592;
   }
 });
 
@@ -29967,12 +30759,12 @@ var init_icon_folder_broken_heart_2_svg = __esm({
 var icon_folder_broken_heart_svg_exports = {};
 __export(icon_folder_broken_heart_svg_exports, {
   default: () => icon_folder_broken_heart_svg_default,
-  meta: () => meta569
+  meta: () => meta593
 });
-var meta569, icon_folder_broken_heart_svg_default;
+var meta593, icon_folder_broken_heart_svg_default;
 var init_icon_folder_broken_heart_svg = __esm({
   "lib/meta/icon_folder-broken-heart.svg.ts"() {
-    meta569 = {
+    meta593 = {
       "description": "The 'Folder Broken Heart' icon is a symbolic representation of a folder with a broken heart in the middle, conveying a sense of loss or emotional distress related to the contents of the folder. It can be used in user interfaces to indicate a directory or file that holds sentimental or important data that has been damaged or compromised.",
       "category": [
         "Interface",
@@ -29992,7 +30784,7 @@ var init_icon_folder_broken_heart_svg = __esm({
       ],
       "title": "Folder Broken Heart"
     };
-    icon_folder_broken_heart_svg_default = meta569;
+    icon_folder_broken_heart_svg_default = meta593;
   }
 });
 
@@ -30000,12 +30792,12 @@ var init_icon_folder_broken_heart_svg = __esm({
 var icon_folder_check_2_svg_exports = {};
 __export(icon_folder_check_2_svg_exports, {
   default: () => icon_folder_check_2_svg_default,
-  meta: () => meta570
+  meta: () => meta594
 });
-var meta570, icon_folder_check_2_svg_default;
+var meta594, icon_folder_check_2_svg_default;
 var init_icon_folder_check_2_svg = __esm({
   "lib/meta/icon_folder-check 2.svg.ts"() {
-    meta570 = {
+    meta594 = {
       "description": "The folder-check 2 icon is a user interface icon representing a folder with a checkmark symbol, indicating that it contains verified or approved files. This icon is commonly used in file management systems and applications.",
       "category": [
         "Interface"
@@ -30023,7 +30815,7 @@ var init_icon_folder_check_2_svg = __esm({
       ],
       "title": "Folder Check 2"
     };
-    icon_folder_check_2_svg_default = meta570;
+    icon_folder_check_2_svg_default = meta594;
   }
 });
 
@@ -30031,12 +30823,12 @@ var init_icon_folder_check_2_svg = __esm({
 var icon_folder_check_svg_exports = {};
 __export(icon_folder_check_svg_exports, {
   default: () => icon_folder_check_svg_default,
-  meta: () => meta571
+  meta: () => meta595
 });
-var meta571, icon_folder_check_svg_default;
+var meta595, icon_folder_check_svg_default;
 var init_icon_folder_check_svg = __esm({
   "lib/meta/icon_folder-check.svg.ts"() {
-    meta571 = {
+    meta595 = {
       "description": "The folder-check icon represents a folder with a check mark, indicating that the folder has been checked or verified. This icon is commonly used in file management systems and applications.",
       "category": [
         "Interface",
@@ -30055,7 +30847,7 @@ var init_icon_folder_check_svg = __esm({
       ],
       "title": "Folder Check"
     };
-    icon_folder_check_svg_default = meta571;
+    icon_folder_check_svg_default = meta595;
   }
 });
 
@@ -30063,12 +30855,12 @@ var init_icon_folder_check_svg = __esm({
 var icon_folder_edit_2_svg_exports = {};
 __export(icon_folder_edit_2_svg_exports, {
   default: () => icon_folder_edit_2_svg_default,
-  meta: () => meta572
+  meta: () => meta596
 });
-var meta572, icon_folder_edit_2_svg_default;
+var meta596, icon_folder_edit_2_svg_default;
 var init_icon_folder_edit_2_svg = __esm({
   "lib/meta/icon_folder-edit 2.svg.ts"() {
-    meta572 = {
+    meta596 = {
       "description": "A folder icon with a pencil indicating the option to edit or modify the contents. This icon is commonly used in user interfaces to represent a folder that can be edited.",
       "category": [
         "Interface"
@@ -30087,7 +30879,7 @@ var init_icon_folder_edit_2_svg = __esm({
       ],
       "title": "Folder Edit"
     };
-    icon_folder_edit_2_svg_default = meta572;
+    icon_folder_edit_2_svg_default = meta596;
   }
 });
 
@@ -30095,12 +30887,12 @@ var init_icon_folder_edit_2_svg = __esm({
 var icon_folder_edit_svg_exports = {};
 __export(icon_folder_edit_svg_exports, {
   default: () => icon_folder_edit_svg_default,
-  meta: () => meta573
+  meta: () => meta597
 });
-var meta573, icon_folder_edit_svg_default;
+var meta597, icon_folder_edit_svg_default;
 var init_icon_folder_edit_svg = __esm({
   "lib/meta/icon_folder-edit.svg.ts"() {
-    meta573 = {
+    meta597 = {
       "description": "The folder-edit icon depicts a folder with a pencil, symbolizing the ability to edit or modify the contents within the folder. It is commonly used in interfaces to represent options for modifying or updating files or directories.",
       "category": [
         "Interface",
@@ -30119,7 +30911,7 @@ var init_icon_folder_edit_svg = __esm({
       ],
       "title": "Folder Edit"
     };
-    icon_folder_edit_svg_default = meta573;
+    icon_folder_edit_svg_default = meta597;
   }
 });
 
@@ -30127,12 +30919,12 @@ var init_icon_folder_edit_svg = __esm({
 var icon_folder_exclamation_mark_2_svg_exports = {};
 __export(icon_folder_exclamation_mark_2_svg_exports, {
   default: () => icon_folder_exclamation_mark_2_svg_default,
-  meta: () => meta574
+  meta: () => meta598
 });
-var meta574, icon_folder_exclamation_mark_2_svg_default;
+var meta598, icon_folder_exclamation_mark_2_svg_default;
 var init_icon_folder_exclamation_mark_2_svg = __esm({
   "lib/meta/icon_folder-exclamation-mark-2.svg.ts"() {
-    meta574 = {
+    meta598 = {
       "description": "A folder icon with an exclamation mark symbol indicating an important or urgent folder. This icon is commonly used in user interfaces to draw attention to specific folders.",
       "category": [
         "Interface"
@@ -30150,7 +30942,7 @@ var init_icon_folder_exclamation_mark_2_svg = __esm({
       ],
       "title": "Folder Exclamation Mark 2"
     };
-    icon_folder_exclamation_mark_2_svg_default = meta574;
+    icon_folder_exclamation_mark_2_svg_default = meta598;
   }
 });
 
@@ -30158,12 +30950,12 @@ var init_icon_folder_exclamation_mark_2_svg = __esm({
 var icon_folder_exclamation_mark_svg_exports = {};
 __export(icon_folder_exclamation_mark_svg_exports, {
   default: () => icon_folder_exclamation_mark_svg_default,
-  meta: () => meta575
+  meta: () => meta599
 });
-var meta575, icon_folder_exclamation_mark_svg_default;
+var meta599, icon_folder_exclamation_mark_svg_default;
 var init_icon_folder_exclamation_mark_svg = __esm({
   "lib/meta/icon_folder-exclamation-mark.svg.ts"() {
-    meta575 = {
+    meta599 = {
       "description": "The folder-exclamation-mark icon is used to indicate a folder that contains important or urgent information. It is commonly used in user interfaces to draw attention to specific folders or directories.",
       "category": [
         "Interface"
@@ -30181,7 +30973,7 @@ var init_icon_folder_exclamation_mark_svg = __esm({
       ],
       "title": "Folder Exclamation Mark"
     };
-    icon_folder_exclamation_mark_svg_default = meta575;
+    icon_folder_exclamation_mark_svg_default = meta599;
   }
 });
 
@@ -30189,12 +30981,12 @@ var init_icon_folder_exclamation_mark_svg = __esm({
 var icon_folder_heart_2_svg_exports = {};
 __export(icon_folder_heart_2_svg_exports, {
   default: () => icon_folder_heart_2_svg_default,
-  meta: () => meta576
+  meta: () => meta600
 });
-var meta576, icon_folder_heart_2_svg_default;
+var meta600, icon_folder_heart_2_svg_default;
 var init_icon_folder_heart_2_svg = __esm({
   "lib/meta/icon_folder-heart 2.svg.ts"() {
-    meta576 = {
+    meta600 = {
       "description": "A heart symbol inside a folder icon, representing a collection of favorite or beloved files or content within a directory.",
       "category": [
         "Interface",
@@ -30214,7 +31006,7 @@ var init_icon_folder_heart_2_svg = __esm({
       ],
       "title": "Folder Heart"
     };
-    icon_folder_heart_2_svg_default = meta576;
+    icon_folder_heart_2_svg_default = meta600;
   }
 });
 
@@ -30222,12 +31014,12 @@ var init_icon_folder_heart_2_svg = __esm({
 var icon_folder_heart_svg_exports = {};
 __export(icon_folder_heart_svg_exports, {
   default: () => icon_folder_heart_svg_default,
-  meta: () => meta577
+  meta: () => meta601
 });
-var meta577, icon_folder_heart_svg_default;
+var meta601, icon_folder_heart_svg_default;
 var init_icon_folder_heart_svg = __esm({
   "lib/meta/icon_folder-heart.svg.ts"() {
-    meta577 = {
+    meta601 = {
       "description": "This icon features a folder symbol with a heart in the center, representing a collection of favorite or cherished items within a directory.",
       "category": [
         "Interface"
@@ -30246,7 +31038,7 @@ var init_icon_folder_heart_svg = __esm({
       ],
       "title": "Folder Heart"
     };
-    icon_folder_heart_svg_default = meta577;
+    icon_folder_heart_svg_default = meta601;
   }
 });
 
@@ -30254,12 +31046,12 @@ var init_icon_folder_heart_svg = __esm({
 var icon_folder_info_2_svg_exports = {};
 __export(icon_folder_info_2_svg_exports, {
   default: () => icon_folder_info_2_svg_default,
-  meta: () => meta578
+  meta: () => meta602
 });
-var meta578, icon_folder_info_2_svg_default;
+var meta602, icon_folder_info_2_svg_default;
 var init_icon_folder_info_2_svg = __esm({
   "lib/meta/icon_folder-info-2.svg.ts"() {
-    meta578 = {
+    meta602 = {
       "description": "The 'folder-info-2' icon in the UI category represents a folder icon with an information symbol. It is commonly used to indicate additional details or notes related to a folder.",
       "category": [
         "Interface"
@@ -30278,7 +31070,7 @@ var init_icon_folder_info_2_svg = __esm({
       ],
       "title": "Folder with Information"
     };
-    icon_folder_info_2_svg_default = meta578;
+    icon_folder_info_2_svg_default = meta602;
   }
 });
 
@@ -30286,12 +31078,12 @@ var init_icon_folder_info_2_svg = __esm({
 var icon_folder_info_svg_exports = {};
 __export(icon_folder_info_svg_exports, {
   default: () => icon_folder_info_svg_default,
-  meta: () => meta579
+  meta: () => meta603
 });
-var meta579, icon_folder_info_svg_default;
+var meta603, icon_folder_info_svg_default;
 var init_icon_folder_info_svg = __esm({
   "lib/meta/icon_folder-info.svg.ts"() {
-    meta579 = {
+    meta603 = {
       "description": "The folder-info icon represents a folder with additional information or details. It is commonly used in user interfaces to indicate that the folder contains important information or documents.",
       "category": [
         "Interface",
@@ -30311,7 +31103,7 @@ var init_icon_folder_info_svg = __esm({
       ],
       "title": "Folder Information"
     };
-    icon_folder_info_svg_default = meta579;
+    icon_folder_info_svg_default = meta603;
   }
 });
 
@@ -30319,12 +31111,12 @@ var init_icon_folder_info_svg = __esm({
 var icon_folder_invisible_2_svg_exports = {};
 __export(icon_folder_invisible_2_svg_exports, {
   default: () => icon_folder_invisible_2_svg_default,
-  meta: () => meta580
+  meta: () => meta604
 });
-var meta580, icon_folder_invisible_2_svg_default;
+var meta604, icon_folder_invisible_2_svg_default;
 var init_icon_folder_invisible_2_svg = __esm({
   "lib/meta/icon_folder-invisible 2.svg.ts"() {
-    meta580 = {
+    meta604 = {
       "description": "The 'folder-invisible 2' icon represents a hidden or invisible folder in a user interface. This icon is commonly used to indicate a folder that is not visible or accessible to the user.",
       "category": [
         "Interface"
@@ -30343,7 +31135,7 @@ var init_icon_folder_invisible_2_svg = __esm({
       ],
       "title": "Folder Invisible 2"
     };
-    icon_folder_invisible_2_svg_default = meta580;
+    icon_folder_invisible_2_svg_default = meta604;
   }
 });
 
@@ -30351,12 +31143,12 @@ var init_icon_folder_invisible_2_svg = __esm({
 var icon_folder_invisible_svg_exports = {};
 __export(icon_folder_invisible_svg_exports, {
   default: () => icon_folder_invisible_svg_default,
-  meta: () => meta581
+  meta: () => meta605
 });
-var meta581, icon_folder_invisible_svg_default;
+var meta605, icon_folder_invisible_svg_default;
 var init_icon_folder_invisible_svg = __esm({
   "lib/meta/icon_folder-invisible.svg.ts"() {
-    meta581 = {
+    meta605 = {
       "description": "An icon representing an invisible or hidden folder. It is typically used to indicate a folder that is not visible or accessible.",
       "category": [
         "Interface",
@@ -30375,7 +31167,7 @@ var init_icon_folder_invisible_svg = __esm({
       ],
       "title": "Invisible Folder"
     };
-    icon_folder_invisible_svg_default = meta581;
+    icon_folder_invisible_svg_default = meta605;
   }
 });
 
@@ -30383,12 +31175,12 @@ var init_icon_folder_invisible_svg = __esm({
 var icon_folder_multiply_2_svg_exports = {};
 __export(icon_folder_multiply_2_svg_exports, {
   default: () => icon_folder_multiply_2_svg_default,
-  meta: () => meta582
+  meta: () => meta606
 });
-var meta582, icon_folder_multiply_2_svg_default;
+var meta606, icon_folder_multiply_2_svg_default;
 var init_icon_folder_multiply_2_svg = __esm({
   "lib/meta/icon_folder-multiply 2.svg.ts"() {
-    meta582 = {
+    meta606 = {
       "description": "The folder-multiply 2 icon represents a folder with a multiplication symbol, indicating the action of deleting or removing multiple items from a folder. It conveys the concept of bulk deletion or removal of files.",
       "category": [
         "Interface"
@@ -30407,7 +31199,7 @@ var init_icon_folder_multiply_2_svg = __esm({
       ],
       "title": "Folder with Multiply Symbol"
     };
-    icon_folder_multiply_2_svg_default = meta582;
+    icon_folder_multiply_2_svg_default = meta606;
   }
 });
 
@@ -30415,12 +31207,12 @@ var init_icon_folder_multiply_2_svg = __esm({
 var icon_folder_multiply_svg_exports = {};
 __export(icon_folder_multiply_svg_exports, {
   default: () => icon_folder_multiply_svg_default,
-  meta: () => meta583
+  meta: () => meta607
 });
-var meta583, icon_folder_multiply_svg_default;
+var meta607, icon_folder_multiply_svg_default;
 var init_icon_folder_multiply_svg = __esm({
   "lib/meta/icon_folder-multiply.svg.ts"() {
-    meta583 = {
+    meta607 = {
       "description": "A folder icon with a multiplication or delete symbol on it, indicating the action of deleting multiple items within the folder.",
       "category": [
         "Interface",
@@ -30440,7 +31232,7 @@ var init_icon_folder_multiply_svg = __esm({
       ],
       "title": "Folder Multiply"
     };
-    icon_folder_multiply_svg_default = meta583;
+    icon_folder_multiply_svg_default = meta607;
   }
 });
 
@@ -30448,12 +31240,12 @@ var init_icon_folder_multiply_svg = __esm({
 var icon_folder_question_mark_2_svg_exports = {};
 __export(icon_folder_question_mark_2_svg_exports, {
   default: () => icon_folder_question_mark_2_svg_default,
-  meta: () => meta584
+  meta: () => meta608
 });
-var meta584, icon_folder_question_mark_2_svg_default;
+var meta608, icon_folder_question_mark_2_svg_default;
 var init_icon_folder_question_mark_2_svg = __esm({
   "lib/meta/icon_folder-question-mark-2.svg.ts"() {
-    meta584 = {
+    meta608 = {
       "description": "This icon depicts a folder with a question mark on it, indicating uncertainty or lack of information. It can be used to represent a folder with unknown content or to ask questions about a specific folder.",
       "category": [
         "Interface",
@@ -30472,7 +31264,7 @@ var init_icon_folder_question_mark_2_svg = __esm({
       ],
       "title": "Folder Question Mark 2"
     };
-    icon_folder_question_mark_2_svg_default = meta584;
+    icon_folder_question_mark_2_svg_default = meta608;
   }
 });
 
@@ -30480,12 +31272,12 @@ var init_icon_folder_question_mark_2_svg = __esm({
 var icon_folder_question_mark_svg_exports = {};
 __export(icon_folder_question_mark_svg_exports, {
   default: () => icon_folder_question_mark_svg_default,
-  meta: () => meta585
+  meta: () => meta609
 });
-var meta585, icon_folder_question_mark_svg_default;
+var meta609, icon_folder_question_mark_svg_default;
 var init_icon_folder_question_mark_svg = __esm({
   "lib/meta/icon_folder-question-mark.svg.ts"() {
-    meta585 = {
+    meta609 = {
       "description": "The icon depicts a folder with a question mark symbol, typically used to represent an unknown or uncertain folder within a user interface.",
       "category": [
         "Interface"
@@ -30503,7 +31295,7 @@ var init_icon_folder_question_mark_svg = __esm({
       ],
       "title": "Folder Question Mark"
     };
-    icon_folder_question_mark_svg_default = meta585;
+    icon_folder_question_mark_svg_default = meta609;
   }
 });
 
@@ -30511,12 +31303,12 @@ var init_icon_folder_question_mark_svg = __esm({
 var icon_folder_search_2_svg_exports = {};
 __export(icon_folder_search_2_svg_exports, {
   default: () => icon_folder_search_2_svg_default,
-  meta: () => meta586
+  meta: () => meta610
 });
-var meta586, icon_folder_search_2_svg_default;
+var meta610, icon_folder_search_2_svg_default;
 var init_icon_folder_search_2_svg = __esm({
   "lib/meta/icon_folder-search 2.svg.ts"() {
-    meta586 = {
+    meta610 = {
       "description": "A folder icon with a magnifying glass symbolizing search functionality. This icon is commonly used to represent searching within a specific folder or directory.",
       "category": [
         "Interface"
@@ -30535,7 +31327,7 @@ var init_icon_folder_search_2_svg = __esm({
       ],
       "title": "Folder Search"
     };
-    icon_folder_search_2_svg_default = meta586;
+    icon_folder_search_2_svg_default = meta610;
   }
 });
 
@@ -30543,12 +31335,12 @@ var init_icon_folder_search_2_svg = __esm({
 var icon_folder_search_svg_exports = {};
 __export(icon_folder_search_svg_exports, {
   default: () => icon_folder_search_svg_default,
-  meta: () => meta587
+  meta: () => meta611
 });
-var meta587, icon_folder_search_svg_default;
+var meta611, icon_folder_search_svg_default;
 var init_icon_folder_search_svg = __esm({
   "lib/meta/icon_folder-search.svg.ts"() {
-    meta587 = {
+    meta611 = {
       "description": "The folder-search icon is used to represent a folder with a magnifying glass, indicating the action of searching within the folder. It is commonly used in user interfaces for search functions related to folders.",
       "category": [
         "Interface",
@@ -30568,7 +31360,7 @@ var init_icon_folder_search_svg = __esm({
       ],
       "title": "Folder Search"
     };
-    icon_folder_search_svg_default = meta587;
+    icon_folder_search_svg_default = meta611;
   }
 });
 
@@ -30576,12 +31368,12 @@ var init_icon_folder_search_svg = __esm({
 var icon_folder_star_2_svg_exports = {};
 __export(icon_folder_star_2_svg_exports, {
   default: () => icon_folder_star_2_svg_default,
-  meta: () => meta588
+  meta: () => meta612
 });
-var meta588, icon_folder_star_2_svg_default;
+var meta612, icon_folder_star_2_svg_default;
 var init_icon_folder_star_2_svg = __esm({
   "lib/meta/icon_folder-star 2.svg.ts"() {
-    meta588 = {
+    meta612 = {
       "description": "A folder icon with a star symbol, representing a favorite or important folder. This icon is commonly used to highlight important directories or files.",
       "category": [
         "Interface",
@@ -30600,7 +31392,7 @@ var init_icon_folder_star_2_svg = __esm({
       ],
       "title": "Folder Star"
     };
-    icon_folder_star_2_svg_default = meta588;
+    icon_folder_star_2_svg_default = meta612;
   }
 });
 
@@ -30608,12 +31400,12 @@ var init_icon_folder_star_2_svg = __esm({
 var icon_folder_star_svg_exports = {};
 __export(icon_folder_star_svg_exports, {
   default: () => icon_folder_star_svg_default,
-  meta: () => meta589
+  meta: () => meta613
 });
-var meta589, icon_folder_star_svg_default;
+var meta613, icon_folder_star_svg_default;
 var init_icon_folder_star_svg = __esm({
   "lib/meta/icon_folder-star.svg.ts"() {
-    meta589 = {
+    meta613 = {
       "description": "Folder icon with a star symbol to indicate special or favorite folders. Can be used to mark important folders for easier identification.",
       "category": [
         "Interface",
@@ -30633,7 +31425,7 @@ var init_icon_folder_star_svg = __esm({
       ],
       "title": "Folder Star"
     };
-    icon_folder_star_svg_default = meta589;
+    icon_folder_star_svg_default = meta613;
   }
 });
 
@@ -30641,12 +31433,12 @@ var init_icon_folder_star_svg = __esm({
 var icon_folder_subtract_2_svg_exports = {};
 __export(icon_folder_subtract_2_svg_exports, {
   default: () => icon_folder_subtract_2_svg_default,
-  meta: () => meta590
+  meta: () => meta614
 });
-var meta590, icon_folder_subtract_2_svg_default;
+var meta614, icon_folder_subtract_2_svg_default;
 var init_icon_folder_subtract_2_svg = __esm({
   "lib/meta/icon_folder-subtract 2.svg.ts"() {
-    meta590 = {
+    meta614 = {
       "description": "The folder-subtract 2 icon is a user interface icon depicting a folder with a minus symbol, indicating the action of subtracting or removing a folder. This icon is commonly used in file management interfaces to delete folders or directories.",
       "category": [
         "Interface"
@@ -30664,7 +31456,7 @@ var init_icon_folder_subtract_2_svg = __esm({
       ],
       "title": "Folder Subtract 2"
     };
-    icon_folder_subtract_2_svg_default = meta590;
+    icon_folder_subtract_2_svg_default = meta614;
   }
 });
 
@@ -30672,12 +31464,12 @@ var init_icon_folder_subtract_2_svg = __esm({
 var icon_folder_subtract_svg_exports = {};
 __export(icon_folder_subtract_svg_exports, {
   default: () => icon_folder_subtract_svg_default,
-  meta: () => meta591
+  meta: () => meta615
 });
-var meta591, icon_folder_subtract_svg_default;
+var meta615, icon_folder_subtract_svg_default;
 var init_icon_folder_subtract_svg = __esm({
   "lib/meta/icon_folder-subtract.svg.ts"() {
-    meta591 = {
+    meta615 = {
       "description": "The folder-subtract icon represents the action of removing or deleting a folder. It is commonly used in user interfaces to signify the deletion of a specific folder or directory.",
       "category": [
         "Interface"
@@ -30695,7 +31487,7 @@ var init_icon_folder_subtract_svg = __esm({
       ],
       "title": "Folder Subtract"
     };
-    icon_folder_subtract_svg_default = meta591;
+    icon_folder_subtract_svg_default = meta615;
   }
 });
 
@@ -30703,12 +31495,12 @@ var init_icon_folder_subtract_svg = __esm({
 var icon_folder_visible_2_svg_exports = {};
 __export(icon_folder_visible_2_svg_exports, {
   default: () => icon_folder_visible_2_svg_default,
-  meta: () => meta592
+  meta: () => meta616
 });
-var meta592, icon_folder_visible_2_svg_default;
+var meta616, icon_folder_visible_2_svg_default;
 var init_icon_folder_visible_2_svg = __esm({
   "lib/meta/icon_folder-visible 2.svg.ts"() {
-    meta592 = {
+    meta616 = {
       "description": "The folder-visible 2 icon is a representation of a folder with an open flap, indicating that its contents are visible. This icon is commonly used in user interfaces to signify that a folder is currently open and its contents are accessible.",
       "category": [
         "Interface",
@@ -30728,7 +31520,7 @@ var init_icon_folder_visible_2_svg = __esm({
       ],
       "title": "Folder Visible 2"
     };
-    icon_folder_visible_2_svg_default = meta592;
+    icon_folder_visible_2_svg_default = meta616;
   }
 });
 
@@ -30736,12 +31528,12 @@ var init_icon_folder_visible_2_svg = __esm({
 var icon_folder_visible_svg_exports = {};
 __export(icon_folder_visible_svg_exports, {
   default: () => icon_folder_visible_svg_default,
-  meta: () => meta593
+  meta: () => meta617
 });
-var meta593, icon_folder_visible_svg_default;
+var meta617, icon_folder_visible_svg_default;
 var init_icon_folder_visible_svg = __esm({
   "lib/meta/icon_folder-visible.svg.ts"() {
-    meta593 = {
+    meta617 = {
       "description": "A visible folder icon usually used to represent a folder that is currently open or expanded to show its contents.",
       "category": [
         "Interface",
@@ -30761,7 +31553,7 @@ var init_icon_folder_visible_svg = __esm({
       ],
       "title": "Folder Visible"
     };
-    icon_folder_visible_svg_default = meta593;
+    icon_folder_visible_svg_default = meta617;
   }
 });
 
@@ -30769,12 +31561,12 @@ var init_icon_folder_visible_svg = __esm({
 var icon_folder_svg_exports = {};
 __export(icon_folder_svg_exports, {
   default: () => icon_folder_svg_default,
-  meta: () => meta594
+  meta: () => meta618
 });
-var meta594, icon_folder_svg_default;
+var meta618, icon_folder_svg_default;
 var init_icon_folder_svg = __esm({
   "lib/meta/icon_folder.svg.ts"() {
-    meta594 = {
+    meta618 = {
       "description": "A simple icon representing a folder, typically used to organize and store files on a computer or digital device.",
       "category": [
         "Interface",
@@ -30793,7 +31585,7 @@ var init_icon_folder_svg = __esm({
       ],
       "title": "Folder"
     };
-    icon_folder_svg_default = meta594;
+    icon_folder_svg_default = meta618;
   }
 });
 
@@ -30801,12 +31593,12 @@ var init_icon_folder_svg = __esm({
 var icon_girl_svg_exports = {};
 __export(icon_girl_svg_exports, {
   default: () => icon_girl_svg_default,
-  meta: () => meta595
+  meta: () => meta619
 });
-var meta595, icon_girl_svg_default;
+var meta619, icon_girl_svg_default;
 var init_icon_girl_svg = __esm({
   "lib/meta/icon_girl.svg.ts"() {
-    meta595 = {
+    meta619 = {
       "description": "A simple and generic icon representing a girl. It can be used in UI designs to symbolize female gender or character.",
       "category": [
         "Interface",
@@ -30826,7 +31618,7 @@ var init_icon_girl_svg = __esm({
       ],
       "title": "Girl"
     };
-    icon_girl_svg_default = meta595;
+    icon_girl_svg_default = meta619;
   }
 });
 
@@ -30834,12 +31626,12 @@ var init_icon_girl_svg = __esm({
 var icon_git_branch_svg_exports = {};
 __export(icon_git_branch_svg_exports, {
   default: () => icon_git_branch_svg_default,
-  meta: () => meta596
+  meta: () => meta620
 });
-var meta596, icon_git_branch_svg_default;
+var meta620, icon_git_branch_svg_default;
 var init_icon_git_branch_svg = __esm({
   "lib/meta/icon_git-branch.svg.ts"() {
-    meta596 = {
+    meta620 = {
       "description": "The Git branch icon represents a separate line of development and allows users to work on different features simultaneously within a Git repository.",
       "category": [
         "Interface"
@@ -30858,7 +31650,7 @@ var init_icon_git_branch_svg = __esm({
       ],
       "title": "Git Branch"
     };
-    icon_git_branch_svg_default = meta596;
+    icon_git_branch_svg_default = meta620;
   }
 });
 
@@ -30866,12 +31658,12 @@ var init_icon_git_branch_svg = __esm({
 var icon_git_compare_svg_exports = {};
 __export(icon_git_compare_svg_exports, {
   default: () => icon_git_compare_svg_default,
-  meta: () => meta597
+  meta: () => meta621
 });
-var meta597, icon_git_compare_svg_default;
+var meta621, icon_git_compare_svg_default;
 var init_icon_git_compare_svg = __esm({
   "lib/meta/icon_git-compare.svg.ts"() {
-    meta597 = {
+    meta621 = {
       "description": "The git compare icon is typically used in user interfaces to indicate a side-by-side comparison of code or files in a version control system. It often represents the action of comparing changes between branches or commits.",
       "category": [
         "Interface"
@@ -30890,7 +31682,7 @@ var init_icon_git_compare_svg = __esm({
       ],
       "title": "Git Compare"
     };
-    icon_git_compare_svg_default = meta597;
+    icon_git_compare_svg_default = meta621;
   }
 });
 
@@ -30898,12 +31690,12 @@ var init_icon_git_compare_svg = __esm({
 var icon_git_merge_queue_svg_exports = {};
 __export(icon_git_merge_queue_svg_exports, {
   default: () => icon_git_merge_queue_svg_default,
-  meta: () => meta598
+  meta: () => meta622
 });
-var meta598, icon_git_merge_queue_svg_default;
+var meta622, icon_git_merge_queue_svg_default;
 var init_icon_git_merge_queue_svg = __esm({
   "lib/meta/icon_git-merge-queue.svg.ts"() {
-    meta598 = {
+    meta622 = {
       "description": "The Git Merge Queue icon represents the process of adding changes from one branch to another in a Git repository. It symbolizes the action of merging code changes in a sequential order in a version control system.",
       "category": [
         "Interface"
@@ -30922,7 +31714,7 @@ var init_icon_git_merge_queue_svg = __esm({
       ],
       "title": "Git Merge Queue"
     };
-    icon_git_merge_queue_svg_default = meta598;
+    icon_git_merge_queue_svg_default = meta622;
   }
 });
 
@@ -30930,12 +31722,12 @@ var init_icon_git_merge_queue_svg = __esm({
 var icon_git_merge_svg_exports = {};
 __export(icon_git_merge_svg_exports, {
   default: () => icon_git_merge_svg_default,
-  meta: () => meta599
+  meta: () => meta623
 });
-var meta599, icon_git_merge_svg_default;
+var meta623, icon_git_merge_svg_default;
 var init_icon_git_merge_svg = __esm({
   "lib/meta/icon_git-merge.svg.ts"() {
-    meta599 = {
+    meta623 = {
       "description": "The git merge icon represents the process of merging branches in the git version control system. It is commonly used in UI design to symbolize combining code changes from different branches into a single branch.",
       "category": [
         "Interface"
@@ -30954,7 +31746,7 @@ var init_icon_git_merge_svg = __esm({
       ],
       "title": "Git Merge"
     };
-    icon_git_merge_svg_default = meta599;
+    icon_git_merge_svg_default = meta623;
   }
 });
 
@@ -30962,12 +31754,12 @@ var init_icon_git_merge_svg = __esm({
 var icon_git_pull_request_closed_svg_exports = {};
 __export(icon_git_pull_request_closed_svg_exports, {
   default: () => icon_git_pull_request_closed_svg_default,
-  meta: () => meta600
+  meta: () => meta624
 });
-var meta600, icon_git_pull_request_closed_svg_default;
+var meta624, icon_git_pull_request_closed_svg_default;
 var init_icon_git_pull_request_closed_svg = __esm({
   "lib/meta/icon_git-pull-request-closed.svg.ts"() {
-    meta600 = {
+    meta624 = {
       "description": "A symbol indicating a closed pull request in the Git version control system. This icon is commonly used in user interfaces to represent a pull request that has been closed and merged.",
       "category": [
         "Interface",
@@ -30986,7 +31778,7 @@ var init_icon_git_pull_request_closed_svg = __esm({
       ],
       "title": "Git Pull Request Closed"
     };
-    icon_git_pull_request_closed_svg_default = meta600;
+    icon_git_pull_request_closed_svg_default = meta624;
   }
 });
 
@@ -30994,12 +31786,12 @@ var init_icon_git_pull_request_closed_svg = __esm({
 var icon_git_pull_request_draft_svg_exports = {};
 __export(icon_git_pull_request_draft_svg_exports, {
   default: () => icon_git_pull_request_draft_svg_default,
-  meta: () => meta601
+  meta: () => meta625
 });
-var meta601, icon_git_pull_request_draft_svg_default;
+var meta625, icon_git_pull_request_draft_svg_default;
 var init_icon_git_pull_request_draft_svg = __esm({
   "lib/meta/icon_git-pull-request-draft.svg.ts"() {
-    meta601 = {
+    meta625 = {
       "description": "The git-pull-request-draft icon represents a draft version of a pull request in Git. It is typically used in user interfaces to indicate that a pull request is still a work in progress and has not been submitted for review yet.",
       "category": [
         "Interface"
@@ -31018,7 +31810,7 @@ var init_icon_git_pull_request_draft_svg = __esm({
       ],
       "title": "Git Pull Request Draft"
     };
-    icon_git_pull_request_draft_svg_default = meta601;
+    icon_git_pull_request_draft_svg_default = meta625;
   }
 });
 
@@ -31026,12 +31818,12 @@ var init_icon_git_pull_request_draft_svg = __esm({
 var icon_git_pull_request_svg_exports = {};
 __export(icon_git_pull_request_svg_exports, {
   default: () => icon_git_pull_request_svg_default,
-  meta: () => meta602
+  meta: () => meta626
 });
-var meta602, icon_git_pull_request_svg_default;
+var meta626, icon_git_pull_request_svg_default;
 var init_icon_git_pull_request_svg = __esm({
   "lib/meta/icon_git-pull-request.svg.ts"() {
-    meta602 = {
+    meta626 = {
       "description": "Git pull request icon is used as a symbol for requesting changes to a codebase in Git version control system. This icon usually represents the action of pulling the changes made in a repository to be reviewed and potentially merged with the main codebase.",
       "category": [
         "Interface",
@@ -31051,7 +31843,7 @@ var init_icon_git_pull_request_svg = __esm({
       ],
       "title": "Git Pull Request"
     };
-    icon_git_pull_request_svg_default = meta602;
+    icon_git_pull_request_svg_default = meta626;
   }
 });
 
@@ -31059,12 +31851,12 @@ var init_icon_git_pull_request_svg = __esm({
 var icon_git_repo_fork_svg_exports = {};
 __export(icon_git_repo_fork_svg_exports, {
   default: () => icon_git_repo_fork_svg_default,
-  meta: () => meta603
+  meta: () => meta627
 });
-var meta603, icon_git_repo_fork_svg_default;
+var meta627, icon_git_repo_fork_svg_default;
 var init_icon_git_repo_fork_svg = __esm({
   "lib/meta/icon_git-repo-fork.svg.ts"() {
-    meta603 = {
+    meta627 = {
       "description": "The git-repo-fork icon represents a forked repository, indicating that the codebase has been duplicated for further development or modification. It is commonly used in version control systems and software development platforms.",
       "category": [
         "Interface"
@@ -31083,7 +31875,7 @@ var init_icon_git_repo_fork_svg = __esm({
       ],
       "title": "Git Repository Fork"
     };
-    icon_git_repo_fork_svg_default = meta603;
+    icon_git_repo_fork_svg_default = meta627;
   }
 });
 
@@ -31091,12 +31883,12 @@ var init_icon_git_repo_fork_svg = __esm({
 var icon_heart_broken_small_svg_exports = {};
 __export(icon_heart_broken_small_svg_exports, {
   default: () => icon_heart_broken_small_svg_default,
-  meta: () => meta604
+  meta: () => meta628
 });
-var meta604, icon_heart_broken_small_svg_default;
+var meta628, icon_heart_broken_small_svg_default;
 var init_icon_heart_broken_small_svg = __esm({
   "lib/meta/icon_heart-broken-small.svg.ts"() {
-    meta604 = {
+    meta628 = {
       "description": "A small heart icon depicting a broken heart, often used to symbolize sadness or heartbreak in user interface designs.",
       "category": [
         "Interface"
@@ -31115,7 +31907,7 @@ var init_icon_heart_broken_small_svg = __esm({
       ],
       "title": "Heart Broken Small"
     };
-    icon_heart_broken_small_svg_default = meta604;
+    icon_heart_broken_small_svg_default = meta628;
   }
 });
 
@@ -31123,12 +31915,12 @@ var init_icon_heart_broken_small_svg = __esm({
 var icon_heart_fat_svg_exports = {};
 __export(icon_heart_fat_svg_exports, {
   default: () => icon_heart_fat_svg_default,
-  meta: () => meta605
+  meta: () => meta629
 });
-var meta605, icon_heart_fat_svg_default;
+var meta629, icon_heart_fat_svg_default;
 var init_icon_heart_fat_svg = __esm({
   "lib/meta/icon_heart-fat.svg.ts"() {
-    meta605 = {
+    meta629 = {
       "description": "A fat-style heart icon, commonly used to symbolize love and affection in user interfaces.",
       "category": [
         "Interface",
@@ -31148,7 +31940,7 @@ var init_icon_heart_fat_svg = __esm({
       ],
       "title": "Heart Fat"
     };
-    icon_heart_fat_svg_default = meta605;
+    icon_heart_fat_svg_default = meta629;
   }
 });
 
@@ -31156,12 +31948,12 @@ var init_icon_heart_fat_svg = __esm({
 var icon_heart_l_svg_exports = {};
 __export(icon_heart_l_svg_exports, {
   default: () => icon_heart_l_svg_default,
-  meta: () => meta606
+  meta: () => meta630
 });
-var meta606, icon_heart_l_svg_default;
+var meta630, icon_heart_l_svg_default;
 var init_icon_heart_l_svg = __esm({
   "lib/meta/icon_heart-l.svg.ts"() {
-    meta606 = {
+    meta630 = {
       "description": "The heart-l icon is a symbol representing love, affection, and romance. It is commonly used in user interfaces to indicate liking or favoriting something.",
       "category": [
         "Interface",
@@ -31181,7 +31973,7 @@ var init_icon_heart_l_svg = __esm({
       ],
       "title": "Heart Icon"
     };
-    icon_heart_l_svg_default = meta606;
+    icon_heart_l_svg_default = meta630;
   }
 });
 
@@ -31189,12 +31981,12 @@ var init_icon_heart_l_svg = __esm({
 var icon_heart_m_svg_exports = {};
 __export(icon_heart_m_svg_exports, {
   default: () => icon_heart_m_svg_default,
-  meta: () => meta607
+  meta: () => meta631
 });
-var meta607, icon_heart_m_svg_default;
+var meta631, icon_heart_m_svg_default;
 var init_icon_heart_m_svg = __esm({
   "lib/meta/icon_heart-m.svg.ts"() {
-    meta607 = {
+    meta631 = {
       "description": "A heart icon typically used to represent love, care, and affection in user interfaces.",
       "category": [
         "Interface",
@@ -31214,7 +32006,7 @@ var init_icon_heart_m_svg = __esm({
       ],
       "title": "Heart"
     };
-    icon_heart_m_svg_default = meta607;
+    icon_heart_m_svg_default = meta631;
   }
 });
 
@@ -31222,12 +32014,12 @@ var init_icon_heart_m_svg = __esm({
 var icon_heart_small_svg_exports = {};
 __export(icon_heart_small_svg_exports, {
   default: () => icon_heart_small_svg_default,
-  meta: () => meta608
+  meta: () => meta632
 });
-var meta608, icon_heart_small_svg_default;
+var meta632, icon_heart_small_svg_default;
 var init_icon_heart_small_svg = __esm({
   "lib/meta/icon_heart-small.svg.ts"() {
-    meta608 = {
+    meta632 = {
       "description": "A small heart icon suitable for UI design, representing love and emotion.",
       "category": [
         "Interface"
@@ -31245,7 +32037,7 @@ var init_icon_heart_small_svg = __esm({
       ],
       "title": "Heart Small"
     };
-    icon_heart_small_svg_default = meta608;
+    icon_heart_small_svg_default = meta632;
   }
 });
 
@@ -31253,12 +32045,12 @@ var init_icon_heart_small_svg = __esm({
 var icon_info_fat_svg_exports = {};
 __export(icon_info_fat_svg_exports, {
   default: () => icon_info_fat_svg_default,
-  meta: () => meta609
+  meta: () => meta633
 });
-var meta609, icon_info_fat_svg_default;
+var meta633, icon_info_fat_svg_default;
 var init_icon_info_fat_svg = __esm({
   "lib/meta/icon_info-fat.svg.ts"() {
-    meta609 = {
+    meta633 = {
       "description": "A bold icon depicting important information or instructions. The 'info-fat' icon can be used to draw attention to key details or messages.",
       "category": [
         "Interface"
@@ -31277,7 +32069,7 @@ var init_icon_info_fat_svg = __esm({
       ],
       "title": "Info Fat"
     };
-    icon_info_fat_svg_default = meta609;
+    icon_info_fat_svg_default = meta633;
   }
 });
 
@@ -31285,12 +32077,12 @@ var init_icon_info_fat_svg = __esm({
 var icon_info_l_svg_exports = {};
 __export(icon_info_l_svg_exports, {
   default: () => icon_info_l_svg_default,
-  meta: () => meta610
+  meta: () => meta634
 });
-var meta610, icon_info_l_svg_default;
+var meta634, icon_info_l_svg_default;
 var init_icon_info_l_svg = __esm({
   "lib/meta/icon_info-l.svg.ts"() {
-    meta610 = {
+    meta634 = {
       "description": "The 'info-l' icon is typically used to indicate additional information or help content. It is commonly used in user interfaces to provide users with relevant details or guidance.",
       "category": [
         "Interface"
@@ -31309,7 +32101,7 @@ var init_icon_info_l_svg = __esm({
       ],
       "title": "Info Icon - Large"
     };
-    icon_info_l_svg_default = meta610;
+    icon_info_l_svg_default = meta634;
   }
 });
 
@@ -31317,12 +32109,12 @@ var init_icon_info_l_svg = __esm({
 var icon_info_m_svg_exports = {};
 __export(icon_info_m_svg_exports, {
   default: () => icon_info_m_svg_default,
-  meta: () => meta611
+  meta: () => meta635
 });
-var meta611, icon_info_m_svg_default;
+var meta635, icon_info_m_svg_default;
 var init_icon_info_m_svg = __esm({
   "lib/meta/icon_info-m.svg.ts"() {
-    meta611 = {
+    meta635 = {
       "description": "An icon representing information or details. It can be used to indicate additional information or help.",
       "category": [
         "Interface"
@@ -31341,7 +32133,7 @@ var init_icon_info_m_svg = __esm({
       ],
       "title": "Info Icon"
     };
-    icon_info_m_svg_default = meta611;
+    icon_info_m_svg_default = meta635;
   }
 });
 
@@ -31349,12 +32141,12 @@ var init_icon_info_m_svg = __esm({
 var icon_info_s_svg_exports = {};
 __export(icon_info_s_svg_exports, {
   default: () => icon_info_s_svg_default,
-  meta: () => meta612
+  meta: () => meta636
 });
-var meta612, icon_info_s_svg_default;
+var meta636, icon_info_s_svg_default;
 var init_icon_info_s_svg = __esm({
   "lib/meta/icon_info-s.svg.ts"() {
-    meta612 = {
+    meta636 = {
       "description": "A simple 'information' icon represented by a lowercase 'i' inside a circle. This icon is commonly used to indicate additional information or details.",
       "category": [
         "Interface"
@@ -31373,7 +32165,7 @@ var init_icon_info_s_svg = __esm({
       ],
       "title": "Info S"
     };
-    icon_info_s_svg_default = meta612;
+    icon_info_s_svg_default = meta636;
   }
 });
 
@@ -31381,12 +32173,12 @@ var init_icon_info_s_svg = __esm({
 var icon_invisible_fat_svg_exports = {};
 __export(icon_invisible_fat_svg_exports, {
   default: () => icon_invisible_fat_svg_default,
-  meta: () => meta613
+  meta: () => meta637
 });
-var meta613, icon_invisible_fat_svg_default;
+var meta637, icon_invisible_fat_svg_default;
 var init_icon_invisible_fat_svg = __esm({
   "lib/meta/icon_invisible-fat.svg.ts"() {
-    meta613 = {
+    meta637 = {
       "description": "An icon representing a fat invisible element for UI design purposes.",
       "category": [
         "Interface"
@@ -31405,7 +32197,7 @@ var init_icon_invisible_fat_svg = __esm({
       ],
       "title": "Invisible Fat"
     };
-    icon_invisible_fat_svg_default = meta613;
+    icon_invisible_fat_svg_default = meta637;
   }
 });
 
@@ -31413,12 +32205,12 @@ var init_icon_invisible_fat_svg = __esm({
 var icon_invisible_l_svg_exports = {};
 __export(icon_invisible_l_svg_exports, {
   default: () => icon_invisible_l_svg_default,
-  meta: () => meta614
+  meta: () => meta638
 });
-var meta614, icon_invisible_l_svg_default;
+var meta638, icon_invisible_l_svg_default;
 var init_icon_invisible_l_svg = __esm({
   "lib/meta/icon_invisible-l.svg.ts"() {
-    meta614 = {
+    meta638 = {
       "description": "An icon representing an invisible element or object, typically used in user interfaces to denote hidden content or inactive features.",
       "category": [
         "Interface"
@@ -31437,7 +32229,7 @@ var init_icon_invisible_l_svg = __esm({
       ],
       "title": "Invisible Element"
     };
-    icon_invisible_l_svg_default = meta614;
+    icon_invisible_l_svg_default = meta638;
   }
 });
 
@@ -31445,12 +32237,12 @@ var init_icon_invisible_l_svg = __esm({
 var icon_invisible_m_svg_exports = {};
 __export(icon_invisible_m_svg_exports, {
   default: () => icon_invisible_m_svg_default,
-  meta: () => meta615
+  meta: () => meta639
 });
-var meta615, icon_invisible_m_svg_default;
+var meta639, icon_invisible_m_svg_default;
 var init_icon_invisible_m_svg = __esm({
   "lib/meta/icon_invisible-m.svg.ts"() {
-    meta615 = {
+    meta639 = {
       "description": "An invisible icon designed for user interface, representing hidden or unseen elements in a graphical user interface.",
       "category": [
         "Interface"
@@ -31469,7 +32261,7 @@ var init_icon_invisible_m_svg = __esm({
       ],
       "title": "Invisible M"
     };
-    icon_invisible_m_svg_default = meta615;
+    icon_invisible_m_svg_default = meta639;
   }
 });
 
@@ -31477,12 +32269,12 @@ var init_icon_invisible_m_svg = __esm({
 var icon_invisible_s_svg_exports = {};
 __export(icon_invisible_s_svg_exports, {
   default: () => icon_invisible_s_svg_default,
-  meta: () => meta616
+  meta: () => meta640
 });
-var meta616, icon_invisible_s_svg_default;
+var meta640, icon_invisible_s_svg_default;
 var init_icon_invisible_s_svg = __esm({
   "lib/meta/icon_invisible-s.svg.ts"() {
-    meta616 = {
+    meta640 = {
       "description": "An icon representing invisibility, often used in user interfaces to symbolize hiding or making something invisible.",
       "category": [
         "Interface"
@@ -31501,7 +32293,7 @@ var init_icon_invisible_s_svg = __esm({
       ],
       "title": "Invisible"
     };
-    icon_invisible_s_svg_default = meta616;
+    icon_invisible_s_svg_default = meta640;
   }
 });
 
@@ -31509,12 +32301,12 @@ var init_icon_invisible_s_svg = __esm({
 var icon_key_backspace_svg_exports = {};
 __export(icon_key_backspace_svg_exports, {
   default: () => icon_key_backspace_svg_default,
-  meta: () => meta617
+  meta: () => meta641
 });
-var meta617, icon_key_backspace_svg_default;
+var meta641, icon_key_backspace_svg_default;
 var init_icon_key_backspace_svg = __esm({
   "lib/meta/icon_key-backspace.svg.ts"() {
-    meta617 = {
+    meta641 = {
       "description": "The key-backspace icon is a combination of a key and a backspace arrow, indicating a function to delete text or elements using a keyboard shortcut.",
       "category": [
         "Interface"
@@ -31533,7 +32325,7 @@ var init_icon_key_backspace_svg = __esm({
       ],
       "title": "Key Backspace"
     };
-    icon_key_backspace_svg_default = meta617;
+    icon_key_backspace_svg_default = meta641;
   }
 });
 
@@ -31541,12 +32333,12 @@ var init_icon_key_backspace_svg = __esm({
 var icon_key_delete_svg_exports = {};
 __export(icon_key_delete_svg_exports, {
   default: () => icon_key_delete_svg_default,
-  meta: () => meta618
+  meta: () => meta642
 });
-var meta618, icon_key_delete_svg_default;
+var meta642, icon_key_delete_svg_default;
 var init_icon_key_delete_svg = __esm({
   "lib/meta/icon_key-delete.svg.ts"() {
-    meta618 = {
+    meta642 = {
       "description": "The key-delete icon represents a key with a small 'x' symbol on it, indicating the action of deleting or removing a key. This icon is commonly used in user interfaces to indicate the option to delete a key or disable access.",
       "category": [
         "Interface",
@@ -31566,7 +32358,7 @@ var init_icon_key_delete_svg = __esm({
       ],
       "title": "Key Delete"
     };
-    icon_key_delete_svg_default = meta618;
+    icon_key_delete_svg_default = meta642;
   }
 });
 
@@ -31574,12 +32366,12 @@ var init_icon_key_delete_svg = __esm({
 var icon_key_down_svg_exports = {};
 __export(icon_key_down_svg_exports, {
   default: () => icon_key_down_svg_default,
-  meta: () => meta619
+  meta: () => meta643
 });
-var meta619, icon_key_down_svg_default;
+var meta643, icon_key_down_svg_default;
 var init_icon_key_down_svg = __esm({
   "lib/meta/icon_key-down.svg.ts"() {
-    meta619 = {
+    meta643 = {
       "description": "An icon representing a downward key or keyboard key press. This icon is often used in user interfaces to indicate a keyboard shortcut or key press action.",
       "category": [
         "Interface"
@@ -31598,7 +32390,7 @@ var init_icon_key_down_svg = __esm({
       ],
       "title": "Key Down"
     };
-    icon_key_down_svg_default = meta619;
+    icon_key_down_svg_default = meta643;
   }
 });
 
@@ -31606,12 +32398,12 @@ var init_icon_key_down_svg = __esm({
 var icon_key_eject_svg_exports = {};
 __export(icon_key_eject_svg_exports, {
   default: () => icon_key_eject_svg_default,
-  meta: () => meta620
+  meta: () => meta644
 });
-var meta620, icon_key_eject_svg_default;
+var meta644, icon_key_eject_svg_default;
 var init_icon_key_eject_svg = __esm({
   "lib/meta/icon_key-eject.svg.ts"() {
-    meta620 = {
+    meta644 = {
       "description": "The key-eject icon represents the action of ejecting a key or safely removing a secure device. It is commonly used in user interfaces and applications to symbolize the act of disconnecting or logging out securely.",
       "category": [
         "Interface"
@@ -31630,7 +32422,7 @@ var init_icon_key_eject_svg = __esm({
       ],
       "title": "Key Eject"
     };
-    icon_key_eject_svg_default = meta620;
+    icon_key_eject_svg_default = meta644;
   }
 });
 
@@ -31638,12 +32430,12 @@ var init_icon_key_eject_svg = __esm({
 var icon_key_enter_svg_exports = {};
 __export(icon_key_enter_svg_exports, {
   default: () => icon_key_enter_svg_default,
-  meta: () => meta621
+  meta: () => meta645
 });
-var meta621, icon_key_enter_svg_default;
+var meta645, icon_key_enter_svg_default;
 var init_icon_key_enter_svg = __esm({
   "lib/meta/icon_key-enter.svg.ts"() {
-    meta621 = {
+    meta645 = {
       "description": "The key-enter icon represents the action of pressing a key on the keyboard to confirm or submit something, often used in user interfaces to submit forms or execute commands.",
       "category": [
         "Interface"
@@ -31662,7 +32454,7 @@ var init_icon_key_enter_svg = __esm({
       ],
       "title": "Key Enter"
     };
-    icon_key_enter_svg_default = meta621;
+    icon_key_enter_svg_default = meta645;
   }
 });
 
@@ -31670,12 +32462,12 @@ var init_icon_key_enter_svg = __esm({
 var icon_key_function_svg_exports = {};
 __export(icon_key_function_svg_exports, {
   default: () => icon_key_function_svg_default,
-  meta: () => meta622
+  meta: () => meta646
 });
-var meta622, icon_key_function_svg_default;
+var meta646, icon_key_function_svg_default;
 var init_icon_key_function_svg = __esm({
   "lib/meta/icon_key-function.svg.ts"() {
-    meta622 = {
+    meta646 = {
       "description": "A key icon representing a function or feature. This icon is commonly used in user interface design to indicate a key action or setting.",
       "category": [
         "Interface"
@@ -31694,7 +32486,7 @@ var init_icon_key_function_svg = __esm({
       ],
       "title": "Key Function"
     };
-    icon_key_function_svg_default = meta622;
+    icon_key_function_svg_default = meta646;
   }
 });
 
@@ -31702,12 +32494,12 @@ var init_icon_key_function_svg = __esm({
 var icon_key_mac_command_svg_exports = {};
 __export(icon_key_mac_command_svg_exports, {
   default: () => icon_key_mac_command_svg_default,
-  meta: () => meta623
+  meta: () => meta647
 });
-var meta623, icon_key_mac_command_svg_default;
+var meta647, icon_key_mac_command_svg_default;
 var init_icon_key_mac_command_svg = __esm({
   "lib/meta/icon_key-mac-command.svg.ts"() {
-    meta623 = {
+    meta647 = {
       "description": "A unique icon representing the Command key on a Mac keyboard, commonly used in user interfaces to indicate shortcut commands.",
       "category": [
         "Interface"
@@ -31726,7 +32518,7 @@ var init_icon_key_mac_command_svg = __esm({
       ],
       "title": "Key Mac Command"
     };
-    icon_key_mac_command_svg_default = meta623;
+    icon_key_mac_command_svg_default = meta647;
   }
 });
 
@@ -31734,12 +32526,12 @@ var init_icon_key_mac_command_svg = __esm({
 var icon_key_option_svg_exports = {};
 __export(icon_key_option_svg_exports, {
   default: () => icon_key_option_svg_default,
-  meta: () => meta624
+  meta: () => meta648
 });
-var meta624, icon_key_option_svg_default;
+var meta648, icon_key_option_svg_default;
 var init_icon_key_option_svg = __esm({
   "lib/meta/icon_key-option.svg.ts"() {
-    meta624 = {
+    meta648 = {
       "description": "The key-option icon represents a customizable option related to keys, such as key settings or key preferences.",
       "category": [
         "Interface"
@@ -31758,7 +32550,7 @@ var init_icon_key_option_svg = __esm({
       ],
       "title": "Key Option"
     };
-    icon_key_option_svg_default = meta624;
+    icon_key_option_svg_default = meta648;
   }
 });
 
@@ -31766,12 +32558,12 @@ var init_icon_key_option_svg = __esm({
 var icon_key_page_down_svg_exports = {};
 __export(icon_key_page_down_svg_exports, {
   default: () => icon_key_page_down_svg_default,
-  meta: () => meta625
+  meta: () => meta649
 });
-var meta625, icon_key_page_down_svg_default;
+var meta649, icon_key_page_down_svg_default;
 var init_icon_key_page_down_svg = __esm({
   "lib/meta/icon_key-page-down.svg.ts"() {
-    meta625 = {
+    meta649 = {
       "description": "An icon representing a key with an arrow pointing downwards, indicating the action of moving a page down. This icon is commonly used in user interfaces for navigation purposes.",
       "category": [
         "Interface"
@@ -31790,7 +32582,7 @@ var init_icon_key_page_down_svg = __esm({
       ],
       "title": "Key Page Down"
     };
-    icon_key_page_down_svg_default = meta625;
+    icon_key_page_down_svg_default = meta649;
   }
 });
 
@@ -31798,12 +32590,12 @@ var init_icon_key_page_down_svg = __esm({
 var icon_key_page_next_svg_exports = {};
 __export(icon_key_page_next_svg_exports, {
   default: () => icon_key_page_next_svg_default,
-  meta: () => meta626
+  meta: () => meta650
 });
-var meta626, icon_key_page_next_svg_default;
+var meta650, icon_key_page_next_svg_default;
 var init_icon_key_page_next_svg = __esm({
   "lib/meta/icon_key-page-next.svg.ts"() {
-    meta626 = {
+    meta650 = {
       "description": "The icon 'key-page-next' represents a key with an arrow pointing to the right, indicating the action of navigating to the next page. This icon is commonly used in user interfaces for pagination.",
       "category": [
         "Interface",
@@ -31823,7 +32615,7 @@ var init_icon_key_page_next_svg = __esm({
       ],
       "title": "Key Page Next"
     };
-    icon_key_page_next_svg_default = meta626;
+    icon_key_page_next_svg_default = meta650;
   }
 });
 
@@ -31831,12 +32623,12 @@ var init_icon_key_page_next_svg = __esm({
 var icon_key_page_up_svg_exports = {};
 __export(icon_key_page_up_svg_exports, {
   default: () => icon_key_page_up_svg_default,
-  meta: () => meta627
+  meta: () => meta651
 });
-var meta627, icon_key_page_up_svg_default;
+var meta651, icon_key_page_up_svg_default;
 var init_icon_key_page_up_svg = __esm({
   "lib/meta/icon_key-page-up.svg.ts"() {
-    meta627 = {
+    meta651 = {
       "description": "The key-page-up icon represents the key that allows users to move the page upwards. This icon is commonly used in user interface design to indicate a keyboard shortcut for scrolling up on a webpage.",
       "category": [
         "Interface"
@@ -31855,7 +32647,7 @@ var init_icon_key_page_up_svg = __esm({
       ],
       "title": "Key Page Up"
     };
-    icon_key_page_up_svg_default = meta627;
+    icon_key_page_up_svg_default = meta651;
   }
 });
 
@@ -31863,12 +32655,12 @@ var init_icon_key_page_up_svg = __esm({
 var icon_key_previous_up_svg_exports = {};
 __export(icon_key_previous_up_svg_exports, {
   default: () => icon_key_previous_up_svg_default,
-  meta: () => meta628
+  meta: () => meta652
 });
-var meta628, icon_key_previous_up_svg_default;
+var meta652, icon_key_previous_up_svg_default;
 var init_icon_key_previous_up_svg = __esm({
   "lib/meta/icon_key-previous-up.svg.ts"() {
-    meta628 = {
+    meta652 = {
       "description": "The key-previous-up icon is a graphical representation of a key pointing upwards, indicating a function or action related to going back or returning. This icon is commonly used in user interfaces to represent a previous step or action.",
       "category": [
         "Interface"
@@ -31887,7 +32679,7 @@ var init_icon_key_previous_up_svg = __esm({
       ],
       "title": "Key Previous Up"
     };
-    icon_key_previous_up_svg_default = meta628;
+    icon_key_previous_up_svg_default = meta652;
   }
 });
 
@@ -31895,12 +32687,12 @@ var init_icon_key_previous_up_svg = __esm({
 var icon_key_shift_svg_exports = {};
 __export(icon_key_shift_svg_exports, {
   default: () => icon_key_shift_svg_default,
-  meta: () => meta629
+  meta: () => meta653
 });
-var meta629, icon_key_shift_svg_default;
+var meta653, icon_key_shift_svg_default;
 var init_icon_key_shift_svg = __esm({
   "lib/meta/icon_key-shift.svg.ts"() {
-    meta629 = {
+    meta653 = {
       "description": "The key-shift icon represents a key with an arrow pointing upwards, symbolizing a shift or change. This icon is commonly used to indicate a key that activates a shift function or changes the current state.",
       "category": [
         "Interface"
@@ -31919,7 +32711,7 @@ var init_icon_key_shift_svg = __esm({
       ],
       "title": "Key Shift"
     };
-    icon_key_shift_svg_default = meta629;
+    icon_key_shift_svg_default = meta653;
   }
 });
 
@@ -31927,12 +32719,12 @@ var init_icon_key_shift_svg = __esm({
 var icon_key_tab_svg_exports = {};
 __export(icon_key_tab_svg_exports, {
   default: () => icon_key_tab_svg_default,
-  meta: () => meta630
+  meta: () => meta654
 });
-var meta630, icon_key_tab_svg_default;
+var meta654, icon_key_tab_svg_default;
 var init_icon_key_tab_svg = __esm({
   "lib/meta/icon_key-tab.svg.ts"() {
-    meta630 = {
+    meta654 = {
       "description": "The key-tab icon represents a key symbol often used to indicate the 'tab' key on a keyboard. This icon is commonly used in user interfaces to guide users in navigating through different fields or sections.",
       "category": [
         "Interface"
@@ -31951,7 +32743,7 @@ var init_icon_key_tab_svg = __esm({
       ],
       "title": "Key Tab"
     };
-    icon_key_tab_svg_default = meta630;
+    icon_key_tab_svg_default = meta654;
   }
 });
 
@@ -31959,12 +32751,12 @@ var init_icon_key_tab_svg = __esm({
 var icon_key_up_svg_exports = {};
 __export(icon_key_up_svg_exports, {
   default: () => icon_key_up_svg_default,
-  meta: () => meta631
+  meta: () => meta655
 });
-var meta631, icon_key_up_svg_default;
+var meta655, icon_key_up_svg_default;
 var init_icon_key_up_svg = __esm({
   "lib/meta/icon_key-up.svg.ts"() {
-    meta631 = {
+    meta655 = {
       "description": "The key-up icon represents the action of pressing the 'Up' arrow key on a keyboard. It is commonly used in user interfaces to indicate keyboard navigation or scrolling upwards.",
       "category": [
         "Interface",
@@ -31983,7 +32775,7 @@ var init_icon_key_up_svg = __esm({
       ],
       "title": "Key Up"
     };
-    icon_key_up_svg_default = meta631;
+    icon_key_up_svg_default = meta655;
   }
 });
 
@@ -31991,12 +32783,12 @@ var init_icon_key_up_svg = __esm({
 var icon_like_svg_exports = {};
 __export(icon_like_svg_exports, {
   default: () => icon_like_svg_default,
-  meta: () => meta632
+  meta: () => meta656
 });
-var meta632, icon_like_svg_default;
+var meta656, icon_like_svg_default;
 var init_icon_like_svg = __esm({
   "lib/meta/icon_like.svg.ts"() {
-    meta632 = {
+    meta656 = {
       "description": "An icon representing liking or approval, often used in social media platforms to show appreciation towards a post or content.",
       "category": [
         "Interface"
@@ -32015,7 +32807,7 @@ var init_icon_like_svg = __esm({
       ],
       "title": "Like"
     };
-    icon_like_svg_default = meta632;
+    icon_like_svg_default = meta656;
   }
 });
 
@@ -32023,12 +32815,12 @@ var init_icon_like_svg = __esm({
 var icon_link_svg_exports = {};
 __export(icon_link_svg_exports, {
   default: () => icon_link_svg_default,
-  meta: () => meta633
+  meta: () => meta657
 });
-var meta633, icon_link_svg_default;
+var meta657, icon_link_svg_default;
 var init_icon_link_svg = __esm({
   "lib/meta/icon_link.svg.ts"() {
-    meta633 = {
+    meta657 = {
       "description": "The icon 'link' represents a hyperlink or connection between items. It is commonly used to indicate clickable text or elements that redirect to another webpage or location.",
       "category": [
         "Interface"
@@ -32047,7 +32839,7 @@ var init_icon_link_svg = __esm({
       ],
       "title": "Link"
     };
-    icon_link_svg_default = meta633;
+    icon_link_svg_default = meta657;
   }
 });
 
@@ -32055,12 +32847,12 @@ var init_icon_link_svg = __esm({
 var icon_loader_dots_2_svg_exports = {};
 __export(icon_loader_dots_2_svg_exports, {
   default: () => icon_loader_dots_2_svg_default,
-  meta: () => meta634
+  meta: () => meta658
 });
-var meta634, icon_loader_dots_2_svg_default;
+var meta658, icon_loader_dots_2_svg_default;
 var init_icon_loader_dots_2_svg = __esm({
   "lib/meta/icon_loader-dots 2.svg.ts"() {
-    meta634 = {
+    meta658 = {
       "description": "A set of three circular loading dots arranged in a horizontal line, representing a loading animation or process indicator.",
       "category": [
         "Interface"
@@ -32079,7 +32871,7 @@ var init_icon_loader_dots_2_svg = __esm({
       ],
       "title": "Loader Dots 2"
     };
-    icon_loader_dots_2_svg_default = meta634;
+    icon_loader_dots_2_svg_default = meta658;
   }
 });
 
@@ -32087,12 +32879,12 @@ var init_icon_loader_dots_2_svg = __esm({
 var icon_loader_dots_svg_exports = {};
 __export(icon_loader_dots_svg_exports, {
   default: () => icon_loader_dots_svg_default,
-  meta: () => meta635
+  meta: () => meta659
 });
-var meta635, icon_loader_dots_svg_default;
+var meta659, icon_loader_dots_svg_default;
 var init_icon_loader_dots_svg = __esm({
   "lib/meta/icon_loader-dots.svg.ts"() {
-    meta635 = {
+    meta659 = {
       "description": "Loader dots is a simple icon consisting of three dots that animate in a loading sequence. Commonly used in interfaces to indicate that a process is ongoing or loading.",
       "category": [
         "Interface"
@@ -32111,7 +32903,7 @@ var init_icon_loader_dots_svg = __esm({
       ],
       "title": "Loader Dots"
     };
-    icon_loader_dots_svg_default = meta635;
+    icon_loader_dots_svg_default = meta659;
   }
 });
 
@@ -32119,12 +32911,12 @@ var init_icon_loader_dots_svg = __esm({
 var icon_male_simplified_svg_exports = {};
 __export(icon_male_simplified_svg_exports, {
   default: () => icon_male_simplified_svg_default,
-  meta: () => meta636
+  meta: () => meta660
 });
-var meta636, icon_male_simplified_svg_default;
+var meta660, icon_male_simplified_svg_default;
 var init_icon_male_simplified_svg = __esm({
   "lib/meta/icon_male-simplified.svg.ts"() {
-    meta636 = {
+    meta660 = {
       "description": "A simplified icon depicting a male figure, commonly used to represent men or masculinity in user interface designs.",
       "category": [
         "Interface"
@@ -32143,7 +32935,7 @@ var init_icon_male_simplified_svg = __esm({
       ],
       "title": "Male Simplified"
     };
-    icon_male_simplified_svg_default = meta636;
+    icon_male_simplified_svg_default = meta660;
   }
 });
 
@@ -32151,12 +32943,12 @@ var init_icon_male_simplified_svg = __esm({
 var icon_moving_block_svg_exports = {};
 __export(icon_moving_block_svg_exports, {
   default: () => icon_moving_block_svg_default,
-  meta: () => meta637
+  meta: () => meta661
 });
-var meta637, icon_moving_block_svg_default;
+var meta661, icon_moving_block_svg_default;
 var init_icon_moving_block_svg = __esm({
   "lib/meta/icon_moving-block.svg.ts"() {
-    meta637 = {
+    meta661 = {
       "description": "An icon of a moving block, representing dynamic content or interactive elements in a user interface.",
       "category": [
         "Interface",
@@ -32176,7 +32968,7 @@ var init_icon_moving_block_svg = __esm({
       ],
       "title": "Moving Block"
     };
-    icon_moving_block_svg_default = meta637;
+    icon_moving_block_svg_default = meta661;
   }
 });
 
@@ -32184,12 +32976,12 @@ var init_icon_moving_block_svg = __esm({
 var icon_multiply_fat_svg_exports = {};
 __export(icon_multiply_fat_svg_exports, {
   default: () => icon_multiply_fat_svg_default,
-  meta: () => meta638
+  meta: () => meta662
 });
-var meta638, icon_multiply_fat_svg_default;
+var meta662, icon_multiply_fat_svg_default;
 var init_icon_multiply_fat_svg = __esm({
   "lib/meta/icon_multiply-fat.svg.ts"() {
-    meta638 = {
+    meta662 = {
       "description": "A bold and modern icon of a multiplication symbol, representing the mathematical operation of multiplication. This icon is designed with a thick, fat line style for a contemporary look.",
       "category": [
         "Interface",
@@ -32206,7 +32998,7 @@ var init_icon_multiply_fat_svg = __esm({
       ],
       "title": "Multiply Fat"
     };
-    icon_multiply_fat_svg_default = meta638;
+    icon_multiply_fat_svg_default = meta662;
   }
 });
 
@@ -32214,12 +33006,12 @@ var init_icon_multiply_fat_svg = __esm({
 var icon_multiply_l_svg_exports = {};
 __export(icon_multiply_l_svg_exports, {
   default: () => icon_multiply_l_svg_default,
-  meta: () => meta639
+  meta: () => meta663
 });
-var meta639, icon_multiply_l_svg_default;
+var meta663, icon_multiply_l_svg_default;
 var init_icon_multiply_l_svg = __esm({
   "lib/meta/icon_multiply-l.svg.ts"() {
-    meta639 = {
+    meta663 = {
       "description": "The 'multiply-l' icon represents the mathematical operation of multiplication in a graphical form. It is commonly used to indicate multiplying two values together. This icon can be utilized in various user interface designs to symbolize multiplication.",
       "category": [
         "Interface"
@@ -32238,7 +33030,7 @@ var init_icon_multiply_l_svg = __esm({
       ],
       "title": "Multiply Large"
     };
-    icon_multiply_l_svg_default = meta639;
+    icon_multiply_l_svg_default = meta663;
   }
 });
 
@@ -32246,12 +33038,12 @@ var init_icon_multiply_l_svg = __esm({
 var icon_multiply_m_svg_exports = {};
 __export(icon_multiply_m_svg_exports, {
   default: () => icon_multiply_m_svg_default,
-  meta: () => meta640
+  meta: () => meta664
 });
-var meta640, icon_multiply_m_svg_default;
+var meta664, icon_multiply_m_svg_default;
 var init_icon_multiply_m_svg = __esm({
   "lib/meta/icon_multiply-m.svg.ts"() {
-    meta640 = {
+    meta664 = {
       "description": "The multiply icon is commonly used to represent multiplication or combining two elements together. It is often used in calculators, math-related applications, and design software.",
       "category": [
         "Interface"
@@ -32270,7 +33062,7 @@ var init_icon_multiply_m_svg = __esm({
       ],
       "title": "Multiply Icon"
     };
-    icon_multiply_m_svg_default = meta640;
+    icon_multiply_m_svg_default = meta664;
   }
 });
 
@@ -32278,12 +33070,12 @@ var init_icon_multiply_m_svg = __esm({
 var icon_multiply_s_svg_exports = {};
 __export(icon_multiply_s_svg_exports, {
   default: () => icon_multiply_s_svg_default,
-  meta: () => meta641
+  meta: () => meta665
 });
-var meta641, icon_multiply_s_svg_default;
+var meta665, icon_multiply_s_svg_default;
 var init_icon_multiply_s_svg = __esm({
   "lib/meta/icon_multiply-s.svg.ts"() {
-    meta641 = {
+    meta665 = {
       "description": "The multiply-s icon is a small, simple icon typically used to represent multiplication or close functionality in a user interface.",
       "category": [
         "Interface"
@@ -32302,7 +33094,7 @@ var init_icon_multiply_s_svg = __esm({
       ],
       "title": "Multiply Symbol"
     };
-    icon_multiply_s_svg_default = meta641;
+    icon_multiply_s_svg_default = meta665;
   }
 });
 
@@ -32310,12 +33102,12 @@ var init_icon_multiply_s_svg = __esm({
 var icon_note_add_2_svg_exports = {};
 __export(icon_note_add_2_svg_exports, {
   default: () => icon_note_add_2_svg_default,
-  meta: () => meta642
+  meta: () => meta666
 });
-var meta642, icon_note_add_2_svg_default;
+var meta666, icon_note_add_2_svg_default;
 var init_icon_note_add_2_svg = __esm({
   "lib/meta/icon_note-add 2.svg.ts"() {
-    meta642 = {
+    meta666 = {
       "description": "The note-add 2 icon is used to represent the action of adding a new note or document. It typically symbolizes creating a new piece of text or information.",
       "category": [
         "Interface",
@@ -32335,7 +33127,7 @@ var init_icon_note_add_2_svg = __esm({
       ],
       "title": "Note Add 2"
     };
-    icon_note_add_2_svg_default = meta642;
+    icon_note_add_2_svg_default = meta666;
   }
 });
 
@@ -32343,12 +33135,12 @@ var init_icon_note_add_2_svg = __esm({
 var icon_note_add_svg_exports = {};
 __export(icon_note_add_svg_exports, {
   default: () => icon_note_add_svg_default,
-  meta: () => meta643
+  meta: () => meta667
 });
-var meta643, icon_note_add_svg_default;
+var meta667, icon_note_add_svg_default;
 var init_icon_note_add_svg = __esm({
   "lib/meta/icon_note-add.svg.ts"() {
-    meta643 = {
+    meta667 = {
       "description": "An icon representing the action of adding or creating a new note. This icon typically features a symbol of a piece of paper with a plus sign or a pencil to signify that a new note can be added.",
       "category": [
         "Interface",
@@ -32368,7 +33160,7 @@ var init_icon_note_add_svg = __esm({
       ],
       "title": "Note Add"
     };
-    icon_note_add_svg_default = meta643;
+    icon_note_add_svg_default = meta667;
   }
 });
 
@@ -32376,12 +33168,12 @@ var init_icon_note_add_svg = __esm({
 var icon_note_broken_heart_2_svg_exports = {};
 __export(icon_note_broken_heart_2_svg_exports, {
   default: () => icon_note_broken_heart_2_svg_default,
-  meta: () => meta644
+  meta: () => meta668
 });
-var meta644, icon_note_broken_heart_2_svg_default;
+var meta668, icon_note_broken_heart_2_svg_default;
 var init_icon_note_broken_heart_2_svg = __esm({
   "lib/meta/icon_note-broken-heart 2.svg.ts"() {
-    meta644 = {
+    meta668 = {
       "description": "A broken heart with a note symbolizing sadness or heartbreak. This icon may be used in user interfaces to represent a note related to emotional content.",
       "category": [
         "UI"
@@ -32400,7 +33192,7 @@ var init_icon_note_broken_heart_2_svg = __esm({
       ],
       "title": "Note Broken Heart"
     };
-    icon_note_broken_heart_2_svg_default = meta644;
+    icon_note_broken_heart_2_svg_default = meta668;
   }
 });
 
@@ -32408,12 +33200,12 @@ var init_icon_note_broken_heart_2_svg = __esm({
 var icon_note_broken_heart_svg_exports = {};
 __export(icon_note_broken_heart_svg_exports, {
   default: () => icon_note_broken_heart_svg_default,
-  meta: () => meta645
+  meta: () => meta669
 });
-var meta645, icon_note_broken_heart_svg_default;
+var meta669, icon_note_broken_heart_svg_default;
 var init_icon_note_broken_heart_svg = __esm({
   "lib/meta/icon_note-broken-heart.svg.ts"() {
-    meta645 = {
+    meta669 = {
       "description": "The icon 'note-broken-heart' represents a broken heart shape inside a note, symbolizing heartbreak or sadness. This icon can be used in user interfaces to convey emotions or messages related to love stories, relationships, or emotional content.",
       "category": [
         "Interface",
@@ -32433,7 +33225,7 @@ var init_icon_note_broken_heart_svg = __esm({
       ],
       "title": "Note Broken Heart"
     };
-    icon_note_broken_heart_svg_default = meta645;
+    icon_note_broken_heart_svg_default = meta669;
   }
 });
 
@@ -32441,12 +33233,12 @@ var init_icon_note_broken_heart_svg = __esm({
 var icon_note_check_2_svg_exports = {};
 __export(icon_note_check_2_svg_exports, {
   default: () => icon_note_check_2_svg_default,
-  meta: () => meta646
+  meta: () => meta670
 });
-var meta646, icon_note_check_2_svg_default;
+var meta670, icon_note_check_2_svg_default;
 var init_icon_note_check_2_svg = __esm({
   "lib/meta/icon_note-check 2.svg.ts"() {
-    meta646 = {
+    meta670 = {
       "description": "The note-check 2 icon is a symbol representing a checked note or completed task. It can be used in user interfaces to indicate successful completion or verification.",
       "category": [
         "Interface",
@@ -32466,7 +33258,7 @@ var init_icon_note_check_2_svg = __esm({
       ],
       "title": "Note Check 2"
     };
-    icon_note_check_2_svg_default = meta646;
+    icon_note_check_2_svg_default = meta670;
   }
 });
 
@@ -32474,12 +33266,12 @@ var init_icon_note_check_2_svg = __esm({
 var icon_note_check_svg_exports = {};
 __export(icon_note_check_svg_exports, {
   default: () => icon_note_check_svg_default,
-  meta: () => meta647
+  meta: () => meta671
 });
-var meta647, icon_note_check_svg_default;
+var meta671, icon_note_check_svg_default;
 var init_icon_note_check_svg = __esm({
   "lib/meta/icon_note-check.svg.ts"() {
-    meta647 = {
+    meta671 = {
       "description": "A checkmark symbol on a note paper, indicating completion or approval. Used in user interfaces and applications to signify a successful action or task completion.",
       "category": [
         "Interface",
@@ -32499,7 +33291,7 @@ var init_icon_note_check_svg = __esm({
       ],
       "title": "Note Check"
     };
-    icon_note_check_svg_default = meta647;
+    icon_note_check_svg_default = meta671;
   }
 });
 
@@ -32507,12 +33299,12 @@ var init_icon_note_check_svg = __esm({
 var icon_note_edit_2_svg_exports = {};
 __export(icon_note_edit_2_svg_exports, {
   default: () => icon_note_edit_2_svg_default,
-  meta: () => meta648
+  meta: () => meta672
 });
-var meta648, icon_note_edit_2_svg_default;
+var meta672, icon_note_edit_2_svg_default;
 var init_icon_note_edit_2_svg = __esm({
   "lib/meta/icon_note-edit 2.svg.ts"() {
-    meta648 = {
+    meta672 = {
       "description": "An icon of a pencil and paper, representing editing or modifying notes. This icon is perfect for applications related to note-taking, documentation, editing, and more.",
       "category": [
         "Interface"
@@ -32531,7 +33323,7 @@ var init_icon_note_edit_2_svg = __esm({
       ],
       "title": "Note Edit 2"
     };
-    icon_note_edit_2_svg_default = meta648;
+    icon_note_edit_2_svg_default = meta672;
   }
 });
 
@@ -32539,12 +33331,12 @@ var init_icon_note_edit_2_svg = __esm({
 var icon_note_edit_svg_exports = {};
 __export(icon_note_edit_svg_exports, {
   default: () => icon_note_edit_svg_default,
-  meta: () => meta649
+  meta: () => meta673
 });
-var meta649, icon_note_edit_svg_default;
+var meta673, icon_note_edit_svg_default;
 var init_icon_note_edit_svg = __esm({
   "lib/meta/icon_note-edit.svg.ts"() {
-    meta649 = {
+    meta673 = {
       "description": "A stylized icon representing a note being edited, featuring a pencil and a sheet of paper. This icon is commonly used in user interfaces for indicating an option to edit notes or text content.",
       "category": [
         "Interface",
@@ -32564,7 +33356,7 @@ var init_icon_note_edit_svg = __esm({
       ],
       "title": "Note Edit"
     };
-    icon_note_edit_svg_default = meta649;
+    icon_note_edit_svg_default = meta673;
   }
 });
 
@@ -32572,12 +33364,12 @@ var init_icon_note_edit_svg = __esm({
 var icon_note_exclamation_mark_2_svg_exports = {};
 __export(icon_note_exclamation_mark_2_svg_exports, {
   default: () => icon_note_exclamation_mark_2_svg_default,
-  meta: () => meta650
+  meta: () => meta674
 });
-var meta650, icon_note_exclamation_mark_2_svg_default;
+var meta674, icon_note_exclamation_mark_2_svg_default;
 var init_icon_note_exclamation_mark_2_svg = __esm({
   "lib/meta/icon_note-exclamation-mark-2.svg.ts"() {
-    meta650 = {
+    meta674 = {
       "description": "An exclamation mark within a note, indicating an important message or reminder. This icon is commonly used in user interfaces to draw attention to specific information.",
       "category": [
         "Interface",
@@ -32597,7 +33389,7 @@ var init_icon_note_exclamation_mark_2_svg = __esm({
       ],
       "title": "Note Exclamation Mark 2"
     };
-    icon_note_exclamation_mark_2_svg_default = meta650;
+    icon_note_exclamation_mark_2_svg_default = meta674;
   }
 });
 
@@ -32605,12 +33397,12 @@ var init_icon_note_exclamation_mark_2_svg = __esm({
 var icon_note_exclamation_mark_svg_exports = {};
 __export(icon_note_exclamation_mark_svg_exports, {
   default: () => icon_note_exclamation_mark_svg_default,
-  meta: () => meta651
+  meta: () => meta675
 });
-var meta651, icon_note_exclamation_mark_svg_default;
+var meta675, icon_note_exclamation_mark_svg_default;
 var init_icon_note_exclamation_mark_svg = __esm({
   "lib/meta/icon_note-exclamation-mark.svg.ts"() {
-    meta651 = {
+    meta675 = {
       "description": "An icon of a note with an exclamation mark, commonly used to draw attention or highlight important information in user interfaces.",
       "category": [
         "Interface",
@@ -32630,7 +33422,7 @@ var init_icon_note_exclamation_mark_svg = __esm({
       ],
       "title": "Note Exclamation Mark"
     };
-    icon_note_exclamation_mark_svg_default = meta651;
+    icon_note_exclamation_mark_svg_default = meta675;
   }
 });
 
@@ -32638,12 +33430,12 @@ var init_icon_note_exclamation_mark_svg = __esm({
 var icon_note_heart_2_svg_exports = {};
 __export(icon_note_heart_2_svg_exports, {
   default: () => icon_note_heart_2_svg_default,
-  meta: () => meta652
+  meta: () => meta676
 });
-var meta652, icon_note_heart_2_svg_default;
+var meta676, icon_note_heart_2_svg_default;
 var init_icon_note_heart_2_svg = __esm({
   "lib/meta/icon_note-heart 2.svg.ts"() {
-    meta652 = {
+    meta676 = {
       "description": "A heart-shaped note symbol, indicating expressing love or affection through a message. It can be used in user interface designs, especially for features related to expressing emotions or sending messages of love.",
       "category": [
         "UI"
@@ -32662,7 +33454,7 @@ var init_icon_note_heart_2_svg = __esm({
       ],
       "title": "Note Heart"
     };
-    icon_note_heart_2_svg_default = meta652;
+    icon_note_heart_2_svg_default = meta676;
   }
 });
 
@@ -32670,12 +33462,12 @@ var init_icon_note_heart_2_svg = __esm({
 var icon_note_heart_svg_exports = {};
 __export(icon_note_heart_svg_exports, {
   default: () => icon_note_heart_svg_default,
-  meta: () => meta653
+  meta: () => meta677
 });
-var meta653, icon_note_heart_svg_default;
+var meta677, icon_note_heart_svg_default;
 var init_icon_note_heart_svg = __esm({
   "lib/meta/icon_note-heart.svg.ts"() {
-    meta653 = {
+    meta677 = {
       "description": "The note-heart icon is a representation of a heart shape commonly used to symbolize love and affection. It combines the visual of a heart with a sheet of paper, suggesting a message or expression of sentiment.",
       "category": [
         "Interface",
@@ -32695,7 +33487,7 @@ var init_icon_note_heart_svg = __esm({
       ],
       "title": "Note Heart"
     };
-    icon_note_heart_svg_default = meta653;
+    icon_note_heart_svg_default = meta677;
   }
 });
 
@@ -32703,12 +33495,12 @@ var init_icon_note_heart_svg = __esm({
 var icon_note_info_2_svg_exports = {};
 __export(icon_note_info_2_svg_exports, {
   default: () => icon_note_info_2_svg_default,
-  meta: () => meta654
+  meta: () => meta678
 });
-var meta654, icon_note_info_2_svg_default;
+var meta678, icon_note_info_2_svg_default;
 var init_icon_note_info_2_svg = __esm({
   "lib/meta/icon_note-info-2.svg.ts"() {
-    meta654 = {
+    meta678 = {
       "description": "An informational note icon with the number 2, indicating additional information or details related to a specific topic.",
       "category": [
         "Interface"
@@ -32727,7 +33519,7 @@ var init_icon_note_info_2_svg = __esm({
       ],
       "title": "Note Info 2"
     };
-    icon_note_info_2_svg_default = meta654;
+    icon_note_info_2_svg_default = meta678;
   }
 });
 
@@ -32735,12 +33527,12 @@ var init_icon_note_info_2_svg = __esm({
 var icon_note_info_svg_exports = {};
 __export(icon_note_info_svg_exports, {
   default: () => icon_note_info_svg_default,
-  meta: () => meta655
+  meta: () => meta679
 });
-var meta655, icon_note_info_svg_default;
+var meta679, icon_note_info_svg_default;
 var init_icon_note_info_svg = __esm({
   "lib/meta/icon_note-info.svg.ts"() {
-    meta655 = {
+    meta679 = {
       "description": "A note-info icon typically represents information or notes. It is commonly used to indicate helpful information or additional details.",
       "category": [
         "Interface",
@@ -32760,7 +33552,7 @@ var init_icon_note_info_svg = __esm({
       ],
       "title": "Note Info"
     };
-    icon_note_info_svg_default = meta655;
+    icon_note_info_svg_default = meta679;
   }
 });
 
@@ -32768,12 +33560,12 @@ var init_icon_note_info_svg = __esm({
 var icon_note_invisible_2_svg_exports = {};
 __export(icon_note_invisible_2_svg_exports, {
   default: () => icon_note_invisible_2_svg_default,
-  meta: () => meta656
+  meta: () => meta680
 });
-var meta656, icon_note_invisible_2_svg_default;
+var meta680, icon_note_invisible_2_svg_default;
 var init_icon_note_invisible_2_svg = __esm({
   "lib/meta/icon_note-invisible 2.svg.ts"() {
-    meta656 = {
+    meta680 = {
       "description": "A hidden or invisible note icon for user interface design. Represents a note that is not visible or hidden from view.",
       "category": [
         "Interface"
@@ -32792,7 +33584,7 @@ var init_icon_note_invisible_2_svg = __esm({
       ],
       "title": "Note Invisible 2"
     };
-    icon_note_invisible_2_svg_default = meta656;
+    icon_note_invisible_2_svg_default = meta680;
   }
 });
 
@@ -32800,12 +33592,12 @@ var init_icon_note_invisible_2_svg = __esm({
 var icon_note_invisible_svg_exports = {};
 __export(icon_note_invisible_svg_exports, {
   default: () => icon_note_invisible_svg_default,
-  meta: () => meta657
+  meta: () => meta681
 });
-var meta657, icon_note_invisible_svg_default;
+var meta681, icon_note_invisible_svg_default;
 var init_icon_note_invisible_svg = __esm({
   "lib/meta/icon_note-invisible.svg.ts"() {
-    meta657 = {
+    meta681 = {
       "description": "An invisible note icon that signifies hidden or unseen information.",
       "category": [
         "Interface",
@@ -32825,7 +33617,7 @@ var init_icon_note_invisible_svg = __esm({
       ],
       "title": "Note Invisible"
     };
-    icon_note_invisible_svg_default = meta657;
+    icon_note_invisible_svg_default = meta681;
   }
 });
 
@@ -32833,12 +33625,12 @@ var init_icon_note_invisible_svg = __esm({
 var icon_note_multiply_2_svg_exports = {};
 __export(icon_note_multiply_2_svg_exports, {
   default: () => icon_note_multiply_2_svg_default,
-  meta: () => meta658
+  meta: () => meta682
 });
-var meta658, icon_note_multiply_2_svg_default;
+var meta682, icon_note_multiply_2_svg_default;
 var init_icon_note_multiply_2_svg = __esm({
   "lib/meta/icon_note-multiply 2.svg.ts"() {
-    meta658 = {
+    meta682 = {
       "description": "The 'note-multiply 2' icon is a UI icon depicting two overlapping notes with a multiplication sign, representing a note-taking or document editing action.",
       "category": [
         "Interface"
@@ -32855,7 +33647,7 @@ var init_icon_note_multiply_2_svg = __esm({
       ],
       "title": "Note Multiply 2"
     };
-    icon_note_multiply_2_svg_default = meta658;
+    icon_note_multiply_2_svg_default = meta682;
   }
 });
 
@@ -32863,12 +33655,12 @@ var init_icon_note_multiply_2_svg = __esm({
 var icon_note_multiply_svg_exports = {};
 __export(icon_note_multiply_svg_exports, {
   default: () => icon_note_multiply_svg_default,
-  meta: () => meta659
+  meta: () => meta683
 });
-var meta659, icon_note_multiply_svg_default;
+var meta683, icon_note_multiply_svg_default;
 var init_icon_note_multiply_svg = __esm({
   "lib/meta/icon_note-multiply.svg.ts"() {
-    meta659 = {
+    meta683 = {
       "description": "An icon of a note with a multiplication symbol, representing a concept of mathematical notes or calculations. Can be used in educational or productivity-related interfaces.",
       "category": [
         "Interface",
@@ -32888,7 +33680,7 @@ var init_icon_note_multiply_svg = __esm({
       ],
       "title": "Note Multiply"
     };
-    icon_note_multiply_svg_default = meta659;
+    icon_note_multiply_svg_default = meta683;
   }
 });
 
@@ -32896,12 +33688,12 @@ var init_icon_note_multiply_svg = __esm({
 var icon_note_question_mark_2_svg_exports = {};
 __export(icon_note_question_mark_2_svg_exports, {
   default: () => icon_note_question_mark_2_svg_default,
-  meta: () => meta660
+  meta: () => meta684
 });
-var meta660, icon_note_question_mark_2_svg_default;
+var meta684, icon_note_question_mark_2_svg_default;
 var init_icon_note_question_mark_2_svg = __esm({
   "lib/meta/icon_note-question-mark-2.svg.ts"() {
-    meta660 = {
+    meta684 = {
       "description": "An icon of a note with a question mark, typically used to represent help or FAQs in user interfaces.",
       "category": [
         "Interface"
@@ -32920,7 +33712,7 @@ var init_icon_note_question_mark_2_svg = __esm({
       ],
       "title": "Note Question Mark 2"
     };
-    icon_note_question_mark_2_svg_default = meta660;
+    icon_note_question_mark_2_svg_default = meta684;
   }
 });
 
@@ -32928,12 +33720,12 @@ var init_icon_note_question_mark_2_svg = __esm({
 var icon_note_question_mark_svg_exports = {};
 __export(icon_note_question_mark_svg_exports, {
   default: () => icon_note_question_mark_svg_default,
-  meta: () => meta661
+  meta: () => meta685
 });
-var meta661, icon_note_question_mark_svg_default;
+var meta685, icon_note_question_mark_svg_default;
 var init_icon_note_question_mark_svg = __esm({
   "lib/meta/icon_note-question-mark.svg.ts"() {
-    meta661 = {
+    meta685 = {
       "description": "A note icon with a question mark, indicating a piece of information that requires attention or clarification.",
       "category": [
         "Interface"
@@ -32952,7 +33744,7 @@ var init_icon_note_question_mark_svg = __esm({
       ],
       "title": "Note with Question Mark"
     };
-    icon_note_question_mark_svg_default = meta661;
+    icon_note_question_mark_svg_default = meta685;
   }
 });
 
@@ -32960,12 +33752,12 @@ var init_icon_note_question_mark_svg = __esm({
 var icon_note_search_2_svg_exports = {};
 __export(icon_note_search_2_svg_exports, {
   default: () => icon_note_search_2_svg_default,
-  meta: () => meta662
+  meta: () => meta686
 });
-var meta662, icon_note_search_2_svg_default;
+var meta686, icon_note_search_2_svg_default;
 var init_icon_note_search_2_svg = __esm({
   "lib/meta/icon_note-search 2.svg.ts"() {
-    meta662 = {
+    meta686 = {
       "description": "The note-search 2 icon is a visual representation of a magnifying glass searching through a document or note. This icon is commonly used in user interfaces to indicate search functionality within notes or documents.",
       "category": [
         "Interface",
@@ -32985,7 +33777,7 @@ var init_icon_note_search_2_svg = __esm({
       ],
       "title": "Note Search 2"
     };
-    icon_note_search_2_svg_default = meta662;
+    icon_note_search_2_svg_default = meta686;
   }
 });
 
@@ -32993,12 +33785,12 @@ var init_icon_note_search_2_svg = __esm({
 var icon_note_search_svg_exports = {};
 __export(icon_note_search_svg_exports, {
   default: () => icon_note_search_svg_default,
-  meta: () => meta663
+  meta: () => meta687
 });
-var meta663, icon_note_search_svg_default;
+var meta687, icon_note_search_svg_default;
 var init_icon_note_search_svg = __esm({
   "lib/meta/icon_note-search.svg.ts"() {
-    meta663 = {
+    meta687 = {
       "description": "The note-search icon is used to represent a search function within a note-taking application or feature, allowing users to quickly find specific notes using keywords or phrases.",
       "category": [
         "Interface"
@@ -33016,7 +33808,7 @@ var init_icon_note_search_svg = __esm({
       ],
       "title": "Note Search"
     };
-    icon_note_search_svg_default = meta663;
+    icon_note_search_svg_default = meta687;
   }
 });
 
@@ -33024,12 +33816,12 @@ var init_icon_note_search_svg = __esm({
 var icon_note_star_2_svg_exports = {};
 __export(icon_note_star_2_svg_exports, {
   default: () => icon_note_star_2_svg_default,
-  meta: () => meta664
+  meta: () => meta688
 });
-var meta664, icon_note_star_2_svg_default;
+var meta688, icon_note_star_2_svg_default;
 var init_icon_note_star_2_svg = __esm({
   "lib/meta/icon_note-star 2.svg.ts"() {
-    meta664 = {
+    meta688 = {
       "description": "Icon representing a starred note, indicating importance or special attention. This icon is commonly used in interfaces to denote favorited items or important notes.",
       "category": [
         "Interface"
@@ -33048,7 +33840,7 @@ var init_icon_note_star_2_svg = __esm({
       ],
       "title": "Note Star 2"
     };
-    icon_note_star_2_svg_default = meta664;
+    icon_note_star_2_svg_default = meta688;
   }
 });
 
@@ -33056,12 +33848,12 @@ var init_icon_note_star_2_svg = __esm({
 var icon_note_star_svg_exports = {};
 __export(icon_note_star_svg_exports, {
   default: () => icon_note_star_svg_default,
-  meta: () => meta665
+  meta: () => meta689
 });
-var meta665, icon_note_star_svg_default;
+var meta689, icon_note_star_svg_default;
 var init_icon_note_star_svg = __esm({
   "lib/meta/icon_note-star.svg.ts"() {
-    meta665 = {
+    meta689 = {
       "description": "A star symbol often used to indicate importance or to highlight something in a note or document.",
       "category": [
         "Interface",
@@ -33081,7 +33873,7 @@ var init_icon_note_star_svg = __esm({
       ],
       "title": "Note Star"
     };
-    icon_note_star_svg_default = meta665;
+    icon_note_star_svg_default = meta689;
   }
 });
 
@@ -33089,12 +33881,12 @@ var init_icon_note_star_svg = __esm({
 var icon_note_subtract_2_svg_exports = {};
 __export(icon_note_subtract_2_svg_exports, {
   default: () => icon_note_subtract_2_svg_default,
-  meta: () => meta666
+  meta: () => meta690
 });
-var meta666, icon_note_subtract_2_svg_default;
+var meta690, icon_note_subtract_2_svg_default;
 var init_icon_note_subtract_2_svg = __esm({
   "lib/meta/icon_note-subtract 2.svg.ts"() {
-    meta666 = {
+    meta690 = {
       "description": "A subtraction symbol inside a note icon, indicating a reduction or removal of content. This icon is commonly used in user interfaces to represent the action of removing a note or information.",
       "category": [
         "Interface"
@@ -33113,7 +33905,7 @@ var init_icon_note_subtract_2_svg = __esm({
       ],
       "title": "Note Subtract"
     };
-    icon_note_subtract_2_svg_default = meta666;
+    icon_note_subtract_2_svg_default = meta690;
   }
 });
 
@@ -33121,12 +33913,12 @@ var init_icon_note_subtract_2_svg = __esm({
 var icon_note_subtract_svg_exports = {};
 __export(icon_note_subtract_svg_exports, {
   default: () => icon_note_subtract_svg_default,
-  meta: () => meta667
+  meta: () => meta691
 });
-var meta667, icon_note_subtract_svg_default;
+var meta691, icon_note_subtract_svg_default;
 var init_icon_note_subtract_svg = __esm({
   "lib/meta/icon_note-subtract.svg.ts"() {
-    meta667 = {
+    meta691 = {
       "description": "An icon depicting the subtraction of a note or document. It may symbolize removing or deleting a written note or text.",
       "category": [
         "Interface",
@@ -33146,7 +33938,7 @@ var init_icon_note_subtract_svg = __esm({
       ],
       "title": "Note Subtract"
     };
-    icon_note_subtract_svg_default = meta667;
+    icon_note_subtract_svg_default = meta691;
   }
 });
 
@@ -33154,12 +33946,12 @@ var init_icon_note_subtract_svg = __esm({
 var icon_note_visible_2_svg_exports = {};
 __export(icon_note_visible_2_svg_exports, {
   default: () => icon_note_visible_2_svg_default,
-  meta: () => meta668
+  meta: () => meta692
 });
-var meta668, icon_note_visible_2_svg_default;
+var meta692, icon_note_visible_2_svg_default;
 var init_icon_note_visible_2_svg = __esm({
   "lib/meta/icon_note-visible 2.svg.ts"() {
-    meta668 = {
+    meta692 = {
       "description": "A visible note icon with two lines, representing a note that is viewable and contains information. This icon is commonly used in user interfaces to indicate the presence of notes or messages.",
       "category": [
         "Interface",
@@ -33179,7 +33971,7 @@ var init_icon_note_visible_2_svg = __esm({
       ],
       "title": "Note Visible 2"
     };
-    icon_note_visible_2_svg_default = meta668;
+    icon_note_visible_2_svg_default = meta692;
   }
 });
 
@@ -33187,12 +33979,12 @@ var init_icon_note_visible_2_svg = __esm({
 var icon_note_visible_svg_exports = {};
 __export(icon_note_visible_svg_exports, {
   default: () => icon_note_visible_svg_default,
-  meta: () => meta669
+  meta: () => meta693
 });
-var meta669, icon_note_visible_svg_default;
+var meta693, icon_note_visible_svg_default;
 var init_icon_note_visible_svg = __esm({
   "lib/meta/icon_note-visible.svg.ts"() {
-    meta669 = {
+    meta693 = {
       "description": "An icon representing a visible note, typically used in user interfaces or applications to indicate the presence of a note or message that is visible or open.",
       "category": [
         "Interface"
@@ -33211,7 +34003,7 @@ var init_icon_note_visible_svg = __esm({
       ],
       "title": "Note Visible"
     };
-    icon_note_visible_svg_default = meta669;
+    icon_note_visible_svg_default = meta693;
   }
 });
 
@@ -33219,12 +34011,12 @@ var init_icon_note_visible_svg = __esm({
 var icon_note_svg_exports = {};
 __export(icon_note_svg_exports, {
   default: () => icon_note_svg_default,
-  meta: () => meta670
+  meta: () => meta694
 });
-var meta670, icon_note_svg_default;
+var meta694, icon_note_svg_default;
 var init_icon_note_svg = __esm({
   "lib/meta/icon_note.svg.ts"() {
-    meta670 = {
+    meta694 = {
       "description": "The note icon represents a small piece of paper with lines, typically used to write short messages or reminders. It is commonly used in user interfaces to indicate areas where users can add or view text notes.",
       "category": [
         "Interface",
@@ -33244,7 +34036,7 @@ var init_icon_note_svg = __esm({
       ],
       "title": "Note"
     };
-    icon_note_svg_default = meta670;
+    icon_note_svg_default = meta694;
   }
 });
 
@@ -33252,12 +34044,12 @@ var init_icon_note_svg = __esm({
 var icon_on_target_svg_exports = {};
 __export(icon_on_target_svg_exports, {
   default: () => icon_on_target_svg_default,
-  meta: () => meta671
+  meta: () => meta695
 });
-var meta671, icon_on_target_svg_default;
+var meta695, icon_on_target_svg_default;
 var init_icon_on_target_svg = __esm({
   "lib/meta/icon_on-target.svg.ts"() {
-    meta671 = {
+    meta695 = {
       "description": "The 'on-target' icon represents hitting the mark or achieving a goal. It can be used to signify successful completion or accuracy.",
       "category": [
         "Interface",
@@ -33277,7 +34069,7 @@ var init_icon_on_target_svg = __esm({
       ],
       "title": "On Target"
     };
-    icon_on_target_svg_default = meta671;
+    icon_on_target_svg_default = meta695;
   }
 });
 
@@ -33285,12 +34077,12 @@ var init_icon_on_target_svg = __esm({
 var icon_paragraph_svg_exports = {};
 __export(icon_paragraph_svg_exports, {
   default: () => icon_paragraph_svg_default,
-  meta: () => meta672
+  meta: () => meta696
 });
-var meta672, icon_paragraph_svg_default;
+var meta696, icon_paragraph_svg_default;
 var init_icon_paragraph_svg = __esm({
   "lib/meta/icon_paragraph.svg.ts"() {
-    meta672 = {
+    meta696 = {
       "description": "The paragraph icon represents a block of text or a section in a document. It is commonly used to indicate where large bodies of text begin or end.",
       "category": [
         "Interface",
@@ -33311,7 +34103,7 @@ var init_icon_paragraph_svg = __esm({
       ],
       "title": "Paragraph"
     };
-    icon_paragraph_svg_default = meta672;
+    icon_paragraph_svg_default = meta696;
   }
 });
 
@@ -33319,12 +34111,12 @@ var init_icon_paragraph_svg = __esm({
 var icon_performance_2_svg_exports = {};
 __export(icon_performance_2_svg_exports, {
   default: () => icon_performance_2_svg_default,
-  meta: () => meta673
+  meta: () => meta697
 });
-var meta673, icon_performance_2_svg_default;
+var meta697, icon_performance_2_svg_default;
 var init_icon_performance_2_svg = __esm({
   "lib/meta/icon_performance 2.svg.ts"() {
-    meta673 = {
+    meta697 = {
       "description": "The performance 2 icon is a symbol representing performance or efficiency. It can be used to indicate high performance, optimization, or speed in user interface designs.",
       "category": [
         "Interface",
@@ -33344,7 +34136,7 @@ var init_icon_performance_2_svg = __esm({
       ],
       "title": "Performance 2"
     };
-    icon_performance_2_svg_default = meta673;
+    icon_performance_2_svg_default = meta697;
   }
 });
 
@@ -33352,12 +34144,12 @@ var init_icon_performance_2_svg = __esm({
 var icon_performance_svg_exports = {};
 __export(icon_performance_svg_exports, {
   default: () => icon_performance_svg_default,
-  meta: () => meta674
+  meta: () => meta698
 });
-var meta674, icon_performance_svg_default;
+var meta698, icon_performance_svg_default;
 var init_icon_performance_svg = __esm({
   "lib/meta/icon_performance.svg.ts"() {
-    meta674 = {
+    meta698 = {
       "description": "The performance icon is commonly used to represent speed, efficiency, and productivity. It can be used in UI design to indicate high performance levels or optimization.",
       "category": [
         "Interface"
@@ -33376,7 +34168,7 @@ var init_icon_performance_svg = __esm({
       ],
       "title": "Performance"
     };
-    icon_performance_svg_default = meta674;
+    icon_performance_svg_default = meta698;
   }
 });
 
@@ -33384,12 +34176,12 @@ var init_icon_performance_svg = __esm({
 var icon_pin_tilted_svg_exports = {};
 __export(icon_pin_tilted_svg_exports, {
   default: () => icon_pin_tilted_svg_default,
-  meta: () => meta675
+  meta: () => meta699
 });
-var meta675, icon_pin_tilted_svg_default;
+var meta699, icon_pin_tilted_svg_default;
 var init_icon_pin_tilted_svg = __esm({
   "lib/meta/icon_pin-tilted.svg.ts"() {
-    meta675 = {
+    meta699 = {
       "description": "A tilted pin icon commonly used to indicate or mark a specific location on a map.",
       "category": [
         "Interface"
@@ -33408,7 +34200,7 @@ var init_icon_pin_tilted_svg = __esm({
       ],
       "title": "Pin Tilted"
     };
-    icon_pin_tilted_svg_default = meta675;
+    icon_pin_tilted_svg_default = meta699;
   }
 });
 
@@ -33416,12 +34208,12 @@ var init_icon_pin_tilted_svg = __esm({
 var icon_pin_svg_exports = {};
 __export(icon_pin_svg_exports, {
   default: () => icon_pin_svg_default,
-  meta: () => meta676
+  meta: () => meta700
 });
-var meta676, icon_pin_svg_default;
+var meta700, icon_pin_svg_default;
 var init_icon_pin_svg = __esm({
   "lib/meta/icon_pin.svg.ts"() {
-    meta676 = {
+    meta700 = {
       "description": "The pin icon represents a location marker, commonly used to indicate a specific point on a map. It is typically shaped like a dropped pin or a pushpin.",
       "category": [
         "Interface"
@@ -33440,7 +34232,7 @@ var init_icon_pin_svg = __esm({
       ],
       "title": "Pin"
     };
-    icon_pin_svg_default = meta676;
+    icon_pin_svg_default = meta700;
   }
 });
 
@@ -33448,12 +34240,12 @@ var init_icon_pin_svg = __esm({
 var icon_planner_svg_exports = {};
 __export(icon_planner_svg_exports, {
   default: () => icon_planner_svg_default,
-  meta: () => meta677
+  meta: () => meta701
 });
-var meta677, icon_planner_svg_default;
+var meta701, icon_planner_svg_default;
 var init_icon_planner_svg = __esm({
   "lib/meta/icon_planner.svg.ts"() {
-    meta677 = {
+    meta701 = {
       "description": "The planner icon represents a tool used for organizing and managing schedules, tasks, and appointments. It is commonly used in user interface design to symbolize planning and time management.",
       "category": [
         "Interface"
@@ -33472,7 +34264,7 @@ var init_icon_planner_svg = __esm({
       ],
       "title": "Planner"
     };
-    icon_planner_svg_default = meta677;
+    icon_planner_svg_default = meta701;
   }
 });
 
@@ -33480,12 +34272,12 @@ var init_icon_planner_svg = __esm({
 var icon_pointer_arrow_line_svg_exports = {};
 __export(icon_pointer_arrow_line_svg_exports, {
   default: () => icon_pointer_arrow_line_svg_default,
-  meta: () => meta678
+  meta: () => meta702
 });
-var meta678, icon_pointer_arrow_line_svg_default;
+var meta702, icon_pointer_arrow_line_svg_default;
 var init_icon_pointer_arrow_line_svg = __esm({
   "lib/meta/icon_pointer-arrow-line.svg.ts"() {
-    meta678 = {
+    meta702 = {
       "description": "The pointer arrow line icon is a simple and clean icon depicting an arrow pointer. It can be used in various user interface designs to indicate direction or focus.",
       "category": [
         "Interface"
@@ -33504,7 +34296,7 @@ var init_icon_pointer_arrow_line_svg = __esm({
       ],
       "title": "Pointer Arrow Line"
     };
-    icon_pointer_arrow_line_svg_default = meta678;
+    icon_pointer_arrow_line_svg_default = meta702;
   }
 });
 
@@ -33512,12 +34304,12 @@ var init_icon_pointer_arrow_line_svg = __esm({
 var icon_pointer_arrow_svg_exports = {};
 __export(icon_pointer_arrow_svg_exports, {
   default: () => icon_pointer_arrow_svg_default,
-  meta: () => meta679
+  meta: () => meta703
 });
-var meta679, icon_pointer_arrow_svg_default;
+var meta703, icon_pointer_arrow_svg_default;
 var init_icon_pointer_arrow_svg = __esm({
   "lib/meta/icon_pointer-arrow.svg.ts"() {
-    meta679 = {
+    meta703 = {
       "description": "A pointer arrow icon is used to indicate a specific direction or point of interest on a user interface. It is commonly used in navigation systems to guide users to a target.",
       "category": [
         "Interface",
@@ -33537,7 +34329,7 @@ var init_icon_pointer_arrow_svg = __esm({
       ],
       "title": "Pointer Arrow"
     };
-    icon_pointer_arrow_svg_default = meta679;
+    icon_pointer_arrow_svg_default = meta703;
   }
 });
 
@@ -33545,12 +34337,12 @@ var init_icon_pointer_arrow_svg = __esm({
 var icon_pointer_cross_svg_exports = {};
 __export(icon_pointer_cross_svg_exports, {
   default: () => icon_pointer_cross_svg_default,
-  meta: () => meta680
+  meta: () => meta704
 });
-var meta680, icon_pointer_cross_svg_default;
+var meta704, icon_pointer_cross_svg_default;
 var init_icon_pointer_cross_svg = __esm({
   "lib/meta/icon_pointer-cross.svg.ts"() {
-    meta680 = {
+    meta704 = {
       "description": "The pointer-cross icon is a user interface (UI) element representing a cursor or pointer with a crosshair symbol, often used to indicate a precise location or selection point.",
       "category": [
         "Interface"
@@ -33568,7 +34360,7 @@ var init_icon_pointer_cross_svg = __esm({
       ],
       "title": "Pointer Cross"
     };
-    icon_pointer_cross_svg_default = meta680;
+    icon_pointer_cross_svg_default = meta704;
   }
 });
 
@@ -33576,12 +34368,12 @@ var init_icon_pointer_cross_svg = __esm({
 var icon_pointer_hand_svg_exports = {};
 __export(icon_pointer_hand_svg_exports, {
   default: () => icon_pointer_hand_svg_default,
-  meta: () => meta681
+  meta: () => meta705
 });
-var meta681, icon_pointer_hand_svg_default;
+var meta705, icon_pointer_hand_svg_default;
 var init_icon_pointer_hand_svg = __esm({
   "lib/meta/icon_pointer-hand.svg.ts"() {
-    meta681 = {
+    meta705 = {
       "description": "A hand-shaped pointer icon commonly used in user interfaces to indicate clickable elements or links.",
       "category": [
         "Interface"
@@ -33600,7 +34392,7 @@ var init_icon_pointer_hand_svg = __esm({
       ],
       "title": "Pointer Hand"
     };
-    icon_pointer_hand_svg_default = meta681;
+    icon_pointer_hand_svg_default = meta705;
   }
 });
 
@@ -33608,12 +34400,12 @@ var init_icon_pointer_hand_svg = __esm({
 var icon_pointer_left_svg_exports = {};
 __export(icon_pointer_left_svg_exports, {
   default: () => icon_pointer_left_svg_default,
-  meta: () => meta682
+  meta: () => meta706
 });
-var meta682, icon_pointer_left_svg_default;
+var meta706, icon_pointer_left_svg_default;
 var init_icon_pointer_left_svg = __esm({
   "lib/meta/icon_pointer-left.svg.ts"() {
-    meta682 = {
+    meta706 = {
       "description": "The pointer-left icon is commonly used to indicate a leftward direction or to navigate to the previous item or page in a user interface.",
       "category": [
         "Arrows",
@@ -33632,7 +34424,7 @@ var init_icon_pointer_left_svg = __esm({
       ],
       "title": "Pointer Left"
     };
-    icon_pointer_left_svg_default = meta682;
+    icon_pointer_left_svg_default = meta706;
   }
 });
 
@@ -33640,12 +34432,12 @@ var init_icon_pointer_left_svg = __esm({
 var icon_pointer_mouse_svg_exports = {};
 __export(icon_pointer_mouse_svg_exports, {
   default: () => icon_pointer_mouse_svg_default,
-  meta: () => meta683
+  meta: () => meta707
 });
-var meta683, icon_pointer_mouse_svg_default;
+var meta707, icon_pointer_mouse_svg_default;
 var init_icon_pointer_mouse_svg = __esm({
   "lib/meta/icon_pointer-mouse.svg.ts"() {
-    meta683 = {
+    meta707 = {
       "description": "A mouse pointer is a graphical image that moves as you move the mouse, typically used to interact with computer software by clicking on buttons, links, or other elements on the screen.",
       "category": [
         "Interface"
@@ -33664,7 +34456,7 @@ var init_icon_pointer_mouse_svg = __esm({
       ],
       "title": "Pointer Mouse"
     };
-    icon_pointer_mouse_svg_default = meta683;
+    icon_pointer_mouse_svg_default = meta707;
   }
 });
 
@@ -33672,12 +34464,12 @@ var init_icon_pointer_mouse_svg = __esm({
 var icon_pointer_pen_svg_exports = {};
 __export(icon_pointer_pen_svg_exports, {
   default: () => icon_pointer_pen_svg_default,
-  meta: () => meta684
+  meta: () => meta708
 });
-var meta684, icon_pointer_pen_svg_default;
+var meta708, icon_pointer_pen_svg_default;
 var init_icon_pointer_pen_svg = __esm({
   "lib/meta/icon_pointer-pen.svg.ts"() {
-    meta684 = {
+    meta708 = {
       "description": "The pointer-pen icon is a combination of a pointer and a pen, symbolizing the act of pointing and writing. It is commonly used in user interface design to indicate selecting and editing functionalities.",
       "category": [
         "Interface"
@@ -33696,7 +34488,7 @@ var init_icon_pointer_pen_svg = __esm({
       ],
       "title": "Pointer Pen"
     };
-    icon_pointer_pen_svg_default = meta684;
+    icon_pointer_pen_svg_default = meta708;
   }
 });
 
@@ -33704,12 +34496,12 @@ var init_icon_pointer_pen_svg = __esm({
 var icon_pointer_text_svg_exports = {};
 __export(icon_pointer_text_svg_exports, {
   default: () => icon_pointer_text_svg_default,
-  meta: () => meta685
+  meta: () => meta709
 });
-var meta685, icon_pointer_text_svg_default;
+var meta709, icon_pointer_text_svg_default;
 var init_icon_pointer_text_svg = __esm({
   "lib/meta/icon_pointer-text.svg.ts"() {
-    meta685 = {
+    meta709 = {
       "description": "The pointer-text icon represents a cursor or pointer used for selecting and editing text in user interfaces. It is commonly used in applications and websites to indicate where text input can be made.",
       "category": [
         "Interface",
@@ -33729,7 +34521,7 @@ var init_icon_pointer_text_svg = __esm({
       ],
       "title": "Pointer Text"
     };
-    icon_pointer_text_svg_default = meta685;
+    icon_pointer_text_svg_default = meta709;
   }
 });
 
@@ -33737,12 +34529,12 @@ var init_icon_pointer_text_svg = __esm({
 var icon_question_mark_fat_svg_exports = {};
 __export(icon_question_mark_fat_svg_exports, {
   default: () => icon_question_mark_fat_svg_default,
-  meta: () => meta686
+  meta: () => meta710
 });
-var meta686, icon_question_mark_fat_svg_default;
+var meta710, icon_question_mark_fat_svg_default;
 var init_icon_question_mark_fat_svg = __esm({
   "lib/meta/icon_question-mark-fat.svg.ts"() {
-    meta686 = {
+    meta710 = {
       "description": "A fat style question mark icon commonly used in user interface designs.",
       "category": [
         "Interface"
@@ -33761,7 +34553,7 @@ var init_icon_question_mark_fat_svg = __esm({
       ],
       "title": "Question Mark Fat"
     };
-    icon_question_mark_fat_svg_default = meta686;
+    icon_question_mark_fat_svg_default = meta710;
   }
 });
 
@@ -33769,12 +34561,12 @@ var init_icon_question_mark_fat_svg = __esm({
 var icon_question_mark_l_svg_exports = {};
 __export(icon_question_mark_l_svg_exports, {
   default: () => icon_question_mark_l_svg_default,
-  meta: () => meta687
+  meta: () => meta711
 });
-var meta687, icon_question_mark_l_svg_default;
+var meta711, icon_question_mark_l_svg_default;
 var init_icon_question_mark_l_svg = __esm({
   "lib/meta/icon_question-mark-l.svg.ts"() {
-    meta687 = {
+    meta711 = {
       "description": "A simple question mark icon designed in a modern and sleek style. Perfect for use in user interface designs to indicate help, support, or FAQs.",
       "category": [
         "Interface"
@@ -33793,7 +34585,7 @@ var init_icon_question_mark_l_svg = __esm({
       ],
       "title": "Question Mark L"
     };
-    icon_question_mark_l_svg_default = meta687;
+    icon_question_mark_l_svg_default = meta711;
   }
 });
 
@@ -33801,12 +34593,12 @@ var init_icon_question_mark_l_svg = __esm({
 var icon_question_mark_m_svg_exports = {};
 __export(icon_question_mark_m_svg_exports, {
   default: () => icon_question_mark_m_svg_default,
-  meta: () => meta688
+  meta: () => meta712
 });
-var meta688, icon_question_mark_m_svg_default;
+var meta712, icon_question_mark_m_svg_default;
 var init_icon_question_mark_m_svg = __esm({
   "lib/meta/icon_question-mark-m.svg.ts"() {
-    meta688 = {
+    meta712 = {
       "description": "This icon represents a question mark enclosed in a circle, commonly used to indicate an unknown or unclear situation. It is often used in user interfaces to prompt the user for help or further information.",
       "category": [
         "Interface"
@@ -33825,7 +34617,7 @@ var init_icon_question_mark_m_svg = __esm({
       ],
       "title": "Question Mark Circle"
     };
-    icon_question_mark_m_svg_default = meta688;
+    icon_question_mark_m_svg_default = meta712;
   }
 });
 
@@ -33833,12 +34625,12 @@ var init_icon_question_mark_m_svg = __esm({
 var icon_question_mark_s_svg_exports = {};
 __export(icon_question_mark_s_svg_exports, {
   default: () => icon_question_mark_s_svg_default,
-  meta: () => meta689
+  meta: () => meta713
 });
-var meta689, icon_question_mark_s_svg_default;
+var meta713, icon_question_mark_s_svg_default;
 var init_icon_question_mark_s_svg = __esm({
   "lib/meta/icon_question-mark-s.svg.ts"() {
-    meta689 = {
+    meta713 = {
       "description": "A simple question mark icon in a circle, commonly used to indicate a help or information section in user interfaces.",
       "category": [
         "Interface"
@@ -33857,7 +34649,7 @@ var init_icon_question_mark_s_svg = __esm({
       ],
       "title": "Question Mark S"
     };
-    icon_question_mark_s_svg_default = meta689;
+    icon_question_mark_s_svg_default = meta713;
   }
 });
 
@@ -33865,12 +34657,12 @@ var init_icon_question_mark_s_svg = __esm({
 var icon_remove_lines_svg_exports = {};
 __export(icon_remove_lines_svg_exports, {
   default: () => icon_remove_lines_svg_default,
-  meta: () => meta690
+  meta: () => meta714
 });
-var meta690, icon_remove_lines_svg_default;
+var meta714, icon_remove_lines_svg_default;
 var init_icon_remove_lines_svg = __esm({
   "lib/meta/icon_remove-lines.svg.ts"() {
-    meta690 = {
+    meta714 = {
       "description": "The remove-lines icon represents a design element with multiple lines that can be used for the removal or deletion of content. It is often used in user interfaces for editing or deleting options.",
       "category": [
         "Interface"
@@ -33889,7 +34681,7 @@ var init_icon_remove_lines_svg = __esm({
       ],
       "title": "Remove Lines"
     };
-    icon_remove_lines_svg_default = meta690;
+    icon_remove_lines_svg_default = meta714;
   }
 });
 
@@ -33897,12 +34689,12 @@ var init_icon_remove_lines_svg = __esm({
 var icon_search_fat_svg_exports = {};
 __export(icon_search_fat_svg_exports, {
   default: () => icon_search_fat_svg_default,
-  meta: () => meta691
+  meta: () => meta715
 });
-var meta691, icon_search_fat_svg_default;
+var meta715, icon_search_fat_svg_default;
 var init_icon_search_fat_svg = __esm({
   "lib/meta/icon_search-fat.svg.ts"() {
-    meta691 = {
+    meta715 = {
       "description": "A bold and thick search icon, ideal for user interfaces and navigation bars.",
       "category": [
         "Interface"
@@ -33921,7 +34713,7 @@ var init_icon_search_fat_svg = __esm({
       ],
       "title": "Search Fat"
     };
-    icon_search_fat_svg_default = meta691;
+    icon_search_fat_svg_default = meta715;
   }
 });
 
@@ -33929,12 +34721,12 @@ var init_icon_search_fat_svg = __esm({
 var icon_search_l_svg_exports = {};
 __export(icon_search_l_svg_exports, {
   default: () => icon_search_l_svg_default,
-  meta: () => meta692
+  meta: () => meta716
 });
-var meta692, icon_search_l_svg_default;
+var meta716, icon_search_l_svg_default;
 var init_icon_search_l_svg = __esm({
   "lib/meta/icon_search-l.svg.ts"() {
-    meta692 = {
+    meta716 = {
       "description": "The search-l icon represents a design of a magnifying glass often used to symbolize a search function.",
       "category": [
         "Interface"
@@ -33953,7 +34745,7 @@ var init_icon_search_l_svg = __esm({
       ],
       "title": "Search Icon"
     };
-    icon_search_l_svg_default = meta692;
+    icon_search_l_svg_default = meta716;
   }
 });
 
@@ -33961,12 +34753,12 @@ var init_icon_search_l_svg = __esm({
 var icon_search_m_svg_exports = {};
 __export(icon_search_m_svg_exports, {
   default: () => icon_search_m_svg_default,
-  meta: () => meta693
+  meta: () => meta717
 });
-var meta693, icon_search_m_svg_default;
+var meta717, icon_search_m_svg_default;
 var init_icon_search_m_svg = __esm({
   "lib/meta/icon_search-m.svg.ts"() {
-    meta693 = {
+    meta717 = {
       "description": "A magnifying glass icon depicting a search symbol. Ideal for use in search bars or search functionalities in user interfaces.",
       "category": [
         "Interface"
@@ -33985,7 +34777,7 @@ var init_icon_search_m_svg = __esm({
       ],
       "title": "Search Magnifier"
     };
-    icon_search_m_svg_default = meta693;
+    icon_search_m_svg_default = meta717;
   }
 });
 
@@ -33993,12 +34785,12 @@ var init_icon_search_m_svg = __esm({
 var icon_search_small_svg_exports = {};
 __export(icon_search_small_svg_exports, {
   default: () => icon_search_small_svg_default,
-  meta: () => meta694
+  meta: () => meta718
 });
-var meta694, icon_search_small_svg_default;
+var meta718, icon_search_small_svg_default;
 var init_icon_search_small_svg = __esm({
   "lib/meta/icon_search-small.svg.ts"() {
-    meta694 = {
+    meta718 = {
       "description": "The search-small icon is a small magnifying glass commonly used to indicate a search function in user interfaces.",
       "category": [
         "Interface"
@@ -34017,7 +34809,7 @@ var init_icon_search_small_svg = __esm({
       ],
       "title": "Search Small"
     };
-    icon_search_small_svg_default = meta694;
+    icon_search_small_svg_default = meta718;
   }
 });
 
@@ -34025,12 +34817,12 @@ var init_icon_search_small_svg = __esm({
 var icon_section_svg_exports = {};
 __export(icon_section_svg_exports, {
   default: () => icon_section_svg_default,
-  meta: () => meta695
+  meta: () => meta719
 });
-var meta695, icon_section_svg_default;
+var meta719, icon_section_svg_default;
 var init_icon_section_svg = __esm({
   "lib/meta/icon_section.svg.ts"() {
-    meta695 = {
+    meta719 = {
       "description": "A simple icon indicating a section or a division within a user interface.",
       "category": [
         "Interface"
@@ -34049,7 +34841,7 @@ var init_icon_section_svg = __esm({
       ],
       "title": "Section"
     };
-    icon_section_svg_default = meta695;
+    icon_section_svg_default = meta719;
   }
 });
 
@@ -34057,12 +34849,12 @@ var init_icon_section_svg = __esm({
 var icon_settings_2_svg_exports = {};
 __export(icon_settings_2_svg_exports, {
   default: () => icon_settings_2_svg_default,
-  meta: () => meta696
+  meta: () => meta720
 });
-var meta696, icon_settings_2_svg_default;
+var meta720, icon_settings_2_svg_default;
 var init_icon_settings_2_svg = __esm({
   "lib/meta/icon_settings 2.svg.ts"() {
-    meta696 = {
+    meta720 = {
       "description": "The settings 2 icon is commonly used in user interfaces to indicate a menu for configuration options. It typically consists of a gear or cogwheel symbol.",
       "category": [
         "Interface"
@@ -34081,7 +34873,7 @@ var init_icon_settings_2_svg = __esm({
       ],
       "title": "Settings 2"
     };
-    icon_settings_2_svg_default = meta696;
+    icon_settings_2_svg_default = meta720;
   }
 });
 
@@ -34089,12 +34881,12 @@ var init_icon_settings_2_svg = __esm({
 var icon_settings_3_svg_exports = {};
 __export(icon_settings_3_svg_exports, {
   default: () => icon_settings_3_svg_default,
-  meta: () => meta697
+  meta: () => meta721
 });
-var meta697, icon_settings_3_svg_default;
+var meta721, icon_settings_3_svg_default;
 var init_icon_settings_3_svg = __esm({
   "lib/meta/icon_settings 3.svg.ts"() {
-    meta697 = {
+    meta721 = {
       "description": "The 'settings 3' icon is commonly used to represent the settings or preferences menu in a user interface. It typically signifies the option to customize and control various aspects of a software application or device.",
       "category": [
         "Interface"
@@ -34113,7 +34905,7 @@ var init_icon_settings_3_svg = __esm({
       ],
       "title": "Settings Three"
     };
-    icon_settings_3_svg_default = meta697;
+    icon_settings_3_svg_default = meta721;
   }
 });
 
@@ -34121,12 +34913,12 @@ var init_icon_settings_3_svg = __esm({
 var icon_settings_4_svg_exports = {};
 __export(icon_settings_4_svg_exports, {
   default: () => icon_settings_4_svg_default,
-  meta: () => meta698
+  meta: () => meta722
 });
-var meta698, icon_settings_4_svg_default;
+var meta722, icon_settings_4_svg_default;
 var init_icon_settings_4_svg = __esm({
   "lib/meta/icon_settings 4.svg.ts"() {
-    meta698 = {
+    meta722 = {
       "description": "The settings 4 icon represents a gear or cogwheel often used to symbolize settings or options in user interfaces.",
       "category": [
         "Interface"
@@ -34145,7 +34937,7 @@ var init_icon_settings_4_svg = __esm({
       ],
       "title": "Settings 4"
     };
-    icon_settings_4_svg_default = meta698;
+    icon_settings_4_svg_default = meta722;
   }
 });
 
@@ -34153,12 +34945,12 @@ var init_icon_settings_4_svg = __esm({
 var icon_settings_5_svg_exports = {};
 __export(icon_settings_5_svg_exports, {
   default: () => icon_settings_5_svg_default,
-  meta: () => meta699
+  meta: () => meta723
 });
-var meta699, icon_settings_5_svg_default;
+var meta723, icon_settings_5_svg_default;
 var init_icon_settings_5_svg = __esm({
   "lib/meta/icon_settings 5.svg.ts"() {
-    meta699 = {
+    meta723 = {
       "description": "Settings 5 icon is a simple graphic depicting five circular settings gears. It is commonly used in user interface designs to represent a settings or options menu.",
       "category": [
         "Interface"
@@ -34177,7 +34969,7 @@ var init_icon_settings_5_svg = __esm({
       ],
       "title": "Settings Five"
     };
-    icon_settings_5_svg_default = meta699;
+    icon_settings_5_svg_default = meta723;
   }
 });
 
@@ -34185,12 +34977,12 @@ var init_icon_settings_5_svg = __esm({
 var icon_settings_svg_exports = {};
 __export(icon_settings_svg_exports, {
   default: () => icon_settings_svg_default,
-  meta: () => meta700
+  meta: () => meta724
 });
-var meta700, icon_settings_svg_default;
+var meta724, icon_settings_svg_default;
 var init_icon_settings_svg = __esm({
   "lib/meta/icon_settings.svg.ts"() {
-    meta700 = {
+    meta724 = {
       "description": "An icon representing settings, typically used to access or modify various options and preferences.",
       "category": [
         "Interface"
@@ -34209,7 +35001,7 @@ var init_icon_settings_svg = __esm({
       ],
       "title": "Settings"
     };
-    icon_settings_svg_default = meta700;
+    icon_settings_svg_default = meta724;
   }
 });
 
@@ -34217,12 +35009,12 @@ var init_icon_settings_svg = __esm({
 var icon_speech_balloon_2_svg_exports = {};
 __export(icon_speech_balloon_2_svg_exports, {
   default: () => icon_speech_balloon_2_svg_default,
-  meta: () => meta701
+  meta: () => meta725
 });
-var meta701, icon_speech_balloon_2_svg_default;
+var meta725, icon_speech_balloon_2_svg_default;
 var init_icon_speech_balloon_2_svg = __esm({
   "lib/meta/icon_speech-balloon-2.svg.ts"() {
-    meta701 = {
+    meta725 = {
       "description": "A speech balloon icon indicating conversation or dialogue, commonly used in user interfaces for messaging or chat features.",
       "category": [
         "Interface"
@@ -34241,7 +35033,7 @@ var init_icon_speech_balloon_2_svg = __esm({
       ],
       "title": "Speech Balloon 2"
     };
-    icon_speech_balloon_2_svg_default = meta701;
+    icon_speech_balloon_2_svg_default = meta725;
   }
 });
 
@@ -34249,12 +35041,12 @@ var init_icon_speech_balloon_2_svg = __esm({
 var icon_speech_balloon_square_2_svg_exports = {};
 __export(icon_speech_balloon_square_2_svg_exports, {
   default: () => icon_speech_balloon_square_2_svg_default,
-  meta: () => meta702
+  meta: () => meta726
 });
-var meta702, icon_speech_balloon_square_2_svg_default;
+var meta726, icon_speech_balloon_square_2_svg_default;
 var init_icon_speech_balloon_square_2_svg = __esm({
   "lib/meta/icon_speech-balloon-square 2.svg.ts"() {
-    meta702 = {
+    meta726 = {
       "description": "The speech balloon square 2 icon is a UI element representing a message or chat bubble. It can be used in messaging apps, social media platforms, or communication-related interfaces.",
       "category": [
         "Interface"
@@ -34273,7 +35065,7 @@ var init_icon_speech_balloon_square_2_svg = __esm({
       ],
       "title": "Speech Balloon Square 2"
     };
-    icon_speech_balloon_square_2_svg_default = meta702;
+    icon_speech_balloon_square_2_svg_default = meta726;
   }
 });
 
@@ -34281,12 +35073,12 @@ var init_icon_speech_balloon_square_2_svg = __esm({
 var icon_speech_balloon_square_copy_svg_exports = {};
 __export(icon_speech_balloon_square_copy_svg_exports, {
   default: () => icon_speech_balloon_square_copy_svg_default,
-  meta: () => meta703
+  meta: () => meta727
 });
-var meta703, icon_speech_balloon_square_copy_svg_default;
+var meta727, icon_speech_balloon_square_copy_svg_default;
 var init_icon_speech_balloon_square_copy_svg = __esm({
   "lib/meta/icon_speech-balloon-square copy.svg.ts"() {
-    meta703 = {
+    meta727 = {
       "description": "This icon depicts a square speech balloon, commonly used to represent dialogue or comments in user interfaces.",
       "category": [
         "Interface"
@@ -34305,7 +35097,7 @@ var init_icon_speech_balloon_square_copy_svg = __esm({
       ],
       "title": "Speech Balloon Square Copy"
     };
-    icon_speech_balloon_square_copy_svg_default = meta703;
+    icon_speech_balloon_square_copy_svg_default = meta727;
   }
 });
 
@@ -34313,12 +35105,12 @@ var init_icon_speech_balloon_square_copy_svg = __esm({
 var icon_speech_balloon_square_text_svg_exports = {};
 __export(icon_speech_balloon_square_text_svg_exports, {
   default: () => icon_speech_balloon_square_text_svg_default,
-  meta: () => meta704
+  meta: () => meta728
 });
-var meta704, icon_speech_balloon_square_text_svg_default;
+var meta728, icon_speech_balloon_square_text_svg_default;
 var init_icon_speech_balloon_square_text_svg = __esm({
   "lib/meta/icon_speech-balloon-square-text.svg.ts"() {
-    meta704 = {
+    meta728 = {
       "description": "The speech balloon square text icon is a graphical representation of a square-shaped speech bubble commonly used to display short snippets of text in user interfaces.",
       "category": [
         "Interface"
@@ -34337,7 +35129,7 @@ var init_icon_speech_balloon_square_text_svg = __esm({
       ],
       "title": "Speech Balloon Square Text"
     };
-    icon_speech_balloon_square_text_svg_default = meta704;
+    icon_speech_balloon_square_text_svg_default = meta728;
   }
 });
 
@@ -34345,12 +35137,12 @@ var init_icon_speech_balloon_square_text_svg = __esm({
 var icon_speech_balloon_square_svg_exports = {};
 __export(icon_speech_balloon_square_svg_exports, {
   default: () => icon_speech_balloon_square_svg_default,
-  meta: () => meta705
+  meta: () => meta729
 });
-var meta705, icon_speech_balloon_square_svg_default;
+var meta729, icon_speech_balloon_square_svg_default;
 var init_icon_speech_balloon_square_svg = __esm({
   "lib/meta/icon_speech-balloon-square.svg.ts"() {
-    meta705 = {
+    meta729 = {
       "description": "The speech-balloon-square icon is a square-shaped speech balloon commonly used in user interface designs to represent messages or chat conversations.",
       "category": [
         "Interface"
@@ -34369,7 +35161,7 @@ var init_icon_speech_balloon_square_svg = __esm({
       ],
       "title": "Speech Balloon Square"
     };
-    icon_speech_balloon_square_svg_default = meta705;
+    icon_speech_balloon_square_svg_default = meta729;
   }
 });
 
@@ -34377,12 +35169,12 @@ var init_icon_speech_balloon_square_svg = __esm({
 var icon_speech_balloon_svg_exports = {};
 __export(icon_speech_balloon_svg_exports, {
   default: () => icon_speech_balloon_svg_default,
-  meta: () => meta706
+  meta: () => meta730
 });
-var meta706, icon_speech_balloon_svg_default;
+var meta730, icon_speech_balloon_svg_default;
 var init_icon_speech_balloon_svg = __esm({
   "lib/meta/icon_speech-balloon.svg.ts"() {
-    meta706 = {
+    meta730 = {
       "description": "A speech balloon icon commonly used to represent communication, chatting, messaging, or commenting in user interface designs.",
       "category": [
         "Interface"
@@ -34401,7 +35193,7 @@ var init_icon_speech_balloon_svg = __esm({
       ],
       "title": "Speech Balloon"
     };
-    icon_speech_balloon_svg_default = meta706;
+    icon_speech_balloon_svg_default = meta730;
   }
 });
 
@@ -34409,12 +35201,12 @@ var init_icon_speech_balloon_svg = __esm({
 var icon_speech_balloons_svg_exports = {};
 __export(icon_speech_balloons_svg_exports, {
   default: () => icon_speech_balloons_svg_default,
-  meta: () => meta707
+  meta: () => meta731
 });
-var meta707, icon_speech_balloons_svg_default;
+var meta731, icon_speech_balloons_svg_default;
 var init_icon_speech_balloons_svg = __esm({
   "lib/meta/icon_speech-balloons.svg.ts"() {
-    meta707 = {
+    meta731 = {
       "description": "The speech balloons icon is commonly used in user interfaces to represent conversations, dialogues or messaging systems. It typically symbolizes communication and interactions between users.",
       "category": [
         "Interface"
@@ -34433,7 +35225,7 @@ var init_icon_speech_balloons_svg = __esm({
       ],
       "title": "Speech Balloons"
     };
-    icon_speech_balloons_svg_default = meta707;
+    icon_speech_balloons_svg_default = meta731;
   }
 });
 
@@ -34441,12 +35233,12 @@ var init_icon_speech_balloons_svg = __esm({
 var icon_squared_add_svg_exports = {};
 __export(icon_squared_add_svg_exports, {
   default: () => icon_squared_add_svg_default,
-  meta: () => meta708
+  meta: () => meta732
 });
-var meta708, icon_squared_add_svg_default;
+var meta732, icon_squared_add_svg_default;
 var init_icon_squared_add_svg = __esm({
   "lib/meta/icon_squared-add.svg.ts"() {
-    meta708 = {
+    meta732 = {
       "description": "Squared add icon is a symbol representing the action of adding or creating something new. It typically features a square shape with a plus sign in the center.",
       "category": [
         "Interface",
@@ -34466,7 +35258,7 @@ var init_icon_squared_add_svg = __esm({
       ],
       "title": "Squared Add"
     };
-    icon_squared_add_svg_default = meta708;
+    icon_squared_add_svg_default = meta732;
   }
 });
 
@@ -34474,12 +35266,12 @@ var init_icon_squared_add_svg = __esm({
 var icon_squared_broken_heart_svg_exports = {};
 __export(icon_squared_broken_heart_svg_exports, {
   default: () => icon_squared_broken_heart_svg_default,
-  meta: () => meta709
+  meta: () => meta733
 });
-var meta709, icon_squared_broken_heart_svg_default;
+var meta733, icon_squared_broken_heart_svg_default;
 var init_icon_squared_broken_heart_svg = __esm({
   "lib/meta/icon_squared-broken-heart.svg.ts"() {
-    meta709 = {
+    meta733 = {
       "description": "An icon depicting a heart that is broken into two pieces, symbolizing heartbreak or sadness. This icon is commonly used in user interfaces to convey emotions related to love and relationships.",
       "category": [
         "UI"
@@ -34498,7 +35290,7 @@ var init_icon_squared_broken_heart_svg = __esm({
       ],
       "title": "Squared Broken Heart"
     };
-    icon_squared_broken_heart_svg_default = meta709;
+    icon_squared_broken_heart_svg_default = meta733;
   }
 });
 
@@ -34506,12 +35298,12 @@ var init_icon_squared_broken_heart_svg = __esm({
 var icon_squared_check_svg_exports = {};
 __export(icon_squared_check_svg_exports, {
   default: () => icon_squared_check_svg_default,
-  meta: () => meta710
+  meta: () => meta734
 });
-var meta710, icon_squared_check_svg_default;
+var meta734, icon_squared_check_svg_default;
 var init_icon_squared_check_svg = __esm({
   "lib/meta/icon_squared-check.svg.ts"() {
-    meta710 = {
+    meta734 = {
       "description": "The squared check icon represents a checkbox or confirmation. It is commonly used in user interfaces to indicate a successful action or the selection of an option.",
       "category": [
         "Interface",
@@ -34531,7 +35323,7 @@ var init_icon_squared_check_svg = __esm({
       ],
       "title": "Squared Check"
     };
-    icon_squared_check_svg_default = meta710;
+    icon_squared_check_svg_default = meta734;
   }
 });
 
@@ -34539,12 +35331,12 @@ var init_icon_squared_check_svg = __esm({
 var icon_squared_edit_svg_exports = {};
 __export(icon_squared_edit_svg_exports, {
   default: () => icon_squared_edit_svg_default,
-  meta: () => meta711
+  meta: () => meta735
 });
-var meta711, icon_squared_edit_svg_default;
+var meta735, icon_squared_edit_svg_default;
 var init_icon_squared_edit_svg = __esm({
   "lib/meta/icon_squared-edit.svg.ts"() {
-    meta711 = {
+    meta735 = {
       "description": "The squared-edit icon represents an edit feature in a graphical user interface. It typically signifies the ability to modify or update content within an application or software.",
       "category": [
         "Interface"
@@ -34562,7 +35354,7 @@ var init_icon_squared_edit_svg = __esm({
       ],
       "title": "Squared Edit"
     };
-    icon_squared_edit_svg_default = meta711;
+    icon_squared_edit_svg_default = meta735;
   }
 });
 
@@ -34570,12 +35362,12 @@ var init_icon_squared_edit_svg = __esm({
 var icon_squared_exclamation_mark_svg_exports = {};
 __export(icon_squared_exclamation_mark_svg_exports, {
   default: () => icon_squared_exclamation_mark_svg_default,
-  meta: () => meta712
+  meta: () => meta736
 });
-var meta712, icon_squared_exclamation_mark_svg_default;
+var meta736, icon_squared_exclamation_mark_svg_default;
 var init_icon_squared_exclamation_mark_svg = __esm({
   "lib/meta/icon_squared-exclamation-mark.svg.ts"() {
-    meta712 = {
+    meta736 = {
       "description": "A squared exclamation mark icon, used in user interfaces to indicate a warning or important message.",
       "category": [
         "Interface",
@@ -34595,7 +35387,7 @@ var init_icon_squared_exclamation_mark_svg = __esm({
       ],
       "title": "Squared Exclamation Mark"
     };
-    icon_squared_exclamation_mark_svg_default = meta712;
+    icon_squared_exclamation_mark_svg_default = meta736;
   }
 });
 
@@ -34603,12 +35395,12 @@ var init_icon_squared_exclamation_mark_svg = __esm({
 var icon_squared_heart_svg_exports = {};
 __export(icon_squared_heart_svg_exports, {
   default: () => icon_squared_heart_svg_default,
-  meta: () => meta713
+  meta: () => meta737
 });
-var meta713, icon_squared_heart_svg_default;
+var meta737, icon_squared_heart_svg_default;
 var init_icon_squared_heart_svg = __esm({
   "lib/meta/icon_squared-heart.svg.ts"() {
-    meta713 = {
+    meta737 = {
       "description": "The squared-heart icon is a symbol commonly used to represent love or affection. It features a heart shape enclosed within a square outline.",
       "category": [
         "Interface",
@@ -34628,7 +35420,7 @@ var init_icon_squared_heart_svg = __esm({
       ],
       "title": "Squared Heart"
     };
-    icon_squared_heart_svg_default = meta713;
+    icon_squared_heart_svg_default = meta737;
   }
 });
 
@@ -34636,12 +35428,12 @@ var init_icon_squared_heart_svg = __esm({
 var icon_squared_info_svg_exports = {};
 __export(icon_squared_info_svg_exports, {
   default: () => icon_squared_info_svg_default,
-  meta: () => meta714
+  meta: () => meta738
 });
-var meta714, icon_squared_info_svg_default;
+var meta738, icon_squared_info_svg_default;
 var init_icon_squared_info_svg = __esm({
   "lib/meta/icon_squared-info.svg.ts"() {
-    meta714 = {
+    meta738 = {
       "description": "A squared information icon typically used to indicate additional information or details. This icon is commonly used in user interfaces.",
       "category": [
         "Interface"
@@ -34658,7 +35450,7 @@ var init_icon_squared_info_svg = __esm({
       ],
       "title": "Squared Info"
     };
-    icon_squared_info_svg_default = meta714;
+    icon_squared_info_svg_default = meta738;
   }
 });
 
@@ -34666,12 +35458,12 @@ var init_icon_squared_info_svg = __esm({
 var icon_squared_invisible_svg_exports = {};
 __export(icon_squared_invisible_svg_exports, {
   default: () => icon_squared_invisible_svg_default,
-  meta: () => meta715
+  meta: () => meta739
 });
-var meta715, icon_squared_invisible_svg_default;
+var meta739, icon_squared_invisible_svg_default;
 var init_icon_squared_invisible_svg = __esm({
   "lib/meta/icon_squared-invisible.svg.ts"() {
-    meta715 = {
+    meta739 = {
       "description": "The squared invisible icon represents an invisible or hidden element in a user interface, often used for toggling visibility or hiding content. It can also convey concepts like stealth, secrecy, or transparency.",
       "category": [
         "Interface"
@@ -34690,7 +35482,7 @@ var init_icon_squared_invisible_svg = __esm({
       ],
       "title": "Squared Invisible"
     };
-    icon_squared_invisible_svg_default = meta715;
+    icon_squared_invisible_svg_default = meta739;
   }
 });
 
@@ -34698,12 +35490,12 @@ var init_icon_squared_invisible_svg = __esm({
 var icon_squared_multiply_svg_exports = {};
 __export(icon_squared_multiply_svg_exports, {
   default: () => icon_squared_multiply_svg_default,
-  meta: () => meta716
+  meta: () => meta740
 });
-var meta716, icon_squared_multiply_svg_default;
+var meta740, icon_squared_multiply_svg_default;
 var init_icon_squared_multiply_svg = __esm({
   "lib/meta/icon_squared-multiply.svg.ts"() {
-    meta716 = {
+    meta740 = {
       "description": "The 'squared-multiply' icon represents a multiplication symbol enclosed within a square shape. It is commonly used in user interfaces to indicate a close or delete action.",
       "category": [
         "Interface"
@@ -34721,7 +35513,7 @@ var init_icon_squared_multiply_svg = __esm({
       ],
       "title": "Squared Multiply"
     };
-    icon_squared_multiply_svg_default = meta716;
+    icon_squared_multiply_svg_default = meta740;
   }
 });
 
@@ -34729,12 +35521,12 @@ var init_icon_squared_multiply_svg = __esm({
 var icon_squared_question_mark_svg_exports = {};
 __export(icon_squared_question_mark_svg_exports, {
   default: () => icon_squared_question_mark_svg_default,
-  meta: () => meta717
+  meta: () => meta741
 });
-var meta717, icon_squared_question_mark_svg_default;
+var meta741, icon_squared_question_mark_svg_default;
 var init_icon_squared_question_mark_svg = __esm({
   "lib/meta/icon_squared-question-mark.svg.ts"() {
-    meta717 = {
+    meta741 = {
       "description": "A squared question mark icon commonly used in user interfaces to represent help, queries, and questions.",
       "category": [
         "Interface"
@@ -34753,7 +35545,7 @@ var init_icon_squared_question_mark_svg = __esm({
       ],
       "title": "Squared Question Mark"
     };
-    icon_squared_question_mark_svg_default = meta717;
+    icon_squared_question_mark_svg_default = meta741;
   }
 });
 
@@ -34761,12 +35553,12 @@ var init_icon_squared_question_mark_svg = __esm({
 var icon_squared_search_svg_exports = {};
 __export(icon_squared_search_svg_exports, {
   default: () => icon_squared_search_svg_default,
-  meta: () => meta718
+  meta: () => meta742
 });
-var meta718, icon_squared_search_svg_default;
+var meta742, icon_squared_search_svg_default;
 var init_icon_squared_search_svg = __esm({
   "lib/meta/icon_squared-search.svg.ts"() {
-    meta718 = {
+    meta742 = {
       "description": "The squared-search icon represents a search functionality in a squared design, suitable for use in user interface designs.",
       "category": [
         "Interface"
@@ -34785,7 +35577,7 @@ var init_icon_squared_search_svg = __esm({
       ],
       "title": "Squared Search"
     };
-    icon_squared_search_svg_default = meta718;
+    icon_squared_search_svg_default = meta742;
   }
 });
 
@@ -34793,12 +35585,12 @@ var init_icon_squared_search_svg = __esm({
 var icon_squared_star_svg_exports = {};
 __export(icon_squared_star_svg_exports, {
   default: () => icon_squared_star_svg_default,
-  meta: () => meta719
+  meta: () => meta743
 });
-var meta719, icon_squared_star_svg_default;
+var meta743, icon_squared_star_svg_default;
 var init_icon_squared_star_svg = __esm({
   "lib/meta/icon_squared-star.svg.ts"() {
-    meta719 = {
+    meta743 = {
       "description": "The squared-star icon is a symbol featuring a star enclosed in a square shape. It represents creativity, achievement, or can be used to highlight important information in a user interface design.",
       "category": [
         "Interface",
@@ -34818,7 +35610,7 @@ var init_icon_squared_star_svg = __esm({
       ],
       "title": "Squared Star"
     };
-    icon_squared_star_svg_default = meta719;
+    icon_squared_star_svg_default = meta743;
   }
 });
 
@@ -34826,12 +35618,12 @@ var init_icon_squared_star_svg = __esm({
 var icon_squared_subtract_svg_exports = {};
 __export(icon_squared_subtract_svg_exports, {
   default: () => icon_squared_subtract_svg_default,
-  meta: () => meta720
+  meta: () => meta744
 });
-var meta720, icon_squared_subtract_svg_default;
+var meta744, icon_squared_subtract_svg_default;
 var init_icon_squared_subtract_svg = __esm({
   "lib/meta/icon_squared-subtract.svg.ts"() {
-    meta720 = {
+    meta744 = {
       "description": "An icon representing the action of subtracting or removing something in a squared design, commonly used in user interfaces.",
       "category": [
         "Interface"
@@ -34849,7 +35641,7 @@ var init_icon_squared_subtract_svg = __esm({
       ],
       "title": "Squared Subtract"
     };
-    icon_squared_subtract_svg_default = meta720;
+    icon_squared_subtract_svg_default = meta744;
   }
 });
 
@@ -34857,12 +35649,12 @@ var init_icon_squared_subtract_svg = __esm({
 var icon_squared_visible_svg_exports = {};
 __export(icon_squared_visible_svg_exports, {
   default: () => icon_squared_visible_svg_default,
-  meta: () => meta721
+  meta: () => meta745
 });
-var meta721, icon_squared_visible_svg_default;
+var meta745, icon_squared_visible_svg_default;
 var init_icon_squared_visible_svg = __esm({
   "lib/meta/icon_squared-visible.svg.ts"() {
-    meta721 = {
+    meta745 = {
       "description": "The icon represents a squared shape with a visible indication, often used to denote visibility or availability. It can be used in user interface designs to show that an option or feature is accessible or active.",
       "category": [
         "Interface",
@@ -34882,7 +35674,7 @@ var init_icon_squared_visible_svg = __esm({
       ],
       "title": "Squared Visible"
     };
-    icon_squared_visible_svg_default = meta721;
+    icon_squared_visible_svg_default = meta745;
   }
 });
 
@@ -34890,12 +35682,12 @@ var init_icon_squared_visible_svg = __esm({
 var icon_squared_svg_exports = {};
 __export(icon_squared_svg_exports, {
   default: () => icon_squared_svg_default,
-  meta: () => meta722
+  meta: () => meta746
 });
-var meta722, icon_squared_svg_default;
+var meta746, icon_squared_svg_default;
 var init_icon_squared_svg = __esm({
   "lib/meta/icon_squared.svg.ts"() {
-    meta722 = {
+    meta746 = {
       "description": "The squared icon represents a shape that is in the form of a square with equal sides. It is commonly used in user interface designs to indicate selections, checkboxes, or as a placeholder for icons.",
       "category": [
         "Shapes",
@@ -34914,7 +35706,7 @@ var init_icon_squared_svg = __esm({
       ],
       "title": "Squared"
     };
-    icon_squared_svg_default = meta722;
+    icon_squared_svg_default = meta746;
   }
 });
 
@@ -34922,12 +35714,12 @@ var init_icon_squared_svg = __esm({
 var icon_stamp_svg_exports = {};
 __export(icon_stamp_svg_exports, {
   default: () => icon_stamp_svg_default,
-  meta: () => meta723
+  meta: () => meta747
 });
-var meta723, icon_stamp_svg_default;
+var meta747, icon_stamp_svg_default;
 var init_icon_stamp_svg = __esm({
   "lib/meta/icon_stamp.svg.ts"() {
-    meta723 = {
+    meta747 = {
       "description": "The stamp icon represents an official mark or seal that is used to certify documents, paperwork, or packages. It is often used in user interfaces to indicate approval, authentication, or completion.",
       "category": [
         "Interface",
@@ -34947,7 +35739,7 @@ var init_icon_stamp_svg = __esm({
       ],
       "title": "Stamp"
     };
-    icon_stamp_svg_default = meta723;
+    icon_stamp_svg_default = meta747;
   }
 });
 
@@ -34955,12 +35747,12 @@ var init_icon_stamp_svg = __esm({
 var icon_star_fat_svg_exports = {};
 __export(icon_star_fat_svg_exports, {
   default: () => icon_star_fat_svg_default,
-  meta: () => meta724
+  meta: () => meta748
 });
-var meta724, icon_star_fat_svg_default;
+var meta748, icon_star_fat_svg_default;
 var init_icon_star_fat_svg = __esm({
   "lib/meta/icon_star-fat.svg.ts"() {
-    meta724 = {
+    meta748 = {
       "description": "A fat star icon commonly used to represent favorites or ratings in user interfaces.",
       "category": [
         "Interface",
@@ -34979,7 +35771,7 @@ var init_icon_star_fat_svg = __esm({
       ],
       "title": "Star Fat"
     };
-    icon_star_fat_svg_default = meta724;
+    icon_star_fat_svg_default = meta748;
   }
 });
 
@@ -34987,12 +35779,12 @@ var init_icon_star_fat_svg = __esm({
 var icon_star_l_svg_exports = {};
 __export(icon_star_l_svg_exports, {
   default: () => icon_star_l_svg_default,
-  meta: () => meta725
+  meta: () => meta749
 });
-var meta725, icon_star_l_svg_default;
+var meta749, icon_star_l_svg_default;
 var init_icon_star_l_svg = __esm({
   "lib/meta/icon_star-l.svg.ts"() {
-    meta725 = {
+    meta749 = {
       "description": "A simple star icon representing a favorite or highly rated item. Can be used in user interfaces for rating systems or to indicate popular items.",
       "category": [
         "UI"
@@ -35010,7 +35802,7 @@ var init_icon_star_l_svg = __esm({
       ],
       "title": "Star Large"
     };
-    icon_star_l_svg_default = meta725;
+    icon_star_l_svg_default = meta749;
   }
 });
 
@@ -35018,12 +35810,12 @@ var init_icon_star_l_svg = __esm({
 var icon_star_m_svg_exports = {};
 __export(icon_star_m_svg_exports, {
   default: () => icon_star_m_svg_default,
-  meta: () => meta726
+  meta: () => meta750
 });
-var meta726, icon_star_m_svg_default;
+var meta750, icon_star_m_svg_default;
 var init_icon_star_m_svg = __esm({
   "lib/meta/icon_star-m.svg.ts"() {
-    meta726 = {
+    meta750 = {
       "description": "The star-m icon is a symbol of a star outlined with the letter 'm' at its center. This icon is commonly used in UI design to represent favorited or starred items.",
       "category": [
         "Interface",
@@ -35043,7 +35835,7 @@ var init_icon_star_m_svg = __esm({
       ],
       "title": "Star with M Icon"
     };
-    icon_star_m_svg_default = meta726;
+    icon_star_m_svg_default = meta750;
   }
 });
 
@@ -35051,12 +35843,12 @@ var init_icon_star_m_svg = __esm({
 var icon_star_small_svg_exports = {};
 __export(icon_star_small_svg_exports, {
   default: () => icon_star_small_svg_default,
-  meta: () => meta727
+  meta: () => meta751
 });
-var meta727, icon_star_small_svg_default;
+var meta751, icon_star_small_svg_default;
 var init_icon_star_small_svg = __esm({
   "lib/meta/icon_star-small.svg.ts"() {
-    meta727 = {
+    meta751 = {
       "description": "A small star icon commonly used to represent ratings and favorites in user interfaces.",
       "category": [
         "Interface",
@@ -35076,7 +35868,7 @@ var init_icon_star_small_svg = __esm({
       ],
       "title": "Star Small"
     };
-    icon_star_small_svg_default = meta727;
+    icon_star_small_svg_default = meta751;
   }
 });
 
@@ -35084,12 +35876,12 @@ var init_icon_star_small_svg = __esm({
 var icon_sticker_svg_exports = {};
 __export(icon_sticker_svg_exports, {
   default: () => icon_sticker_svg_default,
-  meta: () => meta728
+  meta: () => meta752
 });
-var meta728, icon_sticker_svg_default;
+var meta752, icon_sticker_svg_default;
 var init_icon_sticker_svg = __esm({
   "lib/meta/icon_sticker.svg.ts"() {
-    meta728 = {
+    meta752 = {
       "description": "A sticker icon typically used in user interfaces to represent an interactive graphic or label that can be added to a digital image or conversation.",
       "category": [
         "UI",
@@ -35109,7 +35901,7 @@ var init_icon_sticker_svg = __esm({
       ],
       "title": "Sticker"
     };
-    icon_sticker_svg_default = meta728;
+    icon_sticker_svg_default = meta752;
   }
 });
 
@@ -35117,12 +35909,12 @@ var init_icon_sticker_svg = __esm({
 var icon_stopwatch_svg_exports = {};
 __export(icon_stopwatch_svg_exports, {
   default: () => icon_stopwatch_svg_default,
-  meta: () => meta729
+  meta: () => meta753
 });
-var meta729, icon_stopwatch_svg_default;
+var meta753, icon_stopwatch_svg_default;
 var init_icon_stopwatch_svg = __esm({
   "lib/meta/icon_stopwatch.svg.ts"() {
-    meta729 = {
+    meta753 = {
       "description": "A stopwatch icon representing a timer or countdown functionality typically used in user interfaces.",
       "category": [
         "Interface"
@@ -35141,7 +35933,7 @@ var init_icon_stopwatch_svg = __esm({
       ],
       "title": "Stopwatch"
     };
-    icon_stopwatch_svg_default = meta729;
+    icon_stopwatch_svg_default = meta753;
   }
 });
 
@@ -35149,12 +35941,12 @@ var init_icon_stopwatch_svg = __esm({
 var icon_subtract_fat_svg_exports = {};
 __export(icon_subtract_fat_svg_exports, {
   default: () => icon_subtract_fat_svg_default,
-  meta: () => meta730
+  meta: () => meta754
 });
-var meta730, icon_subtract_fat_svg_default;
+var meta754, icon_subtract_fat_svg_default;
 var init_icon_subtract_fat_svg = __esm({
   "lib/meta/icon_subtract-fat.svg.ts"() {
-    meta730 = {
+    meta754 = {
       "description": "The subtract-fat icon is used to represent a subtraction operation or action in a bold and clear way. It can be used in user interfaces to indicate removing or deducting something.",
       "category": [
         "Interface"
@@ -35173,7 +35965,7 @@ var init_icon_subtract_fat_svg = __esm({
       ],
       "title": "Subtract Fat"
     };
-    icon_subtract_fat_svg_default = meta730;
+    icon_subtract_fat_svg_default = meta754;
   }
 });
 
@@ -35181,12 +35973,12 @@ var init_icon_subtract_fat_svg = __esm({
 var icon_subtract_l_svg_exports = {};
 __export(icon_subtract_l_svg_exports, {
   default: () => icon_subtract_l_svg_default,
-  meta: () => meta731
+  meta: () => meta755
 });
-var meta731, icon_subtract_l_svg_default;
+var meta755, icon_subtract_l_svg_default;
 var init_icon_subtract_l_svg = __esm({
   "lib/meta/icon_subtract-l.svg.ts"() {
-    meta731 = {
+    meta755 = {
       "description": "A subtraction or remove icon often used in user interfaces to indicate the action of subtracting or deleting. The icon features a horizontal line with a minus sign on top to represent subtraction.",
       "category": [
         "Interface"
@@ -35204,7 +35996,7 @@ var init_icon_subtract_l_svg = __esm({
       ],
       "title": "Subtract L"
     };
-    icon_subtract_l_svg_default = meta731;
+    icon_subtract_l_svg_default = meta755;
   }
 });
 
@@ -35212,12 +36004,12 @@ var init_icon_subtract_l_svg = __esm({
 var icon_subtract_m_svg_exports = {};
 __export(icon_subtract_m_svg_exports, {
   default: () => icon_subtract_m_svg_default,
-  meta: () => meta732
+  meta: () => meta756
 });
-var meta732, icon_subtract_m_svg_default;
+var meta756, icon_subtract_m_svg_default;
 var init_icon_subtract_m_svg = __esm({
   "lib/meta/icon_subtract-m.svg.ts"() {
-    meta732 = {
+    meta756 = {
       "description": "The subtract-m icon is used to represent a subtraction or removal action in user interfaces. It typically symbolizes subtracting or reducing a quantity or an element from a given set.",
       "category": [
         "Interface"
@@ -35235,7 +36027,7 @@ var init_icon_subtract_m_svg = __esm({
       ],
       "title": "Subtract M"
     };
-    icon_subtract_m_svg_default = meta732;
+    icon_subtract_m_svg_default = meta756;
   }
 });
 
@@ -35243,12 +36035,12 @@ var init_icon_subtract_m_svg = __esm({
 var icon_subtract_s_svg_exports = {};
 __export(icon_subtract_s_svg_exports, {
   default: () => icon_subtract_s_svg_default,
-  meta: () => meta733
+  meta: () => meta757
 });
-var meta733, icon_subtract_s_svg_default;
+var meta757, icon_subtract_s_svg_default;
 var init_icon_subtract_s_svg = __esm({
   "lib/meta/icon_subtract-s.svg.ts"() {
-    meta733 = {
+    meta757 = {
       "description": "The subtract-s icon represents a symbol used to indicate the subtraction operation in user interfaces. It is commonly used in calculators, mathematics applications, and design software.",
       "category": [
         "Interface"
@@ -35266,7 +36058,7 @@ var init_icon_subtract_s_svg = __esm({
       ],
       "title": "Subtract S"
     };
-    icon_subtract_s_svg_default = meta733;
+    icon_subtract_s_svg_default = meta757;
   }
 });
 
@@ -35274,12 +36066,12 @@ var init_icon_subtract_s_svg = __esm({
 var icon_tables_svg_exports = {};
 __export(icon_tables_svg_exports, {
   default: () => icon_tables_svg_default,
-  meta: () => meta734
+  meta: () => meta758
 });
-var meta734, icon_tables_svg_default;
+var meta758, icon_tables_svg_default;
 var init_icon_tables_svg = __esm({
   "lib/meta/icon_tables.svg.ts"() {
-    meta734 = {
+    meta758 = {
       "description": "An icon representing tables, often used in user interfaces to symbolize data presentation and organization.",
       "category": [
         "Interface"
@@ -35298,7 +36090,7 @@ var init_icon_tables_svg = __esm({
       ],
       "title": "Tables"
     };
-    icon_tables_svg_default = meta734;
+    icon_tables_svg_default = meta758;
   }
 });
 
@@ -35306,12 +36098,12 @@ var init_icon_tables_svg = __esm({
 var icon_talk_add_svg_exports = {};
 __export(icon_talk_add_svg_exports, {
   default: () => icon_talk_add_svg_default,
-  meta: () => meta735
+  meta: () => meta759
 });
-var meta735, icon_talk_add_svg_default;
+var meta759, icon_talk_add_svg_default;
 var init_icon_talk_add_svg = __esm({
   "lib/meta/icon_talk-add.svg.ts"() {
-    meta735 = {
+    meta759 = {
       "description": "An icon of a speech bubble with a plus sign, indicating adding or creating a new conversation or message. It is commonly used in chat interfaces and messaging applications.",
       "category": [
         "Interface",
@@ -35331,7 +36123,7 @@ var init_icon_talk_add_svg = __esm({
       ],
       "title": "Talk Add"
     };
-    icon_talk_add_svg_default = meta735;
+    icon_talk_add_svg_default = meta759;
   }
 });
 
@@ -35339,12 +36131,12 @@ var init_icon_talk_add_svg = __esm({
 var icon_talk_check_svg_exports = {};
 __export(icon_talk_check_svg_exports, {
   default: () => icon_talk_check_svg_default,
-  meta: () => meta736
+  meta: () => meta760
 });
-var meta736, icon_talk_check_svg_default;
+var meta760, icon_talk_check_svg_default;
 var init_icon_talk_check_svg = __esm({
   "lib/meta/icon_talk-check.svg.ts"() {
-    meta736 = {
+    meta760 = {
       "description": "The Talk Check icon is a visual representation of a conversation with a checkmark, symbolizing confirmation or completion. It can be used in user interfaces to indicate successful communication or verification.",
       "category": [
         "Interface"
@@ -35362,7 +36154,7 @@ var init_icon_talk_check_svg = __esm({
       ],
       "title": "Talk Check"
     };
-    icon_talk_check_svg_default = meta736;
+    icon_talk_check_svg_default = meta760;
   }
 });
 
@@ -35370,12 +36162,12 @@ var init_icon_talk_check_svg = __esm({
 var icon_talk_delete_svg_exports = {};
 __export(icon_talk_delete_svg_exports, {
   default: () => icon_talk_delete_svg_default,
-  meta: () => meta737
+  meta: () => meta761
 });
-var meta737, icon_talk_delete_svg_default;
+var meta761, icon_talk_delete_svg_default;
 var init_icon_talk_delete_svg = __esm({
   "lib/meta/icon_talk-delete.svg.ts"() {
-    meta737 = {
+    meta761 = {
       "description": "The talk-delete icon is used in user interfaces to indicate a chat or conversation deletion option. It typically consists of a speech bubble symbol combined with a delete or remove symbol.",
       "category": [
         "Interface"
@@ -35394,7 +36186,7 @@ var init_icon_talk_delete_svg = __esm({
       ],
       "title": "Talk Delete"
     };
-    icon_talk_delete_svg_default = meta737;
+    icon_talk_delete_svg_default = meta761;
   }
 });
 
@@ -35402,12 +36194,12 @@ var init_icon_talk_delete_svg = __esm({
 var icon_talk_edit_svg_exports = {};
 __export(icon_talk_edit_svg_exports, {
   default: () => icon_talk_edit_svg_default,
-  meta: () => meta738
+  meta: () => meta762
 });
-var meta738, icon_talk_edit_svg_default;
+var meta762, icon_talk_edit_svg_default;
 var init_icon_talk_edit_svg = __esm({
   "lib/meta/icon_talk-edit.svg.ts"() {
-    meta738 = {
+    meta762 = {
       "description": "An icon of a talking bubble with a pencil inside, symbolizing the ability to edit text within a dialogue or conversation. This icon is commonly used in user interfaces for editing comments or messages.",
       "category": [
         "Interface",
@@ -35427,7 +36219,7 @@ var init_icon_talk_edit_svg = __esm({
       ],
       "title": "Talk Edit"
     };
-    icon_talk_edit_svg_default = meta738;
+    icon_talk_edit_svg_default = meta762;
   }
 });
 
@@ -35435,12 +36227,12 @@ var init_icon_talk_edit_svg = __esm({
 var icon_talk_exclamation_mark_svg_exports = {};
 __export(icon_talk_exclamation_mark_svg_exports, {
   default: () => icon_talk_exclamation_mark_svg_default,
-  meta: () => meta739
+  meta: () => meta763
 });
-var meta739, icon_talk_exclamation_mark_svg_default;
+var meta763, icon_talk_exclamation_mark_svg_default;
 var init_icon_talk_exclamation_mark_svg = __esm({
   "lib/meta/icon_talk-exclamation-mark.svg.ts"() {
-    meta739 = {
+    meta763 = {
       "description": "An icon of a speech bubble with an exclamation mark to indicate important or urgent information. It is commonly used in user interfaces to draw attention to alerts or notifications.",
       "category": [
         "Interface"
@@ -35459,7 +36251,7 @@ var init_icon_talk_exclamation_mark_svg = __esm({
       ],
       "title": "Talk Exclamation Mark"
     };
-    icon_talk_exclamation_mark_svg_default = meta739;
+    icon_talk_exclamation_mark_svg_default = meta763;
   }
 });
 
@@ -35467,12 +36259,12 @@ var init_icon_talk_exclamation_mark_svg = __esm({
 var icon_talk_heart_broken_svg_exports = {};
 __export(icon_talk_heart_broken_svg_exports, {
   default: () => icon_talk_heart_broken_svg_default,
-  meta: () => meta740
+  meta: () => meta764
 });
-var meta740, icon_talk_heart_broken_svg_default;
+var meta764, icon_talk_heart_broken_svg_default;
 var init_icon_talk_heart_broken_svg = __esm({
   "lib/meta/icon_talk-heart-broken.svg.ts"() {
-    meta740 = {
+    meta764 = {
       "description": "A sad or disappointed emoticon in the shape of a heart, representing brokenheartedness or a sense of loss. This icon is commonly used in communication platforms to express feelings of heartbreak.",
       "category": [
         "Interface",
@@ -35492,7 +36284,7 @@ var init_icon_talk_heart_broken_svg = __esm({
       ],
       "title": "Talk Heart Broken"
     };
-    icon_talk_heart_broken_svg_default = meta740;
+    icon_talk_heart_broken_svg_default = meta764;
   }
 });
 
@@ -35500,12 +36292,12 @@ var init_icon_talk_heart_broken_svg = __esm({
 var icon_talk_heart_svg_exports = {};
 __export(icon_talk_heart_svg_exports, {
   default: () => icon_talk_heart_svg_default,
-  meta: () => meta741
+  meta: () => meta765
 });
-var meta741, icon_talk_heart_svg_default;
+var meta765, icon_talk_heart_svg_default;
 var init_icon_talk_heart_svg = __esm({
   "lib/meta/icon_talk-heart.svg.ts"() {
-    meta741 = {
+    meta765 = {
       "description": "The talk-heart icon is a symbol representing communication or messaging with love or affection. It features a speech bubble in the shape of a heart, conveying warmth and positivity.",
       "category": [
         "Interface",
@@ -35525,7 +36317,7 @@ var init_icon_talk_heart_svg = __esm({
       ],
       "title": "Talk Heart"
     };
-    icon_talk_heart_svg_default = meta741;
+    icon_talk_heart_svg_default = meta765;
   }
 });
 
@@ -35533,12 +36325,12 @@ var init_icon_talk_heart_svg = __esm({
 var icon_talk_info_svg_exports = {};
 __export(icon_talk_info_svg_exports, {
   default: () => icon_talk_info_svg_default,
-  meta: () => meta742
+  meta: () => meta766
 });
-var meta742, icon_talk_info_svg_default;
+var meta766, icon_talk_info_svg_default;
 var init_icon_talk_info_svg = __esm({
   "lib/meta/icon_talk-info.svg.ts"() {
-    meta742 = {
+    meta766 = {
       "description": "The 'talk-info' icon represents receiving information through a conversation or discussion. It is typically used to indicate that important details or facts are being communicated.",
       "category": [
         "Interface"
@@ -35556,7 +36348,7 @@ var init_icon_talk_info_svg = __esm({
       ],
       "title": "Talk Info"
     };
-    icon_talk_info_svg_default = meta742;
+    icon_talk_info_svg_default = meta766;
   }
 });
 
@@ -35564,12 +36356,12 @@ var init_icon_talk_info_svg = __esm({
 var icon_talk_invisible_svg_exports = {};
 __export(icon_talk_invisible_svg_exports, {
   default: () => icon_talk_invisible_svg_default,
-  meta: () => meta743
+  meta: () => meta767
 });
-var meta743, icon_talk_invisible_svg_default;
+var meta767, icon_talk_invisible_svg_default;
 var init_icon_talk_invisible_svg = __esm({
   "lib/meta/icon_talk-invisible.svg.ts"() {
-    meta743 = {
+    meta767 = {
       "description": "An icon representing invisible conversation or hidden discussion. It indicates communication or speech happening discreetly or behind the scenes.",
       "category": [
         "Interface"
@@ -35588,7 +36380,7 @@ var init_icon_talk_invisible_svg = __esm({
       ],
       "title": "Talk Invisible"
     };
-    icon_talk_invisible_svg_default = meta743;
+    icon_talk_invisible_svg_default = meta767;
   }
 });
 
@@ -35596,12 +36388,12 @@ var init_icon_talk_invisible_svg = __esm({
 var icon_talk_question_mark_svg_exports = {};
 __export(icon_talk_question_mark_svg_exports, {
   default: () => icon_talk_question_mark_svg_default,
-  meta: () => meta744
+  meta: () => meta768
 });
-var meta744, icon_talk_question_mark_svg_default;
+var meta768, icon_talk_question_mark_svg_default;
 var init_icon_talk_question_mark_svg = __esm({
   "lib/meta/icon_talk-question-mark.svg.ts"() {
-    meta744 = {
+    meta768 = {
       "description": "The talk-question-mark icon is used to represent a question or inquiry within a communication context. It typically indicates the presence of a question or a need for further clarification or explanation.",
       "category": [
         "Interface",
@@ -35621,7 +36413,7 @@ var init_icon_talk_question_mark_svg = __esm({
       ],
       "title": "Talk Question Mark"
     };
-    icon_talk_question_mark_svg_default = meta744;
+    icon_talk_question_mark_svg_default = meta768;
   }
 });
 
@@ -35629,12 +36421,12 @@ var init_icon_talk_question_mark_svg = __esm({
 var icon_talk_search_svg_exports = {};
 __export(icon_talk_search_svg_exports, {
   default: () => icon_talk_search_svg_default,
-  meta: () => meta745
+  meta: () => meta769
 });
-var meta745, icon_talk_search_svg_default;
+var meta769, icon_talk_search_svg_default;
 var init_icon_talk_search_svg = __esm({
   "lib/meta/icon_talk-search.svg.ts"() {
-    meta745 = {
+    meta769 = {
       "description": "The talk-search icon depicts a speech bubble with a magnifying glass, symbolizing a search function within a messaging or communication platform.",
       "category": [
         "Interface",
@@ -35654,7 +36446,7 @@ var init_icon_talk_search_svg = __esm({
       ],
       "title": "Talk Search"
     };
-    icon_talk_search_svg_default = meta745;
+    icon_talk_search_svg_default = meta769;
   }
 });
 
@@ -35662,12 +36454,12 @@ var init_icon_talk_search_svg = __esm({
 var icon_talk_star_svg_exports = {};
 __export(icon_talk_star_svg_exports, {
   default: () => icon_talk_star_svg_default,
-  meta: () => meta746
+  meta: () => meta770
 });
-var meta746, icon_talk_star_svg_default;
+var meta770, icon_talk_star_svg_default;
 var init_icon_talk_star_svg = __esm({
   "lib/meta/icon_talk-star.svg.ts"() {
-    meta746 = {
+    meta770 = {
       "description": "A star icon designed with a speech bubble, indicating communication or conversation. Can be used to represent messages or notifications.",
       "category": [
         "Interface",
@@ -35687,7 +36479,7 @@ var init_icon_talk_star_svg = __esm({
       ],
       "title": "Talk Star"
     };
-    icon_talk_star_svg_default = meta746;
+    icon_talk_star_svg_default = meta770;
   }
 });
 
@@ -35695,12 +36487,12 @@ var init_icon_talk_star_svg = __esm({
 var icon_talk_subtract_svg_exports = {};
 __export(icon_talk_subtract_svg_exports, {
   default: () => icon_talk_subtract_svg_default,
-  meta: () => meta747
+  meta: () => meta771
 });
-var meta747, icon_talk_subtract_svg_default;
+var meta771, icon_talk_subtract_svg_default;
 var init_icon_talk_subtract_svg = __esm({
   "lib/meta/icon_talk-subtract.svg.ts"() {
-    meta747 = {
+    meta771 = {
       "description": "An icon representing the action of talking while subtracting, usually used in user interfaces.",
       "category": [
         "Interface"
@@ -35719,7 +36511,7 @@ var init_icon_talk_subtract_svg = __esm({
       ],
       "title": "Talk Subtract"
     };
-    icon_talk_subtract_svg_default = meta747;
+    icon_talk_subtract_svg_default = meta771;
   }
 });
 
@@ -35727,12 +36519,12 @@ var init_icon_talk_subtract_svg = __esm({
 var icon_talk_visible_svg_exports = {};
 __export(icon_talk_visible_svg_exports, {
   default: () => icon_talk_visible_svg_default,
-  meta: () => meta748
+  meta: () => meta772
 });
-var meta748, icon_talk_visible_svg_default;
+var meta772, icon_talk_visible_svg_default;
 var init_icon_talk_visible_svg = __esm({
   "lib/meta/icon_talk-visible.svg.ts"() {
-    meta748 = {
+    meta772 = {
       "description": "A visible speech bubble icon typically representing communication or conversation being actively displayed or shown. This icon is commonly used in user interfaces to indicate that messages or chat are visible and active within an application or website.",
       "category": [
         "Interface"
@@ -35751,7 +36543,7 @@ var init_icon_talk_visible_svg = __esm({
       ],
       "title": "Talk Visible"
     };
-    icon_talk_visible_svg_default = meta748;
+    icon_talk_visible_svg_default = meta772;
   }
 });
 
@@ -35759,12 +36551,12 @@ var init_icon_talk_visible_svg = __esm({
 var icon_talk_svg_exports = {};
 __export(icon_talk_svg_exports, {
   default: () => icon_talk_svg_default,
-  meta: () => meta749
+  meta: () => meta773
 });
-var meta749, icon_talk_svg_default;
+var meta773, icon_talk_svg_default;
 var init_icon_talk_svg = __esm({
   "lib/meta/icon_talk.svg.ts"() {
-    meta749 = {
+    meta773 = {
       "description": "The talk icon is typically used to represent communication, conversation, chat, or messaging in user interfaces. It can be used to indicate where users can interact with others through text or voice communication.",
       "category": [
         "Interface",
@@ -35783,7 +36575,7 @@ var init_icon_talk_svg = __esm({
       ],
       "title": "Talk"
     };
-    icon_talk_svg_default = meta749;
+    icon_talk_svg_default = meta773;
   }
 });
 
@@ -35791,12 +36583,12 @@ var init_icon_talk_svg = __esm({
 var icon_target_svg_exports = {};
 __export(icon_target_svg_exports, {
   default: () => icon_target_svg_default,
-  meta: () => meta750
+  meta: () => meta774
 });
-var meta750, icon_target_svg_default;
+var meta774, icon_target_svg_default;
 var init_icon_target_svg = __esm({
   "lib/meta/icon_target.svg.ts"() {
-    meta750 = {
+    meta774 = {
       "description": "The target icon represents a symbol often used to indicate a point of focus or to aim at a particular goal. It typically consists of concentric circles with a center point. This icon is commonly used in UI design for targetting, precision, accuracy, or goal-related concepts.",
       "category": [
         "Interface",
@@ -35816,7 +36608,7 @@ var init_icon_target_svg = __esm({
       ],
       "title": "Target"
     };
-    icon_target_svg_default = meta750;
+    icon_target_svg_default = meta774;
   }
 });
 
@@ -35824,12 +36616,12 @@ var init_icon_target_svg = __esm({
 var icon_text_align_center_svg_exports = {};
 __export(icon_text_align_center_svg_exports, {
   default: () => icon_text_align_center_svg_default,
-  meta: () => meta751
+  meta: () => meta775
 });
-var meta751, icon_text_align_center_svg_default;
+var meta775, icon_text_align_center_svg_default;
 var init_icon_text_align_center_svg = __esm({
   "lib/meta/icon_text-align-center.svg.ts"() {
-    meta751 = {
+    meta775 = {
       "description": "The text-align-center icon represents formatting text to be centered within a document or interface. It is commonly used in text editing software or websites to align text centrally.",
       "category": [
         "Interface",
@@ -35849,7 +36641,7 @@ var init_icon_text_align_center_svg = __esm({
       ],
       "title": "Text Align Center"
     };
-    icon_text_align_center_svg_default = meta751;
+    icon_text_align_center_svg_default = meta775;
   }
 });
 
@@ -35857,12 +36649,12 @@ var init_icon_text_align_center_svg = __esm({
 var icon_text_align_justify_centered_svg_exports = {};
 __export(icon_text_align_justify_centered_svg_exports, {
   default: () => icon_text_align_justify_centered_svg_default,
-  meta: () => meta752
+  meta: () => meta776
 });
-var meta752, icon_text_align_justify_centered_svg_default;
+var meta776, icon_text_align_justify_centered_svg_default;
 var init_icon_text_align_justify_centered_svg = __esm({
   "lib/meta/icon_text-align-justify-centered.svg.ts"() {
-    meta752 = {
+    meta776 = {
       "description": "The text-align-justify-centered icon is a user interface (UI) element that represents centered text alignment with justified spacing. This icon is commonly used in text editing applications to align paragraphs in a visually appealing manner.",
       "category": [
         "Interface",
@@ -35881,7 +36673,7 @@ var init_icon_text_align_justify_centered_svg = __esm({
       ],
       "title": "Text Align Justify Centered"
     };
-    icon_text_align_justify_centered_svg_default = meta752;
+    icon_text_align_justify_centered_svg_default = meta776;
   }
 });
 
@@ -35889,12 +36681,12 @@ var init_icon_text_align_justify_centered_svg = __esm({
 var icon_text_align_justify_left_svg_exports = {};
 __export(icon_text_align_justify_left_svg_exports, {
   default: () => icon_text_align_justify_left_svg_default,
-  meta: () => meta753
+  meta: () => meta777
 });
-var meta753, icon_text_align_justify_left_svg_default;
+var meta777, icon_text_align_justify_left_svg_default;
 var init_icon_text_align_justify_left_svg = __esm({
   "lib/meta/icon_text-align-justify-left.svg.ts"() {
-    meta753 = {
+    meta777 = {
       "description": "The text-align-justify-left icon is used to represent left alignment or justification of text in user interfaces. It typically indicates that text should be aligned to the left side of a text box or container in a document or application.",
       "category": [
         "Interface",
@@ -35913,7 +36705,7 @@ var init_icon_text_align_justify_left_svg = __esm({
       ],
       "title": "Text Align Justify Left"
     };
-    icon_text_align_justify_left_svg_default = meta753;
+    icon_text_align_justify_left_svg_default = meta777;
   }
 });
 
@@ -35921,12 +36713,12 @@ var init_icon_text_align_justify_left_svg = __esm({
 var icon_text_align_justify_right_svg_exports = {};
 __export(icon_text_align_justify_right_svg_exports, {
   default: () => icon_text_align_justify_right_svg_default,
-  meta: () => meta754
+  meta: () => meta778
 });
-var meta754, icon_text_align_justify_right_svg_default;
+var meta778, icon_text_align_justify_right_svg_default;
 var init_icon_text_align_justify_right_svg = __esm({
   "lib/meta/icon_text-align-justify-right.svg.ts"() {
-    meta754 = {
+    meta778 = {
       "description": "The text-align-justify-right icon represents right alignment for justified text. It is commonly used in design software and text editing applications to format text alignment.",
       "category": [
         "Interface",
@@ -35946,7 +36738,7 @@ var init_icon_text_align_justify_right_svg = __esm({
       ],
       "title": "Text Align Justify Right"
     };
-    icon_text_align_justify_right_svg_default = meta754;
+    icon_text_align_justify_right_svg_default = meta778;
   }
 });
 
@@ -35954,12 +36746,12 @@ var init_icon_text_align_justify_right_svg = __esm({
 var icon_text_align_justify_svg_exports = {};
 __export(icon_text_align_justify_svg_exports, {
   default: () => icon_text_align_justify_svg_default,
-  meta: () => meta755
+  meta: () => meta779
 });
-var meta755, icon_text_align_justify_svg_default;
+var meta779, icon_text_align_justify_svg_default;
 var init_icon_text_align_justify_svg = __esm({
   "lib/meta/icon_text-align-justify.svg.ts"() {
-    meta755 = {
+    meta779 = {
       "description": "The text-align-justify icon represents a tool for aligning text in a justified manner, evenly spacing it across the width of the container. This icon is commonly used in text editing applications and design software.",
       "category": [
         "Interface",
@@ -35979,7 +36771,7 @@ var init_icon_text_align_justify_svg = __esm({
       ],
       "title": "Text Align Justify"
     };
-    icon_text_align_justify_svg_default = meta755;
+    icon_text_align_justify_svg_default = meta779;
   }
 });
 
@@ -35987,12 +36779,12 @@ var init_icon_text_align_justify_svg = __esm({
 var icon_text_align_left_svg_exports = {};
 __export(icon_text_align_left_svg_exports, {
   default: () => icon_text_align_left_svg_default,
-  meta: () => meta756
+  meta: () => meta780
 });
-var meta756, icon_text_align_left_svg_default;
+var meta780, icon_text_align_left_svg_default;
 var init_icon_text_align_left_svg = __esm({
   "lib/meta/icon_text-align-left.svg.ts"() {
-    meta756 = {
+    meta780 = {
       "description": "The text-align-left icon represents aligning text to the left. This icon is commonly used in text editing tools to adjust the alignment of text within a document or design.",
       "category": [
         "Interface",
@@ -36012,7 +36804,7 @@ var init_icon_text_align_left_svg = __esm({
       ],
       "title": "Text Align Left"
     };
-    icon_text_align_left_svg_default = meta756;
+    icon_text_align_left_svg_default = meta780;
   }
 });
 
@@ -36020,12 +36812,12 @@ var init_icon_text_align_left_svg = __esm({
 var icon_text_align_right_order_desc_svg_exports = {};
 __export(icon_text_align_right_order_desc_svg_exports, {
   default: () => icon_text_align_right_order_desc_svg_default,
-  meta: () => meta757
+  meta: () => meta781
 });
-var meta757, icon_text_align_right_order_desc_svg_default;
+var meta781, icon_text_align_right_order_desc_svg_default;
 var init_icon_text_align_right_order_desc_svg = __esm({
   "lib/meta/icon_text-align-right-order-desc.svg.ts"() {
-    meta757 = {
+    meta781 = {
       "description": "The text-align-right-order-desc icon is used to indicate right-aligned text with descending order. It is commonly used in user interfaces to align text to the right while displaying content in a descending order.",
       "category": [
         "Interface",
@@ -36045,7 +36837,7 @@ var init_icon_text_align_right_order_desc_svg = __esm({
       ],
       "title": "Text Align Right Order Desc"
     };
-    icon_text_align_right_order_desc_svg_default = meta757;
+    icon_text_align_right_order_desc_svg_default = meta781;
   }
 });
 
@@ -36053,12 +36845,12 @@ var init_icon_text_align_right_order_desc_svg = __esm({
 var icon_text_align_right_svg_exports = {};
 __export(icon_text_align_right_svg_exports, {
   default: () => icon_text_align_right_svg_default,
-  meta: () => meta758
+  meta: () => meta782
 });
-var meta758, icon_text_align_right_svg_default;
+var meta782, icon_text_align_right_svg_default;
 var init_icon_text_align_right_svg = __esm({
   "lib/meta/icon_text-align-right.svg.ts"() {
-    meta758 = {
+    meta782 = {
       "description": "The text-align-right icon is used to indicate aligning text to the right side of a document or element. This icon is commonly found in text editing or formatting tools.",
       "category": [
         "Interface",
@@ -36078,7 +36870,7 @@ var init_icon_text_align_right_svg = __esm({
       ],
       "title": "Text Align Right"
     };
-    icon_text_align_right_svg_default = meta758;
+    icon_text_align_right_svg_default = meta782;
   }
 });
 
@@ -36086,12 +36878,12 @@ var init_icon_text_align_right_svg = __esm({
 var icon_text_bold_svg_exports = {};
 __export(icon_text_bold_svg_exports, {
   default: () => icon_text_bold_svg_default,
-  meta: () => meta759
+  meta: () => meta783
 });
-var meta759, icon_text_bold_svg_default;
+var meta783, icon_text_bold_svg_default;
 var init_icon_text_bold_svg = __esm({
   "lib/meta/icon_text-bold.svg.ts"() {
-    meta759 = {
+    meta783 = {
       "description": "The text-bold icon is used to indicate bold text formatting within a user interface. It is commonly found in text editing or word processing applications.",
       "category": [
         "Text",
@@ -36110,7 +36902,7 @@ var init_icon_text_bold_svg = __esm({
       ],
       "title": "Text Bold"
     };
-    icon_text_bold_svg_default = meta759;
+    icon_text_bold_svg_default = meta783;
   }
 });
 
@@ -36118,12 +36910,12 @@ var init_icon_text_bold_svg = __esm({
 var icon_text_detail_list_svg_exports = {};
 __export(icon_text_detail_list_svg_exports, {
   default: () => icon_text_detail_list_svg_default,
-  meta: () => meta760
+  meta: () => meta784
 });
-var meta760, icon_text_detail_list_svg_default;
+var meta784, icon_text_detail_list_svg_default;
 var init_icon_text_detail_list_svg = __esm({
   "lib/meta/icon_text-detail-list.svg.ts"() {
-    meta760 = {
+    meta784 = {
       "description": "The text-detail-list icon is a visual representation of a list with detailed text information. It may be used to represent a detailed list or a text-based menu in user interfaces.",
       "category": [
         "Interface",
@@ -36143,7 +36935,7 @@ var init_icon_text_detail_list_svg = __esm({
       ],
       "title": "Text Detail List"
     };
-    icon_text_detail_list_svg_default = meta760;
+    icon_text_detail_list_svg_default = meta784;
   }
 });
 
@@ -36151,12 +36943,12 @@ var init_icon_text_detail_list_svg = __esm({
 var icon_text_indent_svg_exports = {};
 __export(icon_text_indent_svg_exports, {
   default: () => icon_text_indent_svg_default,
-  meta: () => meta761
+  meta: () => meta785
 });
-var meta761, icon_text_indent_svg_default;
+var meta785, icon_text_indent_svg_default;
 var init_icon_text_indent_svg = __esm({
   "lib/meta/icon_text-indent.svg.ts"() {
-    meta761 = {
+    meta785 = {
       "description": "The text-indent icon is used to indicate a predefined space at the beginning of a paragraph or block of text. It is commonly used in typography and CSS to improve the readability and overall layout of text content.",
       "category": [
         "Interface",
@@ -36176,7 +36968,7 @@ var init_icon_text_indent_svg = __esm({
       ],
       "title": "Text Indent"
     };
-    icon_text_indent_svg_default = meta761;
+    icon_text_indent_svg_default = meta785;
   }
 });
 
@@ -36184,12 +36976,12 @@ var init_icon_text_indent_svg = __esm({
 var icon_text_italic_svg_exports = {};
 __export(icon_text_italic_svg_exports, {
   default: () => icon_text_italic_svg_default,
-  meta: () => meta762
+  meta: () => meta786
 });
-var meta762, icon_text_italic_svg_default;
+var meta786, icon_text_italic_svg_default;
 var init_icon_text_italic_svg = __esm({
   "lib/meta/icon_text-italic.svg.ts"() {
-    meta762 = {
+    meta786 = {
       "description": "The text-italic icon is used to indicate that the text should be displayed in italic style. This icon is commonly used in text editing applications or word processors.",
       "category": [
         "Text",
@@ -36206,7 +36998,7 @@ var init_icon_text_italic_svg = __esm({
       ],
       "title": "Text Italic"
     };
-    icon_text_italic_svg_default = meta762;
+    icon_text_italic_svg_default = meta786;
   }
 });
 
@@ -36214,12 +37006,12 @@ var init_icon_text_italic_svg = __esm({
 var icon_text_line_through_svg_exports = {};
 __export(icon_text_line_through_svg_exports, {
   default: () => icon_text_line_through_svg_default,
-  meta: () => meta763
+  meta: () => meta787
 });
-var meta763, icon_text_line_through_svg_default;
+var meta787, icon_text_line_through_svg_default;
 var init_icon_text_line_through_svg = __esm({
   "lib/meta/icon_text-line-through.svg.ts"() {
-    meta763 = {
+    meta787 = {
       "description": "A line that crosses through a block of text, indicating the text has been struck through or deleted",
       "category": [
         "Text",
@@ -36238,7 +37030,7 @@ var init_icon_text_line_through_svg = __esm({
       ],
       "title": "Text Line Through"
     };
-    icon_text_line_through_svg_default = meta763;
+    icon_text_line_through_svg_default = meta787;
   }
 });
 
@@ -36246,18 +37038,18 @@ var init_icon_text_line_through_svg = __esm({
 var icon_text_order_asc_114_svg_exports = {};
 __export(icon_text_order_asc_114_svg_exports, {
   default: () => icon_text_order_asc_114_svg_default,
-  meta: () => meta764
+  meta: () => meta788
 });
-var meta764, icon_text_order_asc_114_svg_default;
+var meta788, icon_text_order_asc_114_svg_default;
 var init_icon_text_order_asc_114_svg = __esm({
   "lib/meta/icon_text-order-asc-114.svg.ts"() {
-    meta764 = {
+    meta788 = {
       description: "An icon representing text order in ascending order, with the number 114 displayed prominently. This icon is commonly used in user interfaces to indicate sorting text data in ascending order.",
       category: ["Interface", "Text"],
       tag: ["ascending", "order", "text", "sorting", "data", "numbers", "alphabetic", "alphabetical", "user interface", "label"],
       title: "Text Order Ascending 114"
     };
-    icon_text_order_asc_114_svg_default = meta764;
+    icon_text_order_asc_114_svg_default = meta788;
   }
 });
 
@@ -36265,18 +37057,18 @@ var init_icon_text_order_asc_114_svg = __esm({
 var icon_text_order_asc_118_svg_exports = {};
 __export(icon_text_order_asc_118_svg_exports, {
   default: () => icon_text_order_asc_118_svg_default,
-  meta: () => meta765
+  meta: () => meta789
 });
-var meta765, icon_text_order_asc_118_svg_default;
+var meta789, icon_text_order_asc_118_svg_default;
 var init_icon_text_order_asc_118_svg = __esm({
   "lib/meta/icon_text-order-asc-118.svg.ts"() {
-    meta765 = {
+    meta789 = {
       description: "The 'Text Order Asc' icon is used to indicate sorting text data in ascending order. It features an arrow pointing upwards to show the increasing order.",
       category: ["Interface", "Arrows"],
       tag: ["sort", "ascending", "order", "alphabet", "text data", "ascending order", "direction", "upwards", "arrow", "text"],
       title: "Text Order Asc 118"
     };
-    icon_text_order_asc_118_svg_default = meta765;
+    icon_text_order_asc_118_svg_default = meta789;
   }
 });
 
@@ -36284,12 +37076,12 @@ var init_icon_text_order_asc_118_svg = __esm({
 var icon_text_order_desc_copy_2_svg_exports = {};
 __export(icon_text_order_desc_copy_2_svg_exports, {
   default: () => icon_text_order_desc_copy_2_svg_default,
-  meta: () => meta766
+  meta: () => meta790
 });
-var meta766, icon_text_order_desc_copy_2_svg_default;
+var meta790, icon_text_order_desc_copy_2_svg_default;
 var init_icon_text_order_desc_copy_2_svg = __esm({
   "lib/meta/icon_text-order-desc copy 2.svg.ts"() {
-    meta766 = {
+    meta790 = {
       "description": "An icon representing a descending order of text or data. This icon is commonly used in user interfaces to indicate sorting in a descending order.",
       "category": [
         "Interface",
@@ -36309,7 +37101,7 @@ var init_icon_text_order_desc_copy_2_svg = __esm({
       ],
       "title": "Text Order Descending"
     };
-    icon_text_order_desc_copy_2_svg_default = meta766;
+    icon_text_order_desc_copy_2_svg_default = meta790;
   }
 });
 
@@ -36317,12 +37109,12 @@ var init_icon_text_order_desc_copy_2_svg = __esm({
 var icon_text_order_desc_copy_3_svg_exports = {};
 __export(icon_text_order_desc_copy_3_svg_exports, {
   default: () => icon_text_order_desc_copy_3_svg_default,
-  meta: () => meta767
+  meta: () => meta791
 });
-var meta767, icon_text_order_desc_copy_3_svg_default;
+var meta791, icon_text_order_desc_copy_3_svg_default;
 var init_icon_text_order_desc_copy_3_svg = __esm({
   "lib/meta/icon_text-order-desc copy 3.svg.ts"() {
-    meta767 = {
+    meta791 = {
       "description": "An icon representing sorting text in descending order. This icon can be used in user interfaces to indicate arranging text in decreasing order.",
       "category": [
         "Interface",
@@ -36342,7 +37134,7 @@ var init_icon_text_order_desc_copy_3_svg = __esm({
       ],
       "title": "Text Order Descending"
     };
-    icon_text_order_desc_copy_3_svg_default = meta767;
+    icon_text_order_desc_copy_3_svg_default = meta791;
   }
 });
 
@@ -36350,12 +37142,12 @@ var init_icon_text_order_desc_copy_3_svg = __esm({
 var icon_text_order_desc_copy_svg_exports = {};
 __export(icon_text_order_desc_copy_svg_exports, {
   default: () => icon_text_order_desc_copy_svg_default,
-  meta: () => meta768
+  meta: () => meta792
 });
-var meta768, icon_text_order_desc_copy_svg_default;
+var meta792, icon_text_order_desc_copy_svg_default;
 var init_icon_text_order_desc_copy_svg = __esm({
   "lib/meta/icon_text-order-desc copy.svg.ts"() {
-    meta768 = {
+    meta792 = {
       "description": "An icon indicating text in descending order, typically used for sorting text data alphabetically or numerically from Z to A or large to small. This icon is represented as an arrow pointing downwards.",
       "category": [
         "Interface",
@@ -36375,7 +37167,7 @@ var init_icon_text_order_desc_copy_svg = __esm({
       ],
       "title": "Text Order Descending Copy"
     };
-    icon_text_order_desc_copy_svg_default = meta768;
+    icon_text_order_desc_copy_svg_default = meta792;
   }
 });
 
@@ -36383,12 +37175,12 @@ var init_icon_text_order_desc_copy_svg = __esm({
 var icon_text_order_desc_svg_exports = {};
 __export(icon_text_order_desc_svg_exports, {
   default: () => icon_text_order_desc_svg_default,
-  meta: () => meta769
+  meta: () => meta793
 });
-var meta769, icon_text_order_desc_svg_default;
+var meta793, icon_text_order_desc_svg_default;
 var init_icon_text_order_desc_svg = __esm({
   "lib/meta/icon_text-order-desc.svg.ts"() {
-    meta769 = {
+    meta793 = {
       "description": "The text-order-desc icon represents descending order of text or content. It is used as a visual indicator to show that the text is sorted in descending order.",
       "category": [
         "Interface",
@@ -36408,7 +37200,7 @@ var init_icon_text_order_desc_svg = __esm({
       ],
       "title": "Text Order Desc"
     };
-    icon_text_order_desc_svg_default = meta769;
+    icon_text_order_desc_svg_default = meta793;
   }
 });
 
@@ -36416,12 +37208,12 @@ var init_icon_text_order_desc_svg = __esm({
 var icon_text_outdent_svg_exports = {};
 __export(icon_text_outdent_svg_exports, {
   default: () => icon_text_outdent_svg_default,
-  meta: () => meta770
+  meta: () => meta794
 });
-var meta770, icon_text_outdent_svg_default;
+var meta794, icon_text_outdent_svg_default;
 var init_icon_text_outdent_svg = __esm({
   "lib/meta/icon_text-outdent.svg.ts"() {
-    meta770 = {
+    meta794 = {
       "description": "The text-outdent icon is used to decrease the indentation of a block of text in a document or text editor. It is commonly used in word processing software and formatting tools.",
       "category": [
         "Text",
@@ -36441,7 +37233,7 @@ var init_icon_text_outdent_svg = __esm({
       ],
       "title": "Text Outdent"
     };
-    icon_text_outdent_svg_default = meta770;
+    icon_text_outdent_svg_default = meta794;
   }
 });
 
@@ -36449,12 +37241,12 @@ var init_icon_text_outdent_svg = __esm({
 var icon_text_underline_svg_exports = {};
 __export(icon_text_underline_svg_exports, {
   default: () => icon_text_underline_svg_default,
-  meta: () => meta771
+  meta: () => meta795
 });
-var meta771, icon_text_underline_svg_default;
+var meta795, icon_text_underline_svg_default;
 var init_icon_text_underline_svg = __esm({
   "lib/meta/icon_text-underline.svg.ts"() {
-    meta771 = {
+    meta795 = {
       "description": "The text-underline icon is used to indicate text that is underlined. It is commonly used in text editing applications or word processing software.",
       "category": [
         "Interface",
@@ -36474,7 +37266,7 @@ var init_icon_text_underline_svg = __esm({
       ],
       "title": "Text Underline"
     };
-    icon_text_underline_svg_default = meta771;
+    icon_text_underline_svg_default = meta795;
   }
 });
 
@@ -36482,12 +37274,12 @@ var init_icon_text_underline_svg = __esm({
 var icon_timer_svg_exports = {};
 __export(icon_timer_svg_exports, {
   default: () => icon_timer_svg_default,
-  meta: () => meta772
+  meta: () => meta796
 });
-var meta772, icon_timer_svg_default;
+var meta796, icon_timer_svg_default;
 var init_icon_timer_svg = __esm({
   "lib/meta/icon_timer.svg.ts"() {
-    meta772 = {
+    meta796 = {
       "description": "The timer icon represents a clock with a running stopwatch to indicate the measurement of time. It is commonly used in UI designs to signify timing, countdowns, or alarm features.",
       "category": [
         "Interface"
@@ -36506,7 +37298,7 @@ var init_icon_timer_svg = __esm({
       ],
       "title": "Timer"
     };
-    icon_timer_svg_default = meta772;
+    icon_timer_svg_default = meta796;
   }
 });
 
@@ -36514,12 +37306,12 @@ var init_icon_timer_svg = __esm({
 var icon_trash_2_svg_exports = {};
 __export(icon_trash_2_svg_exports, {
   default: () => icon_trash_2_svg_default,
-  meta: () => meta773
+  meta: () => meta797
 });
-var meta773, icon_trash_2_svg_default;
+var meta797, icon_trash_2_svg_default;
 var init_icon_trash_2_svg = __esm({
   "lib/meta/icon_trash-2.svg.ts"() {
-    meta773 = {
+    meta797 = {
       "description": "The trash-2 icon is commonly used in user interfaces to represent the action of deleting or removing an item. It typically features an image of a trash bin or garbage can with the number 2 to indicate a more specific variation of the trash icon.",
       "category": [
         "Interface"
@@ -36538,7 +37330,7 @@ var init_icon_trash_2_svg = __esm({
       ],
       "title": "Trash 2"
     };
-    icon_trash_2_svg_default = meta773;
+    icon_trash_2_svg_default = meta797;
   }
 });
 
@@ -36546,12 +37338,12 @@ var init_icon_trash_2_svg = __esm({
 var icon_trash_svg_exports = {};
 __export(icon_trash_svg_exports, {
   default: () => icon_trash_svg_default,
-  meta: () => meta774
+  meta: () => meta798
 });
-var meta774, icon_trash_svg_default;
+var meta798, icon_trash_svg_default;
 var init_icon_trash_svg = __esm({
   "lib/meta/icon_trash.svg.ts"() {
-    meta774 = {
+    meta798 = {
       "description": "The trash icon typically represents the delete action or removing something. It is commonly used in user interfaces for discarding or deleting unwanted items or content.",
       "category": [
         "UI"
@@ -36570,7 +37362,7 @@ var init_icon_trash_svg = __esm({
       ],
       "title": "Trash"
     };
-    icon_trash_svg_default = meta774;
+    icon_trash_svg_default = meta798;
   }
 });
 
@@ -36578,12 +37370,12 @@ var init_icon_trash_svg = __esm({
 var icon_triangled_exclamation_mark_svg_exports = {};
 __export(icon_triangled_exclamation_mark_svg_exports, {
   default: () => icon_triangled_exclamation_mark_svg_default,
-  meta: () => meta775
+  meta: () => meta799
 });
-var meta775, icon_triangled_exclamation_mark_svg_default;
+var meta799, icon_triangled_exclamation_mark_svg_default;
 var init_icon_triangled_exclamation_mark_svg = __esm({
   "lib/meta/icon_triangled-exclamation-mark.svg.ts"() {
-    meta775 = {
+    meta799 = {
       "description": "A triangular exclamation mark icon commonly used in user interfaces to indicate warnings or alerts.",
       "category": [
         "Interface"
@@ -36601,7 +37393,7 @@ var init_icon_triangled_exclamation_mark_svg = __esm({
       ],
       "title": "Triangled Exclamation Mark"
     };
-    icon_triangled_exclamation_mark_svg_default = meta775;
+    icon_triangled_exclamation_mark_svg_default = meta799;
   }
 });
 
@@ -36609,12 +37401,12 @@ var init_icon_triangled_exclamation_mark_svg = __esm({
 var icon_triangled_info_svg_exports = {};
 __export(icon_triangled_info_svg_exports, {
   default: () => icon_triangled_info_svg_default,
-  meta: () => meta776
+  meta: () => meta800
 });
-var meta776, icon_triangled_info_svg_default;
+var meta800, icon_triangled_info_svg_default;
 var init_icon_triangled_info_svg = __esm({
   "lib/meta/icon_triangled-info.svg.ts"() {
-    meta776 = {
+    meta800 = {
       "description": "An icon of an informational triangle symbol, often used to indicate additional information or tips.",
       "category": [
         "Interface",
@@ -36633,7 +37425,7 @@ var init_icon_triangled_info_svg = __esm({
       ],
       "title": "Triangled Info"
     };
-    icon_triangled_info_svg_default = meta776;
+    icon_triangled_info_svg_default = meta800;
   }
 });
 
@@ -36641,12 +37433,12 @@ var init_icon_triangled_info_svg = __esm({
 var icon_triangled_question_mark_svg_exports = {};
 __export(icon_triangled_question_mark_svg_exports, {
   default: () => icon_triangled_question_mark_svg_default,
-  meta: () => meta777
+  meta: () => meta801
 });
-var meta777, icon_triangled_question_mark_svg_default;
+var meta801, icon_triangled_question_mark_svg_default;
 var init_icon_triangled_question_mark_svg = __esm({
   "lib/meta/icon_triangled-question-mark.svg.ts"() {
-    meta777 = {
+    meta801 = {
       "description": "An icon of a triangle with a question mark in the center, typically used to indicate a query or uncertainty in user interfaces.",
       "category": [
         "Interface"
@@ -36664,7 +37456,7 @@ var init_icon_triangled_question_mark_svg = __esm({
       ],
       "title": "Triangled Question Mark"
     };
-    icon_triangled_question_mark_svg_default = meta777;
+    icon_triangled_question_mark_svg_default = meta801;
   }
 });
 
@@ -36672,12 +37464,12 @@ var init_icon_triangled_question_mark_svg = __esm({
 var icon_triangled_svg_exports = {};
 __export(icon_triangled_svg_exports, {
   default: () => icon_triangled_svg_default,
-  meta: () => meta778
+  meta: () => meta802
 });
-var meta778, icon_triangled_svg_default;
+var meta802, icon_triangled_svg_default;
 var init_icon_triangled_svg = __esm({
   "lib/meta/icon_triangled.svg.ts"() {
-    meta778 = {
+    meta802 = {
       "description": "A simple triangle shaped icon usually representing a dropdown or play button in user interface designs.",
       "category": [
         "Interface",
@@ -36697,7 +37489,7 @@ var init_icon_triangled_svg = __esm({
       ],
       "title": "Triangled"
     };
-    icon_triangled_svg_default = meta778;
+    icon_triangled_svg_default = meta802;
   }
 });
 
@@ -36705,12 +37497,12 @@ var init_icon_triangled_svg = __esm({
 var icon_user_add_svg_exports = {};
 __export(icon_user_add_svg_exports, {
   default: () => icon_user_add_svg_default,
-  meta: () => meta779
+  meta: () => meta803
 });
-var meta779, icon_user_add_svg_default;
+var meta803, icon_user_add_svg_default;
 var init_icon_user_add_svg = __esm({
   "lib/meta/icon_user-add.svg.ts"() {
-    meta779 = {
+    meta803 = {
       "description": "The user-add icon represents the action of adding a new user or creating a new account. It typically signifies the functionality to register or include a new member to a platform or system.",
       "category": [
         "Interface"
@@ -36729,7 +37521,7 @@ var init_icon_user_add_svg = __esm({
       ],
       "title": "User Add"
     };
-    icon_user_add_svg_default = meta779;
+    icon_user_add_svg_default = meta803;
   }
 });
 
@@ -36737,12 +37529,12 @@ var init_icon_user_add_svg = __esm({
 var icon_user_delete_svg_exports = {};
 __export(icon_user_delete_svg_exports, {
   default: () => icon_user_delete_svg_default,
-  meta: () => meta780
+  meta: () => meta804
 });
-var meta780, icon_user_delete_svg_default;
+var meta804, icon_user_delete_svg_default;
 var init_icon_user_delete_svg = __esm({
   "lib/meta/icon_user-delete.svg.ts"() {
-    meta780 = {
+    meta804 = {
       "description": "The user-delete icon represents the action of removing or deleting a user account or profile. It can be used in applications or websites to indicate the option to delete a user from the system.",
       "category": [
         "Interface"
@@ -36761,7 +37553,7 @@ var init_icon_user_delete_svg = __esm({
       ],
       "title": "User Delete"
     };
-    icon_user_delete_svg_default = meta780;
+    icon_user_delete_svg_default = meta804;
   }
 });
 
@@ -36769,12 +37561,12 @@ var init_icon_user_delete_svg = __esm({
 var icon_user_group_svg_exports = {};
 __export(icon_user_group_svg_exports, {
   default: () => icon_user_group_svg_default,
-  meta: () => meta781
+  meta: () => meta805
 });
-var meta781, icon_user_group_svg_default;
+var meta805, icon_user_group_svg_default;
 var init_icon_user_group_svg = __esm({
   "lib/meta/icon_user-group.svg.ts"() {
-    meta781 = {
+    meta805 = {
       "description": "The user-group icon represents a group of users or a team. It is commonly used to indicate a group discussion, collaboration, or teamwork.",
       "category": [
         "Interface"
@@ -36793,7 +37585,7 @@ var init_icon_user_group_svg = __esm({
       ],
       "title": "User Group"
     };
-    icon_user_group_svg_default = meta781;
+    icon_user_group_svg_default = meta805;
   }
 });
 
@@ -36801,12 +37593,12 @@ var init_icon_user_group_svg = __esm({
 var icon_user_svg_exports = {};
 __export(icon_user_svg_exports, {
   default: () => icon_user_svg_default,
-  meta: () => meta782
+  meta: () => meta806
 });
-var meta782, icon_user_svg_default;
+var meta806, icon_user_svg_default;
 var init_icon_user_svg = __esm({
   "lib/meta/icon_user.svg.ts"() {
-    meta782 = {
+    meta806 = {
       "description": "The user icon represents a generic person or profile. It is commonly used in user interfaces to indicate where a user can interact or access personalized information.",
       "category": [
         "Interface"
@@ -36825,7 +37617,7 @@ var init_icon_user_svg = __esm({
       ],
       "title": "User"
     };
-    icon_user_svg_default = meta782;
+    icon_user_svg_default = meta806;
   }
 });
 
@@ -36833,12 +37625,12 @@ var init_icon_user_svg = __esm({
 var icon_users_svg_exports = {};
 __export(icon_users_svg_exports, {
   default: () => icon_users_svg_default,
-  meta: () => meta783
+  meta: () => meta807
 });
-var meta783, icon_users_svg_default;
+var meta807, icon_users_svg_default;
 var init_icon_users_svg = __esm({
   "lib/meta/icon_users.svg.ts"() {
-    meta783 = {
+    meta807 = {
       "description": "The 'users' icon represents multiple people or users. It is commonly used in user interfaces to signify a group of users or a user directory.",
       "category": [
         "Interface"
@@ -36856,7 +37648,7 @@ var init_icon_users_svg = __esm({
       ],
       "title": "Users"
     };
-    icon_users_svg_default = meta783;
+    icon_users_svg_default = meta807;
   }
 });
 
@@ -36864,12 +37656,12 @@ var init_icon_users_svg = __esm({
 var icon_visible_fat_svg_exports = {};
 __export(icon_visible_fat_svg_exports, {
   default: () => icon_visible_fat_svg_default,
-  meta: () => meta784
+  meta: () => meta808
 });
-var meta784, icon_visible_fat_svg_default;
+var meta808, icon_visible_fat_svg_default;
 var init_icon_visible_fat_svg = __esm({
   "lib/meta/icon_visible-fat.svg.ts"() {
-    meta784 = {
+    meta808 = {
       "description": "An icon depicting a bold and visible eye, representing a feature that is easy to see or prominent. This icon is commonly used to indicate visibility or clarity.",
       "category": [
         "Interface"
@@ -36888,7 +37680,7 @@ var init_icon_visible_fat_svg = __esm({
       ],
       "title": "Visible Fat"
     };
-    icon_visible_fat_svg_default = meta784;
+    icon_visible_fat_svg_default = meta808;
   }
 });
 
@@ -36896,12 +37688,12 @@ var init_icon_visible_fat_svg = __esm({
 var icon_visible_l_svg_exports = {};
 __export(icon_visible_l_svg_exports, {
   default: () => icon_visible_l_svg_default,
-  meta: () => meta785
+  meta: () => meta809
 });
-var meta785, icon_visible_l_svg_default;
+var meta809, icon_visible_l_svg_default;
 var init_icon_visible_l_svg = __esm({
   "lib/meta/icon_visible-l.svg.ts"() {
-    meta785 = {
+    meta809 = {
       "description": "An icon representing visibility or being visible. This icon is often used to toggle between displaying or hiding content.",
       "category": [
         "Interface"
@@ -36920,7 +37712,7 @@ var init_icon_visible_l_svg = __esm({
       ],
       "title": "Visible"
     };
-    icon_visible_l_svg_default = meta785;
+    icon_visible_l_svg_default = meta809;
   }
 });
 
@@ -36928,12 +37720,12 @@ var init_icon_visible_l_svg = __esm({
 var icon_visible_m_svg_exports = {};
 __export(icon_visible_m_svg_exports, {
   default: () => icon_visible_m_svg_default,
-  meta: () => meta786
+  meta: () => meta810
 });
-var meta786, icon_visible_m_svg_default;
+var meta810, icon_visible_m_svg_default;
 var init_icon_visible_m_svg = __esm({
   "lib/meta/icon_visible-m.svg.ts"() {
-    meta786 = {
+    meta810 = {
       "description": "An icon representing visibility with an open eye, indicating something is visible or not hidden.",
       "category": [
         "Interface"
@@ -36951,7 +37743,7 @@ var init_icon_visible_m_svg = __esm({
       ],
       "title": "Visible M"
     };
-    icon_visible_m_svg_default = meta786;
+    icon_visible_m_svg_default = meta810;
   }
 });
 
@@ -36959,12 +37751,12 @@ var init_icon_visible_m_svg = __esm({
 var icon_visible_s_svg_exports = {};
 __export(icon_visible_s_svg_exports, {
   default: () => icon_visible_s_svg_default,
-  meta: () => meta787
+  meta: () => meta811
 });
-var meta787, icon_visible_s_svg_default;
+var meta811, icon_visible_s_svg_default;
 var init_icon_visible_s_svg = __esm({
   "lib/meta/icon_visible-s.svg.ts"() {
-    meta787 = {
+    meta811 = {
       "description": "An icon representing visibility or the concept of being visible. This icon is typically used to toggle visibility on or off in user interfaces.",
       "category": [
         "Interface"
@@ -36983,7 +37775,7 @@ var init_icon_visible_s_svg = __esm({
       ],
       "title": "Visible Switch"
     };
-    icon_visible_s_svg_default = meta787;
+    icon_visible_s_svg_default = meta811;
   }
 });
 
@@ -36991,12 +37783,12 @@ var init_icon_visible_s_svg = __esm({
 var icon_wheelchair_action_svg_exports = {};
 __export(icon_wheelchair_action_svg_exports, {
   default: () => icon_wheelchair_action_svg_default,
-  meta: () => meta788
+  meta: () => meta812
 });
-var meta788, icon_wheelchair_action_svg_default;
+var meta812, icon_wheelchair_action_svg_default;
 var init_icon_wheelchair_action_svg = __esm({
   "lib/meta/icon_wheelchair-action.svg.ts"() {
-    meta788 = {
+    meta812 = {
       "description": "This icon depicts a symbol of a wheelchair in motion, representing accessibility or disability rights. It can be used in user interface designs to indicate wheelchair-accessible features or services.",
       "category": [
         "Accessibility",
@@ -37016,7 +37808,7 @@ var init_icon_wheelchair_action_svg = __esm({
       ],
       "title": "Wheelchair Action"
     };
-    icon_wheelchair_action_svg_default = meta788;
+    icon_wheelchair_action_svg_default = meta812;
   }
 });
 
@@ -37024,12 +37816,12 @@ var init_icon_wheelchair_action_svg = __esm({
 var icon_wheelchair_svg_exports = {};
 __export(icon_wheelchair_svg_exports, {
   default: () => icon_wheelchair_svg_default,
-  meta: () => meta789
+  meta: () => meta813
 });
-var meta789, icon_wheelchair_svg_default;
+var meta813, icon_wheelchair_svg_default;
 var init_icon_wheelchair_svg = __esm({
   "lib/meta/icon_wheelchair.svg.ts"() {
-    meta789 = {
+    meta813 = {
       "description": "An icon depicting a stylized wheelchair, commonly used to represent accessibility or disability-related features in user interfaces.",
       "category": [
         "Accessibility",
@@ -37049,7 +37841,7 @@ var init_icon_wheelchair_svg = __esm({
       ],
       "title": "Wheelchair"
     };
-    icon_wheelchair_svg_default = meta789;
+    icon_wheelchair_svg_default = meta813;
   }
 });
 
@@ -37057,12 +37849,12 @@ var init_icon_wheelchair_svg = __esm({
 var icon_airplane_arrivals_svg_exports = {};
 __export(icon_airplane_arrivals_svg_exports, {
   default: () => icon_airplane_arrivals_svg_default,
-  meta: () => meta790
+  meta: () => meta814
 });
-var meta790, icon_airplane_arrivals_svg_default;
+var meta814, icon_airplane_arrivals_svg_default;
 var init_icon_airplane_arrivals_svg = __esm({
   "lib/meta/icon_airplane-arrivals.svg.ts"() {
-    meta790 = {
+    meta814 = {
       "description": "The icon 'Airplane Arrivals' depicts an airplane landing, symbolizing arrivals at the airport. This icon is commonly used for wayfinding purposes to indicate the arrivals area.",
       "category": [
         "Transport",
@@ -37082,7 +37874,7 @@ var init_icon_airplane_arrivals_svg = __esm({
       ],
       "title": "Airplane Arrivals"
     };
-    icon_airplane_arrivals_svg_default = meta790;
+    icon_airplane_arrivals_svg_default = meta814;
   }
 });
 
@@ -37090,12 +37882,12 @@ var init_icon_airplane_arrivals_svg = __esm({
 var icon_airplane_departures_svg_exports = {};
 __export(icon_airplane_departures_svg_exports, {
   default: () => icon_airplane_departures_svg_default,
-  meta: () => meta791
+  meta: () => meta815
 });
-var meta791, icon_airplane_departures_svg_default;
+var meta815, icon_airplane_departures_svg_default;
 var init_icon_airplane_departures_svg = __esm({
   "lib/meta/icon_airplane-departures.svg.ts"() {
-    meta791 = {
+    meta815 = {
       "description": "An icon representing airplane departures, typically used to indicate the location or direction of departures for flights in an airport or transportation hub.",
       "category": [
         "Transport",
@@ -37115,7 +37907,7 @@ var init_icon_airplane_departures_svg = __esm({
       ],
       "title": "Airplane Departures"
     };
-    icon_airplane_departures_svg_default = meta791;
+    icon_airplane_departures_svg_default = meta815;
   }
 });
 
@@ -37123,12 +37915,12 @@ var init_icon_airplane_departures_svg = __esm({
 var icon_airplane_svg_exports = {};
 __export(icon_airplane_svg_exports, {
   default: () => icon_airplane_svg_default,
-  meta: () => meta792
+  meta: () => meta816
 });
-var meta792, icon_airplane_svg_default;
+var meta816, icon_airplane_svg_default;
 var init_icon_airplane_svg = __esm({
   "lib/meta/icon_airplane.svg.ts"() {
-    meta792 = {
+    meta816 = {
       "description": "The airplane icon represents air travel and can be used to indicate the location of an airport or a travel-related service.",
       "category": [
         "Transport"
@@ -37147,7 +37939,7 @@ var init_icon_airplane_svg = __esm({
       ],
       "title": "Airplane"
     };
-    icon_airplane_svg_default = meta792;
+    icon_airplane_svg_default = meta816;
   }
 });
 
@@ -37155,12 +37947,12 @@ var init_icon_airplane_svg = __esm({
 var icon_airport_connect_flights_svg_exports = {};
 __export(icon_airport_connect_flights_svg_exports, {
   default: () => icon_airport_connect_flights_svg_default,
-  meta: () => meta793
+  meta: () => meta817
 });
-var meta793, icon_airport_connect_flights_svg_default;
+var meta817, icon_airport_connect_flights_svg_default;
 var init_icon_airport_connect_flights_svg = __esm({
   "lib/meta/icon_airport-connect-flights.svg.ts"() {
-    meta793 = {
+    meta817 = {
       "description": "An icon representing the connection between different flights in an airport, helping passengers navigate their way to connecting flights easily.",
       "category": [
         "Transport",
@@ -37180,7 +37972,7 @@ var init_icon_airport_connect_flights_svg = __esm({
       ],
       "title": "Airport Connect Flights"
     };
-    icon_airport_connect_flights_svg_default = meta793;
+    icon_airport_connect_flights_svg_default = meta817;
   }
 });
 
@@ -37188,12 +37980,12 @@ var init_icon_airport_connect_flights_svg = __esm({
 var icon_airport_transfer_2_svg_exports = {};
 __export(icon_airport_transfer_2_svg_exports, {
   default: () => icon_airport_transfer_2_svg_default,
-  meta: () => meta794
+  meta: () => meta818
 });
-var meta794, icon_airport_transfer_2_svg_default;
+var meta818, icon_airport_transfer_2_svg_default;
 var init_icon_airport_transfer_2_svg = __esm({
   "lib/meta/icon_airport-transfer 2.svg.ts"() {
-    meta794 = {
+    meta818 = {
       "description": "An icon representing the transfer service at an airport, indicating the location to go for transportation between terminals or to/from the airport.",
       "category": [
         "Wayfinding"
@@ -37212,7 +38004,7 @@ var init_icon_airport_transfer_2_svg = __esm({
       ],
       "title": "Airport Transfer 2"
     };
-    icon_airport_transfer_2_svg_default = meta794;
+    icon_airport_transfer_2_svg_default = meta818;
   }
 });
 
@@ -37220,12 +38012,12 @@ var init_icon_airport_transfer_2_svg = __esm({
 var icon_airport_transfer_svg_exports = {};
 __export(icon_airport_transfer_svg_exports, {
   default: () => icon_airport_transfer_svg_default,
-  meta: () => meta795
+  meta: () => meta819
 });
-var meta795, icon_airport_transfer_svg_default;
+var meta819, icon_airport_transfer_svg_default;
 var init_icon_airport_transfer_svg = __esm({
   "lib/meta/icon_airport-transfer.svg.ts"() {
-    meta795 = {
+    meta819 = {
       "description": "An icon representing airport transfer services, typically used for indicating shuttle services or transportation between terminals at an airport.",
       "category": [
         "Transport"
@@ -37244,7 +38036,7 @@ var init_icon_airport_transfer_svg = __esm({
       ],
       "title": "Airport Transfer"
     };
-    icon_airport_transfer_svg_default = meta795;
+    icon_airport_transfer_svg_default = meta819;
   }
 });
 
@@ -37252,12 +38044,12 @@ var init_icon_airport_transfer_svg = __esm({
 var icon_anchor_svg_exports = {};
 __export(icon_anchor_svg_exports, {
   default: () => icon_anchor_svg_default,
-  meta: () => meta796
+  meta: () => meta820
 });
-var meta796, icon_anchor_svg_default;
+var meta820, icon_anchor_svg_default;
 var init_icon_anchor_svg = __esm({
   "lib/meta/icon_anchor.svg.ts"() {
-    meta796 = {
+    meta820 = {
       "description": "An icon of an anchor, used in wayfinding to indicate a location or point of interest near a body of water. The anchor is a symbol often associated with maritime themes and navigation.",
       "category": [
         "Wayfinding",
@@ -37277,7 +38069,7 @@ var init_icon_anchor_svg = __esm({
       ],
       "title": "Anchor"
     };
-    icon_anchor_svg_default = meta796;
+    icon_anchor_svg_default = meta820;
   }
 });
 
@@ -37285,12 +38077,12 @@ var init_icon_anchor_svg = __esm({
 var icon_bicycle_surfboard_svg_exports = {};
 __export(icon_bicycle_surfboard_svg_exports, {
   default: () => icon_bicycle_surfboard_svg_default,
-  meta: () => meta797
+  meta: () => meta821
 });
-var meta797, icon_bicycle_surfboard_svg_default;
+var meta821, icon_bicycle_surfboard_svg_default;
 var init_icon_bicycle_surfboard_svg = __esm({
   "lib/meta/icon_bicycle-surfboard.svg.ts"() {
-    meta797 = {
+    meta821 = {
       "description": "The bicycle-surfboard icon is a wayfinding symbol that indicates the presence of a bicycle rental station that provides specialized bicycles equipped with surfboard racks.",
       "category": [
         "Wayfinding",
@@ -37309,7 +38101,7 @@ var init_icon_bicycle_surfboard_svg = __esm({
       ],
       "title": "Bicycle Surfboard"
     };
-    icon_bicycle_surfboard_svg_default = meta797;
+    icon_bicycle_surfboard_svg_default = meta821;
   }
 });
 
@@ -37317,12 +38109,12 @@ var init_icon_bicycle_surfboard_svg = __esm({
 var icon_bicycle_svg_exports = {};
 __export(icon_bicycle_svg_exports, {
   default: () => icon_bicycle_svg_default,
-  meta: () => meta798
+  meta: () => meta822
 });
-var meta798, icon_bicycle_svg_default;
+var meta822, icon_bicycle_svg_default;
 var init_icon_bicycle_svg = __esm({
   "lib/meta/icon_bicycle.svg.ts"() {
-    meta798 = {
+    meta822 = {
       "description": "The bicycle icon is used to indicate a bicycle route or path for cyclists. It is commonly used in wayfinding systems to guide users to bike-friendly paths.",
       "category": [
         "Wayfinding",
@@ -37342,7 +38134,7 @@ var init_icon_bicycle_svg = __esm({
       ],
       "title": "Bicycle"
     };
-    icon_bicycle_svg_default = meta798;
+    icon_bicycle_svg_default = meta822;
   }
 });
 
@@ -37350,12 +38142,12 @@ var init_icon_bicycle_svg = __esm({
 var icon_briefcase_cross_svg_exports = {};
 __export(icon_briefcase_cross_svg_exports, {
   default: () => icon_briefcase_cross_svg_default,
-  meta: () => meta799
+  meta: () => meta823
 });
-var meta799, icon_briefcase_cross_svg_default;
+var meta823, icon_briefcase_cross_svg_default;
 var init_icon_briefcase_cross_svg = __esm({
   "lib/meta/icon_briefcase-cross.svg.ts"() {
-    meta799 = {
+    meta823 = {
       "description": "The briefcase-cross icon is a symbol representing a briefcase with a red cross over it, typically used to indicate that the location or service related to business or work is closed or unavailable.",
       "category": [
         "Wayfinding"
@@ -37373,7 +38165,7 @@ var init_icon_briefcase_cross_svg = __esm({
       ],
       "title": "Briefcase Cross"
     };
-    icon_briefcase_cross_svg_default = meta799;
+    icon_briefcase_cross_svg_default = meta823;
   }
 });
 
@@ -37381,18 +38173,18 @@ var init_icon_briefcase_cross_svg = __esm({
 var icon_car_parking_indoor_svg_exports = {};
 __export(icon_car_parking_indoor_svg_exports, {
   default: () => icon_car_parking_indoor_svg_default,
-  meta: () => meta800
+  meta: () => meta824
 });
-var meta800, icon_car_parking_indoor_svg_default;
+var meta824, icon_car_parking_indoor_svg_default;
 var init_icon_car_parking_indoor_svg = __esm({
   "lib/meta/icon_car-parking-indoor.svg.ts"() {
-    meta800 = {
+    meta824 = {
       description: "The indoor car parking icon is used to provide directions and guidance for locating indoor parking spaces for vehicles.",
       category: ["Wayfinding", "Transport"],
       tag: ["Indoor", "Parking", "Car", "Vehicles", "Navigation", "Directions", "Guidance", "Automobiles", "Garage"],
       title: "Indoor Car Parking"
     };
-    icon_car_parking_indoor_svg_default = meta800;
+    icon_car_parking_indoor_svg_default = meta824;
   }
 });
 
@@ -37400,18 +38192,18 @@ var init_icon_car_parking_indoor_svg = __esm({
 var icon_car_parking_outside_svg_exports = {};
 __export(icon_car_parking_outside_svg_exports, {
   default: () => icon_car_parking_outside_svg_default,
-  meta: () => meta801
+  meta: () => meta825
 });
-var meta801, icon_car_parking_outside_svg_default;
+var meta825, icon_car_parking_outside_svg_default;
 var init_icon_car_parking_outside_svg = __esm({
   "lib/meta/icon_car-parking-outside.svg.ts"() {
-    meta801 = {
+    meta825 = {
       description: "An icon depicting a car parked outside, usually used as a wayfinding symbol to indicate outdoor parking areas.",
       category: ["Transport", "Wayfinding"],
       tag: ["car", "parking", "outdoor", "vehicle", "direction", "navigation", "parking lot", "street", "road", "wayfinding"],
       title: "Car Parking Outside"
     };
-    icon_car_parking_outside_svg_default = meta801;
+    icon_car_parking_outside_svg_default = meta825;
   }
 });
 
@@ -37419,18 +38211,18 @@ var init_icon_car_parking_outside_svg = __esm({
 var icon_car_parking_svg_exports = {};
 __export(icon_car_parking_svg_exports, {
   default: () => icon_car_parking_svg_default,
-  meta: () => meta802
+  meta: () => meta826
 });
-var meta802, icon_car_parking_svg_default;
+var meta826, icon_car_parking_svg_default;
 var init_icon_car_parking_svg = __esm({
   "lib/meta/icon_car-parking.svg.ts"() {
-    meta802 = {
+    meta826 = {
       description: "The icon depicts a car parking area, typically used to indicate the location of a parking lot or parking space. It can help users navigate and find parking easily.",
       category: ["Wayfinding", "Transport"],
       tag: ["car", "parking", "navigation", "find", "location", "lot", "space", "vehicle", "street", "park"],
       title: "Car Parking"
     };
-    icon_car_parking_svg_default = meta802;
+    icon_car_parking_svg_default = meta826;
   }
 });
 
@@ -37438,12 +38230,12 @@ var init_icon_car_parking_svg = __esm({
 var icon_car_svg_exports = {};
 __export(icon_car_svg_exports, {
   default: () => icon_car_svg_default,
-  meta: () => meta803
+  meta: () => meta827
 });
-var meta803, icon_car_svg_default;
+var meta827, icon_car_svg_default;
 var init_icon_car_svg = __esm({
   "lib/meta/icon_car.svg.ts"() {
-    meta803 = {
+    meta827 = {
       "description": "An icon representing a car, often used to indicate directions, parking areas or transportation facilities.",
       "category": [
         "Wayfinding",
@@ -37463,7 +38255,7 @@ var init_icon_car_svg = __esm({
       ],
       "title": "Car"
     };
-    icon_car_svg_default = meta803;
+    icon_car_svg_default = meta827;
   }
 });
 
@@ -37471,18 +38263,18 @@ var init_icon_car_svg = __esm({
 var icon_changing_area_svg_exports = {};
 __export(icon_changing_area_svg_exports, {
   default: () => icon_changing_area_svg_default,
-  meta: () => meta804
+  meta: () => meta828
 });
-var meta804, icon_changing_area_svg_default;
+var meta828, icon_changing_area_svg_default;
 var init_icon_changing_area_svg = __esm({
   "lib/meta/icon_changing-area.svg.ts"() {
-    meta804 = {
+    meta828 = {
       description: "The changing area icon represents a location or facility where individuals can change their clothes or attire. It is commonly found in areas such as dressing rooms, locker rooms, or restrooms.",
       category: ["Wayfinding"],
       tag: ["changing area", "facility", "clothes", "attire", "dressing room", "locker room", "restroom", "changing room", "personal space", "privacy"],
       title: "Changing Area"
     };
-    icon_changing_area_svg_default = meta804;
+    icon_changing_area_svg_default = meta828;
   }
 });
 
@@ -37490,18 +38282,18 @@ var init_icon_changing_area_svg = __esm({
 var icon_check_in_svg_exports = {};
 __export(icon_check_in_svg_exports, {
   default: () => icon_check_in_svg_default,
-  meta: () => meta805
+  meta: () => meta829
 });
-var meta805, icon_check_in_svg_default;
+var meta829, icon_check_in_svg_default;
 var init_icon_check_in_svg = __esm({
   "lib/meta/icon_check in.svg.ts"() {
-    meta805 = {
+    meta829 = {
       description: "The check in icon is used in wayfinding to indicate a location where individuals can register their presence or receive services.",
       category: ["Wayfinding"],
       tag: ["Check in", "Location", "Registration", "Service", "Navigation", "Point of interest", "Marker", "Information", "Guide", "Direction"],
       title: "Check In"
     };
-    icon_check_in_svg_default = meta805;
+    icon_check_in_svg_default = meta829;
   }
 });
 
@@ -37509,18 +38301,18 @@ var init_icon_check_in_svg = __esm({
 var icon_city_bus_svg_exports = {};
 __export(icon_city_bus_svg_exports, {
   default: () => icon_city_bus_svg_default,
-  meta: () => meta806
+  meta: () => meta830
 });
-var meta806, icon_city_bus_svg_default;
+var meta830, icon_city_bus_svg_default;
 var init_icon_city_bus_svg = __esm({
   "lib/meta/icon_city-bus.svg.ts"() {
-    meta806 = {
+    meta830 = {
       description: "City bus icon for wayfinding purposes, commonly used to indicate bus stops or public transportation locations in urban areas.",
       category: ["Transport", "Wayfinding"],
       tag: ["City bus", "Public transportation", "Urban", "Bus stop", "Travel", "Transit system", "Icon", "Symbol", "Navigation", "Transportation"],
       title: "City Bus"
     };
-    icon_city_bus_svg_default = meta806;
+    icon_city_bus_svg_default = meta830;
   }
 });
 
@@ -37528,12 +38320,12 @@ var init_icon_city_bus_svg = __esm({
 var icon_cross_circled_svg_exports = {};
 __export(icon_cross_circled_svg_exports, {
   default: () => icon_cross_circled_svg_default,
-  meta: () => meta807
+  meta: () => meta831
 });
-var meta807, icon_cross_circled_svg_default;
+var meta831, icon_cross_circled_svg_default;
 var init_icon_cross_circled_svg = __esm({
   "lib/meta/icon_cross-circled.svg.ts"() {
-    meta807 = {
+    meta831 = {
       "description": "The cross-circled icon typically represents locations where points of interest have been crossed out or canceled. It is commonly used in wayfinding systems to indicate places that are unavailable or no longer accessible.",
       "category": [
         "Wayfinding"
@@ -37551,7 +38343,7 @@ var init_icon_cross_circled_svg = __esm({
       ],
       "title": "Cross Circled"
     };
-    icon_cross_circled_svg_default = meta807;
+    icon_cross_circled_svg_default = meta831;
   }
 });
 
@@ -37559,12 +38351,12 @@ var init_icon_cross_circled_svg = __esm({
 var icon_cross_svg_exports = {};
 __export(icon_cross_svg_exports, {
   default: () => icon_cross_svg_default,
-  meta: () => meta808
+  meta: () => meta832
 });
-var meta808, icon_cross_svg_default;
+var meta832, icon_cross_svg_default;
 var init_icon_cross_svg = __esm({
   "lib/meta/icon_cross.svg.ts"() {
-    meta808 = {
+    meta832 = {
       "description": "The icon 'cross' typically represents a point of interest or a location on a map. It is commonly used in wayfinding signage to indicate a specific destination or area.",
       "category": [
         "Wayfinding"
@@ -37583,7 +38375,7 @@ var init_icon_cross_svg = __esm({
       ],
       "title": "Cross"
     };
-    icon_cross_svg_default = meta808;
+    icon_cross_svg_default = meta832;
   }
 });
 
@@ -37591,12 +38383,12 @@ var init_icon_cross_svg = __esm({
 var icon_cruiseship_svg_exports = {};
 __export(icon_cruiseship_svg_exports, {
   default: () => icon_cruiseship_svg_default,
-  meta: () => meta809
+  meta: () => meta833
 });
-var meta809, icon_cruiseship_svg_default;
+var meta833, icon_cruiseship_svg_default;
 var init_icon_cruiseship_svg = __esm({
   "lib/meta/icon_cruiseship.svg.ts"() {
-    meta809 = {
+    meta833 = {
       "description": "The cruiseship icon is a representation of a large passenger ship designed for leisure voyages. Often seen in travel brochures or on signage to indicate the location of a cruise dock or terminal.",
       "category": [
         "Transport"
@@ -37615,7 +38407,7 @@ var init_icon_cruiseship_svg = __esm({
       ],
       "title": "Cruise Ship"
     };
-    icon_cruiseship_svg_default = meta809;
+    icon_cruiseship_svg_default = meta833;
   }
 });
 
@@ -37623,12 +38415,12 @@ var init_icon_cruiseship_svg = __esm({
 var icon_elevator_1_svg_exports = {};
 __export(icon_elevator_1_svg_exports, {
   default: () => icon_elevator_1_svg_default,
-  meta: () => meta810
+  meta: () => meta834
 });
-var meta810, icon_elevator_1_svg_default;
+var meta834, icon_elevator_1_svg_default;
 var init_icon_elevator_1_svg = __esm({
   "lib/meta/icon_elevator 1.svg.ts"() {
-    meta810 = {
+    meta834 = {
       "description": "A simple icon representing an elevator, typically used for wayfinding purposes in buildings. The icon features a square shape with a door-like design at the bottom.",
       "category": [
         "Wayfinding"
@@ -37647,7 +38439,7 @@ var init_icon_elevator_1_svg = __esm({
       ],
       "title": "Elevator 1"
     };
-    icon_elevator_1_svg_default = meta810;
+    icon_elevator_1_svg_default = meta834;
   }
 });
 
@@ -37655,12 +38447,12 @@ var init_icon_elevator_1_svg = __esm({
 var icon_elevator_2_svg_exports = {};
 __export(icon_elevator_2_svg_exports, {
   default: () => icon_elevator_2_svg_default,
-  meta: () => meta811
+  meta: () => meta835
 });
-var meta811, icon_elevator_2_svg_default;
+var meta835, icon_elevator_2_svg_default;
 var init_icon_elevator_2_svg = __esm({
   "lib/meta/icon_elevator 2.svg.ts"() {
-    meta811 = {
+    meta835 = {
       "description": "Elevator 2 icon for indicating the location of a second elevator in a building. Perfect for use in wayfinding signage or maps.",
       "category": [
         "Wayfinding"
@@ -37679,7 +38471,7 @@ var init_icon_elevator_2_svg = __esm({
       ],
       "title": "Elevator 2"
     };
-    icon_elevator_2_svg_default = meta811;
+    icon_elevator_2_svg_default = meta835;
   }
 });
 
@@ -37687,12 +38479,12 @@ var init_icon_elevator_2_svg = __esm({
 var icon_elevator_3_svg_exports = {};
 __export(icon_elevator_3_svg_exports, {
   default: () => icon_elevator_3_svg_default,
-  meta: () => meta812
+  meta: () => meta836
 });
-var meta812, icon_elevator_3_svg_default;
+var meta836, icon_elevator_3_svg_default;
 var init_icon_elevator_3_svg = __esm({
   "lib/meta/icon_elevator 3.svg.ts"() {
-    meta812 = {
+    meta836 = {
       "description": "Elevator icon for wayfinding purposes, showing a stylized representation of an elevator with number 3 displayed prominently.",
       "category": [
         "Wayfinding"
@@ -37711,7 +38503,7 @@ var init_icon_elevator_3_svg = __esm({
       ],
       "title": "Elevator 3"
     };
-    icon_elevator_3_svg_default = meta812;
+    icon_elevator_3_svg_default = meta836;
   }
 });
 
@@ -37719,12 +38511,12 @@ var init_icon_elevator_3_svg = __esm({
 var icon_elevator_4_svg_exports = {};
 __export(icon_elevator_4_svg_exports, {
   default: () => icon_elevator_4_svg_default,
-  meta: () => meta813
+  meta: () => meta837
 });
-var meta813, icon_elevator_4_svg_default;
+var meta837, icon_elevator_4_svg_default;
 var init_icon_elevator_4_svg = __esm({
   "lib/meta/icon_elevator 4.svg.ts"() {
-    meta813 = {
+    meta837 = {
       "description": "Elevator icon that represents wayfinding and navigation to floor 4 in a building or facility.",
       "category": [
         "Wayfinding"
@@ -37743,7 +38535,7 @@ var init_icon_elevator_4_svg = __esm({
       ],
       "title": "Elevator 4"
     };
-    icon_elevator_4_svg_default = meta813;
+    icon_elevator_4_svg_default = meta837;
   }
 });
 
@@ -37751,12 +38543,12 @@ var init_icon_elevator_4_svg = __esm({
 var icon_escalator_down_svg_exports = {};
 __export(icon_escalator_down_svg_exports, {
   default: () => icon_escalator_down_svg_default,
-  meta: () => meta814
+  meta: () => meta838
 });
-var meta814, icon_escalator_down_svg_default;
+var meta838, icon_escalator_down_svg_default;
 var init_icon_escalator_down_svg = __esm({
   "lib/meta/icon_escalator-down.svg.ts"() {
-    meta814 = {
+    meta838 = {
       "description": "An icon representing a downward escalator, often used for wayfinding to indicate the location of the escalator going down.",
       "category": [
         "Wayfinding"
@@ -37775,7 +38567,7 @@ var init_icon_escalator_down_svg = __esm({
       ],
       "title": "Escalator Down"
     };
-    icon_escalator_down_svg_default = meta814;
+    icon_escalator_down_svg_default = meta838;
   }
 });
 
@@ -37783,12 +38575,12 @@ var init_icon_escalator_down_svg = __esm({
 var icon_escalator_up_svg_exports = {};
 __export(icon_escalator_up_svg_exports, {
   default: () => icon_escalator_up_svg_default,
-  meta: () => meta815
+  meta: () => meta839
 });
-var meta815, icon_escalator_up_svg_default;
+var meta839, icon_escalator_up_svg_default;
 var init_icon_escalator_up_svg = __esm({
   "lib/meta/icon_escalator-up.svg.ts"() {
-    meta815 = {
+    meta839 = {
       "description": "An icon indicating the direction for going up on an escalator, commonly used for wayfinding purposes in public spaces such as airports, train stations, and shopping malls.",
       "category": [
         "Wayfinding"
@@ -37807,7 +38599,7 @@ var init_icon_escalator_up_svg = __esm({
       ],
       "title": "Escalator Up"
     };
-    icon_escalator_up_svg_default = meta815;
+    icon_escalator_up_svg_default = meta839;
   }
 });
 
@@ -37815,12 +38607,12 @@ var init_icon_escalator_up_svg = __esm({
 var icon_escalator_svg_exports = {};
 __export(icon_escalator_svg_exports, {
   default: () => icon_escalator_svg_default,
-  meta: () => meta816
+  meta: () => meta840
 });
-var meta816, icon_escalator_svg_default;
+var meta840, icon_escalator_svg_default;
 var init_icon_escalator_svg = __esm({
   "lib/meta/icon_escalator.svg.ts"() {
-    meta816 = {
+    meta840 = {
       "description": "An escalator icon typically represents a moving staircase used for transporting people between different levels of a building. It is commonly used in signage and wayfinding systems to indicate the location of escalators.",
       "category": [
         "Wayfinding"
@@ -37839,7 +38631,7 @@ var init_icon_escalator_svg = __esm({
       ],
       "title": "Escalator"
     };
-    icon_escalator_svg_default = meta816;
+    icon_escalator_svg_default = meta840;
   }
 });
 
@@ -37847,18 +38639,18 @@ var init_icon_escalator_svg = __esm({
 var icon_family_svg_exports = {};
 __export(icon_family_svg_exports, {
   default: () => icon_family_svg_default,
-  meta: () => meta817
+  meta: () => meta841
 });
-var meta817, icon_family_svg_default;
+var meta841, icon_family_svg_default;
 var init_icon_family_svg = __esm({
   "lib/meta/icon_family.svg.ts"() {
-    meta817 = {
+    meta841 = {
       description: "The family icon is a symbol representing unity and togetherness. It typically features two adults and a child, symbolizing a nuclear family. This icon is often used in wayfinding signs to indicate the location of family-friendly areas or facilities.",
       category: ["Wayfinding", "Symbol"],
       tag: ["Unity", "Togetherness", "Community", "Parents", "Children", "Safety", "Love", "Nuclear family", "Wayfinding"],
       title: "Family"
     };
-    icon_family_svg_default = meta817;
+    icon_family_svg_default = meta841;
   }
 });
 
@@ -37866,12 +38658,12 @@ var init_icon_family_svg = __esm({
 var icon_ferry_svg_exports = {};
 __export(icon_ferry_svg_exports, {
   default: () => icon_ferry_svg_default,
-  meta: () => meta818
+  meta: () => meta842
 });
-var meta818, icon_ferry_svg_default;
+var meta842, icon_ferry_svg_default;
 var init_icon_ferry_svg = __esm({
   "lib/meta/icon_ferry.svg.ts"() {
-    meta818 = {
+    meta842 = {
       "description": "A ferry icon typically represents a mode of transportation that travels over bodies of water, often used for commuting or tourism purposes.",
       "category": [
         "Transport"
@@ -37890,7 +38682,7 @@ var init_icon_ferry_svg = __esm({
       ],
       "title": "Ferry"
     };
-    icon_ferry_svg_default = meta818;
+    icon_ferry_svg_default = meta842;
   }
 });
 
@@ -37898,12 +38690,12 @@ var init_icon_ferry_svg = __esm({
 var icon_fire_extinguisher_svg_exports = {};
 __export(icon_fire_extinguisher_svg_exports, {
   default: () => icon_fire_extinguisher_svg_default,
-  meta: () => meta819
+  meta: () => meta843
 });
-var meta819, icon_fire_extinguisher_svg_default;
+var meta843, icon_fire_extinguisher_svg_default;
 var init_icon_fire_extinguisher_svg = __esm({
   "lib/meta/icon_fire-extinguisher.svg.ts"() {
-    meta819 = {
+    meta843 = {
       "description": "A symbol representing a fire extinguisher, commonly used for wayfinding in case of emergencies.",
       "category": [
         "Wayfinding",
@@ -37922,7 +38714,7 @@ var init_icon_fire_extinguisher_svg = __esm({
       ],
       "title": "Fire Extinguisher"
     };
-    icon_fire_extinguisher_svg_default = meta819;
+    icon_fire_extinguisher_svg_default = meta843;
   }
 });
 
@@ -37930,18 +38722,18 @@ var init_icon_fire_extinguisher_svg = __esm({
 var icon_fire_flame_svg_exports = {};
 __export(icon_fire_flame_svg_exports, {
   default: () => icon_fire_flame_svg_default,
-  meta: () => meta820
+  meta: () => meta844
 });
-var meta820, icon_fire_flame_svg_default;
+var meta844, icon_fire_flame_svg_default;
 var init_icon_fire_flame_svg = __esm({
   "lib/meta/icon_fire-flame.svg.ts"() {
-    meta820 = {
+    meta844 = {
       description: "A simple icon representing a fire flame, often used to indicate fire, heat, danger, or energy in wayfinding systems or maps.",
       category: ["Symbol", "Wayfinding"],
       tag: ["heat", "danger", "energy", "burning", "hot", "flame", "inferno", "warning", "campfire", "emergency"],
       title: "Fire Flame"
     };
-    icon_fire_flame_svg_default = meta820;
+    icon_fire_flame_svg_default = meta844;
   }
 });
 
@@ -37949,12 +38741,12 @@ var init_icon_fire_flame_svg = __esm({
 var icon_fire_hose_svg_exports = {};
 __export(icon_fire_hose_svg_exports, {
   default: () => icon_fire_hose_svg_default,
-  meta: () => meta821
+  meta: () => meta845
 });
-var meta821, icon_fire_hose_svg_default;
+var meta845, icon_fire_hose_svg_default;
 var init_icon_fire_hose_svg = __esm({
   "lib/meta/icon_fire-hose.svg.ts"() {
-    meta821 = {
+    meta845 = {
       "description": "An icon of a fire hose, typically used for emergency situations to extinguish fires. The fire hose is depicted with a nozzle and water flowing out of it.",
       "category": [
         "Wayfinding",
@@ -37974,7 +38766,7 @@ var init_icon_fire_hose_svg = __esm({
       ],
       "title": "Fire Hose"
     };
-    icon_fire_hose_svg_default = meta821;
+    icon_fire_hose_svg_default = meta845;
   }
 });
 
@@ -37982,12 +38774,12 @@ var init_icon_fire_hose_svg = __esm({
 var icon_gravestone_2_svg_exports = {};
 __export(icon_gravestone_2_svg_exports, {
   default: () => icon_gravestone_2_svg_default,
-  meta: () => meta822
+  meta: () => meta846
 });
-var meta822, icon_gravestone_2_svg_default;
+var meta846, icon_gravestone_2_svg_default;
 var init_icon_gravestone_2_svg = __esm({
   "lib/meta/icon_gravestone 2.svg.ts"() {
-    meta822 = {
+    meta846 = {
       "description": "Icon of a gravestone, commonly used in wayfinding signage to indicate a cemetery or burial ground.",
       "category": [
         "Wayfinding"
@@ -38006,7 +38798,7 @@ var init_icon_gravestone_2_svg = __esm({
       ],
       "title": "Gravestone 2"
     };
-    icon_gravestone_2_svg_default = meta822;
+    icon_gravestone_2_svg_default = meta846;
   }
 });
 
@@ -38014,12 +38806,12 @@ var init_icon_gravestone_2_svg = __esm({
 var icon_gravestone_3_svg_exports = {};
 __export(icon_gravestone_3_svg_exports, {
   default: () => icon_gravestone_3_svg_default,
-  meta: () => meta823
+  meta: () => meta847
 });
-var meta823, icon_gravestone_3_svg_default;
+var meta847, icon_gravestone_3_svg_default;
 var init_icon_gravestone_3_svg = __esm({
   "lib/meta/icon_gravestone 3.svg.ts"() {
-    meta823 = {
+    meta847 = {
       "description": "Gravestone icon typically represents a cemetery or a burial site. It can be used in wayfinding signs or maps to indicate the location of a cemetery.",
       "category": [
         "Wayfinding"
@@ -38038,7 +38830,7 @@ var init_icon_gravestone_3_svg = __esm({
       ],
       "title": "Gravestone 3"
     };
-    icon_gravestone_3_svg_default = meta823;
+    icon_gravestone_3_svg_default = meta847;
   }
 });
 
@@ -38046,12 +38838,12 @@ var init_icon_gravestone_3_svg = __esm({
 var icon_gravestone_svg_exports = {};
 __export(icon_gravestone_svg_exports, {
   default: () => icon_gravestone_svg_default,
-  meta: () => meta824
+  meta: () => meta848
 });
-var meta824, icon_gravestone_svg_default;
+var meta848, icon_gravestone_svg_default;
 var init_icon_gravestone_svg = __esm({
   "lib/meta/icon_gravestone.svg.ts"() {
-    meta824 = {
+    meta848 = {
       "description": "The gravestone icon is a symbol commonly used in wayfinding systems to indicate a cemetery or burial ground. It typically represents a marker for a deceased person's final resting place.",
       "category": [
         "Wayfinding"
@@ -38070,7 +38862,7 @@ var init_icon_gravestone_svg = __esm({
       ],
       "title": "Gravestone"
     };
-    icon_gravestone_svg_default = meta824;
+    icon_gravestone_svg_default = meta848;
   }
 });
 
@@ -38078,18 +38870,18 @@ var init_icon_gravestone_svg = __esm({
 var icon_hello_goodbye_svg_exports = {};
 __export(icon_hello_goodbye_svg_exports, {
   default: () => icon_hello_goodbye_svg_default,
-  meta: () => meta825
+  meta: () => meta849
 });
-var meta825, icon_hello_goodbye_svg_default;
+var meta849, icon_hello_goodbye_svg_default;
 var init_icon_hello_goodbye_svg = __esm({
   "lib/meta/icon_hello-goodbye.svg.ts"() {
-    meta825 = {
+    meta849 = {
       description: "An icon representing a wayfinding sign with 'hello' text on one side and 'goodbye' text on the other side. This icon can be used to indicate directions or locations for greeting and departing.",
       category: ["Wayfinding"],
       tag: ["signage", "direction", "greeting", "farewell", "communication", "roadmap", "navigation", "symbol", "welcome", "exit"],
       title: "Hello Goodbye"
     };
-    icon_hello_goodbye_svg_default = meta825;
+    icon_hello_goodbye_svg_default = meta849;
   }
 });
 
@@ -38097,12 +38889,12 @@ var init_icon_hello_goodbye_svg = __esm({
 var icon_location_marker_svg_exports = {};
 __export(icon_location_marker_svg_exports, {
   default: () => icon_location_marker_svg_default,
-  meta: () => meta826
+  meta: () => meta850
 });
-var meta826, icon_location_marker_svg_default;
+var meta850, icon_location_marker_svg_default;
 var init_icon_location_marker_svg = __esm({
   "lib/meta/icon_location-marker.svg.ts"() {
-    meta826 = {
+    meta850 = {
       "description": "Location marker icon that signifies a specific spot on a map or location. Used commonly in various applications for indicating places of interest or directions.",
       "category": [
         "Interface",
@@ -38122,7 +38914,7 @@ var init_icon_location_marker_svg = __esm({
       ],
       "title": "Location Marker"
     };
-    icon_location_marker_svg_default = meta826;
+    icon_location_marker_svg_default = meta850;
   }
 });
 
@@ -38130,18 +38922,18 @@ var init_icon_location_marker_svg = __esm({
 var icon_location_path_2_svg_exports = {};
 __export(icon_location_path_2_svg_exports, {
   default: () => icon_location_path_2_svg_default,
-  meta: () => meta827
+  meta: () => meta851
 });
-var meta827, icon_location_path_2_svg_default;
+var meta851, icon_location_path_2_svg_default;
 var init_icon_location_path_2_svg = __esm({
   "lib/meta/icon_location-path 2.svg.ts"() {
-    meta827 = {
+    meta851 = {
       description: "The icon 'location-path 2' represents a visual wayfinding element showing a path or route to a location. It can be used to indicate navigation, directions, or a travel route on maps or in any wayfinding context.",
       category: ["Wayfinding"],
       tag: ["Location", "Directions", "Route", "Navigation", "Maps", "Travel", "Wayfinding", "Path", "Guide", "Journey"],
       title: "Location Path 2"
     };
-    icon_location_path_2_svg_default = meta827;
+    icon_location_path_2_svg_default = meta851;
   }
 });
 
@@ -38149,18 +38941,18 @@ var init_icon_location_path_2_svg = __esm({
 var icon_location_path_svg_exports = {};
 __export(icon_location_path_svg_exports, {
   default: () => icon_location_path_svg_default,
-  meta: () => meta828
+  meta: () => meta852
 });
-var meta828, icon_location_path_svg_default;
+var meta852, icon_location_path_svg_default;
 var init_icon_location_path_svg = __esm({
   "lib/meta/icon_location-path.svg.ts"() {
-    meta828 = {
+    meta852 = {
       description: "An icon indicating a path or route to a specific location, commonly used for navigation purposes.",
       category: ["Wayfinding"],
       tag: ["Location", "Path", "Route", "Navigation", "Direction", "Map", "GPS", "Travel", "Explore", "Journey"],
       title: "Location Path"
     };
-    icon_location_path_svg_default = meta828;
+    icon_location_path_svg_default = meta852;
   }
 });
 
@@ -38168,12 +38960,12 @@ var init_icon_location_path_svg = __esm({
 var icon_location_pin_svg_exports = {};
 __export(icon_location_pin_svg_exports, {
   default: () => icon_location_pin_svg_default,
-  meta: () => meta829
+  meta: () => meta853
 });
-var meta829, icon_location_pin_svg_default;
+var meta853, icon_location_pin_svg_default;
 var init_icon_location_pin_svg = __esm({
   "lib/meta/icon_location-pin.svg.ts"() {
-    meta829 = {
+    meta853 = {
       "description": "Location pin icon is used to indicate a specific geographic location or point of interest on a map.",
       "category": [
         "Interface",
@@ -38192,7 +38984,7 @@ var init_icon_location_pin_svg = __esm({
       ],
       "title": "Location Pin"
     };
-    icon_location_pin_svg_default = meta829;
+    icon_location_pin_svg_default = meta853;
   }
 });
 
@@ -38200,18 +38992,18 @@ var init_icon_location_pin_svg = __esm({
 var icon_lounge_svg_exports = {};
 __export(icon_lounge_svg_exports, {
   default: () => icon_lounge_svg_default,
-  meta: () => meta830
+  meta: () => meta854
 });
-var meta830, icon_lounge_svg_default;
+var meta854, icon_lounge_svg_default;
 var init_icon_lounge_svg = __esm({
   "lib/meta/icon_lounge.svg.ts"() {
-    meta830 = {
+    meta854 = {
       description: "The lounge icon represents a designated area for relaxation and socialization. It is commonly used in wayfinding systems to guide people towards lounges or resting areas.",
       category: ["Wayfinding", "Interface"],
       tag: ["rest", "relaxation", "socialization", "seating", "waiting area", "interior design", "public space", "navigation", "hospitality", "travel"],
       title: "Lounge"
     };
-    icon_lounge_svg_default = meta830;
+    icon_lounge_svg_default = meta854;
   }
 });
 
@@ -38219,12 +39011,12 @@ var init_icon_lounge_svg = __esm({
 var icon_luggage_belt_svg_exports = {};
 __export(icon_luggage_belt_svg_exports, {
   default: () => icon_luggage_belt_svg_default,
-  meta: () => meta831
+  meta: () => meta855
 });
-var meta831, icon_luggage_belt_svg_default;
+var meta855, icon_luggage_belt_svg_default;
 var init_icon_luggage_belt_svg = __esm({
   "lib/meta/icon_luggage-belt.svg.ts"() {
-    meta831 = {
+    meta855 = {
       "description": "The luggage belt icon is commonly used in airports and transportation hubs to indicate where travelers can collect their baggage. It features a moving conveyor belt with suitcases on it.",
       "category": [
         "Wayfinding",
@@ -38244,7 +39036,7 @@ var init_icon_luggage_belt_svg = __esm({
       ],
       "title": "Luggage Belt"
     };
-    icon_luggage_belt_svg_default = meta831;
+    icon_luggage_belt_svg_default = meta855;
   }
 });
 
@@ -38252,12 +39044,12 @@ var init_icon_luggage_belt_svg = __esm({
 var icon_luggage_locker_svg_exports = {};
 __export(icon_luggage_locker_svg_exports, {
   default: () => icon_luggage_locker_svg_default,
-  meta: () => meta832
+  meta: () => meta856
 });
-var meta832, icon_luggage_locker_svg_default;
+var meta856, icon_luggage_locker_svg_default;
 var init_icon_luggage_locker_svg = __esm({
   "lib/meta/icon_luggage-locker.svg.ts"() {
-    meta832 = {
+    meta856 = {
       "description": "The luggage locker icon represents a designated area where travelers can securely store their luggage for a certain period of time. These lockers are often found in transportation hubs such as airports, train stations, and bus stations.",
       "category": [
         "Wayfinding",
@@ -38277,7 +39069,7 @@ var init_icon_luggage_locker_svg = __esm({
       ],
       "title": "Luggage Locker"
     };
-    icon_luggage_locker_svg_default = meta832;
+    icon_luggage_locker_svg_default = meta856;
   }
 });
 
@@ -38285,12 +39077,12 @@ var init_icon_luggage_locker_svg = __esm({
 var icon_luggage_trolley_svg_exports = {};
 __export(icon_luggage_trolley_svg_exports, {
   default: () => icon_luggage_trolley_svg_default,
-  meta: () => meta833
+  meta: () => meta857
 });
-var meta833, icon_luggage_trolley_svg_default;
+var meta857, icon_luggage_trolley_svg_default;
 var init_icon_luggage_trolley_svg = __esm({
   "lib/meta/icon_luggage-trolley.svg.ts"() {
-    meta833 = {
+    meta857 = {
       "description": "The luggage trolley icon is typically used to indicate the location of baggage carts or trolleys in airports, train stations, or other transportation hubs. It helps travelers easily identify where they can find carts to transport their luggage.",
       "category": [
         "Wayfinding",
@@ -38310,7 +39102,7 @@ var init_icon_luggage_trolley_svg = __esm({
       ],
       "title": "Luggage Trolley"
     };
-    icon_luggage_trolley_svg_default = meta833;
+    icon_luggage_trolley_svg_default = meta857;
   }
 });
 
@@ -38318,12 +39110,12 @@ var init_icon_luggage_trolley_svg = __esm({
 var icon_luggage_svg_exports = {};
 __export(icon_luggage_svg_exports, {
   default: () => icon_luggage_svg_default,
-  meta: () => meta834
+  meta: () => meta858
 });
-var meta834, icon_luggage_svg_default;
+var meta858, icon_luggage_svg_default;
 var init_icon_luggage_svg = __esm({
   "lib/meta/icon_luggage.svg.ts"() {
-    meta834 = {
+    meta858 = {
       "description": "The luggage icon represents luggage or baggage, often used in signs to indicate the location of baggage drop-off or pick-up areas in airports, train stations, and other transportation terminals.",
       "category": [
         "Wayfinding",
@@ -38343,7 +39135,7 @@ var init_icon_luggage_svg = __esm({
       ],
       "title": "Luggage"
     };
-    icon_luggage_svg_default = meta834;
+    icon_luggage_svg_default = meta858;
   }
 });
 
@@ -38351,18 +39143,18 @@ var init_icon_luggage_svg = __esm({
 var icon_map_svg_exports = {};
 __export(icon_map_svg_exports, {
   default: () => icon_map_svg_default,
-  meta: () => meta835
+  meta: () => meta859
 });
-var meta835, icon_map_svg_default;
+var meta859, icon_map_svg_default;
 var init_icon_map_svg = __esm({
   "lib/meta/icon_map.svg.ts"() {
-    meta835 = {
+    meta859 = {
       description: "The map icon represents a graphic symbol used to represent locations, provide directions or show geographic information.",
       category: ["Wayfinding"],
       tag: ["Navigation", "Location", "Pinpoint", "Travel", "Exploration", "Guide", "Cartography", "Destination", "Journey", "Direction"],
       title: "Map"
     };
-    icon_map_svg_default = meta835;
+    icon_map_svg_default = meta859;
   }
 });
 
@@ -38370,18 +39162,18 @@ var init_icon_map_svg = __esm({
 var icon_map2_svg_exports = {};
 __export(icon_map2_svg_exports, {
   default: () => icon_map2_svg_default,
-  meta: () => meta836
+  meta: () => meta860
 });
-var meta836, icon_map2_svg_default;
+var meta860, icon_map2_svg_default;
 var init_icon_map2_svg = __esm({
   "lib/meta/icon_map2.svg.ts"() {
-    meta836 = {
+    meta860 = {
       description: "The map2 icon is an illustration representing a map with various landmarks, roads, and geographical details. It is commonly used in digital interfaces for wayfinding purposes, such as displaying locations, directions, and points of interest.",
       category: ["Wayfinding", "Interface"],
       tag: ["Map", "Landmarks", "Geographical", "Roads", "Directions", "Travel", "Navigation", "Points of Interest", "Location", "Explore"],
       title: "Map 2"
     };
-    icon_map2_svg_default = meta836;
+    icon_map2_svg_default = meta860;
   }
 });
 
@@ -38389,18 +39181,18 @@ var init_icon_map2_svg = __esm({
 var icon_map3_svg_exports = {};
 __export(icon_map3_svg_exports, {
   default: () => icon_map3_svg_default,
-  meta: () => meta837
+  meta: () => meta861
 });
-var meta837, icon_map3_svg_default;
+var meta861, icon_map3_svg_default;
 var init_icon_map3_svg = __esm({
   "lib/meta/icon_map3.svg.ts"() {
-    meta837 = {
+    meta861 = {
       description: "The map3 icon represents a wayfinding tool that helps users navigate through locations with ease. It is designed to provide detailed maps and directions for better orientation and travel planning.",
       category: ["Wayfinding", "Interface"],
       tag: ["navigation", "travel", "directions", "location", "exploration", "GPS", "routes", "pathfinding", "destination", "orientation"],
       title: "Map 3"
     };
-    icon_map3_svg_default = meta837;
+    icon_map3_svg_default = meta861;
   }
 });
 
@@ -38408,12 +39200,12 @@ var init_icon_map3_svg = __esm({
 var icon_metro_2_svg_exports = {};
 __export(icon_metro_2_svg_exports, {
   default: () => icon_metro_2_svg_default,
-  meta: () => meta838
+  meta: () => meta862
 });
-var meta838, icon_metro_2_svg_default;
+var meta862, icon_metro_2_svg_default;
 var init_icon_metro_2_svg = __esm({
   "lib/meta/icon_metro 2.svg.ts"() {
-    meta838 = {
+    meta862 = {
       "description": "Metro 2 wayfinding icon is a simple and modern symbol representing a metro or subway station. It can be used in various design projects related to transportation, maps, and navigation.",
       "category": [
         "Wayfinding"
@@ -38432,7 +39224,7 @@ var init_icon_metro_2_svg = __esm({
       ],
       "title": "Metro 2"
     };
-    icon_metro_2_svg_default = meta838;
+    icon_metro_2_svg_default = meta862;
   }
 });
 
@@ -38440,12 +39232,12 @@ var init_icon_metro_2_svg = __esm({
 var icon_metro_svg_exports = {};
 __export(icon_metro_svg_exports, {
   default: () => icon_metro_svg_default,
-  meta: () => meta839
+  meta: () => meta863
 });
-var meta839, icon_metro_svg_default;
+var meta863, icon_metro_svg_default;
 var init_icon_metro_svg = __esm({
   "lib/meta/icon_metro.svg.ts"() {
-    meta839 = {
+    meta863 = {
       "description": "The metro icon is commonly used in wayfinding systems to indicate or represent a subway or underground train station. It can be used in maps, signage, or digital interfaces to guide users towards public transportation options.",
       "category": [
         "Wayfinding",
@@ -38465,7 +39257,7 @@ var init_icon_metro_svg = __esm({
       ],
       "title": "Metro"
     };
-    icon_metro_svg_default = meta839;
+    icon_metro_svg_default = meta863;
   }
 });
 
@@ -38473,12 +39265,12 @@ var init_icon_metro_svg = __esm({
 var icon_no_smoking_circled_svg_exports = {};
 __export(icon_no_smoking_circled_svg_exports, {
   default: () => icon_no_smoking_circled_svg_default,
-  meta: () => meta840
+  meta: () => meta864
 });
-var meta840, icon_no_smoking_circled_svg_default;
+var meta864, icon_no_smoking_circled_svg_default;
 var init_icon_no_smoking_circled_svg = __esm({
   "lib/meta/icon_no-smoking-circled.svg.ts"() {
-    meta840 = {
+    meta864 = {
       "description": "A circular icon depicting a crossed-out cigarette, symbolizing a no-smoking area or policy.",
       "category": [
         "Wayfinding"
@@ -38496,7 +39288,7 @@ var init_icon_no_smoking_circled_svg = __esm({
       ],
       "title": "No Smoking Circled"
     };
-    icon_no_smoking_circled_svg_default = meta840;
+    icon_no_smoking_circled_svg_default = meta864;
   }
 });
 
@@ -38504,12 +39296,12 @@ var init_icon_no_smoking_circled_svg = __esm({
 var icon_no_smoking_svg_exports = {};
 __export(icon_no_smoking_svg_exports, {
   default: () => icon_no_smoking_svg_default,
-  meta: () => meta841
+  meta: () => meta865
 });
-var meta841, icon_no_smoking_svg_default;
+var meta865, icon_no_smoking_svg_default;
 var init_icon_no_smoking_svg = __esm({
   "lib/meta/icon_no-smoking.svg.ts"() {
-    meta841 = {
+    meta865 = {
       "description": "An icon depicting a cigarette surrounded by a red circle with a line through it, symbolizing a 'no-smoking' area or policy.",
       "category": [
         "Wayfinding"
@@ -38528,7 +39320,7 @@ var init_icon_no_smoking_svg = __esm({
       ],
       "title": "No Smoking"
     };
-    icon_no_smoking_svg_default = meta841;
+    icon_no_smoking_svg_default = meta865;
   }
 });
 
@@ -38536,18 +39328,18 @@ var init_icon_no_smoking_svg = __esm({
 var icon_office_space_svg_exports = {};
 __export(icon_office_space_svg_exports, {
   default: () => icon_office_space_svg_default,
-  meta: () => meta842
+  meta: () => meta866
 });
-var meta842, icon_office_space_svg_default;
+var meta866, icon_office_space_svg_default;
 var init_icon_office_space_svg = __esm({
   "lib/meta/icon_office-space.svg.ts"() {
-    meta842 = {
+    meta866 = {
       description: "The office-space icon is designed to represent a designated or common office area within a building. It can be used for wayfinding purposes to indicate the direction to office spaces, conference rooms, or workstations.",
       category: ["Wayfinding"],
       tag: ["office", "space", "building", "corporate", "workplace", "direction", "business", "interior", "facility", "room"],
       title: "Office Space"
     };
-    icon_office_space_svg_default = meta842;
+    icon_office_space_svg_default = meta866;
   }
 });
 
@@ -38555,12 +39347,12 @@ var init_icon_office_space_svg = __esm({
 var icon_palmtree_island_wave_svg_exports = {};
 __export(icon_palmtree_island_wave_svg_exports, {
   default: () => icon_palmtree_island_wave_svg_default,
-  meta: () => meta843
+  meta: () => meta867
 });
-var meta843, icon_palmtree_island_wave_svg_default;
+var meta867, icon_palmtree_island_wave_svg_default;
 var init_icon_palmtree_island_wave_svg = __esm({
   "lib/meta/icon_palmtree-island-wave.svg.ts"() {
-    meta843 = {
+    meta867 = {
       "description": "The icon depicts a tropical palm tree on an island with waves below, symbolizing a picturesque beach destination. It can be used for wayfinding purposes to indicate beach locations or tropical getaways.",
       "category": [
         "Wayfinding",
@@ -38580,7 +39372,7 @@ var init_icon_palmtree_island_wave_svg = __esm({
       ],
       "title": "Palm Tree Island Wave"
     };
-    icon_palmtree_island_wave_svg_default = meta843;
+    icon_palmtree_island_wave_svg_default = meta867;
   }
 });
 
@@ -38588,12 +39380,12 @@ var init_icon_palmtree_island_wave_svg = __esm({
 var icon_palmtree_island_svg_exports = {};
 __export(icon_palmtree_island_svg_exports, {
   default: () => icon_palmtree_island_svg_default,
-  meta: () => meta844
+  meta: () => meta868
 });
-var meta844, icon_palmtree_island_svg_default;
+var meta868, icon_palmtree_island_svg_default;
 var init_icon_palmtree_island_svg = __esm({
   "lib/meta/icon_palmtree-island.svg.ts"() {
-    meta844 = {
+    meta868 = {
       "description": "This icon depicts a tropical island with a single palm tree, often used as a symbol for island destinations or tropical getaways.",
       "category": [
         "Wayfinding"
@@ -38612,7 +39404,7 @@ var init_icon_palmtree_island_svg = __esm({
       ],
       "title": "Palmtree Island"
     };
-    icon_palmtree_island_svg_default = meta844;
+    icon_palmtree_island_svg_default = meta868;
   }
 });
 
@@ -38620,12 +39412,12 @@ var init_icon_palmtree_island_svg = __esm({
 var icon_palmtree_svg_exports = {};
 __export(icon_palmtree_svg_exports, {
   default: () => icon_palmtree_svg_default,
-  meta: () => meta845
+  meta: () => meta869
 });
-var meta845, icon_palmtree_svg_default;
+var meta869, icon_palmtree_svg_default;
 var init_icon_palmtree_svg = __esm({
   "lib/meta/icon_palmtree.svg.ts"() {
-    meta845 = {
+    meta869 = {
       "description": "The palmtree icon is a symbol commonly used for indicating tropical or exotic locations. It is often used in wayfinding signage to represent beaches, resorts, or vacation spots.",
       "category": [
         "Wayfinding",
@@ -38645,7 +39437,7 @@ var init_icon_palmtree_svg = __esm({
       ],
       "title": "Palm Tree"
     };
-    icon_palmtree_svg_default = meta845;
+    icon_palmtree_svg_default = meta869;
   }
 });
 
@@ -38653,12 +39445,12 @@ var init_icon_palmtree_svg = __esm({
 var icon_parasol_island_wave_svg_exports = {};
 __export(icon_parasol_island_wave_svg_exports, {
   default: () => icon_parasol_island_wave_svg_default,
-  meta: () => meta846
+  meta: () => meta870
 });
-var meta846, icon_parasol_island_wave_svg_default;
+var meta870, icon_parasol_island_wave_svg_default;
 var init_icon_parasol_island_wave_svg = __esm({
   "lib/meta/icon_parasol-island-wave.svg.ts"() {
-    meta846 = {
+    meta870 = {
       "description": "An icon of a parasol on an island with a wave in the background, representing a scenic wayfinding symbol for beaches or vacation spots.",
       "category": [
         "Wayfinding",
@@ -38678,7 +39470,7 @@ var init_icon_parasol_island_wave_svg = __esm({
       ],
       "title": "Parasol Island Wave"
     };
-    icon_parasol_island_wave_svg_default = meta846;
+    icon_parasol_island_wave_svg_default = meta870;
   }
 });
 
@@ -38686,12 +39478,12 @@ var init_icon_parasol_island_wave_svg = __esm({
 var icon_parasol_island_svg_exports = {};
 __export(icon_parasol_island_svg_exports, {
   default: () => icon_parasol_island_svg_default,
-  meta: () => meta847
+  meta: () => meta871
 });
-var meta847, icon_parasol_island_svg_default;
+var meta871, icon_parasol_island_svg_default;
 var init_icon_parasol_island_svg = __esm({
   "lib/meta/icon_parasol-island.svg.ts"() {
-    meta847 = {
+    meta871 = {
       "description": "A colorful parasol on a sunny island symbolizing a relaxing and tropical destination for wayfinding purposes.",
       "category": [
         "Wayfinding",
@@ -38711,7 +39503,7 @@ var init_icon_parasol_island_svg = __esm({
       ],
       "title": "Parasol Island"
     };
-    icon_parasol_island_svg_default = meta847;
+    icon_parasol_island_svg_default = meta871;
   }
 });
 
@@ -38719,12 +39511,12 @@ var init_icon_parasol_island_svg = __esm({
 var icon_parasol_svg_exports = {};
 __export(icon_parasol_svg_exports, {
   default: () => icon_parasol_svg_default,
-  meta: () => meta848
+  meta: () => meta872
 });
-var meta848, icon_parasol_svg_default;
+var meta872, icon_parasol_svg_default;
 var init_icon_parasol_svg = __esm({
   "lib/meta/icon_parasol.svg.ts"() {
-    meta848 = {
+    meta872 = {
       "description": "A parasol icon typically represents shade from the sun or protection from light rain. It is commonly used in navigation and wayfinding applications to indicate an area where parasols are available.",
       "category": [
         "Wayfinding"
@@ -38743,7 +39535,7 @@ var init_icon_parasol_svg = __esm({
       ],
       "title": "Parasol"
     };
-    icon_parasol_svg_default = meta848;
+    icon_parasol_svg_default = meta872;
   }
 });
 
@@ -38751,12 +39543,12 @@ var init_icon_parasol_svg = __esm({
 var icon_plaster_svg_exports = {};
 __export(icon_plaster_svg_exports, {
   default: () => icon_plaster_svg_default,
-  meta: () => meta849
+  meta: () => meta873
 });
-var meta849, icon_plaster_svg_default;
+var meta873, icon_plaster_svg_default;
 var init_icon_plaster_svg = __esm({
   "lib/meta/icon_plaster.svg.ts"() {
-    meta849 = {
+    meta873 = {
       "description": "A plaster icon typically represents first aid or medical facilities in a wayfinding system. It can also symbolize healing and care.",
       "category": [
         "Wayfinding"
@@ -38775,7 +39567,7 @@ var init_icon_plaster_svg = __esm({
       ],
       "title": "Plaster"
     };
-    icon_plaster_svg_default = meta849;
+    icon_plaster_svg_default = meta873;
   }
 });
 
@@ -38783,12 +39575,12 @@ var init_icon_plaster_svg = __esm({
 var icon_plasters_svg_exports = {};
 __export(icon_plasters_svg_exports, {
   default: () => icon_plasters_svg_default,
-  meta: () => meta850
+  meta: () => meta874
 });
-var meta850, icon_plasters_svg_default;
+var meta874, icon_plasters_svg_default;
 var init_icon_plasters_svg = __esm({
   "lib/meta/icon_plasters.svg.ts"() {
-    meta850 = {
+    meta874 = {
       "description": "The icon depicts plasters or bandages, typically used for first aid purposes. It can be used to indicate locations of first aid stations, medical facilities, or areas where first aid supplies are available.",
       "category": [
         "Wayfinding",
@@ -38807,7 +39599,7 @@ var init_icon_plasters_svg = __esm({
       ],
       "title": "Plasters"
     };
-    icon_plasters_svg_default = meta850;
+    icon_plasters_svg_default = meta874;
   }
 });
 
@@ -38815,12 +39607,12 @@ var init_icon_plasters_svg = __esm({
 var icon_pointer_target_svg_exports = {};
 __export(icon_pointer_target_svg_exports, {
   default: () => icon_pointer_target_svg_default,
-  meta: () => meta851
+  meta: () => meta875
 });
-var meta851, icon_pointer_target_svg_default;
+var meta875, icon_pointer_target_svg_default;
 var init_icon_pointer_target_svg = __esm({
   "lib/meta/icon_pointer-target.svg.ts"() {
-    meta851 = {
+    meta875 = {
       "description": "A pointer targeting an object, indicating selection or interaction. Used in user interfaces to highlight specific items for user actions.",
       "category": [
         "Interface"
@@ -38839,7 +39631,7 @@ var init_icon_pointer_target_svg = __esm({
       ],
       "title": "Pointer Target"
     };
-    icon_pointer_target_svg_default = meta851;
+    icon_pointer_target_svg_default = meta875;
   }
 });
 
@@ -38847,12 +39639,12 @@ var init_icon_pointer_target_svg = __esm({
 var icon_rental_car_svg_exports = {};
 __export(icon_rental_car_svg_exports, {
   default: () => icon_rental_car_svg_default,
-  meta: () => meta852
+  meta: () => meta876
 });
-var meta852, icon_rental_car_svg_default;
+var meta876, icon_rental_car_svg_default;
 var init_icon_rental_car_svg = __esm({
   "lib/meta/icon_rental-car.svg.ts"() {
-    meta852 = {
+    meta876 = {
       "description": "The rental-car icon represents a means of transportation that can be hired temporarily for use by individuals or groups. It is commonly used to indicate car rental services or locations.",
       "category": [
         "Transport"
@@ -38870,7 +39662,7 @@ var init_icon_rental_car_svg = __esm({
       ],
       "title": "Rental Car"
     };
-    icon_rental_car_svg_default = meta852;
+    icon_rental_car_svg_default = meta876;
   }
 });
 
@@ -38878,18 +39670,18 @@ var init_icon_rental_car_svg = __esm({
 var icon_restroom_svg_exports = {};
 __export(icon_restroom_svg_exports, {
   default: () => icon_restroom_svg_default,
-  meta: () => meta853
+  meta: () => meta877
 });
-var meta853, icon_restroom_svg_default;
+var meta877, icon_restroom_svg_default;
 var init_icon_restroom_svg = __esm({
   "lib/meta/icon_restroom.svg.ts"() {
-    meta853 = {
+    meta877 = {
       description: "The restroom icon is commonly used for indicating the location of bathrooms or toilets. It features a universal symbol of a human figure with legs standing in front of a toilet bowl.",
       category: ["Wayfinding"],
       tag: ["Bathroom", "Toilet", "Washroom", "Restroom sign", "Public facility", "Navigation", "Hygiene", "Sanitation", "Gender-neutral restroom", "Restroom icon"],
       title: "Restroom"
     };
-    icon_restroom_svg_default = meta853;
+    icon_restroom_svg_default = meta877;
   }
 });
 
@@ -38897,12 +39689,12 @@ var init_icon_restroom_svg = __esm({
 var icon_security_camera_2_svg_exports = {};
 __export(icon_security_camera_2_svg_exports, {
   default: () => icon_security_camera_2_svg_default,
-  meta: () => meta854
+  meta: () => meta878
 });
-var meta854, icon_security_camera_2_svg_default;
+var meta878, icon_security_camera_2_svg_default;
 var init_icon_security_camera_2_svg = __esm({
   "lib/meta/icon_security camera 2.svg.ts"() {
-    meta854 = {
+    meta878 = {
       "description": "This icon represents a security camera used for surveillance purposes. It can be used in signs or maps to indicate the location of security cameras.",
       "category": [
         "Wayfinding"
@@ -38921,7 +39713,7 @@ var init_icon_security_camera_2_svg = __esm({
       ],
       "title": "Security Camera 2"
     };
-    icon_security_camera_2_svg_default = meta854;
+    icon_security_camera_2_svg_default = meta878;
   }
 });
 
@@ -38929,12 +39721,12 @@ var init_icon_security_camera_2_svg = __esm({
 var icon_security_camera_3_svg_exports = {};
 __export(icon_security_camera_3_svg_exports, {
   default: () => icon_security_camera_3_svg_default,
-  meta: () => meta855
+  meta: () => meta879
 });
-var meta855, icon_security_camera_3_svg_default;
+var meta879, icon_security_camera_3_svg_default;
 var init_icon_security_camera_3_svg = __esm({
   "lib/meta/icon_security camera 3.svg.ts"() {
-    meta855 = {
+    meta879 = {
       "description": "The security camera 3 icon is a symbol commonly used for indicating the presence of a surveillance camera in a specific location. It is often used in wayfinding systems to help guide individuals towards areas monitored by security cameras.",
       "category": [
         "Symbol"
@@ -38953,7 +39745,7 @@ var init_icon_security_camera_3_svg = __esm({
       ],
       "title": "Security Camera 3"
     };
-    icon_security_camera_3_svg_default = meta855;
+    icon_security_camera_3_svg_default = meta879;
   }
 });
 
@@ -38961,12 +39753,12 @@ var init_icon_security_camera_3_svg = __esm({
 var icon_security_camera_svg_exports = {};
 __export(icon_security_camera_svg_exports, {
   default: () => icon_security_camera_svg_default,
-  meta: () => meta856
+  meta: () => meta880
 });
-var meta856, icon_security_camera_svg_default;
+var meta880, icon_security_camera_svg_default;
 var init_icon_security_camera_svg = __esm({
   "lib/meta/icon_security camera.svg.ts"() {
-    meta856 = {
+    meta880 = {
       "description": "A security camera icon typically represents surveillance and monitoring. It is commonly used in signage to indicate the presence of CCTV cameras for security purposes.",
       "category": [
         "Wayfinding"
@@ -38985,7 +39777,7 @@ var init_icon_security_camera_svg = __esm({
       ],
       "title": "Security Camera"
     };
-    icon_security_camera_svg_default = meta856;
+    icon_security_camera_svg_default = meta880;
   }
 });
 
@@ -38993,18 +39785,18 @@ var init_icon_security_camera_svg = __esm({
 var icon_security_check_svg_exports = {};
 __export(icon_security_check_svg_exports, {
   default: () => icon_security_check_svg_default,
-  meta: () => meta857
+  meta: () => meta881
 });
-var meta857, icon_security_check_svg_default;
+var meta881, icon_security_check_svg_default;
 var init_icon_security_check_svg = __esm({
   "lib/meta/icon_security-check.svg.ts"() {
-    meta857 = {
+    meta881 = {
       description: "The security-check icon is typically used to indicate a checkpoint or verification process for security purposes. It is commonly used in navigation systems to guide users to a secure area or to alert them about security measures in place.",
       category: ["Wayfinding"],
       tag: ["checkpoint", "verification", "security measures", "access control", "authorization", "identification", "secure area", "validation", "entry point", "approval"],
       title: "Security Check"
     };
-    icon_security_check_svg_default = meta857;
+    icon_security_check_svg_default = meta881;
   }
 });
 
@@ -39012,12 +39804,12 @@ var init_icon_security_check_svg = __esm({
 var icon_ship_svg_exports = {};
 __export(icon_ship_svg_exports, {
   default: () => icon_ship_svg_default,
-  meta: () => meta858
+  meta: () => meta882
 });
-var meta858, icon_ship_svg_default;
+var meta882, icon_ship_svg_default;
 var init_icon_ship_svg = __esm({
   "lib/meta/icon_ship.svg.ts"() {
-    meta858 = {
+    meta882 = {
       "description": "An icon of a ship, typically used to represent transportation by sea or waterway. It can also symbolize travel, exploration, and adventure.",
       "category": [
         "Transport"
@@ -39036,7 +39828,7 @@ var init_icon_ship_svg = __esm({
       ],
       "title": "Ship"
     };
-    icon_ship_svg_default = meta858;
+    icon_ship_svg_default = meta882;
   }
 });
 
@@ -39044,12 +39836,12 @@ var init_icon_ship_svg = __esm({
 var icon_signpost_2_svg_exports = {};
 __export(icon_signpost_2_svg_exports, {
   default: () => icon_signpost_2_svg_default,
-  meta: () => meta859
+  meta: () => meta883
 });
-var meta859, icon_signpost_2_svg_default;
+var meta883, icon_signpost_2_svg_default;
 var init_icon_signpost_2_svg = __esm({
   "lib/meta/icon_signpost-2.svg.ts"() {
-    meta859 = {
+    meta883 = {
       "description": "A signpost icon designed to help users navigate and find directions in a physical space. It typically includes multiple arrows pointing towards different destinations or areas.",
       "category": [
         "Wayfinding",
@@ -39069,7 +39861,7 @@ var init_icon_signpost_2_svg = __esm({
       ],
       "title": "Signpost 2"
     };
-    icon_signpost_2_svg_default = meta859;
+    icon_signpost_2_svg_default = meta883;
   }
 });
 
@@ -39077,12 +39869,12 @@ var init_icon_signpost_2_svg = __esm({
 var icon_signpost_svg_exports = {};
 __export(icon_signpost_svg_exports, {
   default: () => icon_signpost_svg_default,
-  meta: () => meta860
+  meta: () => meta884
 });
-var meta860, icon_signpost_svg_default;
+var meta884, icon_signpost_svg_default;
 var init_icon_signpost_svg = __esm({
   "lib/meta/icon_signpost.svg.ts"() {
-    meta860 = {
+    meta884 = {
       "description": "A signpost icon typically includes a tall post with multiple rectangular or arrow-shaped signs attached, pointing in different directions. It is commonly used to provide directions or information about nearby locations.",
       "category": [
         "Wayfinding"
@@ -39101,7 +39893,7 @@ var init_icon_signpost_svg = __esm({
       ],
       "title": "Signpost"
     };
-    icon_signpost_svg_default = meta860;
+    icon_signpost_svg_default = meta884;
   }
 });
 
@@ -39109,12 +39901,12 @@ var init_icon_signpost_svg = __esm({
 var icon_smoking_svg_exports = {};
 __export(icon_smoking_svg_exports, {
   default: () => icon_smoking_svg_default,
-  meta: () => meta861
+  meta: () => meta885
 });
-var meta861, icon_smoking_svg_default;
+var meta885, icon_smoking_svg_default;
 var init_icon_smoking_svg = __esm({
   "lib/meta/icon_smoking.svg.ts"() {
-    meta861 = {
+    meta885 = {
       "description": "An icon representing a designated smoking area, typically used in public spaces to help people locate where smoking is allowed.",
       "category": [
         "Wayfinding"
@@ -39132,7 +39924,7 @@ var init_icon_smoking_svg = __esm({
       ],
       "title": "Smoking"
     };
-    icon_smoking_svg_default = meta861;
+    icon_smoking_svg_default = meta885;
   }
 });
 
@@ -39140,12 +39932,12 @@ var init_icon_smoking_svg = __esm({
 var icon_stairs_down_svg_exports = {};
 __export(icon_stairs_down_svg_exports, {
   default: () => icon_stairs_down_svg_default,
-  meta: () => meta862
+  meta: () => meta886
 });
-var meta862, icon_stairs_down_svg_default;
+var meta886, icon_stairs_down_svg_default;
 var init_icon_stairs_down_svg = __esm({
   "lib/meta/icon_stairs-down.svg.ts"() {
-    meta862 = {
+    meta886 = {
       "description": "An icon representing a set of stairs going downward, commonly used for wayfinding purposes to indicate a lower floor or basement level.",
       "category": [
         "Wayfinding"
@@ -39164,7 +39956,7 @@ var init_icon_stairs_down_svg = __esm({
       ],
       "title": "Stairs Down"
     };
-    icon_stairs_down_svg_default = meta862;
+    icon_stairs_down_svg_default = meta886;
   }
 });
 
@@ -39172,12 +39964,12 @@ var init_icon_stairs_down_svg = __esm({
 var icon_stairs_up_svg_exports = {};
 __export(icon_stairs_up_svg_exports, {
   default: () => icon_stairs_up_svg_default,
-  meta: () => meta863
+  meta: () => meta887
 });
-var meta863, icon_stairs_up_svg_default;
+var meta887, icon_stairs_up_svg_default;
 var init_icon_stairs_up_svg = __esm({
   "lib/meta/icon_stairs-up.svg.ts"() {
-    meta863 = {
+    meta887 = {
       "description": "This icon represents a set of stairs going upwards. It is commonly used in wayfinding systems to indicate the direction of ascending stairs or a staircase leading to a higher level.",
       "category": [
         "Wayfinding"
@@ -39196,7 +39988,7 @@ var init_icon_stairs_up_svg = __esm({
       ],
       "title": "Stairs Up"
     };
-    icon_stairs_up_svg_default = meta863;
+    icon_stairs_up_svg_default = meta887;
   }
 });
 
@@ -39204,12 +39996,12 @@ var init_icon_stairs_up_svg = __esm({
 var icon_stairs_svg_exports = {};
 __export(icon_stairs_svg_exports, {
   default: () => icon_stairs_svg_default,
-  meta: () => meta864
+  meta: () => meta888
 });
-var meta864, icon_stairs_svg_default;
+var meta888, icon_stairs_svg_default;
 var init_icon_stairs_svg = __esm({
   "lib/meta/icon_stairs.svg.ts"() {
-    meta864 = {
+    meta888 = {
       "description": "The icon depicting a set of stairs, commonly used for wayfinding purposes to indicate the presence of stairs or a staircase in a building or public space.",
       "category": [
         "Wayfinding"
@@ -39228,7 +40020,7 @@ var init_icon_stairs_svg = __esm({
       ],
       "title": "Stairs"
     };
-    icon_stairs_svg_default = meta864;
+    icon_stairs_svg_default = meta888;
   }
 });
 
@@ -39236,18 +40028,18 @@ var init_icon_stairs_svg = __esm({
 var icon_taxi_stop_svg_exports = {};
 __export(icon_taxi_stop_svg_exports, {
   default: () => icon_taxi_stop_svg_default,
-  meta: () => meta865
+  meta: () => meta889
 });
-var meta865, icon_taxi_stop_svg_default;
+var meta889, icon_taxi_stop_svg_default;
 var init_icon_taxi_stop_svg = __esm({
   "lib/meta/icon_taxi-stop.svg.ts"() {
-    meta865 = {
+    meta889 = {
       description: "The icon depicts a designated stop area for taxis. It is commonly used in signage or maps to indicate where taxis can pick up or drop off passengers.",
       category: ["Wayfinding", "Transport"],
       tag: ["taxi stop", "transportation", "pick up point", "public transportation", "traffic", "navigation", "signage", "map icon", "urban travel", "city life"],
       title: "Taxi Stop"
     };
-    icon_taxi_stop_svg_default = meta865;
+    icon_taxi_stop_svg_default = meta889;
   }
 });
 
@@ -39255,12 +40047,12 @@ var init_icon_taxi_stop_svg = __esm({
 var icon_taxi_svg_exports = {};
 __export(icon_taxi_svg_exports, {
   default: () => icon_taxi_svg_default,
-  meta: () => meta866
+  meta: () => meta890
 });
-var meta866, icon_taxi_svg_default;
+var meta890, icon_taxi_svg_default;
 var init_icon_taxi_svg = __esm({
   "lib/meta/icon_taxi.svg.ts"() {
-    meta866 = {
+    meta890 = {
       "description": "The taxi icon represents transportation services where customers can hire a vehicle to travel from one location to another. It is commonly used to indicate the presence of a taxi stand or service in the area.",
       "category": [
         "Transport",
@@ -39280,7 +40072,7 @@ var init_icon_taxi_svg = __esm({
       ],
       "title": "Taxi"
     };
-    icon_taxi_svg_default = meta866;
+    icon_taxi_svg_default = meta890;
   }
 });
 
@@ -39288,12 +40080,12 @@ var init_icon_taxi_svg = __esm({
 var icon_train_track_svg_exports = {};
 __export(icon_train_track_svg_exports, {
   default: () => icon_train_track_svg_default,
-  meta: () => meta867
+  meta: () => meta891
 });
-var meta867, icon_train_track_svg_default;
+var meta891, icon_train_track_svg_default;
 var init_icon_train_track_svg = __esm({
   "lib/meta/icon_train-track.svg.ts"() {
-    meta867 = {
+    meta891 = {
       "description": "The train-track icon is a wayfinding symbol that represents a railway track for trains. It is commonly used in signage and maps to indicate the presence of a railroad or train route.",
       "category": [
         "Wayfinding",
@@ -39313,7 +40105,7 @@ var init_icon_train_track_svg = __esm({
       ],
       "title": "Train Track"
     };
-    icon_train_track_svg_default = meta867;
+    icon_train_track_svg_default = meta891;
   }
 });
 
@@ -39321,12 +40113,12 @@ var init_icon_train_track_svg = __esm({
 var icon_train_svg_exports = {};
 __export(icon_train_svg_exports, {
   default: () => icon_train_svg_default,
-  meta: () => meta868
+  meta: () => meta892
 });
-var meta868, icon_train_svg_default;
+var meta892, icon_train_svg_default;
 var init_icon_train_svg = __esm({
   "lib/meta/icon_train.svg.ts"() {
-    meta868 = {
+    meta892 = {
       "description": "A symbolic representation of a train, typically used in signage for indicating directions to a train station or platform.",
       "category": [
         "Wayfinding",
@@ -39346,7 +40138,7 @@ var init_icon_train_svg = __esm({
       ],
       "title": "Train"
     };
-    icon_train_svg_default = meta868;
+    icon_train_svg_default = meta892;
   }
 });
 
@@ -39354,18 +40146,18 @@ var init_icon_train_svg = __esm({
 var icon_walking_2_svg_exports = {};
 __export(icon_walking_2_svg_exports, {
   default: () => icon_walking_2_svg_default,
-  meta: () => meta869
+  meta: () => meta893
 });
-var meta869, icon_walking_2_svg_default;
+var meta893, icon_walking_2_svg_default;
 var init_icon_walking_2_svg = __esm({
   "lib/meta/icon_walking 2.svg.ts"() {
-    meta869 = {
+    meta893 = {
       description: "A walking person icon designed to indicate a wayfinding or pedestrian activity. The icon features a figure of a person in motion, representing walking or moving forward.",
       category: ["Wayfinding"],
       tag: ["Walking", "Hiking", "Pedestrian", "Direction", "Movement", "Travel", "People", "Navigation", "Path", "Journey"],
       title: "Walking 2"
     };
-    icon_walking_2_svg_default = meta869;
+    icon_walking_2_svg_default = meta893;
   }
 });
 
@@ -39373,18 +40165,18 @@ var init_icon_walking_2_svg = __esm({
 var icon_walking_svg_exports = {};
 __export(icon_walking_svg_exports, {
   default: () => icon_walking_svg_default,
-  meta: () => meta870
+  meta: () => meta894
 });
-var meta870, icon_walking_svg_default;
+var meta894, icon_walking_svg_default;
 var init_icon_walking_svg = __esm({
   "lib/meta/icon_walking.svg.ts"() {
-    meta870 = {
+    meta894 = {
       description: "The icon depicts a human figure walking, symbolizing the act of walking or wayfinding. It can be used to represent pedestrian routes, walking paths, or physical activity.",
       category: ["Transport", "Interface", "Symbol"],
       tag: ["walking", "pedestrian", "path", "wayfinding", "activity", "exercise", "direction", "navigation", "movement", "journey"],
       title: "Walking"
     };
-    icon_walking_svg_default = meta870;
+    icon_walking_svg_default = meta894;
   }
 });
 
@@ -39392,12 +40184,12 @@ var init_icon_walking_svg = __esm({
 var icon_cloud_lightning_svg_exports = {};
 __export(icon_cloud_lightning_svg_exports, {
   default: () => icon_cloud_lightning_svg_default,
-  meta: () => meta871
+  meta: () => meta895
 });
-var meta871, icon_cloud_lightning_svg_default;
+var meta895, icon_cloud_lightning_svg_default;
 var init_icon_cloud_lightning_svg = __esm({
   "lib/meta/icon_cloud-lightning.svg.ts"() {
-    meta871 = {
+    meta895 = {
       "description": "The cloud-lightning icon represents a combination of a cloud and a lightning bolt, symbolizing a storm or thunderstorm. It is commonly used in weather-related interfaces or applications to indicate thunderstorms.",
       "category": [
         "Weather",
@@ -39417,7 +40209,7 @@ var init_icon_cloud_lightning_svg = __esm({
       ],
       "title": "Cloud Lightning"
     };
-    icon_cloud_lightning_svg_default = meta871;
+    icon_cloud_lightning_svg_default = meta895;
   }
 });
 
@@ -39425,18 +40217,18 @@ var init_icon_cloud_lightning_svg = __esm({
 var icon_cloud_rain_2_svg_exports = {};
 __export(icon_cloud_rain_2_svg_exports, {
   default: () => icon_cloud_rain_2_svg_default,
-  meta: () => meta872
+  meta: () => meta896
 });
-var meta872, icon_cloud_rain_2_svg_default;
+var meta896, icon_cloud_rain_2_svg_default;
 var init_icon_cloud_rain_2_svg = __esm({
   "lib/meta/icon_cloud-rain 2.svg.ts"() {
-    meta872 = {
+    meta896 = {
       description: "Cloud with rain icon, representing rainy weather conditions. The raindrops falling from the cloud indicate precipitation.",
       category: ["Weather"],
       tag: ["cloud", "rain", "weather", "precipitation", "meteorology", "rainy day", "storm", "climate", "forecast", "nature"],
       title: "Cloud Rain 2"
     };
-    icon_cloud_rain_2_svg_default = meta872;
+    icon_cloud_rain_2_svg_default = meta896;
   }
 });
 
@@ -39444,12 +40236,12 @@ var init_icon_cloud_rain_2_svg = __esm({
 var icon_cloud_small_rain_svg_exports = {};
 __export(icon_cloud_small_rain_svg_exports, {
   default: () => icon_cloud_small_rain_svg_default,
-  meta: () => meta873
+  meta: () => meta897
 });
-var meta873, icon_cloud_small_rain_svg_default;
+var meta897, icon_cloud_small_rain_svg_default;
 var init_icon_cloud_small_rain_svg = __esm({
   "lib/meta/icon_cloud-small-rain.svg.ts"() {
-    meta873 = {
+    meta897 = {
       "description": "A small cloud with rain droplets falling from it, indicating rainy weather. This icon is commonly used in user interfaces to represent rainy or cloudy conditions.",
       "category": [
         "Weather",
@@ -39469,7 +40261,7 @@ var init_icon_cloud_small_rain_svg = __esm({
       ],
       "title": "Cloud Small Rain"
     };
-    icon_cloud_small_rain_svg_default = meta873;
+    icon_cloud_small_rain_svg_default = meta897;
   }
 });
 
@@ -39477,12 +40269,12 @@ var init_icon_cloud_small_rain_svg = __esm({
 var icon_cloud_sun_svg_exports = {};
 __export(icon_cloud_sun_svg_exports, {
   default: () => icon_cloud_sun_svg_default,
-  meta: () => meta874
+  meta: () => meta898
 });
-var meta874, icon_cloud_sun_svg_default;
+var meta898, icon_cloud_sun_svg_default;
 var init_icon_cloud_sun_svg = __esm({
   "lib/meta/icon_cloud-sun.svg.ts"() {
-    meta874 = {
+    meta898 = {
       "description": "The cloud-sun icon represents a weather condition where the sun is partially covered by clouds. It is commonly used in weather forecast applications or interfaces to indicate partly cloudy conditions.",
       "category": [
         "Weather",
@@ -39502,7 +40294,7 @@ var init_icon_cloud_sun_svg = __esm({
       ],
       "title": "Cloud Sun"
     };
-    icon_cloud_sun_svg_default = meta874;
+    icon_cloud_sun_svg_default = meta898;
   }
 });
 
@@ -39510,12 +40302,12 @@ var init_icon_cloud_sun_svg = __esm({
 var icon_cloud_thermometer_svg_exports = {};
 __export(icon_cloud_thermometer_svg_exports, {
   default: () => icon_cloud_thermometer_svg_default,
-  meta: () => meta875
+  meta: () => meta899
 });
-var meta875, icon_cloud_thermometer_svg_default;
+var meta899, icon_cloud_thermometer_svg_default;
 var init_icon_cloud_thermometer_svg = __esm({
   "lib/meta/icon_cloud-thermometer.svg.ts"() {
-    meta875 = {
+    meta899 = {
       "description": "The cloud-thermometer icon is a symbol of weather indicating temperature. It combines a cloud and a thermometer, typically used to represent weather applications and forecasts.",
       "category": [
         "Weather",
@@ -39535,7 +40327,7 @@ var init_icon_cloud_thermometer_svg = __esm({
       ],
       "title": "Cloud Thermometer"
     };
-    icon_cloud_thermometer_svg_default = meta875;
+    icon_cloud_thermometer_svg_default = meta899;
   }
 });
 
@@ -39543,12 +40335,12 @@ var init_icon_cloud_thermometer_svg = __esm({
 var icon_cloud_svg_exports = {};
 __export(icon_cloud_svg_exports, {
   default: () => icon_cloud_svg_default,
-  meta: () => meta876
+  meta: () => meta900
 });
-var meta876, icon_cloud_svg_default;
+var meta900, icon_cloud_svg_default;
 var init_icon_cloud_svg = __esm({
   "lib/meta/icon_cloud.svg.ts"() {
-    meta876 = {
+    meta900 = {
       "description": "A cloud icon typically seen representing cloud computing, internet, or weather-related concepts.",
       "category": [
         "Interface",
@@ -39568,7 +40360,7 @@ var init_icon_cloud_svg = __esm({
       ],
       "title": "Cloud"
     };
-    icon_cloud_svg_default = meta876;
+    icon_cloud_svg_default = meta900;
   }
 });
 
@@ -39576,18 +40368,18 @@ var init_icon_cloud_svg = __esm({
 var icon_light_dark_mode_2_svg_exports = {};
 __export(icon_light_dark_mode_2_svg_exports, {
   default: () => icon_light_dark_mode_2_svg_default,
-  meta: () => meta877
+  meta: () => meta901
 });
-var meta877, icon_light_dark_mode_2_svg_default;
+var meta901, icon_light_dark_mode_2_svg_default;
 var init_icon_light_dark_mode_2_svg = __esm({
   "lib/meta/icon_light-dark-mode-2.svg.ts"() {
-    meta877 = {
+    meta901 = {
       description: "The light-dark-mode-2 icon represents a switch or toggle button that allows users to switch between light mode and dark mode in weather-related applications or websites.",
       category: ["Interface", "Weather"],
       tag: ["light mode", "dark mode", "toggle", "switch", "design", "user interface", "weather app", "website", "weather"],
       title: "Light Dark Mode 2"
     };
-    icon_light_dark_mode_2_svg_default = meta877;
+    icon_light_dark_mode_2_svg_default = meta901;
   }
 });
 
@@ -39595,18 +40387,18 @@ var init_icon_light_dark_mode_2_svg = __esm({
 var icon_light_dark_mode_3_svg_exports = {};
 __export(icon_light_dark_mode_3_svg_exports, {
   default: () => icon_light_dark_mode_3_svg_default,
-  meta: () => meta878
+  meta: () => meta902
 });
-var meta878, icon_light_dark_mode_3_svg_default;
+var meta902, icon_light_dark_mode_3_svg_default;
 var init_icon_light_dark_mode_3_svg = __esm({
   "lib/meta/icon_light-dark-mode-3.svg.ts"() {
-    meta878 = {
+    meta902 = {
       description: "A weather icon representing a light and dark mode option with three variations. The icon can be used to switch between different modes in a weather application or website.",
       category: ["Weather", "Interface"],
       tag: ["light", "dark", "mode", "switch", "variation", "weather app", "weather website", "UI", "user interface", "control"],
       title: "Light Dark Mode 3"
     };
-    icon_light_dark_mode_3_svg_default = meta878;
+    icon_light_dark_mode_3_svg_default = meta902;
   }
 });
 
@@ -39614,12 +40406,12 @@ var init_icon_light_dark_mode_3_svg = __esm({
 var icon_lightning_flash_svg_exports = {};
 __export(icon_lightning_flash_svg_exports, {
   default: () => icon_lightning_flash_svg_default,
-  meta: () => meta879
+  meta: () => meta903
 });
-var meta879, icon_lightning_flash_svg_default;
+var meta903, icon_lightning_flash_svg_default;
 var init_icon_lightning_flash_svg = __esm({
   "lib/meta/icon_lightning-flash.svg.ts"() {
-    meta879 = {
+    meta903 = {
       "description": "A lightning flash icon representing quick action or high energy. Can be used in user interface design to indicate speed or power.",
       "category": [
         "Interface",
@@ -39639,7 +40431,7 @@ var init_icon_lightning_flash_svg = __esm({
       ],
       "title": "Lightning Flash"
     };
-    icon_lightning_flash_svg_default = meta879;
+    icon_lightning_flash_svg_default = meta903;
   }
 });
 
@@ -39647,18 +40439,18 @@ var init_icon_lightning_flash_svg = __esm({
 var icon_moon_01_svg_exports = {};
 __export(icon_moon_01_svg_exports, {
   default: () => icon_moon_01_svg_default,
-  meta: () => meta880
+  meta: () => meta904
 });
-var meta880, icon_moon_01_svg_default;
+var meta904, icon_moon_01_svg_default;
 var init_icon_moon_01_svg = __esm({
   "lib/meta/icon_moon-01.svg.ts"() {
-    meta880 = {
+    meta904 = {
       description: "Icon of a crescent moon representing nighttime and the weather condition of clear skies. Can be used to symbolize nighttime, sleep, dreams, or weather forecasts.",
       category: ["Weather"],
       tag: ["moon", "nighttime", "clear skies", "sleep", "dreams", "weather forecast", "night", "crescent moon", "lunar", "astronomy"],
       title: "Moon 01"
     };
-    icon_moon_01_svg_default = meta880;
+    icon_moon_01_svg_default = meta904;
   }
 });
 
@@ -39666,18 +40458,18 @@ var init_icon_moon_01_svg = __esm({
 var icon_moon_19_svg_exports = {};
 __export(icon_moon_19_svg_exports, {
   default: () => icon_moon_19_svg_default,
-  meta: () => meta881
+  meta: () => meta905
 });
-var meta881, icon_moon_19_svg_default;
+var meta905, icon_moon_19_svg_default;
 var init_icon_moon_19_svg = __esm({
   "lib/meta/icon_moon-19.svg.ts"() {
-    meta881 = {
+    meta905 = {
       description: "The icon represents a crescent moon, which is a common symbol used to indicate nighttime and the weather condition of clear skies. The moon-19 icon is part of a weather icon set.",
       category: ["Weather"],
       tag: ["nighttime", "sky", "clear", "weather", "moon", "crescent", "symbol", "forecast", "night", "lunar"],
       title: "Moon 19"
     };
-    icon_moon_19_svg_default = meta881;
+    icon_moon_19_svg_default = meta905;
   }
 });
 
@@ -39685,18 +40477,18 @@ var init_icon_moon_19_svg = __esm({
 var icon_moon_dark_mode_svg_exports = {};
 __export(icon_moon_dark_mode_svg_exports, {
   default: () => icon_moon_dark_mode_svg_default,
-  meta: () => meta882
+  meta: () => meta906
 });
-var meta882, icon_moon_dark_mode_svg_default;
+var meta906, icon_moon_dark_mode_svg_default;
 var init_icon_moon_dark_mode_svg = __esm({
   "lib/meta/icon_moon-dark-mode.svg.ts"() {
-    meta882 = {
+    meta906 = {
       description: "The dark mode icon for moon represents nighttime weather conditions. This icon is commonly used in weather apps and websites to indicate that it is currently nighttime or the sky is clear at night.",
       category: ["Weather"],
       tag: ["moon", "night", "sky", "dark mode", "weather app", "nighttime", "clear sky", "astronomy", "forecast", "icon"],
       title: "Moon Dark Mode"
     };
-    icon_moon_dark_mode_svg_default = meta882;
+    icon_moon_dark_mode_svg_default = meta906;
   }
 });
 
@@ -39704,12 +40496,12 @@ var init_icon_moon_dark_mode_svg = __esm({
 var icon_simple_sun_svg_exports = {};
 __export(icon_simple_sun_svg_exports, {
   default: () => icon_simple_sun_svg_default,
-  meta: () => meta883
+  meta: () => meta907
 });
-var meta883, icon_simple_sun_svg_default;
+var meta907, icon_simple_sun_svg_default;
 var init_icon_simple_sun_svg = __esm({
   "lib/meta/icon_simple-sun.svg.ts"() {
-    meta883 = {
+    meta907 = {
       "description": "The simple sun icon is a minimalist representation of a sun, featuring a circular shape with rays extending outwards. It is commonly used to indicate daylight, summer, warmth, and positivity.",
       "category": [
         "Weather",
@@ -39730,7 +40522,7 @@ var init_icon_simple_sun_svg = __esm({
       ],
       "title": "Simple Sun"
     };
-    icon_simple_sun_svg_default = meta883;
+    icon_simple_sun_svg_default = meta907;
   }
 });
 
@@ -39738,12 +40530,12 @@ var init_icon_simple_sun_svg = __esm({
 var icon_sun_2_svg_exports = {};
 __export(icon_sun_2_svg_exports, {
   default: () => icon_sun_2_svg_default,
-  meta: () => meta884
+  meta: () => meta908
 });
-var meta884, icon_sun_2_svg_default;
+var meta908, icon_sun_2_svg_default;
 var init_icon_sun_2_svg = __esm({
   "lib/meta/icon_sun 2.svg.ts"() {
-    meta884 = {
+    meta908 = {
       "description": "The icon 'Sun 2' depicts a stylized sun with rays emanating in all directions. This icon is commonly used to represent the sun, sunshine, weather, light, brightness, and energy in various design projects.",
       "category": [
         "Weather",
@@ -39764,7 +40556,7 @@ var init_icon_sun_2_svg = __esm({
       ],
       "title": "Sun 2"
     };
-    icon_sun_2_svg_default = meta884;
+    icon_sun_2_svg_default = meta908;
   }
 });
 
@@ -39772,18 +40564,18 @@ var init_icon_sun_2_svg = __esm({
 var icon_sun_light_mode_svg_exports = {};
 __export(icon_sun_light_mode_svg_exports, {
   default: () => icon_sun_light_mode_svg_default,
-  meta: () => meta885
+  meta: () => meta909
 });
-var meta885, icon_sun_light_mode_svg_default;
+var meta909, icon_sun_light_mode_svg_default;
 var init_icon_sun_light_mode_svg = __esm({
   "lib/meta/icon_sun-light-mode.svg.ts"() {
-    meta885 = {
+    meta909 = {
       description: "A bright and sunny icon representing sunny weather conditions in light mode, perfect for weather forecast applications and websites.",
       category: ["Weather", "Symbol"],
       tag: ["Sun", "Light mode", "Sunny", "Weather forecast", "Brightness", "Clear sky", "Daytime", "Climate", "Meteorology"],
       title: "Sun Light Mode"
     };
-    icon_sun_light_mode_svg_default = meta885;
+    icon_sun_light_mode_svg_default = meta909;
   }
 });
 
@@ -39791,12 +40583,12 @@ var init_icon_sun_light_mode_svg = __esm({
 var icon_sun_svg_exports = {};
 __export(icon_sun_svg_exports, {
   default: () => icon_sun_svg_default,
-  meta: () => meta886
+  meta: () => meta910
 });
-var meta886, icon_sun_svg_default;
+var meta910, icon_sun_svg_default;
 var init_icon_sun_svg = __esm({
   "lib/meta/icon_sun.svg.ts"() {
-    meta886 = {
+    meta910 = {
       "description": "The sun icon represents a bright, shining sun with rays radiating in all directions. It is often used to symbolize warmth, light, energy, or a sunny day.",
       "category": [
         "Weather",
@@ -39816,7 +40608,7 @@ var init_icon_sun_svg = __esm({
       ],
       "title": "Sun"
     };
-    icon_sun_svg_default = meta886;
+    icon_sun_svg_default = meta910;
   }
 });
 
@@ -39824,12 +40616,12 @@ var init_icon_sun_svg = __esm({
 var icon_thermometer_cold_svg_exports = {};
 __export(icon_thermometer_cold_svg_exports, {
   default: () => icon_thermometer_cold_svg_default,
-  meta: () => meta887
+  meta: () => meta911
 });
-var meta887, icon_thermometer_cold_svg_default;
+var meta911, icon_thermometer_cold_svg_default;
 var init_icon_thermometer_cold_svg = __esm({
   "lib/meta/icon_thermometer-cold.svg.ts"() {
-    meta887 = {
+    meta911 = {
       "description": "The 'Thermometer Cold' icon represents chilly weather or low temperature. It is typically used in user interfaces to indicate cold weather conditions.",
       "category": [
         "Interface",
@@ -39849,7 +40641,7 @@ var init_icon_thermometer_cold_svg = __esm({
       ],
       "title": "Thermometer Cold"
     };
-    icon_thermometer_cold_svg_default = meta887;
+    icon_thermometer_cold_svg_default = meta911;
   }
 });
 
@@ -39857,12 +40649,12 @@ var init_icon_thermometer_cold_svg = __esm({
 var icon_thermometer_hot_svg_exports = {};
 __export(icon_thermometer_hot_svg_exports, {
   default: () => icon_thermometer_hot_svg_default,
-  meta: () => meta888
+  meta: () => meta912
 });
-var meta888, icon_thermometer_hot_svg_default;
+var meta912, icon_thermometer_hot_svg_default;
 var init_icon_thermometer_hot_svg = __esm({
   "lib/meta/icon_thermometer-hot.svg.ts"() {
-    meta888 = {
+    meta912 = {
       "description": "An icon representing a hot thermometer, typically used to indicate high temperature or heat. It is commonly used in user interfaces to display weather information or climate settings.",
       "category": [
         "Interface",
@@ -39881,7 +40673,7 @@ var init_icon_thermometer_hot_svg = __esm({
       ],
       "title": "Thermometer Hot"
     };
-    icon_thermometer_hot_svg_default = meta888;
+    icon_thermometer_hot_svg_default = meta912;
   }
 });
 
@@ -39889,12 +40681,12 @@ var init_icon_thermometer_hot_svg = __esm({
 var icon_thermometer_svg_exports = {};
 __export(icon_thermometer_svg_exports, {
   default: () => icon_thermometer_svg_default,
-  meta: () => meta889
+  meta: () => meta913
 });
-var meta889, icon_thermometer_svg_default;
+var meta913, icon_thermometer_svg_default;
 var init_icon_thermometer_svg = __esm({
   "lib/meta/icon_thermometer.svg.ts"() {
-    meta889 = {
+    meta913 = {
       "description": "Thermometer icon typically represents temperature or weather related information. It is often used in user interfaces to indicate current temperature or weather conditions.",
       "category": [
         "Interface",
@@ -39914,7 +40706,7 @@ var init_icon_thermometer_svg = __esm({
       ],
       "title": "Thermometer"
     };
-    icon_thermometer_svg_default = meta889;
+    icon_thermometer_svg_default = meta913;
   }
 });
 
@@ -40062,6 +40854,30 @@ var BaseIcons = {
   ARROW_SHARE: "arrow-share",
   ARROW_SPREAD_SPLIT: "arrow-spread-split",
   ARROW_SPREAD: "arrow-spread",
+  ARROW_THICK_BOTTOM_LEFT: "arrow-thick-bottom-left",
+  ARROW_THICK_DOWN: "arrow-thick-down",
+  ARROW_THICK_LEFT_TOP: "arrow-thick-left-top",
+  ARROW_THICK_LEFT: "arrow-thick-left",
+  ARROW_THICK_RIGHT_BOTTOM: "arrow-thick-right-bottom",
+  ARROW_THICK_RIGHT: "arrow-thick-right",
+  ARROW_THICK_TALL_BOTTOM_LEFT: "arrow-thick-tall-bottom-left",
+  ARROW_THICK_TALL_DOWN: "arrow-thick-tall-down",
+  ARROW_THICK_TALL_LEFT_TOP: "arrow-thick-tall-left-top",
+  ARROW_THICK_TALL_LEFT: "arrow-thick-tall-left",
+  ARROW_THICK_TALL_RIGHT_BOTTOM: "arrow-thick-tall-right-bottom",
+  ARROW_THICK_TALL_RIGHT: "arrow-thick-tall-right",
+  ARROW_THICK_TALL_TOP_RIGHT: "arrow-thick-tall-top-right",
+  ARROW_THICK_TALL_UP: "arrow-thick-tall-up",
+  ARROW_THICK_TOP_RIGHT: "arrow-thick-top-right",
+  ARROW_THICK_UP: "arrow-thick-up",
+  ARROW_THICK_WIDE_BOTTOM_LEFT: "arrow-thick-wide-bottom-left",
+  ARROW_THICK_WIDE_DOWN: "arrow-thick-wide-down",
+  ARROW_THICK_WIDE_LEFT_TOP: "arrow-thick-wide-left-top",
+  ARROW_THICK_WIDE_LEFT: "arrow-thick-wide-left",
+  ARROW_THICK_WIDE_RIGHT_BOTTOM: "arrow-thick-wide-right-bottom",
+  ARROW_THICK_WIDE_RIGHT: "arrow-thick-wide-right",
+  ARROW_THICK_WIDE_TOP_RIGHT: "arrow-thick-wide-top-right",
+  ARROW_THICK_WIDE_UP: "arrow-thick-wide-up",
   ARROW_TRANSFER_BL_TR: "arrow-transfer-bl-tr",
   ARROW_TRANSFER_LEFT_RIGHT: "arrow-transfer-left-right",
   ARROW_TRANSFER_LT_BR: "arrow-transfer-lt-br",
@@ -41106,6 +41922,54 @@ var getIcon = async (icon) => {
       return (await Promise.resolve().then(() => (init_arrow_spread_split(), arrow_spread_split_exports))).IconArrowSpreadSplit;
     case Icons.ARROW_SPREAD:
       return (await Promise.resolve().then(() => (init_arrow_spread(), arrow_spread_exports))).IconArrowSpread;
+    case Icons.ARROW_THICK_BOTTOM_LEFT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_bottom_left(), arrow_thick_bottom_left_exports))).IconArrowThickBottomLeft;
+    case Icons.ARROW_THICK_DOWN:
+      return (await Promise.resolve().then(() => (init_arrow_thick_down(), arrow_thick_down_exports))).IconArrowThickDown;
+    case Icons.ARROW_THICK_LEFT_TOP:
+      return (await Promise.resolve().then(() => (init_arrow_thick_left_top(), arrow_thick_left_top_exports))).IconArrowThickLeftTop;
+    case Icons.ARROW_THICK_LEFT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_left(), arrow_thick_left_exports))).IconArrowThickLeft;
+    case Icons.ARROW_THICK_RIGHT_BOTTOM:
+      return (await Promise.resolve().then(() => (init_arrow_thick_right_bottom(), arrow_thick_right_bottom_exports))).IconArrowThickRightBottom;
+    case Icons.ARROW_THICK_RIGHT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_right(), arrow_thick_right_exports))).IconArrowThickRight;
+    case Icons.ARROW_THICK_TALL_BOTTOM_LEFT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_bottom_left(), arrow_thick_tall_bottom_left_exports))).IconArrowThickTallBottomLeft;
+    case Icons.ARROW_THICK_TALL_DOWN:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_down(), arrow_thick_tall_down_exports))).IconArrowThickTallDown;
+    case Icons.ARROW_THICK_TALL_LEFT_TOP:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_left_top(), arrow_thick_tall_left_top_exports))).IconArrowThickTallLeftTop;
+    case Icons.ARROW_THICK_TALL_LEFT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_left(), arrow_thick_tall_left_exports))).IconArrowThickTallLeft;
+    case Icons.ARROW_THICK_TALL_RIGHT_BOTTOM:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_right_bottom(), arrow_thick_tall_right_bottom_exports))).IconArrowThickTallRightBottom;
+    case Icons.ARROW_THICK_TALL_RIGHT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_right(), arrow_thick_tall_right_exports))).IconArrowThickTallRight;
+    case Icons.ARROW_THICK_TALL_TOP_RIGHT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_top_right(), arrow_thick_tall_top_right_exports))).IconArrowThickTallTopRight;
+    case Icons.ARROW_THICK_TALL_UP:
+      return (await Promise.resolve().then(() => (init_arrow_thick_tall_up(), arrow_thick_tall_up_exports))).IconArrowThickTallUp;
+    case Icons.ARROW_THICK_TOP_RIGHT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_top_right(), arrow_thick_top_right_exports))).IconArrowThickTopRight;
+    case Icons.ARROW_THICK_UP:
+      return (await Promise.resolve().then(() => (init_arrow_thick_up(), arrow_thick_up_exports))).IconArrowThickUp;
+    case Icons.ARROW_THICK_WIDE_BOTTOM_LEFT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_bottom_left(), arrow_thick_wide_bottom_left_exports))).IconArrowThickWideBottomLeft;
+    case Icons.ARROW_THICK_WIDE_DOWN:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_down(), arrow_thick_wide_down_exports))).IconArrowThickWideDown;
+    case Icons.ARROW_THICK_WIDE_LEFT_TOP:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_left_top(), arrow_thick_wide_left_top_exports))).IconArrowThickWideLeftTop;
+    case Icons.ARROW_THICK_WIDE_LEFT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_left(), arrow_thick_wide_left_exports))).IconArrowThickWideLeft;
+    case Icons.ARROW_THICK_WIDE_RIGHT_BOTTOM:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_right_bottom(), arrow_thick_wide_right_bottom_exports))).IconArrowThickWideRightBottom;
+    case Icons.ARROW_THICK_WIDE_RIGHT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_right(), arrow_thick_wide_right_exports))).IconArrowThickWideRight;
+    case Icons.ARROW_THICK_WIDE_TOP_RIGHT:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_top_right(), arrow_thick_wide_top_right_exports))).IconArrowThickWideTopRight;
+    case Icons.ARROW_THICK_WIDE_UP:
+      return (await Promise.resolve().then(() => (init_arrow_thick_wide_up(), arrow_thick_wide_up_exports))).IconArrowThickWideUp;
     case Icons.ARROW_TRANSFER_BL_TR:
       return (await Promise.resolve().then(() => (init_arrow_transfer_bl_tr(), arrow_transfer_bl_tr_exports))).IconArrowTransferBlTr;
     case Icons.ARROW_TRANSFER_LEFT_RIGHT:
@@ -42645,11 +43509,11 @@ var iconExists = (icon) => {
   return lowerCaseKeys.includes(icon.toLowerCase());
 };
 var searchIcon = (term, searchIn = void 0) => {
-  const meta890 = {};
+  const meta914 = {};
   const mergedIcons = Object.keys(Icons).map((key) => ({
     id: key,
     name: Icons[key],
-    ...meta890[key]
+    ...meta914[key]
   }));
   const searchFields = searchIn ? [searchIn] : ["name", "category", "tag", "description", "title"];
   return mergedIcons.filter(
@@ -43024,6 +43888,30 @@ var IconTags = [
   "decision",
   "separate",
   "diverge",
+  "thick",
+  "web design",
+  "click",
+  "moving",
+  "thick arrow",
+  "bold arrow",
+  "bold",
+  "icon design",
+  "UX",
+  "continue",
+  "tall",
+  "page",
+  "document",
+  "tall arrow",
+  "move up",
+  "increase",
+  "Arrow",
+  "Top",
+  "Right",
+  "Pointer",
+  "Vertical",
+  "Thick",
+  "wide",
+  "chevron",
   "shift",
   "flow",
   "swap",
@@ -43040,15 +43928,11 @@ var IconTags = [
   "Sort",
   "Scroll",
   "UpDown",
-  "Vertical",
-  "Arrow",
   "User Interface",
-  "increase",
   "elevate",
   "ascend",
   "data",
   "file",
-  "chevron",
   "connect",
   "link",
   "arrowheads",
@@ -43060,13 +43944,11 @@ var IconTags = [
   "sleek",
   "chevron double down",
   "reveal",
-  "web design",
   "double arrow",
   "arrow symbol",
   "double",
   "process",
   "stacked",
-  "page",
   "show more",
   "dropdown",
   "menu",
@@ -43207,7 +44089,6 @@ var IconTags = [
   "snapshot",
   "paste",
   "notes",
-  "document",
   "record",
   "save",
   "text",
@@ -43949,7 +44830,6 @@ var IconTags = [
   "Fashion",
   "Style",
   "Apparel",
-  "Top",
   "Casual",
   "Wearable",
   "Garment",
@@ -44225,7 +45105,6 @@ var IconTags = [
   "insert",
   "create",
   "fat",
-  "thick",
   "add",
   "append",
   "new",
@@ -44343,7 +45222,6 @@ var IconTags = [
   "edit",
   "pencil",
   "modify",
-  "UX",
   "edit button",
   "editable",
   "exclamation mark",
@@ -44355,7 +45233,6 @@ var IconTags = [
   "help",
   "tooltip",
   "informational",
-  "click",
   "hidden",
   "inactive",
   "unclickable",
@@ -44782,7 +45659,6 @@ var IconTags = [
   "place",
   "clean",
   "line icon",
-  "Pointer",
   "Indicator",
   "Guide",
   "Element",
@@ -44796,7 +45672,6 @@ var IconTags = [
   "fat style",
   "puzzle",
   "interrogation",
-  "bold",
   "seek",
   "segment",
   "categorization",
@@ -45595,6 +46470,54 @@ var getMeta = async (icon) => {
       return (await Promise.resolve().then(() => (init_icon_arrow_spread_split_svg(), icon_arrow_spread_split_svg_exports))).default;
     case Icons.ARROW_SPREAD:
       return (await Promise.resolve().then(() => (init_icon_arrow_spread_svg(), icon_arrow_spread_svg_exports))).default;
+    case Icons.ARROW_THICK_BOTTOM_LEFT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_bottom_left_svg(), icon_arrow_thick_bottom_left_svg_exports))).default;
+    case Icons.ARROW_THICK_DOWN:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_down_svg(), icon_arrow_thick_down_svg_exports))).default;
+    case Icons.ARROW_THICK_LEFT_TOP:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_left_top_svg(), icon_arrow_thick_left_top_svg_exports))).default;
+    case Icons.ARROW_THICK_LEFT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_left_svg(), icon_arrow_thick_left_svg_exports))).default;
+    case Icons.ARROW_THICK_RIGHT_BOTTOM:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_right_bottom_svg(), icon_arrow_thick_right_bottom_svg_exports))).default;
+    case Icons.ARROW_THICK_RIGHT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_right_svg(), icon_arrow_thick_right_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_BOTTOM_LEFT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_bottom_left_svg(), icon_arrow_thick_tall_bottom_left_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_DOWN:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_down_svg(), icon_arrow_thick_tall_down_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_LEFT_TOP:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_left_top_svg(), icon_arrow_thick_tall_left_top_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_LEFT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_left_svg(), icon_arrow_thick_tall_left_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_RIGHT_BOTTOM:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_right_bottom_svg(), icon_arrow_thick_tall_right_bottom_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_RIGHT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_right_svg(), icon_arrow_thick_tall_right_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_TOP_RIGHT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_top_right_svg(), icon_arrow_thick_tall_top_right_svg_exports))).default;
+    case Icons.ARROW_THICK_TALL_UP:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_tall_up_svg(), icon_arrow_thick_tall_up_svg_exports))).default;
+    case Icons.ARROW_THICK_TOP_RIGHT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_top_right_svg(), icon_arrow_thick_top_right_svg_exports))).default;
+    case Icons.ARROW_THICK_UP:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_up_svg(), icon_arrow_thick_up_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_BOTTOM_LEFT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_bottom_left_svg(), icon_arrow_thick_wide_bottom_left_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_DOWN:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_down_svg(), icon_arrow_thick_wide_down_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_LEFT_TOP:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_left_top_svg(), icon_arrow_thick_wide_left_top_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_LEFT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_left_svg(), icon_arrow_thick_wide_left_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_RIGHT_BOTTOM:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_right_bottom_svg(), icon_arrow_thick_wide_right_bottom_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_RIGHT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_right_svg(), icon_arrow_thick_wide_right_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_TOP_RIGHT:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_top_right_svg(), icon_arrow_thick_wide_top_right_svg_exports))).default;
+    case Icons.ARROW_THICK_WIDE_UP:
+      return (await Promise.resolve().then(() => (init_icon_arrow_thick_wide_up_svg(), icon_arrow_thick_wide_up_svg_exports))).default;
     case Icons.ARROW_TRANSFER_BL_TR:
       return (await Promise.resolve().then(() => (init_icon_arrow_transfer_bl_tr_svg(), icon_arrow_transfer_bl_tr_svg_exports))).default;
     case Icons.ARROW_TRANSFER_LEFT_RIGHT:
