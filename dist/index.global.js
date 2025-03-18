@@ -43470,7 +43470,7 @@
       case Icons.THERMOMETER:
         return (await Promise.resolve().then(() => (init_thermometer(), thermometer_exports))).IconThermometer;
       default:
-        return null;
+        return "";
     }
   };
   var findIt = (needle, haystack) => {
