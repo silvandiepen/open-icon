@@ -2768,7 +2768,7 @@ var getIcon = async (icon) => {
     case Icons.THERMOMETER:
       return (await import("./thermometer-XRXDGVES.js")).IconThermometer;
     default:
-      return null;
+      return "";
   }
 };
 var findIt = (needle, haystack) => {
