@@ -1,4 +1,5 @@
 import { Icons } from "./types";
+export { Icons } from "./types";
 
 /**
  * Retrieves the specified icon.
@@ -2748,7 +2749,7 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.THERMOMETER:
             return (await import("./thermometer")).IconThermometer;
             default:
-            return null;
+            return '';
     }
 }
 
