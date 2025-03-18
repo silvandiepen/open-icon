@@ -1,4 +1,5 @@
 import { Icons } from "./types";
+export { Icons } from "./types";
 /**
  * Retrieves the specified icon.
  *
