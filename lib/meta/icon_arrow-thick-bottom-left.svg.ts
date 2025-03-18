@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The arrow-thick-bottom-left icon depicts a thick arrow pointing towards the bottom left direction. It is commonly used to indicate movement or direction towards the bottom left.",
+      category: ["Arrows"],
+      tag: ["arrow","thick","bottom","left","direction","movement","pointer","navigation","interface","symbol"],
+      title: "Arrow Thick Bottom Left"
+    };
+    export default meta;

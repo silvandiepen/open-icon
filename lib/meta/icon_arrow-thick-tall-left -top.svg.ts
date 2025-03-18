@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The arrow-thick-tall-left -top icon represents a large, bold left-facing arrow pointing upwards. This icon is commonly used to indicate scrolling up or navigating to the top of a page or document.",
+      category: ["Arrows","Interface"],
+      tag: ["arrow","thick","tall","left","up","scroll","navigate","page","document","top"],
+      title: "Thick Tall Left Arrow - Top"
+    };
+    export default meta;

@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon representing a thick arrow pointing towards the bottom left direction, commonly used for navigation and indicating movement or direction.",
+      category: ["Arrows"],
+      tag: ["arrow","direction","navigation","thick","bottom left","movement","pointer","symbol","sign","interface"],
+      title: "Arrow Thick Tall Bottom Left"
+    };
+    export default meta;
