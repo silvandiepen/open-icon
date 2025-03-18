@@ -1,6 +1,6 @@
 {
   "name": "open-icon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Open Icon",
   "main": "lib/icons/index.js",
   "type": "module",
