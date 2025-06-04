@@ -1,0 +1,7 @@
+// lib/icons/checklist-empty-success.ts
+var IconChecklistEmptySuccess = `<svg id="circular-loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><circle cx="18" cy="27" r="4.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><circle cx="18" cy="27" r="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="27" x2="58.5" y2="27" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="31.5" y1="45" x2="58.5" y2="45" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="13.69 43.43 18.19 47.93 24.69 41.43" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var checklist_empty_success_default = IconChecklistEmptySuccess;
+export {
+  IconChecklistEmptySuccess,
+  checklist_empty_success_default as default
+};

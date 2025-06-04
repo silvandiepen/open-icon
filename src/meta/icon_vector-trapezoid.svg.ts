@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A geometric icon depicting a trapezoid shape with vector style design, suitable for use in various user interface elements.",
+      category: ["Shapes","Interface"],
+      tag: ["geometric","vector","trapezoid","design","user interface","geometry","graphic","shape","symbol","element"],
+      title: "Vector Trapezoid"
+    };
+    export default meta;

@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon representing a connection pointing upwards, indicating a network or internet connection being established.",
+      category: ["Interface"],
+      tag: ["network","internet","connection","up","link","communication","technology","server","transfer","signal"],
+      title: "Connect Up"
+    };
+    export default meta;

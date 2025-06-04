@@ -1,0 +1,7 @@
+// lib/icons/flag-golf.ts
+var IconFlagGolf = `<svg id="circular-loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M36.66,19.13v9.64s9.35,1.22,17.34-5.78c-7.99-.71-17.34-3.85-17.34-3.85Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><line x1="36.66" y1="13.5" x2="36.66" y2="46.66" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M36.66,19.13v9.64s9.35,1.22,17.34-5.78c-7.99-.71-17.34-3.85-17.34-3.85Z" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><ellipse cx="36" cy="49.5" rx="13.5" ry="4.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var flag_golf_default = IconFlagGolf;
+export {
+  IconFlagGolf,
+  flag_golf_default as default
+};

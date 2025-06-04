@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "This icon depicts a rounded sticker, commonly used in digital interfaces for decorative or functional purposes.",
+      category: ["Interface","Symbol"],
+      tag: ["sticker","rounded","decorative","digital","ui design","web design","element","label","button"],
+      title: "Sticker Rounded"
+    };
+    export default meta;

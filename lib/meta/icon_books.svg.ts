@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon representing books, typically used in user interfaces to indicate a section related to reading materials or libraries.",
+      category: ["Interface","Document"],
+      tag: ["education","library","reading","literature","study","knowledge","school","learning","textbook","ebook"],
+      title: "Books"
+    };
+    export default meta;

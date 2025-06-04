@@ -1,0 +1,4 @@
+const IconHomeLocation = `<svg id="circular-loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M63,40.5c0,18-18,27-18,27,0,0-18-9-18-27,0-9.94,8.06-18,18-18s18,8.06,18,18Z" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><circle cx="45" cy="40.5" r="9" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="27 40.5 9 40.5 9 22.5 22.5 9 36 22.5 36 24.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+
+export default IconHomeLocation;
+export { IconHomeLocation }

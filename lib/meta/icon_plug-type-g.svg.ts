@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon representing a Type G plug, commonly used for electric power in some countries. The icon features three round prongs in a specific configuration.",
+      category: ["Interface"],
+      tag: ["plug","electricity","power","socket","energy","device","technology","connector","charging","outlet"],
+      title: "Plug Type G"
+    };
+    export default meta;

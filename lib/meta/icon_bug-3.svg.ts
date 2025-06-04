@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "Bug-3 icon is an illustration of a small insect with three legs. It can be used to represent bugs, insects, pests, or errors in user interfaces.",
+      category: ["Interface","Animals"],
+      tag: ["bug","insect","pest","error","control","safari","wildlife","user interface","three","legs"],
+      title: "Bug-3"
+    };
+    export default meta;

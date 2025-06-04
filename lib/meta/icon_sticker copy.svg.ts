@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "This icon represents a duplicate sticker, often used in messaging apps or social media platforms. It signifies copying a sticker to send or share multiple times.",
+      category: ["Interface"],
+      tag: ["sticker","copy","duplicate","messaging","social media","communication","chat","icon","symbol","ui"],
+      title: "Sticker Copy"
+    };
+    export default meta;

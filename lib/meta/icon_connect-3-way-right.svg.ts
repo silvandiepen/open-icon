@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A three-way right arrow icon representing a connection or flow to the right in a user interface.",
+      category: ["Interface","Arrows"],
+      tag: ["arrow","direction","connection","flow","right","three-way","user interface","web design","graphic design","symbol"],
+      title: "Connect 3 Way Right"
+    };
+    export default meta;

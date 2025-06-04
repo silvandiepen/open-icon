@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An empty checklist icon indicating a list of items or tasks yet to be completed.",
+      category: ["Interface"],
+      tag: ["checklist","task list","items","unchecked","to do","organization","planning","progress","tracking"],
+      title: "Checklist Empty"
+    };
+    export default meta;

@@ -1,0 +1,12 @@
+// lib/meta/icon_globe.svg.ts
+var meta = {
+  description: "A globe icon representing the Earth or global concept. It typically consists of a sphere with latitude and longitude lines.",
+  category: ["Interface", "Symbol"],
+  tag: ["world", "planet", "map", "globalization", "geography", "navigation", "international", "earth", "travel", "environment"],
+  title: "Globe"
+};
+var icon_globe_svg_default = meta;
+export {
+  icon_globe_svg_default as default,
+  meta
+};

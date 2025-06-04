@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A royal crown icon commonly used to symbolize power, authority, leadership, or achievement in user interfaces.",
+      category: ["Interface","Symbol"],
+      tag: ["royal","power","authority","king","queen","royalty","leader","achievement","status","glory"],
+      title: "Crown"
+    };
+    export default meta;

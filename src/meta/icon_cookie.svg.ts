@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A flat icon representing a cookie, a sweet baked dessert typically made from flour, sugar, and butter. Often enjoyed as a snack or treat.",
+      category: ["Interface","Food"],
+      tag: ["snack","dessert","bakery","sweet","food","flat design","round","biscuit","delicious","indulgence"],
+      title: "Cookie"
+    };
+    export default meta;

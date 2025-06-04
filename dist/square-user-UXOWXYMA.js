@@ -1,0 +1,7 @@
+// lib/icons/square-user.ts
+var IconSquareUser = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g id="squared-question-mark"><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1); stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="13.5" y="13.5" width="45" height="45" rx="4" ry="4" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g><g id="circular-loader"><g><circle cx="36" cy="30.05" r="5.95" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M46.2,46.2c0,4.08-10.2,4.08-10.2,4.08,0,0-10.2,0-10.2-4.08,0-5.63,4.57-10.2,10.2-10.2s10.2,4.57,10.2,10.2Z" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></g></svg>`;
+var square_user_default = IconSquareUser;
+export {
+  IconSquareUser,
+  square_user_default as default
+};

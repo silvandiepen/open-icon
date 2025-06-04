@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "Sticker icon with number 390, great for UI design and decoration purposes.",
+      category: ["Interface","Symbol"],
+      tag: ["sticker","number","390","UI design","decoration","label","symbol","graphic","digital","web"],
+      title: "Sticker 390"
+    };
+    export default meta;

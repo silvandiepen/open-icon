@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon depicting a 45 degree angle pointing towards the bottom left direction, typically used in user interfaces.",
+      category: ["Interface","Shapes"],
+      tag: ["angle","45 degrees","bottom left","direction","arrow","user interface","design","symbol","graphic","element"],
+      title: "Angle 45 Bottom Left"
+    };
+    export default meta;

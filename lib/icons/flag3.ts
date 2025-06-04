@@ -1,0 +1,4 @@
+const IconFlag3 = `<svg id="circular-loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M18,18c17.36-9,23.14,18,40.5,9-18,22.5-23.14,4.5-40.5,13.5" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><line x1="18" y1="13.5" x2="18" y2="58.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M18,18c17.36-9,23.14,18,40.5,9-18,22.5-23.14,4.5-40.5,13.5" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+
+export default IconFlag3;
+export { IconFlag3 }

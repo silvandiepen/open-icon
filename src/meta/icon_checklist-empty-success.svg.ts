@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon depicting an empty checklist with a checkmark symbolizing success. It is commonly used to represent completed tasks or achievements.",
+      category: ["Interface","Symbol"],
+      tag: ["checklist","success","tasks","to-do list","completed","done","tick","achievement","progress","completion"],
+      title: "Checklist Empty Success"
+    };
+    export default meta;

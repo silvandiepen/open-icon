@@ -1,0 +1,7 @@
+// lib/icons/arrow-time-past.ts
+var IconArrowTimePast = `<svg id="chevron-disconnect_2" data-name="chevron-disconnect 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M13.5,36c0-12.43,10.07-22.5,22.5-22.5s22.5,10.07,22.5,22.5-10.07,22.5-22.5,22.5" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="5.09 26.45 13.5 36 23.05 27.59" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><polyline points="36 22.5 36 40.5 45 45" style="fill: none;  stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var arrow_time_past_default = IconArrowTimePast;
+export {
+  IconArrowTimePast,
+  arrow_time_past_default as default
+};

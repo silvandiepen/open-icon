@@ -1,0 +1,12 @@
+// lib/meta/icon_socket-type-l-444.svg.ts
+var meta = {
+  description: "An icon representing a socket type L for electronic devices, typically used for power supply connections.",
+  category: ["Interface"],
+  tag: ["power supply", "outlet", "plug", "connectivity", "electricity", "technology", "hardware", "socket", "socket type", "L-shaped"],
+  title: "Socket Type L 444"
+};
+var icon_socket_type_l_444_svg_default = meta;
+export {
+  icon_socket_type_l_444_svg_default as default,
+  meta
+};

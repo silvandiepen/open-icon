@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The layers-3 icon represents a stack of three layers on top of each other, typically used to symbolize different levels of content or functionalities in a user interface design.",
+      category: ["Interface"],
+      tag: ["layers","stack","layers stack","interface design","user interface","levels","content","functionality","graphic","three"],
+      title: "Layers Stack (3)"
+    };
+    export default meta;

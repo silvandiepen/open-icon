@@ -1,0 +1,12 @@
+// lib/meta/icon_box-closed.svg.ts
+var meta = {
+  description: "A closed box icon commonly used in user interface design. It typically represents a container or packaging that is sealed shut.",
+  category: ["Interface"],
+  tag: ["box", "closed", "package", "container", "delivery", "storage", "UI", "icon", "symbol", "sealed"],
+  title: "Box Closed"
+};
+var icon_box_closed_svg_default = meta;
+export {
+  icon_box_closed_svg_default as default,
+  meta
+};

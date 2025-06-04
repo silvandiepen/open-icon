@@ -1,0 +1,7 @@
+// lib/icons/circle-arrow180deg.ts
+var IconCircleArrow180deg = `<svg id="circular-loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polyline points="45.55 58.27 36 67.82 26.45 58.27" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M20.09,51.91c-8.79-8.79-8.79-23.03,0-31.82,8.79-8.79,23.03-8.79,31.82,0s8.79,23.03,0,31.82" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><line x1="36" y1="67.82" x2="36" y2="36" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var circle_arrow180deg_default = IconCircleArrow180deg;
+export {
+  IconCircleArrow180deg,
+  circle_arrow180deg_default as default
+};

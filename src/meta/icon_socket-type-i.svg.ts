@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The socket-type-i icon represents a type I socket, typically used for electrical devices. The icon features three round holes arranged in a triangular shape.",
+      category: ["Interface"],
+      tag: ["socket","electrical","plug","power","device","outlet","technology","energy","connector","appliance"],
+      title: "Socket Type I"
+    };
+    export default meta;

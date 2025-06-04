@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "This icon depicts a connection between two endpoints going from left to right. It can be used to symbolize linking, transition, or continuity in user interface designs.",
+      category: ["Interface"],
+      tag: ["connect","link","transition","endpoint","arrow","design","symbol","ui","technology","connection"],
+      title: "Connect Left Right"
+    };
+    export default meta;

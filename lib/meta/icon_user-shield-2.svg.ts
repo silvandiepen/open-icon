@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "User shield 2 icon is a symbol of a shield with an outline of a person inside, representing user protection and security.",
+      category: ["Interface","Symbol"],
+      tag: ["user","shield","protection","security","avatar","privacy","safety","secure","person","outline"],
+      title: "User Shield 2"
+    };
+    export default meta;

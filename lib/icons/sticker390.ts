@@ -1,0 +1,4 @@
+const IconSticker390 = `<svg id="user-add" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><polygon points="55.09 43.91 63 36 55.09 28.09 55.09 16.91 43.91 16.91 36 9 28.09 16.91 16.91 16.91 16.91 28.09 9 36 16.91 43.91 16.91 55.09 28.09 55.09 36 63 43.91 55.09 55.09 55.09 55.09 43.91" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><polygon points="55.09 43.91 63 36 55.09 28.09 55.09 16.91 43.91 16.91 36 9 28.09 16.91 16.91 16.91 16.91 28.09 9 36 16.91 43.91 16.91 55.09 28.09 55.09 36 63 43.91 55.09 55.09 55.09 55.09 43.91" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+
+export default IconSticker390;
+export { IconSticker390 }

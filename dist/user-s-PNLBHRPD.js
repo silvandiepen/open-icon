@@ -1,0 +1,7 @@
+// lib/icons/user-s.ts
+var IconUserS = `<svg id="user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><g ><circle cx="36" cy="28.84" r="7.16" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /><path d="M48.27,48.27c0,4.91-12.27,4.91-12.27,4.91,0,0-12.27,0-12.27-4.91,0-6.78,5.49-12.27,12.27-12.27s12.27,5.49,12.27,12.27Z" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);" /></g><g><circle cx="36" cy="28.84" r="7.16" style="fill: none;  stroke-linecap: round; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><path d="M48.27,48.27c0,4.91-12.27,4.91-12.27,4.91,0,0-12.27,0-12.27-4.91,0-6.78,5.49-12.27,12.27-12.27s12.27,5.49,12.27,12.27Z" style="fill: none;  stroke-linecap: square; stroke-linejoin: round; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></g></svg>`;
+var user_s_default = IconUserS;
+export {
+  IconUserS,
+  user_s_default as default
+};

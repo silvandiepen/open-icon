@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A shovel icon commonly used in user interface design. The icon represents digging, construction, or gardening activities.",
+      category: ["Interface"],
+      tag: ["tool","digging","construction","gardening","utensil","implement","utensil","equipment","work"],
+      title: "Shovel"
+    };
+    export default meta;

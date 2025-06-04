@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A user profile icon with a note symbol in it, indicating a piece of information associated with the user. This icon is commonly used in interfaces to represent a user's profile with additional notes or details.",
+      category: ["Interface","Symbol"],
+      tag: ["user","note","profile","information","details","interface","symbol","user profile","note symbol","note user"],
+      title: "Note User 2"
+    };
+    export default meta;

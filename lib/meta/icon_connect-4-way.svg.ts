@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The connect-4-way icon represents a four-way connection. It is commonly used in user interface designs to indicate networks, relationships, or intersections.",
+      category: ["Interface","Symbol"],
+      tag: ["connection","network","intersection","relationship","four-way","links","communication","UI design","web design"],
+      title: "Connect 4 Way"
+    };
+    export default meta;

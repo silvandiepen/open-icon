@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The sticker-check icon is a visual representation of a sticker with a checkmark, often used to indicate success or completion in user interfaces.",
+      category: ["Interface","Symbol"],
+      tag: ["sticker","checkmark","completion","success","user interface","approval","verified","notification","confirmation","symbol"],
+      title: "Sticker Check"
+    };
+    export default meta;

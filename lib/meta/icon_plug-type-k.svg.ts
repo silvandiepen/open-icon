@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon representing a type K plug, commonly used for electrical devices. It features three prongs in a specific configuration.",
+      category: ["Interface"],
+      tag: ["plug","electricity","power","device","socket","technology","connect","energy","electronics"],
+      title: "Plug Type K"
+    };
+    export default meta;

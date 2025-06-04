@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "A left-facing arrow icon representing a connection, typically used in user interface design.",
+      category: ["Arrows","Interface"],
+      tag: ["connect","left","arrow","direction","link","user interface","navigation","pointer","transfer","communication"],
+      title: "Connect Left"
+    };
+    export default meta;

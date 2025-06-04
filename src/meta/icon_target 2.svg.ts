@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "An icon of a target symbol used in user interfaces for highlighting or marking a specific object or section.",
+      category: ["Interface"],
+      tag: ["target","focus","bullseye","ui","aim","goal","design","precision","navigation"],
+      title: "Target 2"
+    };
+    export default meta;

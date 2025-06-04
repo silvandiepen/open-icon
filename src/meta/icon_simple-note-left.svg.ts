@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The simple note left icon is a minimalistic representation of a piece of paper with lines, indicating a note or message. The icon is designed with a leftward orientation.",
+      category: ["Interface","Document","Text"],
+      tag: ["note","message","left","document","paper","simple","communication","reminder","minimalistic","information"],
+      title: "Simple Note Left"
+    };
+    export default meta;

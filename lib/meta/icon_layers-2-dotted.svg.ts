@@ -1,0 +1,8 @@
+
+    export const meta = {
+      description: "The icon depicts a stack of two layers with a dotted pattern, symbolizing a visual representation of layers in a user interface design.",
+      category: ["Interface"],
+      tag: ["layers","stack","dotted","interface","design","user interface","two layers","graphic","symbol"],
+      title: "Layers 2 Dotted"
+    };
+    export default meta;

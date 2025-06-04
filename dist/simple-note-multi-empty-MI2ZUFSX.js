@@ -1,0 +1,7 @@
+// lib/icons/simple-note-multi-empty.ts
+var IconSimpleNoteMultiEmpty = `<svg id="circular-loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><path d="M49.5,22.5h5c2.21,0,4,1.79,4,4v28c0,2.21-1.79,4-4,4h-28c-2.21,0-4-1.79-4-4v-5" style="fill: none; stroke: var(--icon-stroke-color-secondary, var(--icon-stroke-color, currentColor)); stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/><rect x="14" y="13.5" width="35.5" height="36" rx="4" ry="4" style="fill: var(--icon-fill, rgba(0, 0, 0, 0)); opacity: var(--icon-fill-opacity, 1);"/><rect x="13.5" y="13.5" width="36" height="36" rx="4" ry="4" style="fill: none;  stroke-miterlimit: 10; stroke-width:var(--icon-stroke-width-m, calc(var(--icon-stroke-width, 5) * 1));"/></svg>`;
+var simple_note_multi_empty_default = IconSimpleNoteMultiEmpty;
+export {
+  IconSimpleNoteMultiEmpty,
+  simple_note_multi_empty_default as default
+};
