@@ -387,6 +387,15 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.ARROW_SHARE:
             return (await import("./icon_arrow-share.svg")).default;
 
+        case Icons.ARROW_SKIP2:
+            return (await import("./icon_arrow-skip-2.svg")).default;
+
+        case Icons.ARROW_SKIP3:
+            return (await import("./icon_arrow-skip-3.svg")).default;
+
+        case Icons.ARROW_SKIP:
+            return (await import("./icon_arrow-skip.svg")).default;
+
         case Icons.ARROW_SPREAD_SPLIT:
             return (await import("./icon_arrow-spread-split.svg")).default;
 
@@ -464,6 +473,12 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.ARROW_THICK_WIDE_UP:
             return (await import("./icon_arrow-thick-wide-up.svg")).default;
+
+        case Icons.ARROW_TIME_PAST:
+            return (await import("./icon_arrow-time-past.svg")).default;
+
+        case Icons.ARROW_TIME_RECENT:
+            return (await import("./icon_arrow-time-recent.svg")).default;
 
         case Icons.ARROW_TRANSFER_BL_TR:
             return (await import("./icon_arrow-transfer-bl-tr.svg")).default;
@@ -1317,6 +1332,18 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.ADD_S:
             return (await import("./icon_add-s.svg")).default;
 
+        case Icons.ANGLE45_BOTTOM_LEFT:
+            return (await import("./icon_angle-45-bottom-left.svg")).default;
+
+        case Icons.ANGLE45_BOTTOM_RIGHT:
+            return (await import("./icon_angle-45-bottom-right.svg")).default;
+
+        case Icons.ANGLE45_TOP_LEFT:
+            return (await import("./icon_angle-45-top-left.svg")).default;
+
+        case Icons.ANGLE45_TOP_RIGHT:
+            return (await import("./icon_angle-45-top-right.svg")).default;
+
         case Icons.AT_SIGN:
             return (await import("./icon_at-sign.svg")).default;
 
@@ -1401,8 +1428,32 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.BOARD:
             return (await import("./icon_board.svg")).default;
 
+        case Icons.BOOK_BOTTOM:
+            return (await import("./icon_book-bottom.svg")).default;
+
+        case Icons.BOOK_PAGES:
+            return (await import("./icon_book-pages.svg")).default;
+
+        case Icons.BOOK_SIDE:
+            return (await import("./icon_book-side.svg")).default;
+
+        case Icons.BOOK:
+            return (await import("./icon_book.svg")).default;
+
+        case Icons.BOOKS:
+            return (await import("./icon_books.svg")).default;
+
+        case Icons.BOX_CLOSED:
+            return (await import("./icon_box-closed.svg")).default;
+
         case Icons.BOX_IN:
             return (await import("./icon_box-in.svg")).default;
+
+        case Icons.BOX_LINE:
+            return (await import("./icon_box-line.svg")).default;
+
+        case Icons.BOX_OPEN:
+            return (await import("./icon_box-open.svg")).default;
 
         case Icons.BOX_OUT:
             return (await import("./icon_box-out.svg")).default;
@@ -1421,6 +1472,15 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.BROKEN_HEART_M:
             return (await import("./icon_broken-heart-m.svg")).default;
+
+        case Icons.BUG2:
+            return (await import("./icon_bug-2.svg")).default;
+
+        case Icons.BUG3:
+            return (await import("./icon_bug-3.svg")).default;
+
+        case Icons.BUG:
+            return (await import("./icon_bug.svg")).default;
 
         case Icons.BUILDING_CHURCH:
             return (await import("./icon_building-church.svg")).default;
@@ -1503,6 +1563,12 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.BUTTON_SUBTRACT:
             return (await import("./icon_button-subtract.svg")).default;
 
+        case Icons.BUTTON_USER2:
+            return (await import("./icon_button-user-2.svg")).default;
+
+        case Icons.BUTTON_USER:
+            return (await import("./icon_button-user.svg")).default;
+
         case Icons.BUTTON_VISIBLE2:
             return (await import("./icon_button-visible 2.svg")).default;
 
@@ -1554,11 +1620,59 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.CHECK_S:
             return (await import("./icon_check-s.svg")).default;
 
+        case Icons.CHECKLIST_EMPTY_ERROR:
+            return (await import("./icon_checklist-empty-error.svg")).default;
+
+        case Icons.CHECKLIST_EMPTY_SUCCESS:
+            return (await import("./icon_checklist-empty-success.svg")).default;
+
+        case Icons.CHECKLIST_EMPTY:
+            return (await import("./icon_checklist-empty.svg")).default;
+
+        case Icons.CHECKLIST_ERROR:
+            return (await import("./icon_checklist-error.svg")).default;
+
+        case Icons.CHECKLIST_MULTI:
+            return (await import("./icon_checklist-multi.svg")).default;
+
+        case Icons.CHECKLIST_SUCCESS_ERROR:
+            return (await import("./icon_checklist-success-error.svg")).default;
+
+        case Icons.CHECKLIST_SUCCESS:
+            return (await import("./icon_checklist-success.svg")).default;
+
+        case Icons.CIRCLE_ARROW0DEG:
+            return (await import("./icon_circle-arrow-0deg.svg")).default;
+
+        case Icons.CIRCLE_ARROW135DEG:
+            return (await import("./icon_circle-arrow-135deg.svg")).default;
+
+        case Icons.CIRCLE_ARROW180DEG:
+            return (await import("./icon_circle-arrow-180deg.svg")).default;
+
+        case Icons.CIRCLE_ARROW225DEG:
+            return (await import("./icon_circle-arrow-225deg.svg")).default;
+
+        case Icons.CIRCLE_ARROW270DEG:
+            return (await import("./icon_circle-arrow-270deg.svg")).default;
+
+        case Icons.CIRCLE_ARROW315DEG:
+            return (await import("./icon_circle-arrow-315deg.svg")).default;
+
+        case Icons.CIRCLE_ARROW45DEG:
+            return (await import("./icon_circle-arrow-45deg.svg")).default;
+
+        case Icons.CIRCLE_ARROW90DEG:
+            return (await import("./icon_circle-arrow-90deg.svg")).default;
+
         case Icons.CIRCLE_INVISIBLE:
             return (await import("./icon_circle-invisible.svg")).default;
 
         case Icons.CIRCLE_SUBTRACT:
             return (await import("./icon_circle-subtract.svg")).default;
+
+        case Icons.CIRCLE_USER:
+            return (await import("./icon_circle-user.svg")).default;
 
         case Icons.CIRCLED_ADD:
             return (await import("./icon_circled-add.svg")).default;
@@ -1625,6 +1739,48 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.COMPANY:
             return (await import("./icon_company.svg")).default;
+
+        case Icons.CONNECT3_WAY_DOWN:
+            return (await import("./icon_connect-3-way-down.svg")).default;
+
+        case Icons.CONNECT3_WAY_LEFT:
+            return (await import("./icon_connect-3-way-left.svg")).default;
+
+        case Icons.CONNECT3_WAY_RIGHT:
+            return (await import("./icon_connect-3-way-right.svg")).default;
+
+        case Icons.CONNECT3_WAY_UP:
+            return (await import("./icon_connect-3-way-up.svg")).default;
+
+        case Icons.CONNECT4_WAY:
+            return (await import("./icon_connect-4-way.svg")).default;
+
+        case Icons.CONNECT_DOWN:
+            return (await import("./icon_connect-down.svg")).default;
+
+        case Icons.CONNECT_LEFT_RIGHT:
+            return (await import("./icon_connect-left-right.svg")).default;
+
+        case Icons.CONNECT_LEFT:
+            return (await import("./icon_connect-left.svg")).default;
+
+        case Icons.CONNECT_RIGHT:
+            return (await import("./icon_connect-right.svg")).default;
+
+        case Icons.CONNECT_TOP_BOTTOM:
+            return (await import("./icon_connect-top-bottom.svg")).default;
+
+        case Icons.CONNECT_UP:
+            return (await import("./icon_connect-up.svg")).default;
+
+        case Icons.COOKIE:
+            return (await import("./icon_cookie.svg")).default;
+
+        case Icons.CROWN2:
+            return (await import("./icon_crown-2.svg")).default;
+
+        case Icons.CROWN:
+            return (await import("./icon_crown.svg")).default;
 
         case Icons.DISLIKE:
             return (await import("./icon_dislike.svg")).default;
@@ -1770,6 +1926,12 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.FILE_TRAY:
             return (await import("./icon_file-tray.svg")).default;
 
+        case Icons.FILE_USER2:
+            return (await import("./icon_file-user-2.svg")).default;
+
+        case Icons.FILE_USER:
+            return (await import("./icon_file-user.svg")).default;
+
         case Icons.FILE_VISIBLE2:
             return (await import("./icon_file-visible 2.svg")).default;
 
@@ -1778,6 +1940,18 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.FILE:
             return (await import("./icon_file.svg")).default;
+
+        case Icons.FLAG1:
+            return (await import("./icon_flag-1.svg")).default;
+
+        case Icons.FLAG2:
+            return (await import("./icon_flag-2.svg")).default;
+
+        case Icons.FLAG3:
+            return (await import("./icon_flag-3.svg")).default;
+
+        case Icons.FLAG_GOLF:
+            return (await import("./icon_flag-golf.svg")).default;
 
         case Icons.FOLDER_ADD2:
             return (await import("./icon_folder-add 2.svg")).default;
@@ -1857,6 +2031,12 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.FOLDER_SUBTRACT:
             return (await import("./icon_folder-subtract.svg")).default;
 
+        case Icons.FOLDER_USER2:
+            return (await import("./icon_folder-user-2.svg")).default;
+
+        case Icons.FOLDER_USER:
+            return (await import("./icon_folder-user.svg")).default;
+
         case Icons.FOLDER_VISIBLE2:
             return (await import("./icon_folder-visible 2.svg")).default;
 
@@ -1865,6 +2045,24 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.FOLDER:
             return (await import("./icon_folder.svg")).default;
+
+        case Icons.FOLLOWED_BY_ADD:
+            return (await import("./icon_followed-by-add.svg")).default;
+
+        case Icons.FOLLOWED_BY_ARROW:
+            return (await import("./icon_followed-by-arrow.svg")).default;
+
+        case Icons.FOLLOWED_BY:
+            return (await import("./icon_followed-by.svg")).default;
+
+        case Icons.FOLLOWING_ADD:
+            return (await import("./icon_following-add.svg")).default;
+
+        case Icons.FOLLOWING_ARROW:
+            return (await import("./icon_following-arrow.svg")).default;
+
+        case Icons.FOLLOWING:
+            return (await import("./icon_following.svg")).default;
 
         case Icons.GIRL:
             return (await import("./icon_girl.svg")).default;
@@ -1893,6 +2091,15 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.GIT_REPO_FORK:
             return (await import("./icon_git-repo-fork.svg")).default;
 
+        case Icons.GLOBE2:
+            return (await import("./icon_globe-2.svg")).default;
+
+        case Icons.GLOBE3:
+            return (await import("./icon_globe-3.svg")).default;
+
+        case Icons.GLOBE:
+            return (await import("./icon_globe.svg")).default;
+
         case Icons.HEART_BROKEN_SMALL:
             return (await import("./icon_heart-broken-small.svg")).default;
 
@@ -1907,6 +2114,9 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.HEART_SMALL:
             return (await import("./icon_heart-small.svg")).default;
+
+        case Icons.HOME_LOCATION:
+            return (await import("./icon_home-location.svg")).default;
 
         case Icons.INFO_FAT:
             return (await import("./icon_info-fat.svg")).default;
@@ -1976,6 +2186,18 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.KEY_UP:
             return (await import("./icon_key-up.svg")).default;
+
+        case Icons.LAYERS2_DOTTED:
+            return (await import("./icon_layers-2-dotted.svg")).default;
+
+        case Icons.LAYERS2:
+            return (await import("./icon_layers-2.svg")).default;
+
+        case Icons.LAYERS3_DOTTED:
+            return (await import("./icon_layers-3-dotted.svg")).default;
+
+        case Icons.LAYERS3:
+            return (await import("./icon_layers-3.svg")).default;
 
         case Icons.LIKE:
             return (await import("./icon_like.svg")).default;
@@ -2085,6 +2307,12 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.NOTE_SUBTRACT:
             return (await import("./icon_note-subtract.svg")).default;
 
+        case Icons.NOTE_USER2:
+            return (await import("./icon_note-user-2.svg")).default;
+
+        case Icons.NOTE_USER:
+            return (await import("./icon_note-user.svg")).default;
+
         case Icons.NOTE_VISIBLE2:
             return (await import("./icon_note-visible 2.svg")).default;
 
@@ -2114,6 +2342,33 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.PLANNER:
             return (await import("./icon_planner.svg")).default;
+
+        case Icons.PLUG_TYPE_I:
+            return (await import("./icon_plug-type-i.svg")).default;
+
+        case Icons.PLUG_TYPE_A:
+            return (await import("./icon_plug-type-a.svg")).default;
+
+        case Icons.PLUG_TYPE_B:
+            return (await import("./icon_plug-type-b.svg")).default;
+
+        case Icons.PLUG_TYPE_C:
+            return (await import("./icon_plug-type-c.svg")).default;
+
+        case Icons.PLUG_TYPE_D:
+            return (await import("./icon_plug-type-d.svg")).default;
+
+        case Icons.PLUG_TYPE_G:
+            return (await import("./icon_plug-type-g.svg")).default;
+
+        case Icons.PLUG_TYPE_J:
+            return (await import("./icon_plug-type-j.svg")).default;
+
+        case Icons.PLUG_TYPE_K:
+            return (await import("./icon_plug-type-k.svg")).default;
+
+        case Icons.PLUG_TYPE_L:
+            return (await import("./icon_plug-type-l.svg")).default;
 
         case Icons.POINTER_ARROW_LINE:
             return (await import("./icon_pointer-arrow-line.svg")).default;
@@ -2151,6 +2406,24 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.QUESTION_MARK_S:
             return (await import("./icon_question-mark-s.svg")).default;
 
+        case Icons.RADAR:
+            return (await import("./icon_radar.svg")).default;
+
+        case Icons.RADAR2:
+            return (await import("./icon_radar2.svg")).default;
+
+        case Icons.RADAR3:
+            return (await import("./icon_radar3.svg")).default;
+
+        case Icons.RADAR4:
+            return (await import("./icon_radar4.svg")).default;
+
+        case Icons.RADAR5:
+            return (await import("./icon_radar5.svg")).default;
+
+        case Icons.RADAR6:
+            return (await import("./icon_radar6.svg")).default;
+
         case Icons.REMOVE_LINES:
             return (await import("./icon_remove-lines.svg")).default;
 
@@ -2184,6 +2457,69 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.SETTINGS:
             return (await import("./icon_settings.svg")).default;
 
+        case Icons.SHOVEL:
+            return (await import("./icon_shovel.svg")).default;
+
+        case Icons.SIM:
+            return (await import("./icon_sim.svg")).default;
+
+        case Icons.SIMPLE_NOTE_CENTER:
+            return (await import("./icon_simple-note-center.svg")).default;
+
+        case Icons.SIMPLE_NOTE_JUSTIFY:
+            return (await import("./icon_simple-note-justify.svg")).default;
+
+        case Icons.SIMPLE_NOTE_LEFT:
+            return (await import("./icon_simple-note-left.svg")).default;
+
+        case Icons.SIMPLE_NOTE_MULTI_EMPTY:
+            return (await import("./icon_simple-note-multi-empty.svg")).default;
+
+        case Icons.SIMPLE_NOTE_MULTI:
+            return (await import("./icon_simple-note-multi.svg")).default;
+
+        case Icons.SIMPLE_NOTE_RIGHT:
+            return (await import("./icon_simple-note-right.svg")).default;
+
+        case Icons.SIMPLE_NOTE:
+            return (await import("./icon_simple-note.svg")).default;
+
+        case Icons.SOCKET_TYPE_A:
+            return (await import("./icon_socket-type-a.svg")).default;
+
+        case Icons.SOCKET_TYPE_B:
+            return (await import("./icon_socket-type-b.svg")).default;
+
+        case Icons.SOCKET_TYPE_C:
+            return (await import("./icon_socket-type-c.svg")).default;
+
+        case Icons.SOCKET_TYPE_D:
+            return (await import("./icon_socket-type-d.svg")).default;
+
+        case Icons.SOCKET_TYPE_E:
+            return (await import("./icon_socket-type-e.svg")).default;
+
+        case Icons.SOCKET_TYPE_F:
+            return (await import("./icon_socket-type-f.svg")).default;
+
+        case Icons.SOCKET_TYPE_G:
+            return (await import("./icon_socket-type-g.svg")).default;
+
+        case Icons.SOCKET_TYPE_I:
+            return (await import("./icon_socket-type-i.svg")).default;
+
+        case Icons.SOCKET_TYPE_J:
+            return (await import("./icon_socket-type-j.svg")).default;
+
+        case Icons.SOCKET_TYPE_K:
+            return (await import("./icon_socket-type-k.svg")).default;
+
+        case Icons.SOCKET_TYPE_L433:
+            return (await import("./icon_socket-type-l-433.svg")).default;
+
+        case Icons.SOCKET_TYPE_L444:
+            return (await import("./icon_socket-type-l-444.svg")).default;
+
         case Icons.SPEECH_BALLOON2:
             return (await import("./icon_speech-balloon-2.svg")).default;
 
@@ -2204,6 +2540,9 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
 
         case Icons.SPEECH_BALLOONS:
             return (await import("./icon_speech-balloons.svg")).default;
+
+        case Icons.SQUARE_USER:
+            return (await import("./icon_square-user.svg")).default;
 
         case Icons.SQUARED_ADD:
             return (await import("./icon_squared-add.svg")).default;
@@ -2265,8 +2604,26 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.STAR_SMALL:
             return (await import("./icon_star-small.svg")).default;
 
-        case Icons.STICKER:
-            return (await import("./icon_sticker.svg")).default;
+        case Icons.STICKER_COPY:
+            return (await import("./icon_sticker copy.svg")).default;
+
+        case Icons.STICKER2_ROUNDED:
+            return (await import("./icon_sticker-2-rounded.svg")).default;
+
+        case Icons.STICKER332:
+            return (await import("./icon_sticker-332.svg")).default;
+
+        case Icons.STICKER390:
+            return (await import("./icon_sticker-390.svg")).default;
+
+        case Icons.STICKER_CHECK:
+            return (await import("./icon_sticker-check.svg")).default;
+
+        case Icons.STICKER_ROUNDED_CHECK:
+            return (await import("./icon_sticker-rounded-check.svg")).default;
+
+        case Icons.STICKER_ROUNDED:
+            return (await import("./icon_sticker-rounded.svg")).default;
 
         case Icons.STOPWATCH:
             return (await import("./icon_stopwatch.svg")).default;
@@ -2325,11 +2682,17 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.TALK_SUBTRACT:
             return (await import("./icon_talk-subtract.svg")).default;
 
+        case Icons.TALK_USER:
+            return (await import("./icon_talk-user.svg")).default;
+
         case Icons.TALK_VISIBLE:
             return (await import("./icon_talk-visible.svg")).default;
 
         case Icons.TALK:
             return (await import("./icon_talk.svg")).default;
+
+        case Icons.TARGET2:
+            return (await import("./icon_target 2.svg")).default;
 
         case Icons.TARGET:
             return (await import("./icon_target.svg")).default;
@@ -2406,6 +2769,9 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.TRASH:
             return (await import("./icon_trash.svg")).default;
 
+        case Icons.TRIANGLE_USER:
+            return (await import("./icon_triangle-user.svg")).default;
+
         case Icons.TRIANGLED_EXCLAMATION_MARK:
             return (await import("./icon_triangled-exclamation-mark.svg")).default;
 
@@ -2418,20 +2784,71 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.TRIANGLED:
             return (await import("./icon_triangled.svg")).default;
 
+        case Icons.USER_ADD2:
+            return (await import("./icon_user-add 2.svg")).default;
+
+        case Icons.USER_ADD3:
+            return (await import("./icon_user-add 3.svg")).default;
+
         case Icons.USER_ADD:
             return (await import("./icon_user-add.svg")).default;
+
+        case Icons.USER_DELETE2:
+            return (await import("./icon_user-delete 2.svg")).default;
+
+        case Icons.USER_DELETE3:
+            return (await import("./icon_user-delete 3.svg")).default;
 
         case Icons.USER_DELETE:
             return (await import("./icon_user-delete.svg")).default;
 
+        case Icons.USER_FAT:
+            return (await import("./icon_user-fat.svg")).default;
+
         case Icons.USER_GROUP:
             return (await import("./icon_user-group.svg")).default;
+
+        case Icons.USER_HEART_COPY:
+            return (await import("./icon_user-heart copy.svg")).default;
+
+        case Icons.USER_HEART2_COPY:
+            return (await import("./icon_user-heart-2 copy.svg")).default;
+
+        case Icons.USER_L:
+            return (await import("./icon_user-l.svg")).default;
+
+        case Icons.USER_M:
+            return (await import("./icon_user-m.svg")).default;
+
+        case Icons.USER_S:
+            return (await import("./icon_user-s.svg")).default;
+
+        case Icons.USER_SHIELD2:
+            return (await import("./icon_user-shield-2.svg")).default;
+
+        case Icons.USER_SHIELD:
+            return (await import("./icon_user-shield.svg")).default;
 
         case Icons.USER:
             return (await import("./icon_user.svg")).default;
 
         case Icons.USERS:
             return (await import("./icon_users.svg")).default;
+
+        case Icons.VECTOR_CURVE:
+            return (await import("./icon_vector-curve.svg")).default;
+
+        case Icons.VECTOR_SHAPE:
+            return (await import("./icon_vector-shape.svg")).default;
+
+        case Icons.VECTOR_SQUARE:
+            return (await import("./icon_vector-square.svg")).default;
+
+        case Icons.VECTOR_TRAPEZOID:
+            return (await import("./icon_vector-trapezoid.svg")).default;
+
+        case Icons.VECTOR_TRIANGLE:
+            return (await import("./icon_vector-triangle.svg")).default;
 
         case Icons.VISIBLE_FAT:
             return (await import("./icon_visible-fat.svg")).default;
@@ -2445,11 +2862,29 @@ export const getMeta = async (icon: Icons):Promise<IconMeta | null>=> {
         case Icons.VISIBLE_S:
             return (await import("./icon_visible-s.svg")).default;
 
+        case Icons.WATCH:
+            return (await import("./icon_watch.svg")).default;
+
         case Icons.WHEELCHAIR_ACTION:
             return (await import("./icon_wheelchair-action.svg")).default;
 
         case Icons.WHEELCHAIR:
             return (await import("./icon_wheelchair.svg")).default;
+
+        case Icons.WINDOW_BROWSER:
+            return (await import("./icon_window-browser.svg")).default;
+
+        case Icons.WINDOW_CODE:
+            return (await import("./icon_window-code.svg")).default;
+
+        case Icons.WINDOW_MULTI:
+            return (await import("./icon_window-multi.svg")).default;
+
+        case Icons.WINDOW:
+            return (await import("./icon_window.svg")).default;
+
+        case Icons.WORLD:
+            return (await import("./icon_world.svg")).default;
 
         case Icons.AIRPLANE_ARRIVALS:
             return (await import("./icon_airplane-arrivals.svg")).default;

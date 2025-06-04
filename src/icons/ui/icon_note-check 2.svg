@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="note-check_2" data-name="note-check 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <g style="opacity: .5;">
-    <rect x="13.5" y="13.41" width="45" height="45" rx="4" ry="4" style="fill: #ed2024; stroke-width: 0px;"/>
+    <rect x="13.5" y="13.41" width="45" height="45" rx="4" ry="4" style="fill: #ed2024;"/>
   </g>
   <polyline points="40.5 45.64 48.21 58.5 58.5 40.5" style="fill: none; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
   <path d="M58.5,36v-18.5c0-2.21-1.79-4-4-4H17.5c-2.21,0-4,1.79-4,4v37c0,2.21,1.79,4,4,4h23" style="fill: none; stroke: #010101; stroke-miterlimit: 10; stroke-width: 4px;"/>
