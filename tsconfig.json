@@ -10,5 +10,5 @@
         "outDir": "./dist",
         "sourceMap": true
     },
-    "include": ["lib/index.ts"],
+    "include": ["lib/index.ts", "lib/icons/icons-export.ts", "lib/vue/**/*.ts"],
 }

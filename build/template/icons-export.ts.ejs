@@ -1,0 +1,8 @@
+// Tree-shakable icon exports
+// Auto-generated file - do not edit directly
+
+<% files.forEach(function(file) { %>export { default as Icon<%= file.meta.componentName %> } from './<%= file.meta.fileName %>';
+<% }); %>
+
+// Export types
+export type { Icons } from './types';

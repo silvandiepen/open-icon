@@ -385,15 +385,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.ARROW_SHARE:
             return (await import("./arrow-share")).IconArrowShare;
     
-        case Icons.ARROW_SKIP2:
-            return (await import("./arrow-skip2")).IconArrowSkip2;
-    
-        case Icons.ARROW_SKIP3:
-            return (await import("./arrow-skip3")).IconArrowSkip3;
-    
-        case Icons.ARROW_SKIP:
-            return (await import("./arrow-skip")).IconArrowSkip;
-    
         case Icons.ARROW_SPREAD_SPLIT:
             return (await import("./arrow-spread-split")).IconArrowSpreadSplit;
     
@@ -471,12 +462,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.ARROW_THICK_WIDE_UP:
             return (await import("./arrow-thick-wide-up")).IconArrowThickWideUp;
-    
-        case Icons.ARROW_TIME_PAST:
-            return (await import("./arrow-time-past")).IconArrowTimePast;
-    
-        case Icons.ARROW_TIME_RECENT:
-            return (await import("./arrow-time-recent")).IconArrowTimeRecent;
     
         case Icons.ARROW_TRANSFER_BL_TR:
             return (await import("./arrow-transfer-bl-tr")).IconArrowTransferBlTr;
@@ -1330,18 +1315,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.ADD_S:
             return (await import("./add-s")).IconAddS;
     
-        case Icons.ANGLE45_BOTTOM_LEFT:
-            return (await import("./angle45-bottom-left")).IconAngle45BottomLeft;
-    
-        case Icons.ANGLE45_BOTTOM_RIGHT:
-            return (await import("./angle45-bottom-right")).IconAngle45BottomRight;
-    
-        case Icons.ANGLE45_TOP_LEFT:
-            return (await import("./angle45-top-left")).IconAngle45TopLeft;
-    
-        case Icons.ANGLE45_TOP_RIGHT:
-            return (await import("./angle45-top-right")).IconAngle45TopRight;
-    
         case Icons.AT_SIGN:
             return (await import("./at-sign")).IconAtSign;
     
@@ -1426,32 +1399,8 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.BOARD:
             return (await import("./board")).IconBoard;
     
-        case Icons.BOOK_BOTTOM:
-            return (await import("./book-bottom")).IconBookBottom;
-    
-        case Icons.BOOK_PAGES:
-            return (await import("./book-pages")).IconBookPages;
-    
-        case Icons.BOOK_SIDE:
-            return (await import("./book-side")).IconBookSide;
-    
-        case Icons.BOOK:
-            return (await import("./book")).IconBook;
-    
-        case Icons.BOOKS:
-            return (await import("./books")).IconBooks;
-    
-        case Icons.BOX_CLOSED:
-            return (await import("./box-closed")).IconBoxClosed;
-    
         case Icons.BOX_IN:
             return (await import("./box-in")).IconBoxIn;
-    
-        case Icons.BOX_LINE:
-            return (await import("./box-line")).IconBoxLine;
-    
-        case Icons.BOX_OPEN:
-            return (await import("./box-open")).IconBoxOpen;
     
         case Icons.BOX_OUT:
             return (await import("./box-out")).IconBoxOut;
@@ -1470,15 +1419,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.BROKEN_HEART_M:
             return (await import("./broken-heart-m")).IconBrokenHeartM;
-    
-        case Icons.BUG2:
-            return (await import("./bug2")).IconBug2;
-    
-        case Icons.BUG3:
-            return (await import("./bug3")).IconBug3;
-    
-        case Icons.BUG:
-            return (await import("./bug")).IconBug;
     
         case Icons.BUILDING_CHURCH:
             return (await import("./building-church")).IconBuildingChurch;
@@ -1561,12 +1501,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.BUTTON_SUBTRACT:
             return (await import("./button-subtract")).IconButtonSubtract;
     
-        case Icons.BUTTON_USER2:
-            return (await import("./button-user2")).IconButtonUser2;
-    
-        case Icons.BUTTON_USER:
-            return (await import("./button-user")).IconButtonUser;
-    
         case Icons.BUTTON_VISIBLE2:
             return (await import("./button-visible2")).IconButtonVisible2;
     
@@ -1618,59 +1552,11 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.CHECK_S:
             return (await import("./check-s")).IconCheckS;
     
-        case Icons.CHECKLIST_EMPTY_ERROR:
-            return (await import("./checklist-empty-error")).IconChecklistEmptyError;
-    
-        case Icons.CHECKLIST_EMPTY_SUCCESS:
-            return (await import("./checklist-empty-success")).IconChecklistEmptySuccess;
-    
-        case Icons.CHECKLIST_EMPTY:
-            return (await import("./checklist-empty")).IconChecklistEmpty;
-    
-        case Icons.CHECKLIST_ERROR:
-            return (await import("./checklist-error")).IconChecklistError;
-    
-        case Icons.CHECKLIST_MULTI:
-            return (await import("./checklist-multi")).IconChecklistMulti;
-    
-        case Icons.CHECKLIST_SUCCESS_ERROR:
-            return (await import("./checklist-success-error")).IconChecklistSuccessError;
-    
-        case Icons.CHECKLIST_SUCCESS:
-            return (await import("./checklist-success")).IconChecklistSuccess;
-    
-        case Icons.CIRCLE_ARROW0DEG:
-            return (await import("./circle-arrow0deg")).IconCircleArrow0deg;
-    
-        case Icons.CIRCLE_ARROW135DEG:
-            return (await import("./circle-arrow135deg")).IconCircleArrow135deg;
-    
-        case Icons.CIRCLE_ARROW180DEG:
-            return (await import("./circle-arrow180deg")).IconCircleArrow180deg;
-    
-        case Icons.CIRCLE_ARROW225DEG:
-            return (await import("./circle-arrow225deg")).IconCircleArrow225deg;
-    
-        case Icons.CIRCLE_ARROW270DEG:
-            return (await import("./circle-arrow270deg")).IconCircleArrow270deg;
-    
-        case Icons.CIRCLE_ARROW315DEG:
-            return (await import("./circle-arrow315deg")).IconCircleArrow315deg;
-    
-        case Icons.CIRCLE_ARROW45DEG:
-            return (await import("./circle-arrow45deg")).IconCircleArrow45deg;
-    
-        case Icons.CIRCLE_ARROW90DEG:
-            return (await import("./circle-arrow90deg")).IconCircleArrow90deg;
-    
         case Icons.CIRCLE_INVISIBLE:
             return (await import("./circle-invisible")).IconCircleInvisible;
     
         case Icons.CIRCLE_SUBTRACT:
             return (await import("./circle-subtract")).IconCircleSubtract;
-    
-        case Icons.CIRCLE_USER:
-            return (await import("./circle-user")).IconCircleUser;
     
         case Icons.CIRCLED_ADD:
             return (await import("./circled-add")).IconCircledAdd;
@@ -1737,48 +1623,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.COMPANY:
             return (await import("./company")).IconCompany;
-    
-        case Icons.CONNECT3_WAY_DOWN:
-            return (await import("./connect3-way-down")).IconConnect3WayDown;
-    
-        case Icons.CONNECT3_WAY_LEFT:
-            return (await import("./connect3-way-left")).IconConnect3WayLeft;
-    
-        case Icons.CONNECT3_WAY_RIGHT:
-            return (await import("./connect3-way-right")).IconConnect3WayRight;
-    
-        case Icons.CONNECT3_WAY_UP:
-            return (await import("./connect3-way-up")).IconConnect3WayUp;
-    
-        case Icons.CONNECT4_WAY:
-            return (await import("./connect4-way")).IconConnect4Way;
-    
-        case Icons.CONNECT_DOWN:
-            return (await import("./connect-down")).IconConnectDown;
-    
-        case Icons.CONNECT_LEFT_RIGHT:
-            return (await import("./connect-left-right")).IconConnectLeftRight;
-    
-        case Icons.CONNECT_LEFT:
-            return (await import("./connect-left")).IconConnectLeft;
-    
-        case Icons.CONNECT_RIGHT:
-            return (await import("./connect-right")).IconConnectRight;
-    
-        case Icons.CONNECT_TOP_BOTTOM:
-            return (await import("./connect-top-bottom")).IconConnectTopBottom;
-    
-        case Icons.CONNECT_UP:
-            return (await import("./connect-up")).IconConnectUp;
-    
-        case Icons.COOKIE:
-            return (await import("./cookie")).IconCookie;
-    
-        case Icons.CROWN2:
-            return (await import("./crown2")).IconCrown2;
-    
-        case Icons.CROWN:
-            return (await import("./crown")).IconCrown;
     
         case Icons.DISLIKE:
             return (await import("./dislike")).IconDislike;
@@ -1924,12 +1768,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.FILE_TRAY:
             return (await import("./file-tray")).IconFileTray;
     
-        case Icons.FILE_USER2:
-            return (await import("./file-user2")).IconFileUser2;
-    
-        case Icons.FILE_USER:
-            return (await import("./file-user")).IconFileUser;
-    
         case Icons.FILE_VISIBLE2:
             return (await import("./file-visible2")).IconFileVisible2;
     
@@ -1938,18 +1776,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.FILE:
             return (await import("./file")).IconFile;
-    
-        case Icons.FLAG1:
-            return (await import("./flag1")).IconFlag1;
-    
-        case Icons.FLAG2:
-            return (await import("./flag2")).IconFlag2;
-    
-        case Icons.FLAG3:
-            return (await import("./flag3")).IconFlag3;
-    
-        case Icons.FLAG_GOLF:
-            return (await import("./flag-golf")).IconFlagGolf;
     
         case Icons.FOLDER_ADD2:
             return (await import("./folder-add2")).IconFolderAdd2;
@@ -2029,12 +1855,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.FOLDER_SUBTRACT:
             return (await import("./folder-subtract")).IconFolderSubtract;
     
-        case Icons.FOLDER_USER2:
-            return (await import("./folder-user2")).IconFolderUser2;
-    
-        case Icons.FOLDER_USER:
-            return (await import("./folder-user")).IconFolderUser;
-    
         case Icons.FOLDER_VISIBLE2:
             return (await import("./folder-visible2")).IconFolderVisible2;
     
@@ -2043,24 +1863,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.FOLDER:
             return (await import("./folder")).IconFolder;
-    
-        case Icons.FOLLOWED_BY_ADD:
-            return (await import("./followed-by-add")).IconFollowedByAdd;
-    
-        case Icons.FOLLOWED_BY_ARROW:
-            return (await import("./followed-by-arrow")).IconFollowedByArrow;
-    
-        case Icons.FOLLOWED_BY:
-            return (await import("./followed-by")).IconFollowedBy;
-    
-        case Icons.FOLLOWING_ADD:
-            return (await import("./following-add")).IconFollowingAdd;
-    
-        case Icons.FOLLOWING_ARROW:
-            return (await import("./following-arrow")).IconFollowingArrow;
-    
-        case Icons.FOLLOWING:
-            return (await import("./following")).IconFollowing;
     
         case Icons.GIRL:
             return (await import("./girl")).IconGirl;
@@ -2089,15 +1891,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.GIT_REPO_FORK:
             return (await import("./git-repo-fork")).IconGitRepoFork;
     
-        case Icons.GLOBE2:
-            return (await import("./globe2")).IconGlobe2;
-    
-        case Icons.GLOBE3:
-            return (await import("./globe3")).IconGlobe3;
-    
-        case Icons.GLOBE:
-            return (await import("./globe")).IconGlobe;
-    
         case Icons.HEART_BROKEN_SMALL:
             return (await import("./heart-broken-small")).IconHeartBrokenSmall;
     
@@ -2112,9 +1905,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.HEART_SMALL:
             return (await import("./heart-small")).IconHeartSmall;
-    
-        case Icons.HOME_LOCATION:
-            return (await import("./home-location")).IconHomeLocation;
     
         case Icons.INFO_FAT:
             return (await import("./info-fat")).IconInfoFat;
@@ -2184,18 +1974,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.KEY_UP:
             return (await import("./key-up")).IconKeyUp;
-    
-        case Icons.LAYERS2_DOTTED:
-            return (await import("./layers2-dotted")).IconLayers2Dotted;
-    
-        case Icons.LAYERS2:
-            return (await import("./layers2")).IconLayers2;
-    
-        case Icons.LAYERS3_DOTTED:
-            return (await import("./layers3-dotted")).IconLayers3Dotted;
-    
-        case Icons.LAYERS3:
-            return (await import("./layers3")).IconLayers3;
     
         case Icons.LIKE:
             return (await import("./like")).IconLike;
@@ -2305,12 +2083,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.NOTE_SUBTRACT:
             return (await import("./note-subtract")).IconNoteSubtract;
     
-        case Icons.NOTE_USER2:
-            return (await import("./note-user2")).IconNoteUser2;
-    
-        case Icons.NOTE_USER:
-            return (await import("./note-user")).IconNoteUser;
-    
         case Icons.NOTE_VISIBLE2:
             return (await import("./note-visible2")).IconNoteVisible2;
     
@@ -2340,33 +2112,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.PLANNER:
             return (await import("./planner")).IconPlanner;
-    
-        case Icons.PLUG_TYPE_I:
-            return (await import("./plug-type-i")).IconPlugTypeI;
-    
-        case Icons.PLUG_TYPE_A:
-            return (await import("./plug-type-a")).IconPlugTypeA;
-    
-        case Icons.PLUG_TYPE_B:
-            return (await import("./plug-type-b")).IconPlugTypeB;
-    
-        case Icons.PLUG_TYPE_C:
-            return (await import("./plug-type-c")).IconPlugTypeC;
-    
-        case Icons.PLUG_TYPE_D:
-            return (await import("./plug-type-d")).IconPlugTypeD;
-    
-        case Icons.PLUG_TYPE_G:
-            return (await import("./plug-type-g")).IconPlugTypeG;
-    
-        case Icons.PLUG_TYPE_J:
-            return (await import("./plug-type-j")).IconPlugTypeJ;
-    
-        case Icons.PLUG_TYPE_K:
-            return (await import("./plug-type-k")).IconPlugTypeK;
-    
-        case Icons.PLUG_TYPE_L:
-            return (await import("./plug-type-l")).IconPlugTypeL;
     
         case Icons.POINTER_ARROW_LINE:
             return (await import("./pointer-arrow-line")).IconPointerArrowLine;
@@ -2404,24 +2149,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.QUESTION_MARK_S:
             return (await import("./question-mark-s")).IconQuestionMarkS;
     
-        case Icons.RADAR:
-            return (await import("./radar")).IconRadar;
-    
-        case Icons.RADAR2:
-            return (await import("./radar2")).IconRadar2;
-    
-        case Icons.RADAR3:
-            return (await import("./radar3")).IconRadar3;
-    
-        case Icons.RADAR4:
-            return (await import("./radar4")).IconRadar4;
-    
-        case Icons.RADAR5:
-            return (await import("./radar5")).IconRadar5;
-    
-        case Icons.RADAR6:
-            return (await import("./radar6")).IconRadar6;
-    
         case Icons.REMOVE_LINES:
             return (await import("./remove-lines")).IconRemoveLines;
     
@@ -2455,69 +2182,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.SETTINGS:
             return (await import("./settings")).IconSettings;
     
-        case Icons.SHOVEL:
-            return (await import("./shovel")).IconShovel;
-    
-        case Icons.SIM:
-            return (await import("./sim")).IconSim;
-    
-        case Icons.SIMPLE_NOTE_CENTER:
-            return (await import("./simple-note-center")).IconSimpleNoteCenter;
-    
-        case Icons.SIMPLE_NOTE_JUSTIFY:
-            return (await import("./simple-note-justify")).IconSimpleNoteJustify;
-    
-        case Icons.SIMPLE_NOTE_LEFT:
-            return (await import("./simple-note-left")).IconSimpleNoteLeft;
-    
-        case Icons.SIMPLE_NOTE_MULTI_EMPTY:
-            return (await import("./simple-note-multi-empty")).IconSimpleNoteMultiEmpty;
-    
-        case Icons.SIMPLE_NOTE_MULTI:
-            return (await import("./simple-note-multi")).IconSimpleNoteMulti;
-    
-        case Icons.SIMPLE_NOTE_RIGHT:
-            return (await import("./simple-note-right")).IconSimpleNoteRight;
-    
-        case Icons.SIMPLE_NOTE:
-            return (await import("./simple-note")).IconSimpleNote;
-    
-        case Icons.SOCKET_TYPE_A:
-            return (await import("./socket-type-a")).IconSocketTypeA;
-    
-        case Icons.SOCKET_TYPE_B:
-            return (await import("./socket-type-b")).IconSocketTypeB;
-    
-        case Icons.SOCKET_TYPE_C:
-            return (await import("./socket-type-c")).IconSocketTypeC;
-    
-        case Icons.SOCKET_TYPE_D:
-            return (await import("./socket-type-d")).IconSocketTypeD;
-    
-        case Icons.SOCKET_TYPE_E:
-            return (await import("./socket-type-e")).IconSocketTypeE;
-    
-        case Icons.SOCKET_TYPE_F:
-            return (await import("./socket-type-f")).IconSocketTypeF;
-    
-        case Icons.SOCKET_TYPE_G:
-            return (await import("./socket-type-g")).IconSocketTypeG;
-    
-        case Icons.SOCKET_TYPE_I:
-            return (await import("./socket-type-i")).IconSocketTypeI;
-    
-        case Icons.SOCKET_TYPE_J:
-            return (await import("./socket-type-j")).IconSocketTypeJ;
-    
-        case Icons.SOCKET_TYPE_K:
-            return (await import("./socket-type-k")).IconSocketTypeK;
-    
-        case Icons.SOCKET_TYPE_L433:
-            return (await import("./socket-type-l433")).IconSocketTypeL433;
-    
-        case Icons.SOCKET_TYPE_L444:
-            return (await import("./socket-type-l444")).IconSocketTypeL444;
-    
         case Icons.SPEECH_BALLOON2:
             return (await import("./speech-balloon2")).IconSpeechBalloon2;
     
@@ -2538,9 +2202,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
     
         case Icons.SPEECH_BALLOONS:
             return (await import("./speech-balloons")).IconSpeechBalloons;
-    
-        case Icons.SQUARE_USER:
-            return (await import("./square-user")).IconSquareUser;
     
         case Icons.SQUARED_ADD:
             return (await import("./squared-add")).IconSquaredAdd;
@@ -2602,27 +2263,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.STAR_SMALL:
             return (await import("./star-small")).IconStarSmall;
     
-        case Icons.STICKER_COPY:
-            return (await import("./sticker-copy")).IconStickerCopy;
-    
-        case Icons.STICKER2_ROUNDED:
-            return (await import("./sticker2-rounded")).IconSticker2Rounded;
-    
-        case Icons.STICKER332:
-            return (await import("./sticker332")).IconSticker332;
-    
-        case Icons.STICKER390:
-            return (await import("./sticker390")).IconSticker390;
-    
-        case Icons.STICKER_CHECK:
-            return (await import("./sticker-check")).IconStickerCheck;
-    
-        case Icons.STICKER_ROUNDED_CHECK:
-            return (await import("./sticker-rounded-check")).IconStickerRoundedCheck;
-    
-        case Icons.STICKER_ROUNDED:
-            return (await import("./sticker-rounded")).IconStickerRounded;
-    
         case Icons.STOPWATCH:
             return (await import("./stopwatch")).IconStopwatch;
     
@@ -2680,17 +2320,11 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.TALK_SUBTRACT:
             return (await import("./talk-subtract")).IconTalkSubtract;
     
-        case Icons.TALK_USER:
-            return (await import("./talk-user")).IconTalkUser;
-    
         case Icons.TALK_VISIBLE:
             return (await import("./talk-visible")).IconTalkVisible;
     
         case Icons.TALK:
             return (await import("./talk")).IconTalk;
-    
-        case Icons.TARGET2:
-            return (await import("./target2")).IconTarget2;
     
         case Icons.TARGET:
             return (await import("./target")).IconTarget;
@@ -2767,9 +2401,6 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.TRASH:
             return (await import("./trash")).IconTrash;
     
-        case Icons.TRIANGLE_USER:
-            return (await import("./triangle-user")).IconTriangleUser;
-    
         case Icons.TRIANGLED_EXCLAMATION_MARK:
             return (await import("./triangled-exclamation-mark")).IconTriangledExclamationMark;
     
@@ -2782,71 +2413,20 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.TRIANGLED:
             return (await import("./triangled")).IconTriangled;
     
-        case Icons.USER_ADD2:
-            return (await import("./user-add2")).IconUserAdd2;
-    
-        case Icons.USER_ADD3:
-            return (await import("./user-add3")).IconUserAdd3;
-    
         case Icons.USER_ADD:
             return (await import("./user-add")).IconUserAdd;
-    
-        case Icons.USER_DELETE2:
-            return (await import("./user-delete2")).IconUserDelete2;
-    
-        case Icons.USER_DELETE3:
-            return (await import("./user-delete3")).IconUserDelete3;
     
         case Icons.USER_DELETE:
             return (await import("./user-delete")).IconUserDelete;
     
-        case Icons.USER_FAT:
-            return (await import("./user-fat")).IconUserFat;
-    
         case Icons.USER_GROUP:
             return (await import("./user-group")).IconUserGroup;
-    
-        case Icons.USER_HEART_COPY:
-            return (await import("./user-heart-copy")).IconUserHeartCopy;
-    
-        case Icons.USER_HEART2_COPY:
-            return (await import("./user-heart2-copy")).IconUserHeart2Copy;
-    
-        case Icons.USER_L:
-            return (await import("./user-l")).IconUserL;
-    
-        case Icons.USER_M:
-            return (await import("./user-m")).IconUserM;
-    
-        case Icons.USER_S:
-            return (await import("./user-s")).IconUserS;
-    
-        case Icons.USER_SHIELD2:
-            return (await import("./user-shield2")).IconUserShield2;
-    
-        case Icons.USER_SHIELD:
-            return (await import("./user-shield")).IconUserShield;
     
         case Icons.USER:
             return (await import("./user")).IconUser;
     
         case Icons.USERS:
             return (await import("./users")).IconUsers;
-    
-        case Icons.VECTOR_CURVE:
-            return (await import("./vector-curve")).IconVectorCurve;
-    
-        case Icons.VECTOR_SHAPE:
-            return (await import("./vector-shape")).IconVectorShape;
-    
-        case Icons.VECTOR_SQUARE:
-            return (await import("./vector-square")).IconVectorSquare;
-    
-        case Icons.VECTOR_TRAPEZOID:
-            return (await import("./vector-trapezoid")).IconVectorTrapezoid;
-    
-        case Icons.VECTOR_TRIANGLE:
-            return (await import("./vector-triangle")).IconVectorTriangle;
     
         case Icons.VISIBLE_FAT:
             return (await import("./visible-fat")).IconVisibleFat;
@@ -2860,29 +2440,11 @@ export const getIcon = async (icon: Icons): Promise<string> => {
         case Icons.VISIBLE_S:
             return (await import("./visible-s")).IconVisibleS;
     
-        case Icons.WATCH:
-            return (await import("./watch")).IconWatch;
-    
         case Icons.WHEELCHAIR_ACTION:
             return (await import("./wheelchair-action")).IconWheelchairAction;
     
         case Icons.WHEELCHAIR:
             return (await import("./wheelchair")).IconWheelchair;
-    
-        case Icons.WINDOW_BROWSER:
-            return (await import("./window-browser")).IconWindowBrowser;
-    
-        case Icons.WINDOW_CODE:
-            return (await import("./window-code")).IconWindowCode;
-    
-        case Icons.WINDOW_MULTI:
-            return (await import("./window-multi")).IconWindowMulti;
-    
-        case Icons.WINDOW:
-            return (await import("./window")).IconWindow;
-    
-        case Icons.WORLD:
-            return (await import("./world")).IconWorld;
     
         case Icons.AIRPLANE_ARRIVALS:
             return (await import("./airplane-arrivals")).IconAirplaneArrivals;

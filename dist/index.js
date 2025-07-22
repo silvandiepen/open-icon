@@ -125,9 +125,6 @@ var BaseIcons = {
   ARROW_ROUNDED_RIGHT_DOWN: "arrow-rounded-right-down",
   ARROW_ROUNDED_RIGHT_UP: "arrow-rounded-right-up",
   ARROW_SHARE: "arrow-share",
-  ARROW_SKIP2: "arrow-skip2",
-  ARROW_SKIP3: "arrow-skip3",
-  ARROW_SKIP: "arrow-skip",
   ARROW_SPREAD_SPLIT: "arrow-spread-split",
   ARROW_SPREAD: "arrow-spread",
   ARROW_THICK_BOTTOM_LEFT: "arrow-thick-bottom-left",
@@ -154,8 +151,6 @@ var BaseIcons = {
   ARROW_THICK_WIDE_RIGHT: "arrow-thick-wide-right",
   ARROW_THICK_WIDE_TOP_RIGHT: "arrow-thick-wide-top-right",
   ARROW_THICK_WIDE_UP: "arrow-thick-wide-up",
-  ARROW_TIME_PAST: "arrow-time-past",
-  ARROW_TIME_RECENT: "arrow-time-recent",
   ARROW_TRANSFER_BL_TR: "arrow-transfer-bl-tr",
   ARROW_TRANSFER_LEFT_RIGHT: "arrow-transfer-left-right",
   ARROW_TRANSFER_LT_BR: "arrow-transfer-lt-br",
@@ -440,10 +435,6 @@ var BaseIcons = {
   ADD_LINES: "add-lines",
   ADD_M: "add-m",
   ADD_S: "add-s",
-  ANGLE45_BOTTOM_LEFT: "angle45-bottom-left",
-  ANGLE45_BOTTOM_RIGHT: "angle45-bottom-right",
-  ANGLE45_TOP_LEFT: "angle45-top-left",
-  ANGLE45_TOP_RIGHT: "angle45-top-right",
   AT_SIGN: "at-sign",
   BLOCK_PARTIALS: "block-partials",
   BOARD_ADD2: "board-add2",
@@ -472,24 +463,13 @@ var BaseIcons = {
   BOARD_SPLIT_T_UP: "board-split-t-up",
   BOARD_SUBTRACT2: "board-subtract2",
   BOARD: "board",
-  BOOK_BOTTOM: "book-bottom",
-  BOOK_PAGES: "book-pages",
-  BOOK_SIDE: "book-side",
-  BOOK: "book",
-  BOOKS: "books",
-  BOX_CLOSED: "box-closed",
   BOX_IN: "box-in",
-  BOX_LINE: "box-line",
-  BOX_OPEN: "box-open",
   BOX_OUT: "box-out",
   BOX: "box",
   BOY: "boy",
   BROKEN_HEART_F: "broken-heart-f",
   BROKEN_HEART_L: "broken-heart-l",
   BROKEN_HEART_M: "broken-heart-m",
-  BUG2: "bug2",
-  BUG3: "bug3",
-  BUG: "bug",
   BUILDING_CHURCH: "building-church",
   BUILDING_HOUSE2: "building-house2",
   BUILDING_HOUSE: "building-house",
@@ -517,8 +497,6 @@ var BaseIcons = {
   BUTTON_STAR2: "button-star2",
   BUTTON_STAR: "button-star",
   BUTTON_SUBTRACT: "button-subtract",
-  BUTTON_USER2: "button-user2",
-  BUTTON_USER: "button-user",
   BUTTON_VISIBLE2: "button-visible2",
   BUTTON_VISIBLE: "button-visible",
   BUTTON: "button",
@@ -536,24 +514,8 @@ var BaseIcons = {
   CHECK_LIST: "check-list",
   CHECK_M: "check-m",
   CHECK_S: "check-s",
-  CHECKLIST_EMPTY_ERROR: "checklist-empty-error",
-  CHECKLIST_EMPTY_SUCCESS: "checklist-empty-success",
-  CHECKLIST_EMPTY: "checklist-empty",
-  CHECKLIST_ERROR: "checklist-error",
-  CHECKLIST_MULTI: "checklist-multi",
-  CHECKLIST_SUCCESS_ERROR: "checklist-success-error",
-  CHECKLIST_SUCCESS: "checklist-success",
-  CIRCLE_ARROW0DEG: "circle-arrow0deg",
-  CIRCLE_ARROW135DEG: "circle-arrow135deg",
-  CIRCLE_ARROW180DEG: "circle-arrow180deg",
-  CIRCLE_ARROW225DEG: "circle-arrow225deg",
-  CIRCLE_ARROW270DEG: "circle-arrow270deg",
-  CIRCLE_ARROW315DEG: "circle-arrow315deg",
-  CIRCLE_ARROW45DEG: "circle-arrow45deg",
-  CIRCLE_ARROW90DEG: "circle-arrow90deg",
   CIRCLE_INVISIBLE: "circle-invisible",
   CIRCLE_SUBTRACT: "circle-subtract",
-  CIRCLE_USER: "circle-user",
   CIRCLED_ADD: "circled-add",
   CIRCLED_BROKEN_HEART: "circled-broken-heart",
   CIRCLED_CHECK: "circled-check",
@@ -576,20 +538,6 @@ var BaseIcons = {
   CODE_CHEVRONS_OPEN: "code-chevrons-open",
   CODE_CHEVRONS: "code-chevrons",
   COMPANY: "company",
-  CONNECT3_WAY_DOWN: "connect3-way-down",
-  CONNECT3_WAY_LEFT: "connect3-way-left",
-  CONNECT3_WAY_RIGHT: "connect3-way-right",
-  CONNECT3_WAY_UP: "connect3-way-up",
-  CONNECT4_WAY: "connect4-way",
-  CONNECT_DOWN: "connect-down",
-  CONNECT_LEFT_RIGHT: "connect-left-right",
-  CONNECT_LEFT: "connect-left",
-  CONNECT_RIGHT: "connect-right",
-  CONNECT_TOP_BOTTOM: "connect-top-bottom",
-  CONNECT_UP: "connect-up",
-  COOKIE: "cookie",
-  CROWN2: "crown2",
-  CROWN: "crown",
   DISLIKE: "dislike",
   EDIT_FAT: "edit-fat",
   EDIT_L: "edit-l",
@@ -638,15 +586,9 @@ var BaseIcons = {
   FILE_TEXT: "file-text",
   FILE_TRAY_STACK: "file-tray-stack",
   FILE_TRAY: "file-tray",
-  FILE_USER2: "file-user2",
-  FILE_USER: "file-user",
   FILE_VISIBLE2: "file-visible2",
   FILE_VISIBLE: "file-visible",
   FILE: "file",
-  FLAG1: "flag1",
-  FLAG2: "flag2",
-  FLAG3: "flag3",
-  FLAG_GOLF: "flag-golf",
   FOLDER_ADD2: "folder-add2",
   FOLDER_ADD: "folder-add",
   FOLDER_BROKEN_HEART2: "folder-broken-heart2",
@@ -673,17 +615,9 @@ var BaseIcons = {
   FOLDER_STAR: "folder-star",
   FOLDER_SUBTRACT2: "folder-subtract2",
   FOLDER_SUBTRACT: "folder-subtract",
-  FOLDER_USER2: "folder-user2",
-  FOLDER_USER: "folder-user",
   FOLDER_VISIBLE2: "folder-visible2",
   FOLDER_VISIBLE: "folder-visible",
   FOLDER: "folder",
-  FOLLOWED_BY_ADD: "followed-by-add",
-  FOLLOWED_BY_ARROW: "followed-by-arrow",
-  FOLLOWED_BY: "followed-by",
-  FOLLOWING_ADD: "following-add",
-  FOLLOWING_ARROW: "following-arrow",
-  FOLLOWING: "following",
   GIRL: "girl",
   GIT_BRANCH: "git-branch",
   GIT_COMPARE: "git-compare",
@@ -693,15 +627,11 @@ var BaseIcons = {
   GIT_PULL_REQUEST_DRAFT: "git-pull-request-draft",
   GIT_PULL_REQUEST: "git-pull-request",
   GIT_REPO_FORK: "git-repo-fork",
-  GLOBE2: "globe2",
-  GLOBE3: "globe3",
-  GLOBE: "globe",
   HEART_BROKEN_SMALL: "heart-broken-small",
   HEART_FAT: "heart-fat",
   HEART_L: "heart-l",
   HEART_M: "heart-m",
   HEART_SMALL: "heart-small",
-  HOME_LOCATION: "home-location",
   INFO_FAT: "info-fat",
   INFO_L: "info-l",
   INFO_M: "info-m",
@@ -725,10 +655,6 @@ var BaseIcons = {
   KEY_SHIFT: "key-shift",
   KEY_TAB: "key-tab",
   KEY_UP: "key-up",
-  LAYERS2_DOTTED: "layers2-dotted",
-  LAYERS2: "layers2",
-  LAYERS3_DOTTED: "layers3-dotted",
-  LAYERS3: "layers3",
   LIKE: "like",
   LINK: "link",
   LOADER_DOTS2: "loader-dots2",
@@ -765,8 +691,6 @@ var BaseIcons = {
   NOTE_STAR: "note-star",
   NOTE_SUBTRACT2: "note-subtract2",
   NOTE_SUBTRACT: "note-subtract",
-  NOTE_USER2: "note-user2",
-  NOTE_USER: "note-user",
   NOTE_VISIBLE2: "note-visible2",
   NOTE_VISIBLE: "note-visible",
   NOTE: "note",
@@ -777,15 +701,6 @@ var BaseIcons = {
   PIN_TILTED: "pin-tilted",
   PIN: "pin",
   PLANNER: "planner",
-  PLUG_TYPE_I: "plug-type-i",
-  PLUG_TYPE_A: "plug-type-a",
-  PLUG_TYPE_B: "plug-type-b",
-  PLUG_TYPE_C: "plug-type-c",
-  PLUG_TYPE_D: "plug-type-d",
-  PLUG_TYPE_G: "plug-type-g",
-  PLUG_TYPE_J: "plug-type-j",
-  PLUG_TYPE_K: "plug-type-k",
-  PLUG_TYPE_L: "plug-type-l",
   POINTER_ARROW_LINE: "pointer-arrow-line",
   POINTER_ARROW: "pointer-arrow",
   POINTER_CROSS: "pointer-cross",
@@ -798,12 +713,6 @@ var BaseIcons = {
   QUESTION_MARK_L: "question-mark-l",
   QUESTION_MARK_M: "question-mark-m",
   QUESTION_MARK_S: "question-mark-s",
-  RADAR: "radar",
-  RADAR2: "radar2",
-  RADAR3: "radar3",
-  RADAR4: "radar4",
-  RADAR5: "radar5",
-  RADAR6: "radar6",
   REMOVE_LINES: "remove-lines",
   SEARCH_FAT: "search-fat",
   SEARCH_L: "search-l",
@@ -815,27 +724,6 @@ var BaseIcons = {
   SETTINGS4: "settings4",
   SETTINGS5: "settings5",
   SETTINGS: "settings",
-  SHOVEL: "shovel",
-  SIM: "sim",
-  SIMPLE_NOTE_CENTER: "simple-note-center",
-  SIMPLE_NOTE_JUSTIFY: "simple-note-justify",
-  SIMPLE_NOTE_LEFT: "simple-note-left",
-  SIMPLE_NOTE_MULTI_EMPTY: "simple-note-multi-empty",
-  SIMPLE_NOTE_MULTI: "simple-note-multi",
-  SIMPLE_NOTE_RIGHT: "simple-note-right",
-  SIMPLE_NOTE: "simple-note",
-  SOCKET_TYPE_A: "socket-type-a",
-  SOCKET_TYPE_B: "socket-type-b",
-  SOCKET_TYPE_C: "socket-type-c",
-  SOCKET_TYPE_D: "socket-type-d",
-  SOCKET_TYPE_E: "socket-type-e",
-  SOCKET_TYPE_F: "socket-type-f",
-  SOCKET_TYPE_G: "socket-type-g",
-  SOCKET_TYPE_I: "socket-type-i",
-  SOCKET_TYPE_J: "socket-type-j",
-  SOCKET_TYPE_K: "socket-type-k",
-  SOCKET_TYPE_L433: "socket-type-l433",
-  SOCKET_TYPE_L444: "socket-type-l444",
   SPEECH_BALLOON2: "speech-balloon2",
   SPEECH_BALLOON_SQUARE2: "speech-balloon-square2",
   SPEECH_BALLOON_SQUARE_COPY: "speech-balloon-square-copy",
@@ -843,7 +731,6 @@ var BaseIcons = {
   SPEECH_BALLOON_SQUARE: "speech-balloon-square",
   SPEECH_BALLOON: "speech-balloon",
   SPEECH_BALLOONS: "speech-balloons",
-  SQUARE_USER: "square-user",
   SQUARED_ADD: "squared-add",
   SQUARED_BROKEN_HEART: "squared-broken-heart",
   SQUARED_CHECK: "squared-check",
@@ -864,13 +751,6 @@ var BaseIcons = {
   STAR_L: "star-l",
   STAR_M: "star-m",
   STAR_SMALL: "star-small",
-  STICKER_COPY: "sticker-copy",
-  STICKER2_ROUNDED: "sticker2-rounded",
-  STICKER332: "sticker332",
-  STICKER390: "sticker390",
-  STICKER_CHECK: "sticker-check",
-  STICKER_ROUNDED_CHECK: "sticker-rounded-check",
-  STICKER_ROUNDED: "sticker-rounded",
   STOPWATCH: "stopwatch",
   SUBTRACT_FAT: "subtract-fat",
   SUBTRACT_L: "subtract-l",
@@ -890,10 +770,8 @@ var BaseIcons = {
   TALK_SEARCH: "talk-search",
   TALK_STAR: "talk-star",
   TALK_SUBTRACT: "talk-subtract",
-  TALK_USER: "talk-user",
   TALK_VISIBLE: "talk-visible",
   TALK: "talk",
-  TARGET2: "target2",
   TARGET: "target",
   TEXT_ALIGN_CENTER: "text-align-center",
   TEXT_ALIGN_JUSTIFY_CENTERED: "text-align-justify-centered",
@@ -919,45 +797,21 @@ var BaseIcons = {
   TIMER: "timer",
   TRASH2: "trash2",
   TRASH: "trash",
-  TRIANGLE_USER: "triangle-user",
   TRIANGLED_EXCLAMATION_MARK: "triangled-exclamation-mark",
   TRIANGLED_INFO: "triangled-info",
   TRIANGLED_QUESTION_MARK: "triangled-question-mark",
   TRIANGLED: "triangled",
-  USER_ADD2: "user-add2",
-  USER_ADD3: "user-add3",
   USER_ADD: "user-add",
-  USER_DELETE2: "user-delete2",
-  USER_DELETE3: "user-delete3",
   USER_DELETE: "user-delete",
-  USER_FAT: "user-fat",
   USER_GROUP: "user-group",
-  USER_HEART_COPY: "user-heart-copy",
-  USER_HEART2_COPY: "user-heart2-copy",
-  USER_L: "user-l",
-  USER_M: "user-m",
-  USER_S: "user-s",
-  USER_SHIELD2: "user-shield2",
-  USER_SHIELD: "user-shield",
   USER: "user",
   USERS: "users",
-  VECTOR_CURVE: "vector-curve",
-  VECTOR_SHAPE: "vector-shape",
-  VECTOR_SQUARE: "vector-square",
-  VECTOR_TRAPEZOID: "vector-trapezoid",
-  VECTOR_TRIANGLE: "vector-triangle",
   VISIBLE_FAT: "visible-fat",
   VISIBLE_L: "visible-l",
   VISIBLE_M: "visible-m",
   VISIBLE_S: "visible-s",
-  WATCH: "watch",
   WHEELCHAIR_ACTION: "wheelchair-action",
   WHEELCHAIR: "wheelchair",
-  WINDOW_BROWSER: "window-browser",
-  WINDOW_CODE: "window-code",
-  WINDOW_MULTI: "window-multi",
-  WINDOW: "window",
-  WORLD: "world",
   AIRPLANE_ARRIVALS: "airplane-arrivals",
   AIRPLANE_DEPARTURES: "airplane-departures",
   AIRPLANE: "airplane",
@@ -1336,12 +1190,6 @@ var getIcon = async (icon) => {
       return (await import("./arrow-rounded-right-up-XZ73OKGP.js")).IconArrowRoundedRightUp;
     case Icons.ARROW_SHARE:
       return (await import("./arrow-share-3VGBIA7N.js")).IconArrowShare;
-    case Icons.ARROW_SKIP2:
-      return (await import("./arrow-skip2-XJR4LPUE.js")).IconArrowSkip2;
-    case Icons.ARROW_SKIP3:
-      return (await import("./arrow-skip3-XQONDXKR.js")).IconArrowSkip3;
-    case Icons.ARROW_SKIP:
-      return (await import("./arrow-skip-EL7EMLFB.js")).IconArrowSkip;
     case Icons.ARROW_SPREAD_SPLIT:
       return (await import("./arrow-spread-split-LDNPBVSM.js")).IconArrowSpreadSplit;
     case Icons.ARROW_SPREAD:
@@ -1394,10 +1242,6 @@ var getIcon = async (icon) => {
       return (await import("./arrow-thick-wide-top-right-P667FZTX.js")).IconArrowThickWideTopRight;
     case Icons.ARROW_THICK_WIDE_UP:
       return (await import("./arrow-thick-wide-up-2Q3YSHAO.js")).IconArrowThickWideUp;
-    case Icons.ARROW_TIME_PAST:
-      return (await import("./arrow-time-past-EXMOFTTS.js")).IconArrowTimePast;
-    case Icons.ARROW_TIME_RECENT:
-      return (await import("./arrow-time-recent-OQFGJLZW.js")).IconArrowTimeRecent;
     case Icons.ARROW_TRANSFER_BL_TR:
       return (await import("./arrow-transfer-bl-tr-SXDA2B4K.js")).IconArrowTransferBlTr;
     case Icons.ARROW_TRANSFER_LEFT_RIGHT:
@@ -1966,14 +1810,6 @@ var getIcon = async (icon) => {
       return (await import("./add-m-JPLXKNNV.js")).IconAddM;
     case Icons.ADD_S:
       return (await import("./add-s-4JIAKNKA.js")).IconAddS;
-    case Icons.ANGLE45_BOTTOM_LEFT:
-      return (await import("./angle45-bottom-left-GQUYDK5C.js")).IconAngle45BottomLeft;
-    case Icons.ANGLE45_BOTTOM_RIGHT:
-      return (await import("./angle45-bottom-right-XNN2BH3A.js")).IconAngle45BottomRight;
-    case Icons.ANGLE45_TOP_LEFT:
-      return (await import("./angle45-top-left-MUNJH36Y.js")).IconAngle45TopLeft;
-    case Icons.ANGLE45_TOP_RIGHT:
-      return (await import("./angle45-top-right-STFFTX7C.js")).IconAngle45TopRight;
     case Icons.AT_SIGN:
       return (await import("./at-sign-7XMPIBWK.js")).IconAtSign;
     case Icons.BLOCK_PARTIALS:
@@ -2030,24 +1866,8 @@ var getIcon = async (icon) => {
       return (await import("./board-subtract2-X7YHWIWZ.js")).IconBoardSubtract2;
     case Icons.BOARD:
       return (await import("./board-TEVWBPLP.js")).IconBoard;
-    case Icons.BOOK_BOTTOM:
-      return (await import("./book-bottom-ESH6LBUP.js")).IconBookBottom;
-    case Icons.BOOK_PAGES:
-      return (await import("./book-pages-LBDOE5HH.js")).IconBookPages;
-    case Icons.BOOK_SIDE:
-      return (await import("./book-side-RGE3PMNH.js")).IconBookSide;
-    case Icons.BOOK:
-      return (await import("./book-MIZKESNV.js")).IconBook;
-    case Icons.BOOKS:
-      return (await import("./books-LGGQFIQG.js")).IconBooks;
-    case Icons.BOX_CLOSED:
-      return (await import("./box-closed-POEUUS7Z.js")).IconBoxClosed;
     case Icons.BOX_IN:
       return (await import("./box-in-SGDDHTVQ.js")).IconBoxIn;
-    case Icons.BOX_LINE:
-      return (await import("./box-line-VFDUTP2T.js")).IconBoxLine;
-    case Icons.BOX_OPEN:
-      return (await import("./box-open-NVVLFR7A.js")).IconBoxOpen;
     case Icons.BOX_OUT:
       return (await import("./box-out-IVYL6HO2.js")).IconBoxOut;
     case Icons.BOX:
@@ -2060,12 +1880,6 @@ var getIcon = async (icon) => {
       return (await import("./broken-heart-l-FY6JHQAU.js")).IconBrokenHeartL;
     case Icons.BROKEN_HEART_M:
       return (await import("./broken-heart-m-OPCXJ32I.js")).IconBrokenHeartM;
-    case Icons.BUG2:
-      return (await import("./bug2-E7ZNCVSI.js")).IconBug2;
-    case Icons.BUG3:
-      return (await import("./bug3-6QWJA2E4.js")).IconBug3;
-    case Icons.BUG:
-      return (await import("./bug-S3XRVQWR.js")).IconBug;
     case Icons.BUILDING_CHURCH:
       return (await import("./building-church-PPFVYI45.js")).IconBuildingChurch;
     case Icons.BUILDING_HOUSE2:
@@ -2120,10 +1934,6 @@ var getIcon = async (icon) => {
       return (await import("./button-star-U3QXTLKF.js")).IconButtonStar;
     case Icons.BUTTON_SUBTRACT:
       return (await import("./button-subtract-QNPPFW7X.js")).IconButtonSubtract;
-    case Icons.BUTTON_USER2:
-      return (await import("./button-user2-OGJSQWVT.js")).IconButtonUser2;
-    case Icons.BUTTON_USER:
-      return (await import("./button-user-JKWTHCFU.js")).IconButtonUser;
     case Icons.BUTTON_VISIBLE2:
       return (await import("./button-visible2-OWFEQ7LR.js")).IconButtonVisible2;
     case Icons.BUTTON_VISIBLE:
@@ -2158,42 +1968,10 @@ var getIcon = async (icon) => {
       return (await import("./check-m-4642VVSW.js")).IconCheckM;
     case Icons.CHECK_S:
       return (await import("./check-s-LPF2H2KI.js")).IconCheckS;
-    case Icons.CHECKLIST_EMPTY_ERROR:
-      return (await import("./checklist-empty-error-TSF3ERNS.js")).IconChecklistEmptyError;
-    case Icons.CHECKLIST_EMPTY_SUCCESS:
-      return (await import("./checklist-empty-success-EEWTRCFT.js")).IconChecklistEmptySuccess;
-    case Icons.CHECKLIST_EMPTY:
-      return (await import("./checklist-empty-I6RCCA64.js")).IconChecklistEmpty;
-    case Icons.CHECKLIST_ERROR:
-      return (await import("./checklist-error-DD5MG6WV.js")).IconChecklistError;
-    case Icons.CHECKLIST_MULTI:
-      return (await import("./checklist-multi-URB2TPA6.js")).IconChecklistMulti;
-    case Icons.CHECKLIST_SUCCESS_ERROR:
-      return (await import("./checklist-success-error-B3FUEZ3D.js")).IconChecklistSuccessError;
-    case Icons.CHECKLIST_SUCCESS:
-      return (await import("./checklist-success-GDERMTSU.js")).IconChecklistSuccess;
-    case Icons.CIRCLE_ARROW0DEG:
-      return (await import("./circle-arrow0deg-37UTL5BU.js")).IconCircleArrow0deg;
-    case Icons.CIRCLE_ARROW135DEG:
-      return (await import("./circle-arrow135deg-5RR33KJP.js")).IconCircleArrow135deg;
-    case Icons.CIRCLE_ARROW180DEG:
-      return (await import("./circle-arrow180deg-VIAIBZSQ.js")).IconCircleArrow180deg;
-    case Icons.CIRCLE_ARROW225DEG:
-      return (await import("./circle-arrow225deg-UEVBQBV3.js")).IconCircleArrow225deg;
-    case Icons.CIRCLE_ARROW270DEG:
-      return (await import("./circle-arrow270deg-BHTELE4B.js")).IconCircleArrow270deg;
-    case Icons.CIRCLE_ARROW315DEG:
-      return (await import("./circle-arrow315deg-T3Y46NUC.js")).IconCircleArrow315deg;
-    case Icons.CIRCLE_ARROW45DEG:
-      return (await import("./circle-arrow45deg-M6E23MG7.js")).IconCircleArrow45deg;
-    case Icons.CIRCLE_ARROW90DEG:
-      return (await import("./circle-arrow90deg-ZWEAGVVD.js")).IconCircleArrow90deg;
     case Icons.CIRCLE_INVISIBLE:
       return (await import("./circle-invisible-XB6MDRV3.js")).IconCircleInvisible;
     case Icons.CIRCLE_SUBTRACT:
       return (await import("./circle-subtract-NBZSPPHT.js")).IconCircleSubtract;
-    case Icons.CIRCLE_USER:
-      return (await import("./circle-user-LUBTZUNS.js")).IconCircleUser;
     case Icons.CIRCLED_ADD:
       return (await import("./circled-add-M4WWNZB4.js")).IconCircledAdd;
     case Icons.CIRCLED_BROKEN_HEART:
@@ -2238,34 +2016,6 @@ var getIcon = async (icon) => {
       return (await import("./code-chevrons-EDJ233QQ.js")).IconCodeChevrons;
     case Icons.COMPANY:
       return (await import("./company-X5URVUFV.js")).IconCompany;
-    case Icons.CONNECT3_WAY_DOWN:
-      return (await import("./connect3-way-down-725NFCWV.js")).IconConnect3WayDown;
-    case Icons.CONNECT3_WAY_LEFT:
-      return (await import("./connect3-way-left-5I34AEJD.js")).IconConnect3WayLeft;
-    case Icons.CONNECT3_WAY_RIGHT:
-      return (await import("./connect3-way-right-5HAKBQFJ.js")).IconConnect3WayRight;
-    case Icons.CONNECT3_WAY_UP:
-      return (await import("./connect3-way-up-TFXGCNZK.js")).IconConnect3WayUp;
-    case Icons.CONNECT4_WAY:
-      return (await import("./connect4-way-OMZJ5T63.js")).IconConnect4Way;
-    case Icons.CONNECT_DOWN:
-      return (await import("./connect-down-EI4HNXUD.js")).IconConnectDown;
-    case Icons.CONNECT_LEFT_RIGHT:
-      return (await import("./connect-left-right-2SUAVPFP.js")).IconConnectLeftRight;
-    case Icons.CONNECT_LEFT:
-      return (await import("./connect-left-VHEAGX6A.js")).IconConnectLeft;
-    case Icons.CONNECT_RIGHT:
-      return (await import("./connect-right-NJNE6AGQ.js")).IconConnectRight;
-    case Icons.CONNECT_TOP_BOTTOM:
-      return (await import("./connect-top-bottom-D6JHXRAW.js")).IconConnectTopBottom;
-    case Icons.CONNECT_UP:
-      return (await import("./connect-up-OD5E4AKH.js")).IconConnectUp;
-    case Icons.COOKIE:
-      return (await import("./cookie-WCSUXD7M.js")).IconCookie;
-    case Icons.CROWN2:
-      return (await import("./crown2-PLJ6VOCE.js")).IconCrown2;
-    case Icons.CROWN:
-      return (await import("./crown-Q5XUTS4M.js")).IconCrown;
     case Icons.DISLIKE:
       return (await import("./dislike-TQTDSYQQ.js")).IconDislike;
     case Icons.EDIT_FAT:
@@ -2362,24 +2112,12 @@ var getIcon = async (icon) => {
       return (await import("./file-tray-stack-WBTXVDJ6.js")).IconFileTrayStack;
     case Icons.FILE_TRAY:
       return (await import("./file-tray-2X64PXDC.js")).IconFileTray;
-    case Icons.FILE_USER2:
-      return (await import("./file-user2-OEUMRCAZ.js")).IconFileUser2;
-    case Icons.FILE_USER:
-      return (await import("./file-user-BIFRFPMS.js")).IconFileUser;
     case Icons.FILE_VISIBLE2:
       return (await import("./file-visible2-4AI4DQ3C.js")).IconFileVisible2;
     case Icons.FILE_VISIBLE:
       return (await import("./file-visible-IVXW44LN.js")).IconFileVisible;
     case Icons.FILE:
       return (await import("./file-XQJ3E5ZJ.js")).IconFile;
-    case Icons.FLAG1:
-      return (await import("./flag1-VTUHPPBP.js")).IconFlag1;
-    case Icons.FLAG2:
-      return (await import("./flag2-BQTLA5DV.js")).IconFlag2;
-    case Icons.FLAG3:
-      return (await import("./flag3-Y5GAFYSV.js")).IconFlag3;
-    case Icons.FLAG_GOLF:
-      return (await import("./flag-golf-DZP5B7QH.js")).IconFlagGolf;
     case Icons.FOLDER_ADD2:
       return (await import("./folder-add2-PK4JI76I.js")).IconFolderAdd2;
     case Icons.FOLDER_ADD:
@@ -2432,28 +2170,12 @@ var getIcon = async (icon) => {
       return (await import("./folder-subtract2-IRM2YRSF.js")).IconFolderSubtract2;
     case Icons.FOLDER_SUBTRACT:
       return (await import("./folder-subtract-PGJCONHN.js")).IconFolderSubtract;
-    case Icons.FOLDER_USER2:
-      return (await import("./folder-user2-CAGMZSUF.js")).IconFolderUser2;
-    case Icons.FOLDER_USER:
-      return (await import("./folder-user-JZIXA64J.js")).IconFolderUser;
     case Icons.FOLDER_VISIBLE2:
       return (await import("./folder-visible2-LNOQCJDX.js")).IconFolderVisible2;
     case Icons.FOLDER_VISIBLE:
       return (await import("./folder-visible-TJ5VCF3P.js")).IconFolderVisible;
     case Icons.FOLDER:
       return (await import("./folder-3SJL7PNN.js")).IconFolder;
-    case Icons.FOLLOWED_BY_ADD:
-      return (await import("./followed-by-add-O56VS7TV.js")).IconFollowedByAdd;
-    case Icons.FOLLOWED_BY_ARROW:
-      return (await import("./followed-by-arrow-G7GR2AJH.js")).IconFollowedByArrow;
-    case Icons.FOLLOWED_BY:
-      return (await import("./followed-by-46HRB7W7.js")).IconFollowedBy;
-    case Icons.FOLLOWING_ADD:
-      return (await import("./following-add-5UVGLXYT.js")).IconFollowingAdd;
-    case Icons.FOLLOWING_ARROW:
-      return (await import("./following-arrow-D54YU6YB.js")).IconFollowingArrow;
-    case Icons.FOLLOWING:
-      return (await import("./following-TOJ6IFAD.js")).IconFollowing;
     case Icons.GIRL:
       return (await import("./girl-6GZ6GYXG.js")).IconGirl;
     case Icons.GIT_BRANCH:
@@ -2472,12 +2194,6 @@ var getIcon = async (icon) => {
       return (await import("./git-pull-request-IMTARDV2.js")).IconGitPullRequest;
     case Icons.GIT_REPO_FORK:
       return (await import("./git-repo-fork-KNFQJ2FR.js")).IconGitRepoFork;
-    case Icons.GLOBE2:
-      return (await import("./globe2-NXGMZQKS.js")).IconGlobe2;
-    case Icons.GLOBE3:
-      return (await import("./globe3-LXIBHBTI.js")).IconGlobe3;
-    case Icons.GLOBE:
-      return (await import("./globe-UHPGWQEN.js")).IconGlobe;
     case Icons.HEART_BROKEN_SMALL:
       return (await import("./heart-broken-small-LEAFV2CK.js")).IconHeartBrokenSmall;
     case Icons.HEART_FAT:
@@ -2488,8 +2204,6 @@ var getIcon = async (icon) => {
       return (await import("./heart-m-QOGIJ44N.js")).IconHeartM;
     case Icons.HEART_SMALL:
       return (await import("./heart-small-K5PHO353.js")).IconHeartSmall;
-    case Icons.HOME_LOCATION:
-      return (await import("./home-location-FYULEMLD.js")).IconHomeLocation;
     case Icons.INFO_FAT:
       return (await import("./info-fat-ASMFH6MW.js")).IconInfoFat;
     case Icons.INFO_L:
@@ -2536,14 +2250,6 @@ var getIcon = async (icon) => {
       return (await import("./key-tab-ABE6BVZP.js")).IconKeyTab;
     case Icons.KEY_UP:
       return (await import("./key-up-6CJJFKCO.js")).IconKeyUp;
-    case Icons.LAYERS2_DOTTED:
-      return (await import("./layers2-dotted-B7A5IDRZ.js")).IconLayers2Dotted;
-    case Icons.LAYERS2:
-      return (await import("./layers2-2Z5PMFZA.js")).IconLayers2;
-    case Icons.LAYERS3_DOTTED:
-      return (await import("./layers3-dotted-XUHD2TLQ.js")).IconLayers3Dotted;
-    case Icons.LAYERS3:
-      return (await import("./layers3-BEPV7E4C.js")).IconLayers3;
     case Icons.LIKE:
       return (await import("./like-5BGMS4AE.js")).IconLike;
     case Icons.LINK:
@@ -2616,10 +2322,6 @@ var getIcon = async (icon) => {
       return (await import("./note-subtract2-DDC4JQOO.js")).IconNoteSubtract2;
     case Icons.NOTE_SUBTRACT:
       return (await import("./note-subtract-PV2ZUCNM.js")).IconNoteSubtract;
-    case Icons.NOTE_USER2:
-      return (await import("./note-user2-EEOXTOTG.js")).IconNoteUser2;
-    case Icons.NOTE_USER:
-      return (await import("./note-user-KO7XCE5X.js")).IconNoteUser;
     case Icons.NOTE_VISIBLE2:
       return (await import("./note-visible2-O2BC2T6U.js")).IconNoteVisible2;
     case Icons.NOTE_VISIBLE:
@@ -2640,24 +2342,6 @@ var getIcon = async (icon) => {
       return (await import("./pin-I2TXPSNB.js")).IconPin;
     case Icons.PLANNER:
       return (await import("./planner-3CPMROQU.js")).IconPlanner;
-    case Icons.PLUG_TYPE_I:
-      return (await import("./plug-type-i-QD5NYUCX.js")).IconPlugTypeI;
-    case Icons.PLUG_TYPE_A:
-      return (await import("./plug-type-a-D376VSA5.js")).IconPlugTypeA;
-    case Icons.PLUG_TYPE_B:
-      return (await import("./plug-type-b-WZ6HCPUR.js")).IconPlugTypeB;
-    case Icons.PLUG_TYPE_C:
-      return (await import("./plug-type-c-BDHJHSVK.js")).IconPlugTypeC;
-    case Icons.PLUG_TYPE_D:
-      return (await import("./plug-type-d-CZV46YLV.js")).IconPlugTypeD;
-    case Icons.PLUG_TYPE_G:
-      return (await import("./plug-type-g-Z6H6MOOD.js")).IconPlugTypeG;
-    case Icons.PLUG_TYPE_J:
-      return (await import("./plug-type-j-2OCZWKJN.js")).IconPlugTypeJ;
-    case Icons.PLUG_TYPE_K:
-      return (await import("./plug-type-k-DUJIS5FD.js")).IconPlugTypeK;
-    case Icons.PLUG_TYPE_L:
-      return (await import("./plug-type-l-IGCXUZ2C.js")).IconPlugTypeL;
     case Icons.POINTER_ARROW_LINE:
       return (await import("./pointer-arrow-line-YAKPV35E.js")).IconPointerArrowLine;
     case Icons.POINTER_ARROW:
@@ -2682,18 +2366,6 @@ var getIcon = async (icon) => {
       return (await import("./question-mark-m-Y2XF7RIF.js")).IconQuestionMarkM;
     case Icons.QUESTION_MARK_S:
       return (await import("./question-mark-s-AMUUKHFW.js")).IconQuestionMarkS;
-    case Icons.RADAR:
-      return (await import("./radar-L4JFYEPE.js")).IconRadar;
-    case Icons.RADAR2:
-      return (await import("./radar2-G4OENEDV.js")).IconRadar2;
-    case Icons.RADAR3:
-      return (await import("./radar3-JZH3EN35.js")).IconRadar3;
-    case Icons.RADAR4:
-      return (await import("./radar4-AOHCWOGC.js")).IconRadar4;
-    case Icons.RADAR5:
-      return (await import("./radar5-DFYKF6UR.js")).IconRadar5;
-    case Icons.RADAR6:
-      return (await import("./radar6-JUUVCXGG.js")).IconRadar6;
     case Icons.REMOVE_LINES:
       return (await import("./remove-lines-CDCMCNNG.js")).IconRemoveLines;
     case Icons.SEARCH_FAT:
@@ -2716,48 +2388,6 @@ var getIcon = async (icon) => {
       return (await import("./settings5-JSTGJEFA.js")).IconSettings5;
     case Icons.SETTINGS:
       return (await import("./settings-OASTDUFU.js")).IconSettings;
-    case Icons.SHOVEL:
-      return (await import("./shovel-ZFYLS4HG.js")).IconShovel;
-    case Icons.SIM:
-      return (await import("./sim-6JRFFCT4.js")).IconSim;
-    case Icons.SIMPLE_NOTE_CENTER:
-      return (await import("./simple-note-center-RPXXQ3EG.js")).IconSimpleNoteCenter;
-    case Icons.SIMPLE_NOTE_JUSTIFY:
-      return (await import("./simple-note-justify-EWG2BT4A.js")).IconSimpleNoteJustify;
-    case Icons.SIMPLE_NOTE_LEFT:
-      return (await import("./simple-note-left-DBGDQCGT.js")).IconSimpleNoteLeft;
-    case Icons.SIMPLE_NOTE_MULTI_EMPTY:
-      return (await import("./simple-note-multi-empty-MI2ZUFSX.js")).IconSimpleNoteMultiEmpty;
-    case Icons.SIMPLE_NOTE_MULTI:
-      return (await import("./simple-note-multi-TOA5DK7Q.js")).IconSimpleNoteMulti;
-    case Icons.SIMPLE_NOTE_RIGHT:
-      return (await import("./simple-note-right-NZBCH6T3.js")).IconSimpleNoteRight;
-    case Icons.SIMPLE_NOTE:
-      return (await import("./simple-note-WKGCQ3W5.js")).IconSimpleNote;
-    case Icons.SOCKET_TYPE_A:
-      return (await import("./socket-type-a-YWE2L4BT.js")).IconSocketTypeA;
-    case Icons.SOCKET_TYPE_B:
-      return (await import("./socket-type-b-QZCRTN3I.js")).IconSocketTypeB;
-    case Icons.SOCKET_TYPE_C:
-      return (await import("./socket-type-c-IWKC67MG.js")).IconSocketTypeC;
-    case Icons.SOCKET_TYPE_D:
-      return (await import("./socket-type-d-ZEBFWNEB.js")).IconSocketTypeD;
-    case Icons.SOCKET_TYPE_E:
-      return (await import("./socket-type-e-JX4FMRP4.js")).IconSocketTypeE;
-    case Icons.SOCKET_TYPE_F:
-      return (await import("./socket-type-f-4IYQ5PM3.js")).IconSocketTypeF;
-    case Icons.SOCKET_TYPE_G:
-      return (await import("./socket-type-g-WPK3EU4Q.js")).IconSocketTypeG;
-    case Icons.SOCKET_TYPE_I:
-      return (await import("./socket-type-i-EIRC4FKL.js")).IconSocketTypeI;
-    case Icons.SOCKET_TYPE_J:
-      return (await import("./socket-type-j-PAIIICNF.js")).IconSocketTypeJ;
-    case Icons.SOCKET_TYPE_K:
-      return (await import("./socket-type-k-UI7OUUTW.js")).IconSocketTypeK;
-    case Icons.SOCKET_TYPE_L433:
-      return (await import("./socket-type-l433-T74GD4SQ.js")).IconSocketTypeL433;
-    case Icons.SOCKET_TYPE_L444:
-      return (await import("./socket-type-l444-S7R2MCFT.js")).IconSocketTypeL444;
     case Icons.SPEECH_BALLOON2:
       return (await import("./speech-balloon2-B5JPDRWN.js")).IconSpeechBalloon2;
     case Icons.SPEECH_BALLOON_SQUARE2:
@@ -2772,8 +2402,6 @@ var getIcon = async (icon) => {
       return (await import("./speech-balloon-7CJ57WUS.js")).IconSpeechBalloon;
     case Icons.SPEECH_BALLOONS:
       return (await import("./speech-balloons-BV5OKSKK.js")).IconSpeechBalloons;
-    case Icons.SQUARE_USER:
-      return (await import("./square-user-UXOWXYMA.js")).IconSquareUser;
     case Icons.SQUARED_ADD:
       return (await import("./squared-add-IE3CG5OU.js")).IconSquaredAdd;
     case Icons.SQUARED_BROKEN_HEART:
@@ -2814,20 +2442,6 @@ var getIcon = async (icon) => {
       return (await import("./star-m-YM5FQUAU.js")).IconStarM;
     case Icons.STAR_SMALL:
       return (await import("./star-small-M73FZAOV.js")).IconStarSmall;
-    case Icons.STICKER_COPY:
-      return (await import("./sticker-copy-X6W3UUFL.js")).IconStickerCopy;
-    case Icons.STICKER2_ROUNDED:
-      return (await import("./sticker2-rounded-5CBQEW5U.js")).IconSticker2Rounded;
-    case Icons.STICKER332:
-      return (await import("./sticker332-B2JZT6BG.js")).IconSticker332;
-    case Icons.STICKER390:
-      return (await import("./sticker390-VL6WOL5A.js")).IconSticker390;
-    case Icons.STICKER_CHECK:
-      return (await import("./sticker-check-TSCFGBAJ.js")).IconStickerCheck;
-    case Icons.STICKER_ROUNDED_CHECK:
-      return (await import("./sticker-rounded-check-532WYRD2.js")).IconStickerRoundedCheck;
-    case Icons.STICKER_ROUNDED:
-      return (await import("./sticker-rounded-HDR55IFF.js")).IconStickerRounded;
     case Icons.STOPWATCH:
       return (await import("./stopwatch-5MBDH773.js")).IconStopwatch;
     case Icons.SUBTRACT_FAT:
@@ -2866,14 +2480,10 @@ var getIcon = async (icon) => {
       return (await import("./talk-star-G5ONKT43.js")).IconTalkStar;
     case Icons.TALK_SUBTRACT:
       return (await import("./talk-subtract-QR22BR7R.js")).IconTalkSubtract;
-    case Icons.TALK_USER:
-      return (await import("./talk-user-CHISGIO2.js")).IconTalkUser;
     case Icons.TALK_VISIBLE:
       return (await import("./talk-visible-SSY6G43L.js")).IconTalkVisible;
     case Icons.TALK:
       return (await import("./talk-KVV77RYX.js")).IconTalk;
-    case Icons.TARGET2:
-      return (await import("./target2-BU4GXA3Z.js")).IconTarget2;
     case Icons.TARGET:
       return (await import("./target-YABV67JX.js")).IconTarget;
     case Icons.TEXT_ALIGN_CENTER:
@@ -2924,8 +2534,6 @@ var getIcon = async (icon) => {
       return (await import("./trash2-C5U6D75Q.js")).IconTrash2;
     case Icons.TRASH:
       return (await import("./trash-MNZLK4KA.js")).IconTrash;
-    case Icons.TRIANGLE_USER:
-      return (await import("./triangle-user-FTJ27SF2.js")).IconTriangleUser;
     case Icons.TRIANGLED_EXCLAMATION_MARK:
       return (await import("./triangled-exclamation-mark-IUQUCAKV.js")).IconTriangledExclamationMark;
     case Icons.TRIANGLED_INFO:
@@ -2934,50 +2542,16 @@ var getIcon = async (icon) => {
       return (await import("./triangled-question-mark-YALEIFBQ.js")).IconTriangledQuestionMark;
     case Icons.TRIANGLED:
       return (await import("./triangled-SL74VFWQ.js")).IconTriangled;
-    case Icons.USER_ADD2:
-      return (await import("./user-add2-WKRWPLJJ.js")).IconUserAdd2;
-    case Icons.USER_ADD3:
-      return (await import("./user-add3-GSI3ARQF.js")).IconUserAdd3;
     case Icons.USER_ADD:
       return (await import("./user-add-GHJ3EQZH.js")).IconUserAdd;
-    case Icons.USER_DELETE2:
-      return (await import("./user-delete2-YREBPHI4.js")).IconUserDelete2;
-    case Icons.USER_DELETE3:
-      return (await import("./user-delete3-P6YZ3TEY.js")).IconUserDelete3;
     case Icons.USER_DELETE:
       return (await import("./user-delete-26T6D234.js")).IconUserDelete;
-    case Icons.USER_FAT:
-      return (await import("./user-fat-FXCZAOMA.js")).IconUserFat;
     case Icons.USER_GROUP:
       return (await import("./user-group-VFEY5NYK.js")).IconUserGroup;
-    case Icons.USER_HEART_COPY:
-      return (await import("./user-heart-copy-ZMAPSEBD.js")).IconUserHeartCopy;
-    case Icons.USER_HEART2_COPY:
-      return (await import("./user-heart2-copy-YV6HDCG5.js")).IconUserHeart2Copy;
-    case Icons.USER_L:
-      return (await import("./user-l-SXC6TJCS.js")).IconUserL;
-    case Icons.USER_M:
-      return (await import("./user-m-HSVFKD6L.js")).IconUserM;
-    case Icons.USER_S:
-      return (await import("./user-s-PNLBHRPD.js")).IconUserS;
-    case Icons.USER_SHIELD2:
-      return (await import("./user-shield2-255UB5FE.js")).IconUserShield2;
-    case Icons.USER_SHIELD:
-      return (await import("./user-shield-VINDVORM.js")).IconUserShield;
     case Icons.USER:
       return (await import("./user-UT7CAEIV.js")).IconUser;
     case Icons.USERS:
       return (await import("./users-22WQV6JI.js")).IconUsers;
-    case Icons.VECTOR_CURVE:
-      return (await import("./vector-curve-7D3R6AZF.js")).IconVectorCurve;
-    case Icons.VECTOR_SHAPE:
-      return (await import("./vector-shape-YGF3Z4Q3.js")).IconVectorShape;
-    case Icons.VECTOR_SQUARE:
-      return (await import("./vector-square-X4AC3LUD.js")).IconVectorSquare;
-    case Icons.VECTOR_TRAPEZOID:
-      return (await import("./vector-trapezoid-Q3OIUC7L.js")).IconVectorTrapezoid;
-    case Icons.VECTOR_TRIANGLE:
-      return (await import("./vector-triangle-DTYNXWZC.js")).IconVectorTriangle;
     case Icons.VISIBLE_FAT:
       return (await import("./visible-fat-FPJW6MCW.js")).IconVisibleFat;
     case Icons.VISIBLE_L:
@@ -2986,22 +2560,10 @@ var getIcon = async (icon) => {
       return (await import("./visible-m-224XFSOB.js")).IconVisibleM;
     case Icons.VISIBLE_S:
       return (await import("./visible-s-LUAACX7S.js")).IconVisibleS;
-    case Icons.WATCH:
-      return (await import("./watch-NZJG63ST.js")).IconWatch;
     case Icons.WHEELCHAIR_ACTION:
       return (await import("./wheelchair-action-XI3H3HJH.js")).IconWheelchairAction;
     case Icons.WHEELCHAIR:
       return (await import("./wheelchair-TYIHSKTG.js")).IconWheelchair;
-    case Icons.WINDOW_BROWSER:
-      return (await import("./window-browser-43DMOQ54.js")).IconWindowBrowser;
-    case Icons.WINDOW_CODE:
-      return (await import("./window-code-2XQX7PR2.js")).IconWindowCode;
-    case Icons.WINDOW_MULTI:
-      return (await import("./window-multi-T36Z6DHY.js")).IconWindowMulti;
-    case Icons.WINDOW:
-      return (await import("./window-4SNCD66Y.js")).IconWindow;
-    case Icons.WORLD:
-      return (await import("./world-4QDAAQT5.js")).IconWorld;
     case Icons.AIRPLANE_ARRIVALS:
       return (await import("./airplane-arrivals-QDH362KZ.js")).IconAirplaneArrivals;
     case Icons.AIRPLANE_DEPARTURES:
@@ -3236,12 +2798,12 @@ var IconCategories = [
   "Interface",
   "Shapes",
   "Symbol",
-  "Media",
   "Food & Drinks",
   "Food-Drinks",
   "Household",
   "Things",
   "Appliance",
+  "Media",
   "Food",
   "Tools",
   "Kitchen",
@@ -3272,8 +2834,8 @@ var IconCategories = [
   "Text",
   "Sports",
   "Accessibility",
-  "UI",
   "Tile",
+  "UI",
   "Document",
   "Emergency",
   "Medical"
@@ -3591,15 +3153,6 @@ var IconTags = [
   "leftwards",
   "connection",
   "collaboration",
-  "skip",
-  "fast-forward",
-  "sequence",
-  "fast forward",
-  "video editing",
-  "media player",
-  "jump",
-  "multimedia",
-  "digital",
   "branching out",
   "directions",
   "decision",
@@ -3629,17 +3182,8 @@ var IconTags = [
   "Thick",
   "wide",
   "chevron",
-  "time",
-  "past",
-  "history",
-  "clock",
-  "timeline",
-  "flow",
-  "memory",
-  "recent",
-  "updates",
-  "activity",
   "shift",
+  "flow",
   "swap",
   "mirror",
   "relocation",
@@ -3762,6 +3306,7 @@ var IconTags = [
   "pistol",
   "burger",
   "fast food",
+  "digital",
   "popular",
   "device",
   "hot beverage",
@@ -3776,6 +3321,7 @@ var IconTags = [
   "sound",
   "ringing",
   "emergency",
+  "clock",
   "loud",
   "urgent",
   "attention",
@@ -3806,6 +3352,7 @@ var IconTags = [
   "electronics",
   "photography",
   "video recording",
+  "multimedia",
   "picture",
   "film",
   "capture",
@@ -3910,9 +3457,12 @@ var IconTags = [
   "project",
   "flight",
   "backward",
+  "skip",
+  "media player",
   "rewind",
   "play",
   "skip forward",
+  "fast forward",
   "advance",
   "track",
   "playlist",
@@ -4083,6 +3633,7 @@ var IconTags = [
   "psychology",
   "medicine",
   "cognition",
+  "memory",
   "branch",
   "leaves",
   "environment",
@@ -4667,6 +4218,7 @@ var IconTags = [
   "numeric",
   "numbers",
   "board games",
+  "activity",
   "seven",
   "random number",
   "game interface",
@@ -4828,9 +4380,6 @@ var IconTags = [
   "new",
   "plus sign",
   "square",
-  "45 degrees",
-  "element",
-  "45 degree",
   "address",
   "username",
   "handle",
@@ -4876,6 +4425,7 @@ var IconTags = [
   "segmented",
   "template",
   "effect",
+  "element",
   "split view",
   "split screen",
   "segments",
@@ -4884,35 +4434,16 @@ var IconTags = [
   "minus",
   "deduct",
   "physical",
-  "bookshelf",
-  "paperback",
-  "novel",
-  "book",
-  "pages",
-  "story",
-  "side view",
-  "academic",
-  "publication",
-  "ebook",
-  "textbook",
   "box",
-  "closed",
-  "package",
-  "delivery",
-  "sealed",
   "enclosed",
   "packing",
   "inside",
   "packaging",
   "restricted",
-  "outline",
-  "rectangle",
-  "shipping",
-  "parcel",
-  "carton",
-  "unpack",
   "context",
+  "package",
   "placeholder",
+  "rectangle",
   "containment",
   "child",
   "youth",
@@ -4932,15 +4463,6 @@ var IconTags = [
   "broken",
   "romance",
   "feelings",
-  "bug",
-  "error",
-  "issue",
-  "problem",
-  "software",
-  "pest",
-  "safari",
-  "legs",
-  "glitch",
   "place of worship",
   "holy",
   "Christianity",
@@ -5006,16 +4528,10 @@ var IconTags = [
   "lookup",
   "star",
   "rating",
+  "outline",
   "rate",
   "subtract",
   "calculate",
-  "user",
-  "account",
-  "management",
-  "staff",
-  "login",
-  "member",
-  "identity",
   "visible element",
   "visible",
   "graphical user interface",
@@ -5028,6 +4544,7 @@ var IconTags = [
   "planner",
   "time management",
   "deadline",
+  "time",
   "tracking",
   "visualization",
   "bubbles",
@@ -5064,47 +4581,11 @@ var IconTags = [
   "planning",
   "progress tracking",
   "to-do list",
+  "management",
   "productivity",
   "validation",
   "approved",
   "correct",
-  "checklist",
-  "empty",
-  "incomplete",
-  "unchecked",
-  "exclamation",
-  "completed",
-  "done",
-  "achievement",
-  "task list",
-  "to do",
-  "mistake",
-  "checkboxes",
-  "task management",
-  "status",
-  "issues",
-  "accomplishment",
-  "todo list",
-  "finished",
-  "tick mark",
-  "zero degree",
-  "Circular arrow",
-  "Angle",
-  "Rotation",
-  "User interface",
-  "Arrow icon",
-  "135 degree",
-  "Circular motion",
-  "Circular design",
-  "flip",
-  "180 degrees",
-  "270 degrees",
-  "spinner",
-  "315 degrees",
-  "Clockwise",
-  "Rotate",
-  "90 degrees",
-  "Vector",
   "unknown",
   "secret",
   "mask",
@@ -5117,11 +4598,14 @@ var IconTags = [
   "illustration",
   "ui design",
   "circled",
+  "completed",
   "acknowledgment",
   "pen",
   "write",
   "hazard",
   "caution",
+  "error",
+  "exclamation",
   "affection",
   "like button",
   "favorite button",
@@ -5142,6 +4626,7 @@ var IconTags = [
   "Outline",
   "Graphic design",
   "loading",
+  "spinner",
   "animation",
   "waiting",
   "loading indicator",
@@ -5163,6 +4648,7 @@ var IconTags = [
   "syntax",
   "brackets",
   "code editor",
+  "software",
   "coding standards",
   "chevrons",
   "nested",
@@ -5177,32 +4663,6 @@ var IconTags = [
   "enterprise",
   "company logo",
   "branding",
-  "3-way",
-  "junction",
-  "three-way",
-  "route",
-  "four-way",
-  "links",
-  "endpoint",
-  "pathway",
-  "alignment",
-  "server",
-  "dessert",
-  "sweet",
-  "flat design",
-  "biscuit",
-  "delicious",
-  "indulgence",
-  "crown",
-  "royalty",
-  "queen",
-  "monarchy",
-  "power",
-  "regal",
-  "ornate",
-  "royal",
-  "leader",
-  "glory",
   "dislike",
   "thumb down",
   "unlike",
@@ -5220,6 +4680,7 @@ var IconTags = [
   "writing",
   "edit icon",
   "simplified",
+  "user",
   "minimalistic",
   "file system",
   "data management",
@@ -5234,7 +4695,9 @@ var IconTags = [
   "corrupted",
   "inaccessible",
   "data loss",
+  "problem",
   "depression",
+  "status",
   "cloud computing",
   "backup",
   "script",
@@ -5279,27 +4742,9 @@ var IconTags = [
   "tray",
   "collection",
   "records",
-  "personal",
   "accessible",
   "visible file",
   "show",
-  "flag",
-  "national",
-  "country",
-  "translation",
-  "national flag",
-  "two stripes",
-  "patriotic",
-  "emblem",
-  "patriotism",
-  "nationality",
-  "sovereignty",
-  "category",
-  "language",
-  "international",
-  "golf",
-  "target",
-  "course",
   "directory",
   "folders",
   "Folder",
@@ -5308,6 +4753,7 @@ var IconTags = [
   "Sadness",
   "Loss",
   "Sentimental",
+  "User interface",
   "Folder icon",
   "Heart icon",
   "Symbol icon",
@@ -5341,20 +4787,6 @@ var IconTags = [
   "hierarchy",
   "organized",
   "digital organization",
-  "follow",
-  "social",
-  "subscribe",
-  "users",
-  "followers",
-  "relationship status",
-  "online presence",
-  "notifications",
-  "following",
-  "following button",
-  "add user",
-  "interactions",
-  "user account",
-  "follower",
   "people",
   "representation",
   "version control",
@@ -5371,6 +4803,7 @@ var IconTags = [
   "merge process",
   "code changes",
   "pull request",
+  "closed",
   "source code",
   "draft",
   "work in progress",
@@ -5381,21 +4814,11 @@ var IconTags = [
   "review",
   "source control",
   "fork",
-  "earth",
-  "world",
-  "globe",
-  "global",
-  "planet",
-  "worldwide",
-  "international business",
-  "map",
-  "globalization",
   "small",
   "Valentine's Day",
   "dating",
   "health",
   "medical",
-  "pin",
   "instructions",
   "notice",
   "guide",
@@ -5437,14 +4860,6 @@ var IconTags = [
   "modifier",
   "tab key",
   "arrow key",
-  "layers",
-  "dotted",
-  "two layers",
-  "overlay",
-  "3",
-  "layers stack",
-  "levels",
-  "functionality",
   "thumb",
   "react",
   "positive",
@@ -5456,6 +4871,7 @@ var IconTags = [
   "loader",
   "wait",
   "loading screen",
+  "sequence",
   "man",
   "masculinity",
   "widget",
@@ -5487,12 +4903,10 @@ var IconTags = [
   "research",
   "bookmark",
   "erase",
-  "user profile",
-  "note symbol",
-  "note user",
   "viewable",
   "sticky note",
   "comment",
+  "achievement",
   "accuracy",
   "bullseye",
   "aim",
@@ -5506,31 +4920,13 @@ var IconTags = [
   "optimization",
   "efficient",
   "speedometer",
+  "pin",
   "gps",
+  "map",
   "point of interest",
   "geo",
   "destination",
   "place",
-  "socket",
-  "outlet",
-  "plug",
-  "cable",
-  "adapter",
-  "American plug",
-  "Canadian plug",
-  "Mexican plug",
-  "Japanese plug",
-  "connector",
-  "charging",
-  "type-b",
-  "usb",
-  "cord",
-  "charger",
-  "type D",
-  "jack plug",
-  "hardware",
-  "interfacing",
-  "electrical",
   "clean",
   "line icon",
   "Indicator",
@@ -5539,24 +4935,13 @@ var IconTags = [
   "Design",
   "crosshair",
   "cursor",
+  "target",
   "hand",
   "applications",
   "websites",
   "fat style",
   "puzzle",
   "interrogation",
-  "detection",
-  "military",
-  "monitoring",
-  "radar system",
-  "radar",
-  "scanner",
-  "radar3",
-  "blips",
-  "surveillance",
-  "scanning",
-  "advanced",
-  "level 5",
   "seek",
   "segment",
   "categorization",
@@ -5571,46 +4956,6 @@ var IconTags = [
   "gears",
   "setup",
   "customization",
-  "digging",
-  "utensil",
-  "implement",
-  "simulation",
-  "similarity",
-  "virtual model",
-  "imitation",
-  "pattern",
-  "align",
-  "justify",
-  "formatting",
-  "paragraph",
-  "justify text",
-  "blank",
-  "bullet points",
-  "notepad",
-  "type A",
-  "Electricity",
-  "Plug",
-  "Outlet",
-  "Power",
-  "Type B",
-  "Socket",
-  "Electrical",
-  "type C",
-  "USB",
-  "port",
-  "Type D",
-  "Connection",
-  "Electronics",
-  "Audio",
-  "Video",
-  "Equipment",
-  "Prongs",
-  "European",
-  "type F",
-  "type",
-  "power supply",
-  "socket type",
-  "L-shaped",
   "chat",
   "conversation",
   "dialogue",
@@ -5626,9 +4971,9 @@ var IconTags = [
   "conversations",
   "messages",
   "conversation bubbles",
-  "square user",
   "creation",
   "unhappy",
+  "done",
   "selected",
   "acknowledged",
   "iconography",
@@ -5642,6 +4987,7 @@ var IconTags = [
   "Inquiry",
   "Sign",
   "squared",
+  "functionality",
   "availability",
   "active",
   "visible option",
@@ -5656,9 +5002,6 @@ var IconTags = [
   "rating system",
   "outlined",
   "letter m",
-  "sticker",
-  "colorful",
-  "390",
   "timer",
   "countdown",
   "stopwatch",
@@ -5673,9 +5016,14 @@ var IconTags = [
   "precision",
   "aiming",
   "concentric circles",
+  "alignment",
+  "formatting",
   "word processing",
   "alignment tool",
+  "align",
+  "paragraph",
   "text box",
+  "justify",
   "text-align",
   "justification",
   "design tool",
@@ -5726,36 +5074,21 @@ var IconTags = [
   "info icon",
   "play button",
   "geometric",
-  "registration",
-  "sign-up",
   "register",
-  "community",
   "sign up",
+  "member",
+  "account",
   "new user",
-  "disable",
-  "ban",
   "admin",
   "permission",
-  "figure",
-  "User",
-  "Profile",
-  "Heart",
-  "Affection",
-  "Like",
-  "Social media",
-  "Dating",
-  "Love",
-  "Relationship",
-  "personnel",
-  "profile picture",
-  "personality",
+  "users",
+  "social",
+  "community",
   "customer",
+  "login",
+  "personality",
   "individual",
   "members",
-  "abstract",
-  "customizable",
-  "background",
-  "trapezoid",
   "noticeable",
   "prominent",
   "seeing",
@@ -5764,12 +5097,6 @@ var IconTags = [
   "expose",
   "observe",
   "sight",
-  "timepiece",
-  "wristwatch",
-  "accessory",
-  "personal item",
-  "watch face",
-  "timekeeping",
   "wheelchair",
   "mobility",
   "disability",
@@ -5778,19 +5105,6 @@ var IconTags = [
   "diversity",
   "inclusivity",
   "handicap",
-  "web browser",
-  "browsing",
-  "window",
-  "windows",
-  "operating system",
-  "GUI",
-  "multitasking",
-  "Application",
-  "Screen",
-  "Window frame",
-  "maps",
-  "geolocation",
-  "multiculturalism",
   "airport",
   "arrival",
   "airplane",
@@ -5837,6 +5151,7 @@ var IconTags = [
   "Recreation",
   "bike",
   "cycling",
+  "route",
   "path",
   "exercise",
   "cross",
@@ -5910,10 +5225,12 @@ var IconTags = [
   "Parents",
   "Children",
   "Safety",
+  "Love",
   "Nuclear family",
   "sail",
   "vessel",
   "Emergency",
+  "Equipment",
   "Extinguish",
   "Protection",
   "Fire Safety",
@@ -5960,6 +5277,7 @@ var IconTags = [
   "Journey",
   "GPS",
   "Explore",
+  "geolocation",
   "socialization",
   "waiting area",
   "public space",
@@ -6052,6 +5370,8 @@ var IconTags = [
   "Sanitation",
   "Gender-neutral restroom",
   "Restroom icon",
+  "surveillance",
+  "monitoring",
   "CCTV",
   "security system",
   "watchful",
@@ -6072,6 +5392,7 @@ var IconTags = [
   "lower level",
   "basement",
   "directional signage",
+  "levels",
   "indoor navigation",
   "steps",
   "escalator",
@@ -6126,6 +5447,7 @@ var IconTags = [
   "variation",
   "weather website",
   "flash",
+  "power",
   "moon",
   "nighttime",
   "clear skies",
@@ -6412,12 +5734,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_arrow-rounded-right-up.svg-EYJZ5YE7.js")).default;
     case Icons.ARROW_SHARE:
       return (await import("./icon_arrow-share.svg-MYI4SZZU.js")).default;
-    case Icons.ARROW_SKIP2:
-      return (await import("./icon_arrow-skip-2.svg-EYTKZXHV.js")).default;
-    case Icons.ARROW_SKIP3:
-      return (await import("./icon_arrow-skip-3.svg-XRRZVQQM.js")).default;
-    case Icons.ARROW_SKIP:
-      return (await import("./icon_arrow-skip.svg-A2DPVVDJ.js")).default;
     case Icons.ARROW_SPREAD_SPLIT:
       return (await import("./icon_arrow-spread-split.svg-NS7KYRAJ.js")).default;
     case Icons.ARROW_SPREAD:
@@ -6470,10 +5786,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_arrow-thick-wide-top-right.svg-X7K36O76.js")).default;
     case Icons.ARROW_THICK_WIDE_UP:
       return (await import("./icon_arrow-thick-wide-up.svg-N7QD5OZX.js")).default;
-    case Icons.ARROW_TIME_PAST:
-      return (await import("./icon_arrow-time-past.svg-X3H3GBN3.js")).default;
-    case Icons.ARROW_TIME_RECENT:
-      return (await import("./icon_arrow-time-recent.svg-K4JHR4FW.js")).default;
     case Icons.ARROW_TRANSFER_BL_TR:
       return (await import("./icon_arrow-transfer-bl-tr.svg-R4JGKDQN.js")).default;
     case Icons.ARROW_TRANSFER_LEFT_RIGHT:
@@ -7042,14 +6354,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_add-m.svg-D5A6LSPK.js")).default;
     case Icons.ADD_S:
       return (await import("./icon_add-s.svg-ZGVCAYTF.js")).default;
-    case Icons.ANGLE45_BOTTOM_LEFT:
-      return (await import("./icon_angle-45-bottom-left.svg-FUXA2TDM.js")).default;
-    case Icons.ANGLE45_BOTTOM_RIGHT:
-      return (await import("./icon_angle-45-bottom-right.svg-UHJW2Y7N.js")).default;
-    case Icons.ANGLE45_TOP_LEFT:
-      return (await import("./icon_angle-45-top-left.svg-TZRVXD53.js")).default;
-    case Icons.ANGLE45_TOP_RIGHT:
-      return (await import("./icon_angle-45-top-right.svg-VVHK3UOD.js")).default;
     case Icons.AT_SIGN:
       return (await import("./icon_at-sign.svg-NF2DNGDI.js")).default;
     case Icons.BLOCK_PARTIALS:
@@ -7106,24 +6410,8 @@ var getMeta = async (icon) => {
       return (await import("./icon_board-subtract-2.svg-DRV3J27W.js")).default;
     case Icons.BOARD:
       return (await import("./icon_board.svg-CMMWRB6H.js")).default;
-    case Icons.BOOK_BOTTOM:
-      return (await import("./icon_book-bottom.svg-URKYPAJ6.js")).default;
-    case Icons.BOOK_PAGES:
-      return (await import("./icon_book-pages.svg-7XWOH4YD.js")).default;
-    case Icons.BOOK_SIDE:
-      return (await import("./icon_book-side.svg-WM4JCDVL.js")).default;
-    case Icons.BOOK:
-      return (await import("./icon_book.svg-RJXBG72S.js")).default;
-    case Icons.BOOKS:
-      return (await import("./icon_books.svg-FIUFUSLL.js")).default;
-    case Icons.BOX_CLOSED:
-      return (await import("./icon_box-closed.svg-BZ5D476D.js")).default;
     case Icons.BOX_IN:
       return (await import("./icon_box-in.svg-AA27A35N.js")).default;
-    case Icons.BOX_LINE:
-      return (await import("./icon_box-line.svg-2K2HJKLW.js")).default;
-    case Icons.BOX_OPEN:
-      return (await import("./icon_box-open.svg-HKVAFS5S.js")).default;
     case Icons.BOX_OUT:
       return (await import("./icon_box-out.svg-CYON5KXT.js")).default;
     case Icons.BOX:
@@ -7136,12 +6424,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_broken-heart-l.svg-YZTMGJNK.js")).default;
     case Icons.BROKEN_HEART_M:
       return (await import("./icon_broken-heart-m.svg-SXR32O4P.js")).default;
-    case Icons.BUG2:
-      return (await import("./icon_bug-2.svg-LENPNLB4.js")).default;
-    case Icons.BUG3:
-      return (await import("./icon_bug-3.svg-LR2S553S.js")).default;
-    case Icons.BUG:
-      return (await import("./icon_bug.svg-LAUOH2UH.js")).default;
     case Icons.BUILDING_CHURCH:
       return (await import("./icon_building-church.svg-WRBBZ45F.js")).default;
     case Icons.BUILDING_HOUSE2:
@@ -7196,10 +6478,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_button-star.svg-5HQ7EAUQ.js")).default;
     case Icons.BUTTON_SUBTRACT:
       return (await import("./icon_button-subtract.svg-DFVN7D43.js")).default;
-    case Icons.BUTTON_USER2:
-      return (await import("./icon_button-user-2.svg-WYEYEP2T.js")).default;
-    case Icons.BUTTON_USER:
-      return (await import("./icon_button-user.svg-Z7PVDHX3.js")).default;
     case Icons.BUTTON_VISIBLE2:
       return (await import("./icon_button-visible 2.svg-FMLGQRWT.js")).default;
     case Icons.BUTTON_VISIBLE:
@@ -7234,42 +6512,10 @@ var getMeta = async (icon) => {
       return (await import("./icon_check-m.svg-5BEE5QI3.js")).default;
     case Icons.CHECK_S:
       return (await import("./icon_check-s.svg-67YOCQX7.js")).default;
-    case Icons.CHECKLIST_EMPTY_ERROR:
-      return (await import("./icon_checklist-empty-error.svg-RF5C423Q.js")).default;
-    case Icons.CHECKLIST_EMPTY_SUCCESS:
-      return (await import("./icon_checklist-empty-success.svg-PHVWU6GF.js")).default;
-    case Icons.CHECKLIST_EMPTY:
-      return (await import("./icon_checklist-empty.svg-ZRWCA3NH.js")).default;
-    case Icons.CHECKLIST_ERROR:
-      return (await import("./icon_checklist-error.svg-SHB2HL34.js")).default;
-    case Icons.CHECKLIST_MULTI:
-      return (await import("./icon_checklist-multi.svg-HLZJCFOI.js")).default;
-    case Icons.CHECKLIST_SUCCESS_ERROR:
-      return (await import("./icon_checklist-success-error.svg-3AVO2RSI.js")).default;
-    case Icons.CHECKLIST_SUCCESS:
-      return (await import("./icon_checklist-success.svg-JFI7VRNJ.js")).default;
-    case Icons.CIRCLE_ARROW0DEG:
-      return (await import("./icon_circle-arrow-0deg.svg-T7RACT2X.js")).default;
-    case Icons.CIRCLE_ARROW135DEG:
-      return (await import("./icon_circle-arrow-135deg.svg-VOULWMZS.js")).default;
-    case Icons.CIRCLE_ARROW180DEG:
-      return (await import("./icon_circle-arrow-180deg.svg-QY6OXSX2.js")).default;
-    case Icons.CIRCLE_ARROW225DEG:
-      return (await import("./icon_circle-arrow-225deg.svg-5YUN6CV4.js")).default;
-    case Icons.CIRCLE_ARROW270DEG:
-      return (await import("./icon_circle-arrow-270deg.svg-NHO272BZ.js")).default;
-    case Icons.CIRCLE_ARROW315DEG:
-      return (await import("./icon_circle-arrow-315deg.svg-J4BE2CXO.js")).default;
-    case Icons.CIRCLE_ARROW45DEG:
-      return (await import("./icon_circle-arrow-45deg.svg-OAFTGJ3X.js")).default;
-    case Icons.CIRCLE_ARROW90DEG:
-      return (await import("./icon_circle-arrow-90deg.svg-PRGWJZ22.js")).default;
     case Icons.CIRCLE_INVISIBLE:
       return (await import("./icon_circle-invisible.svg-ONCOD7AW.js")).default;
     case Icons.CIRCLE_SUBTRACT:
       return (await import("./icon_circle-subtract.svg-FMFMERKS.js")).default;
-    case Icons.CIRCLE_USER:
-      return (await import("./icon_circle-user.svg-MP7WHLC6.js")).default;
     case Icons.CIRCLED_ADD:
       return (await import("./icon_circled-add.svg-IT2QHBLQ.js")).default;
     case Icons.CIRCLED_BROKEN_HEART:
@@ -7314,34 +6560,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_code-chevrons.svg-JONYMKJO.js")).default;
     case Icons.COMPANY:
       return (await import("./icon_company.svg-GDXNRWIE.js")).default;
-    case Icons.CONNECT3_WAY_DOWN:
-      return (await import("./icon_connect-3-way-down.svg-Y77Y2PDG.js")).default;
-    case Icons.CONNECT3_WAY_LEFT:
-      return (await import("./icon_connect-3-way-left.svg-3UPGDFVE.js")).default;
-    case Icons.CONNECT3_WAY_RIGHT:
-      return (await import("./icon_connect-3-way-right.svg-GY7OEAZH.js")).default;
-    case Icons.CONNECT3_WAY_UP:
-      return (await import("./icon_connect-3-way-up.svg-OVIMU6AA.js")).default;
-    case Icons.CONNECT4_WAY:
-      return (await import("./icon_connect-4-way.svg-ECHZ27WU.js")).default;
-    case Icons.CONNECT_DOWN:
-      return (await import("./icon_connect-down.svg-FZAZ4Q6A.js")).default;
-    case Icons.CONNECT_LEFT_RIGHT:
-      return (await import("./icon_connect-left-right.svg-OHJ4ILLE.js")).default;
-    case Icons.CONNECT_LEFT:
-      return (await import("./icon_connect-left.svg-32EWT437.js")).default;
-    case Icons.CONNECT_RIGHT:
-      return (await import("./icon_connect-right.svg-45Q5PBCV.js")).default;
-    case Icons.CONNECT_TOP_BOTTOM:
-      return (await import("./icon_connect-top-bottom.svg-JBE6ZINM.js")).default;
-    case Icons.CONNECT_UP:
-      return (await import("./icon_connect-up.svg-5MKMKAHK.js")).default;
-    case Icons.COOKIE:
-      return (await import("./icon_cookie.svg-GZ7CEIEI.js")).default;
-    case Icons.CROWN2:
-      return (await import("./icon_crown-2.svg-KESX67SP.js")).default;
-    case Icons.CROWN:
-      return (await import("./icon_crown.svg-RCFQZEBC.js")).default;
     case Icons.DISLIKE:
       return (await import("./icon_dislike.svg-YGZCV2LB.js")).default;
     case Icons.EDIT_FAT:
@@ -7438,24 +6656,12 @@ var getMeta = async (icon) => {
       return (await import("./icon_file-tray-stack.svg-T2UATO5G.js")).default;
     case Icons.FILE_TRAY:
       return (await import("./icon_file-tray.svg-TNNI2H4G.js")).default;
-    case Icons.FILE_USER2:
-      return (await import("./icon_file-user-2.svg-YSPDDCYQ.js")).default;
-    case Icons.FILE_USER:
-      return (await import("./icon_file-user.svg-IXFBMEWS.js")).default;
     case Icons.FILE_VISIBLE2:
       return (await import("./icon_file-visible 2.svg-JIQDR3QZ.js")).default;
     case Icons.FILE_VISIBLE:
       return (await import("./icon_file-visible.svg-W6WTF3M6.js")).default;
     case Icons.FILE:
       return (await import("./icon_file.svg-P7EXH56C.js")).default;
-    case Icons.FLAG1:
-      return (await import("./icon_flag-1.svg-SNUDLEXP.js")).default;
-    case Icons.FLAG2:
-      return (await import("./icon_flag-2.svg-TMEZAJE2.js")).default;
-    case Icons.FLAG3:
-      return (await import("./icon_flag-3.svg-RYH7MEUD.js")).default;
-    case Icons.FLAG_GOLF:
-      return (await import("./icon_flag-golf.svg-ETYWP73K.js")).default;
     case Icons.FOLDER_ADD2:
       return (await import("./icon_folder-add 2.svg-3Y76H4U5.js")).default;
     case Icons.FOLDER_ADD:
@@ -7508,28 +6714,12 @@ var getMeta = async (icon) => {
       return (await import("./icon_folder-subtract 2.svg-6S5EQBCZ.js")).default;
     case Icons.FOLDER_SUBTRACT:
       return (await import("./icon_folder-subtract.svg-2PE7UCAR.js")).default;
-    case Icons.FOLDER_USER2:
-      return (await import("./icon_folder-user-2.svg-3FCSEDP2.js")).default;
-    case Icons.FOLDER_USER:
-      return (await import("./icon_folder-user.svg-LM7PENVW.js")).default;
     case Icons.FOLDER_VISIBLE2:
       return (await import("./icon_folder-visible 2.svg-NF24ULOO.js")).default;
     case Icons.FOLDER_VISIBLE:
       return (await import("./icon_folder-visible.svg-3PERFCOM.js")).default;
     case Icons.FOLDER:
       return (await import("./icon_folder.svg-L42XSN5S.js")).default;
-    case Icons.FOLLOWED_BY_ADD:
-      return (await import("./icon_followed-by-add.svg-NYKENNXU.js")).default;
-    case Icons.FOLLOWED_BY_ARROW:
-      return (await import("./icon_followed-by-arrow.svg-ABI6KSD7.js")).default;
-    case Icons.FOLLOWED_BY:
-      return (await import("./icon_followed-by.svg-WVNY6IEP.js")).default;
-    case Icons.FOLLOWING_ADD:
-      return (await import("./icon_following-add.svg-AKFQ7EGW.js")).default;
-    case Icons.FOLLOWING_ARROW:
-      return (await import("./icon_following-arrow.svg-JJDOB4ZO.js")).default;
-    case Icons.FOLLOWING:
-      return (await import("./icon_following.svg-SLSPJBTH.js")).default;
     case Icons.GIRL:
       return (await import("./icon_girl.svg-ICUN2WNK.js")).default;
     case Icons.GIT_BRANCH:
@@ -7548,12 +6738,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_git-pull-request.svg-K6GUPCA7.js")).default;
     case Icons.GIT_REPO_FORK:
       return (await import("./icon_git-repo-fork.svg-YZCZXU7S.js")).default;
-    case Icons.GLOBE2:
-      return (await import("./icon_globe-2.svg-GEZCON6T.js")).default;
-    case Icons.GLOBE3:
-      return (await import("./icon_globe-3.svg-AY75AQDM.js")).default;
-    case Icons.GLOBE:
-      return (await import("./icon_globe.svg-JMBTRAOW.js")).default;
     case Icons.HEART_BROKEN_SMALL:
       return (await import("./icon_heart-broken-small.svg-GNJDWS5J.js")).default;
     case Icons.HEART_FAT:
@@ -7564,8 +6748,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_heart-m.svg-N3WB5ZRP.js")).default;
     case Icons.HEART_SMALL:
       return (await import("./icon_heart-small.svg-LHZNIRYA.js")).default;
-    case Icons.HOME_LOCATION:
-      return (await import("./icon_home-location.svg-OUNJSWWN.js")).default;
     case Icons.INFO_FAT:
       return (await import("./icon_info-fat.svg-67KCJVU3.js")).default;
     case Icons.INFO_L:
@@ -7612,14 +6794,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_key-tab.svg-ZRUAFGEZ.js")).default;
     case Icons.KEY_UP:
       return (await import("./icon_key-up.svg-OLTN55AN.js")).default;
-    case Icons.LAYERS2_DOTTED:
-      return (await import("./icon_layers-2-dotted.svg-J4PAVUTU.js")).default;
-    case Icons.LAYERS2:
-      return (await import("./icon_layers-2.svg-VF43REJY.js")).default;
-    case Icons.LAYERS3_DOTTED:
-      return (await import("./icon_layers-3-dotted.svg-RSI34PIN.js")).default;
-    case Icons.LAYERS3:
-      return (await import("./icon_layers-3.svg-SHCL7MTF.js")).default;
     case Icons.LIKE:
       return (await import("./icon_like.svg-UYE4DJWZ.js")).default;
     case Icons.LINK:
@@ -7692,10 +6866,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_note-subtract 2.svg-N2JPEZNG.js")).default;
     case Icons.NOTE_SUBTRACT:
       return (await import("./icon_note-subtract.svg-DJUXDUPU.js")).default;
-    case Icons.NOTE_USER2:
-      return (await import("./icon_note-user-2.svg-FUAZZOCT.js")).default;
-    case Icons.NOTE_USER:
-      return (await import("./icon_note-user.svg-ZQKV2CO4.js")).default;
     case Icons.NOTE_VISIBLE2:
       return (await import("./icon_note-visible 2.svg-LUXHUPZS.js")).default;
     case Icons.NOTE_VISIBLE:
@@ -7716,24 +6886,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_pin.svg-725OE7MW.js")).default;
     case Icons.PLANNER:
       return (await import("./icon_planner.svg-EZKWHNVC.js")).default;
-    case Icons.PLUG_TYPE_I:
-      return (await import("./icon_plug-type-i.svg-MEQ5OYUG.js")).default;
-    case Icons.PLUG_TYPE_A:
-      return (await import("./icon_plug-type-a.svg-IBJ7M6NL.js")).default;
-    case Icons.PLUG_TYPE_B:
-      return (await import("./icon_plug-type-b.svg-FNWFCXG5.js")).default;
-    case Icons.PLUG_TYPE_C:
-      return (await import("./icon_plug-type-c.svg-TYFQNRGJ.js")).default;
-    case Icons.PLUG_TYPE_D:
-      return (await import("./icon_plug-type-d.svg-OJPRCBAO.js")).default;
-    case Icons.PLUG_TYPE_G:
-      return (await import("./icon_plug-type-g.svg-TRNUB3KY.js")).default;
-    case Icons.PLUG_TYPE_J:
-      return (await import("./icon_plug-type-j.svg-36APBYRK.js")).default;
-    case Icons.PLUG_TYPE_K:
-      return (await import("./icon_plug-type-k.svg-H4Q4VHCK.js")).default;
-    case Icons.PLUG_TYPE_L:
-      return (await import("./icon_plug-type-l.svg-IYOKQOK3.js")).default;
     case Icons.POINTER_ARROW_LINE:
       return (await import("./icon_pointer-arrow-line.svg-7NVN4KZO.js")).default;
     case Icons.POINTER_ARROW:
@@ -7758,18 +6910,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_question-mark-m.svg-U4634C5G.js")).default;
     case Icons.QUESTION_MARK_S:
       return (await import("./icon_question-mark-s.svg-GFAOB33S.js")).default;
-    case Icons.RADAR:
-      return (await import("./icon_radar.svg-3DTJTSMZ.js")).default;
-    case Icons.RADAR2:
-      return (await import("./icon_radar2.svg-4SXKOVHN.js")).default;
-    case Icons.RADAR3:
-      return (await import("./icon_radar3.svg-K25VZDTR.js")).default;
-    case Icons.RADAR4:
-      return (await import("./icon_radar4.svg-7S5CNE4E.js")).default;
-    case Icons.RADAR5:
-      return (await import("./icon_radar5.svg-3T4YR2V6.js")).default;
-    case Icons.RADAR6:
-      return (await import("./icon_radar6.svg-NHPYPFG4.js")).default;
     case Icons.REMOVE_LINES:
       return (await import("./icon_remove-lines.svg-3E62CIOS.js")).default;
     case Icons.SEARCH_FAT:
@@ -7792,48 +6932,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_settings 5.svg-VIIYMDHS.js")).default;
     case Icons.SETTINGS:
       return (await import("./icon_settings.svg-VQQMH2E3.js")).default;
-    case Icons.SHOVEL:
-      return (await import("./icon_shovel.svg-SSD2L744.js")).default;
-    case Icons.SIM:
-      return (await import("./icon_sim.svg-SXQQGPZ7.js")).default;
-    case Icons.SIMPLE_NOTE_CENTER:
-      return (await import("./icon_simple-note-center.svg-GHYOLEN2.js")).default;
-    case Icons.SIMPLE_NOTE_JUSTIFY:
-      return (await import("./icon_simple-note-justify.svg-2YA3DQNS.js")).default;
-    case Icons.SIMPLE_NOTE_LEFT:
-      return (await import("./icon_simple-note-left.svg-ZXMTDP6J.js")).default;
-    case Icons.SIMPLE_NOTE_MULTI_EMPTY:
-      return (await import("./icon_simple-note-multi-empty.svg-HDCWSVTX.js")).default;
-    case Icons.SIMPLE_NOTE_MULTI:
-      return (await import("./icon_simple-note-multi.svg-M3A6CPVC.js")).default;
-    case Icons.SIMPLE_NOTE_RIGHT:
-      return (await import("./icon_simple-note-right.svg-EACFBT6H.js")).default;
-    case Icons.SIMPLE_NOTE:
-      return (await import("./icon_simple-note.svg-P7GPPBID.js")).default;
-    case Icons.SOCKET_TYPE_A:
-      return (await import("./icon_socket-type-a.svg-UDOWFJ2V.js")).default;
-    case Icons.SOCKET_TYPE_B:
-      return (await import("./icon_socket-type-b.svg-GJNFWZKO.js")).default;
-    case Icons.SOCKET_TYPE_C:
-      return (await import("./icon_socket-type-c.svg-QBUII5T3.js")).default;
-    case Icons.SOCKET_TYPE_D:
-      return (await import("./icon_socket-type-d.svg-7ZYZ6YOW.js")).default;
-    case Icons.SOCKET_TYPE_E:
-      return (await import("./icon_socket-type-e.svg-ETJBW3IM.js")).default;
-    case Icons.SOCKET_TYPE_F:
-      return (await import("./icon_socket-type-f.svg-3UOKM2YR.js")).default;
-    case Icons.SOCKET_TYPE_G:
-      return (await import("./icon_socket-type-g.svg-ULEPKMZS.js")).default;
-    case Icons.SOCKET_TYPE_I:
-      return (await import("./icon_socket-type-i.svg-3OPMA7VS.js")).default;
-    case Icons.SOCKET_TYPE_J:
-      return (await import("./icon_socket-type-j.svg-MK5Y2WFU.js")).default;
-    case Icons.SOCKET_TYPE_K:
-      return (await import("./icon_socket-type-k.svg-AZCUJA5A.js")).default;
-    case Icons.SOCKET_TYPE_L433:
-      return (await import("./icon_socket-type-l-433.svg-OSVPLNHS.js")).default;
-    case Icons.SOCKET_TYPE_L444:
-      return (await import("./icon_socket-type-l-444.svg-PJYJHXTF.js")).default;
     case Icons.SPEECH_BALLOON2:
       return (await import("./icon_speech-balloon-2.svg-ILGNRAJX.js")).default;
     case Icons.SPEECH_BALLOON_SQUARE2:
@@ -7848,8 +6946,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_speech-balloon.svg-OEKSSAXL.js")).default;
     case Icons.SPEECH_BALLOONS:
       return (await import("./icon_speech-balloons.svg-ZF23BEYK.js")).default;
-    case Icons.SQUARE_USER:
-      return (await import("./icon_square-user.svg-3AM6NCIJ.js")).default;
     case Icons.SQUARED_ADD:
       return (await import("./icon_squared-add.svg-MAZSBDIH.js")).default;
     case Icons.SQUARED_BROKEN_HEART:
@@ -7890,20 +6986,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_star-m.svg-6BV4Q27A.js")).default;
     case Icons.STAR_SMALL:
       return (await import("./icon_star-small.svg-VOZSWI5S.js")).default;
-    case Icons.STICKER_COPY:
-      return (await import("./icon_sticker copy.svg-OAFPR43M.js")).default;
-    case Icons.STICKER2_ROUNDED:
-      return (await import("./icon_sticker-2-rounded.svg-MHT4N6LJ.js")).default;
-    case Icons.STICKER332:
-      return (await import("./icon_sticker-332.svg-WTBZOY7U.js")).default;
-    case Icons.STICKER390:
-      return (await import("./icon_sticker-390.svg-CFSQSUE5.js")).default;
-    case Icons.STICKER_CHECK:
-      return (await import("./icon_sticker-check.svg-B44UPAFK.js")).default;
-    case Icons.STICKER_ROUNDED_CHECK:
-      return (await import("./icon_sticker-rounded-check.svg-7RNOGK7F.js")).default;
-    case Icons.STICKER_ROUNDED:
-      return (await import("./icon_sticker-rounded.svg-DZ6TVOM2.js")).default;
     case Icons.STOPWATCH:
       return (await import("./icon_stopwatch.svg-B2VEALZN.js")).default;
     case Icons.SUBTRACT_FAT:
@@ -7942,14 +7024,10 @@ var getMeta = async (icon) => {
       return (await import("./icon_talk-star.svg-S55ZEIX3.js")).default;
     case Icons.TALK_SUBTRACT:
       return (await import("./icon_talk-subtract.svg-AEUT74BQ.js")).default;
-    case Icons.TALK_USER:
-      return (await import("./icon_talk-user.svg-SYK4EZJ3.js")).default;
     case Icons.TALK_VISIBLE:
       return (await import("./icon_talk-visible.svg-MGDP2TX3.js")).default;
     case Icons.TALK:
       return (await import("./icon_talk.svg-JU5FUQ7T.js")).default;
-    case Icons.TARGET2:
-      return (await import("./icon_target 2.svg-UW6VSUIY.js")).default;
     case Icons.TARGET:
       return (await import("./icon_target.svg-TKBPBCM4.js")).default;
     case Icons.TEXT_ALIGN_CENTER:
@@ -8000,8 +7078,6 @@ var getMeta = async (icon) => {
       return (await import("./icon_trash-2.svg-6TJJMH6L.js")).default;
     case Icons.TRASH:
       return (await import("./icon_trash.svg-NL5UW5BZ.js")).default;
-    case Icons.TRIANGLE_USER:
-      return (await import("./icon_triangle-user.svg-C57HTEOA.js")).default;
     case Icons.TRIANGLED_EXCLAMATION_MARK:
       return (await import("./icon_triangled-exclamation-mark.svg-RGRAVJN3.js")).default;
     case Icons.TRIANGLED_INFO:
@@ -8010,50 +7086,16 @@ var getMeta = async (icon) => {
       return (await import("./icon_triangled-question-mark.svg-JYINTQLD.js")).default;
     case Icons.TRIANGLED:
       return (await import("./icon_triangled.svg-4GAZKA67.js")).default;
-    case Icons.USER_ADD2:
-      return (await import("./icon_user-add 2.svg-NRMXU4CJ.js")).default;
-    case Icons.USER_ADD3:
-      return (await import("./icon_user-add 3.svg-5ME5HTPD.js")).default;
     case Icons.USER_ADD:
       return (await import("./icon_user-add.svg-VRMTZBZN.js")).default;
-    case Icons.USER_DELETE2:
-      return (await import("./icon_user-delete 2.svg-GUZFPZAM.js")).default;
-    case Icons.USER_DELETE3:
-      return (await import("./icon_user-delete 3.svg-SCXYUVXN.js")).default;
     case Icons.USER_DELETE:
       return (await import("./icon_user-delete.svg-OHI5SNA4.js")).default;
-    case Icons.USER_FAT:
-      return (await import("./icon_user-fat.svg-M2WQJN2O.js")).default;
     case Icons.USER_GROUP:
       return (await import("./icon_user-group.svg-ZJHP5Q5O.js")).default;
-    case Icons.USER_HEART_COPY:
-      return (await import("./icon_user-heart copy.svg-J2I6MFME.js")).default;
-    case Icons.USER_HEART2_COPY:
-      return (await import("./icon_user-heart-2 copy.svg-SJPTMVCQ.js")).default;
-    case Icons.USER_L:
-      return (await import("./icon_user-l.svg-U6R26MUQ.js")).default;
-    case Icons.USER_M:
-      return (await import("./icon_user-m.svg-WZXPC75C.js")).default;
-    case Icons.USER_S:
-      return (await import("./icon_user-s.svg-RAF2KP45.js")).default;
-    case Icons.USER_SHIELD2:
-      return (await import("./icon_user-shield-2.svg-3UGEXDIQ.js")).default;
-    case Icons.USER_SHIELD:
-      return (await import("./icon_user-shield.svg-PJKZAAC5.js")).default;
     case Icons.USER:
       return (await import("./icon_user.svg-2MUY3LI7.js")).default;
     case Icons.USERS:
       return (await import("./icon_users.svg-K5PPE7QM.js")).default;
-    case Icons.VECTOR_CURVE:
-      return (await import("./icon_vector-curve.svg-TXYJ7CET.js")).default;
-    case Icons.VECTOR_SHAPE:
-      return (await import("./icon_vector-shape.svg-HVCCO2MS.js")).default;
-    case Icons.VECTOR_SQUARE:
-      return (await import("./icon_vector-square.svg-ZKYWC7WM.js")).default;
-    case Icons.VECTOR_TRAPEZOID:
-      return (await import("./icon_vector-trapezoid.svg-BKHFETHB.js")).default;
-    case Icons.VECTOR_TRIANGLE:
-      return (await import("./icon_vector-triangle.svg-TIY4ALC3.js")).default;
     case Icons.VISIBLE_FAT:
       return (await import("./icon_visible-fat.svg-DBPORNXO.js")).default;
     case Icons.VISIBLE_L:
@@ -8062,22 +7104,10 @@ var getMeta = async (icon) => {
       return (await import("./icon_visible-m.svg-4KNYIFXR.js")).default;
     case Icons.VISIBLE_S:
       return (await import("./icon_visible-s.svg-37R6PTBA.js")).default;
-    case Icons.WATCH:
-      return (await import("./icon_watch.svg-PV4WFF3D.js")).default;
     case Icons.WHEELCHAIR_ACTION:
       return (await import("./icon_wheelchair-action.svg-MSTJQYTN.js")).default;
     case Icons.WHEELCHAIR:
       return (await import("./icon_wheelchair.svg-AQMJLTMJ.js")).default;
-    case Icons.WINDOW_BROWSER:
-      return (await import("./icon_window-browser.svg-CXI57HDM.js")).default;
-    case Icons.WINDOW_CODE:
-      return (await import("./icon_window-code.svg-HSL3QYHF.js")).default;
-    case Icons.WINDOW_MULTI:
-      return (await import("./icon_window-multi.svg-DNSJV4AY.js")).default;
-    case Icons.WINDOW:
-      return (await import("./icon_window.svg-TJ7NGLNV.js")).default;
-    case Icons.WORLD:
-      return (await import("./icon_world.svg-G7YCQ5GR.js")).default;
     case Icons.AIRPLANE_ARRIVALS:
       return (await import("./icon_airplane-arrivals.svg-5SQOZN7T.js")).default;
     case Icons.AIRPLANE_DEPARTURES:

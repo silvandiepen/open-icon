@@ -9,7 +9,8 @@
 "replaceName": "icon_",
   "listTemplate": [
     "build/template/index.ts.ejs",
-    "build/template/types.ts.ejs"
+    "build/template/types.ts.ejs",
+    "build/template/icons-export.ts.ejs"
   ],
   "removeData": [
     "/<\\?xml.*?\\?>/",
