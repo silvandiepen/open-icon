@@ -40664,8 +40664,8 @@ var init_icon_thermometer_svg = __esm({
 });
 
 // lib/index.ts
-var lib_exports = {};
-__export(lib_exports, {
+var index_exports = {};
+__export(index_exports, {
   Aliasses: () => Aliasses,
   BaseIcons: () => BaseIcons,
   IconCategories: () => IconCategories,
@@ -40676,7 +40676,7 @@ __export(lib_exports, {
   iconExists: () => iconExists,
   searchIcon: () => searchIcon
 });
-module.exports = __toCommonJS(lib_exports);
+module.exports = __toCommonJS(index_exports);
 
 // lib/icons/types.ts
 var BaseIcons = {

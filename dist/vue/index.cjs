@@ -17,14 +17,14 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
 // lib/vue/index.ts
-var vue_exports = {};
-__export(vue_exports, {
+var index_exports = {};
+__export(index_exports, {
   ICON_REGISTRY_KEY: () => ICON_REGISTRY_KEY,
   IconRegistryPlugin: () => IconRegistryPlugin,
   createIconRegistry: () => createIconRegistry,
   useIconRegistry: () => useIconRegistry
 });
-module.exports = __toCommonJS(vue_exports);
+module.exports = __toCommonJS(index_exports);
 
 // lib/vue/types.ts
 var ICON_REGISTRY_KEY = Symbol("icon-registry");

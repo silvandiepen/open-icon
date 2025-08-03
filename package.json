@@ -6,20 +6,20 @@
   "type": "module",
   "exports": {
     ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js",
       "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
       "default": "./dist/index.global.js"
     },
     "./icons": {
-      "require": "./dist/icons/icons-export.cjs",
+      "types": "./dist/icons/icons-export.d.ts",
       "import": "./dist/icons/icons-export.js",
-      "types": "./dist/icons/icons-export.d.ts"
+      "require": "./dist/icons/icons-export.cjs"
     },
     "./vue": {
-      "require": "./dist/vue.cjs",
+      "types": "./dist/vue/index.d.ts",
       "import": "./dist/vue.js",
-      "types": "./dist/vue/index.d.ts"
+      "require": "./dist/vue.cjs"
     },
     "./scss": {
       "require": "./src/index.scss",

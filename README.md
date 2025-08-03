@@ -88,8 +88,9 @@ const iconContent = computed(() => getIcon(props.name));
 ## Documentation
 
 - [Vue Integration Guide](./docs/VUE_INTEGRATION.md) - Comprehensive Vue 3 setup and usage
-- [Tree-Shaking Guide](./TREE_SHAKING.md) - How to optimize bundle size
-- [Monorepo Integration](./TIKO_INTEGRATION.md) - Using with shared UI libraries
+- [Tree-Shaking Guide](./docs/TREE_SHAKING.md) - How to optimize bundle size
+- [Migration Guide](./docs/migration/CLAUDE_UPDATE_PROMPT.md) - Migrating to tree-shakable approach
+- [API Documentation](./docs/API.md) - Complete API reference
 
 ## Available Icons
 

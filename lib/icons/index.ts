@@ -2794,7 +2794,7 @@ export const searchIcon = (
     tag: string[];
     description: string;
 }[] | undefined => {
-    const meta = {};
+    const meta: Partial<Record<keyof typeof Icons, any>> = {};
 
     const mergedIcons = Object.keys(Icons).map(key => ({
         id: key,

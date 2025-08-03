@@ -8,7 +8,8 @@
         "declaration": true,
         "emitDeclarationOnly": true,
         "outDir": "./dist",
-        "sourceMap": true
+        "sourceMap": true,
+        "skipLibCheck": true
     },
     "include": ["lib/index.ts", "lib/icons/icons-export.ts", "lib/vue/**/*.ts"],
 }
