@@ -26,9 +26,9 @@
     mod
   ));
 
-  // node_modules/.pnpm/@vue+shared@3.5.17/node_modules/@vue/shared/dist/shared.cjs.prod.js
+  // node_modules/@vue/shared/dist/shared.cjs.prod.js
   var require_shared_cjs_prod = __commonJS({
-    "node_modules/.pnpm/@vue+shared@3.5.17/node_modules/@vue/shared/dist/shared.cjs.prod.js"(exports) {
+    "node_modules/@vue/shared/dist/shared.cjs.prod.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       // @__NO_SIDE_EFFECTS__
@@ -530,6 +530,15 @@
           isSymbol(v) ? `Symbol(${(_a = v.description) != null ? _a : i})` : v
         );
       };
+      function normalizeCssVarValue(value) {
+        if (value == null) {
+          return "initial";
+        }
+        if (typeof value === "string") {
+          return value === "" ? " " : value;
+        }
+        return String(value);
+      }
       exports.EMPTY_ARR = EMPTY_ARR;
       exports.EMPTY_OBJ = EMPTY_OBJ;
       exports.NO = NO;
@@ -589,6 +598,7 @@
       exports.looseToNumber = looseToNumber;
       exports.makeMap = makeMap;
       exports.normalizeClass = normalizeClass;
+      exports.normalizeCssVarValue = normalizeCssVarValue;
       exports.normalizeProps = normalizeProps;
       exports.normalizeStyle = normalizeStyle;
       exports.objectToString = objectToString;
@@ -605,9 +615,9 @@
     }
   });
 
-  // node_modules/.pnpm/@vue+shared@3.5.17/node_modules/@vue/shared/dist/shared.cjs.js
+  // node_modules/@vue/shared/dist/shared.cjs.js
   var require_shared_cjs = __commonJS({
-    "node_modules/.pnpm/@vue+shared@3.5.17/node_modules/@vue/shared/dist/shared.cjs.js"(exports) {
+    "node_modules/@vue/shared/dist/shared.cjs.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       // @__NO_SIDE_EFFECTS__
@@ -1109,6 +1119,23 @@
           isSymbol(v) ? `Symbol(${(_a = v.description) != null ? _a : i})` : v
         );
       };
+      function normalizeCssVarValue(value) {
+        if (value == null) {
+          return "initial";
+        }
+        if (typeof value === "string") {
+          return value === "" ? " " : value;
+        }
+        if (typeof value !== "number" || !Number.isFinite(value)) {
+          {
+            console.warn(
+              "[Vue warn] Invalid value used for CSS binding. Expected a string or a finite number but received:",
+              value
+            );
+          }
+        }
+        return String(value);
+      }
       exports.EMPTY_ARR = EMPTY_ARR;
       exports.EMPTY_OBJ = EMPTY_OBJ;
       exports.NO = NO;
@@ -1168,6 +1195,7 @@
       exports.looseToNumber = looseToNumber;
       exports.makeMap = makeMap;
       exports.normalizeClass = normalizeClass;
+      exports.normalizeCssVarValue = normalizeCssVarValue;
       exports.normalizeProps = normalizeProps;
       exports.normalizeStyle = normalizeStyle;
       exports.objectToString = objectToString;
@@ -1184,9 +1212,9 @@
     }
   });
 
-  // node_modules/.pnpm/@vue+shared@3.5.17/node_modules/@vue/shared/index.js
+  // node_modules/@vue/shared/index.js
   var require_shared = __commonJS({
-    "node_modules/.pnpm/@vue+shared@3.5.17/node_modules/@vue/shared/index.js"(exports, module) {
+    "node_modules/@vue/shared/index.js"(exports, module) {
       "use strict";
       if (process.env.NODE_ENV === "production") {
         module.exports = require_shared_cjs_prod();
@@ -1196,9 +1224,9 @@
     }
   });
 
-  // node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/generated/decode-data-html.js
+  // node_modules/entities/lib/generated/decode-data-html.js
   var require_decode_data_html = __commonJS({
-    "node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/generated/decode-data-html.js"(exports) {
+    "node_modules/entities/lib/generated/decode-data-html.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.default = new Uint16Array(
@@ -1210,9 +1238,9 @@
     }
   });
 
-  // node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/generated/decode-data-xml.js
+  // node_modules/entities/lib/generated/decode-data-xml.js
   var require_decode_data_xml = __commonJS({
-    "node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/generated/decode-data-xml.js"(exports) {
+    "node_modules/entities/lib/generated/decode-data-xml.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.default = new Uint16Array(
@@ -1224,9 +1252,9 @@
     }
   });
 
-  // node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/decode_codepoint.js
+  // node_modules/entities/lib/decode_codepoint.js
   var require_decode_codepoint = __commonJS({
-    "node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/decode_codepoint.js"(exports) {
+    "node_modules/entities/lib/decode_codepoint.js"(exports) {
       "use strict";
       var _a;
       Object.defineProperty(exports, "__esModule", { value: true });
@@ -1288,9 +1316,9 @@
     }
   });
 
-  // node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/decode.js
+  // node_modules/entities/lib/decode.js
   var require_decode = __commonJS({
-    "node_modules/.pnpm/entities@4.5.0/node_modules/entities/lib/decode.js"(exports) {
+    "node_modules/entities/lib/decode.js"(exports) {
       "use strict";
       var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
         if (k2 === void 0) k2 = k;
@@ -1647,9 +1675,9 @@
     }
   });
 
-  // node_modules/.pnpm/@babel+parser@7.28.0/node_modules/@babel/parser/lib/index.js
+  // node_modules/@babel/parser/lib/index.js
   var require_lib = __commonJS({
-    "node_modules/.pnpm/@babel+parser@7.28.0/node_modules/@babel/parser/lib/index.js"(exports) {
+    "node_modules/@babel/parser/lib/index.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", {
         value: true
@@ -16214,9 +16242,9 @@
     }
   });
 
-  // node_modules/.pnpm/estree-walker@2.0.2/node_modules/estree-walker/dist/umd/estree-walker.js
+  // node_modules/estree-walker/dist/umd/estree-walker.js
   var require_estree_walker = __commonJS({
-    "node_modules/.pnpm/estree-walker@2.0.2/node_modules/estree-walker/dist/umd/estree-walker.js"(exports, module) {
+    "node_modules/estree-walker/dist/umd/estree-walker.js"(exports, module) {
       (function(global2, factory) {
         typeof exports === "object" && typeof module !== "undefined" ? factory(exports) : typeof define === "function" && define.amd ? define(["exports"], factory) : (global2 = global2 || self, factory(global2.estreeWalker = {}));
       })(exports, function(exports2) {
@@ -16443,9 +16471,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/base64.js
+  // node_modules/source-map-js/lib/base64.js
   var require_base64 = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/base64.js"(exports) {
+    "node_modules/source-map-js/lib/base64.js"(exports) {
       var intToCharMap = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".split("");
       exports.encode = function(number) {
         if (0 <= number && number < intToCharMap.length) {
@@ -16484,9 +16512,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/base64-vlq.js
+  // node_modules/source-map-js/lib/base64-vlq.js
   var require_base64_vlq = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/base64-vlq.js"(exports) {
+    "node_modules/source-map-js/lib/base64-vlq.js"(exports) {
       var base64 = require_base64();
       var VLQ_BASE_SHIFT = 5;
       var VLQ_BASE = 1 << VLQ_BASE_SHIFT;
@@ -16538,9 +16566,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/util.js
+  // node_modules/source-map-js/lib/util.js
   var require_util = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/util.js"(exports) {
+    "node_modules/source-map-js/lib/util.js"(exports) {
       function getArg(aArgs, aName, aDefaultValue) {
         if (aName in aArgs) {
           return aArgs[aName];
@@ -16918,9 +16946,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/array-set.js
+  // node_modules/source-map-js/lib/array-set.js
   var require_array_set = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/array-set.js"(exports) {
+    "node_modules/source-map-js/lib/array-set.js"(exports) {
       var util = require_util();
       var has = Object.prototype.hasOwnProperty;
       var hasNativeMap = typeof Map !== "undefined";
@@ -16988,9 +17016,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/mapping-list.js
+  // node_modules/source-map-js/lib/mapping-list.js
   var require_mapping_list = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/mapping-list.js"(exports) {
+    "node_modules/source-map-js/lib/mapping-list.js"(exports) {
       var util = require_util();
       function generatedPositionAfter(mappingA, mappingB) {
         var lineA = mappingA.generatedLine;
@@ -17027,9 +17055,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/source-map-generator.js
+  // node_modules/source-map-js/lib/source-map-generator.js
   var require_source_map_generator = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/source-map-generator.js"(exports) {
+    "node_modules/source-map-js/lib/source-map-generator.js"(exports) {
       var base64VLQ = require_base64_vlq();
       var util = require_util();
       var ArraySet = require_array_set().ArraySet;
@@ -17320,9 +17348,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/binary-search.js
+  // node_modules/source-map-js/lib/binary-search.js
   var require_binary_search = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/binary-search.js"(exports) {
+    "node_modules/source-map-js/lib/binary-search.js"(exports) {
       exports.GREATEST_LOWER_BOUND = 1;
       exports.LEAST_UPPER_BOUND = 2;
       function recursiveSearch(aLow, aHigh, aNeedle, aHaystack, aCompare, aBias) {
@@ -17376,9 +17404,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/quick-sort.js
+  // node_modules/source-map-js/lib/quick-sort.js
   var require_quick_sort = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/quick-sort.js"(exports) {
+    "node_modules/source-map-js/lib/quick-sort.js"(exports) {
       function SortTemplate(comparator) {
         function swap(ary, x, y) {
           var temp = ary[x];
@@ -17425,9 +17453,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/source-map-consumer.js
+  // node_modules/source-map-js/lib/source-map-consumer.js
   var require_source_map_consumer = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/source-map-consumer.js"(exports) {
+    "node_modules/source-map-js/lib/source-map-consumer.js"(exports) {
       var util = require_util();
       var binarySearch = require_binary_search();
       var ArraySet = require_array_set().ArraySet;
@@ -18072,9 +18100,9 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/source-node.js
+  // node_modules/source-map-js/lib/source-node.js
   var require_source_node = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/lib/source-node.js"(exports) {
+    "node_modules/source-map-js/lib/source-node.js"(exports) {
       var SourceMapGenerator = require_source_map_generator().SourceMapGenerator;
       var util = require_util();
       var REGEX_NEWLINE = /(\r?\n)/;
@@ -18337,18 +18365,18 @@
     }
   });
 
-  // node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/source-map.js
+  // node_modules/source-map-js/source-map.js
   var require_source_map = __commonJS({
-    "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js/source-map.js"(exports) {
+    "node_modules/source-map-js/source-map.js"(exports) {
       exports.SourceMapGenerator = require_source_map_generator().SourceMapGenerator;
       exports.SourceMapConsumer = require_source_map_consumer().SourceMapConsumer;
       exports.SourceNode = require_source_node().SourceNode;
     }
   });
 
-  // node_modules/.pnpm/@vue+compiler-core@3.5.17/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js
+  // node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js
   var require_compiler_core_cjs_prod = __commonJS({
-    "node_modules/.pnpm/@vue+compiler-core@3.5.17/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js"(exports) {
+    "node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var shared = require_shared();
@@ -19932,14 +19960,15 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         if (id.name === "arguments") {
           return false;
         }
-        if (isReferenced(id, parent)) {
+        if (isReferenced(id, parent, parentStack[parentStack.length - 2])) {
           return true;
         }
         switch (parent.type) {
           case "AssignmentExpression":
           case "AssignmentPattern":
             return true;
-          case "ObjectPattern":
+          case "ObjectProperty":
+            return parent.key !== id && isInDestructureAssignment(parent, parentStack);
           case "ArrayPattern":
             return isInDestructureAssignment(parent, parentStack);
         }
@@ -20108,7 +20137,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
             if (parent.key === node) {
               return !!parent.computed;
             }
-            return true;
+            return !grandparent || grandparent.type !== "ObjectPattern";
           // no: class { NODE = value; }
           // yes: class { [NODE] = value; }
           // yes: class { key = NODE; }
@@ -20158,6 +20187,9 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
           // yes: export { NODE as foo };
           // no: export { NODE as foo } from "foo";
           case "ExportSpecifier":
+            if (grandparent == null ? void 0 : grandparent.source) {
+              return false;
+            }
             return parent.local === node;
           // no: import NODE from "foo";
           // no: import * as NODE from "foo";
@@ -20237,7 +20269,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
             return BASE_TRANSITION;
         }
       }
-      var nonIdentifierRE = /^\d|[^\$\w\xA0-\uFFFF]/;
+      var nonIdentifierRE = /^$|^\d|[^\$\w\xA0-\uFFFF]/;
       var isSimpleIdentifier = (name) => !nonIdentifierRE.test(name);
       var validFirstIdentCharRE = /[A-Za-z_$\xA0-\uFFFF]/;
       var validIdentCharRE = /[\.\?\w$\xA0-\uFFFF]/;
@@ -20401,6 +20433,9 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
       }
       function isText$1(node) {
         return node.type === 5 || node.type === 2;
+      }
+      function isVPre(p) {
+        return p.type === 7 && p.name === "pre";
       }
       function isVSlot(p) {
         return p.type === 7 && p.name === "slot";
@@ -20699,7 +20734,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         ondirarg(start, end) {
           if (start === end) return;
           const arg = getSlice(start, end);
-          if (inVPre) {
+          if (inVPre && !isVPre(currentProp)) {
             currentProp.name += arg;
             setLocEnd(currentProp.nameLoc, end);
           } else {
@@ -20714,7 +20749,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         },
         ondirmodifier(start, end) {
           const mod = getSlice(start, end);
-          if (inVPre) {
+          if (inVPre && !isVPre(currentProp)) {
             currentProp.name += "." + mod;
             setLocEnd(currentProp.nameLoc, end);
           } else if (currentProp.name === "slot") {
@@ -21326,6 +21361,11 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
           } else if (child.type === 12) {
             const constantType = doNotHoistNode ? 0 : getConstantType(child, context);
             if (constantType >= 2) {
+              if (child.codegenNode.type === 14 && child.codegenNode.arguments.length > 0) {
+                child.codegenNode.arguments.push(
+                  `-1`
+                );
+              }
               toCache.push(child);
               continue;
             }
@@ -23156,7 +23196,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
           arg.children.unshift(`(`);
           arg.children.push(`) || ""`);
         } else if (!arg.isStatic) {
-          arg.content = `${arg.content} || ""`;
+          arg.content = arg.content ? `${arg.content} || ""` : `""`;
         }
         if (modifiers.some((mod) => mod.content === "camel")) {
           if (arg.type === 4) {
@@ -25028,6 +25068,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
       exports.isStaticPropertyKey = isStaticPropertyKey;
       exports.isTemplateNode = isTemplateNode;
       exports.isText = isText$1;
+      exports.isVPre = isVPre;
       exports.isVSlot = isVSlot;
       exports.locStub = locStub;
       exports.noopDirectiveTransform = noopDirectiveTransform;
@@ -25056,9 +25097,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+compiler-core@3.5.17/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js
+  // node_modules/@vue/compiler-core/dist/compiler-core.cjs.js
   var require_compiler_core_cjs = __commonJS({
-    "node_modules/.pnpm/@vue+compiler-core@3.5.17/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js"(exports) {
+    "node_modules/@vue/compiler-core/dist/compiler-core.cjs.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var shared = require_shared();
@@ -26646,14 +26687,15 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         if (id.name === "arguments") {
           return false;
         }
-        if (isReferenced(id, parent)) {
+        if (isReferenced(id, parent, parentStack[parentStack.length - 2])) {
           return true;
         }
         switch (parent.type) {
           case "AssignmentExpression":
           case "AssignmentPattern":
             return true;
-          case "ObjectPattern":
+          case "ObjectProperty":
+            return parent.key !== id && isInDestructureAssignment(parent, parentStack);
           case "ArrayPattern":
             return isInDestructureAssignment(parent, parentStack);
         }
@@ -26822,7 +26864,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
             if (parent.key === node) {
               return !!parent.computed;
             }
-            return true;
+            return !grandparent || grandparent.type !== "ObjectPattern";
           // no: class { NODE = value; }
           // yes: class { [NODE] = value; }
           // yes: class { key = NODE; }
@@ -26872,6 +26914,9 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
           // yes: export { NODE as foo };
           // no: export { NODE as foo } from "foo";
           case "ExportSpecifier":
+            if (grandparent == null ? void 0 : grandparent.source) {
+              return false;
+            }
             return parent.local === node;
           // no: import NODE from "foo";
           // no: import * as NODE from "foo";
@@ -26951,7 +26996,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
             return BASE_TRANSITION;
         }
       }
-      var nonIdentifierRE = /^\d|[^\$\w\xA0-\uFFFF]/;
+      var nonIdentifierRE = /^$|^\d|[^\$\w\xA0-\uFFFF]/;
       var isSimpleIdentifier = (name) => !nonIdentifierRE.test(name);
       var validFirstIdentCharRE = /[A-Za-z_$\xA0-\uFFFF]/;
       var validIdentCharRE = /[\.\?\w$\xA0-\uFFFF]/;
@@ -27115,6 +27160,9 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
       }
       function isText$1(node) {
         return node.type === 5 || node.type === 2;
+      }
+      function isVPre(p) {
+        return p.type === 7 && p.name === "pre";
       }
       function isVSlot(p) {
         return p.type === 7 && p.name === "slot";
@@ -27413,7 +27461,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         ondirarg(start, end) {
           if (start === end) return;
           const arg = getSlice(start, end);
-          if (inVPre) {
+          if (inVPre && !isVPre(currentProp)) {
             currentProp.name += arg;
             setLocEnd(currentProp.nameLoc, end);
           } else {
@@ -27428,7 +27476,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         },
         ondirmodifier(start, end) {
           const mod = getSlice(start, end);
-          if (inVPre) {
+          if (inVPre && !isVPre(currentProp)) {
             currentProp.name += "." + mod;
             setLocEnd(currentProp.nameLoc, end);
           } else if (currentProp.name === "slot") {
@@ -28077,6 +28125,11 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
           } else if (child.type === 12) {
             const constantType = doNotHoistNode ? 0 : getConstantType(child, context);
             if (constantType >= 2) {
+              if (child.codegenNode.type === 14 && child.codegenNode.arguments.length > 0) {
+                child.codegenNode.arguments.push(
+                  `-1 /* ${shared.PatchFlagNames[-1]} */`
+                );
+              }
               toCache.push(child);
               continue;
             }
@@ -29950,7 +30003,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
           arg.children.unshift(`(`);
           arg.children.push(`) || ""`);
         } else if (!arg.isStatic) {
-          arg.content = `${arg.content} || ""`;
+          arg.content = arg.content ? `${arg.content} || ""` : `""`;
         }
         if (modifiers.some((mod) => mod.content === "camel")) {
           if (arg.type === 4) {
@@ -31860,6 +31913,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
       exports.isStaticPropertyKey = isStaticPropertyKey;
       exports.isTemplateNode = isTemplateNode;
       exports.isText = isText$1;
+      exports.isVPre = isVPre;
       exports.isVSlot = isVSlot;
       exports.locStub = locStub;
       exports.noopDirectiveTransform = noopDirectiveTransform;
@@ -31888,9 +31942,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+compiler-core@3.5.17/node_modules/@vue/compiler-core/index.js
+  // node_modules/@vue/compiler-core/index.js
   var require_compiler_core = __commonJS({
-    "node_modules/.pnpm/@vue+compiler-core@3.5.17/node_modules/@vue/compiler-core/index.js"(exports, module) {
+    "node_modules/@vue/compiler-core/index.js"(exports, module) {
       "use strict";
       if (process.env.NODE_ENV === "production") {
         module.exports = require_compiler_core_cjs_prod();
@@ -31900,9 +31954,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+compiler-dom@3.5.17/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.prod.js
+  // node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.prod.js
   var require_compiler_dom_cjs_prod = __commonJS({
-    "node_modules/.pnpm/@vue+compiler-dom@3.5.17/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.prod.js"(exports) {
+    "node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.prod.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var compilerCore = require_compiler_core();
@@ -32572,9 +32626,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+compiler-dom@3.5.17/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js
+  // node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js
   var require_compiler_dom_cjs = __commonJS({
-    "node_modules/.pnpm/@vue+compiler-dom@3.5.17/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js"(exports) {
+    "node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var compilerCore = require_compiler_core();
@@ -33486,9 +33540,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+compiler-dom@3.5.17/node_modules/@vue/compiler-dom/index.js
+  // node_modules/@vue/compiler-dom/index.js
   var require_compiler_dom = __commonJS({
-    "node_modules/.pnpm/@vue+compiler-dom@3.5.17/node_modules/@vue/compiler-dom/index.js"(exports, module) {
+    "node_modules/@vue/compiler-dom/index.js"(exports, module) {
       "use strict";
       if (process.env.NODE_ENV === "production") {
         module.exports = require_compiler_dom_cjs_prod();
@@ -33498,9 +33552,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+reactivity@3.5.17/node_modules/@vue/reactivity/dist/reactivity.cjs.prod.js
+  // node_modules/@vue/reactivity/dist/reactivity.cjs.prod.js
   var require_reactivity_cjs_prod = __commonJS({
-    "node_modules/.pnpm/@vue+reactivity@3.5.17/node_modules/@vue/reactivity/dist/reactivity.cjs.prod.js"(exports) {
+    "node_modules/@vue/reactivity/dist/reactivity.cjs.prod.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var shared = require_shared();
@@ -35223,9 +35277,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+reactivity@3.5.17/node_modules/@vue/reactivity/dist/reactivity.cjs.js
+  // node_modules/@vue/reactivity/dist/reactivity.cjs.js
   var require_reactivity_cjs = __commonJS({
-    "node_modules/.pnpm/@vue+reactivity@3.5.17/node_modules/@vue/reactivity/dist/reactivity.cjs.js"(exports) {
+    "node_modules/@vue/reactivity/dist/reactivity.cjs.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var shared = require_shared();
@@ -37096,9 +37150,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+reactivity@3.5.17/node_modules/@vue/reactivity/index.js
+  // node_modules/@vue/reactivity/index.js
   var require_reactivity = __commonJS({
-    "node_modules/.pnpm/@vue+reactivity@3.5.17/node_modules/@vue/reactivity/index.js"(exports, module) {
+    "node_modules/@vue/reactivity/index.js"(exports, module) {
       "use strict";
       if (process.env.NODE_ENV === "production") {
         module.exports = require_reactivity_cjs_prod();
@@ -37108,9 +37162,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+runtime-core@3.5.17/node_modules/@vue/runtime-core/dist/runtime-core.cjs.prod.js
+  // node_modules/@vue/runtime-core/dist/runtime-core.cjs.prod.js
   var require_runtime_core_cjs_prod = __commonJS({
-    "node_modules/.pnpm/@vue+runtime-core@3.5.17/node_modules/@vue/runtime-core/dist/runtime-core.cjs.prod.js"(exports) {
+    "node_modules/@vue/runtime-core/dist/runtime-core.cjs.prod.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var reactivity = require_reactivity();
@@ -38902,10 +38956,15 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
           name: "AsyncComponentWrapper",
           __asyncLoader: load,
           __asyncHydrate(el, instance, hydrate) {
+            let patched = false;
+            (instance.bu || (instance.bu = [])).push(() => patched = true);
+            const performHydrate = () => {
+              if (patched) {
+                return;
+              }
+              hydrate();
+            };
             const doHydrate = hydrateStrategy ? () => {
-              const performHydrate = () => {
-                hydrate();
-              };
               const teardown = hydrateStrategy(
                 performHydrate,
                 (cb) => forEachElement(el, cb)
@@ -38913,8 +38972,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
               if (teardown) {
                 (instance.bum || (instance.bum = [])).push(teardown);
               }
-              (instance.u || (instance.u = [])).push(() => true);
-            } : hydrate;
+            } : performHydrate;
             if (resolvedComp) {
               doHydrate();
             } else {
@@ -39618,7 +39676,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
       function useAttrs() {
         return getContext().attrs;
       }
-      function getContext() {
+      function getContext(calledFunctionName) {
         const i = getCurrentInstance();
         return i.setupContext || (i.setupContext = createSetupContext(i));
       }
@@ -39797,7 +39855,8 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
             expose.forEach((key) => {
               Object.defineProperty(exposed, key, {
                 get: () => publicThis[key],
-                set: (val) => publicThis[key] = val
+                set: (val) => publicThis[key] = val,
+                enumerable: true
               });
             });
           } else if (!instance.exposed) {
@@ -40159,7 +40218,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
         }
       }
       function inject2(key, defaultValue, treatDefaultAsFactory = false) {
-        const instance = currentInstance || currentRenderingInstance;
+        const instance = getCurrentInstance();
         if (instance || currentApp) {
           let provides = currentApp ? currentApp._context.provides : instance ? instance.parent == null || instance.ce ? instance.vnode.appContext && instance.vnode.appContext.provides : instance.parent.provides : void 0;
           if (provides && key in provides) {
@@ -40170,7 +40229,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
         }
       }
       function hasInjectionContext() {
-        return !!(currentInstance || currentRenderingInstance || currentApp);
+        return !!(getCurrentInstance() || currentApp);
       }
       var internalObjectProto = {};
       var createInternalObject = () => Object.create(internalObjectProto);
@@ -40458,7 +40517,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
         }
         return false;
       }
-      var isInternalKey = (key) => key[0] === "_" || key === "$stable";
+      var isInternalKey = (key) => key === "_" || key === "__" || key === "_ctx" || key === "$stable";
       var normalizeSlotValue = (value) => shared.isArray(value) ? value.map(normalizeVNode) : [normalizeVNode(value)];
       var normalizeSlot = (key, rawSlot, ctx) => {
         if (rawSlot._n) {
@@ -41091,6 +41150,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
             if (!initialVNode.el) {
               const placeholder = instance.subTree = createVNode(Comment);
               processCommentNode(null, placeholder, container, anchor);
+              initialVNode.placeholder = placeholder.el;
             }
           } else {
             setupRenderEffect(
@@ -41523,7 +41583,11 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
             for (i = toBePatched - 1; i >= 0; i--) {
               const nextIndex = s2 + i;
               const nextChild = c2[nextIndex];
-              const anchor = nextIndex + 1 < l2 ? c2[nextIndex + 1].el : parentAnchor;
+              const anchorVNode = c2[nextIndex + 1];
+              const anchor = nextIndex + 1 < l2 ? (
+                // #13559, fallback to el placeholder for unresolved async component
+                anchorVNode.el || anchorVNode.placeholder
+              ) : parentAnchor;
               if (newIndexToOldIndexMap[i] === 0) {
                 patch(
                   null,
@@ -43173,6 +43237,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
           suspense: vnode.suspense,
           ssContent: vnode.ssContent && cloneVNode(vnode.ssContent),
           ssFallback: vnode.ssFallback && cloneVNode(vnode.ssFallback),
+          placeholder: vnode.placeholder,
           el: vnode.el,
           anchor: vnode.anchor,
           ctx: vnode.ctx,
@@ -43632,7 +43697,7 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
         }
         return true;
       }
-      var version = "3.5.17";
+      var version = "3.5.18";
       var warn$1 = shared.NOOP;
       var ErrorTypeStrings = ErrorTypeStrings$1;
       var devtools = void 0;
@@ -43802,9 +43867,9 @@ const ${helpers.map((s) => `_${helperNameMap[s]} = ${helperNameMap[s]}`).join(",
     }
   });
 
-  // node_modules/.pnpm/@vue+runtime-core@3.5.17/node_modules/@vue/runtime-core/dist/runtime-core.cjs.js
+  // node_modules/@vue/runtime-core/dist/runtime-core.cjs.js
   var require_runtime_core_cjs = __commonJS({
-    "node_modules/.pnpm/@vue+runtime-core@3.5.17/node_modules/@vue/runtime-core/dist/runtime-core.cjs.js"(exports) {
+    "node_modules/@vue/runtime-core/dist/runtime-core.cjs.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var reactivity = require_reactivity();
@@ -46044,10 +46109,8 @@ Server rendered element contains fewer child nodes than client vdom.`
         if (instance.getCssVars && (vnode === root || root && root.type === Fragment && root.children.includes(vnode))) {
           const cssVars = instance.getCssVars();
           for (const key in cssVars) {
-            expectedMap.set(
-              `--${shared.getEscapedCssVarName(key, false)}`,
-              String(cssVars[key])
-            );
+            const value = shared.normalizeCssVarValue(cssVars[key]);
+            expectedMap.set(`--${shared.getEscapedCssVarName(key, false)}`, value);
           }
         }
         if (vnode === root && instance.parent) {
@@ -46248,16 +46311,19 @@ Server rendered element contains fewer child nodes than client vdom.`
           __asyncLoader: load,
           __asyncHydrate(el, instance, hydrate) {
             let patched = false;
-            const doHydrate = hydrateStrategy ? () => {
-              const performHydrate = () => {
-                if (patched) {
+            (instance.bu || (instance.bu = [])).push(() => patched = true);
+            const performHydrate = () => {
+              if (patched) {
+                {
                   warn$1(
-                    `Skipping lazy hydration for component '${getComponentName(resolvedComp)}': it was updated before lazy hydration performed.`
+                    `Skipping lazy hydration for component '${getComponentName(resolvedComp) || resolvedComp.__file}': it was updated before lazy hydration performed.`
                   );
-                  return;
                 }
-                hydrate();
-              };
+                return;
+              }
+              hydrate();
+            };
+            const doHydrate = hydrateStrategy ? () => {
               const teardown = hydrateStrategy(
                 performHydrate,
                 (cb) => forEachElement(el, cb)
@@ -46265,8 +46331,7 @@ Server rendered element contains fewer child nodes than client vdom.`
               if (teardown) {
                 (instance.bum || (instance.bum = [])).push(teardown);
               }
-              (instance.u || (instance.u = [])).push(() => patched = true);
-            } : hydrate;
+            } : performHydrate;
             if (resolvedComp) {
               doHydrate();
             } else {
@@ -47133,15 +47198,15 @@ If this is a native custom element, make sure to exclude it from component resol
         return null;
       }
       function useSlots() {
-        return getContext().slots;
+        return getContext("useSlots").slots;
       }
       function useAttrs() {
-        return getContext().attrs;
+        return getContext("useAttrs").attrs;
       }
-      function getContext() {
+      function getContext(calledFunctionName) {
         const i = getCurrentInstance();
         if (!i) {
-          warn$1(`useContext() called without active instance.`);
+          warn$1(`${calledFunctionName}() called without active instance.`);
         }
         return i.setupContext || (i.setupContext = createSetupContext(i));
       }
@@ -47391,7 +47456,8 @@ If this is a native custom element, make sure to exclude it from component resol
             expose.forEach((key) => {
               Object.defineProperty(exposed, key, {
                 get: () => publicThis[key],
-                set: (val) => publicThis[key] = val
+                set: (val) => publicThis[key] = val,
+                enumerable: true
               });
             });
           } else if (!instance.exposed) {
@@ -47839,7 +47905,7 @@ If you want to remount the same app, move your app creation logic into a factory
         }
       }
       function inject2(key, defaultValue, treatDefaultAsFactory = false) {
-        const instance = currentInstance || currentRenderingInstance;
+        const instance = getCurrentInstance();
         if (instance || currentApp) {
           let provides = currentApp ? currentApp._context.provides : instance ? instance.parent == null || instance.ce ? instance.vnode.appContext && instance.vnode.appContext.provides : instance.parent.provides : void 0;
           if (provides && key in provides) {
@@ -47854,7 +47920,7 @@ If you want to remount the same app, move your app creation logic into a factory
         }
       }
       function hasInjectionContext() {
-        return !!(currentInstance || currentRenderingInstance || currentApp);
+        return !!(getCurrentInstance() || currentApp);
       }
       var internalObjectProto = {};
       var createInternalObject = () => Object.create(internalObjectProto);
@@ -48277,7 +48343,7 @@ If you want to remount the same app, move your app creation logic into a factory
       function isBoolean(...args) {
         return args.some((elem) => elem.toLowerCase() === "boolean");
       }
-      var isInternalKey = (key) => key[0] === "_" || key === "$stable";
+      var isInternalKey = (key) => key === "_" || key === "__" || key === "_ctx" || key === "$stable";
       var normalizeSlotValue = (value) => shared.isArray(value) ? value.map(normalizeVNode) : [normalizeVNode(value)];
       var normalizeSlot = (key, rawSlot, ctx) => {
         if (rawSlot._n) {
@@ -49017,6 +49083,7 @@ If you want to remount the same app, move your app creation logic into a factory
             if (!initialVNode.el) {
               const placeholder = instance.subTree = createVNode(Comment);
               processCommentNode(null, placeholder, container, anchor);
+              initialVNode.placeholder = placeholder.el;
             }
           } else {
             setupRenderEffect(
@@ -49518,7 +49585,11 @@ If you want to remount the same app, move your app creation logic into a factory
             for (i = toBePatched - 1; i >= 0; i--) {
               const nextIndex = s2 + i;
               const nextChild = c2[nextIndex];
-              const anchor = nextIndex + 1 < l2 ? c2[nextIndex + 1].el : parentAnchor;
+              const anchorVNode = c2[nextIndex + 1];
+              const anchor = nextIndex + 1 < l2 ? (
+                // #13559, fallback to el placeholder for unresolved async component
+                anchorVNode.el || anchorVNode.placeholder
+              ) : parentAnchor;
               if (newIndexToOldIndexMap[i] === 0) {
                 patch(
                   null,
@@ -51404,6 +51475,7 @@ Component that was made reactive: `,
           suspense: vnode.suspense,
           ssContent: vnode.ssContent && cloneVNode(vnode.ssContent),
           ssFallback: vnode.ssFallback && cloneVNode(vnode.ssFallback),
+          placeholder: vnode.placeholder,
           el: vnode.el,
           anchor: vnode.anchor,
           ctx: vnode.ctx,
@@ -52189,7 +52261,7 @@ Component that was made reactive: `,
         }
         return true;
       }
-      var version = "3.5.17";
+      var version = "3.5.18";
       var warn2 = warn$1;
       var ErrorTypeStrings = ErrorTypeStrings$1;
       var devtools = devtools$1;
@@ -52359,9 +52431,9 @@ Component that was made reactive: `,
     }
   });
 
-  // node_modules/.pnpm/@vue+runtime-core@3.5.17/node_modules/@vue/runtime-core/index.js
+  // node_modules/@vue/runtime-core/index.js
   var require_runtime_core = __commonJS({
-    "node_modules/.pnpm/@vue+runtime-core@3.5.17/node_modules/@vue/runtime-core/index.js"(exports, module) {
+    "node_modules/@vue/runtime-core/index.js"(exports, module) {
       "use strict";
       if (process.env.NODE_ENV === "production") {
         module.exports = require_runtime_core_cjs_prod();
@@ -52371,9 +52443,9 @@ Component that was made reactive: `,
     }
   });
 
-  // node_modules/.pnpm/@vue+runtime-dom@3.5.17/node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.prod.js
+  // node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.prod.js
   var require_runtime_dom_cjs_prod = __commonJS({
-    "node_modules/.pnpm/@vue+runtime-dom@3.5.17/node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.prod.js"(exports) {
+    "node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.prod.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var runtimeCore = require_runtime_core();
@@ -54019,9 +54091,9 @@ Component that was made reactive: `,
     }
   });
 
-  // node_modules/.pnpm/@vue+runtime-dom@3.5.17/node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.js
+  // node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.js
   var require_runtime_dom_cjs = __commonJS({
-    "node_modules/.pnpm/@vue+runtime-dom@3.5.17/node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.js"(exports) {
+    "node_modules/@vue/runtime-dom/dist/runtime-dom.cjs.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var runtimeCore = require_runtime_core();
@@ -55818,9 +55890,9 @@ Expected function or array of functions, received type ${typeof value}.`
     }
   });
 
-  // node_modules/.pnpm/@vue+runtime-dom@3.5.17/node_modules/@vue/runtime-dom/index.js
+  // node_modules/@vue/runtime-dom/index.js
   var require_runtime_dom = __commonJS({
-    "node_modules/.pnpm/@vue+runtime-dom@3.5.17/node_modules/@vue/runtime-dom/index.js"(exports, module) {
+    "node_modules/@vue/runtime-dom/index.js"(exports, module) {
       "use strict";
       if (process.env.NODE_ENV === "production") {
         module.exports = require_runtime_dom_cjs_prod();
@@ -55830,9 +55902,9 @@ Expected function or array of functions, received type ${typeof value}.`
     }
   });
 
-  // node_modules/.pnpm/vue@3.5.17_typescript@5.8.3/node_modules/vue/dist/vue.cjs.prod.js
+  // node_modules/vue/dist/vue.cjs.prod.js
   var require_vue_cjs_prod = __commonJS({
-    "node_modules/.pnpm/vue@3.5.17_typescript@5.8.3/node_modules/vue/dist/vue.cjs.prod.js"(exports) {
+    "node_modules/vue/dist/vue.cjs.prod.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var compilerDom = require_compiler_dom();
@@ -55891,9 +55963,9 @@ Expected function or array of functions, received type ${typeof value}.`
     }
   });
 
-  // node_modules/.pnpm/vue@3.5.17_typescript@5.8.3/node_modules/vue/dist/vue.cjs.js
+  // node_modules/vue/dist/vue.cjs.js
   var require_vue_cjs = __commonJS({
-    "node_modules/.pnpm/vue@3.5.17_typescript@5.8.3/node_modules/vue/dist/vue.cjs.js"(exports) {
+    "node_modules/vue/dist/vue.cjs.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var compilerDom = require_compiler_dom();
@@ -55966,9 +56038,9 @@ ${codeFrame}` : message);
     }
   });
 
-  // node_modules/.pnpm/vue@3.5.17_typescript@5.8.3/node_modules/vue/index.js
+  // node_modules/vue/index.js
   var require_vue = __commonJS({
-    "node_modules/.pnpm/vue@3.5.17_typescript@5.8.3/node_modules/vue/index.js"(exports, module) {
+    "node_modules/vue/index.js"(exports, module) {
       "use strict";
       if (process.env.NODE_ENV === "production") {
         module.exports = require_vue_cjs_prod();
@@ -56005,7 +56077,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/.pnpm/vue@3.5.17_typescript@5.8.3/node_modules/vue/index.mjs
+  // node_modules/vue/index.mjs
   var vue_exports = {};
   __reExport(vue_exports, __toESM(require_vue(), 1));
 
@@ -56052,7 +56124,7 @@ ${codeFrame}` : message);
 @vue/shared/dist/shared.cjs.prod.js:
 @vue/shared/dist/shared.cjs.js:
   (**
-  * @vue/shared v3.5.17
+  * @vue/shared v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -56061,7 +56133,7 @@ ${codeFrame}` : message);
 @vue/compiler-core/dist/compiler-core.cjs.prod.js:
 @vue/compiler-core/dist/compiler-core.cjs.js:
   (**
-  * @vue/compiler-core v3.5.17
+  * @vue/compiler-core v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -56069,7 +56141,7 @@ ${codeFrame}` : message);
 @vue/compiler-dom/dist/compiler-dom.cjs.prod.js:
 @vue/compiler-dom/dist/compiler-dom.cjs.js:
   (**
-  * @vue/compiler-dom v3.5.17
+  * @vue/compiler-dom v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -56077,7 +56149,7 @@ ${codeFrame}` : message);
 @vue/reactivity/dist/reactivity.cjs.prod.js:
 @vue/reactivity/dist/reactivity.cjs.js:
   (**
-  * @vue/reactivity v3.5.17
+  * @vue/reactivity v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -56085,7 +56157,7 @@ ${codeFrame}` : message);
 @vue/runtime-core/dist/runtime-core.cjs.prod.js:
 @vue/runtime-core/dist/runtime-core.cjs.js:
   (**
-  * @vue/runtime-core v3.5.17
+  * @vue/runtime-core v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -56094,7 +56166,7 @@ ${codeFrame}` : message);
 @vue/runtime-dom/dist/runtime-dom.cjs.prod.js:
 @vue/runtime-dom/dist/runtime-dom.cjs.js:
   (**
-  * @vue/runtime-dom v3.5.17
+  * @vue/runtime-dom v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -56103,7 +56175,7 @@ ${codeFrame}` : message);
 vue/dist/vue.cjs.prod.js:
 vue/dist/vue.cjs.js:
   (**
-  * vue v3.5.17
+  * vue v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
